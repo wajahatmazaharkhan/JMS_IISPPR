@@ -6,6 +6,10 @@ const navLinks = [
   { to: '/issn', label: 'ISSN Details' },
   { to: '/contact', label: 'Contact Us' },
   { to: '/research', label: 'Research Articles' },
+  { to: '/ethics', label: 'Ethics' },
+  { to: '/plagiarism', label: 'Plagiarism Policy' },
+  { to: '/editorial-board', label: 'Editorial Board' },
+  { to: '/contact-us', label: 'Contact Info' },
 ];
 
 const TopNavbar = () => {
