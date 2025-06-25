@@ -7,6 +7,7 @@ const sidebarLinks = {
     { to: '/admin/editions', label: 'Editions' },
     { to: '/admin/settings', label: 'Settings' },
     { to: '/admin/users', label: 'Manage Users' },
+    { to: '/write', label: 'Write' },
   ],
   editor: [
     { to: '/editor', label: 'Dashboard' },
@@ -23,6 +24,7 @@ const sidebarLinks = {
     { to: '/author', label: 'Dashboard' },
     { to: '/author/articles', label: 'My Articles' },
     { to: '/author/settings', label: 'Settings' },
+    { to: '/write', label: 'Write' },
   ],
   reader: [
     { to: '/reader', label: 'Dashboard' },

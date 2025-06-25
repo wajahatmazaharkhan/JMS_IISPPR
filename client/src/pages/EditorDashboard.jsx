@@ -1,8 +1,21 @@
 import { useState } from 'react';
 import useArticles from '../hooks/useArticles';
 
+const articles = [
+  { id: 1, title: 'AI in Law', author: 'Alice Smith', status: 'Submitted' },
+  { id: 2, title: 'Diplomacy in the Digital Age', author: 'John Doe', status: 'Under Review' },
+];
+const reviews = [
+  { id: 1, article: 'AI in Law', reviewer: 'Emily Zhang', feedback: 'Well written, needs more citations.', status: 'Pending' },
+  { id: 2, article: 'Diplomacy in the Digital Age', reviewer: 'Michael Brown', feedback: 'Good analysis.', status: 'Completed' },
+];
+const settings = {
+  editorialEmail: 'editor@email.com',
+  reviewDeadline: '14 days',
+};
+
 const EditorDashboard = () => {
-  const { articles, updateArticleStatus } = useArticles();
+  const { articles: articlesFromHook, updateArticleStatus } = useArticles();
   const [alert, setAlert] = useState(null);
 
   const handleAction = (id, action) => {
@@ -14,16 +27,78 @@ const EditorDashboard = () => {
     setTimeout(() => setAlert(null), 3000);
   };
 
-  const submittedArticles = articles.filter(a => a.status === 'Submitted');
+  const submittedArticles = articlesFromHook.filter(a => a.status === 'Submitted');
 
   return (
-    <div className="p-6">
+    <div className="p-6 space-y-10">
       <h1 className="text-2xl font-bold mb-4">Editor Dashboard</h1>
       {alert && (
         <div className={`mb-4 rounded p-3 border ${alert.type === 'success' ? 'bg-green-50 border-green-200 text-green-800' : 'bg-red-50 border-red-200 text-red-800'}`}>
           {alert.message}
         </div>
       )}
+      {/* Articles */}
+      <section>
+        <h2 className="text-xl font-semibold mb-2">Articles</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full bg-white border rounded shadow text-sm">
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="px-4 py-2">ID</th>
+                <th className="px-4 py-2">Title</th>
+                <th className="px-4 py-2">Author</th>
+                <th className="px-4 py-2">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {articles.map(a => (
+                <tr key={a.id} className="border-t">
+                  <td className="px-4 py-2">{a.id}</td>
+                  <td className="px-4 py-2">{a.title}</td>
+                  <td className="px-4 py-2">{a.author}</td>
+                  <td className="px-4 py-2">{a.status}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+      {/* Reviews */}
+      <section>
+        <h2 className="text-xl font-semibold mb-2">Reviews</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full bg-white border rounded shadow text-sm">
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="px-4 py-2">ID</th>
+                <th className="px-4 py-2">Article</th>
+                <th className="px-4 py-2">Reviewer</th>
+                <th className="px-4 py-2">Feedback</th>
+                <th className="px-4 py-2">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {reviews.map(r => (
+                <tr key={r.id} className="border-t">
+                  <td className="px-4 py-2">{r.id}</td>
+                  <td className="px-4 py-2">{r.article}</td>
+                  <td className="px-4 py-2">{r.reviewer}</td>
+                  <td className="px-4 py-2">{r.feedback}</td>
+                  <td className="px-4 py-2">{r.status}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+      {/* Settings */}
+      <section>
+        <h2 className="text-xl font-semibold mb-2">Settings</h2>
+        <div className="bg-white border rounded shadow p-4 max-w-md">
+          <div><b>Editorial Email:</b> {settings.editorialEmail}</div>
+          <div><b>Review Deadline:</b> {settings.reviewDeadline}</div>
+        </div>
+      </section>
       <h2 className="text-lg font-semibold mb-2">Submitted Articles</h2>
       <div className="space-y-4">
         {submittedArticles.length === 0 ? (

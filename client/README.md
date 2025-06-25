@@ -1,4 +1,4 @@
-# Law, Diplomacy, Tech & Public Policy Review (LDTPPR) — Journal Management System (Frontend)
+# Law, Diplomacy, Tech & Public Policy Review (LDTPPR) — Journal Management System
 
 A modern, academic, **frontend-only Journal Management System** for the Law, Diplomacy, Tech & Public Policy Review (LDTPPR). Built with React, Vite, and Tailwind CSS. This project simulates the full journal article lifecycle, editorial workflow, and public-facing pages for an academic journal.
 

@@ -4,7 +4,7 @@ const navLinks = [
   { to: '/blog', label: 'Blog' },
   { to: '/publisher', label: 'Publisher Details' },
   { to: '/issn', label: 'ISSN Details' },
-  { to: '/contact', label: 'Contact Us' },
+  // { to: '/contact-us', label: 'Contact Us' },
   { to: '/research', label: 'Research Articles' },
   { to: '/ethics', label: 'Ethics' },
   { to: '/plagiarism', label: 'Plagiarism Policy' },

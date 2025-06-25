@@ -270,7 +270,7 @@ const LandingPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              to="/contact" 
+              to="/contact-us" 
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Get Started Today
@@ -299,7 +299,7 @@ const LandingPage = () => {
             <Link to="/editorial-board" className="hover:text-indigo-400 transition">Editorial Board</Link>
             <Link to="/ethics" className="hover:text-indigo-400 transition">Ethics</Link>
             <Link to="/plagiarism" className="hover:text-indigo-400 transition">Plagiarism</Link>
-            <Link to="/contact" className="hover:text-indigo-400 transition">Contact</Link>
+            <Link to="/contact-us" className="hover:text-indigo-400 transition">Contact</Link>
           </div>
         </div>
       </footer>

@@ -1,11 +1,13 @@
 import { useLocation } from 'react-router-dom';
-import useArticles from '../hooks/useArticles';
+
+const myArticles = [
+  { id: 1, title: 'AI in Law', status: 'Published', keywords: ['AI', 'Law'], abstract: 'Exploring AI applications in law.' },
+  { id: 2, title: 'Legal Tech for Students', status: 'Under Review', keywords: ['Legal Tech', 'Students'], abstract: 'How legal tech is empowering students.' },
+  { id: 3, title: 'Policy and Diplomacy', status: 'Draft', keywords: ['Policy', 'Diplomacy'], abstract: 'The intersection of policy and diplomacy.' },
+];
 
 const AuthorDashboard = () => {
   const location = useLocation();
-  const { articles } = useArticles();
-  const authorName = 'Alice Smith'; // Dummy author
-  const myArticles = articles.filter(a => a.author === authorName);
   const submitted = location.state && location.state.submitted;
 
   return (
