@@ -25,7 +25,7 @@ const navLinks = [
     color: 'from-green-500 to-emerald-500'
   },
   { 
-    to: '/contact', 
+    to: '/contact-us', 
     label: 'Contact Us', 
     desc: 'Get in touch with our editorial team or technical support.',
     icon: Phone,
