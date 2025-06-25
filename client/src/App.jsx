@@ -18,6 +18,13 @@ import ContactUs from './pages/ContactUs';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import WriteContent from './pages/WriteContent';
+import AdminArticles from './pages/admin/AdminArticles';
+import AdminEditions from './pages/admin/AdminEditions';
+import AuthorArticles from './pages/author/AuthorArticles';
+import EditorArticles from './pages/editor/EditorArticles';
+import EditorReviews from './pages/editor/EditorReviews';
+import ReviewerReviews from './pages/reviewer/ReviewerReviews';
+import ReaderArticles from './pages/reader/ReaderArticles';
 import './App.css';
 
 function App() {
@@ -41,6 +48,13 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/write" element={<WriteContent />} />
         <Route path="/" element={<LandingPage />} />
+        <Route path="/admin/articles" element={<AdminArticles />} />
+        <Route path="/admin/editions" element={<AdminEditions />} />
+        <Route path="/author/articles" element={<AuthorArticles />} />
+        <Route path="/editor/articles" element={<EditorArticles />} />
+        <Route path="/editor/reviews" element={<EditorReviews />} />
+        <Route path="/reviewer/reviews" element={<ReviewerReviews />} />
+        <Route path="/reader/articles" element={<ReaderArticles />} />
         <Route path="*" element={<LandingPage />} />
       </Routes>
     </Router>
