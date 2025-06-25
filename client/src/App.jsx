@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import DashboardLayout from './layouts/DashboardLayout';
-import AdminDashboard from './pages/AdminDashboard';
-import EditorDashboard from './pages/EditorDashboard';
-import ReviewerDashboard from './pages/ReviewerDashboard';
-import AuthorDashboard from './pages/AuthorDashboard';
-import ReaderDashboard from './pages/ReaderDashboard';
+import AdminDashboard from './pages/dashboards/AdminDashboard';
+import EditorDashboard from './pages/dashboards/EditorDashboard';
+import ReviewerDashboard from './pages/dashboards/ReviewerDashboard';
+import AuthorDashboard from './pages/dashboards/AuthorDashboard';
+import ReaderDashboard from './pages/dashboards/ReaderDashboard';
 import BlogPage from './pages/BlogPage';
 import PublisherPage from './pages/PublisherPage';
 import IssnPage from './pages/IssnPage';

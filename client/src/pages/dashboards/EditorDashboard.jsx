@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import useArticles from '../hooks/useArticles';
+import useArticles from '../../hooks/useArticles';
 
 const articles = [
   { id: 1, title: 'AI in Law', author: 'Alice Smith', status: 'Submitted' },
