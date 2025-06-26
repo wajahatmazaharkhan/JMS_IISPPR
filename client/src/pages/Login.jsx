@@ -1,18 +1,19 @@
-import { Link, useNavigate } from 'react-router-dom';
-import { useState } from 'react';
-import staticUsers from '../data/staticUsers';
+import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import staticUsers from "../data/staticUsers";
+import { ArrowLeft } from "lucide-react";
 
 const roleToRoute = {
-  admin: '/admin',
-  editor: '/editor',
-  reviewer: '/reviewer',
-  author: '/author',
-  reader: '/reader',
+  admin: "/admin",
+  editor: "/editor",
+  reviewer: "/reviewer",
+  author: "/author",
+  reader: "/reader",
 };
 
 const Login = () => {
-  const [form, setForm] = useState({ email: '', password: '' });
-  const [error, setError] = useState('');
+  const [form, setForm] = useState({ email: "", password: "" });
+  const [error, setError] = useState("");
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -22,26 +23,30 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setError('');
+    setError("");
     const user = staticUsers.find(
       (u) => u.email === form.email && u.password === form.password
     );
     if (user) {
       navigate(roleToRoute[user.role]);
     } else {
-      setError('Invalid email or password.');
+      setError("Invalid email or password.");
     }
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 px-4">
-      <div className="bg-white shadow-lg rounded-2xl p-10 w-full max-w-md">
-        <h2 className="text-3xl font-bold text-blue-800 mb-8 text-center">Login</h2>
+    <div className="min-h-screen flex items-center justify-center bg-primary-light px-4">
+      <div className="bg-white shadow-lg rounded-2xl p-10 w-full max-w-md relative">
+        <h2 className="text-3xl font-bold text-primary-dark mb-8 font-serif text-center">
+          Login
+        </h2>
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
-            <label className="block text-sm font-medium mb-1">Email</label>
+            <label className="block text-sm font-medium text-text mb-1">
+              Email
+            </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-2"
+              className="w-full border border-accent-light text-text rounded px-3 py-2 bg-white"
               type="email"
               name="email"
               value={form.email}
@@ -51,9 +56,11 @@ const Login = () => {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Password</label>
+            <label className="block text-sm font-medium text-text mb-1">
+              Password
+            </label>
             <input
-              className="w-full border border-gray-300 rounded px-3 py-2"
+              className="w-full border border-accent-light text-text rounded px-3 py-2 bg-white"
               type="password"
               name="password"
               value={form.password}
@@ -62,16 +69,25 @@ const Login = () => {
               autoComplete="current-password"
             />
           </div>
-          {error && <div className="text-red-600 text-sm text-center">{error}</div>}
-          <button className="w-full bg-blue-700 text-white py-2 rounded font-semibold hover:bg-blue-800 transition">Login</button>
+          {error && (
+            <div className="text-red-600 text-sm text-center">{error}</div>
+          )}
+          <button className="w-full bg-primary text-white py-2 rounded font-semibold hover:bg-primary-dark transition-colors">
+            Login
+          </button>
         </form>
         <div className="mt-6 text-center">
-          <span className="text-gray-600">Don't have an account? </span>
-          <Link to="/signup" className="text-indigo-700 font-semibold hover:underline">Sign Up</Link>
+          <span className="text-subtext">Don't have an account? </span>
+          <Link
+            to="/signup"
+            className="text-primary font-semibold hover:underline"
+          >
+            Sign Up
+          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default Login; 
+export default Login;
