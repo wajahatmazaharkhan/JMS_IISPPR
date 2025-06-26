@@ -138,9 +138,8 @@ const LandingPage = () => {
           </div>
         </div>
       </header>
-
       {/* Hero Section */}
-      <section className="bg-white py-20 lg:py-28">
+      {/* <section className="bg-white py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="max-w-4xl mx-auto mb-8">
             <span className="inline-block px-4 py-1 bg-primary-light text-primary text-sm font-medium rounded-full mb-6">
@@ -185,6 +184,65 @@ const LandingPage = () => {
                 Supporting scholarly excellence through rigorous academic
                 standards
               </p>
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section className="bg-white pt-20">
+        <div className="flex gap-12 justify-center">
+          <div className="flex ml-16 gap-5">
+            <div className="flex flex-col gap-5 justify-start">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
+                className="h-[350px] w-[300px] object-cover rounded shadow"
+              />
+              <img
+                src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
+                className="h-[350px] w-[300px] object-cover rounded shadow"
+              />
+            </div>
+            <div className="flex flex-col gap-5 justify-end">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
+                className="h-[350px] w-[300px] object-cover rounded shadow"
+              />
+              <img
+                src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
+                className="h-[200px] w-[300px] object-cover rounded shadow"
+              />
+            </div>
+          </div>
+
+          <div className="max-w-6xl px-12 flex flex-col justify-center text-left">
+            <div className="max-w-4xl mx-auto">
+              <span className="inline-block px-4 py-1 bg-primary-light text-primary text-sm font-medium rounded-full mb-6">
+                Established Academic Publishing
+              </span>
+              <h1 className="text-4xl lg:text-6xl font-serif font-bold text-text leading-tight mb-6">
+                Law, Diplomacy, Technology &<br />
+                <span className="text-primary">Public Policy Review</span>
+              </h1>
+              <p className="text-xl text-text leading-relaxed max-w-3xl mb-12">
+                A premier scholarly journal dedicated to advancing
+                interdisciplinary research at the intersection of law,
+                diplomacy, technology, and public policy through rigorous
+                peer-reviewed publications.
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 mb-16">
+              <Link
+                to="/research"
+                className="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
+              >
+                Browse Articles
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+              <Link
+                to="/publisher"
+                className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-primary-light transition-colors"
+              >
+                About the Journal
+              </Link>
             </div>
           </div>
         </div>
