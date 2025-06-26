@@ -25,17 +25,53 @@ import EditorArticles from './pages/editor/EditorArticles';
 import EditorReviews from './pages/editor/EditorReviews';
 import ReviewerReviews from './pages/reviewer/ReviewerReviews';
 import ReaderArticles from './pages/reader/ReaderArticles';
+import ArticlePage from "./pages/ArticlePage";
 import './App.css';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/admin" element={<DashboardLayout role="admin"><AdminDashboard /></DashboardLayout>} />
-        <Route path="/editor" element={<DashboardLayout role="editor"><EditorDashboard /></DashboardLayout>} />
-        <Route path="/reviewer" element={<DashboardLayout role="reviewer"><ReviewerDashboard /></DashboardLayout>} />
-        <Route path="/author" element={<DashboardLayout role="author"><AuthorDashboard /></DashboardLayout>} />
-        <Route path="/reader" element={<DashboardLayout role="reader"><ReaderDashboard /></DashboardLayout>} />
+        <Route
+          path="/admin"
+          element={
+            <DashboardLayout role="admin">
+              <AdminDashboard />
+            </DashboardLayout>
+          }
+        />
+        <Route
+          path="/editor"
+          element={
+            <DashboardLayout role="editor">
+              <EditorDashboard />
+            </DashboardLayout>
+          }
+        />
+        <Route
+          path="/reviewer"
+          element={
+            <DashboardLayout role="reviewer">
+              <ReviewerDashboard />
+            </DashboardLayout>
+          }
+        />
+        <Route
+          path="/author"
+          element={
+            <DashboardLayout role="author">
+              <AuthorDashboard />
+            </DashboardLayout>
+          }
+        />
+        <Route
+          path="/reader"
+          element={
+            <DashboardLayout role="reader">
+              <ReaderDashboard />
+            </DashboardLayout>
+          }
+        />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/publisher" element={<PublisherPage />} />
         <Route path="/issn" element={<IssnPage />} />
@@ -55,6 +91,7 @@ function App() {
         <Route path="/editor/reviews" element={<EditorReviews />} />
         <Route path="/reviewer/reviews" element={<ReviewerReviews />} />
         <Route path="/reader/articles" element={<ReaderArticles />} />
+        <Route path="/article/:articleSlug" element={<ArticlePage />} />
         <Route path="*" element={<LandingPage />} />
       </Routes>
     </Router>
