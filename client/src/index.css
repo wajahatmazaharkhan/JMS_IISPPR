@@ -3,6 +3,7 @@
 @theme {
     --color-primary: #7b1e3a; /* Dark Red */
     --color-primary-dark: #4e0e23; 
+    --color-primary-light: #f4e5e7; /* Light Red */
     --color-secondary: #f4e5e7; /* Soft Background Accent */
     --color-accent: #b02c42;
     --color-accent-light: #e5d6d6;

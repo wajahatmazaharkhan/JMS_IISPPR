@@ -106,7 +106,7 @@ const LandingPage = () => {
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={() => setDropdownOpen((v) => !v)}
-                className="flex items-center space-x-2 px-4 py-2 border border-accent-light rounded hover:bg-muted transition-colors"
+                className="flex items-center space-x-2 px-4 py-2 border border-accent-light rounded bg-white hover:bg-bg-light transition-colors"
                 aria-label="Account Menu"
               >
                 <User className="w-4 h-4 text-text" />
@@ -119,7 +119,7 @@ const LandingPage = () => {
                       setDropdownOpen(false);
                       navigate("/login");
                     }}
-                    className="block w-full text-left px-4 py-2 text-sm text-text hover:bg-muted"
+                    className="block w-full text-left px-4 py-2 text-sm text-text hover:bg-primary-light"
                   >
                     Login
                   </button>
@@ -128,7 +128,7 @@ const LandingPage = () => {
                       setDropdownOpen(false);
                       navigate("/signup");
                     }}
-                    className="block w-full text-left px-4 py-2 text-sm text-text hover:bg-muted"
+                    className="block w-full text-left px-4 py-2 text-sm text-text hover:bg-primary-light"
                   >
                     Create Account
                   </button>
@@ -143,7 +143,7 @@ const LandingPage = () => {
       <section className="bg-white py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="max-w-4xl mx-auto mb-8">
-            <span className="inline-block px-4 py-1 bg-muted text-primary text-sm font-medium rounded-full mb-6">
+            <span className="inline-block px-4 py-1 bg-primary-light text-primary text-sm font-medium rounded-full mb-6">
               Established Academic Publishing
             </span>
             <h1 className="text-4xl lg:text-6xl font-serif font-bold text-text leading-tight mb-6">
@@ -167,7 +167,7 @@ const LandingPage = () => {
             </Link>
             <Link
               to="/publisher"
-              className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-muted transition-colors"
+              className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-primary-light transition-colors"
             >
               About the Journal
             </Link>
@@ -191,7 +191,7 @@ const LandingPage = () => {
       </section>
 
       {/* Editorial Standards Section */}
-      <section className="py-20 bg-muted">
+      <section className="py-20 bg-primary-light">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6">
             Editorial Excellence
@@ -217,7 +217,7 @@ const LandingPage = () => {
       </section>
 
       {/* Navigation Section */}
-      <section className="py-20 bg-bg-light">
+      <section className="py-20 bg-primary-light/25">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6">
             Journal Resources
@@ -234,7 +234,7 @@ const LandingPage = () => {
                 className="group bg-white shadow-sm border border-accent-light rounded-lg p-8 hover:border-primary hover:shadow-md transition-all duration-300 text-left"
               >
                 <div className="mb-6">
-                  <div className="inline-flex items-center justify-center w-12 h-12 bg-muted rounded-lg mb-4 group-hover:bg-accent-light transition-colors">
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-light rounded-lg mb-4 transition-colors">
                     <link.icon className="w-6 h-6 text-primary-dark" />
                   </div>
                   <h3 className="text-xl font-serif font-semibold text-primary-dark mb-3">
@@ -302,7 +302,7 @@ const LandingPage = () => {
             </Link>
             <Link
               to="/blog"
-              className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-muted transition-colors"
+              className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-primary-light transition-colors"
             >
               Editorial Updates
             </Link>
