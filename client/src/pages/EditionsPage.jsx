@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Download, FileText } from 'lucide-react';
+import { generateIssuePDF, downloadPDF } from '../utils/pdfExport';
 
 // Static data for journal issues with complete content finalization fields
 const issues = [
@@ -200,6 +202,7 @@ const publisher = {
 
 const EditionsPage = () => {
   const [expandedArticles, setExpandedArticles] = useState(new Set());
+  const [downloading, setDownloading] = useState({});
 
   const toggleArticle = (articleId) => {
     const newExpanded = new Set(expandedArticles);
@@ -225,9 +228,54 @@ const EditionsPage = () => {
     return required.every(Boolean);
   };
 
+  const handleDownloadIssue = async (issue) => {
+    const issueKey = `${issue.month}${issue.year}`;
+    setDownloading(prev => ({ ...prev, [issueKey]: true }));
+    
+    try {
+      const pdf = await generateIssuePDF(issue, publisher, editorialBoard);
+      const filename = `LDTPPR_Vol${issue.volume}_Issue_${issue.month}${issue.year}.pdf`;
+      downloadPDF(pdf, filename);
+    } catch (error) {
+      console.error('Error generating PDF:', error);
+      alert('Error generating PDF. Please try again.');
+    } finally {
+      setDownloading(prev => ({ ...prev, [issueKey]: false }));
+    }
+  };
+
+  const handleDownloadAllIssues = async () => {
+    setDownloading(prev => ({ ...prev, all: true }));
+    
+    try {
+      for (const issue of issues) {
+        const pdf = await generateIssuePDF(issue, publisher, editorialBoard);
+        const filename = `LDTPPR_Vol${issue.volume}_Issue_${issue.month}${issue.year}.pdf`;
+        downloadPDF(pdf, filename);
+        // Small delay between downloads
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
+    } catch (error) {
+      console.error('Error generating PDFs:', error);
+      alert('Error generating PDFs. Please try again.');
+    } finally {
+      setDownloading(prev => ({ ...prev, all: false }));
+    }
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <h1 className="text-3xl font-serif font-bold text-center text-slate-800 mb-10">Journal Issues (2025)</h1>
+      <div className="flex justify-between items-center mb-10">
+        <h1 className="text-3xl font-serif font-bold text-center text-slate-800">Journal Issues (2025)</h1>
+        <button
+          onClick={handleDownloadAllIssues}
+          disabled={downloading.all}
+          className="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition-colors disabled:opacity-50"
+        >
+          <Download className="w-4 h-4 mr-2" />
+          {downloading.all ? 'Generating...' : 'Download All Issues'}
+        </button>
+      </div>
       
       {/* Publisher Information Section */}
       <div className="bg-white border border-slate-200 rounded-lg shadow p-6 mb-10">
@@ -265,6 +313,7 @@ const EditionsPage = () => {
         {issues.map((issue) => {
           const articleCount = issue.articles.length;
           const isValidCount = articleCount >= 2 && articleCount <= 5;
+          const issueKey = `${issue.month}${issue.year}`;
           return (
             <div key={issue.volume} className="bg-white border border-slate-200 rounded-lg shadow p-6">
               <div className="flex items-center justify-between mb-4">
@@ -272,7 +321,17 @@ const EditionsPage = () => {
                   <span className="text-lg font-semibold text-slate-700">Volume {issue.volume}</span>
                   <span className="ml-3 px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-medium uppercase">{issue.month} {issue.year}</span>
                 </div>
-                <span className="text-sm text-slate-500">{articleCount} Articles</span>
+                <div className="flex items-center space-x-3">
+                  <span className="text-sm text-slate-500">{articleCount} Articles</span>
+                  <button
+                    onClick={() => handleDownloadIssue(issue)}
+                    disabled={downloading[issueKey]}
+                    className="inline-flex items-center px-3 py-1 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-700 transition-colors disabled:opacity-50"
+                  >
+                    <FileText className="w-3 h-3 mr-1" />
+                    {downloading[issueKey] ? 'Generating...' : 'Download PDF'}
+                  </button>
+                </div>
               </div>
               {!isValidCount && (
                 <div className="mb-4 p-3 bg-yellow-50 border border-yellow-200 text-yellow-800 rounded">
