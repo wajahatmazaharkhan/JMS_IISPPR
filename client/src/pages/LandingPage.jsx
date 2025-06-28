@@ -15,12 +15,6 @@ import { useState, useRef, useEffect } from "react";
 
 const navLinks = [
   {
-    to: "/blog",
-    label: "Blog",
-    desc: "Read the latest articles and updates from our editorial team and featured researchers.",
-    icon: BookOpen,
-  },
-  {
     to: "/publisher",
     label: "Publisher Details",
     desc: "Learn about our publisher, editorial board, and publishing standards.",
@@ -33,16 +27,34 @@ const navLinks = [
     icon: FileText,
   },
   {
-    to: "/contact-us",
-    label: "Contact Us",
-    desc: "Get in touch with our editorial team or technical support.",
-    icon: Phone,
-  },
-  {
     to: "/research",
     label: "Research Articles",
     desc: "Explore our extensive collection of peer-reviewed research publications.",
     icon: Search,
+  },
+  {
+    to: "/editorial-board",
+    label: "Editorial Board",
+    desc: "Meet our editorial board and contributing scholars.",
+    icon: Users,
+  },
+  {
+    to: "/ethics",
+    label: "Ethics",
+    desc: "Read about our publication ethics and standards.",
+    icon: Shield,
+  },
+  {
+    to: "/plagiarism",
+    label: "Plagiarism Policy",
+    desc: "Understand our strict anti-plagiarism policy.",
+    icon: FileText,
+  },
+  {
+    to: "/contact-us",
+    label: "Contact Info",
+    desc: "Get in touch with our editorial team or technical support.",
+    icon: Phone,
   },
 ];
 
@@ -197,17 +209,17 @@ const LandingPage = () => {
                 className="h-[350px] w-[300px] object-cover rounded shadow"
               />
               <img
-                src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
+                src="https://images.unsplash.com/photo-1483546363825-7ebf25fb7513?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
                 className="h-[350px] w-[300px] object-cover rounded shadow"
               />
             </div>
             <div className="flex flex-col gap-5 justify-end">
               <img
-                src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
+                src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGpvdXJuYWx8ZW58MHx8MHx8fDA%3D"
                 className="h-[350px] w-[300px] object-cover rounded shadow"
               />
               <img
-                src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
+                src="https://images.unsplash.com/photo-1513542992587-cd39ba97057c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGpvdXJuYWx8ZW58MHx8MHx8fDA%3D"
                 className="h-[200px] w-[300px] object-cover rounded shadow"
               />
             </div>
@@ -219,8 +231,8 @@ const LandingPage = () => {
                 Established Academic Publishing
               </span>
               <h1 className="text-4xl lg:text-6xl font-serif font-bold text-text leading-tight mb-6">
-                Law, Diplomacy, Technology &<br />
-                <span className="text-primary">Public Policy Review</span>
+                Law, Diplomacy, Tech &<br />
+                <span className="text-primary">Policy Review</span>
               </h1>
               <p className="text-xl text-text leading-relaxed max-w-3xl mb-12">
                 A premier scholarly journal dedicated to advancing
@@ -275,31 +287,34 @@ const LandingPage = () => {
       </section>
 
       {/* Navigation Section */}
-      <section className="py-20 bg-primary-light/25">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6">
-            Journal Resources
-          </h2>
-          <p className="text-lg text-text max-w-2xl mx-auto mb-16">
-            Access comprehensive information about our journal, submission
-            guidelines, and scholarly resources
-          </p>
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-slate-900 mb-6">
+              Journal Resources
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Access comprehensive information about our journal, submission guidelines, and scholarly resources
+            </p>
+          </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.to}
+            {navLinks.map((link, index) => (
+              <Link 
+                key={link.to} 
                 to={link.to}
-                className="group bg-white shadow-sm border border-accent-light rounded-lg p-8 hover:border-primary hover:shadow-md transition-all duration-300 text-left"
+                className="group bg-white border border-gray-200 rounded-lg p-8 hover:border-slate-300 hover:shadow-md transition-all duration-300 text-left w-full"
               >
                 <div className="mb-6">
-                  <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-light rounded-lg mb-4 transition-colors">
-                    <link.icon className="w-6 h-6 text-primary-dark" />
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-slate-100 rounded-lg mb-4 group-hover:bg-slate-200 transition-colors">
+                    <link.icon className="w-6 h-6 text-slate-700" />
                   </div>
-                  <h3 className="text-xl font-serif font-semibold text-primary-dark mb-3">
+                  <h3 className="text-xl font-serif font-semibold text-slate-900 mb-3">
                     {link.label}
                   </h3>
-                  <p className="text-text leading-relaxed mb-4">{link.desc}</p>
-                  <div className="flex items-center text-sm font-medium text-primary group-hover:text-primary-dark">
+                  <p className="text-slate-600 leading-relaxed mb-4">
+                    {link.desc}
+                  </p>
+                  <div className="flex items-center text-sm font-medium text-slate-800 group-hover:text-slate-900">
                     Learn More
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </div>
