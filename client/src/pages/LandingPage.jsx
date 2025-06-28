@@ -33,6 +33,12 @@ const navLinks = [
     icon: Search,
   },
   {
+    to: "/editions",
+    label: "Journal Editions",
+    desc: "Browse current and archived journal issues with complete article details and editorial information.",
+    icon: BookOpen,
+  },
+  {
     to: "/editorial-board",
     label: "Editorial Board",
     desc: "Meet our editorial board and contributing scholars.",

@@ -18,6 +18,7 @@ import ContactUs from './pages/ContactUs';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import WriteContent from './pages/WriteContent';
+import EditionsPage from './pages/EditionsPage';
 import AdminArticles from './pages/admin/AdminArticles';
 import AdminEditions from './pages/admin/AdminEditions';
 import AuthorArticles from './pages/author/AuthorArticles';
@@ -76,6 +77,7 @@ function App() {
         <Route path="/publisher" element={<PublisherPage />} />
         <Route path="/issn" element={<IssnPage />} />
         <Route path="/research" element={<ResearchPage />} />
+        <Route path="/editions" element={<EditionsPage />} />
         <Route path="/ethics" element={<Ethics />} />
         <Route path="/plagiarism" element={<Plagiarism />} />
         <Route path="/editorial-board" element={<EditorialBoard />} />
