@@ -105,6 +105,26 @@ const issues = [
         aiDisclosure: 'No AI-generated content used in this research.',
         peerReviewed: true,
         copyEdited: true
+      },
+      {
+        id: 6,
+        title: 'The Troubling Rise of Realism over Institutionalism in the 21st Century – A Critical Socio-Political and Economic Analysis',
+        author: 'Maimuna Suleiman, Quayson Abigail, Laxman Choudhary, Bamidele Olatunji, Tanushka Soni, Ashutosh Verma, Mansi Sharma, and Sujal Shreshyash',
+        abstract: 'A comprehensive analysis of the shift from institutionalist approaches to realist perspectives in international relations, examining the socio-political and economic implications of this transition in the 21st century global order.',
+        keywords: ['Realism', 'Institutionalism', 'International Relations', 'Global Order', 'Socio-Political Analysis', 'Economic Policy'],
+        authorBio: 'The authors are researchers from various institutions specializing in international relations, political science, and economic policy. This collaborative work represents a multidisciplinary approach to understanding contemporary global governance challenges.',
+        references: [
+          'Waltz, K. N. (1979). Theory of International Politics. Addison-Wesley.',
+          'Keohane, R. O. (1984). After Hegemony: Cooperation and Discord in the World Political Economy. Princeton University Press.',
+          'Mearsheimer, J. J. (2001). The Tragedy of Great Power Politics. W.W. Norton & Company.',
+          'Ikenberry, G. J. (2011). Liberal Leviathan: The Origins, Crisis, and Transformation of the American World Order. Princeton University Press.',
+          'Wendt, A. (1999). Social Theory of International Politics. Cambridge University Press.'
+        ],
+        ethicsDeclaration: true,
+        plagiarismDeclaration: true,
+        aiDisclosure: 'This research was conducted without the use of AI-generated content. All analysis and conclusions are the result of human scholarly inquiry.',
+        peerReviewed: true,
+        copyEdited: true
       }
     ]
   }
