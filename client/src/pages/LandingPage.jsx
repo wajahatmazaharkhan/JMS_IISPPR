@@ -266,31 +266,31 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Editorial Standards Section */}
-      <section className="py-20 bg-primary-light">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6">
-            Editorial Excellence
-          </h2>
-          <p className="text-lg text-text max-w-3xl mx-auto mb-16">
-            Our commitment to scholarly rigor and academic integrity defines
-            every aspect of our publishing process
-          </p>
-          <div className="grid md:grid-cols-3 gap-12">
-            {features.map((feature, index) => (
-              <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-dark rounded-full mb-6">
-                  <feature.icon className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">
-                  {feature.title}
-                </h3>
-                <p className="text-primary leading-relaxed">{feature.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* Navigation Section */}
       <section className="py-20 bg-primary-light/25">
@@ -305,8 +305,8 @@ const LandingPage = () => {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {navLinks.map((link, index) => (
-              <Link 
-                key={link.to} 
+              <Link
+                key={link.to}
                 to={link.to}
                 className="group bg-white border border-gray-200 shadow-sm rounded-lg p-8 hover:border-primary hover:shadow-md transition-all duration-300 text-left w-full"
               >
@@ -357,6 +357,32 @@ const LandingPage = () => {
             <div className="text-muted text-sm uppercase tracking-wide">
               Years Publishing
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Editorial Standards Section */}
+      <section className="py-20 bg-primary-light">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6">
+            Editorial Excellence
+          </h2>
+          <p className="text-lg text-text max-w-3xl mx-auto mb-16">
+            Our commitment to scholarly rigor and academic integrity defines
+            every aspect of our publishing process
+          </p>
+          <div className="grid md:grid-cols-3 gap-12">
+            {features.map((feature, index) => (
+              <div key={index} className="text-center">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-dark rounded-full mb-6">
+                  <feature.icon className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">
+                  {feature.title}
+                </h3>
+                <p className="text-primary leading-relaxed">{feature.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
