@@ -21,6 +21,13 @@ export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
   pdf.text('Public Policy Review', margin, yPosition);
   yPosition += titleHeight + 10;
 
+  // ISSN Tab/Section
+  pdf.setFontSize(12);
+  pdf.setFont('helvetica', 'bold');
+  pdf.setTextColor(44, 62, 80);
+  pdf.text('ISSN (Print/Online): Application in process (ID: IDS70965, expected within 6 months)', margin, yPosition);
+  yPosition += lineHeight + 5;
+
   // Issue Info
   pdf.setFontSize(18);
   pdf.setFont('helvetica', 'bold');
@@ -253,7 +260,14 @@ export const generateResearchPDF = async (articles) => {
   pdf.setFontSize(14);
   pdf.setFont('helvetica', 'bold');
   pdf.text('Law, Diplomacy, Technology & Public Policy Review', margin, yPosition);
-  yPosition += lineHeight + 15;
+  yPosition += lineHeight + 5;
+
+  // ISSN Tab/Section
+  pdf.setFontSize(12);
+  pdf.setFont('helvetica', 'bold');
+  pdf.setTextColor(44, 62, 80);
+  pdf.text('ISSN (Print/Online): Application in process (ID: IDS70965, expected within 6 months)', margin, yPosition);
+  yPosition += lineHeight + 10;
 
   // Table of Contents
   pdf.setFontSize(14);

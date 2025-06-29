@@ -309,6 +309,11 @@ const EditionsPage = () => {
               <p>{publisher.address.city}, {publisher.address.state} {publisher.address.postalCode}</p>
               <p>{publisher.address.country}</p>
             </div>
+            <div className="text-gray-700 text-sm mt-2">
+              <div><strong>ISSN (Print/Online):</strong> Application in process (ID: IDS70965, expected within 6 months)</div>
+              <div><strong>Publisher:</strong> Centre for Interdisciplinary Policy Dialogue, India</div>
+              <div><strong>Contact:</strong> submissions@ldt-journal.org</div>
+            </div>
           </div>
           <div>
             <h4 className="font-semibold text-slate-700 mb-2">Contact Information</h4>
