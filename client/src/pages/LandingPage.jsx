@@ -124,11 +124,11 @@ const LandingPage = () => {
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={() => setDropdownOpen((v) => !v)}
-                className="flex items-center space-x-2 px-4 py-2 border border-accent-light rounded bg-white hover:bg-bg-light transition-colors"
+                className="flex items-center space-x-2 px-4 text-text hover:text-primary py-2 border border-muted rounded bg-white hover:border-primary hover:bg-primary-light transition-colors"
                 aria-label="Account Menu"
               >
-                <User className="w-4 h-4 text-text" />
-                <span className="text-sm text-text">Account</span>
+                <User className="w-4 h-4" />
+                <span className="text-sm">Account</span>
               </button>
               {dropdownOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white border border-accent-light rounded shadow-lg py-1">
@@ -293,13 +293,13 @@ const LandingPage = () => {
       </section>
 
       {/* Navigation Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-primary-light/25">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-slate-900 mb-6">
+            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary mb-6">
               Journal Resources
             </h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            <p className="text-lg text-text max-w-2xl mx-auto">
               Access comprehensive information about our journal, submission guidelines, and scholarly resources
             </p>
           </div>
@@ -308,19 +308,19 @@ const LandingPage = () => {
               <Link 
                 key={link.to} 
                 to={link.to}
-                className="group bg-white border border-gray-200 rounded-lg p-8 hover:border-slate-300 hover:shadow-md transition-all duration-300 text-left w-full"
+                className="group bg-white border border-gray-200 shadow-sm rounded-lg p-8 hover:border-primary hover:shadow-md transition-all duration-300 text-left w-full"
               >
                 <div className="mb-6">
-                  <div className="inline-flex items-center justify-center w-12 h-12 bg-slate-100 rounded-lg mb-4 group-hover:bg-slate-200 transition-colors">
-                    <link.icon className="w-6 h-6 text-slate-700" />
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-light rounded-lg mb-4 transition-colors">
+                    <link.icon className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-serif font-semibold text-slate-900 mb-3">
+                  <h3 className="text-xl font-serif font-semibold text-primary-dark mb-3">
                     {link.label}
                   </h3>
-                  <p className="text-slate-600 leading-relaxed mb-4">
+                  <p className="text-text leading-relaxed mb-4">
                     {link.desc}
                   </p>
-                  <div className="flex items-center text-sm font-medium text-slate-800 group-hover:text-slate-900">
+                  <div className="flex items-center text-sm font-medium text-primary group-hover:text-accent">
                     Learn More
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </div>
