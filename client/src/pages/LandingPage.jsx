@@ -9,6 +9,7 @@ import {
   Globe,
   Shield,
   User,
+  Edit3Icon,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
@@ -121,7 +122,23 @@ const LandingPage = () => {
                 </p>
               </div>
             </div>
-            <div className="relative" ref={dropdownRef}>
+            <div className="relative flex gap-2" ref={dropdownRef}>
+              <button
+                onClick={() => navigate("/editorial-board")}
+                className="flex items-center space-x-2 px-4 text-text hover:text-primary py-2 border border-muted rounded bg-white hover:border-primary hover:bg-primary-light transition-colors"
+                aria-label="Editorial Board"
+              >
+                <Edit3Icon className="w-4 h-4" />
+                <span className="text-sm">Editorial Board</span>
+              </button>
+              <button
+                onClick={() => navigate("/editions")}
+                className="flex items-center space-x-2 px-4 text-text hover:text-primary py-2 border border-muted rounded bg-white hover:border-primary hover:bg-primary-light transition-colors"
+                aria-label="Journal Editions"
+              >
+                <BookOpen className="w-4 h-4" />
+                <span className="text-sm">Journal Editions</span>
+              </button>
               <button
                 onClick={() => setDropdownOpen((v) => !v)}
                 className="flex items-center space-x-2 px-4 text-text hover:text-primary py-2 border border-muted rounded bg-white hover:border-primary hover:bg-primary-light transition-colors"
@@ -266,32 +283,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       {/* Navigation Section */}
       <section className="py-20 bg-primary-light/25">
         <div className="max-w-6xl mx-auto px-6">
@@ -300,7 +291,8 @@ const LandingPage = () => {
               Journal Resources
             </h2>
             <p className="text-lg text-text max-w-2xl mx-auto">
-              Access comprehensive information about our journal, submission guidelines, and scholarly resources
+              Access comprehensive information about our journal, submission
+              guidelines, and scholarly resources
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -317,9 +309,7 @@ const LandingPage = () => {
                   <h3 className="text-xl font-serif font-semibold text-primary-dark mb-3">
                     {link.label}
                   </h3>
-                  <p className="text-text leading-relaxed mb-4">
-                    {link.desc}
-                  </p>
+                  <p className="text-text leading-relaxed mb-4">{link.desc}</p>
                   <div className="flex items-center text-sm font-medium text-primary group-hover:text-accent">
                     Learn More
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
