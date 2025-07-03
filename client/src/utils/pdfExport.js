@@ -379,3 +379,152 @@ export const generateResearchPDF = async (articles) => {
 
   return pdf;
 }; 
+
+export const generateArticlePDF = async (articles) => {
+  const pdf = new jsPDF('p', 'mm', 'a4');
+  const pageWidth = pdf.internal.pageSize.getWidth();
+  const pageHeight = pdf.internal.pageSize.getHeight();
+  const margin = 20;
+  const contentWidth = pageWidth - (2 * margin);
+  
+  let yPosition = margin;
+  const lineHeight = 7;
+  const titleHeight = 12;
+
+  // Check if we need a new page
+  const checkPageBreak = (requiredSpace) => {
+    if (yPosition + requiredSpace > pageHeight - margin) {
+      pdf.addPage();
+      yPosition = margin;
+    }
+  };
+
+  // Cover Page - Article Title
+  pdf.setFontSize(24);
+  pdf.setFont('helvetica', 'bold');
+  pdf.setTextColor(44, 62, 80);
+  const titleLines = pdf.splitTextToSize(articles.title, contentWidth);
+  titleLines.forEach(line => {
+    pdf.text(line, margin, yPosition);
+    yPosition += titleHeight;
+  });
+  yPosition += 15;
+
+  // Author
+  pdf.setFontSize(14);
+  pdf.setFont('helvetica', 'italic');
+  pdf.setTextColor(100, 100, 100);
+  checkPageBreak(lineHeight + 5);
+  pdf.text(`By ${articles.author}`, margin, yPosition);
+  yPosition += lineHeight + 15;
+
+  // Abstract
+  if (articles.abstract) {
+    pdf.setFontSize(12);
+    pdf.setFont('helvetica', 'bold');
+    pdf.setTextColor(44, 62, 80);
+    checkPageBreak(lineHeight * 3);
+    pdf.text('Abstract:', margin, yPosition);
+    yPosition += lineHeight + 2;
+    
+    pdf.setFontSize(11);
+    pdf.setFont('helvetica', 'normal');
+    pdf.setTextColor(60, 60, 60);
+    const abstractLines = pdf.splitTextToSize(articles.abstract, contentWidth);
+    abstractLines.forEach(line => {
+      checkPageBreak(lineHeight);
+      pdf.text(line, margin, yPosition);
+      yPosition += lineHeight - 1;
+    });
+    yPosition += 15;
+  }
+
+  // Keywords
+  if (articles.keywords && articles.keywords.length > 0) {
+    pdf.setFontSize(12);
+    pdf.setFont('helvetica', 'bold');
+    pdf.setTextColor(44, 62, 80);
+    checkPageBreak(lineHeight * 3);
+    pdf.text('Keywords:', margin, yPosition);
+    yPosition += lineHeight + 2;
+    
+    pdf.setFontSize(11);
+    pdf.setFont('helvetica', 'normal');
+    pdf.setTextColor(60, 60, 60);
+    const keywordsText = articles.keywords.join(', ');
+    const keywordLines = pdf.splitTextToSize(keywordsText, contentWidth);
+    keywordLines.forEach(line => {
+      checkPageBreak(lineHeight);
+      pdf.text(line, margin, yPosition);
+      yPosition += lineHeight - 1;
+    });
+    yPosition += 15;
+  }
+
+  // Main Content (if available)
+  if (articles.content) {
+    pdf.setFontSize(12);
+    pdf.setFont('helvetica', 'bold');
+    pdf.setTextColor(44, 62, 80);
+    checkPageBreak(lineHeight * 3);
+    pdf.text('Content:', margin, yPosition);
+    yPosition += lineHeight + 5;
+    
+    pdf.setFontSize(11);
+    pdf.setFont('helvetica', 'normal');
+    pdf.setTextColor(60, 60, 60);
+    const contentLines = pdf.splitTextToSize(articles.content, contentWidth);
+    contentLines.forEach(line => {
+      checkPageBreak(lineHeight);
+      pdf.text(line, margin, yPosition);
+      yPosition += lineHeight - 1;
+    });
+    yPosition += 15;
+  }
+
+  // Author Bio
+  if (articles.authorBio) {
+    pdf.setFontSize(12);
+    pdf.setFont('helvetica', 'bold');
+    pdf.setTextColor(44, 62, 80);
+    checkPageBreak(lineHeight * 3);
+    pdf.text('Author Biography:', margin, yPosition);
+    yPosition += lineHeight + 2;
+    
+    pdf.setFontSize(11);
+    pdf.setFont('helvetica', 'normal');
+    pdf.setTextColor(60, 60, 60);
+    const bioLines = pdf.splitTextToSize(articles.authorBio, contentWidth);
+    bioLines.forEach(line => {
+      checkPageBreak(lineHeight);
+      pdf.text(line, margin, yPosition);
+      yPosition += lineHeight - 1;
+    });
+    yPosition += 15;
+  }
+
+  // References
+  if (articles.references && articles.references.length > 0) {
+    pdf.setFontSize(12);
+    pdf.setFont('helvetica', 'bold');
+    pdf.setTextColor(44, 62, 80);
+    checkPageBreak(lineHeight * 3);
+    pdf.text('References:', margin, yPosition);
+    yPosition += lineHeight + 5;
+    
+    pdf.setFontSize(10);
+    pdf.setFont('helvetica', 'normal');
+    pdf.setTextColor(60, 60, 60);
+    articles.references.forEach((ref, refIndex) => {
+      const refLines = pdf.splitTextToSize(`${refIndex + 1}. ${ref}`, contentWidth);
+      refLines.forEach(line => {
+        checkPageBreak(lineHeight);
+        pdf.text(line, margin, yPosition);
+        yPosition += lineHeight - 1;
+      });
+      yPosition += 3;
+    });
+  }
+
+  return pdf;
+};
