@@ -284,13 +284,14 @@ const EditionsPage = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
+    <div className="mx-auto w-full flex justify-center bg-primary-light/25 px-4 py-12">
+    <div className='max-w-7xl'>
       <div className="flex justify-between items-center mb-10">
-        <h1 className="text-3xl font-serif font-bold text-center text-slate-800">Journal Issues (2025)</h1>
+        <h1 className="text-3xl font-serif font-bold text-center text-primary">Journal Issues (2025)</h1>
         <button
           onClick={handleDownloadAllIssues}
           disabled={downloading.all}
-          className="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition-colors disabled:opacity-50"
+          className="inline-flex items-center px-4 py-2 bg-primary text-white font-medium rounded hover:bg-primary-dark transition disabled:opacity-50"
         >
           <Download className="w-4 h-4 mr-2" />
           {downloading.all ? 'Generating...' : 'Download All Issues'}
@@ -298,8 +299,8 @@ const EditionsPage = () => {
       </div>
       
       {/* Publisher Information Section */}
-      <div className="bg-white border border-slate-200 rounded-lg shadow p-6 mb-10">
-        <h2 className="text-2xl font-serif font-bold text-slate-800 mb-4">Publisher Information</h2>
+      <div className="border border-slate-200  mb-10 p-6 w-full mx-auto bg-white rounded shadow">
+        <h2 className="text-2xl font-serif font-bold text-primary-dark mb-4">Publisher Information</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
             <h3 className="text-lg font-semibold text-slate-700 mb-2">{publisher.name}</h3>
@@ -340,11 +341,11 @@ const EditionsPage = () => {
           const isValidCount = articleCount >= 2 && articleCount <= 5;
           const issueKey = `${issue.month}${issue.year}`;
           return (
-            <div key={issue.volume} className="bg-white border border-slate-200 rounded-lg shadow p-6">
+            <div key={issue.volume} className="border border-slate-200  mb-10 p-6 w-full mx-auto bg-white rounded shadow">
               <div className="flex items-center justify-between mb-4">
                 <div>
                   <span className="text-lg font-semibold text-slate-700">Volume {issue.volume}</span>
-                  <span className="ml-3 px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-medium uppercase">{issue.month} {issue.year}</span>
+                  <span className="bg-primary-light text-primary px-3 py-1 rounded-full text-xs font-medium uppercase mx-3">{issue.month} {issue.year}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="text-sm text-slate-500">{articleCount} Articles</span>
@@ -368,10 +369,10 @@ const EditionsPage = () => {
                   const isComplete = checkArticleCompleteness(article);
                   const isExpanded = expandedArticles.has(article.id);
                   return (
-                    <div key={article.id} className="border border-slate-200 rounded-lg p-4">
+                    <div key={article.id} className="bg-white shadow-sm border border-accent-light rounded-lg p-6 flex flex-col hover:border-primary hover:shadow-md transition-all duration-300">
                       <div className="flex items-center justify-between mb-3">
                         <div className="flex items-center space-x-2">
-                          <h2 className="text-xl font-serif font-semibold text-slate-900">{article.title}</h2>
+                          <h2 className="text-xl font-serif font-semibold text-primary-dark">{article.title}</h2>
                           {isComplete ? (
                             <span className="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">Complete</span>
                           ) : (
@@ -385,7 +386,7 @@ const EditionsPage = () => {
                           {isExpanded ? '▼' : '▶'}
                         </button>
                       </div>
-                      <div className="text-sm text-slate-600 mb-2">By {article.author}</div>
+                      <div className="text-sm text-primary mb-2">By {article.author}</div>
                       <div className="text-slate-700 text-sm mb-3">{article.abstract}</div>
                       
                       {isExpanded && (
@@ -458,11 +459,11 @@ const EditionsPage = () => {
                 <h3 className="text-lg font-semibold text-slate-800 mb-4">Editorial Board</h3>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                   {editorialBoard.map((member, idx) => (
-                    <div key={idx} className="bg-slate-50 border border-slate-100 rounded p-4">
-                      <div className="font-semibold text-slate-800 mb-1">{member.name}</div>
-                      <div className="text-sm text-slate-700 mb-1">{member.designation}</div>
-                      <div className="text-sm text-slate-600 mb-2">{member.department}, {member.institution}</div>
-                      <div className="text-xs text-slate-500 space-y-1">
+                    <div key={idx} className="bg-primary-light/25 text-primary border border-primary-light rounded-sm p-4">
+                      <div className="font-semibold mb-1">{member.name}</div>
+                      <div className="text-sm mb-1">{member.designation}</div>
+                      <div className="text-sm  mb-2">{member.department}, {member.institution}</div>
+                      <div className="text-xs space-y-1">
                         <div><span className="font-medium">Email:</span> {member.email}</div>
                         <div><span className="font-medium">Phone:</span> {member.phone}</div>
                         <div><span className="font-medium">Address:</span> {member.address}</div>
@@ -475,6 +476,8 @@ const EditionsPage = () => {
           );
         })}
       </div>
+    </div>
+      
     </div>
   );
 };
