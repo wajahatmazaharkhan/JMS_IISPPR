@@ -2,13 +2,9 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Download } from "lucide-react";
-import articleData from "../data/articles";
 import { generateArticlePDF, downloadPDF } from "../utils/pdfExport";
-import articles from "../data/articles";
 
 const ResearchCard = ({ articles, onDelete }) => {
-
-  const [researchArticles, setResearchArticles] = useState(articleData);
   const [downloading, setDownloading] = useState(false);
   const location = useLocation();
   const isAdmin = location.pathname.startsWith("/admin");
@@ -16,20 +12,14 @@ const ResearchCard = ({ articles, onDelete }) => {
   const handleDownload = async () => {
     setDownloading(true);
     try {
-      // Find the specific article by ID
-      const article = researchArticles.find(articles => articles.id === articles.id);
-    
-      if (!articles) {
-        alert("Article not found. Please try again.");
-        return;
-      }
+      const pdf = await generateArticlePDF(articles);
 
-      const pdf = await generateArticlePDF  (articles);
-    
-      // Create filename based on article title and author
-      const sanitizedTitle = articles.title.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_').substring(0, 50);
-      const filename = `LDTPPR_Research_Articles_${articles.id}.pdf`;
-    
+      const sanitizedTitle = articles.title
+        .replace(/[^a-zA-Z0-9\s]/g, '')
+        .replace(/\s+/g, '_')
+        .substring(0, 50);
+
+      const filename = `LDTPPR_Research_Articles_${sanitizedTitle}_${articles.id}.pdf`;
       downloadPDF(pdf, filename);
     } catch (error) {
       console.error("Error generating PDF:", error);
@@ -40,48 +30,57 @@ const ResearchCard = ({ articles, onDelete }) => {
   };
 
   return (
-    <div className="bg-white shadow-sm border border-accent-light rounded-lg p-6 flex flex-col gap-3 hover:border-primary hover:shadow-md transition-all duration-300">
+    <div className="bg-white border border-accent-light rounded-xl p-6 shadow-sm hover:border-primary hover:shadow-md transition-all duration-300 flex flex-col gap-4">
       <div className="flex justify-between items-center">
-        <span className="text-lg font-bold text-primary-dark font-serif leading-snug mt-1">
-          {articles.id}
-        </span>
-        <span className="text-lg font-bold text-primary-dark font-serif leading-snug mt-1">
-          Issue: {articles.issue} , Volume: {articles.volume}
+        <span className="text-sm text-primary font-medium">ID: {articles.id}</span>
+        <span className="text-sm text-primary font-medium">
+          Issue {articles.issue} · Volume {articles.volume}
         </span>
       </div>
+
       <div className="flex justify-between items-center">
         <span className="bg-primary-light text-primary px-3 py-1 rounded-full text-xs font-medium">
           {articles.authorAbbrev}
         </span>
-        <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-medium">
+        <span className={`px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800`}>
           {articles.status}
         </span>
       </div>
 
-      <h2 className="text-lg font-bold text-primary-dark font-serif leading-snug mt-1">
+      <h2 className="text-xl font-serif font-bold text-primary-dark leading-tight">
         {articles.title}
       </h2>
 
-      <p className="text-subtext text-sm text-justify">{articles.abstract}</p>
+      <p className="text-subtext text-sm text-justify">
+        {articles.abstract}
+      </p>
 
-      <h4 className="font-semibold text-slate-800 mb-1">Keywords:</h4>
-      <div className="flex flex-wrap gap-1">
+      {articles.keywords?.length > 0 && (
+        <div>
+          <h4 className="font-semibold text-slate-800 mb-3 text-sm">Keywords</h4>
+          <div className="flex flex-wrap gap-2">
             {articles.keywords.map((keyword, idx) => (
-            <span key={idx} className="px-2 py-1 bg-slate-100 text-slate-700 text-xs rounded">
-              {keyword}
-            </span>
-          ))}
-      </div>
-      <div>
+              <span
+                key={idx}
+                className="px-2 py-1 bg-primary-light/40 text-primary text-xs rounded"
+              >
+                {keyword}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div className="flex flex-wrap justify-between items-center mt-4 gap-2">
         <button
           onClick={handleDownload}
-          className="inline-flex items-center px-4 py-2 bg-primary text-white font-medium rounded hover:bg-primary-dark transition disabled:opacity-50">
-            Download article
+          disabled={downloading}
+          className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-medium rounded hover:bg-primary-dark transition disabled:opacity-50"
+        >
+          <Download size={16} />
+          {downloading ? "Downloading..." : "Download"}
         </button>
-      </div>
 
-
-      <div className="flex justify-between items-center mt-auto">
         <Link
           to={`/article/${articles.title.toLowerCase().replace(/\s+/g, "-")}`}
           className="text-sm font-semibold text-accent hover:text-accent-dark hover:underline transition"
@@ -89,7 +88,7 @@ const ResearchCard = ({ articles, onDelete }) => {
           Read More
         </Link>
 
-        {onDelete && (
+        {onDelete && isAdmin && (
           <button
             onClick={() => onDelete(articles.id)}
             className="text-xs text-red-600 hover:text-red-800 px-3 py-1 bg-red-50 border border-red-200 rounded transition"
