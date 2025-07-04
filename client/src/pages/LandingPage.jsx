@@ -40,12 +40,6 @@ const navLinks = [
     icon: BookOpen,
   },
   {
-    to: "/editorial-board",
-    label: "Editorial Board",
-    desc: "Meet our editorial board and contributing scholars.",
-    icon: Users,
-  },
-  {
     to: "/ethics",
     label: "Ethics",
     desc: "Read about our publication ethics and standards.",
@@ -123,14 +117,6 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="relative flex gap-2" ref={dropdownRef}>
-              <button
-                onClick={() => navigate("/editorial-board")}
-                className="flex items-center space-x-2 px-4 text-text hover:text-primary py-2 border border-muted rounded bg-white hover:border-primary hover:bg-primary-light transition-colors"
-                aria-label="Editorial Board"
-              >
-                <Edit3Icon className="w-4 h-4" />
-                <span className="text-sm">Editorial Board</span>
-              </button>
               <button
                 onClick={() => navigate("/editions")}
                 className="flex items-center space-x-2 px-4 text-text hover:text-primary py-2 border border-muted rounded bg-white hover:border-primary hover:bg-primary-light transition-colors"
@@ -435,7 +421,6 @@ const LandingPage = () => {
                 ["Research Archive", "/research"],
                 ["Publisher Info", "/publisher"],
                 ["ISSN Details", "/issn"],
-                ["Editorial Board", "/editorial-board"],
                 ["Contact Us", "/contact-us"],
               ].map(([label, path]) => (
                 <Link

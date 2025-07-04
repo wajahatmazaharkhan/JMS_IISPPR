@@ -81,13 +81,6 @@ const ResearchCard = ({ articles, onDelete }) => {
           {downloading ? "Downloading..." : "Download"}
         </button>
 
-        <Link
-          to={`/article/${articles.title.toLowerCase().replace(/\s+/g, "-")}`}
-          className="text-sm font-semibold text-accent hover:text-accent-dark hover:underline transition"
-        >
-          Read More
-        </Link>
-
         {onDelete && isAdmin && (
           <button
             onClick={() => onDelete(articles.id)}

@@ -461,41 +461,82 @@ export const generateArticlePDF = async (articles) => {
     yPosition += 15;
   }
 
-  // Main Content (if available)
-  if (articles.content) {
+  // Introduction
+  if (articles.intro) {
     pdf.setFontSize(12);
     pdf.setFont('helvetica', 'bold');
     pdf.setTextColor(44, 62, 80);
     checkPageBreak(lineHeight * 3);
-    pdf.text('Content:', margin, yPosition);
+    pdf.text('Introduction:', margin, yPosition);
     yPosition += lineHeight + 5;
     
     pdf.setFontSize(11);
     pdf.setFont('helvetica', 'normal');
     pdf.setTextColor(60, 60, 60);
-    const contentLines = pdf.splitTextToSize(articles.content, contentWidth);
-    contentLines.forEach(line => {
-      checkPageBreak(lineHeight);
-      pdf.text(line, margin, yPosition);
-      yPosition += lineHeight - 1;
+    articles.intro.forEach((intr, intrIndex) => {
+      const intrLines = pdf.splitTextToSize(`${intr}`, contentWidth);
+      intrLines.forEach(line => {
+        checkPageBreak(lineHeight);
+        pdf.text(line, margin, yPosition);
+        yPosition += lineHeight - 1;
+      });
+      yPosition += 3;
     });
-    yPosition += 15;
+    yPosition+=15
   }
 
-  // Author Bio
-  if (articles.authorBio) {
+  // Main Content Sections
+if (articles.content && Array.isArray(articles.content)) {
+  articles.content.forEach((section, sectionIndex) => {
+    // Heading
+    if (section.heading) {
+      pdf.setFontSize(12);
+      pdf.setFont('helvetica', 'bold');
+      pdf.setTextColor(44, 62, 80);
+      const headingLines = pdf.splitTextToSize(`${section.heading}`, contentWidth);
+      headingLines.forEach(line => {
+        checkPageBreak(lineHeight);
+        pdf.text(line, margin, yPosition);
+        yPosition += lineHeight;
+      });
+      yPosition += 5;
+    }
+
+    // Paragraphs
+    if (section.paragraphs && Array.isArray(section.paragraphs)) {
+      pdf.setFontSize(11);
+      pdf.setFont('helvetica', 'normal');
+      pdf.setTextColor(60, 60, 60);
+
+      section.paragraphs.forEach(para => {
+        const paraLines = pdf.splitTextToSize(para, contentWidth);
+        paraLines.forEach(line => {
+          checkPageBreak(lineHeight);
+          pdf.text(line, margin, yPosition);
+          yPosition += lineHeight - 1;
+        });
+        yPosition += 5; // space after paragraph
+      });
+    }
+    yPosition += 8; // space after section
+  });
+}
+
+
+  // Conclusion
+  if (articles.conclusion) {
     pdf.setFontSize(12);
     pdf.setFont('helvetica', 'bold');
     pdf.setTextColor(44, 62, 80);
     checkPageBreak(lineHeight * 3);
-    pdf.text('Author Biography:', margin, yPosition);
+    pdf.text('Conclusion:', margin, yPosition);
     yPosition += lineHeight + 2;
     
     pdf.setFontSize(11);
     pdf.setFont('helvetica', 'normal');
     pdf.setTextColor(60, 60, 60);
-    const bioLines = pdf.splitTextToSize(articles.authorBio, contentWidth);
-    bioLines.forEach(line => {
+    const conclusionLines = pdf.splitTextToSize(articles.conclusion, contentWidth);
+    conclusionLines.forEach(line => {
       checkPageBreak(lineHeight);
       pdf.text(line, margin, yPosition);
       yPosition += lineHeight - 1;
@@ -504,27 +545,48 @@ export const generateArticlePDF = async (articles) => {
   }
 
   // References
-  if (articles.references && articles.references.length > 0) {
+  if (articles.references && Array.isArray(articles.references)) {
+  // Add References heading
     pdf.setFontSize(12);
     pdf.setFont('helvetica', 'bold');
     pdf.setTextColor(44, 62, 80);
-    checkPageBreak(lineHeight * 3);
+    checkPageBreak(lineHeight * 2);
     pdf.text('References:', margin, yPosition);
     yPosition += lineHeight + 5;
-    
+
+  // List references
     pdf.setFontSize(10);
     pdf.setFont('helvetica', 'normal');
-    pdf.setTextColor(60, 60, 60);
-    articles.references.forEach((ref, refIndex) => {
-      const refLines = pdf.splitTextToSize(`${refIndex + 1}. ${ref}`, contentWidth);
-      refLines.forEach(line => {
-        checkPageBreak(lineHeight);
-        pdf.text(line, margin, yPosition);
-        yPosition += lineHeight - 1;
-      });
-      yPosition += 3;
+  
+    articles.references.forEach((ref, index) => {
+    // Format reference text with number
+      if (ref.heading){
+        const refNumber = `${index + 1}. `;
+        const refText = ref.heading;
+    
+    // Split and display reference text
+        pdf.setTextColor(60, 60, 60);
+        const textLines = pdf.splitTextToSize(refNumber +  refText, contentWidth);
+        textLines.forEach(line => {
+          checkPageBreak(lineHeight);
+          pdf.text(line, margin, yPosition);
+          yPosition += lineHeight - 1;
+        });
+      }
+    // Split and display link (in blue)
+      if (ref.links) {
+        pdf.setTextColor(0, 0, 255); // Blue for links
+        const linkText = `   ${ref.links}`;
+        const linkLines = pdf.splitTextToSize(linkText, contentWidth);
+        linkLines.forEach(line => {
+          checkPageBreak(lineHeight);
+          pdf.text(line, margin, yPosition);
+          yPosition += lineHeight - 1;
+        });
+      }
+      yPosition += 8; // Space between references
     });
   }
-
+  
   return pdf;
 };
