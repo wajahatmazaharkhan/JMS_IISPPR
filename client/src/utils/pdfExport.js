@@ -531,17 +531,51 @@ if (articles.content && Array.isArray(articles.content)) {
     checkPageBreak(lineHeight * 3);
     pdf.text('Conclusion:', margin, yPosition);
     yPosition += lineHeight + 2;
-    
-    pdf.setFontSize(11);
-    pdf.setFont('helvetica', 'normal');
-    pdf.setTextColor(60, 60, 60);
-    const conclusionLines = pdf.splitTextToSize(articles.conclusion, contentWidth);
-    conclusionLines.forEach(line => {
-      checkPageBreak(lineHeight);
-      pdf.text(line, margin, yPosition);
-      yPosition += lineHeight - 1;
-    });
-    yPosition += 15;
+
+    if (Array.isArray(articles.conclusion)) {
+      articles.conclusion.forEach((section, sectionIndex) => {
+    // Heading
+        if (section.heading) {
+          pdf.setFontSize(12);
+          pdf.setFont('helvetica', 'bold');
+          pdf.setTextColor(44, 62, 80);
+          const headingLines = pdf.splitTextToSize(`${section.heading}`, contentWidth);
+          headingLines.forEach(line => {
+            checkPageBreak(lineHeight);
+            pdf.text(line, margin, yPosition);
+            yPosition += lineHeight;
+          });
+          yPosition += 5;
+        }
+
+    // Paragraphs
+        if (section.paragraphs) {
+          pdf.setFontSize(11);
+          pdf.setFont('helvetica', 'normal');
+          pdf.setTextColor(60, 60, 60);
+
+          const paraLines = pdf.splitTextToSize(`${section.paragraphs}`, contentWidth);
+          paraLines.forEach(line => {
+            checkPageBreak(lineHeight);
+            pdf.text(line, margin, yPosition);
+            yPosition += lineHeight - 1;
+          });
+          yPosition += 5; // space after paragraph
+        }
+      yPosition += 8; // space after section
+      });
+    } else {
+      pdf.setFontSize(11);
+      pdf.setFont('helvetica', 'normal');
+      pdf.setTextColor(60, 60, 60);
+      const conclusionLines = pdf.splitTextToSize(articles.conclusion, contentWidth);
+      conclusionLines.forEach(line => {
+        checkPageBreak(lineHeight);
+        pdf.text(line, margin, yPosition);
+        yPosition += lineHeight - 1;
+      });
+      yPosition += 15;
+    }
   }
 
   // References

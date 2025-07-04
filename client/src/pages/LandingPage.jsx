@@ -27,12 +27,14 @@ const navLinks = [
     desc: "View ISSN registration, journal metrics, and indexing information.",
     icon: FileText,
   },
+  /*
   {
     to: "/research",
     label: "Research Articles",
     desc: "Explore our extensive collection of peer-reviewed research publications.",
     icon: Search,
   },
+  */
   {
     to: "/editions",
     label: "Journal Editions",

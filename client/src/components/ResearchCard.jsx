@@ -41,7 +41,7 @@ const ResearchCard = ({ articles, onDelete }) => {
     <div className="bg-white border border-accent-light rounded-xl p-6 shadow-sm hover:border-primary hover:shadow-md transition-all duration-300 flex flex-col gap-4">
       <div className="flex justify-between items-center">
         <span className="text-sm text-primary font-medium">
-          ID: {articles.id}
+          Serial {articles.id}
         </span>
         <span className="text-sm text-primary font-medium">
           Issue {articles.issue} · Volume {articles.volume}
