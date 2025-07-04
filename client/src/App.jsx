@@ -1,36 +1,50 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import DashboardLayout from './layouts/DashboardLayout';
-import AdminDashboard from './pages/dashboards/AdminDashboard';
-import EditorDashboard from './pages/dashboards/EditorDashboard';
-import ReviewerDashboard from './pages/dashboards/ReviewerDashboard';
-import AuthorDashboard from './pages/dashboards/AuthorDashboard';
-import ReaderDashboard from './pages/dashboards/ReaderDashboard';
-import BlogPage from './pages/BlogPage';
-import PublisherPage from './pages/PublisherPage';
-import IssnPage from './pages/IssnPage';
-import ContactPage from './pages/ContactPage';
-import ResearchPage from './pages/ResearchPage';
-import LandingPage from './pages/LandingPage';
-import Ethics from './pages/Ethics';
-import Plagiarism from './pages/Plagiarism';
-import ContactUs from './pages/ContactUs';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import WriteContent from './pages/WriteContent';
-import EditionsPage from './pages/EditionsPage';
-import AdminArticles from './pages/admin/AdminArticles';
-import AdminEditions from './pages/admin/AdminEditions';
-import AuthorArticles from './pages/author/AuthorArticles';
-import EditorArticles from './pages/editor/EditorArticles';
-import EditorReviews from './pages/editor/EditorReviews';
-import ReviewerReviews from './pages/reviewer/ReviewerReviews';
-import ReaderArticles from './pages/reader/ReaderArticles';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import DashboardLayout from "./layouts/DashboardLayout";
+import AdminDashboard from "./pages/dashboards/AdminDashboard";
+import EditorDashboard from "./pages/dashboards/EditorDashboard";
+import ReviewerDashboard from "./pages/dashboards/ReviewerDashboard";
+import AuthorDashboard from "./pages/dashboards/AuthorDashboard";
+import ReaderDashboard from "./pages/dashboards/ReaderDashboard";
+import BlogPage from "./pages/BlogPage";
+import PublisherPage from "./pages/PublisherPage";
+import IssnPage from "./pages/IssnPage";
+import ContactPage from "./pages/ContactPage";
+import ResearchPage from "./pages/ResearchPage";
+import LandingPage from "./pages/LandingPage";
+import Ethics from "./pages/Ethics";
+import Plagiarism from "./pages/Plagiarism";
+import ContactUs from "./pages/ContactUs";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import WriteContent from "./pages/WriteContent";
+import EditionsPage from "./pages/EditionsPage";
+import AdminArticles from "./pages/admin/AdminArticles";
+import AdminEditions from "./pages/admin/AdminEditions";
+import AuthorArticles from "./pages/author/AuthorArticles";
+import EditorArticles from "./pages/editor/EditorArticles";
+import EditorReviews from "./pages/editor/EditorReviews";
+import ReviewerReviews from "./pages/reviewer/ReviewerReviews";
+import ReaderArticles from "./pages/reader/ReaderArticles";
 import ArticlePage from "./pages/ArticlePage";
-import './App.css';
+import "./App.css";
+import BridgingLiteracyGapsInIndia from "./pages/editions/BridgingLiteracyGapsInIndia";
+import GreenwashingInCorporateBranding from "./pages/editions/GreenwashingInCorporateBranding";
+import PrimaryHealthCareAndForeignPolicy from "./pages/editions/PrimaryHealthCareAndForeignPolicy";
+import LifeCycleEnvironmentalImpactAssessment from "./pages/editions/LifeCycleEnvironmentalImpactAssessment";
+import TheTroublingRiseOfRealismOverInstitutionalism from "./pages/editions/TheTroublingRiseOfRealismOverInstitutionalism";
+import ImpactOfTheMaternityBenefitAct from "./pages/editions/ImpactOfTheMaternityBenefitAct";
+
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route
           path="/admin"
@@ -92,6 +106,30 @@ function App() {
         <Route path="/reviewer/reviews" element={<ReviewerReviews />} />
         <Route path="/reader/articles" element={<ReaderArticles />} />
         <Route path="/article/:articleSlug" element={<ArticlePage />} />
+        <Route
+          path="/Bridging-Literacy-Gaps-in-India"
+          element={<BridgingLiteracyGapsInIndia />}
+        />
+        <Route
+          path="/Greenwashing-In-Corporate-Branding"
+          element={<GreenwashingInCorporateBranding />}
+        />
+        <Route
+          path="/Primary-Health-Care-And-Foreign-Policy"
+          element={<PrimaryHealthCareAndForeignPolicy />}
+        />
+        <Route
+          path="/Life-Cycle-Environmental-Impact-Assessment"
+          element={<LifeCycleEnvironmentalImpactAssessment />}
+        />
+        <Route
+          path="/The-Troubling-Rise-Of-Realism-Over-Institutionalism"
+          element={<TheTroublingRiseOfRealismOverInstitutionalism />}
+        />
+        <Route
+          path="/Impact-Of-The-Maternity-Benefit-Act"
+          element={<ImpactOfTheMaternityBenefitAct />}
+        />
         <Route path="*" element={<LandingPage />} />
       </Routes>
     </Router>

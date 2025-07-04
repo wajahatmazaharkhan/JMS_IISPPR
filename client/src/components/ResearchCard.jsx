@@ -3,6 +3,14 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Download } from "lucide-react";
 import { generateArticlePDF, downloadPDF } from "../utils/pdfExport";
+const articleRoutes = {
+  1: "/Bridging-Literacy-Gaps-in-India",
+  2: "/Impact-Of-The-Maternity-Benefit-Act",
+  3: "/The-Troubling-Rise-Of-Realism-Over-Institutionalism",
+  4: "/Life-Cycle-Environmental-Impact-Assessment",
+  5: "/Greenwashing-In-Corporate-Branding",
+  6: "/Primary-Health-Care-And-Foreign-Policy",
+};
 
 const ResearchCard = ({ articles, onDelete }) => {
   const [downloading, setDownloading] = useState(false);
@@ -15,8 +23,8 @@ const ResearchCard = ({ articles, onDelete }) => {
       const pdf = await generateArticlePDF(articles);
 
       const sanitizedTitle = articles.title
-        .replace(/[^a-zA-Z0-9\s]/g, '')
-        .replace(/\s+/g, '_')
+        .replace(/[^a-zA-Z0-9\s]/g, "")
+        .replace(/\s+/g, "_")
         .substring(0, 50);
 
       const filename = `LDTPPR_Research_Articles_${sanitizedTitle}_${articles.id}.pdf`;
@@ -32,7 +40,9 @@ const ResearchCard = ({ articles, onDelete }) => {
   return (
     <div className="bg-white border border-accent-light rounded-xl p-6 shadow-sm hover:border-primary hover:shadow-md transition-all duration-300 flex flex-col gap-4">
       <div className="flex justify-between items-center">
-        <span className="text-sm text-primary font-medium">ID: {articles.id}</span>
+        <span className="text-sm text-primary font-medium">
+          ID: {articles.id}
+        </span>
         <span className="text-sm text-primary font-medium">
           Issue {articles.issue} · Volume {articles.volume}
         </span>
@@ -42,7 +52,9 @@ const ResearchCard = ({ articles, onDelete }) => {
         <span className="bg-primary-light text-primary px-3 py-1 rounded-full text-xs font-medium">
           {articles.authorAbbrev}
         </span>
-        <span className={`px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800`}>
+        <span
+          className={`px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800`}
+        >
           {articles.status}
         </span>
       </div>
@@ -51,13 +63,13 @@ const ResearchCard = ({ articles, onDelete }) => {
         {articles.title}
       </h2>
 
-      <p className="text-subtext text-sm text-justify">
-        {articles.abstract}
-      </p>
+      <p className="text-subtext text-sm text-justify">{articles.abstract}</p>
 
       {articles.keywords?.length > 0 && (
         <div>
-          <h4 className="font-semibold text-slate-800 mb-3 text-sm">Keywords</h4>
+          <h4 className="font-semibold text-slate-800 mb-3 text-sm">
+            Keywords
+          </h4>
           <div className="flex flex-wrap gap-2">
             {articles.keywords.map((keyword, idx) => (
               <span
@@ -71,7 +83,7 @@ const ResearchCard = ({ articles, onDelete }) => {
         </div>
       )}
 
-      <div className="flex flex-wrap justify-between items-center mt-4 gap-2">
+      <div className="flex items-center gap-4 mt-4">
         <button
           onClick={handleDownload}
           disabled={downloading}
@@ -80,6 +92,12 @@ const ResearchCard = ({ articles, onDelete }) => {
           <Download size={16} />
           {downloading ? "Downloading..." : "Download"}
         </button>
+
+        <Link to={articleRoutes[articles.id]}>
+          <button className="inline-flex items-center px-4 py-2 bg-primary text-white font-medium rounded hover:bg-primary-dark transition disabled:opacity-50">
+            Read More
+          </button>
+        </Link>
 
         {onDelete && isAdmin && (
           <button
