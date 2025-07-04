@@ -101,8 +101,8 @@ const LandingPage = () => {
     <div className="min-h-screen">
       {/* Header with Navigation */}
       <header className="bg-bg-light border-b border-accent-light">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
+         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+          <div className="flex flex-wrap items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-primary rounded flex items-center justify-center">
                 <BookOpen className="w-6 h-6 text-white" />
@@ -210,47 +210,46 @@ const LandingPage = () => {
         </div>
       </section> */}
       <section className="bg-white pt-20">
-        <div className="flex gap-12 justify-center">
-          <div className="flex ml-16 gap-5">
-            <div className="flex flex-col gap-5 justify-start">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 justify-center items-center px-4">
+          <div className="flex gap-5 mb-8 lg:mb-0">
+            <div className="flex flex-col gap-5">
               <img
                 src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
-                className="h-[350px] w-[300px] object-cover rounded shadow"
+                className="h-64 w-72 sm:h-80 sm:w-80 object-cover rounded shadow"
               />
               <img
                 src="https://images.unsplash.com/photo-1483546363825-7ebf25fb7513?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
-                className="h-[350px] w-[300px] object-cover rounded shadow"
+                className="h-64 w-72 sm:h-80 sm:w-80 object-cover rounded shadow"
               />
             </div>
-            <div className="flex flex-col gap-5 justify-end">
+            <div className="flex flex-col gap-5">
               <img
                 src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGpvdXJuYWx8ZW58MHx8MHx8fDA%3D"
-                className="h-[350px] w-[300px] object-cover rounded shadow"
+                className="h-64 w-72 sm:h-80 sm:w-80 object-cover rounded shadow"
               />
               <img
                 src="https://images.unsplash.com/photo-1513542992587-cd39ba97057c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGpvdXJuYWx8ZW58MHx8MHx8fDA%3D"
-                className="h-[200px] w-[300px] object-cover rounded shadow"
+                className="h-64 w-72 sm:h-80 sm:w-80 object-cover rounded shadow"
               />
             </div>
           </div>
 
-          <div className="max-w-6xl px-12 flex flex-col justify-center text-left">
+          <div className="max-w-xl text-center lg:text-left">
             <div className="max-w-4xl mx-auto">
               <span className="inline-block px-4 py-1 bg-primary-light text-primary text-sm font-medium rounded-full mb-6">
                 Established Academic Publishing
               </span>
-              <h1 className="text-4xl lg:text-6xl font-serif font-bold text-text leading-tight mb-6">
-                Law, Diplomacy, Tech &<br />
-                <span className="text-primary">Policy Review</span>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-text leading-tight mb-4">
+                Law, Diplomacy, Tech & <span className="text-primary">Policy Review</span>
               </h1>
-              <p className="text-xl text-text leading-relaxed max-w-3xl mb-12">
+              <p className="text-base sm:text-lg text-text leading-relaxed mb-6">
                 A premier scholarly journal dedicated to advancing
                 interdisciplinary research at the intersection of law,
                 diplomacy, technology, and public policy through rigorous
                 peer-reviewed publications.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 mb-16">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
                 to="/research"
                 className="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
@@ -270,7 +269,7 @@ const LandingPage = () => {
       </section>
 
       {/* Navigation Section */}
-      <section className="py-20 bg-primary-light/25">
+      <section className="py-16 sm:py-20 bg-primary-light/25 px-4">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary mb-6">
@@ -308,8 +307,8 @@ const LandingPage = () => {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-20 bg-primary-dark text-white">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-center">
+      <section className="py-16 sm:py-20 bg-primary-dark text-white px-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
             <div className="text-4xl font-serif font-bold mb-2">2,500+</div>
             <div className="text-muted text-sm uppercase tracking-wide">
@@ -338,7 +337,7 @@ const LandingPage = () => {
       </section>
 
       {/* Editorial Standards Section */}
-      <section className="py-20 bg-primary-light">
+      <section className="py-16 sm:py-20 bg-primary-light px-4">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6">
             Editorial Excellence
@@ -364,12 +363,12 @@ const LandingPage = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-20 bg-white text-center">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6">
+      <section className="py-16 sm:py-20 bg-white text-center px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-4">
             Submit Your Research
           </h2>
-          <p className="text-lg text-text mb-8 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-text mb-6 max-w-2xl mx-auto">
             Join our community of distinguished scholars and contribute to the
             advancement of interdisciplinary research
           </p>
@@ -392,8 +391,8 @@ const LandingPage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-text border-t border-accent-light py-12 text-white">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+     <footer className="bg-text border-t border-accent-light py-12 text-white px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-8 h-8 bg-bg-light rounded flex items-center justify-center">
