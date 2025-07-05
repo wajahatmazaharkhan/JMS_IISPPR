@@ -6,18 +6,18 @@ const EditorialBoard = () => {
     { name: 'Dr. Mayank Kumar', desc: 'Computer Science' },
     { name: 'Dr. Varun Kumar', desc: 'Commerce, Arunachal University of Studies' },
     { name: 'Dr. Faizan Khan Sherwani', desc: 'Management, Jamia Hamdard' },
-    { name: 'Dr. Rahila Rais', desc: 'Hindi, AMU' },
+    { name: 'Dr. Rahila Rais', desc: 'Literature, AMU' },
     { name: 'Dr. Mohd Farooq Khan', desc: 'Literary Critic' },
     { name: 'Dr. Kashif Raees', desc: 'Science, Chandigarh University' },
   ];
 
   const libraryStaff = [
-    { name: 'Adil Raees, B.Lib', desc: 'Librarian' },
+    
   ];
 
   return (
     <div className="min-h-screen bg-primary-light/25">
-      <TopNavbar />
+      {/* <TopNavbar /> */}
       
       {/* Hero Banner */}
       <div className="bg-primary-dark text-white py-12 text-center">

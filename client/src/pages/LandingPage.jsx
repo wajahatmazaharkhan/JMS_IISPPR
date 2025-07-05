@@ -396,12 +396,13 @@ const LandingPage = () => {
               Submission Guidelines
               <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
-            <Link
+            
+            {/* <Link
               to="/blog"
               className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-primary-light transition-colors"
             >
               Editorial Updates
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
