@@ -3,7 +3,6 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, User } from 'lucide-react';
 
 const navLinks = [
-  { to: '/blog', label: 'Blog' },
   { to: '/publisher', label: 'Publisher Details' },
   { to: '/issn', label: 'ISSN Details' },
   { to: '/editions', label: 'Journal Editions' },
