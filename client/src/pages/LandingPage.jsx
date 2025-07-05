@@ -267,10 +267,10 @@ const LandingPage = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
-                to="/research"
+                to="/editions"
                 className="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
               >
-                Browse Articles
+                Browse Journels
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
               <Link
