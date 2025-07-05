@@ -6,7 +6,6 @@ const navLinks = [
   { to: '/blog', label: 'Blog' },
   { to: '/publisher', label: 'Publisher Details' },
   { to: '/issn', label: 'ISSN Details' },
-  { to: '/research', label: 'Research Articles' },
   { to: '/editions', label: 'Journal Editions' },
   { to: '/ethics', label: 'Ethics' },
   { to: '/plagiarism', label: 'Plagiarism Policy' },
@@ -15,7 +14,6 @@ const navLinks = [
 
 const editorialBoardNavLinks = [
   { to: '/issn', label: 'ISSN Details' },
-  { to: '/research', label: 'Research Articles' },
   { to: '/editions', label: 'Journal Editions' },
   { to: '/ethics', label: 'Ethics' },
   { to: '/plagiarism', label: 'Plagiarism Policy' },
@@ -37,8 +35,8 @@ const TopNavbar = () => {
 
   return (
     <header className="h-16 bg-white shadow flex items-center justify-between px-6">
-      <span className="font-bold text-lg tracking-wide">SCIENTIFIC JOURNAL</span>
-
+     <NavLink to="/" className="font-bold text-lg tracking-wide text-black hover:text-blue-700 transition">
+     SCIENTIFIC JOURNAL </NavLink>
       {/* Desktop Nav */}
       <nav className="hidden md:flex items-center space-x-6">
         {currentNavLinks.map((link) => (
