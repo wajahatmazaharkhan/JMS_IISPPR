@@ -4,6 +4,10 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+
+import ScrollToTop from "./components/ScrollToTop";
+import TopNavbar from './components/TopNavbar';
+import { useLocation } from 'react-router-dom';
 import DashboardLayout from "./layouts/DashboardLayout";
 import AdminDashboard from "./pages/dashboards/AdminDashboard";
 import EditorDashboard from "./pages/dashboards/EditorDashboard";
@@ -40,12 +44,16 @@ import LifeCycleEnvironmentalImpactAssessment from "./pages/editions/LifeCycleEn
 import TheTroublingRiseOfRealismOverInstitutionalism from "./pages/editions/TheTroublingRiseOfRealismOverInstitutionalism";
 import ImpactOfTheMaternityBenefitAct from "./pages/editions/ImpactOfTheMaternityBenefitAct";
 
-import ScrollToTop from "./components/ScrollToTop";
 
-function App() {
+
+function AppRoutes() {
+  const location = useLocation();
+
   return (
-    <Router>
+    <>
       <ScrollToTop />
+      {location.pathname !== "/" && <TopNavbar />}
+
       <Routes>
         <Route
           path="/admin"
@@ -134,6 +142,14 @@ function App() {
         />
         <Route path="*" element={<LandingPage />} />
       </Routes>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppRoutes />
     </Router>
   );
 }
