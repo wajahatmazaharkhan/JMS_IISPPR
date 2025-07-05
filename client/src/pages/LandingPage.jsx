@@ -270,7 +270,7 @@ const LandingPage = () => {
                 to="/editions"
                 className="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
               >
-                Browse Journels
+                Browse Journals
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
               <Link
