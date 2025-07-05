@@ -42,6 +42,12 @@ const navLinks = [
     icon: BookOpen,
   },
   {
+    to: "/editorial-board",
+    label: "Editorial Board",
+    desc: "Meet our distinguished editorial board members, library staff, and academic leadership team.",
+    icon: Users,
+  },
+  {
     to: "/ethics",
     label: "Ethics",
     desc: "Read about our publication ethics and standards.",
@@ -126,6 +132,14 @@ const LandingPage = () => {
               >
                 <BookOpen className="w-4 h-4" />
                 <span className="text-sm">Journal Editions</span>
+              </button>
+              <button
+                onClick={() => navigate("/editorial-board")}
+                className="flex items-center space-x-2 px-4 py-2 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
+                aria-label="Editorial Board"
+              >
+                <Users className="w-4 h-4" />
+                <span className="text-sm">Editorial Board</span>
               </button>
               <button
                 onClick={() => setDropdownOpen((v) => !v)}

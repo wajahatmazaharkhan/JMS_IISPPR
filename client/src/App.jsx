@@ -19,6 +19,7 @@ import LandingPage from "./pages/LandingPage";
 import Ethics from "./pages/Ethics";
 import Plagiarism from "./pages/Plagiarism";
 import ContactUs from "./pages/ContactUs";
+import EditorialBoard from "./pages/EditorialBoard";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import WriteContent from "./pages/WriteContent";
@@ -93,6 +94,7 @@ function App() {
         <Route path="/editions" element={<EditionsPage />} />
         <Route path="/ethics" element={<Ethics />} />
         <Route path="/plagiarism" element={<Plagiarism />} />
+        <Route path="/editorial-board" element={<EditorialBoard />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
