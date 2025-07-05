@@ -2,14 +2,16 @@ import articles from "../../data/articles";
 import ArticlePage from "../../components/ArticlePage";
 
 const TheTroublingRiseOfRealismOverInstitutionalism = () => {
-  const article = articles.find((a) => a.id === 3); // ID 
+  const article = articles.find((a) => a.id === 3); // ID
 
   return article ? (
     <ArticlePage
       title={article.title}
       author={article.author}
+      abstract={article.abstract}
       intro={article.intro}
       content={article.content}
+      conclusion={article.conclusion}
       references={article.references}
     />
   ) : (
