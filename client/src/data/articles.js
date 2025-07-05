@@ -8,7 +8,7 @@ const articles = [
     author: "Aindri Sur, Dhairya Maggo, A K Amalnath and Anuj Kumar",
     authorAbbrev: "A. Sur, D. Maggo, and others",
     abstract:
-      "This research paper investigates the persistent literacy disparities in Bihar, Odisha, and West Bengal—three of India’s least literate states—and examines why national and state-level education policies have failed to bridge the gap. Using Kerala’s literacy model as a benchmark, the study identifies systemic barriers such as teacher shortages, poor school infrastructure, and socio-cultural inequality. A comparative analysis reveals that inclusive, community-driven, and digitally adaptive reforms are essential. The paper concludes with scalable policy recommendations to transform education systems and promote equitable literacy development across rural and tribal regions of India.",
+      "This research paper investigates the persistent literacy disparities in Bihar, Odisha, and West Bengal three of India’s least literate states and examines why national and state-level education policies have failed to bridge the gap. Using Kerala’s literacy model as a benchmark, the study identifies systemic barriers such as teacher shortages, poor school infrastructure, and socio-cultural inequality. A comparative analysis reveals that inclusive, community-driven, and digitally adaptive reforms are essential. The paper concludes with scalable policy recommendations to transform education systems and promote equitable literacy development across rural and tribal regions of India.",
     keywords: [
       "Literacy in India",
       "Education disparities in India",
@@ -289,62 +289,89 @@ const articles = [
       {
         heading:
           "Academia.edu. (2024). The impact of work related stress on mental health and influence on parenting practices among working mothers: A review analysis. International Journal of Multidisciplinary Educational Research, 13(3–4).",
+        links:
+          "https://www.academia.edu/121774388/THE_IMPACT_OF_WORK_RELATED_STRESS_ON_MENTAL_HEALTH_AND_INFLUENCE_ON_PARENTING_PRACTICES_AMONG_WORKING_MOTHERS_A_REVIEW_ANALYSIS",
       },
       {
         heading:
           "Jenkins, M. (2020, March 11). Small firms in India admit to hiring fewer women because of maternity leave costs: Survey. People Matters.",
+        links:
+          "https://www.peoplematters.in/article/benefits-and-rewards/small-firms-in-india-admit-to-hiring-fewer-woman-because-of-maternity-leave-costs-survey-24966",
       },
       {
         heading:
           "Kapoor, V., Yadav, J., Bajpai, L., & Srivastava, S. (2021). Perceived stress and psychological well being of working mothers during COVID 19: A mediated moderated roles of teleworking and resilience. Employee Relations.",
+        links: "https://doi.org/10.1108/ER-05-2020-0244",
       },
       {
         heading:
           "Thomas, A. J., & Sudhesh, N. T. (2023). Travails of new mothers returning to work in corporate India: A phenomenological study. Journal of International Women's Studies, 25(7), Article 11.",
+        links: "https://vc.bridgew.edu/jiws/vol25/iss7/11",
       },
       {
         heading:
           "Stumbitz, B. (2018). Maternity management in SMEs: A transdisciplinary review and research agenda. International Journal of Management Reviews.",
+        links: "https://onlinelibrary.wiley.com/doi/full/10.1111/ijmr.12143",
       },
       {
         heading:
           "Newslaundry. (2024, August 12). 94% working Indian women without workplace maternity benefits. Newslaundry.",
+        links:
+          "https://www.newslaundry.com/2024/08/12/94-working-indian-women-without-workplace-maternity-benefits",
       },
       {
         heading:
           "Scroll.in. (2017). Maternity benefits: There's a yawning gap between women who work in the formal and informal sectors. Scroll.in.",
+        links:
+          "https://scroll.in/article/826883/maternity-benefits-theres-a-yawning-gap-between-women-who-work-in-the-formal-and-informal-sectors",
       },
       {
         heading:
           "Khurana & Khurana. (2024, February 29). Maternity Benefit Act in India: Empowering women in the workplace. Khurana & Khurana.",
+        links:
+          "https://www.khuranaandkhurana.com/2024/02/29/maternity-benefit-act-in-india-empowering-women-in-the-workplace/",
       },
       {
         heading:
           "Feminism in India. (2024, May 15). Empowering working women through maternity benefit law. Feminism in India.",
+        links:
+          "https://feminisminindia.com/2024/05/15/empowering-working-women-through-maternity-benefit-law/",
       },
       {
         heading:
           "'Maternity leave policy in India: Understanding rules, benefits, eligibility.' (2024, May 6). Forbes India.",
+        links:
+          "https://www.forbesindia.com/article/explainers/maternity-leave-policy/92921/1",
       },
       {
         heading:
           "Venugopal, V. (2023, August 25). Analysis: Women working on contract deserve maternity benefits too. NDTV.",
+        links:
+          "https://www.ndtv.com/india-news/analysis-women-working-on-contract-deserve-maternity-benefits-too-4329750",
       },
       {
         heading:
           "Deka, M. (2016, October 26). How companies are engaging women on maternity leaves? People Matters.",
+        links:
+          "https://www.peoplematters.in/article/compensation-benefits/how-companies-are-engaging-women-on-maternity-leaves-14369",
       },
       {
         heading:
           "Shrivastava, A. (2018, March 9). Economic and talent implications of maternity benefits amendment Act. People Matters.",
+        links:
+          "https://www.peoplematters.in/article/diversity/economic-and-talent-implications-of-maternity-benefits-amendment-act-17687",
       },
       {
         heading:
           "Banerjee, P., Biswas, S., & Mazumder, D. (2024, March 4). All is not well: Unintended consequences of maternity leave policy in India. Ideas for India.",
+        links:
+          "https://www.ideasforindia.in/topics/urbanisation/all-is-not-well-unintended-consequences-of-maternity-leave-policy-in-india.html",
       },
       {
         heading:
           "Rajeshwari, T. S. K., Thakur, A. N., & Ojha, M. (2024, August 12). Workplace maternity benefits elude 94% working Indian women. IndiaSpend.",
+        links:
+          "https://www.indiaspend.com/womenwork/workplace-maternity-benefits-elude-94-working-indian-women-919567",
       },
     ],
   },

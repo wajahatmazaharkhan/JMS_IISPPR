@@ -8,8 +8,10 @@ const PrimaryHealthCareAndForeignPolicy = () => {
     <ArticlePage
       title={article.title}
       author={article.author}
+      abstract={article.abstract}
       intro={article.intro}
       content={article.content}
+      conclusion={article.conclusion}
       references={article.references}
     />
   ) : (
