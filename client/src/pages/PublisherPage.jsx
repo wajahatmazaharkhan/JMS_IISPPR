@@ -55,10 +55,10 @@ const PublisherPage = () => (
           For more information about the publisher, journal, or publication
           process, contact us at
           <a
-            href="mailto:submissions@ldt-journal.org"
+            href="mailto:iisppresearch@gmail.com"
             className="text-accent underline ml-1"
           >
-            submissions@ldt-journal.org
+            iisppresearch@gmail.com
           </a>
           .
         </p>
