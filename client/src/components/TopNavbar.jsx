@@ -5,6 +5,7 @@ import { Menu, X, User } from 'lucide-react';
 const navLinks = [
   { to: '/publisher', label: 'Publisher Details' },
   { to: '/issn', label: 'ISSN Details' },
+  { to: '/research', label: 'Research Articles' },
   { to: '/editions', label: 'Journal Editions' },
   { to: '/ethics', label: 'Ethics' },
   { to: '/plagiarism', label: 'Plagiarism Policy' },
@@ -13,6 +14,7 @@ const navLinks = [
 
 const editorialBoardNavLinks = [
   { to: '/issn', label: 'ISSN Details' },
+  { to: '/research', label: 'Research Articles' },
   { to: '/editions', label: 'Journal Editions' },
   { to: '/ethics', label: 'Ethics' },
   { to: '/plagiarism', label: 'Plagiarism Policy' },

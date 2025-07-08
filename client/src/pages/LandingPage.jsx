@@ -27,14 +27,12 @@ const navLinks = [
     desc: "View ISSN registration, journal metrics, and indexing information.",
     icon: FileText,
   },
-  /*
   {
     to: "/research",
     label: "Research Articles",
     desc: "Explore our extensive collection of peer-reviewed research publications.",
     icon: Search,
   },
-  */
   {
     to: "/editions",
     label: "Journal Editions",
@@ -267,11 +265,17 @@ const LandingPage = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
-                to="/editions"
+                to="/research"
                 className="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
               >
-                Browse Journals
+                Browse Articles
                 <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+              <Link
+                to="/research"
+                className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-primary-light transition-colors"
+              >
+                Research Articles
               </Link>
               <Link
                 to="/publisher"

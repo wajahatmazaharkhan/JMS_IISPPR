@@ -2,7 +2,7 @@ import TopNavbar from '../components/TopNavbar';
 
 const EditorialBoard = () => {
   const boardMembers = [
-    { name: 'Dr. Abuzar Nomani', desc: 'Assoc. Prof. – Business Management, CV Raman Global University' },
+    { name: 'Dr. Abuzar Nomani', desc: 'Assoc. Prof. -fix al Business Management, CV Raman Global University' },
     { name: 'Dr. Mayank Kumar', desc: 'Computer Science' },
     { name: 'Dr. Varun Kumar', desc: 'Commerce, Arunachal University of Studies' },
     { name: 'Dr. Faizan Khan Sherwani', desc: 'Management, Jamia Hamdard' },
