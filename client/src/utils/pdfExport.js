@@ -415,7 +415,11 @@ export const generateArticlePDF = async (articles) => {
   pdf.setFont('helvetica', 'italic');
   pdf.setTextColor(100, 100, 100);
   checkPageBreak(lineHeight + 5);
-  pdf.text(`By ${articles.author}`, margin, yPosition);
+  const authorLines = pdf.splitTextToSize(`${articles.author}`, contentWidth);
+  authorLines.forEach(line => {
+    pdf.text(line, margin, yPosition);
+    yPosition += 8;
+  });
   yPosition += lineHeight + 15;
 
   // Abstract

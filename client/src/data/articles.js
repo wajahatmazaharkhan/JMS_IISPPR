@@ -1078,6 +1078,167 @@ const articles = [
       },
     ],
   },
+  {
+    id: 7,
+    issue: 1,
+    volume: 1,
+    title: "PROJECTING CULTURE, SHAPING PERCEPTIONS: INDIA’S USE OF CULTURAL DIPLOMACY FOR GLOBAL ENGAGEMENT",
+    author: "Laura Nnamdi, Rishabh Kanojia, Ashita Shankarson, Sarvesh A Gurav, Mohammad Raafi, Nidhi Kapoor",
+    authorAbbrev: "L. Nnamdi, R. Kanojia, and others",
+    abstract: "This paper explores India's use of cultural diplomacy as a tool for global engagement, highlighting its historical roots, institutional frameworks, and contemporary initiatives. It examines how India leverages its rich cultural heritage, diaspora, and soft power assets like Yoga, Bollywood, and Ayurveda to foster international relations and mutual understanding. The study also addresses challenges such as institutional fragmentation and overreliance on select cultural exports, while proposing strategic recommendations for enhancing India's cultural diplomacy efforts. Key successes, including the International Day of Yoga and the WAVES Summit, underscore India's potential as a global cultural leader.",
+    keywords: ["Cultural Diplomacy","Soft Power", "India", "Global Engagement", "Diaspora", "Yoga", "Bollywood", "Institutional Framework", "International Relations", "WAVES Summit"],
+    status: "Submitted",
+    intro: [
+      "Cultural diplomacy, although rooted in age-long cross-cultural interactions (Grincheva, 2023), is a 21st century’s pillar of soft power in foreign policy and diplomatic relations. It is a branch of foreign policy where countries utilise the uniqueness of their culture to facilitate their diplomatic goals. According to Milton Cummings, cultural diplomacy can be described as the “exchange of ideas, information, art, language and other aspects of culture among nations and peoples in order to foster mutual understanding” (UNESCO, 2023).",
+      "Made up of people from diverse religions, languages, cultures and regions, India is not new to the concept of cross-cultural relations. At the national level, India practices interculturalism, encouraging regional diversity and acceptance by promoting pluralism (Manian & Naidu, 2009).  At the global stage, India engages in cultural exchange, sharing its cultural practices with the rest of the world in its diplomatic pursuit. In multilateral forums such as the United Nations, India has emphasised cultural heritage as a universal connector. India’s role in founding the International Solar Alliance aimed at promoting sustainable development in the world’s environment is founded on ancient Indian philosophies like the Prakriti Dharma (harmony with nature) (Mohanapriya & Suriya, 2025). This subtly links India’s past with a vision for the future. Moreover, India's engagement with Africa, Southeast Asia, and Latin America is increasingly rooted in cultural commonalities. Initiatives like Bharat Ko Janiye (Know India Programme) for youth of Indian origin and cultural festivals (Douw et al., 2024) organised through embassies promote mutual respect and cooperation.",
+      "This paper, therefore, reviews India’s use of cultural diplomacy as an important diplomatic approach for positive and peaceful global engagement. In it, the authors examine the historical roots of cultural diplomacy and explore its application within the Indian context, citing select concepts as examples. Furthermore, the paper distils the challenges and successes stemming from India’s diplomatic use of culture as a significant political influence, suggesting recommendations for future initiatives."
+    ],
+    content:[
+      {
+        heading:"Background and Literature Review",
+        paragraphs: [
+          "Since antiquity, India’s engagement with the world has been deeply cultural. As quoted in “India’s Cultural Diplomacy: Present Dynamics, Challenges, and Future Prospects” by Bhanu Pratap, C. Raja Mohan mentions that “India's self-discovery of its rich cultural heritage and its global reach played an important role in shaping its modern nationalism.” In the post-independence scenario, the Indian government has promoted cultural diplomacy through various means; some examples include the Buddhism tourism circuit in the eastern parts of India, as mentioned by Pranay Kumar in “Soft Power and Cultural Diplomacy in the Contemporary World.” According to Shetty and Sehgal in their article “India's Soft Power: Challenges and Opportunities,” India’s cultural diplomacy is exercised through a complex engagement of state and non-state actors. “Red Lantern Analytica (2024)” highlights India's soft power limitations due to institutional fragmentation, overreliance on select cultural exports like Yoga and Bollywood, and lack of evaluation frameworks. “UN (2014)” affirms India’s global cultural influence through the International Day of Yoga, recognized in over 190 countries, marking a major success in soft power diplomacy.",
+        ],
+      },
+      {
+        heading: "Historical Roots",
+        paragraphs: [
+          "After gaining independence, India's engagement with the world wasn't just political or economic-it was deeply cultural, shaped by the richness of its civilizational heritage. The spirit of the Bhakti movement, with its message of love, equality, and devotion, found a renewed voice in this new era. Saints like Kabir and Meera, who spoke across caste and creed, became quiet ambassadors of India's inclusive ethos, especially through diaspora-led cultural festivals and performances abroad. India also began using its spiritual heritage as a form of soft diplomacy. Sacred relics—especially Buddhist ones—were sent on international tours, creating bridges of faith and friendship. At the same time, India sought to bring home important artifacts from overseas, symbolically reclaiming its past and reaffirming its identity on the world stage.(ICCR 2024)",
+          "The Indian diaspora, shaped by histories of colonial-era migration, played a key role in carrying these traditions forward. Across Africa, the Caribbean, Southeast Asia, and the Pacific, these communities preserved languages, rituals, and festivals, becoming cultural anchors in faraway lands.",
+          "Old Buddhist ties with countries like Japan, Thailand, and Sri Lanka were reawakened through initiatives like the revival of Nalanda University and the creation of the Buddhist Circuit—efforts that highlighted shared history and spiritual bonds.(IJHAMS-Bhanu Pratap, 2015)",
+          "Even ancient trade routes—once busy with spices, silk, and stories—were reimagined as cultural highways, reminders that India had long been a crossroads not just of commerce but of ideas and philosophies.",
+          "As a founding member of the Non-Aligned Movement, India didn’t just promote political neutrality; it also brought forward values deeply rooted in its civilizational soul—non-violence, pluralism, and solidarity. In doing so, India showed the world that its cultural identity wasn’t a relic of the past, but a living force shaping its place on the global stage. However, the implementation happened over a complex interplay of state and non-state mechanisms, creatively stationed to satiate India’s growing ambitions to portray its cultural image."
+        ],
+      },
+      {
+        heading: "Institutional Framework",
+        paragraphs: [
+          "Through state diplomacy as well as through the very structure of the state itself, the Indian state plays a big role in cultural diplomacy. Being a democracy, rather the world’s largest democracy, naturally adds to it as one of its key advantages, and so do its democratic institutions in better connecting with a shared cohort of values and belief systems (Shetty & Sehgal, 2019). The MEA’s Public Diplomacy Division and the Indian Council for Cultural Relations (ICCR) were established for this very purpose.",
+          "The ICCR, with centres in around 37 countries, plays a direct role in augmenting people’s cultural knowledge about India. Alongside it strives to revive and strengthen the cultural ties between India and other countries (Chakraborty, 2019). However, the central task of planning, designing, and implementing public diplomacy programmes in cooperation with relevant government and non-governmental agencies rests with the MEA’s Public Diplomacy Division. The Public Diplomacy Division, which, after its 2014 merger with the External Publicity Division, became the External Publicity and Public Diplomacy Division, is entrusted with four key responsibilities (not limited to). These include the production of audio-visual and print materials portraying the rich cultural spectrum of India, organising outreach activities for creating a more sympathetic image of India and its foreign policy, organising seminars and conferences in collaboration with Indian and foreign universities, think tanks, and chambers of commerce, and hosting delegations from various foreign countries and organisations to India (Laskar, 2019). Besides the institutions, the government has tended to exploit the benefits accrued through its huge diaspora by holding conventions like the Pravasi Bharatiya Divas (PBD), utilised the civilisational connect with various Asian countries, and curated tourism outreach initiatives like the Incredible India campaign to leverage its cultural diplomacy.",
+          "However, the best soft power deliverables are rarely state-driven; rather, they are mostly exercised through private institutions or individuals. In India’s case, Bollywood, Indian television serials, BCCI, cuisine, classical art, and music have gained significant clout, at times in collaboration with the state, to propagate India’s image abroad. Bollywood movies have long enjoyed unparalleled popularity globally, with audiences hailing not just from South Asia, but also from Central Asia, West Asia, parts of Africa, and Latin America. Added, considerable leverage comes from the excruciating popularity of some Indian celebrities. Next in line, the Indian soap operas have proved themselves as no less. Serials like Balika Vadhu, Kyunki Saas Bhi Kabhi Bahu Thi, and most recently Anupama have huge digital impressions recorded from several countries. Similarly, the Indian Premier League has been part of the popularity bandwagon since its initiation. In terms of Indian art and music, artists like Pandit Ravi Shankar, Lata Mangeshkar and A.R. Rahman, fashion designers like Manish Malhotra and Sabyasachi, chefs like Vikas Khanna, Sanjeev Kapoor and Vineet Bhatia are recognised worldwide. Together they help exude an increased respect for India, its culture and its diversity (Shetty & Sehgal, 2019)."
+        ],
+      },
+      {
+        heading: "Contemporary Cultural Diplomacy Initiatives",
+        paragraphs: [
+          "India's contemporary cultural diplomacy policy rests primarily on its civilizational self-image as a Vishwaguru (mentor to the world) and Vishwabandhu (world friend), positioning itself as an advocate of peace, discussion, and “Vasudhaiva kutumbakam” collective prosperity. Within the Vishwaguru framework, India showcases its ancient epistemological systems—like Yoga, Ayurveda, and Sanskrit—as global public goods. The UN's International Day of Yoga, (UN, 2014) launched by Prime Minister Narendra Modi in 2014 and embraced by the UN the same year, is today observed in more than 190 nations and is often viewed as India's greatest cultural export success. India’s Vishwabandhu identity is backed by its compassionate initiatives like Vaccine Maitri, cultural solidarity with the Global South, and cultivating value-based cooperation through the cultural track of the G20 under India's 2023 Presidency (G20, 2023).",
+          "Pravasi Bharatiya Divas, is observed every two years to acknowledge and celebrate the Indian diaspora's contribution to national growth and its vast international reach. The MEA has also launched Initiatives such as the “Bharat Ko Janiye Quiz” which aims to promote cultural identity for second- and third-generation Indian diaspora abroad through interactive sessions and tailored visits to India (MEA, 2024). One of the most successful initiatives is the “Festival of India Abroad”, celebrated in 50+ countries on themes such as Namaste India (Japan) and India by the Nile (Egypt). These government-sponsored events feature Indian dance, food, films, and crafts, underlining bilateral cultural relations (ICCR, 2024).",
+          "“Repatriation of heritage” is another high-engagement diplomatic initiative that can be included under the cultural diplomacy of India. Since 2014, India has repatriated more than 300 stolen artefacts from nations like the U.S, U.K, and Australia reflecting a commitment for restoration of its centuries old civilizational pride. (MOC, 2023).",
+          "In addition, India has welcomed digital cultural diplomacy. The 2023 G20 Culture Track, with the theme Culture Unites All, focused on heritage protection, cultural diversity, and sustainability, thus incorporating culture into the broader foreign policy domain. The most significant milestone in India's cultural diplomacy this year is the Waves Summit (Waves, 2025), which was launched on 12th June in Mumbai. Organized by Reliance and backed by the government, it established India as a global creative hub. With the involvement of 90+ nations, ₹1,300 crore value deals, and the WAVES Declaration signed by 77 countries, the summit promoted Indian content, crafts, and stories around the world. Initiatives such as WAVES Bazaar and 'Create in India' challenges highlighted India's creative economy and growing soft power."
+        ],
+      },
+      {
+        heading: "India’s Image: Perceptions around the world",
+        paragraphs: [
+          "One of the key sources of India’s cultural diplomacy has been its diaspora. Aside from its home country, the Indian diaspora is one of the world's largest populations, with members in practically every country. The Indian diaspora vies with other ethnic groups for political and economic influence in many nations worldwide. In industrial nations including the United States, the United Kingdom, Canada, Australia, and New Zealand, India also has a notable footprint. The Indian population mostly serves as a type of soft power in these countries. As per UN Global migration report of 2020, approximately 17.5 million people who identify Indian origin live outside their native country (Singh, 2020). From ancient times to the colonial era and even into the twenty-first century with globalization, this diaspora has evolved across history since the time of the early recorded Indian kingdoms. Motherland has been greatly influenced by the varied ages of Indian migration to several regions of the world.",
+          "The Indian diaspora has really been quite engaged in the development of India. It has become more and more clear that India relies on the Indian diaspora for its survival over time. The growth of India has depended much on the philanthropic activities and development of its people living abroad who have sent money back home. Investments made by entrepreneurs from the Indian diaspora have helped to improve the Indian economy. Becoming a major soft power, Indian Diasporas help to define India's links with the nations they live.",
+          "Views in North America often mix interest in India's spiritual practices (such as Yoga and Ayurveda) and its growing technology sector, meanwhile tackling concerns about human rights issues and administrative challenges. In this sense, cultural diplomacy often centre on the vast Indian diaspora, therefore improving relations via festivals, traditional arts, and educational initiatives. Bollywood has a small but devoted following. But to solve erratic communication and opposing narratives, it is widely accepted that India's entertainment business and cultural legacy must be used more systematically.",
+          "European points of view differ greatly. Countries like the UK, which have historical links, frequently view India from a viewpoint formed by their shared history—sometimes influenced by vestiges of colonialism. Germany and France might start to focus more on the economic potential of contemporary India. Along with classical music, dance, and the range of Indian celebrations, cultural diplomacy often highlights Yoga and Ayurveda.",
+          "India's cultural diplomacy in Africa is especially noteworthy, often drawing on historical links and common experiences as countries still evolving. With a large and long-lasting audience, Indian film, often referred to as Bollywood, influences local fashions, music, and social values. Cultural ideas are exchanged greatly valued by the Indian diaspora. Initiatives like International Day of Yoga and promotion of Ayurveda are much appreciated. India's emphasis on improving abilities and fostering South- South cooperation through cultural exchanges helps to build a good image, sometimes seen as a reliable development partner.",
+          "Many years of sea trade and the spread of Hinduism and Buddhism have given India a major historical and cultural influence in this region. In the language, architecture, and art of the region, this 'Indic' influence is very strong. Encouraging tourism, building Buddhist circuit schemes, arranging cultural celebrations (like Namaste India), and encouraging academic collaborations help to strengthen these long-running relationships.",
+          "Strong underpinnings result from historic ties, Sufi traditions, and the common religious significance (for Indian Muslims doing Hajj/Umrah). Views in the Middle East are largely influenced by the large Indian population working in the Gulf, which helps to raise both economies. Moreover, the Diaspora also has considerable influence on the bilateral relations between the two countries. Hence, it is essential for the Indian Government to ensure the wellbeing of the Diaspora either through appropriate policy measures or by engaging in dialogue and deliberations with the Middle East (Biswas, 2020). Recent initiatives like the BAPS temple in the UAE reflect the growing cultural ties as well as robust financial and strategic partnerships like the India-Middle East-Europe Economic Corridor (IMEC).The Indian diaspora is a powerful instrument of India’s soft power, promoting cultural, economic, and diplomatic influence globally. By organizing cultural events, contributing economically, and advocating for India’s interests, the diaspora enhances India’s global image (Hussain & Rather, 2022)."
+        ],
+      },
+      {
+        heading: "Challenges and Criticisms",
+        paragraphs: [
+          "Despite its increasing cultural presence, India's cultural diplomacy is plagued by several structural and strategic issues of which Institutional fragmentation is one such big problem. The ICCR, the Ministry of External Affairs' Public Diplomacy Division and other state initiatives, often operate independently, with little to no coordination between them. This prevents effective cultural diplomacy and results in duplication and watering down of efforts. Another major concern is the lack of strong financial support, which hinders consistency of programmes— compared to more traditionally 'culture-supporting' nations such as China or the UK.",
+          "India's cultural diplomacy is also threatened by its overdependence on Yoga, Ayurveda, and Bollywood, restricting resonance in areas such as Latin America, Francophone Africa, and Eastern Europe where local adaptation is poor. Most initiatives are on an ad-hoc basis and event-based, with no formal feedback or evaluation processes. Language issues, inadequate funding, and lack of coordination further undermine long-term influence. ",
+          "Still, when done well and consistently, India's cultural diplomacy has proven to be powerful. The International Day of Yoga is the best example for sustained long-term international engagement that emphasizes India's civilizational values. The 2025 WAVES Summit which showed India's capacity to link culture with commerce and innovation by inviting 90+ nations and securing significant economic alliances is also a great example of India's most recent success in its global engagement efforts (Waves, 2025). Digital cultural diplomacy post-pandemic has also played a key role in improving access to India's culture, particularly through online exhibitions and webinars."
+        ],
+      },
+    ],
+    conclusion: [
+      {
+        heading: "The Road Ahead (Nidhi)",
+        paragraphs: [
+          "India is currently positioned at a pivotal moment in history, where its deep-rooted civilizational heritage and growing international influence create a distinctive opportunity to reshape and strengthen its approach to cultural diplomacy. What was once a symbolic soft power gesture must now evolve into a coherent, inclusive, and strategic global engagement model. While India’s cultural assets—ranging from Yoga and Ayurveda to cinema, cuisine, and diaspora connections—are globally recognized, their full potential remains underutilized due to fragmented outreach, limited coordination, and inadequate resourcing.",
+          "The road ahead demands a fundamental rethinking of both policy and implementation. The Standing Committee on External Affairs has laid a foundation for this transformation, emphasizing the urgent need to restructure the Indian Council for Cultural Relations (ICCR)—India’s primary cultural outreach body. A clearly defined mandate, decentralized functioning, and a ₹500 crore budget enhancement are essential first steps to ensure ICCR can respond effectively to global cultural demands.",
+          "Equally critical is institutional coordination. India must break down silos between the Ministry of External Affairs, Ministry of Culture, Ministry of Education, and other stakeholders. A formal coordination committee and joint working groups should drive a unified cultural diplomacy strategy, with shared databases and measurable objectives tailored to regional contexts.",
+          "Looking forward, India must adopt continent-specific cultural strategies. Africa would benefit from collaborative art and heritage programs; Latin America could respond to Ayurveda and wellness diplomacy; and East Asia holds promise for cinema and literary outreach. These engagements must be grounded in authenticity and inclusivity, avoiding cultural appropriation and ideological overtones that risk alienating global audiences.",
+          "Digital platforms, storytelling tools, and diaspora-led outreach will be crucial to making India’s culture more accessible and engaging. A Yoga Certification Board, as proposed by the Committee, can help preserve the integrity of Indian traditions in global practice. Meanwhile, tourism promotion should follow a country-specific model informed by real-time visitor feedback, supported by expanded overseas tourism offices.",
+          "Finally, India must address internal contradictions—such as rising intolerance and gender-based violence—that undermine its external cultural messaging. A credible, values-based diplomacy begins at home.",
+          "In sum, India’s future as a global cultural leader depends not just on celebrating its heritage but on strategically investing in, coordinating, and evolving its cultural diplomacy. The next phase must be proactive, inclusive, digitally savvy, and globally adaptive."
+        ],
+      }
+    ],
+    references: [
+      {
+        heading: "Shetty, Salil & Sahgal, Tara. (2019). India's Soft Power: Challenges and Opportunities. (Occasional Paper) Rajiv Gandhi Institute for Contemporary Studies",
+      },
+      {
+        heading: "Chakraborty, Sreshtha. (2019, December 12). Tools of India’s Cultural Diplomacy: An Overview. International Journal of Arts, Humanities, and Management Studies, Volume 5",
+        links: "< http://ijahms.com/upcomingissue/01.12.2019.pdf>",
+      },
+      {
+        heading: "Laskar, Rejaul. (2019). India’s Public Diplomacy-The Institutional Framework. International Journal of Innovative Studies in Sociology and Humanities, Volume 4",
+        links: "< https://ijissh.org/storage/Volume4/Issue2/IJISSH-040210.pdf>",
+      },
+      {
+        heading: "Biswas, S. (2020, June 18). Indian diaspora in the Middle East. The Kootneeti.",
+        links: "https://thekootneeti.in/2020/06/18/indian-diaspora-in-the-middle-east/",
+      },
+      {
+        heading: "Malik Basharat Hussain. (2022). The Indian Diaspora as a soft power tool: Enhancing India’s global influence. INTERNATIONAL JOURNAL OF FOOD AND NUTRITIONAL SCIENCES (IJFANS), 11(3). ",
+        links: "https://www.ijfans.org/uploads/paper/09fb4e5a6d6d80a6ed618bf842140e86.pdf",
+      },
+      {
+        heading: "Singh, S. (2020). India’s diaspora diplomacy in the twenty-first century [Peer-Reviewed, Refereed, Indexed Journal]. Shikshan Sanshodhan : Journal of Arts, Humanities and Social Sciences, 3(6), 7. ",
+        links: "https://shikshansanshodhan.researchculturesociety.org (Original work published 2020)",
+      },
+      {
+        heading: "Grincheva, N., “The Past and Future of Cultural Diplomacy”. 2023 vol 30. International Journal of Cultural Policy accessed at  ",
+        links: "https://doi.org/10.1080/10286632.2023.2183949",
+      },
+      {
+        heading: "UNESCO, “Cutting Edge | From Standing out to Reaching Out: Cultural Diplomacy for Sustainable Development” (UNESCO News, 20 April 2023) accessed at ",
+        links: "https://www.unesco.org/en/articles/cutting-edge-standing-out-reaching-out-cultural-diplomacy-sustainable-development#:~:text=Cultural%20diplomacy%20is%20the%20%E2%80%9Cexchange,Milton%20Cummings ",
+      },
+      {
+        heading: "Ranjini, M. and Shobha, N., “India: A Cross-Cultural Overview of Intercultural Competence” in Deardoff, DK. (ed.) The Sage Handbook of Intercultural Competence  2009.  Sage Publications. accessed at ",
+        links: "https://adrvantage.com/wp-content/uploads/2023/02/Communications-and-Persuasion-Hoveland-et-al..pdf#page=248 ",
+      },
+      {
+        heading: "Douw, J., Lee, K., Tarnovski, RS. and Sen SK., “Diaspora Trade and Investment: Applied Research Project 2023/2024.” 2024. OECD. accessed at ",
+        links: "https://www.graduateinstitute.ch/sites/internet/files/2024-09/ARP-2024---Diaspora-Trade-and-Investment---Riane-Lais-Tarnovski.pdf ",
+      },
+      {
+        heading: "Mohanapriya, B. and Suriya, M., 2025. INDIAN KNOWLEDGE SYSTEMS: Principles and Practices. SSS PUBLICATIONS.",
+      },
+      {
+        heading: "International Day of Yoga. (n.d.). Retrieved from",
+        links: "https://www.un.org/en/observances/yoga-day ",
+      },
+      {
+        heading: "ICCR, I. (2024). Annual Reports & Accounts. Annual Reports & Accounts | Official website of Indian Council for Cultural Relations, Government of India.",
+        links: "https://iccr.gov.in/annual-reports",
+      },
+      {
+        heading: "G20, P. (2023, August 26). The G20 culture ministers’ meeting, under India’s presidency, concluded today in Varanasi, Uttar Pradesh. The G20 Culture Ministers’ Meeting.",
+        links: "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1952542",
+      },
+      {
+        heading: "UN, U. (2014). International Day of Yoga. United Nations.",
+        links: " https://www.un.org/en/observances/yoga-day#:~:text=Recognizing%20its%20universal%20appeal%2C%20on%2011%20December%202014%2C,worldwide%20of%20the%20many%20benefits%20of%20practicing%20yoga",
+      },
+      {
+        heading: "MEA, M. (2024, September 18). MEA | know India programme. Know India Programme. ",
+        links: "https://www.mea.gov.in/know-india-programme.htm",
+      },
+      {
+        heading: "MOC, M. (2023, December 22). Year end review 2023: Ministry of Culture. Year End Review 2023: Ministry of Culture. ",
+        links: "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1989737",
+      },
+      {
+        heading: "TOI Sports Desk / TIMESOFINDIA.COM / Jun 11, 2025. (2025, June 11). Wuthering Waves 2.4 release date, Banner characters and more: Esports News - Times of India. The Times of India. ",
+        links: "https://timesofindia.indiatimes.com/sports/esports/news/wuthering-waves-2-4-release-date-banner-characters-and-more/articleshow/121772163.cms#:~:text=Global%20Launch%20Times%3A%20The%20Countdown&text=Here’s%20a%20quick%20look%20at,June%2012%2C%208%3A30%20AM",
+      },
+      {
+        heading: "Viswanathan .H(2019).India’s Soft Power Diplomacy. Ministry of external affairs, India",
+        links: "https://www.mea.gov.in/distinguished-lectures-detail.htm?850",
+      },
+    ],
+  },
 ];
 
 export default articles;

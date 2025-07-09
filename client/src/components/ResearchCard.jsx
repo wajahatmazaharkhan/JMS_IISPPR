@@ -10,6 +10,7 @@ const articleRoutes = {
   4: "/Life-Cycle-Environmental-Impact-Assessment",
   5: "/Greenwashing-In-Corporate-Branding",
   6: "/Primary-Health-Care-And-Foreign-Policy",
+  7: "/Projecting-Culture-Shaping-Perceptions",
 };
 
 const ResearchCard = ({ articles, onDelete }) => {

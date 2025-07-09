@@ -43,6 +43,7 @@ import PrimaryHealthCareAndForeignPolicy from "./pages/editions/PrimaryHealthCar
 import LifeCycleEnvironmentalImpactAssessment from "./pages/editions/LifeCycleEnvironmentalImpactAssessment";
 import TheTroublingRiseOfRealismOverInstitutionalism from "./pages/editions/TheTroublingRiseOfRealismOverInstitutionalism";
 import ImpactOfTheMaternityBenefitAct from "./pages/editions/ImpactOfTheMaternityBenefitAct";
+import ProjectingCultureShapingPerceptions from "./pages/editions/ProjectingCultureShapingPerceptions";
 
 
 
@@ -139,6 +140,10 @@ function AppRoutes() {
         <Route
           path="/Impact-Of-The-Maternity-Benefit-Act"
           element={<ImpactOfTheMaternityBenefitAct />}
+        />
+        <Route
+          path="/Projecting-Culture-Shaping-Perceptions"
+          element={<ProjectingCultureShapingPerceptions />}
         />
         <Route path="*" element={<LandingPage />} />
       </Routes>
