@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import articleData from "../data/articles";
 import ResearchCard from "../components/ResearchCard";
 import articles from "../data/articles";
+import ResearchEnhancements from '../components/ResearchEnhancements';
 
 const EditionsPage = () => {
   const [downloading, setDownloading] = useState({});
@@ -44,6 +45,7 @@ const EditionsPage = () => {
 
   return (
     <div className="bg-primary-light/25 px-4 py-12">
+      <ResearchEnhancements />
       <div className="mx-auto max-w-7xl space-y-10">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <h1 className="text-3xl font-serif font-bold text-primary">
