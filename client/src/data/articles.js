@@ -690,22 +690,14 @@ const articles = [
       },
     ],
     conclusion: [
-      {
-        heading: "Expected Outcomes",
-        paragraphs: [
-          "We expect green, grey, and blue hydrogen to show distinctly different life-cycle environmental profiles. In terms of GWP, grey hydrogen is anticipated to be the highest. Literature reports grey H₂ GWP on the order of 10–15 kg CO₂e per kg H₂ (cradle-to-gate).",
-          "In contrast, green hydrogen powered by renewables can be an order of magnitude lower: Patel et al. found wind-based electrolysis as low as 0.6 kgCO₂/kg and even solar-based ~2.5 kgCO₂/kg; overall averages for renewables-powered electrolysis are around 2.0 kgCO₂/kg.",
-          "Blue hydrogen falls in between: e.g. Patel et al. report ~7.6–9.3 kgCO₂/kg H₂ for natural gas routes with CCS. Under best-case conditions (high CO₂ capture, very low methane leakage), blue H₂ GWP can approach only a few kgCO₂/kg (comparable to the upper end of green H₂).",
-        ],
-      },
-      {
-        heading: "Alignment with Sustainable Development Goals (SDGs)",
-        paragraphs: [
-          "Important UN SDGs are directly supported by this analysis. Because it encourages clean fuels and applies life-cycle thinking to resource use, assessing low-carbon hydrogen pathways advances SDG7 (Affordable and Clean Energy) and SDG12 (Responsible Consumption and Production).",
-          "By measuring the GHG emissions of each hydrogen route, it also addresses SDG 13 (Climate Action), guiding decisions that lessen their impact on the climate. By showing that green H₂ production (using renewables) can almost completely eliminate CO₂ emissions per unit of energy, for instance, policies and investments in clean energy infrastructure are encouraged.",
-          "The findings will, in general, direct sustainable energy transitions by determining which hydrogen technologies best fulfil the targets of SDGs 7/12/13 and by emphasising the significance of incorporating emissions controls and renewable power into hydrogen strategies.",
-        ],
-      },
+      "Expected Outcomes",
+      "We expect green, grey, and blue hydrogen to show distinctly different life-cycle environmental profiles. In terms of GWP, grey hydrogen is anticipated to be the highest. Literature reports grey H₂ GWP on the order of 10–15 kg CO₂e per kg H₂ (cradle-to-gate).",
+      "In contrast, green hydrogen powered by renewables can be an order of magnitude lower: Patel et al. found wind-based electrolysis as low as 0.6 kgCO₂/kg and even solar-based ~2.5 kgCO₂/kg; overall averages for renewables-powered electrolysis are around 2.0 kgCO₂/kg.",
+      "Blue hydrogen falls in between: e.g. Patel et al. report ~7.6–9.3 kgCO₂/kg H₂ for natural gas routes with CCS. Under best-case conditions (high CO₂ capture, very low methane leakage), blue H₂ GWP can approach only a few kgCO₂/kg (comparable to the upper end of green H₂).",
+      "Alignment with Sustainable Development Goals (SDGs)",
+      "Important UN SDGs are directly supported by this analysis. Because it encourages clean fuels and applies life-cycle thinking to resource use, assessing low-carbon hydrogen pathways advances SDG7 (Affordable and Clean Energy) and SDG12 (Responsible Consumption and Production).",
+      "By measuring the GHG emissions of each hydrogen route, it also addresses SDG 13 (Climate Action), guiding decisions that lessen their impact on the climate. By showing that green H₂ production (using renewables) can almost completely eliminate CO₂ emissions per unit of energy, for instance, policies and investments in clean energy infrastructure are encouraged.",
+      "The findings will, in general, direct sustainable energy transitions by determining which hydrogen technologies best fulfil the targets of SDGs 7/12/13 and by emphasising the significance of incorporating emissions controls and renewable power into hydrogen strategies.",
     ],
     references: [
       {
@@ -1236,6 +1228,178 @@ const articles = [
       {
         heading: "Viswanathan .H(2019).India’s Soft Power Diplomacy. Ministry of external affairs, India",
         links: "https://www.mea.gov.in/distinguished-lectures-detail.htm?850",
+      },
+    ],
+  },
+  {
+    id: 8,
+    issue: 1,
+    volume: 1,
+    title: "The Intersection of  Women Empowerment and Feminism with Public Policy in India",
+    author: "Utkarsha Sinha, Bajendra Singh Parihar, Caroline, Sai Nitya Palakurthy, Padiwanshe, Aayushi Shah",
+    authorAbbrev: "U. Sinha, B. S. Parihar, and others",
+    abstract: "This paper explores the challenges of women's empowerment in India, focusing on unpaid labor, caste-gender inequalities, wage gaps, and ineffective policy implementation. It critiques the systemic invisibility of women's work and calls for intersectional policies that address structural barriers. Key recommendations include recognizing unpaid care work, enforcing labor protections, and combating patriarchal resistance to achieve meaningful gender justice.",
+    keyword: ["Women’s empowerment", "Feminism", "Public policy", "India", "Unpaid labor", "Caste and gender", "Wage inequality", "Intersectionality", "Policy implementation", "Gender justice", "Patriarchy", "Economic disparities", "Feminist movements", "Social transformation"],
+    status: "Submitted",
+    intro: [
+      "Women's empowerment in India is deeply intertwined with the complexities of unpaid employment, caste hierarchies, and intersecting social factors. Unpaid domestic and care work remains a central barrier to women's economic empowerment, with Indian women disproportionately burdened by such responsibilities. Being a woman in India often means shouldering a disproportionate burden of unpaid care work, navigating patriarchal societal norms, and facing significant barriers to education, employment, and healthcare. This work, largely invisible in economic statistics and undervalued in policy, restricts women’s labor force participation and perpetuates dependency and marginalization. According to the World Bank, women in India spend an average of 5 hours and 35 minutes per day on unpaid care work, compared to 38 minutes per day for men.(Observer Research Foundation. (2022, October 17)) [OBSERVE RESEARCH FOUNDATION,(2022, OCTOBR 17]",
+      "Caste and class further compound the issue. Patriarchal norms are more rigid among higher castes, limiting women’s mobility and autonomy, while lower-caste women, despite higher labor force participation, often face double burdens—engaging in both unpaid care and low-paid informal sector work. (Rege, S. (1998)) [REGE, S.(1998)].The lived experience of empowerment is highly variable, shaped by hereditary and localized caste dynamics.(Chopra, D., & Zambelli, E. (2017))[CHOPRA, D.,&ZAMBELLI, E. (2017)] Public policy responses have included affirmative action, reservations, and employment schemes , which offer frameworks for women to claim rights, but implementation gaps persist. The Government of India has initiated various schemes and policies to promote women's empowerment, including the National Policy for Women's Empowerment in 2001. Initiatives like microfinance programs, skill development training, and entrepreneurship support to enhance women's economic independence that will play a significant role in reducing the unpaid work culture of women. Social Empowerment by making efforts to address social issues like education, health, and violence against women, promoting gender equality and social justice which will make women uplift their position in India. Political Empowerment by  Reservation of seats for women in local governance bodies, promoting women's participation in decision-making processes. Studies indicate a positive impact of government initiatives on women's empowerment, but challenges persist, including societal attitudes, lack of awareness, and limited access to resources. Effective implementation and monitoring of policies are crucial to achieving desired outcomes. (Desai, S., & Thakkar, U. (2007)) [DESAI, S.& THAKKAR, U.(2007)]",
+      "Ultimately, transforming women’s status requires a holistic approach: recognizing, reducing, and redistributing unpaid work, challenging patriarchal norms, improving education, and ensuring inclusive policy design that addresses both structural and intersectional inequities. (Kabeer, N. (2012)) [ KABEER, N. (2012)]",
+    ],
+    content: [
+      {
+        heading: "Caste and Gender: Interlocked Inequalities ",
+        paragraphs: [
+          "Caste and gender are not parallel forces of discrimination in India—they are deeply entangled and mutually reinforcing. The lived realities of Dalit, Adivasi, and OBC women are decisively different from those of upper-caste women, not because they are less subject to patriarchy, but because they suffer both simultaneously: the gender-based oppression and the caste-based oppression. These dual burdens often go unreckoned in mainstream feminist discourse, which has historically centered the experiences and priorities of urban, upper-caste women.",
+          " In rural and urban settings, caste determines access to education, healthcare, mobility, employment, and security. A Dalit woman, for example, risks sexual assault, systemic police apathy, and social boycott. NCRB statistics register a steady rise in crimes against Dalit women, with conviction rates that remain hair-raisingly low. This disparity reflects a failure not only in judicial mechanisms but also in public policy, which often addresses gender violence in caste-neutral terms—ignoring the specific vulnerabilities of marginalized communities.",
+          " Reservation policies in education and employment were designed to uplift marginalized groups, but they frequently fail to consider intra-caste gender disparities. A Dalit man may benefit from such policies while the Dalit woman in the same household remains confined to unpaid domestic labor, often excluded from leadership roles and political participation. Institutions like the National Commission for Women or the Ministry of Women and Child Development seldom incorporate caste-sensitive frameworks into their mandates, leaving the most vulnerable women without adequate support.",
+          " 'Savarna feminism'  constitutes a serious bottleneck to all-inclusive policymaking. Even feminist activism that does not listen to Dalit and Adivasi voices tends to function as the instrument through which the existing hierarchy sustains itself in the rhetoric of empowerment. Feminism must truly challenge caste as an apparatus of domination to fulfill its promise of gender justice.",
+          " To make feminist policy truly inclusive, an intersectional approach is essential—one that combines gender justice with caste equity. This requires disaggregated data collection, support for Dalit- and Adivasi-led movements, caste- and gender-responsive budgeting, and direct representation of marginalized women in legislative and policymaking spaces. Only by centering the most oppressed can public policy move from symbolic reform to genuine social transformation."
+        ],
+      },
+      {
+        heading: "Unpaid Labour and the Erasure of Women’s Work ",
+        paragraphs: [
+          "To be a woman in India is to navigate a complex terrain where empowerment is simultaneously celebrated in rhetoric and denied in everyday realities, particularly through the persistent undervaluation and invisibilisation of women’s labour. To be a woman in India is to carry the economic weight of the nation invisibly — through undervalued informal labour and unpaid care work — while being systematically excluded from recognition in policy and statistical frameworks. At the intersection of feminist political economy and public policy lies the urgent issue of unaccounted work. The India Employment Report 2019 shows that while women’s labour force participation rate (LFPR) has been declining — from 42.7% in 2004–05 to 23.3% in 2017–18 — this statistical drop conceals the persistent and unpaid economic contributions of women, especially in household production, caregiving, and subsistence activities (Mehrotra & Parida, 2019). These forms of work are either excluded from labour statistics or misclassified, undermining both visibility and valuation. The I-PEEL framework critiques this erasure by asserting that unpaid domestic and care work is foundational to capitalist production, yet remains ideologically framed as “non-work,” exempting both the state and the market from redistributive responsibility (I-PEEL, n.d.). Feminist economists like Bina Agarwal have long argued that the binary between ‘productive’ and ‘reproductive’ labour, as imposed by mainstream economics, fails to reflect the material reality of Indian women’s lives. For instance, the Time Use Survey (2019) revealed that Indian women spend nearly 299 minutes per day on unpaid domestic work, compared to only 97 minutes for men. Yet this contribution is absent from national income accounts and marginal in policy discourses.",
+          "Moreover, even when women are in the paid workforce, they are overwhelmingly concentrated in informal, insecure, and poorly remunerated jobs. As Dutta (2005) shows, casual work constitutes a key segment of India’s female labour market, where returns to education are negligible, and wage disparities are driven more by occupational segregation than individual characteristics. Dutta’s analysis reveals that while wage inequality among casual workers appeared to decline from 1983 to 1999, this shift masked persistent gendered segmentation and spatial concentration of women in low-value, home-based activities.",
+          "Public policy, while increasingly vocal about women’s empowerment, remains fixated on short-term welfare approaches rather than long-term structural transformation. Skill-building programmes, microfinance, and livelihood missions often promote instrumental gains without challenging the underlying systems that devalue women’s time and labour. The India Employment Report notes that rising education among women has not translated into proportionate employment, partly because of the absence of care infrastructure, safe public transport, and formal recognition of women’s labour (Mehrotra & Parida, 2019). A feminist policy framework would prioritise three Rs: recognition of unpaid work in national accounting systems; redistribution of care responsibilities through public provisioning; and representation of women in policy making bodies that shape labour and social welfare norms. To be a woman in India is to be structurally indispensable yet statistically invisible. Remedying this paradox requires rethinking the foundations of work, value, and policy accountability."
+        ],
+      },
+      {
+        heading: "Wage inequality and Choice of occupation",
+        paragraphs: [
+          "Women’s empowerment in India represents a complex and multidimensional challenge that has been systematically addressed through public policy initiatives. While notable progress has been achieved in the direction, two significant barriers continue to limit women’s economic advancement in India: wage inequality and restricted occupational choices. The subject has gathered much attention in recent years owing to the structured inequalities rooted in gender, caste, and class which continue to shape women’s work experiences and earnings, despite significant attempts at policy interventions, legal safeguards, and growing awareness. According to World Economic Forum’s Global Gender Gap Report 2024, India’s low rank (129th out of 146 countries) in gender parity score, with women earning 20–30% less than men on average, communicates low female labour-force participation rates and gender disparities in leadership roles, despite the existence of comparable educational backgrounds and experience levels among women. A 2008 report by the International Labour Organization (ILO) identifies that women employment is largely seen in “typically female” job roles (e.g., caregiving, domestic work), which are often unpaid or underpaid. Systemic factors like occupational segregation, underrepresentation in leadership roles, and undervaluation of “feminine” labor perpetuate a cycle of unequal power dynamics and thus, act as key contributors to the issue. Gender wage gap and less occupational choices involve multidimensional reasons ranging from socio-cultural constraints that hinder participation to lack of human capital development among women. Societal expectations and unequal distribution of caregiving and domestic responsibilities limits women’s competence in the economic domain. Gender norms, safety concerns, family responsibilities, and lack of childcare infrastructure push women into low-paying, insecure jobs—primarily in the informal sector. There also exists disparity in professions where women are rarely promoted to leadership roles and when they do enter male-dominated professions, they often encounter a “glass ceiling”. Other social identities like caste, religion, and socio-economic background exacerbate this inequality since Dalit and Adivasi women, in particular, are often relegated to the most exploitative forms of labor with little or no legal protections. These women face severe intersectional discrimination that limits their occupational choices and well-paid jobs. This points to the fact ‘Policies exist, but their implementation lags’. Achieving gender equality is not just a matter of policy announcement but also of its effective implementation. Policies, skilling programs and employment schemes, such as Equal Remuneration Act, Skill India and PMKVY, are steps in the right direction but often fail to address local social barriers or caste-gender intersections."
+        ],
+      },
+      {
+        heading: "Role of Intersectionality on Labour Market of India",
+        paragraphs: [
+          "The Indian labour market is deeply influenced by the intersecting dynamics of caste, class, gender, and ethnicity, which shape opportunities and exclusions in complex ways. The concept of intersectionality, first articulated by (Crenshaw (1989)), provides a critical lens to understand how these social categories compound disadvantages in employment contexts. In India, caste and gender play a particularly dominant role in marginalizing large sections of the workforce.(Bazaz and Akram (2021))bring to light how gender and caste intersectionality severely restricts the availability of education and work for lower caste Muslim women, who are subject to double jeopardy in patriarchal and caste-divided frameworks. Upper caste Muslim women, although still circumscribed by patriarchal structures, are comparatively more educationally and occupationally mobile on account of being able to utilise caste capital.In addition, (Jameel et al. (2024)) illustrate that Indian women’s experiences in the workplace are not the same. Dalit and Adivasi women, for instance, confront interlocking disadvantages on grounds of caste, socio-economic status, and gender, resulting in systemic marginalization and restricted career advancement in professional settings. This underlines the limitations of understanding women’s labour market participation from gender alone, calling for an intersectional lens.(Nayak (2020))reinforces this point by demonstrating that in Odisha’s coal mining industry, caste, class, and gender all combine to determine labour segmentation. Marginalized groups, particularly Dalit women, are disproportionately found in the most insecure and informal work, which means that their labour conditions are not merely economically exploitative but also socially stratified. Generally speaking, the Indian labor market is a structure of layers in which social identities construct both privilege and barriers jointly. Intersectionality provides a more nuanced framework to explain these intersecting structures of oppression and demands policy interventions which account for such complexity."
+        ],
+      },
+      {
+        heading: "The Gap between policy on paper and policy in practice",
+        paragraphs: [
+          "The Disconnect Between Policy in Writing and Policy in Action",
+          "India has created a great number of public policies and laws that promote women’s empowerment and gender equality. From the very principles laid out in the Constitution where equality is guaranteed [Constitution of India], to the explicitly legislative frameworks, the country's commitment towards gender justice is also indicated through: the Protection of Women from Domestic Violence Act (2005) (PWDVA, 2005) and; the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act (2013) [POSH Act, 2013]; amendment of the Hindu Succession Act that gives women equal rights to inherit property [HSA, 2005] and the government-led campaigns that aim to change society’s current outlook on improving young girls' welfare (Beti Bachao Beti Padhao) [GoI, Beti Bachao Beti Padhao]. Together, these policies in writing suggest a comprehensive and potentially progressive approach to women’s rights.",
+          "Nevertheless, there exists a perennial and critical problem of the gap between the policies themselves (which may have been painstakingly developed) and the way in which they put into practice. There are many factors causing this implementation gap that are intertwined with a bunch of socio-cultural, economic and administrational factors. The major factor is the patriarchal mind-set in different areas of society. After all that said, the primary barrier is that even when there is legal protection, customary gender roles and attitudes can stigmatize women's independent choices and roles.",
+          "Nevertheless, a chronic and major challenge remains in the difference between the carefully constructed policies and their implementation. This difference can be explained by a set of multi-layered socio-cultural, economic, and administrative issues. A main challenge is the pervasive patriarchal mindset manifested across the layers of society, and the pervasive and long-standing nature of certain roles and expectations assigned to women in society compounds this issue. This contributes to the possibility of underreporting of gender-based violence; contributes to societal pressure on victims to withdraw complaints; and male-oriented community responses to women asserting their rights. Such culture can essentially undermine even the strongest legal provisions. In addition to these pervasive factors there are very real, systemic administrative challenges that also impede effective implementation; some examples include resource allocation, professional development for those on the front lines, and administrative barriers to accessing knowledge [Gov. Report, 2020]. For instance, while many substantive legal rights exist under statutory law that prohibits domestic violence, when the rights (like access to services, safe shelter, and adequate legal support) are inconvenient, inaccessible and unusable they are useless to provide protection or safe pathways for victims to extricate themselves from a potentially dangerous, sometimes lethal encounter [UN Women Report, 2023]. Likewise, while there is legislation which promotes equal pay for equal work, the large majority of women working in the informal sector, and the subtle, and less subtle, discriminatory practices that exist when it comes to recruitment and career development, wage differentials will persist [Economic Survey, 2024]. The lengthy and complicated judicial process also deters many women from pursuing justice [Legal Aid Review, 2019]. Closing this important gap requires more than a strong enforcement mechanism. It will be necessary to meaningfully address the patriarchal attitude that is pervasive in society, and support women at the community level to understand and exercise their full rights and realize violence-free potential in employment.",
+
+        ],
+      },
+      {
+        heading: "Unintended Consequences of Feminist Movements on Women's Rights in India ",
+        paragraphs: [
+          "Policymaking has long been accompanied with a predictable and unyielding reality, an adage as old as time, yet never untrue: resistance to change is inevitable. Men specifically have resisted policies that give women the autonomy and freedom to do as they please, unfortunately some women too. Only recently were women in Saudi Arabia allowed to drive (Specia, 2019), but this change has seen a rise in resistance to feminist laws - to date, activists for womens’ right to drive are still being jailed, even though this law was implemented in 2019. There are numerous other examples of resistance to policies that advocate for the freedom of women - for a country that is culturally rich and extremely patriarchal, India is no exception to this resistance. They say the road to hell is paved with good intentions, it is ironic that laws created to give women the liberty and freedom they so desire have been the catalyst for violence towards women and in some cases, even leading to death. In 2022, Genocide Watch declared a female genocide emergency in India (Kadiwa, 2023). In early 2023, Crime Record Bureau estimated that One Indian woman is killed every hour over patriarchal disputes (Al-Jazeera, 2023) and the arrest of female activists is not uncommon in India. When a government indirectly discourages a certain movement by imprisoning those who advocate for it, by repressing and silencing individuals, it brings to question whether the government truly cares for these specific rights and consequently exposes the hypocrisy and contradictions of that government. The arrests of Devangana Kalita and Natasha Narwal (International, 2020), female activists who were fighting against restrictions on female students in 2020 raises questions on the message that is trying to be delivered. Feminism has been considered threatening and undesirable by many patriarchal and oppressive regimes (Guardian, 2019), possibly because women have always been seen as property rather than people with individual desires and autonomy. Another reason why feminism is considered a threat is misconceptions on what feminism actually is, a majority of people ignorantly mistake feminism to be an agenda against men, when in reality feminism seeks only to establish women as independent entities, unshackled from society's expectations. It is also important to remember that in most cultural setups, men are considered powerful and invincible and feminism threatens this notion (Mitengu, 2019). It is truly unfortunate that the enactment of some feminist policies has resulted in violence against women, but it is the bravery of those who have suffered and died for this cause that make this movement and the policies that support it, all the more important."
+        ],
+      },
+      {
+        heading: "Suggestion and Scope of Improvement",
+        paragraphs: [
+          "The advancement of women’s empowerment in India requires a multidimensional, intersectional, and implementation-driven approach that addresses the deep-rooted structural inequities exposed across domains of unpaid labour, caste discrimination, wage inequality, weak legal enforcement, and backlash against feminist progress. Current policy frameworks often reflect rhetorical commitments rather than transformative change. The suggestions below highlight a scope for improvement across five key pillars:",
+          "1.	Recognizing and Redistributing Unpaid Work: Unpaid care and domestic work remain foundational to the Indian economy, yet are consistently excluded from GDP and formal labour recognition. Policies must move beyond instrumental welfare interventions and instead institutionalize the three Rs framework — recognition, reduction, and redistribution of unpaid work. This includes:",
+          "-	Incorporating unpaid care work into national economic surveys and statistical systems.",
+          "-	Investing in public care infrastructure such as childcare centres, eldercare services, and community kitchens.",
+          "-	Promoting shared household responsibilities through gender-sensitive education and male-inclusive policy design.",
+          "2.	Addressing Intersectional Discrimination (Caste, Class, and Gender): Empowerment policy must be inclusive of the lived realities of Dalit, Adivasi, and OBC women who face “double discrimination.” Measures should include:",
+          "-	Caste- and gender-disaggregated data collection to inform policy design.",
+          "-	Strengthening implementation of affirmative action with intra-group gender audits.",
+          "-	Institutionalizing intersectional representation within government bodies and feminist organisations to amplify marginalized voices.",
+          "3.	Strengthening Economic Justice and Labour Protections: Women’s occupational choices and wage parity are constrained by structural discrimination and occupational segregation. Improvements should focus on:",
+          "-	Enforcement of equal remuneration laws, especially in the informal sector.",
+          "-	Gender-responsive skilling and employment schemes tailored to address caste and regional disparities.",
+          "-	Promotion of women’s access to leadership roles across formal sectors and trade unions to break the 'glass ceiling'.",
+          "4.	Bridging the Implementation Gap in Policy Delivery: Laws such as the Domestic Violence Act (2005), POSH Act (2013), and succession rights reforms have limited impact due to weak implementation and social stigma. The gap can be narrowed by:",
+          "-	Allocating adequate financial and human resources for enforcement bodies.",
+          "-	Simplifying access to legal aid, especially for rural and low-income women.",
+          "-	Building capacity and gender-sensitivity in law enforcement, judiciary, and local governance.",
+          "5.	Combating the Backlash Against Feminist Movements: Resistance to feminist policies — including violence, political suppression, and cultural backlash — undermines progress. This must be addressed through:",
+          "-	Civic education campaigns to clarify the goals of feminism and promote gender equity.",
+          "-	Legal protection for activists and stronger oversight of state repression.",
+          "-	Support for community-based gender equity programs that include men and youth as allies in dismantling patriarchal norms.",
+        ],
+      },
+    ],
+    conclusion: [
+      "The future of women's empowerment in India depends not only on progressive legislation but on how deeply public institutions, civil society, and local communities internalize and act upon feminist values. A transformative agenda requires persistent structural reform, participatory governance, and culturally grounded feminist policy that ensures no woman — regardless of caste, class, or occupation — is left behind."
+    ],
+    references: [
+      {
+        heading: "Al-Jazeera. (2023). One Indian woman killed every hour over dowry. Al-Jazeera.",
+      },
+      {
+        heading: "Amnesty International. (2020). India: Authorities must release student activists held under draconian laws. Amnesty International.",
+      },
+      {
+        heading: "Bharti, P. (2023). Gender wage gap in Indian labour market and role of government policies: A theoretical perspective with an empirical overhaul.",
+      },
+      {
+        heading: "Centre for Social Research. (2019). Challenges in accessing legal aid for women in India. New Delhi: Centre for Social Research.",
+      },
+      {
+        heading: "Dalit Women’s Collective, & Human Rights Watch. (2022). Double discrimination: Gender, caste and economic exploitation.",
+      },
+      {
+        heading: "Dutta, P. V. (2005). Accounting for wage inequality in India. Indian Journal of Labour Economics, 48(2), 273–295.",
+      },
+      {
+        heading: "Government of India. (2005a). The Protection of Women from Domestic Violence Act, 2005. The Gazette of India.",
+      },
+      {
+        heading: "Government of India. (2005b). The Hindu Succession (Amendment) Act, 2005. The Gazette of India.",
+      },
+      {
+        heading: "Government of India. (2013). The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013. The Gazette of India.",
+      },
+      {
+        heading: "Guardian, T. (2019). The backlash against feminism in India.",
+      },
+      {
+        heading: "Gould, E., & Schieder, J. (2017). Women’s work and the gender pay gap: How discrimination, societal norms, and other forces affect women’s occupational choices and their pay. Economic Policy Institute.",
+      },
+      {
+        heading: "International Labour Organization. (2008). Global employment trends for women.",
+      },
+      {
+        heading: "I-PEEL. (n.d.). Housework. International Political Economy of Everyday Life.",
+        links: " https://i-peel.org/homepage/housework/",
+      },
+      {
+        heading: "Kadiwa, L. (2023). Critical feminism resistance in India. Taylor and Francis.",
+      },
+      {
+        heading: "Kannan, K. P. (2018). Wage inequalities in India.",
+      },
+      {
+        heading: "Ministry of Labour and Employment. (2019). Code on Wages, 2019. Government of India.",
+      },
+      {
+
+        heading: "Mitengu, I. (2019). Why feminism is a threat to some men. BBC News.",
+      },
+      {
+        heading: "National Statistical Office. (2021). Time Use Survey (2019–20). Government of India.",
+      },
+      {
+        heading: "Oxfam India. (2023). India discrimination report 2022.",
+      },
+      {
+        heading: "Specia, M. (2019). Saudi Arabia granted women the right to drive. A year on, it’s still complicated. The New York Times.",
+      },
+      {
+        heading: "World Economic Forum. (2024). Global gender gap report 2024.",
+      },
+      {
+        heading: "Rege, S. (1998). Dalit women talk differently: A critique of difference and towards a Dalit feminist standpoint position. Economic and Political Weekly, 33(44), WS39–WS46",
+      },
+      {
+        heading: "World Bank. (2019). Caste, gender and jati: An intersectional analysis aimed at better targeting poverty alleviation and women’s empowerment in Bihar, Orissa and Tamil Nadu.",
+      },
+      {
+        heading: "Samantroy, E. (2025, February 10). Unpaid work is the biggest stumbling block to gender equality. Policy Circle.",
+      },
+      {
+        heading: "Observer Research Foundation. (2022, October 17). Building India’s economy on the backs of women's unpaid work: A gendered analysis of time-use data.",
       },
     ],
   },

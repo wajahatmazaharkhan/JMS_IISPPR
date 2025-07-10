@@ -44,6 +44,7 @@ import LifeCycleEnvironmentalImpactAssessment from "./pages/editions/LifeCycleEn
 import TheTroublingRiseOfRealismOverInstitutionalism from "./pages/editions/TheTroublingRiseOfRealismOverInstitutionalism";
 import ImpactOfTheMaternityBenefitAct from "./pages/editions/ImpactOfTheMaternityBenefitAct";
 import ProjectingCultureShapingPerceptions from "./pages/editions/ProjectingCultureShapingPerceptions";
+import TheIntersectionOfWomenEmpowerment from "./pages/editions/TheIntersectionOfWomenEmpowerment";
 
 
 
@@ -144,6 +145,10 @@ function AppRoutes() {
         <Route
           path="/Projecting-Culture-Shaping-Perceptions"
           element={<ProjectingCultureShapingPerceptions />}
+        />
+        <Route
+          path="/The-Intersection-Of-Women-Empowerment"
+          element={<TheIntersectionOfWomenEmpowerment />}
         />
         <Route path="*" element={<LandingPage />} />
       </Routes>

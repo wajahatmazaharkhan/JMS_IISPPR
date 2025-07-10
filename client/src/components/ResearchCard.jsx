@@ -11,6 +11,7 @@ const articleRoutes = {
   5: "/Greenwashing-In-Corporate-Branding",
   6: "/Primary-Health-Care-And-Foreign-Policy",
   7: "/Projecting-Culture-Shaping-Perceptions",
+  8: "/The-Intersection-Of-Women-Empowerment",
 };
 
 const ResearchCard = ({ articles, onDelete }) => {
