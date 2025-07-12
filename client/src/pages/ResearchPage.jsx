@@ -19,18 +19,21 @@ const ResearchPage = () => {
   };
 
   return (
-    <div className="bg-primary-light/25 w-full min-h-screen flex items-center justify-center">
-      <div className="max-w-4xl w-full px-6 py-12">
+    <div className="bg-gradient-to-br from-primary-light/20 via-white to-accent-light/30 w-full min-h-screen flex items-center justify-center py-12 px-4">
+      <div className="max-w-4xl w-full">
         <ResearchEnhancements />
-        <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-4">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-4 animate-fadeInUp">
           <h1 className="text-3xl font-bold font-serif text-primary-dark">
             Research Articles
           </h1>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-1">
+        <div className="grid gap-6 md:grid-cols-1 animate-fadeInUp">
           {researchArticles.map((articles) => (
-            <div key={articles.id}>
+            <div
+              key={articles.id}
+              className="bg-white/70 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.01] transition duration-300"
+            >
               <ResearchCard
                 articles={articles}
                 onDelete={isAdmin ? handleDelete : null}
@@ -39,6 +42,22 @@ const ResearchPage = () => {
           ))}
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fadeInUp {
+          animation: fadeInUp 0.8s ease-out forwards;
+        }
+      `}</style>
     </div>
   );
 };
