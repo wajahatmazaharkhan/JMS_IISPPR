@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Download } from "lucide-react";
 import { generateArticlePDF, downloadPDF } from "../utils/pdfExport";
+
 const articleRoutes = {
   1: "/Bridging-Literacy-Gaps-in-India",
   2: "/Impact-Of-The-Maternity-Benefit-Act",
@@ -40,8 +41,12 @@ const ResearchCard = ({ articles, onDelete }) => {
   };
 
   return (
-    <div className="bg-white border border-accent-light rounded-xl p-6 shadow-sm hover:border-primary hover:shadow-md transition-all duration-300 flex flex-col gap-4">
-      <div className="flex justify-between items-center">
+    <div className="group relative bg-white border border-accent-light rounded-xl p-6 shadow-sm hover:border-primary transition-all duration-300 ease-in-out hover:shadow-2xl transform hover:scale-[1.015] flex flex-col gap-4 overflow-hidden">
+      {/* animated border glow */}
+      <div className="absolute inset-0 z-0 rounded-xl group-hover:ring-2 group-hover:ring-primary/30 transition-all duration-300 pointer-events-none" />
+
+      {/* Top bar */}
+      <div className="flex justify-between items-center relative z-10">
         <span className="text-sm text-primary font-medium">
           Serial {articles.id}
         </span>
@@ -50,33 +55,35 @@ const ResearchCard = ({ articles, onDelete }) => {
         </span>
       </div>
 
-      <div className="flex justify-between items-center">
+      {/* Author + Status */}
+      <div className="flex justify-between items-center relative z-10">
         <span className="bg-primary-light text-primary px-3 py-1 rounded-full text-xs font-medium">
           {articles.authorAbbrev}
         </span>
-        <span
-          className={`px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800`}
-        >
+        <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
           {articles.status}
         </span>
       </div>
 
-      <h2 className="text-xl font-serif font-bold text-primary-dark leading-tight">
+      {/* Title */}
+      <h2 className="text-xl font-serif font-bold text-primary-dark leading-tight relative z-10 transition duration-300 group-hover:text-primary">
         {articles.title}
       </h2>
 
-      <p className="text-subtext text-sm text-justify">{articles.abstract}</p>
+      {/* Abstract */}
+      <p className="text-subtext text-sm text-justify relative z-10">
+        {articles.abstract}
+      </p>
 
+      {/* Keywords */}
       {articles.keywords?.length > 0 && (
-        <div>
-          <h4 className="font-semibold text-slate-800 mb-3 text-sm">
-            Keywords
-          </h4>
+        <div className="relative z-10">
+          <h4 className="font-semibold text-slate-800 mb-3 text-sm">Keywords</h4>
           <div className="flex flex-wrap gap-2">
             {articles.keywords.map((keyword, idx) => (
               <span
                 key={idx}
-                className="px-2 py-1 bg-primary-light/40 text-primary text-xs rounded"
+                className="px-2 py-1 bg-primary-light/40 text-primary text-xs rounded transition-all duration-200 hover:bg-primary-light/60 hover:scale-105"
               >
                 {keyword}
               </span>
@@ -85,7 +92,8 @@ const ResearchCard = ({ articles, onDelete }) => {
         </div>
       )}
 
-      <div className="flex items-center gap-4 mt-4">
+      {/* Buttons */}
+      <div className="flex items-center gap-4 mt-4 relative z-10">
         <button
           onClick={handleDownload}
           disabled={downloading}
