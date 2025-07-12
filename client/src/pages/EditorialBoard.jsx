@@ -51,6 +51,11 @@ const EditorialBoard = () => {
       desc: 'Author and Critic, PhD',
       email: 'mfkhan786@gmail.com',
     },
+     {
+      name: 'Dr. Raj Kumar Singh',
+      desc: 'Indian institute of Management SIRMAUR',
+      email: 'rajanthro91@gmail.com',
+    },
   ];
 
   return (
