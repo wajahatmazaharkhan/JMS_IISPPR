@@ -1,4 +1,4 @@
-import TopNavbar from '../components/TopNavbar';
+import { motion } from 'framer-motion';
 
 const EditorialBoard = () => {
   const boardMembers = [
@@ -51,55 +51,72 @@ const EditorialBoard = () => {
       desc: 'Author and Critic, PhD',
       email: 'mfkhan786@gmail.com',
     },
-     {
+    {
       name: 'Dr. Raj Kumar Singh',
-      desc: 'Indian institute of Management SIRMAUR',
+      desc: 'Indian Institute of Management SIRMAUR',
       email: 'rajanthro91@gmail.com',
     },
   ];
 
   return (
-    <div className="min-h-screen bg-primary-light/25">
-      {/* <TopNavbar /> */}
-
+    <div className="min-h-screen bg-primary-light/25 pb-16">
       {/* Hero Banner */}
-      <div className="bg-primary-dark text-white py-12 text-center">
+      <motion.div
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="bg-rose-900 text-white py-12 text-center"
+      >
         <h1 className="text-4xl font-bold font-serif mb-2">Editorial Board</h1>
-        <p className="text-accent-light max-w-2xl mx-auto">
+        <p className="text-accent-light max-w-2xl mx-auto px-4">
           Meet our esteemed editorial board committed to academic excellence, peer-review integrity, and interdisciplinary leadership.
         </p>
-      </div>
+      </motion.div>
 
+      {/* Editorial Members */}
       <div className="p-6">
-        {/* Editorial Members Grid */}
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.8 }}
+          className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
           {boardMembers.map((member, idx) => (
-            <div
+            <motion.div
               key={idx}
-              className="bg-white border border-accent-light p-6 rounded-lg shadow-sm hover:shadow-md hover:border-primary transition"
+              whileHover={{ scale: 1.03 }}
+              className="bg-white border border-accent-light p-6 rounded-xl shadow-md hover:shadow-xl hover:border-rose-900 transition-all duration-300"
             >
-              <h2 className="text-lg font-bold text-primary-dark font-serif mb-1">{member.name}</h2>
-              <p className="text-subtext text-sm mb-1">{member.desc}</p>
+              <h2 className="text-lg font-bold text-rose-900 font-serif mb-1">{member.name}</h2>
+              <p className="text-subtext text-sm mb-2 italic">{member.desc}</p>
               {member.email && (
-                <p className="text-sm text-gray-600 break-all">
+                <p className="text-sm text-gray-700 break-all">
                   <span className="font-medium">Email: </span>
-                  <a href={`mailto:${member.email}`} className="text-primary hover:underline">
+                  <a
+                    href={`mailto:${member.email}`}
+                    className="text-rose-900 hover:underline"
+                  >
                     {member.email}
                   </a>
                 </p>
               )}
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         {/* Student Panel */}
-        <div className="max-w-4xl mx-auto mt-16 p-6 text-center">
-          <h2 className="text-xl font-semibold text-primary mb-2">Student Editorial Panel</h2>
-          <p className="text-subtext">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.7 }}
+          className="max-w-4xl mx-auto mt-20 p-6 text-center bg-white border border-accent-light shadow rounded-xl"
+        >
+          <h2 className="text-2xl font-bold text-rose-900 mb-2">Student Editorial Panel</h2>
+          <p className="text-gray-700">
             We are building a student-led editorial panel for UG/PG scholars to foster leadership and academic excellence.
             Interested students will be added soon.
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
