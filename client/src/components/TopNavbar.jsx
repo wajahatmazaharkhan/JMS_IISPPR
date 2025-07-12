@@ -1,18 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { Menu, X, User } from 'lucide-react';
+import { Menu, X, User, ChevronDown, BookOpen } from 'lucide-react';
 
 const navLinks = [
   { to: '/publisher', label: 'Publisher Details' },
-  { to: '/issn', label: 'ISSN Details' },
-  { to: '/research', label: 'Research Articles' },
-  { to: '/editions', label: 'Journal Editions' },
-  { to: '/ethics', label: 'Ethics' },
-  { to: '/plagiarism', label: 'Plagiarism Policy' },
-  { to: '/contact-us', label: 'Contact Info' },
-];
-
-const editorialBoardNavLinks = [
   { to: '/issn', label: 'ISSN Details' },
   { to: '/research', label: 'Research Articles' },
   { to: '/editions', label: 'Journal Editions' },
@@ -28,128 +19,144 @@ const accountLinks = [
 
 const TopNavbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-  const isEditorialBoardPage = location.pathname === '/editorial-board';
-  
-  // Use different nav links based on the current page
-  const currentNavLinks = isEditorialBoardPage ? editorialBoardNavLinks : navLinks;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Hide current page's nav link
+  const currentNavLinks = navLinks.filter(link => link.to !== location.pathname);
+  const shouldShowEditorialBoard = location.pathname !== '/editorial-board';
 
   return (
-    <header className="h-16 bg-white shadow flex items-center justify-between px-6">
-     <NavLink to="/" className="font-bold text-lg tracking-wide text-black hover:text-blue-700 transition">
-     SCIENTIFIC JOURNAL </NavLink>
-      {/* Desktop Nav */}
-      <nav className="hidden md:flex items-center space-x-6">
-        {currentNavLinks.map((link) => (
+    <header className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-white'}`}>
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between py-3">
+          {/* Logo */}
           <NavLink
-            key={link.to}
-            to={link.to}
-            className={({ isActive }) =>
-              `text-gray-700 hover:text-blue-700 transition font-medium ${isActive ? 'text-blue-700 underline' : ''}`
-            }
+            to="/"
+            className="flex items-center gap-2 group"
           >
-            {link.label}
+            <div className="bg-primary from-rose-600 to-amber-500 p-2 rounded-lg">
+              <BookOpen className="w-6 h-6 text-white" />
+            </div>
+            <span className="font-bold text-xl bg-primary from-rose-600 to-amber-500 bg-clip-text text-transparent">
+              SCIENTIFIC JOURNAL
+            </span>
           </NavLink>
-        ))}
-        
-        {/* Editorial Board Button - only show if not on editorial board page */}
-        {!isEditorialBoardPage && (
-          <div className="flex items-center ml-6 pl-6 border-l border-gray-300">
-            <NavLink
-              to="/editorial-board"
-              className={({ isActive }) =>
-                `px-4 py-2 rounded-md font-medium transition ${
-                  isActive 
-                    ? 'bg-rose-900 text-white shadow-md' 
-                    : 'bg-rose-900 text-white hover:bg-blue-700 hover:shadow-md'
-                }`
-              }
-            >
-              Editorial Board
-            </NavLink>
-          </div>
-        )}
-        
-        {/* Account Links */}
-        <div className="flex items-center space-x-4 ml-4">
-          {accountLinks.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              className={({ isActive }) =>
-                `text-gray-700 hover:text-blue-700 transition font-medium ${isActive ? 'text-blue-700 underline' : ''}`
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
-        </div>
-      </nav>
 
-      {/* Mobile Menu Button */}
-      <button
-        className="md:hidden text-gray-700 hover:text-blue-700"
-        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-      >
-        {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-      </button>
-
-      {/* Mobile Nav Dropdown */}
-      {isMobileMenuOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col items-start p-4 space-y-4 md:hidden">
-          {currentNavLinks.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              className={({ isActive }) =>
-                `text-gray-700 hover:text-blue-700 transition font-medium ${isActive ? 'text-blue-700 underline' : ''}`
-              }
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              {link.label}
-            </NavLink>
-          ))}
-          
-          {/* Mobile Editorial Board Button - only show if not on editorial board page */}
-          {!isEditorialBoardPage && (
-            <div className="w-full pt-4 border-t border-gray-300">
-              <NavLink
-                to="/editorial-board"
-                className={({ isActive }) =>
-                  `block w-full text-center px-4 py-2 rounded-md font-medium transition ${
-                    isActive 
-                      ? 'bg-blue-700 text-white shadow-md' 
-                      : 'bg-blue-600 text-white hover:bg-blue-700 hover:shadow-md'
-                  }`
-                }
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Editorial Board
-              </NavLink>
-            </div>
-          )}
-          
-          {/* Mobile Account Links */}
-          <div className="w-full pt-4 border-t border-gray-300">
-            <div className="flex items-center space-x-2 mb-2">
-              <User className="w-4 h-4 text-gray-600" />
-              <span className="text-sm font-medium text-gray-600">Account</span>
-            </div>
-            {accountLinks.map((link) => (
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex items-center gap-1">
+            {currentNavLinks.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
                 className={({ isActive }) =>
-                  `block text-gray-700 hover:text-blue-700 transition font-medium ${isActive ? 'text-blue-700 underline' : ''}`
+                  `relative px-4 py-2 font-medium text-sm transition-all duration-300 group ${isActive ? 'text-rose-600' : 'text-gray-700 hover:text-rose-600'}`
+                }
+              >
+                {link.label}
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-rose-600 transition-all duration-300 ${location.pathname === link.to ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+              </NavLink>
+            ))}
+
+            {shouldShowEditorialBoard && (
+              <NavLink
+                to="/editorial-board"
+                className={({ isActive }) =>
+                  `relative px-4 py-2 font-medium text-sm transition-all duration-300 group ${isActive ? 'text-rose-600' : 'text-gray-700 hover:text-rose-600'}`
+                }
+              >
+                Editorial Board
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-rose-600 transition-all duration-300 ${location.pathname === '/editorial-board' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+              </NavLink>
+            )}
+
+            <div className="relative group ml-2">
+              <button className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-700 hover:text-rose-600 transition-colors">
+                <User className="w-4 h-4" />
+                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
+              </button>
+              <div className="absolute right-0 mt-2 w-48 origin-top-right scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 transition-all duration-200 z-10">
+                {accountLinks.map((link) => (
+                  <NavLink
+                    key={link.to}
+                    to={link.to}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 transition-colors"
+                  >
+                    {link.label}
+                  </NavLink>
+                ))}
+              </div>
+            </div>
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            aria-label="Toggle menu"
+          >
+            {isMobileMenuOpen ? (
+              <X className="w-6 h-6 text-gray-700" />
+            ) : (
+              <Menu className="w-6 h-6 text-gray-700" />
+            )}
+          </button>
+        </div>
+
+        {/* Mobile Nav */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden py-4 space-y-2 animate-fadeIn">
+            {currentNavLinks.map((link) => (
+              <NavLink
+                key={link.to}
+                to={link.to}
+                className={({ isActive }) =>
+                  `block px-4 py-3 rounded-lg font-medium text-sm transition-all ${isActive ? 'bg-rose-100 text-rose-600' : 'text-gray-700 hover:bg-gray-100'}`
                 }
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.label}
               </NavLink>
             ))}
+
+            {shouldShowEditorialBoard && (
+              <NavLink
+                to="/editorial-board"
+                className={({ isActive }) =>
+                  `block px-4 py-3 rounded-lg font-medium text-sm transition-all ${isActive ? 'bg-rose-100 text-rose-600' : 'text-gray-700 hover:bg-gray-100'}`
+                }
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Editorial Board
+              </NavLink>
+            )}
+
+            <div className="pt-2 mt-2 border-t border-gray-200">
+              <h3 className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">
+                Account
+              </h3>
+              {accountLinks.map((link) => (
+                <NavLink
+                  key={link.to}
+                  to={link.to}
+                  className="block px-4 py-3 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.label}
+                </NavLink>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </header>
   );
 };
