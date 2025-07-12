@@ -1,13 +1,18 @@
 import { BookOpen, Globe, Users, Brain, Download, BarChart2, FileText, Search } from 'lucide-react';
 
+
 const ResearchEnhancements = () => (
-  <section className="bg-white border border-accent-light rounded-xl shadow-md p-6 mb-8 max-w-5xl mx-auto">
-    <h2 className="text-2xl font-bold text-primary-dark mb-4 flex items-center gap-2">
+  <section className="relative group bg-white border border-accent-light rounded-xl shadow-md p-6 mb-8 max-w-5xl mx-auto transition-all duration-300 hover:shadow-xl hover:border-primary/60 hover:scale-[1.01] ease-in-out overflow-hidden">
+    {/* Decorative left vertical bar */}
+    <div className="absolute top-0 left-0 h-full w-1 bg-primary rounded-s-xl group-hover:opacity-90 transition-all duration-300" />
+
+    {/* Heading */}
+    <h2 className="text-2xl font-bold text-primary-dark mb-4 flex items-center gap-2 relative z-10">
       <Search className="w-6 h-6 text-primary" />
       Research Enhancements & Additions
     </h2>
-    <div className="space-y-6 text-base text-gray-800">
-      {/* Theoretical Framework Expansion */}
+
+    <div className="space-y-6 text-base text-gray-800 relative z-10">
       <div>
         <h3 className="font-semibold text-primary mb-2">1. Theoretical Framework Expansion</h3>
         <ul className="list-disc ml-6 space-y-1">
@@ -15,7 +20,7 @@ const ResearchEnhancements = () => (
           <li><b>Cultural Capital (Bourdieu):</b> Apply Bourdieu’s idea of "cultural capital" to analyze how India leverages traditional assets like Yoga, Ayurveda, and cuisine to increase global stature.</li>
         </ul>
       </div>
-      {/* Geopolitical Dimensions */}
+
       <div>
         <h3 className="font-semibold text-primary mb-2">2. India-China Soft Power Competition</h3>
         <div className="overflow-x-auto">
@@ -55,6 +60,7 @@ const ResearchEnhancements = () => (
           <b>Comparative case studies:</b> Africa (Kenya, Tanzania), Southeast Asia (Vietnam, Cambodia)
         </div>
       </div>
+
       <div>
         <h3 className="font-semibold text-primary mb-2">3. Cultural Diplomacy in Conflict Zones</h3>
         <ul className="list-disc ml-6 space-y-1">
@@ -63,7 +69,7 @@ const ResearchEnhancements = () => (
           <li><b>Nepal:</b> Shared cultural heritage (Ramayana circuit) used for soft influence.</li>
         </ul>
       </div>
-      {/* Academic & Intellectual Debates */}
+
       <div>
         <h3 className="font-semibold text-primary mb-2">4. Cultural Diplomacy vs. Cultural Imperialism</h3>
         <ul className="list-disc ml-6 space-y-1">
@@ -71,6 +77,7 @@ const ResearchEnhancements = () => (
           <li><b>Recommendation:</b> Promote cultural pluralism over cultural dominance, allow regional diversity in exports.</li>
         </ul>
       </div>
+
       <div>
         <h3 className="font-semibold text-primary mb-2">5. Rise of Digital Cultural Diplomacy</h3>
         <div className="overflow-x-auto">
@@ -105,7 +112,7 @@ const ResearchEnhancements = () => (
           <b>Recommendation:</b> Create a Digital India Culture Portal aggregating global cultural content.
         </div>
       </div>
-      {/* Policy Additions */}
+
       <div>
         <h3 className="font-semibold text-primary mb-2">6. Decentralized Cultural Diplomacy</h3>
         <ul className="list-disc ml-6 space-y-1">
@@ -113,6 +120,7 @@ const ResearchEnhancements = () => (
           <li>Incorporate South, Northeast, and Tribal cultures—Eg: Nagaland's Hornbill Festival, Koodiyattam from Kerala.</li>
         </ul>
       </div>
+
       <div>
         <h3 className="font-semibold text-primary mb-2">7. Unified Cultural Diplomacy Dashboard</h3>
         <div className="overflow-x-auto">
@@ -144,6 +152,7 @@ const ResearchEnhancements = () => (
           </table>
         </div>
       </div>
+
       <div>
         <h3 className="font-semibold text-primary mb-2">8. Budget & Institutional Strengthening</h3>
         <ul className="list-disc ml-6 space-y-1">
@@ -152,7 +161,7 @@ const ResearchEnhancements = () => (
           <li>Create MEACULT Coordination Committee across ministries (MEA, Culture, Education, Tourism).</li>
         </ul>
       </div>
-      {/* Addressing Challenges */}
+
       <div>
         <h3 className="font-semibold text-primary mb-2">9. Evaluation & Monitoring Framework</h3>
         <div className="overflow-x-auto">
@@ -184,6 +193,7 @@ const ResearchEnhancements = () => (
           </table>
         </div>
       </div>
+
       <div>
         <h3 className="font-semibold text-primary mb-2">10. Addressing Internal Contradictions</h3>
         <div className="overflow-x-auto">
@@ -211,7 +221,7 @@ const ResearchEnhancements = () => (
           </table>
         </div>
       </div>
-      {/* Future Editions & Journal Themes */}
+
       <div>
         <h3 className="font-semibold text-primary mb-2">🚀 Future Editions & Journal Themes</h3>
         <ul className="list-disc ml-6 space-y-1">
@@ -220,114 +230,118 @@ const ResearchEnhancements = () => (
           <li><b>Volume 4: Culture as Currency in the Digital Era</b> — India's gaming, animation, cuisine, OTT media. Data: Top 10 Indian Netflix exports (e.g., Sacred Games, RRR)</li>
         </ul>
       </div>
-      {/* Appendices & Data Visualizations */}
+
       <div>
         <h3 className="font-semibold text-primary mb-2">📂 Appendices & Data Visualizations (Suggested)</h3>
-        <div className="overflow-x-auto">
-          <table className="min-w-full text-sm border mb-2">
-            <thead>
-              <tr className="bg-primary-light text-primary">
-                <th className="px-2 py-1 border">Year</th>
-                <th className="px-2 py-1 border">Initiative/Event</th>
-                <th className="px-2 py-1 border">Region</th>
-                <th className="px-2 py-1 border">Impact</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border px-2 py-1">1950</td>
-                <td className="border px-2 py-1">ICCR Formation</td>
-                <td className="border px-2 py-1">Global</td>
-                <td className="border px-2 py-1">Formal institution</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">1975</td>
-                <td className="border px-2 py-1">First Festival of India (UK)</td>
-                <td className="border px-2 py-1">Europe</td>
-                <td className="border px-2 py-1">High cultural exposure</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">2014</td>
-                <td className="border px-2 py-1">International Day of Yoga (UN)</td>
-                <td className="border px-2 py-1">Global</td>
-                <td className="border px-2 py-1">190+ countries involved</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">2023</td>
-                <td className="border px-2 py-1">G20 Culture Track (Varanasi)</td>
-                <td className="border px-2 py-1">Global</td>
-                <td className="border px-2 py-1">Multilateral engagement</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">2025</td>
-                <td className="border px-2 py-1">WAVES Summit (Mumbai)</td>
-                <td className="border px-2 py-1">Global</td>
-                <td className="border px-2 py-1">₹1,300 cr deals, 90+ nations</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        {/* Your tables below... (unchanged) */}
         <div className="overflow-x-auto mt-4">
-          <table className="min-w-full text-sm border mb-2">
-            <thead>
-              <tr className="bg-primary-light text-primary">
-                <th className="px-2 py-1 border">Export Item</th>
-                <th className="px-2 py-1 border">Global Reach</th>
-                <th className="px-2 py-1 border">Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border px-2 py-1">Yoga</td>
-                <td className="border px-2 py-1">190+ countries (UN Day)</td>
-                <td className="border px-2 py-1">Cultural + health diplomacy</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">Bollywood Films</td>
-                <td className="border px-2 py-1">Central/West Asia, Africa</td>
-                <td className="border px-2 py-1">Growing OTT influence</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">Ayurveda</td>
-                <td className="border px-2 py-1">Southeast Asia, EU</td>
-                <td className="border px-2 py-1">WHO collaboration opportunity</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">Cuisine</td>
-                <td className="border px-2 py-1">US, UK, Canada</td>
-                <td className="border px-2 py-1">Indian restaurants as diplomatic nodes</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">Diaspora Festivals</td>
-                <td className="border px-2 py-1">US, Mauritius, Malaysia</td>
-                <td className="border px-2 py-1">Identity reinforcement + soft influence</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div className="overflow-x-auto mt-4">
-          <table className="min-w-full text-sm border mb-2">
-            <thead>
-              <tr className="bg-primary-light text-primary">
-                <th className="px-2 py-1 border">Region</th>
-                <th className="px-2 py-1 border">Engagement Level</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border px-2 py-1">High Engagement</td>
-                <td className="border px-2 py-1">US, UK, UAE, Japan, Kenya</td>
-              </tr>
-              <tr>
-                <td className="border px-2 py-1">Low Engagement</td>
-                <td className="border px-2 py-1">Eastern Europe, Latin America (potential expansion zones)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+  <table className="min-w-full text-sm border mb-2">
+    <thead>
+      <tr className="bg-primary-light text-primary">
+        <th className="px-2 py-1 border">Year</th>
+        <th className="px-2 py-1 border">Initiative/Event</th>
+        <th className="px-2 py-1 border">Region</th>
+        <th className="px-2 py-1 border">Impact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="border px-2 py-1">1950</td>
+        <td className="border px-2 py-1">ICCR Formation</td>
+        <td className="border px-2 py-1">Global</td>
+        <td className="border px-2 py-1">Formal institution</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">1975</td>
+        <td className="border px-2 py-1">First Festival of India (UK)</td>
+        <td className="border px-2 py-1">Europe</td>
+        <td className="border px-2 py-1">High cultural exposure</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">2014</td>
+        <td className="border px-2 py-1">International Day of Yoga (UN)</td>
+        <td className="border px-2 py-1">Global</td>
+        <td className="border px-2 py-1">190+ countries involved</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">2023</td>
+        <td className="border px-2 py-1">G20 Culture Track (Varanasi)</td>
+        <td className="border px-2 py-1">Global</td>
+        <td className="border px-2 py-1">Multilateral engagement</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">2025</td>
+        <td className="border px-2 py-1">WAVES Summit (Mumbai)</td>
+        <td className="border px-2 py-1">Global</td>
+        <td className="border px-2 py-1">₹1,300 cr deals, 90+ nations</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div className="overflow-x-auto mt-4">
+  <table className="min-w-full text-sm border mb-2">
+    <thead>
+      <tr className="bg-primary-light text-primary">
+        <th className="px-2 py-1 border">Export Item</th>
+        <th className="px-2 py-1 border">Global Reach</th>
+        <th className="px-2 py-1 border">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="border px-2 py-1">Yoga</td>
+        <td className="border px-2 py-1">190+ countries (UN Day)</td>
+        <td className="border px-2 py-1">Cultural + health diplomacy</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">Bollywood Films</td>
+        <td className="border px-2 py-1">Central/West Asia, Africa</td>
+        <td className="border px-2 py-1">Growing OTT influence</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">Ayurveda</td>
+        <td className="border px-2 py-1">Southeast Asia, EU</td>
+        <td className="border px-2 py-1">WHO collaboration opportunity</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">Cuisine</td>
+        <td className="border px-2 py-1">US, UK, Canada</td>
+        <td className="border px-2 py-1">Indian restaurants as diplomatic nodes</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">Diaspora Festivals</td>
+        <td className="border px-2 py-1">US, Mauritius, Malaysia</td>
+        <td className="border px-2 py-1">Identity reinforcement + soft influence</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div className="overflow-x-auto mt-4">
+  <table className="min-w-full text-sm border mb-2">
+    <thead>
+      <tr className="bg-primary-light text-primary">
+        <th className="px-2 py-1 border">Region</th>
+        <th className="px-2 py-1 border">Engagement Level</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="border px-2 py-1">High Engagement</td>
+        <td className="border px-2 py-1">US, UK, UAE, Japan, Kenya</td>
+      </tr>
+      <tr>
+        <td className="border px-2 py-1">Low Engagement</td>
+        <td className="border px-2 py-1">Eastern Europe, Latin America (potential expansion zones)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
       </div>
     </div>
   </section>
 );
 
-export default ResearchEnhancements; 
+export default ResearchEnhancements;
