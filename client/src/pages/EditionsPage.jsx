@@ -50,7 +50,7 @@ const EditionsPage = () => {
         background: 'linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)',
       }}
     >
-      <ResearchEnhancements />
+      
       <div className="mx-auto max-w-7xl space-y-10">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <h1
