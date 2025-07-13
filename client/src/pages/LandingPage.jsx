@@ -309,7 +309,7 @@ const fadeInUp = {
   variants={fadeInUp}
   className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4"
 >
-  {[["Browse Articles", "/research"], ["Research Articles", "/research"], ["About the Journal", "/publisher"]].map(
+  {[["Browse Journal", "/editions"],  ["About the Journal", "/publisher"]].map(
     ([label, to], i) => (
       <Link
         key={i}

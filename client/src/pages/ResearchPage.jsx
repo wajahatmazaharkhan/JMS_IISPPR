@@ -26,13 +26,12 @@
       }}
       >
         <div className="max-w-4xl w-full">
-          <ResearchEnhancements />
-
+         
           {/* Heading */}
           <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-4 animate-fadeInUp">
             <h1
               className="text-3xl text-white font-bold font-serif"
-            style={{ color: '#693155ff' }}
+            //style={{ color: '#693155ff' }}
             >
               Research Articles
             </h1>
