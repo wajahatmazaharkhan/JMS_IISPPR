@@ -11,6 +11,26 @@ import {
   Shield,
   User
 } from "lucide-react";
+// At top with other imports
+import { motion } from "framer-motion";
+
+// Animation Variants
+const heroContainer = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.25,
+      delayChildren: 0.3
+    }
+  }
+};
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+};
+
 
 // React & Router
 import { Link, useNavigate } from "react-router-dom";
@@ -110,12 +130,35 @@ const LandingPage = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [dropdownOpen]);
 
+
+const container = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 0.2,
+    },
+  },
+};
+
+const wordFade = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 40 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+};
+
+
+
   return (
     <div className="min-h-screen">
 {/* --- Header Navigation --- */}
 <header className="bg-bg-light border-b border-accent-light shadow-sm sticky top-0 z-50 transition-shadow duration-300">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
-    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
       
       {/* Logo */}
       <div className="flex items-center space-x-3 hover:scale-[1.02] transition-transform duration-300">
@@ -123,39 +166,42 @@ const LandingPage = () => {
           <BookOpen className="w-6 h-6 text-white" />
         </div>
         <div>
-          <h1 className="text-xl font-serif font-bold text-text tracking-wide">
+          <h1 className="text-lg sm:text-xl font-serif font-bold text-text tracking-wide">
             Journal Management
           </h1>
-          <p className="text-xs text-subtext uppercase tracking-wide">
+          <p className="text-[11px] sm:text-xs text-subtext uppercase tracking-wide">
             Academic Publishing Platform
           </p>
         </div>
       </div>
 
       {/* Nav Buttons & Account Dropdown */}
-      <div className="flex flex-col sm:flex-row gap-2 sm:items-center" ref={dropdownRef}>
+      <div
+        className="flex flex-col sm:flex-row gap-3 sm:items-center w-full sm:w-auto"
+        ref={dropdownRef}
+      >
         <button
           onClick={() => navigate("/editions")}
-          className="flex items-center space-x-2 px-4 py-2 text-text hover:text-primary border border-muted rounded bg-white hover:border-primary hover:bg-primary-light transition-all hover:scale-[1.03]"
+          className="w-full sm:w-auto flex justify-center items-center gap-2 px-5 py-3 text-sm sm:text-base text-text hover:text-primary border border-muted rounded-lg bg-white hover:border-primary hover:bg-primary-light transition-all hover:scale-[1.03]"
         >
           <BookOpen className="w-4 h-4" />
-          <span className="text-sm">Journal Editions</span>
+          Journal Editions
         </button>
 
         <button
           onClick={() => navigate("/editorial-board")}
-          className="flex items-center space-x-2 px-4 py-2 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-all hover:scale-[1.03]"
+          className="w-full sm:w-auto flex justify-center items-center gap-2 px-5 py-3 text-sm sm:text-base bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition-all hover:scale-[1.03]"
         >
           <Users className="w-4 h-4" />
-          <span className="text-sm">Editorial Board</span>
+          Editorial Board
         </button>
 
         <button
           onClick={() => setDropdownOpen((prev) => !prev)}
-          className="flex items-center space-x-2 px-4 py-2 text-text hover:text-primary border border-muted rounded bg-white hover:border-primary hover:bg-primary-light transition-all hover:scale-[1.03]"
+          className="w-full sm:w-auto flex justify-center items-center gap-2 px-5 py-3 text-sm sm:text-base text-text hover:text-primary border border-muted rounded-lg bg-white hover:border-primary hover:bg-primary-light transition-all hover:scale-[1.03]"
         >
           <User className="w-4 h-4" />
-          <span className="text-sm">Account</span>
+          Account
         </button>
 
         {dropdownOpen && (
@@ -185,142 +231,190 @@ const LandingPage = () => {
   </div>
 </header>
 
+
+
+
 {/* --- Hero Section --- */}
-<section className="bg-white pt-24 relative overflow-hidden">
-  <div className="absolute inset-0 bg-gradient-to-br from-white via-primary-light/10 to-accent-light/20 z-0" />
-  <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 justify-center items-center px-4 relative z-10">
-    {/* Left Image Grid */}
-    <div className="flex gap-5 mb-8 lg:mb-0">
-      <div className="flex flex-col gap-5">
-        <img
-          src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?fm=jpg&q=60&w=3000"
-          className="h-64 w-72 sm:h-80 sm:w-80 object-cover rounded shadow-lg hover:scale-105 transition-transform duration-500 parallax"
+<section
+  className="relative pt-32 min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden border-y-8 border-white font-serif"
+  style={{ backgroundImage: "url('/assets/1.jpg')" }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-white/10 backdrop-blur-sm z-0" />
+
+  <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-20 px-6">
+    
+    {/* Left Image Grid - 2x2 layout */}
+    <motion.div
+      className="grid grid-cols-2 gap-6"
+      variants={container}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.3 }}
+    >
+      {[
+        "https://plus.unsplash.com/premium_photo-1684444605542-93725082d214",
+        "https://images.unsplash.com/photo-1483546363825-7ebf25fb7513",
+        "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81",
+        "https://images.unsplash.com/photo-1513542992587-cd39ba97057c"
+      ].map((src, index) => (
+        <motion.img
+          key={index}
+          variants={fadeInUp}
+          src={`${src}?w=600&q=60`}
+          className="w-80 h-80 object-cover rounded-2xl shadow-xl hover:scale-105 transition-transform duration-500"
         />
-        <img
-          src="https://images.unsplash.com/photo-1483546363825-7ebf25fb7513?fm=jpg&q=60&w=3000"
-          className="h-64 w-72 sm:h-80 sm:w-80 object-cover rounded shadow-lg hover:scale-105 transition-transform duration-500 parallax"
-        />
-      </div>
-      <div className="flex flex-col gap-5">
-        <img
-          src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=600&q=60"
-          className="h-64 w-72 sm:h-80 sm:w-80 object-cover rounded shadow-lg hover:scale-105 transition-transform duration-500 parallax"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1513542992587-cd39ba97057c?w=600&q=60"
-          className="h-64 w-72 sm:h-80 sm:w-80 object-cover rounded shadow-lg hover:scale-105 transition-transform duration-500 parallax"
-        />
-      </div>
-    </div>
+      ))}
+    </motion.div>
 
     {/* Right Text Content */}
-    <div className="max-w-xl text-center lg:text-left animate-fadeInUp">
-      <div className="max-w-4xl mx-auto">
-        <span className="inline-block px-4 py-1 bg-primary-light text-primary text-sm font-medium rounded-full mb-6">
-          Established Academic Publishing
-        </span>
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-text leading-tight mb-4">
-          Law, Diplomacy, Tech & <span className="text-primary">Policy Review</span>
-        </h1>
-        <p className="text-base sm:text-lg text-text leading-relaxed mb-6">
-          A premier scholarly journal dedicated to advancing
-          interdisciplinary research at the intersection of law,
-          diplomacy, technology, and public policy through rigorous
-          peer-reviewed publications.
-        </p>
-      </div>
+    <motion.div
+      className="max-w-2xl text-center lg:text-left space-y-8"
+      variants={container}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.3 }}
+    >
+      <motion.span
+        variants={fadeInUp}
+        className="inline-block px-5 py-2 bg-primary-light text-primary text-base sm:text-lg font-semibold rounded-full"
+      >
+        Established Academic Publishing
+      </motion.span>
 
-      <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-        <Link
-          to="/research"
-          className="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors hover:shadow-xl transform hover:scale-105"
-        >
-          Browse Articles
-          <ArrowRight className="ml-2 w-4 h-4" />
-        </Link>
-        <Link
-          to="/research"
-          className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-primary-light transition-colors hover:shadow-lg transform hover:scale-105"
-        >
-          Research Articles
-        </Link>
-        <Link
-          to="/publisher"
-          className="inline-flex items-center px-8 py-3 border border-primary text-primary font-medium rounded hover:border-primary-dark hover:bg-primary-light transition-colors hover:shadow-lg transform hover:scale-105"
-        >
-          About the Journal
-        </Link>
-      </div>
-    </div>
+      <motion.h1
+        className="text-5xl sm:text-6xl xl:text-7xl font-extrabold text-white leading-tight tracking-tight"
+        variants={container}
+      >
+        {"Law, Diplomacy, Tech & Policy Review"
+          .split(" ")
+          .map((word, index) => (
+            <motion.span key={index} variants={wordFade} className="inline-block mr-2">
+              {word}
+            </motion.span>
+          ))}
+      </motion.h1>
+
+      <motion.p
+        variants={fadeInUp}
+        className="text-xl sm:text-2xl text-white/90 leading-relaxed font-light"
+      >
+        A premier scholarly journal dedicated to advancing interdisciplinary research
+        at the intersection of law, diplomacy, technology, and public policy through
+        rigorous peer-reviewed publications.
+      </motion.p>
+
+      {/* Buttons */}
+      <motion.div
+  variants={fadeInUp}
+  className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4"
+>
+  {[["Browse Articles", "/research"], ["Research Articles", "/research"], ["About the Journal", "/publisher"]].map(
+    ([label, to], i) => (
+      <Link
+        key={i}
+        to={to}
+        className="px-7 py-3 text-base sm:text-lg font-semibold rounded-full bg-gradient-to-r from-primary via-accent to-primary-dark text-white shadow-lg hover:from-primary-dark hover:to-primary hover:shadow-xl hover:scale-[1.06] transition-all duration-300 ease-in-out group relative overflow-hidden"
+      >
+        <span className="relative z-10">{label}</span>
+        <span className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-white transition-opacity duration-300 rounded-full blur-sm" />
+      </Link>
+    )
+  )}
+</motion.div>
+
+    </motion.div>
   </div>
 </section>
 
+
+
+
+
+
+
 {/* --- Journal Resources Section --- */}
-<section className="py-20 bg-primary-light/25 px-4">
-  <div className="max-w-6xl mx-auto px-6">
-    <div className="text-center mb-16 animate-fadeInUp">
-      <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary mb-6">
+<section
+  className="relative py-24 px-4 bg-cover bg-center bg-no-repeat border-y-8 border-white"
+  style={{ backgroundImage: "url('/assets/2.jpg')" }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/30 backdrop-blur-sm z-0" />
+
+  {/* Section Content */}
+  <div className="relative z-10 max-w-7xl mx-auto px-6">
+    <motion.div
+      className="text-center mb-20"
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.3 }}
+      variants={heroContainer}
+    >
+      <motion.h2
+        className="text-4xl lg:text-5xl font-serif font-bold text-white mb-6"
+        variants={fadeInUp}
+      >
         Journal Resources
-      </h2>
-      <p className="text-lg text-text max-w-2xl mx-auto">
+      </motion.h2>
+      <motion.p
+        className="text-lg text-white max-w-3xl mx-auto"
+        variants={fadeInUp}
+      >
         Access comprehensive information about our journal, submission
         guidelines, and scholarly resources
-      </p>
-    </div>
+      </motion.p>
+    </motion.div>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <motion.div
+      className="grid md:grid-cols-2 lg:grid-cols-3 gap-10"
+      variants={heroContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.2 }}
+    >
       {navLinks.map((link, index) => (
-        <Link
-          key={link.to}
-          to={link.to}
-          className="group backdrop-blur-md bg-white/80 border border-gray-200 shadow-md rounded-xl p-8 hover:border-primary hover:shadow-xl transition-all duration-500 text-left w-full relative overflow-hidden transform hover:-translate-y-1 hover:scale-[1.02] animate-fadeIn"
-        >
-          <div className="mb-6 relative z-10">
-            <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-light rounded-lg mb-4 transition-colors group-hover:bg-primary">
-              <link.icon className="w-6 h-6 text-primary group-hover:text-white transition-colors duration-300" />
+        <motion.div key={link.to} variants={fadeInUp}>
+          <Link
+            to={link.to}
+            className="group relative flex flex-col justify-between min-h-[280px] rounded-2xl p-6 border border-white/10 bg-white/10 backdrop-blur-md shadow-md hover:bg-white hover:border-white/20 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 hover:scale-[1.02]"
+          >
+            {/* Top icon and text */}
+            <div>
+              <div className="flex items-center justify-center w-12 h-12 bg-primary-light rounded-lg mb-4 group-hover:bg-primary transition-colors">
+                <link.icon className="w-6 h-6 text-primary group-hover:text-white transition-colors" />
+              </div>
+              <h3 className="text-xl font-serif font-semibold text-white group-hover:text-primary-dark transition-colors duration-300">
+                {link.label}
+              </h3>
+              <p className="text-white/80 text-sm leading-relaxed group-hover:text-black transition-colors duration-300">
+                {link.desc}
+              </p>
             </div>
-            <h3 className="text-xl font-serif font-semibold text-primary-dark mb-3">
-              {link.label}
-            </h3>
-            <p className="text-text leading-relaxed mb-4">
-              {link.desc}
-            </p>
-            <div className="flex items-center text-sm font-medium text-primary group-hover:text-accent">
+
+            {/* Bottom Learn More */}
+            <div className="flex items-center text-sm font-medium text-accent-light group-hover:text-accent pt-6">
               Learn More
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
             </div>
-          </div>
-          <div className="absolute right-3 bottom-3 text-primary-light opacity-10 group-hover:opacity-20 transition-opacity duration-300 text-6xl">
-            <link.icon />
-          </div>
-        </Link>
+
+            {/* Background Icon */}
+            <div className="absolute right-4 bottom-4 text-white/10 group-hover:text-black/10 transition-opacity duration-300 text-[4rem] pointer-events-none">
+              <link.icon />
+            </div>
+          </Link>
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   </div>
 </section>
 
-<style jsx>{`
-  .parallax {
-    will-change: transform;
-    transition: transform 0.4s ease-out;
-  }
-  .parallax:hover {
-    transform: translateY(-10px);
-  }
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(40px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  .animate-fadeInUp {
-    animation: fadeInUp 1s ease forwards;
-  }
-`}</style>
+
+
+
+
+
+
+
 
 {/* --- Journal Statistics Section --- */}
 <section className="py-20 bg-gradient-to-br from-primary-dark via-primary to-accent text-white px-4">
@@ -354,18 +448,40 @@ const LandingPage = () => {
 {/* --- Editorial Standards Section --- */}
 <section className="py-20 bg-gradient-to-t from-primary-light via-white to-primary-light px-4">
   <div className="max-w-6xl mx-auto px-6 text-center">
-    <h2 className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6 animate-fadeInDown">
-      Editorial Excellence
-    </h2>
-    <p className="text-lg text-text max-w-3xl mx-auto mb-16 animate-fadeIn">
-      Our commitment to scholarly rigor and academic integrity defines
-      every aspect of our publishing process
-    </p>
-    <div className="grid md:grid-cols-3 gap-12">
+    <motion.div
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.3 }}
+      variants={heroContainer}
+    >
+      <motion.h2
+        variants={fadeInUp}
+        className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6"
+      >
+        Editorial Excellence
+      </motion.h2>
+
+      <motion.p
+        variants={fadeInUp}
+        className="text-lg text-text max-w-3xl mx-auto mb-16"
+      >
+        Our commitment to scholarly rigor and academic integrity defines
+        every aspect of our publishing process
+      </motion.p>
+    </motion.div>
+
+    <motion.div
+      className="grid md:grid-cols-3 gap-12"
+      variants={heroContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.2 }}
+    >
       {features.map((feature, index) => (
-        <div
+        <motion.div
           key={index}
-          className="text-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 group hover:-translate-y-1 hover:scale-[1.02] transform"
+          variants={fadeInUp}
+          className="text-center bg-gradient-to-br from-white via-gray-50 to-white border border-primary/10 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6 group hover:-translate-y-1 hover:scale-[1.02] transform"
         >
           <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-dark rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
             <feature.icon className="w-8 h-8 text-white" />
@@ -376,11 +492,12 @@ const LandingPage = () => {
           <p className="text-primary leading-relaxed text-sm">
             {feature.desc}
           </p>
-        </div>
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   </div>
 </section>
+
 
 {/* --- Call to Action Section --- */}
 <section className="py-20 bg-gradient-to-tr from-white via-primary-light/10 to-accent-light/10 text-center px-4 relative overflow-hidden">

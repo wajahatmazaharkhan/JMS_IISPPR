@@ -67,21 +67,25 @@ const Ethics = () => {
   };
 
   return (
-    <div className="min-h-screen bg-primary-light/25">
+    <div className="min-h-screen bg-primary-light/25" style={{
+        background: 'linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)',
+      }}>
       {/* Banner */}
-      <div className="bg-primary-dark text-white py-16 px-6 text-center">
-        <h1 className="text-4xl font-bold font-serif mb-4">Ethical Guidelines</h1>
+      <div className="bg-primary-dark text-white py-16 px-6 text-center" style={{
+        background: 'linear-gradient(to right,  #482742ff)',
+       }}>
+        <h1 className="text-4xl font-bold font-serif mb-4" >Ethical Guidelines</h1>
         <p className="text-md max-w-3xl mx-auto text-accent-light">
           Our unwavering commitment to academic integrity, transparency, and student empowerment drives everything we do at LDTPPR.
         </p>
       </div>
 
       {/* LDTPPR Description Box */}
-      <div className="max-w-5xl mx-auto px-6 py-6 text-text bg-white rounded-lg shadow-md mt-6">
-        <h2 className="text-2xl font-bold text-primary font-serif mb-2">
+      <div className="max-w-5xl mx-auto px-6 py-6 text-text bg-white rounded-lg shadow-md mt-6" >
+        <h2 className="text-2xl font-bold text-primary font-serif mb-2" style={{ color: '#693155ff' }}>
           Law, Diplomacy, Tech & Public Policy Review (LDTPPR)
         </h2>
-        <p className="text-subtext text-justify">
+        <p className="text-subtext text-justify" >
           At Law, Diplomacy, Tech & Public Policy Review, we uphold the highest standards of academic integrity, transparency, and ethical publishing. These guidelines apply to all authors, editors, peer reviewers, and contributors.
         </p>
       </div>
@@ -93,10 +97,10 @@ const Ethics = () => {
             key={index}
             onClick={() => toggleCard(index)}
             className={`bg-white rounded-lg shadow-md p-6 border-l-4 cursor-pointer transition-all duration-300 ${
-              activeIndex === index ? "border-primary-light" : "border-primary"
-            }`}
+              activeIndex === index ? "border-primary-light" : "border-primary" 
+            }`} 
           >
-            <h3 className="text-lg font-semibold text-primary mb-2">{section.title}</h3>
+            <h3 className="text-lg font-semibold text-primary mb-2" style={{ color: '#693155ff' }}>{section.title}</h3>
             {activeIndex === index && (
               <ul className="mt-3 pl-4 list-disc text-subtext space-y-2">
                 {section.items.map((item, idx) => (
@@ -109,7 +113,7 @@ const Ethics = () => {
       </div>
 
       {/* Final Statement */}
-      <p className="text-center text-primary font-semibold italic text-lg mb-12 px-4">
+      <p className="text-center text-white text-primary font-semibold italic text-lg pb-12 px-4">
         LDTPPR stands for academic integrity, inclusivity, and empowering the next generation of global thinkers through ethical, rigorous publishing.
       </p>
     </div>

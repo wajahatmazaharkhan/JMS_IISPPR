@@ -37,7 +37,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-primary-light px-4">
       <div className="bg-white shadow-lg rounded-2xl p-10 w-full max-w-md relative">
-        <h2 className="text-3xl font-bold text-primary-dark mb-8 font-serif text-center">
+        <h2 className="text-3xl font-bold text-primary-dark mb-8 font-serif text-center"  style={{ color: '#693155ff' }}>
           Login
         </h2>
         <form className="space-y-6" onSubmit={handleSubmit}>
@@ -72,7 +72,7 @@ const Login = () => {
           {error && (
             <div className="text-red-600 text-sm text-center">{error}</div>
           )}
-          <button className="w-full bg-primary text-white py-2 rounded font-semibold hover:bg-primary-dark transition-colors">
+          <button className="w-full bg-primary text-white py-2 rounded font-semibold hover:bg-primary-dark transition-colors" >
             Login
           </button>
         </form>
@@ -80,7 +80,7 @@ const Login = () => {
           <span className="text-subtext">Don't have an account? </span>
           <Link
             to="/signup"
-            className="text-primary font-semibold hover:underline"
+            className="text-primary font-semibold hover:underline"  style={{ color: '#693155ff' }}
           >
             Sign Up
           </Link>

@@ -1,9 +1,13 @@
 import { MapPin, Phone, Mail, Building2 } from "lucide-react";
 
 const ContactUs = () => (
-  <div className="w-full min-h-screen bg-white">
+  <div className="w-full min-h-screen bg-white" style={{
+        background: 'linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)',
+      }}>
     {/* Hero Section */}
-    <div className="bg-primary-dark text-white py-16 px-4 sm:px-6 text-center">
+    <div className="bg-primary-dark text-white py-16 px-4 sm:px-6 text-center"  style={{
+        background: 'linear-gradient(to right,  #482742ff)',
+       }}>
       <h1 className="text-3xl sm:text-5xl font-bold font-serif mb-6 sm:mb-8">
         Contact Us
       </h1>
@@ -16,15 +20,15 @@ const ContactUs = () => (
     {/* Contact Info Section */}
     <div className="w-full flex justify-center px-4 py-12 sm:py-16 bg-primary-light/25">
       <div className="bg-white max-w-4xl w-full rounded-lg shadow-md p-4 sm:p-8">
-        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-primary-dark text-center mt-3 sm:mt-5 mb-10 sm:mb-12">
+        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-primary-dark text-center mt-3 sm:mt-5 mb-10 sm:mb-12" style={{ color: '#693155ff' }}>
           Contact Information
         </h2>
-        <div className="space-y-8 sm:space-y-9 text-text">
+        <div className="space-y-8 sm:space-y-9 text-text" >
           {/* Office */}
           <div className="flex items-start gap-4">
             <Building2 className="w-6 h-6 text-primary mt-1 ml-2 sm:ml-12" />
             <div>
-              <h3 className="font-semibold text-primary">Office</h3>
+              <h3 className="font-semibold text-primary" >Office</h3>
               <p className="text-subtext">
                 Office number 30, Nihard Plaza,<br />
                 Near Zakir Hussain school,<br />

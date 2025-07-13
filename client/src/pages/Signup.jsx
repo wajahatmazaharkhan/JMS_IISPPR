@@ -1,7 +1,7 @@
 const Signup = () => (
   <div className="min-h-screen flex items-center justify-center bg-primary-light px-4">
     <div className="bg-white shadow-lg rounded-2xl p-10 w-full max-w-md">
-      <h2 className="text-3xl font-bold text-primary-dark mb-8 font-serif text-center">Sign Up</h2>
+      <h2 className="text-3xl font-bold text-primary-dark mb-8 font-serif text-center"  style={{ color: '#693155ff' }}>Sign Up</h2>
       <form className="space-y-6">
         <div>
           <label className="block text-sm font-medium text-text mb-1">Name</label>
