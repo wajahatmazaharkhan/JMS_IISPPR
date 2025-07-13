@@ -1,7 +1,11 @@
 const Plagiarism = () => (
-  <div className="min-h-screen bg-primary-light/25">
+  <div className="min-h-screen bg-primary-light/25" style={{
+        background: 'linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)',
+      }}>
     {/* Hero Banner */}
-    <div className="bg-primary-dark text-white py-14 px-4 sm:px-6 text-center">
+    <div className="bg-primary-dark text-white py-14 px-4 sm:px-6 text-center" style={{
+        background: 'linear-gradient(to right,  #482742ff)',
+       }}>
       <h1 className="text-3xl sm:text-4xl font-bold font-serif mb-6 mt-6">
         Plagiarism & AI Content Policy
       </h1>
@@ -11,7 +15,7 @@ const Plagiarism = () => (
     </div>
 
     {/* Content Container */}
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 leading-relaxed text-text bg-white rounded-lg shadow-md my-10 space-y-10">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 leading-relaxed text-text bg-white rounded-lg shadow-md my-10 space-y-10" style={{ color: '#693155ff' }}>
       {[
         {
           title: "Definition of Plagiarism",
@@ -50,7 +54,7 @@ const Plagiarism = () => (
         },
       ].map(({ title, points }, idx) => (
         <section key={idx} className="px-4 sm:px-8 lg:px-12">
-          <h2 className="text-xl sm:text-2xl font-bold text-primary font-serif mb-4">{title}</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-primary font-serif mb-4" style={{ color: '#693155ff' }}>{title}</h2>
           <ul className="list-disc pl-6 text-subtext space-y-2 text-sm sm:text-base">
             {points.map((point, i) => (
               <li key={i}>{point}</li>
@@ -59,7 +63,7 @@ const Plagiarism = () => (
         </section>
       ))}
 
-      <p className="mt-12 font-semibold text-primary text-center italic text-sm sm:text-base px-4">
+      <p className="mt-12 font-semibold text-primary text-center italic text-sm sm:text-base px-4" style={{ color: '#693155ff' }}>
         LDTPPR is committed to safeguarding originality, ensuring accountability, and promoting responsible innovation in research writing.
       </p>
     </div>
