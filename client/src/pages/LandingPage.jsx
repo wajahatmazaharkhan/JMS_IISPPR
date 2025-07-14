@@ -414,10 +414,8 @@ const fadeInUp = {
 
 
 
-
-
 {/* --- Journal Statistics Section --- */}
-<section className="py-20 bg-gradient-to-br from-primary-dark via-primary to-accent text-white px-4">
+<section className="py-20 bg-gradient-to-b from-[#1a092b] via-[#31104a] to-[#4a1a6d] text-white px-4">
   <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center">
     {(() => {
       const stats = [
@@ -430,7 +428,7 @@ const fadeInUp = {
       return stats.map(({ end, suffix, label }, index) => (
         <div
           key={index}
-          ref={index === 0 ? ref : null} // trigger animation once from first element
+          ref={index === 0 ? ref : null}
           className="transform transition-transform duration-300 hover:scale-105"
         >
           <div className="text-4xl font-serif font-bold mb-2 animate-fadeInUp">
@@ -446,7 +444,7 @@ const fadeInUp = {
 </section>
 
 {/* --- Editorial Standards Section --- */}
-<section className="py-20 bg-gradient-to-t from-primary-light via-white to-primary-light px-4">
+<section className="py-20 bg-gradient-to-b from-[#4a1a6d] via-[#3a1456] to-[#2d0f42] text-white px-4">
   <div className="max-w-6xl mx-auto px-6 text-center">
     <motion.div
       initial="hidden"
@@ -456,14 +454,14 @@ const fadeInUp = {
     >
       <motion.h2
         variants={fadeInUp}
-        className="text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-6"
+        className="text-3xl lg:text-4xl font-serif font-bold text-white mb-6"
       >
         Editorial Excellence
       </motion.h2>
 
       <motion.p
         variants={fadeInUp}
-        className="text-lg text-text max-w-3xl mx-auto mb-16"
+        className="text-lg text-white/80 max-w-3xl mx-auto mb-16"
       >
         Our commitment to scholarly rigor and academic integrity defines
         every aspect of our publishing process
@@ -481,15 +479,15 @@ const fadeInUp = {
         <motion.div
           key={index}
           variants={fadeInUp}
-          className="text-center bg-gradient-to-br from-white via-gray-50 to-white border border-primary/10 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6 group hover:-translate-y-1 hover:scale-[1.02] transform"
+          className="text-center bg-white border border-gray-200 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6 group hover:-translate-y-1 hover:scale-[1.02] transform"
         >
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-dark rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-primary rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
             <feature.icon className="w-8 h-8 text-white" />
           </div>
           <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4 group-hover:text-accent transition-colors duration-300">
             {feature.title}
           </h3>
-          <p className="text-primary leading-relaxed text-sm">
+          <p className="text-subtext leading-relaxed text-sm">
             {feature.desc}
           </p>
         </motion.div>
@@ -498,29 +496,37 @@ const fadeInUp = {
   </div>
 </section>
 
-
 {/* --- Call to Action Section --- */}
-<section className="py-20 bg-gradient-to-tr from-white via-primary-light/10 to-accent-light/10 text-center px-4 relative overflow-hidden">
-  <div className="absolute inset-0 bg-gradient-to-br from-white/0 via-primary-light/10 to-accent-light/20 animate-pulse z-0" />
+<section className="py-20 bg-gradient-to-b from-[#2d0f42] via-[#1e0a2d] to-[#1a092b] text-center text-white px-4 relative overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-br from-[#4a1a6d]/20 via-[#31104a]/30 to-white/10 animate-pulse z-0" />
   <div className="relative z-10 max-w-4xl mx-auto">
-    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-primary-dark mb-4 animate-fadeInUp">
+    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-white mb-4 animate-fadeInUp">
       Submit Your Research
     </h2>
-    <p className="text-base sm:text-lg text-text mb-6 max-w-2xl mx-auto animate-fadeIn">
+    <p className="text-base sm:text-lg text-white/80 mb-6 max-w-2xl mx-auto animate-fadeIn">
       Join our community of distinguished scholars and contribute to the
       advancement of interdisciplinary research
     </p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center">
       <Link
         to="/contact-us"
-        className="inline-flex items-center px-8 py-3 bg-primary text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-[1.05] transition duration-300 ease-in-out group"
+        className="inline-flex items-center px-8 py-3 bg-[#b02c42] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-[1.05] transition duration-300 ease-in-out group"
       >
         <span className="group-hover:underline">Submission Guidelines</span>
-        <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+        <ArrowRight className="ml-2 w-4 h-4 text-white group-hover:translate-x-1 transition-transform duration-300" />
       </Link>
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
+
+
 
       {/* --- Footer Section --- */}
 <footer className="bg-text border-t border-accent-light py-12 text-white px-4 relative overflow-hidden">
