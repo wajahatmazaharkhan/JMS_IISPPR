@@ -41,23 +41,23 @@ const ResearchCard = ({ articles, onDelete }) => {
   };
 
   return (
-    <div className="group relative bg-white border border-accent-light rounded-xl p-6 shadow-sm hover:border-primary transition-all duration-300 ease-in-out hover:shadow-2xl transform hover:scale-[1.015] flex flex-col gap-4 overflow-hidden">
+    <div className="group relative bg-white border border-accent-light rounded-xl p-6 shadow-sm hover:border-new-primary transition-all duration-300 ease-in-out hover:shadow-2xl transform hover:scale-[1.015] flex flex-col gap-4 overflow-hidden">
       {/* animated border glow */}
-      <div className="absolute inset-0 z-0 rounded-xl group-hover:ring-2 group-hover:ring-primary/30 transition-all duration-300 pointer-events-none" />
+      <div className="absolute inset-0 z-0 rounded-xl group-hover:ring-2 group-hover:ring-new-primary/30 transition-all duration-300 pointer-events-none" />
 
       {/* Top bar */}
-      <div className="flex justify-between items-center relative z-10">
-        <span className="text-sm text-primary font-medium">
+      <div className="flex justify-between items-center relative z-10" style={{ color:'#703b5f'}}>
+        <span className="text-sm font-medium">
           Serial {articles.id}
         </span>
-        <span className="text-sm text-primary font-medium">
+        <span className="text-sm font-medium">
           Issue {articles.issue} · Volume {articles.volume}
         </span>
       </div>
 
       {/* Author + Status */}
       <div className="flex justify-between items-center relative z-10">
-        <span className="bg-primary-light text-primary px-3 py-1 rounded-full text-xs font-medium">
+        <span className="text-new-primary px-3 py-1 rounded-full text-xs font-medium" style={{ background: 'rgba(105, 49, 85, 0.13)'}}>
           {articles.authorAbbrev}
         </span>
         <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
@@ -66,24 +66,24 @@ const ResearchCard = ({ articles, onDelete }) => {
       </div>
 
       {/* Title */}
-      <h2 className="text-xl font-serif font-bold text-primary-dark leading-tight relative z-10 transition duration-300 group-hover:text-primary">
+      <h2 className="text-xl font-serif font-bold leading-tight relative z-10 transition duration-300 group-hover:text-primary" style={{ color:'#482742ff'}}>
         {articles.title}
       </h2>
 
       {/* Abstract */}
-      <p className="text-subtext text-sm text-justify relative z-10">
+      <p className="text-new-primary text-sm text-justify relative z-10 border-l-4 mb-6 border-new-primary p-6 rounded-lg space-y-3" style={{ backgroundColor: 'rgba(105, 49, 85, 0.13)' }} >
         {articles.abstract}
       </p>
 
       {/* Keywords */}
       {articles.keywords?.length > 0 && (
         <div className="relative z-10">
-          <h4 className="font-semibold text-slate-800 mb-3 text-sm">Keywords</h4>
+          <h4 className="font-semibold text-new-primary mb-3 text-sm"><b>Keywords</b></h4>
           <div className="flex flex-wrap gap-2">
             {articles.keywords.map((keyword, idx) => (
               <span
                 key={idx}
-                className="px-2 py-1 bg-primary-light/40 text-primary text-xs rounded transition-all duration-200 hover:bg-primary-light/60 hover:scale-105"
+                className="px-2 py-1 bg-new-primary-sub text-new-primary text-xs rounded transition-all duration-200 hover:bg-new-primary hover:scale-105 hover:text-white"
               >
                 {keyword}
               </span>
@@ -97,14 +97,14 @@ const ResearchCard = ({ articles, onDelete }) => {
         <button
           onClick={handleDownload}
           disabled={downloading}
-          className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-medium rounded hover:bg-primary-dark transition disabled:opacity-50"
+          className="inline-flex items-center gap-2 px-4 py-2 bg-new-primary-dark text-white font-medium rounded hover:bg-new-primary-sub transition disabled:opacity-50 hover:text-new-primary"
         >
           <Download size={16} />
           {downloading ? "Downloading..." : "Download"}
         </button>
 
         <Link to={articleRoutes[articles.id]}>
-          <button className="inline-flex items-center px-4 py-2 bg-primary text-white font-medium rounded hover:bg-primary-dark transition disabled:opacity-50">
+          <button className="inline-flex items-center px-4 py-2 bg-new-primary-dark text-white font-medium rounded hover:bg-new-primary-sub transition disabled:opacity-50 hover:text-new-primary">
             Read More
           </button>
         </Link>
