@@ -58,11 +58,11 @@ const TopNavbar = () => {
                 key={link.to}
                 to={link.to}
                 className={({ isActive }) =>
-                  `relative px-4 py-2 font-medium text-sm transition-all duration-300 group ${isActive ? 'text-rose-600' : 'text-gray-700 hover:text-rose-600'}`
+                  `relative px-4 py-2 font-medium text-sm transition-all duration-300 group ${isActive ? 'text-primary' : 'text-gray-700 hover:text-primary'}`
                 }
               >
                 {link.label}
-                <span className={`absolute bottom-0 left-0 h-0.5 bg-rose-600 transition-all duration-300 ${location.pathname === link.to ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-primary transition-all duration-300 ${location.pathname === link.to ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
               </NavLink>
             ))}
 
@@ -70,16 +70,16 @@ const TopNavbar = () => {
               <NavLink
                 to="/editorial-board"
                 className={({ isActive }) =>
-                  `relative px-4 py-2 font-medium text-sm transition-all duration-300 group ${isActive ? 'text-rose-600' : 'text-gray-700 hover:text-rose-600'}`
+                  `relative px-4 py-2 font-medium text-sm transition-all duration-300 group ${isActive ? 'text-primary' : 'text-gray-700 hover:text-primary'}`
                 }
               >
                 Editorial Board
-                <span className={`absolute bottom-0 left-0 h-0.5 bg-rose-600 transition-all duration-300 ${location.pathname === '/editorial-board' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-primary transition-all duration-300 ${location.pathname === '/editorial-board' ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
               </NavLink>
             )}
 
             <div className="relative group ml-2">
-              <button className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-700 hover:text-rose-600 transition-colors">
+              <button className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-700 hover:text-primary transition-colors">
                 <User className="w-4 h-4" />
                 <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
@@ -88,7 +88,7 @@ const TopNavbar = () => {
                   <NavLink
                     key={link.to}
                     to={link.to}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 transition-colors"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-primary transition-colors"
                   >
                     {link.label}
                   </NavLink>
@@ -119,7 +119,7 @@ const TopNavbar = () => {
                 key={link.to}
                 to={link.to}
                 className={({ isActive }) =>
-                  `block px-4 py-3 rounded-lg font-medium text-sm transition-all ${isActive ? 'bg-rose-100 text-rose-600' : 'text-gray-700 hover:bg-gray-100'}`
+                  `block px-4 py-3 rounded-lg font-medium text-sm transition-all ${isActive ? 'bg-purple-100 text-shadow-purple-800' : 'text-gray-700 hover:bg-gray-100'}`
                 }
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -131,7 +131,7 @@ const TopNavbar = () => {
               <NavLink
                 to="/editorial-board"
                 className={({ isActive }) =>
-                  `block px-4 py-3 rounded-lg font-medium text-sm transition-all ${isActive ? 'bg-rose-100 text-rose-600' : 'text-gray-700 hover:bg-gray-100'}`
+                  `block px-4 py-3 rounded-lg font-medium text-sm transition-all ${isActive ? 'bg-purple-100 text-primary' : 'text-gray-700 hover:bg-gray-100'}`
                 }
                 onClick={() => setIsMobileMenuOpen(false)}
               >
