@@ -167,7 +167,7 @@ const fadeInUp = {
         </div>
         <div>
           <h1 className="text-lg sm:text-xl font-serif font-bold text-text tracking-wide">
-            Journal Management
+            Law Diplomacy Review
           </h1>
           <p className="text-[11px] sm:text-xs text-subtext uppercase tracking-wide">
             Academic Publishing Platform
