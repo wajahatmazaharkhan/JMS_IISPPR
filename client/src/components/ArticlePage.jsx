@@ -1,4 +1,7 @@
 const ArticlePage = ({
+  id,
+  issue,
+  volume,
   title,
   author,
   abstract,
@@ -10,6 +13,15 @@ const ArticlePage = ({
   return (
     <div className="bg-primary-light min-h-screen py-10 px-4 sm:px-6 md:px-8">
       <div className="bg-white shadow-md rounded-xl max-w-6xl mx-auto p-5 sm:p-8">
+        {/* Top bar */}
+        <div className="flex justify-between items-center relative mb-6 z-10" style={{ color:'#703b5f'}}>
+          <span className="text-base font-medium ">
+            Serial {id}
+          </span>
+          <span className="text-base font-medium">
+            Issue {issue} · Volume {volume}
+          </span>
+        </div>
         {/* <div className="max-w-4xl mx-auto p-6"> */}
         <h1 className="text-3xl font-bold">{title}</h1>
         <p className="text-2xl text-gray-700 mb-4 my-4">By - {author}</p>

@@ -6,6 +6,9 @@ const BridgingLiteracyGapsInIndia = () => {
 
   return article ? (
     <ArticlePage
+      id={article.id}
+      issue={article.issue}
+      volume={article.volume}
       title={article.title}
       author={article.author}
       abstract={article.abstract}
