@@ -5,6 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
+import ScriptsSymbolsSoftPower from "./pages/editions/ScriptsSymbolsSoftPower";
 import ScrollToTop from "./components/ScrollToTop";
 import TopNavbar from './components/TopNavbar';
 import { useLocation } from 'react-router-dom';
@@ -150,6 +151,11 @@ function AppRoutes() {
           path="/The-Intersection-Of-Women-Empowerment"
           element={<TheIntersectionOfWomenEmpowerment />}
         />
+        <Route
+          path="/Scripts-Symbols-and-Soft-Power-Tracing-Indias-Cultural-Diplomacy-in-Global-Affairs"
+          element={<ScriptsSymbolsSoftPower />}
+        />
+
         <Route path="*" element={<LandingPage />} />
       </Routes>
     </>

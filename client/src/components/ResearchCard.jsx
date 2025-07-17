@@ -13,6 +13,7 @@ const articleRoutes = {
   6: "/Primary-Health-Care-And-Foreign-Policy",
   7: "/Projecting-Culture-Shaping-Perceptions",
   8: "/The-Intersection-Of-Women-Empowerment",
+  9: "/Scripts-Symbols-and-Soft-Power-Tracing-Indias-Cultural-Diplomacy-in-Global-Affairs",
 };
 
 const ResearchCard = ({ articles, onDelete }) => {
