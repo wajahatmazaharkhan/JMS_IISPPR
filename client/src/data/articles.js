@@ -1403,6 +1403,94 @@ const articles = [
       },
     ],
   },
+{
+  id: 9,
+  issue: 1,
+  volume: 1,
+  title: "Scripts, Symbols and Soft Power: Tracing India's Cultural Diplomacy in Global Affairs",
+  author: "Traci Fernandes, Mahima Kapoor, Kritika Sinha",
+  authorAbbrev: "T. Fernandes, M. Kapoor, and others",
+  abstract: "This paper explores India's use of cultural symbols, soft power assets, and diplomatic narratives in promoting its global influence. By analyzing India's emphasis on yoga, Bollywood, diaspora outreach, and Gandhian values, the paper investigates how symbolism and tradition become strategic tools in shaping international relations.",
+  keywords: [
+    "Cultural Diplomacy",
+    "Soft Power",
+    "India",
+    "Global Affairs",
+    "Bollywood",
+    "Yoga",
+    "Diaspora",
+    "Gandhi",
+    "International Relations",
+    "Cultural Symbols",
+    "Public Diplomacy"
+  ],
+  status: "Submitted",
+  intro: [
+    "Cultural diplomacy has become an essential tool in India’s foreign policy, positioning the nation as a civilizational power through the promotion of its traditions, symbols, and soft power resources. This paper examines the interplay between symbolism and diplomacy in India’s global affairs strategy.",
+    "From promoting yoga on a global scale to celebrating Bollywood’s global fandom, India has leveraged culture to shape perceptions and strengthen transnational ties. Cultural events, festivals, and digital campaigns have reinforced India's soft image while building long-term diplomatic goodwill.",
+    "This study explores how India uses historical figures, visual identity, spiritual heritage, and popular culture as instruments of engagement and persuasion in the international arena."
+  ],
+  content: [
+    {
+      heading: "India's Soft Power: Concepts and Foundations",
+      paragraphs: [
+        "Soft power, as defined by Joseph Nye, refers to a country’s ability to attract and co-opt rather than coerce. India’s appeal lies in its diverse cultural practices, democratic values, and spiritual legacy. These assets form the foundation of its cultural diplomacy efforts.",
+        "Indian foreign policy increasingly integrates soft power through platforms like the International Day of Yoga, cultural diplomacy programs through Indian missions abroad, and diaspora festivals."
+      ]
+    },
+    {
+      heading: "Scripts, Symbols, and National Identity",
+      paragraphs: [
+        "Cultural scripts such as 'Vasudhaiva Kutumbakam' (the world is one family), Mahatma Gandhi’s philosophy of nonviolence, and spiritual traditions such as yoga and Ayurveda serve as central narratives of India’s cultural diplomacy.",
+        "These symbols are not only part of India's internal national identity but are used to shape how India is perceived on the global stage. The Government actively promotes these symbols through diplomatic messaging, events, and even architecture."
+      ]
+    },
+    {
+      heading: "Bollywood and Popular Media as Diplomatic Tools",
+      paragraphs: [
+        "Indian cinema plays a powerful role in soft power diplomacy. Bollywood, with its global popularity, exports narratives about Indian culture, family values, and aesthetics that resonate across continents.",
+        "Film festivals, cross-cultural collaborations, and streaming platforms extend Bollywood's diplomatic reach, particularly in countries with large Indian diaspora populations or cultural similarities."
+      ]
+    },
+    {
+      heading: "Diaspora and Transnational Linkages",
+      paragraphs: [
+        "India's global diaspora—among the world’s largest—plays an active role in extending the nation’s soft power. Cultural events, language programs, and heritage preservation initiatives are often driven by diaspora communities.",
+        "Indian embassies collaborate with diaspora organizations to promote cultural diplomacy through dance, cuisine, classical arts, and even contemporary innovations in technology and business."
+      ]
+    },
+    {
+      heading: "Limits, Critiques, and the Need for Coherence",
+      paragraphs: [
+        "Despite its symbolic power, India’s soft diplomacy faces critiques—particularly when domestic social tensions (e.g., religious intolerance or press restrictions) contradict the democratic image projected abroad.",
+        "A coherent cultural diplomacy strategy must align internal governance with external messaging to ensure credibility. Otherwise, soft power risks becoming symbolic rather than substantive."
+      ]
+    }
+  ],
+  conclusion: [
+    "India’s use of cultural diplomacy illustrates the power of storytelling, symbolism, and heritage in shaping global influence. The country's strategic deployment of yoga, Bollywood, Gandhian ideals, and diaspora networks has positioned it as a civilizational soft power.",
+    "However, sustaining this influence requires aligning domestic realities with external messaging, ensuring authenticity, consistency, and inclusive representation in all its diplomatic efforts."
+  ],
+  references: [
+    {
+      heading: "Nye, J. (2004). Soft Power: The Means to Success in World Politics. PublicAffairs."
+    },
+    {
+      heading: "Singh, M. (2015). India's Soft Power: Cultural Diplomacy and Diaspora. Journal of International Relations."
+    },
+    {
+      heading: "Government of India (2018). Report on Cultural Diplomacy Initiatives. Ministry of External Affairs."
+    },
+    {
+      heading: "United Nations (2014). Resolution on the International Day of Yoga."
+    },
+    {
+      heading: "Thussu, D. K. (2013). Communicating India's Soft Power: Buddha to Bollywood. Palgrave Macmillan."
+    }
+  ]
+}
+
+
 ];
 
 export default articles;
