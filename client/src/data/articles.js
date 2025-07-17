@@ -1407,85 +1407,97 @@ const articles = [
   id: 9,
   issue: 1,
   volume: 1,
-  title: "Scripts, Symbols and Soft Power: Tracing India's Cultural Diplomacy in Global Affairs",
-  author: "Traci Fernandes, Mahima Kapoor, Kritika Sinha",
-  authorAbbrev: "T. Fernandes, M. Kapoor, and others",
-  abstract: "This paper explores India's use of cultural symbols, soft power assets, and diplomatic narratives in promoting its global influence. By analyzing India's emphasis on yoga, Bollywood, diaspora outreach, and Gandhian values, the paper investigates how symbolism and tradition become strategic tools in shaping international relations.",
+  title:
+    "Scripts, Symbols and Soft Power: Tracing the Historical Roots and Modern Interpretation of Cultural Diplomacy in Global Affairs",
+  author: "Akshita Naraharisetty, Farija Akther, Jayasree, Swarnadeep Purkayastha",
+  authorAbbrev: "A. Naraharisetty, F. Akther, J. Jayasree, S. Purkayastha",
+  abstract:
+    "This article delves into how cultural diplomacy, particularly soft power strategies employed by countries like South Korea, Japan, and France, plays a vital role in shaping international relations. Using constructivist and postcolonial lenses, it argues that cultural influence can surpass military might in shaping public opinion, reducing geopolitical tensions, and reframing diplomatic dialogues.",
   keywords: [
     "Cultural Diplomacy",
     "Soft Power",
-    "India",
-    "Global Affairs",
-    "Bollywood",
-    "Yoga",
-    "Diaspora",
-    "Gandhi",
+    "Constructivism",
+    "Postcolonialism",
+    "Korean Wave",
     "International Relations",
-    "Cultural Symbols",
-    "Public Diplomacy"
+    "Diplomatic Strategy"
   ],
-  status: "Submitted",
+  status: "Published",
   intro: [
-    "Cultural diplomacy has become an essential tool in India’s foreign policy, positioning the nation as a civilizational power through the promotion of its traditions, symbols, and soft power resources. This paper examines the interplay between symbolism and diplomacy in India’s global affairs strategy.",
-    "From promoting yoga on a global scale to celebrating Bollywood’s global fandom, India has leveraged culture to shape perceptions and strengthen transnational ties. Cultural events, festivals, and digital campaigns have reinforced India's soft image while building long-term diplomatic goodwill.",
-    "This study explores how India uses historical figures, visual identity, spiritual heritage, and popular culture as instruments of engagement and persuasion in the international arena."
+    "Cultural diplomacy has transitioned from a passive byproduct of state image to an active tool of international strategy. South Korea's promotion of Hallyu, the Korean Wave, exemplifies this transition. Through K-dramas and entertainment, Korea is not merely telling stories but exporting identity, values, and aesthetic hegemony.",
+    "This article highlights how entertainment functions as both economic asset and diplomatic envoy, and how communication frameworks and negotiation styles are influenced by civilizational values."
   ],
   content: [
     {
-      heading: "India's Soft Power: Concepts and Foundations",
+      heading: "The Impact of Soft Power",
       paragraphs: [
-        "Soft power, as defined by Joseph Nye, refers to a country’s ability to attract and co-opt rather than coerce. India’s appeal lies in its diverse cultural practices, democratic values, and spiritual legacy. These assets form the foundation of its cultural diplomacy efforts.",
-        "Indian foreign policy increasingly integrates soft power through platforms like the International Day of Yoga, cultural diplomacy programs through Indian missions abroad, and diaspora festivals."
+        "Soft power refers to the ability to shape others’ preferences through appeal and attraction rather than coercion. Cultural norms serve as indispensable tools in this dynamic, reflecting a state's values and shaping foreign policy. These include governance styles, historical narratives, and communication practices.",
+        "Western communication is typically direct and assertive, while Eastern cultures prefer subtlety and non-verbal cues. For example, China’s indirect signaling during the South China Sea disputes reflects a different paradigm that can both create misunderstandings and enable diplomatic maneuvering."
       ]
     },
     {
-      heading: "Scripts, Symbols, and National Identity",
+      heading: "Establishing Trust and Reducing Geopolitical Tensions",
       paragraphs: [
-        "Cultural scripts such as 'Vasudhaiva Kutumbakam' (the world is one family), Mahatma Gandhi’s philosophy of nonviolence, and spiritual traditions such as yoga and Ayurveda serve as central narratives of India’s cultural diplomacy.",
-        "These symbols are not only part of India's internal national identity but are used to shape how India is perceived on the global stage. The Government actively promotes these symbols through diplomatic messaging, events, and even architecture."
+        "Cultural diplomacy fosters long-term trust by humanizing nations. Countries like France, Japan, and South Korea have employed it to build goodwill. France uses language and cultural programs; Japan prioritizes educational and youth exchanges; and South Korea's Hallyu spreads its language, fashion, and values globally.",
+        "K-dramas like \"True Beauty,\" \"Hotel Del Luna,\" \"Crash Landing on You,\" and \"Extraordinary Attorney Woo\" serve as cultural bridges, presenting relatable narratives, folklore, and progressive themes that connect with international audiences."
       ]
     },
     {
-      heading: "Bollywood and Popular Media as Diplomatic Tools",
+      heading: "Conclusion",
       paragraphs: [
-        "Indian cinema plays a powerful role in soft power diplomacy. Bollywood, with its global popularity, exports narratives about Indian culture, family values, and aesthetics that resonate across continents.",
-        "Film festivals, cross-cultural collaborations, and streaming platforms extend Bollywood's diplomatic reach, particularly in countries with large Indian diaspora populations or cultural similarities."
-      ]
-    },
-    {
-      heading: "Diaspora and Transnational Linkages",
-      paragraphs: [
-        "India's global diaspora—among the world’s largest—plays an active role in extending the nation’s soft power. Cultural events, language programs, and heritage preservation initiatives are often driven by diaspora communities.",
-        "Indian embassies collaborate with diaspora organizations to promote cultural diplomacy through dance, cuisine, classical arts, and even contemporary innovations in technology and business."
-      ]
-    },
-    {
-      heading: "Limits, Critiques, and the Need for Coherence",
-      paragraphs: [
-        "Despite its symbolic power, India’s soft diplomacy faces critiques—particularly when domestic social tensions (e.g., religious intolerance or press restrictions) contradict the democratic image projected abroad.",
-        "A coherent cultural diplomacy strategy must align internal governance with external messaging to ensure credibility. Otherwise, soft power risks becoming symbolic rather than substantive."
+        "Cultural diplomacy is no longer just a soft appeal; it is a calculated mechanism for shaping global narratives and influencing both leaders and citizens. It acts as a prerequisite script in diplomatic efforts, utilizing identity, empathy, and shared values as tools of influence.",
+        "Theoretical frameworks like Hofstede’s dimensions, Hall’s context spectrum, and Huntington’s civilizational discourse provide modern diplomats with essential cultural literacy."
       ]
     }
   ],
-  conclusion: [
-    "India’s use of cultural diplomacy illustrates the power of storytelling, symbolism, and heritage in shaping global influence. The country's strategic deployment of yoga, Bollywood, Gandhian ideals, and diaspora networks has positioned it as a civilizational soft power.",
-    "However, sustaining this influence requires aligning domestic realities with external messaging, ensuring authenticity, consistency, and inclusive representation in all its diplomatic efforts."
-  ],
   references: [
     {
-      heading: "Nye, J. (2004). Soft Power: The Means to Success in World Politics. PublicAffairs."
+      heading: "Nye, J. S. (2004). Soft power: The means to success in world politics.",
+      links: "https://www.wcfia.harvard.edu/publications/soft-power-means-success-world-politics"
     },
     {
-      heading: "Singh, M. (2015). India's Soft Power: Cultural Diplomacy and Diaspora. Journal of International Relations."
+      heading: "Nkrumah, K. (1965). Neo-colonialism: The last stage of imperialism.",
+      links: "https://www.marxists.org/subject/africa/nkrumah/neo-colonialism/introduction.htm"
     },
     {
-      heading: "Government of India (2018). Report on Cultural Diplomacy Initiatives. Ministry of External Affairs."
+      heading: "Baris, Y. (2020). Modern West and East diplomacy study.",
+      links: "https://www.abacademies.org/articles/conceptual-basis-of-the-modern-west-and-east-diplomacy-study-9148.html"
     },
     {
-      heading: "United Nations (2014). Resolution on the International Day of Yoga."
+      heading: "Bown, C. P. (2019). US-China trade war tariffs.",
+      links: "https://www.piie.com/research/piie-charts/2019/us-china-trade-war-tariffs-date-chart"
     },
     {
-      heading: "Thussu, D. K. (2013). Communicating India's Soft Power: Buddha to Bollywood. Palgrave Macmillan."
+      heading: "BBC News (2024). Why China is taking a tougher stance on Western diplomats.",
+      links: "https://www.bbc.com/news/articles/cgmj7l0lne30.amp"
+    },
+    {
+      heading: "Hofstede, G. (2023). The G-D Model of National Culture.",
+      links: "https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/"
+    },
+    {
+      heading: "Hall, E. T. (1976). Beyond Culture.",
+      links: "https://www.ebsco.com/research-starters/communication-and-mass-media/high-context-and-low-context-cultures"
+    },
+    {
+      heading: "Huntington, S. P. (1996). The Clash of Civilizations.",
+      links: "https://msuweb.montclair.edu/~lebelp/1993SamuelPHuntingtonTheClashOfCivilizationsAndTheRemakingofWorldOrder.pdf"
+    },
+    {
+      heading: "Karawan, A. (2025). Cultural Dimensions and Their Relevance to Diplomacy.",
+      links: "https://www.researchgate.net/publication/388416423"
+    },
+    {
+      heading: "Agave Affairs (2025). The Iceberg Model of Culture in Diplomacy.",
+      links: "https://agaveaffairs.com/2025/01/29/edward-t-hall-the-iceberg-model-of-culture-and-its-application-in-diplomacy-and-daily-life/"
+    },
+    {
+      heading: "Nawaz, H. (2025). Cultural diplomacy in strengthening soft power.",
+      links: "https://uscpublicdiplomacy.org/blog/role-cultural-diplomacy-strengthening-soft-power-globalized-world"
+    },
+    {
+      heading: "Ministry of Foreign Affairs of the Republic of Korea (2007). Goals of Korean cultural diplomacy.",
+      links: "https://overseas.mofa.go.kr/eng/brd/m_22723/view.do?seq=298757"
     }
   ]
 }
