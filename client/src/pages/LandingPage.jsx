@@ -236,7 +236,7 @@ const fadeInUp = {
 
 {/* --- Hero Section --- */}
 <section
-  className="relative pt-32 min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden border-y-8 border-white font-serif"
+  className="relative pt-32 pb-32 min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden border-y-8 border-white font-serif"
   style={{ backgroundImage: "url('/assets/1.jpg')" }}
 >
   {/* Overlay */}
@@ -244,7 +244,7 @@ const fadeInUp = {
 
   <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-20 px-6">
     
-    {/* Left Image Grid - 2x2 layout */}
+    {/* Left Image Grid */}
     <motion.div
       className="grid grid-cols-2 gap-6"
       variants={container}
@@ -306,26 +306,26 @@ const fadeInUp = {
 
       {/* Buttons */}
       <motion.div
-  variants={fadeInUp}
-  className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4"
->
-  {[["Browse Journal", "/editions"],  ["About the Journal", "/publisher"]].map(
-    ([label, to], i) => (
-      <Link
-        key={i}
-        to={to}
-        className="px-7 py-3 text-base sm:text-lg font-semibold rounded-full bg-gradient-to-r from-primary via-accent to-primary-dark text-white shadow-lg hover:from-primary-dark hover:to-primary hover:shadow-xl hover:scale-[1.06] transition-all duration-300 ease-in-out group relative overflow-hidden"
+        variants={fadeInUp}
+        className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4"
       >
-        <span className="relative z-10">{label}</span>
-        <span className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-white transition-opacity duration-300 rounded-full blur-sm" />
-      </Link>
-    )
-  )}
-</motion.div>
-
+        {[["Browse Journal", "/editions"], ["About the Journal", "/publisher"]].map(
+          ([label, to], i) => (
+            <Link
+              key={i}
+              to={to}
+              className="px-7 py-3 text-base sm:text-lg font-semibold rounded-full bg-gradient-to-r from-primary via-accent to-primary-dark text-white shadow-lg hover:from-primary-dark hover:to-primary hover:shadow-xl hover:scale-[1.06] transition-all duration-300 ease-in-out group relative overflow-hidden"
+            >
+              <span className="relative z-10">{label}</span>
+              <span className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-white transition-opacity duration-300 rounded-full blur-sm" />
+            </Link>
+          )
+        )}
+      </motion.div>
     </motion.div>
   </div>
 </section>
+
 
 
 
