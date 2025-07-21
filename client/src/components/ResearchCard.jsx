@@ -14,6 +14,12 @@ const articleRoutes = {
   7: "/Projecting-Culture-Shaping-Perceptions",
   8: "/The-Intersection-Of-Women-Empowerment",
   9: "/Scripts-Symbols-and-Soft-Power-Tracing-Indias-Cultural-Diplomacy-in-Global-Affairs",
+  10: "/Sovereignty-Strategy-and-Systemic-Strain",
+  11: "/Evaluating-Policy-Gaps-And-Youth-Involvement",
+  12: "/Multipolar-Worldmaking",
+  13: "/Bridging-The-Education-Gap",
+  14: "/India-US-Bilateral-Relations",
+  15: "/Diplomacy-Beyond-Diplomats",
 };
 
 const ResearchCard = ({ articles, onDelete }) => {
