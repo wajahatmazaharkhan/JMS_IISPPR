@@ -2252,9 +2252,8 @@ const articles = [
     ],
     status: "Submitted",
     intro: [
-      "Education in India stands at a critical intersection of demographic opportunity and systemic challenge. With over 248 million school-going children and the world’s largest youth population, the country has immense potential to leverage education as a tool for equitable development. However, two persistent and interlinked barriers continue to undermine this goal: gender disparity in educational access and the uneven quality and accountability of teachers in the public system.",
-      "Researchers such as Bandopadhyay (2008) and White et al. (2016) have emphasized how patriarchal norms, poverty, poor infrastructure, and safety concerns significantly hinder girls’ access to education, particularly among marginalized communities. Despite national efforts—such as the Sarva Shiksha Abhiyan, the Right to Education Act, and the Gender Inclusion Fund under NEP 2020—gaps in enrolment, retention, and learning outcomes between boys and girls remain deeply entrenched. Parallelly, the literature on teacher quality and professional accountability, such as studies by Hill (2011) and Mukherjee (2024), reveals critical deficiencies in both training institutions and systemic oversight. These gaps are magnified in rural and low-income areas. The Justice Verma Commission (2012) and recent Tata Institute of Social Sciences (TISS) studies (2023–24) have exposed the commercialization of teacher education and stark subject mismatches that further exacerbate inequities in learning outcomes.",
-      "This review explores how gender disparities in education are not just shaped by socio-cultural barriers, but also reinforced—or potentially mitigated—by the quality and accountability of teachers. By examining intersecting policy frameworks, institutional structures, and socio-cultural dynamics, this article seeks to highlight the dual need for gender-responsive reforms and systemic improvements in teacher education to achieve inclusive, quality education for all."
+      "Education in India stands at a critical intersection of demographic opportunity and systemic challenge. With over 248 million school-going children and the world’s largest youth population, the country has immense potential to leverage education as a tool for equitable development. However, two persistent and interlinked barriers continue to undermine this goal: gender disparity in educational access and the uneven quality and accountability of teachers in the public system.  ",
+      "Researchers such as Bandopadhyay (2008) and White et al. (2016) have emphasized how patriarchal norms, poverty, poor infrastructure, and safety concerns significantly hinder girls’ access to education, particularly among marginalized communities. Despite national efforts—such as the Sarva Shiksha Abhiyan, the Right to Education Act, and the Gender Inclusion Fund under NEP 2020—gaps in enrolment, retention, and learning outcomes between boys and girls remain deeply entrenched.  Parallelly, the literature on teacher quality and professional accountability, such as studies by Hill (2011) and Mukherjee (2024), reveals critical deficiencies in both training institutions and systemic oversight. These gaps are magnified in rural and low-income areas. The Justice Verma Commission (2012) and recent Tata Institute of Social Sciences (TISS) studies (2023–24) have exposed the commercialization of teacher education and stark subject mismatches that further exacerbate inequities in learning outcomes.  This review explores how gender disparities in education are not just shaped by socio-cultural barriers, but also reinforced—or potentially mitigated—by the quality and accountability of teachers. By examining intersecting policy frameworks, institutional structures, and socio-cultural dynamics, this article seeks to highlight the dual need for gender-responsive reforms and systemic improvements in teacher education to achieve inclusive, quality education for all. "
     ],
     content: [
       {
@@ -2266,7 +2265,7 @@ const articles = [
       {
         heading: "Education and Gender: India’s Policy Commitments",
         paragraphs: [
-          "India's efforts to address gender disparities in education have included ratifying international treaties such as the Convention on the Rights of the Child and the Convention on the Elimination of All Forms of Discrimination Against Women. The 2002 Constitutional Amendment made education a fundamental right for children aged 6–14, launching the Education for All (Sarva Shiksha Abhiyan) campaign. Despite these strides, there is a significant gap between legal commitments and on-ground realities. UNICEF reports that 23% of girls drop out of school at puberty due to the lack of sanitation and privacy facilities, with many missing up to 50 school days per year due to menstruation."
+          "India's efforts to address gender disparities in education have included ratifying international treaties such as the Convention on the Rights of the Child and the Convention on the Elimination of All Forms of Discrimination Against Women. The 2002 Constitutional Amendment made education a fundamental right for children aged 6–14, launching the Education for All (Sarva Shiksha Abhiyan) campaign. Despite these strides, there is a significant gap between legal commitments and on-ground realities. UNICEF reports that 23% of girls drop out of school at puberty due to the lack of sanitation and privacy facilities, with many missing up to 50 school days per year due to menstruation"
         ]
       },
       {
@@ -2279,6 +2278,12 @@ const articles = [
         heading: "Factors Contributing to Gender Gaps",
         paragraphs: [
           "Dr. Radhika Kapur identifies multiple drivers of inequality, including poverty, traditional viewpoints, weak school infrastructure, discriminatory household practices, and the occurrence of violence. For instance, many families believe investing in girls’ education is futile as they will marry and leave. Poor school infrastructure—such as lack of toilets, libraries, and transportation—also deters girls from attending, particularly after puberty. Additionally, when girls experience harassment in or around schools, their safety becomes a concern for parents."
+        ]
+      },
+      {
+        heading: "Policies and the National Policy on Education (NPE)",
+        paragraphs: [
+          "The NPE 1986 (revised in 1992) took a positive stance toward women’s education, calling it “an agent of basic change in the status of women.” It focused on curriculum revision, teacher training, and the promotion of women's studies. Yet, as Bhattacharjee (2015) critiques, these initiatives lacked specificity, adequate monitoring, and grassroots inclusion. Many of its goals were not fully realized due to weak implementation and a top-down approach that failed to address intersectional inequalities."
         ]
       },
       {
@@ -2315,155 +2320,107 @@ const articles = [
       {
         heading: "Comparative Insights: NEP 2020 vs. NPE 1986/92",
         paragraphs: [
-          "While the NPE 1986 emphasized equality, its approach was often broad and vague. In contrast, NEP 2020 employs a more data-driven, inclusive, and intersectional framework. The following table summarizes the major differences:",
-          "Policy Component",
-          "NPE 1986/1992",
-          "NEP 2020",
-          "Gender Inclusion",
-          "Women’s equality as a goal",
-          "Gender equity as cross-cutting priority",
-          "Curriculum Reform",
-          "Promote gender-free content",
-          "Life skills, legal literacy, inclusive pedagogy",
-          "Infrastructure",
-          "General provisions",
-          "Dedicated sanitation, hostels, teacher housing",
-          "Inclusivity Scope",
-          "Primarily for girls",
-          "Girls, transgender, SC/ST/OBC, minorities",
-          "Implementation Mechanism",
-          "Central planning",
-          "Decentralized, state-led, community engagement",
-          "Monitoring & Accountability",
-          "Minimal",
-          "Data-driven, linked with real-time tracking and reviews"
+          "While the NPE 1986 emphasized equality, its approach was often broad and vague. In contrast, NEP 2020 employs a more data-driven, inclusive, and intersectional framework. The following table summarizes the major differences:"
+        ]
+      },
+      {
+        heading: "Policy Component | NPE 1986/1992 | NEP 2020",
+        paragraphs: [
+          "Gender Inclusion | Women’s equality as a goal | Gender equity as cross-cutting priority",
+          "Curriculum Reform | Promote gender-free content | Life skills, legal literacy, inclusive pedagogy",
+          "Infrastructure | General provisions | Dedicated sanitation, hostels, teacher housing",
+          "Inclusivity Scope | Primarily for girls | Girls, transgender, SC/ST/OBC, minorities",
+          "Implementation Mechanism | Central planning | Decentralized, state-led, community engagement",
+          "Monitoring & Accountability | Minimal | Data-driven, linked with real-time tracking and reviews"
         ]
       },
       {
         heading: "Critical Challenges in Realizing Gender Parity",
         paragraphs: [
           "Despite these progressive steps, the road to gender parity in education is still fraught with challenges:",
-          "Patriarchal norms continue to deprioritize girls’ education.",
-          "Fear of harassment or violence leads families to restrict girls’ mobility.",
-          "Girls have less access to digital devices and the internet, widening the learning gap.",
-          "Despite legal prohibitions, early marriage remains a barrier to girls’ education.",
-          "Girls remain underrepresented in STEM fields.",
+          "1. Patriarchal norms continue to deprioritize girls’ education.",
+          "2. Fear of harassment or violence leads families to restrict girls’ mobility.",
+          "3. Girls have less access to digital devices and the internet, widening the learning gap.",
+          "4. Despite legal prohibitions, early marriage remains a barrier to girls’ education.",
+          "5. Girls remain underrepresented in STEM fields.",
           "As Dr. Radhika Kapur highlights, systemic inequalities are compounded by criminal and violent acts—ranging from verbal abuse to sexual harassment—which force girls to leave school prematurely. Addressing these challenges requires more than educational reform; it demands cultural transformation."
         ]
       },
       {
-        heading: "Teacher Quality: The Other Side of the Learning Gap",
+        heading: "Recommendations: Toward a Holistic Solution",
         paragraphs: [
-          "While gender-based barriers often receive policy focus, the equally critical issue of teacher quality and accountability is sometimes overshadowed. According to Hill (2011), teacher quality is the single most influential factor in student achievement after home environment. The NEP 2020, recognizing this, emphasizes improving both pre-service and in-service teacher education, as well as restructuring teacher recruitment and career progression."
+          "Scholars and policy experts have made the following recommendations to deepen and sustain gender equity:", 
+          "1.	Educating families about the long-term benefits of girls’ education.",
+          "2.	Enforcing anti-child marriage and anti-harassment laws more strictly.",
+          "3.	Customizing interventions based on caste, region, and language.",
+          "4.	Creating job-oriented programs for girls.",
+          "5.	Using real-time data to track gender-based outcomes and adapt strategies."
         ]
       },
       {
-        heading: "Teacher Education: From B.Ed. to Accountability",
+        heading: "A Note on the Role of Teachers and Parents ",
         paragraphs: [
-          "India’s teacher education ecosystem is one of the world’s largest, but also among the most fragmented. The Justice Verma Commission (2012) noted that many B.Ed. colleges operate as degree shops. A recent study by the Tata Institute of Social Sciences (2023) found that only 7.2% of pre-service teachers had actually studied the subject they would be teaching. Moreover, there is a growing disconnect between theory and practice in training curricula."
+          "Both teachers and parents play critical roles in either reinforcing or breaking down gender stereotypes. Teachers must be sensitized through training modules, while parents must be encouraged to treat sons and daughters equally in terms of educational investment. As White, Ruther, and Kahn suggest, maternal education is especially influential in determining girls’ school outcomes."
         ]
       },
       {
-        heading: "Mismatch Between Qualification and Teaching Roles",
+        heading: "Toward an Equal Future ",
         paragraphs: [
-          "A critical issue is the subject-specialization mismatch. In a sample of 20 states, it was found that over 60% of teachers trained in arts subjects were posted to teach mathematics and science at the upper primary level. This mismatch contributes to poor learning outcomes and reduces the confidence of both students and teachers. The World Bank (2010) and Muralidharan et al. (2017) also noted that teacher absenteeism and multi-grade teaching significantly hurt learning achievements."
+          "Gender disparity in education is both a symptom and a cause of broader social inequalities. India has taken significant steps—from constitutional commitments and policy initiatives to financial schemes and community engagement—but the gender gap persists. NEP 2020 marks a critical departure from previous approaches by embedding inclusivity and intersectionality in every layer of the education system.",
+          "Real change will occur only when educational reforms are accompanied by shifts in cultural norms, enhanced parental awareness, community vigilance, and stronger enforcement of rights. Education must not only empower girls with knowledge but also equip them to challenge and transform the very systems that marginalize them. Bridging the gender gap in education is not just a policy goal—it is the foundation of a more equal, empowered, and enlightened India."
         ]
       },
       {
-        heading: "State Capacity and Lack of Oversight",
+        heading: "Bridging the Gap: Teacher Quality and Accountability",
         paragraphs: [
-          "According to a 2024 study by Bwembya et al., teacher quality deteriorates when oversight is weak and assessments are misaligned with classroom realities. In India, the National Council for Teacher Education (NCTE) introduced Teacher Eligibility Tests (TET), but states vary in their implementation. In many regions, School Management Committees (SMCs) lack capacity or authority to monitor teachers effectively. As of 2022, only 24 states had digitized teacher attendance or classroom monitoring systems."
+          "India, one of the fastest-growing nations, has 580 million people aged 5–24 years and over 248 million school-going students—the highest globally—alongside 4.7 crore students in higher education. This demographic profile makes quality education a foundational pillar for equitable economic growth and improved living standards. India has shown a long-standing commitment to SDG 4, which emphasizes inclusive and equitable quality education for all. At the core of achieving this within public schools lies the enhancement of teacher quality and accountability, which plays a significant role in improving the effectiveness of teaching (Hill, 2011). This has also been highlighted under Target 4.c, which calls for significantly increasing the number of qualified, trained, and competent teachers. Aligned with this, India has introduced key reforms such as the National Education Policy (NEP) 2020, large-scale training programs like NISHTHA, and digital platforms like DIKSHA to equip every classroom with capable and accountable educators. However, despite these initiatives, persistent learning gaps in government schools are closely linked to variations in teacher competence, motivation, and weak systemic oversight (Yates, 2024). The Justice J.S. Verma Commission (2012) revealed that over 10,000 stand-alone TEIs were essentially commercializing degrees rather than providing quality teacher education. Furthermore, a 2024 TISS study across eight states found that 35–41% of mathematics teachers lacked a relevant degree, indicating critical subject mismatches. This sub-theme a critical evaluation of India’s policy framework on teacher quality, highlighting structural and implementation-level."
         ]
       },
       {
-        heading: "In-Service Training: The NISHTHA and DIKSHA Platforms",
+        heading: "Importance of Teacher Quality and Accountability",
         paragraphs: [
-          "The NEP 2020 emphasizes continuous professional development. The NISHTHA platform (National Initiative for School Heads’ and Teachers’ Holistic Advancement) was launched to train over 4.2 million teachers. Meanwhile, the DIKSHA portal offers online training modules in multiple languages. According to the Ministry of Education (2022), over 40 million course certifications had been issued on DIKSHA by late 2023. However, studies by NIEPA (2022) show that training completion does not always translate into classroom effectiveness. Teachers often complete modules to earn certificates without integrating learnings into practice."
+          "For a vibrant and effective education system, it is of paramount importance that a vibrant teaching system is in place. The responsibilities of a teacher extend far beyond the confines of a classroom, encompassing the holistic development of students to equip them with the skills and resilience needed to navigate future life challenges. According to the World Bank (2018) and UNESCO (2021), teacher effectiveness has a greater impact on student performance than infrastructural inputs or class size. Thus, as teachers are the cornerstone of effective learning and student success, it becomes imperative that the quality of teaching evolves in tandem with advancements in the education system.",
+          "Apart from quality, the accountability of teachers also holds great weight when it comes to the goal of quality education and bridging persistent learning gaps. Accountability ensures that teachers are not only present but also actively engaged, pedagogically effective, and aligned with curriculum goals (UNESCO, 2020). In public education systems, particularly in developing countries like India, the absence of strong accountability mechanisms has been linked to low teacher motivation, high absenteeism, and ineffective classroom practices (Muralidharan et al., 2017). When teachers are held responsible through supportive and outcome-driven mechanisms, it creates a ripple effect—raising classroom standards, enhancing student achievement, and building public trust in the education system. "
         ]
       },
       {
-        heading: "Policy Implementation Gaps and Bureaucratic Delays",
+        heading: "India’s Policy Framework on Teacher Quality and Accountability:",
         paragraphs: [
-          "Teacher absenteeism remains a critical issue. The Annual Status of Education Report (ASER) 2022 found that 24% of schools in rural India had no teacher present in at least one classroom during surprise visits. Delays in salary payments, lack of housing near schools, and poor working conditions further demotivate teachers. In Maharashtra, for example, glitches in the Pavitra Portal delayed the recruitment of over 12,000 teachers in 2023. Such administrative failures undermine public trust and reduce classroom stability."
+          "A robust mechanism for ensuring teacher quality and accountability is imperative for evolving an equitable and quality education system (Bwembya et al., 2024). Having a keen focus on this aim, various initiatives have been taken by the Government of India to enhance teacher quality and strengthen accountability. These efforts aim to ensure that every child receives meaningful learning from a qualified, motivated, and responsible educator.",
+          "Right to Education Act, 2009",
+          "Though introduced before the SDGs, the RTE Act laid the foundation for India’s commitment to SDG 4, Target 4.c, by making teacher quality a legal obligation. It set mandates for teacher qualifications, recruitment standards, pupil–teacher ratios, and training requirements. Section 23 authorized only qualified teachers as per standards set by the central academic authority, eliminating unqualified personnel (RTE Act, 2009). It also established accountability mechanisms such as school-level monitoring, attendance tracking, and grievance redressal systems.",
+          "National Education Policy, 2020",
+          "NEP 2020 marks a significant step toward standardizing teacher education through the introduction of a four-year integrated B.Ed. as the minimum qualification by 2030. It proposes the National Professional Standards for Teachers (NPST), which define teacher competencies, ethics, and career trajectories. The NEP 2020 addresses outdated curricula and emphasizes subject-specific training to ensure teachers are well-prepared (Mohalik et al., 2024). Emphasis is placed on outcome-based evaluations, continuous professional development, and empowering teachers with autonomy and accountability.",
+          "Samagra Shiksha Abhiyan (SSA)",
+          "Launched in 2018, SSA integrates Sarva Shiksha Abhiyan, Rashtriya Madhyamik Shiksha Abhiyan, and Teacher Education to provide a holistic approach to school reform. A core focus is on improving teacher capacity through in-service training, ICT integration, and subject-specific pedagogy. SSA supports academic mentoring via Block and Cluster Resource Centres, and promotes professional development through initiatives like SLDP, NISHTHA, and DIKSHA.",
+          "Roles of NCTE and SCERTs",
+          "The NCTE oversees the regulation and quality assurance of over 16,000 TEIs, having de-recognized nearly 1,000 substandard institutions. In alignment with NEP 2020, it is leading reforms like the integrated B.Ed. and NPST. At the state level, SCERTs design and implement pre-service and in-service teacher training, contextualize national curricula, and coordinate with DIETs, BRCs, and CRCs. For example, SCERT-Delhi trained over 91,000 educators and developed 200+ teaching resources to support pedagogical improvement (SCERT Delhi, 2006). Together, NCTE and SCERTs provide the structural and academic backbone for improving teacher quality and accountability across India."
         ]
       },
       {
-        heading: "Bridging Teacher Gaps in Rural and Remote Areas",
+        heading: "Critical Gaps and Challenges",
         paragraphs: [
-          "Teacher vacancies are most acute in rural and tribal areas. According to government data, Bihar, Jharkhand, and Uttar Pradesh together account for nearly 40% of the national shortfall in elementary school teachers. To address this, NEP 2020 proposed cluster-based teacher deployment and the use of digital classrooms. However, studies indicate that teachers posted far from their homes often face housing shortages, transport difficulties, and social isolation—factors that contribute to absenteeism and high turnover."
+          "1.	More than 1.1 lakh government schools in India operate with only one teacher, mostly in remote, tribal, and hilly regions (UNESCO 2021). It places an unrealistic burden on a single individual to manage multi-grade classrooms, administrative duties, and co-curricular activities.",
+          "2.	B.Ed. curricula across institutions vary widely in content, depth, and pedagogical focus. For example, a study in Meghalaya found that 95% of in-service teacher training workshops lacked proper needs assessments or follow-up mechanisms (NIEPA, 2022).",
+          "3.	Although the NCTE regulates over 16,000–18,000 TEIs, it has acknowledged that many are “diploma mills”.  In 2017, it withdrew recognition from nearly 1,000 TEIs for failing to meet quality norms. Moreover, a significant number of institutions lack proper infrastructure, qualified faculty, or practical teaching components, leading to underprepared graduates entering the system.",
+          "4.	A 2023 TISS study revealed that 35–41% of teachers teaching mathematics in government schools do not hold an undergraduate degree in the subject (Times of India, 2024). This mismatch undermines both content delivery and students’ conceptual understanding, particularly in foundational learning stages.",
+          "5.	While biometric and app-based attendance systems have been introduced to reduce absenteeism, their implementation has been inconsistent. In Maharashtra, for instance, poor network connectivity and frequent technical failures in the 'Pavitra Portal' and mobile attendance apps led to widespread teacher dissatisfaction, affecting morale and compliance(The Hindu, 2023)."
         ]
       },
       {
-        heading: "The Gendered Aspect of Teacher Deployment",
+        heading: "Key Policy Recommendations ",
         paragraphs: [
-          "The recruitment of female teachers is crucial not only for balancing staff composition but also for making schools more welcoming to girls. The NEP emphasizes the need for more women educators in rural schools. However, posting women to remote locations without basic amenities or safety assurance can be counterproductive. A 2023 survey in Madhya Pradesh found that 38% of newly recruited female teachers in tribal areas requested transfers due to safety and transport concerns."
+          "1.	A focused national drive is needed to fill the teaching vacancies, prioritizing rural, tribal, and single-teacher schools. Special incentives such as hardship allowances, housing, and career advancement should be offered to encourage qualified teachers to work in remote regions(LIU, n.d.).",
+          "2.	The B.Ed. and D.Ed. curricula across institutions should be standardized nationally through NCTE and aligned with NPST and NEP 2020 guidelines. The curriculum must emphasize practical teaching skills, classroom management, inclusive pedagogy, and digital literacy, while ensuring subject–pedagogy alignment.",
+          "3.	Every in-service teacher should have a personalized Continuous Professional Development (CPD) plan updated annually (Mahananda, 2024). Training programs like NISHTHA must shift from one-time workshops to modular, blended learning formats linked to real-time school data. CPD completion should be tied to performance appraisals, promotions, and salary increments.",
+          "4.	In addition to routine administrative oversight, schools must establish robust academic supervision mechanisms through dedicated boards comprising senior faculty members. These boards should be responsible for closely monitoring teacher–student interactions, providing pedagogical guidance, and implementing context-specific strategies to enhance instructional effectiveness and learning outcomes.",
+          "5.	Accountability should go hand-in-hand with support. Mental health programs, manageable workloads, and recognition schemes should be instituted to enhance teacher morale and retention. A respected and supported teacher is more likely to deliver quality learning."
         ]
       },
       {
-        heading: "Intersection of Gender and Teaching Quality",
+        heading: "Towards An Efficient Future ",
         paragraphs: [
-          "Improving gender equity and teacher quality should not be viewed in isolation. For example, when a school has female teachers trained in gender-sensitive pedagogy, it not only improves learning outcomes for girls but also changes boys’ attitudes toward gender roles. A study by the British Council (2021) showed that schools with at least 50% female staff had 1.8 times better attendance rates for girls and lower dropout levels. These outcomes suggest that policies integrating gender with professional development can create powerful ripple effects."
-        ]
-      },
-      {
-        heading: "Public Perception and the Status of Teaching",
-        paragraphs: [
-          "In India, teaching—especially in public schools—is often seen as a low-status profession. The 2022 TISS survey across six states found that 64% of in-service teachers chose the profession for job security, not vocation. This perception affects recruitment and retention of high-caliber candidates. NEP 2020 seeks to restore dignity to the profession by introducing performance-based career progression and leadership roles. However, unless supported by competitive pay, training quality, and institutional support, reforms may have limited impact."
-        ]
-      },
-      {
-        heading: "Policy Recommendations for Gender Equity",
-        paragraphs: [
-          "Gender equity in education must go beyond enrolment statistics. Policies should address the lived realities of girls, especially from SC, ST, and Muslim communities. Recommendations include:",
-          "- Integrating gender modules in teacher training curricula",
-          "- Conducting regular gender audits of textbooks and curricula",
-          "- Ensuring menstrual hygiene management in all schools",
-          "- Incentivizing secondary and higher education for girls through scholarships",
-          "- Creating safe transportation options for school-going girls",
-          "Moreover, state governments should consult local communities when implementing gender-focused schemes. As Kapur (n.d.) suggests, decentralized planning makes inclusion more sustainable and context-specific."
-        ]
-      },
-      {
-        heading: "Policy Recommendations for Teacher Reform",
-        paragraphs: [
-          "To improve learning outcomes, teacher policies must prioritize quality, accountability, and support systems. Key measures include:",
-          "- Phasing out substandard teacher training institutions and strengthening accreditation mechanisms",
-          "- Aligning B.Ed. and D.El.Ed. curricula with classroom realities, including training for multi-grade teaching",
-          "- Mandating subject specialization and matching teachers to roles accordingly",
-          "- Strengthening School Management Committees with gender-balanced representation and real authority",
-          "- Introducing mentorship-based in-service training and collaborative learning models",
-          "- Using real-time data from DIKSHA and TETs to inform state and district-level planning",
-          "Such reforms require coordination between NCTE, NCERT, SCERTs, and state governments to ensure consistency and impact."
-        ]
-      },
-      {
-        heading: "Measuring Impact: Monitoring and Evaluation",
-        paragraphs: [
-          "Monitoring gender equity and teacher quality requires robust, disaggregated data. The Unified District Information System for Education Plus (UDISE+) is a step forward. However, independent audits, community feedback mechanisms, and third-party evaluations are essential for transparency. Additionally, outcome-based budgeting should replace mere expenditure tracking to link funding with results."
-        ]
-      },
-      {
-        heading: "Role of Civil Society and Media",
-        paragraphs: [
-          "Beyond government efforts, civil society plays a vital role in holding institutions accountable. NGOs like Pratham and Educate Girls have demonstrated how community-based interventions can boost girls’ education and teacher performance. Media, too, can shape public perception. Campaigns like ‘Beti Bachao, Beti Padhao’ have succeeded in raising awareness but must be backed by systemic reform to avoid tokenism."
-        ]
-      },
-      {
-        heading: "Leveraging Technology for Inclusive Education",
-        paragraphs: [
-          "Digital platforms can bridge access gaps, especially for students and teachers in remote areas. The NEP’s push for open-source digital learning materials via DIKSHA, and radio/TV programs during COVID-19, has shown potential. However, the gendered digital divide remains a barrier. Girls are less likely to own or control devices. Therefore, blended models that combine offline and community-based learning with digital resources are more inclusive."
-        ]
-      },
-      {
-        heading: "Building a Gender-Responsive Education System",
-        paragraphs: [
-          "A truly gender-responsive education system recognizes the distinct needs of learners and educators. It embeds equity in curriculum, pedagogy, infrastructure, monitoring, and community engagement. Policies like NEP 2020 offer a roadmap, but implementation must be continuous, adaptive, and inclusive. As Yates (2024) notes, equity is not a static goal but a process of ongoing reform and reflection. India’s education system must be equipped to engage in that journey with sincerity and resolve."
-        ]
-      },
-      {
-        heading: "Conclusion: From Policy to Practice",
-        paragraphs: [
-          "Achieving gender equity and teacher accountability are not isolated goals—they are mutually reinforcing. Girls cannot learn if teachers are absent or unqualified, and teachers cannot succeed in gender-biased environments. Bridging the learning gap requires a systemic lens that connects policy, practice, and people. From inclusive curricula to female-led classrooms, and from school toilets to data dashboards, every piece matters. The time for piecemeal reform has passed; the future lies in holistic transformation."
+          "India’s bold education reforms—from the RTE Act to NEP 2020—have laid a visionary foundation for improving teacher quality and accountability. However, policies alone do not transform classrooms; it is their implementation that determines real impact. Without robust monitoring, institutional support, and community engagement, even the most progressive reforms risk remaining aspirational. Bridging the gap between intention and execution is essential to empower educators, uplift learning outcomes, and ensure no child is left behind. The future of equitable education lies not in more promises, but in measurable, sustained action."
         ]
       }
     ],
@@ -2552,7 +2509,8 @@ const articles = [
     author: "Priyanka T P, Aastha Sharma, Vidhi Chugh, Saifullah Bashir, Prachi Arya, Anurag Khatik, Paridhi Singh",
     authorAbbrev: "P. T. P., A. Sharma and others",
     abstract: [
-      "The Indo-U.S. bilateral relationship has undergone a remarkable transformation, evolving from the contested relations during the Cold War, into a strategic partnership shaped by mutual interests. Both nations have deepened their cooperation in defence, technology, innovation and other key sectors. Despite its potential, Indo-U.S. bilateral relations have become unpredictable ever since President Trump took office as the 47th President of the United States earlier this year. While expressing mutual interest and maintaining a good rapport with Prime Minister Modi, rising tariffs and trade barriers, mass deportations and increasing racial discrimination towards the Indian diaspora in the U.S. have strained the stability of this partnership. This article aims to trace the Indo-U.S. bilateral developments in seven parts, starting through the backdrop of President Biden’s administration followed by the tariff and trade practices and their implications. Then we critically examine defence relations, particularly the CAATSA sanctions, the plight of Indian students in the U.S. through the Harvard issue, the potential of transnational diplomacy, and the H-1B visa restrictions and the legacy of the Indian diaspora on the U.S. economy. The article concludes by evaluating the geopolitical implications of Indo-U.S. relations and its impact on international issues."
+      "The Indo-U.S. bilateral relationship has undergone a remarkable transformation, evolving from the contested relations during the Cold War, into a strategic partnership shaped by mutual interests. Both nations have deepened their cooperation in defence, technology, innovation and other key sectors. Despite its potential, Indo-U.S. bilateral relations have become unpredictable ever since President Trump took office as the 47th President of the United States earlier this year. While expressing mutual interest and maintaining a good rapport with Prime Minister Modi, rising tariffs and trade barriers, mass deportations and increasing racial discrimination towards the Indian diaspora in the U.S. have strained the stability of this partnership.",
+      "This article aims to trace the Indo-U.S. bilateral developments in seven parts, starting through the backdrop of President Biden’s administration followed by the tariff and trade practices and their implications. Then we critically examine defence relations, particularly the CAATSA sanctions, the plight of Indian students in the U.S. through the Harvard issue, the potential of transnational diplomacy, and the H-1B visa restrictions and the legacy of the Indian diaspora on the U.S. economy. The article concludes by evaluating the geopolitical implications of Indo-U.S. relations and its impact on international issues."
     ],
     keywords: [
       "Indo-U.S. relations",
@@ -2574,63 +2532,207 @@ const articles = [
     ],
     content: [
       {
-        heading: "Backdrop: Indo-U.S. Relations under President Biden",
+        heading: "1.	India-US Relations under the Biden Administration",
         paragraphs: [
-          "The Indo-U.S. bilateral relations under President Biden’s administration were quite progressive and forward-looking. Through increased cooperation and multilateral efforts, the U.S. actively engaged with India to uphold the rules-based international order, particularly in the Indo-Pacific. India and the U.S. worked towards enhancing defence cooperation, climate change initiatives, and vaccine distribution during the COVID-19 pandemic. The bilateral relationship was marked by a shared vision of democracy, security, and prosperity. President Biden had also prioritized building partnerships based on shared values, thus strengthening ties with India. During this period, the Indian diaspora continued to flourish in the United States, and educational exchanges between the two countries were at an all-time high. However, the transition to President Trump’s second tenure brought about new uncertainties and raised questions about the future trajectory of Indo-U.S. relations."
+          "The Biden administration geared its office at a time of global uncertainty. Against this backdrop, India rose as a pivotal partner in the United States’ efforts to strengthen international alliances and restore democratic notions. Biden’s approach was a clear reposition from the optics-driven, transactional engagement under President Trump toward a more congruous, institution-making bilateral relationship. Having served on the Senate Foreign Relations Committee and as Vice President under Barack Obama, Biden introduced historical perspective and diplomatic continuity to Indo-US relations.",
+          "Within his first 100 days in office, President Biden worked with Indian leadership through high-level calls, multilateral forums, and dialogues, emphasising India’s centrality in America's global vision. He emphasised shared democratic values, respect for human rights, and the importance of collaborative global governance as the foundation of the partnership.",
+          "Biden’s initial achievements had resuscitated consultative platforms that had stagnated during the Trump era. The India-US 2+2 Ministerial Dialogue, reactivated in 2021, highlighted an extensive gamut of issues—defence cooperation, counterterrorism, energy security, and technology transfer. Similarly, the India-US Trade Policy Forum, CEO Forum, and Commercial Dialogue were re-launched, enabling structured conversations on market access, investment frameworks, and trade disputes.",
+          "Both India and the US strengthened ties through defence logistics and coordination. India remains a “Major Defence Partner” of the US—on par with NATO allies— opening the gates to advanced military technologies. The two countries have signed all four foundational defence agreements, including BECA and COMCASA, enhancing interoperability and intelligence-sharing.",
+          "The most transformative development under Biden has been the expansion of the tech partnership. In January 2023, the two nations instigated the India-US Initiative on Critical and Emerging Technologies (iCET), a milestone that profoundly institutionalised cooperation in semiconductors, quantum computing, AI, space technology, and 5G/6G telecom systems",
+          "This also marked a move away from a purely defence-based technology exchange to collaborative innovation. Under the iCET, Indian and US firms have initiated joint projects such as the co-development of GE F-414 fighter jet engines for India’s LCA Mk2 aircraft—featuring up to 80% technology transfer, a significant leap from earlier defence deals. Furthermore, partnerships in clean energy tech under the US-India Climate and Clean Energy Agenda 2030 and the Strategic Clean Energy Partnership (SCEP) include collaboration on hydrogen fuel, battery storage, and smart grids.",
+          "Indian-Americans now form one of the most influential diasporas in the US, with over 4.5 million people contributing to various sectors, including Silicon Valley, medicine, and academia. President Biden’s appointments of key Indian-origin officials—such as Neera Tanden, Vivek Murthy, and Uzra Zeya—had enhanced the dimension for diplomacy and strengthened cultural exchange bonds between the two nations ",
+          "Academic and scientific cooperation remains vibrant, with over 200,000 Indian students enrolled in US universities (2023 data), contributing nearly $8 billion to the US economy annually. Collaboration in STEM education, skilled workforce mobility, and technological advancements remain a cornerstone of the relationship ",
+          "Under Biden, the India-US relationship has upgraded beyond mere symbolic gestures to a significant advancement. The scope of bilateral ties and agendas has expanded from defence and security to include climate change, public health, advanced technology, and sustainable development. Although trade friction persists in areas like market access and digital taxation, the institutional resilience built under Biden ensures such issues are managed without derailing strategic cooperation.",
+          "Ultimately, the Biden administration has not only reinforced traditional strategic ties but also charted new avenues for collaboration, positioning the India-US partnership as one of the most comprehensive and future-ready bilateral relationships in the 21st century."
         ]
       },
       {
-        heading: "Trade Barriers and Tariff Policies",
+        heading: "2.	Tariffed Partnership: Is Trump's Second-Term Trade Pressure Rewriting the Rules of Economic Engagement Between India and the U.S.?",
         paragraphs: [
-          "Trade tensions between India and the U.S. began to surface during Trump’s first term and intensified in his second tenure. President Trump’s America First policy sought to reduce trade deficits and revive domestic manufacturing, which led to a more protectionist approach. India was removed from the Generalized System of Preferences (GSP) in 2019, and in return, India imposed retaliatory tariffs. These developments strained trade relations, especially in sectors like agriculture, steel, and medical devices. While both countries maintained high-level dialogues to address these concerns, the lack of a comprehensive trade agreement hindered progress. The Trump administration’s tariffs created uncertainty for Indian exporters, and the absence of predictable trade policies became a major challenge for bilateral economic relations."
+          "India–U.S. relations have come a long way historically, from an ideological distance to a pragmatic—not always harmonious—cooperation. India’s non-alignment during the Cold War symbolized that India was not easily courted by the United States. India’s liberalization in the 1990s and, most importantly, the 2005 civil nuclear agreement, ushered in a new period of engagement and trust (Wikipedia, 2025). In 2022–2023, bilateral trade in goods and services crossed $190 billion, maintaining its remarkable growth trajectory (Rao, 2024). India found itself to be a key market and strategic partner in Asia, and the United States became India’s largest trading partner. However, tensions simmered under the surface, particularly over trade imbalances and tariff structures. The United States operates a large deficit in its trade with India, an issue that President Trump has complained about incessantly since his electoral victory last fall. India received preferential market access under the U.S. Generalized System of Preferences (GSP), which provided for duty-free exports of roughly $5.6 billion per year (USTR, 2019). In 2019, Trump rescinded India’s GSP advantages, claiming that it had not supplied “fair and cheap” (USTR, 2019).",
+          "Yet in Trump’s second term, this friction quickly transformed into a major trade conflict. The administration announced a retaliatory tariff on selected Indian goods of 26% in April 2025 that was suspended temporarily (90 days) to give time for negotiations to find common ground (Kumar, 2025). Following immediately, President Trump ended US preferential treatment of imports from India, and criticized India’s average applied tariff of 17.6%, one of the highest for any major economy, and calling India the “tariff king”. Sectors such as agriculture, automobile and medical devices were especially focused on. This seems to be Trump’s goal of “reciprocity”—to force India to lower its tariff wall while it raises imports of U.S. energy, defense, and high-tech products. India has countered, noting that its tariff rates are far below WTO-bound rates, and that its retaliatory duties on almonds, walnuts, and apples are valid responses to the U.S.’s security-based retaliatory tariffs on steel and aluminum from 2018 (TOI, 2025).",
+          "This reflects what many describe as Trump’s broader tactic—used not just with India, but globally. It's a “maximum pressure, minimum compromise” strategy: issue extreme tariff threats, provoke panic, then delay or soften them slightly and call it a win. This creates the illusion of negotiation while crediting himself with resolution. India appears a pawn in this larger model of transactional diplomacy, where perception trumps fair policy (Graham, 2025). Trump used similar approaches with the EU and China—threatening 25% auto tariffs and securing symbolic concessions (Reuters, 2025), or raising tariffs to pressure China into the “Phase One” deal (Gattiker et al., 2025).",
+          "India needs to exercise caution. Avoiding tariffs may feel like success, but genuine negotiation requires mutual respect. India’s counter strategy must reflect strategic autonomy—not appeasement. Only then can it define its trade future from a position of strength."
         ]
       },
       {
-        heading: "Defence Cooperation and the CAATSA Sanctions",
+        heading: "3.	S‑400 Dilemma: Can U.S.–India Defence Ties Survive CAATSA Sanctions in Trump’s Second-Term?",
         paragraphs: [
-          "India and the U.S. have historically maintained strong defence cooperation, with several landmark agreements signed over the past decade, including LEMOA, COMCASA, and BECA. These agreements enhanced military interoperability and information sharing. However, the introduction of CAATSA (Countering America's Adversaries Through Sanctions Act) complicated the relationship. India’s purchase of the Russian S-400 missile defence system triggered concerns in Washington and raised the possibility of sanctions. Although the U.S. recognized India’s strategic autonomy and regional security needs, CAATSA remained a point of friction. The Trump administration took a tougher stance on allies engaging with U.S. adversaries, which placed India in a delicate position, balancing its defence needs and diplomatic ties with both Russia and the U.S."
+          "With Donald Trump reintroduced once more on January 20, 2025, for his second non-consecutive term as the 47th U.S. president, the issue of CAATSA sanctions on India’s S-400 buy has taken on renewed criticality. The current U.S. organisation, firmly rooted in the “America First” ideology, faces a fundamental test: implement the spirit of sanctions, or shift toward a pragmatic organisation?",
+          "Amid Trump’s to begin with term, his administration transparently cautioned India about CAATSA punishments, whereas opening the door partially open for a waiver in the event that New Delhi moved toward U.S. military gear. Presently, four of the five S-400 regiments are currently deployed along India’s borders with China and Pakistan, with the ultimate framework anticipated by early 2026 .This buy, imperative to India’s defence calculus, has drawn renewed attention in Washington and reignited the talk about over vital consistency versus lawful commitment.",
+          "Trump’s moment term has as of now seen clear official actions—some indeed focusing on worldwide institutions—and a forceful position on remote approach, including suspension of military aid to Ukraine and reinvigorated duties on China and North America.  Whereas this signals a harder pose toward equal powers, it too raises concerns that CAATSA may be used more entirely against India, especially to strengthen U.S. dominance in worldwide defence exchange.",
+          "Authorising India through and through, be that as it may, may demonstrate politically impulsive. As a key partner within the Indo-Pacific and an individual popular government, penalising Unused Delhi may unwind collaborative endeavours beneath the Quad system and weaken certainty in the U.S. administration. It would be seen as rebuffing a vital accomplice at a time when Chinese self-assuredness within the South China Ocean and Taiwan Strait is powers, and when the U.S. itself is looking for dependable accomplices to maintain a rules-based arrange within the Indo-Pacific.",
+          "A more discretionary course would be a carefully organised CAATSA waiver for India. But it shouldn't be a clear check. The White House seem to require steps like expanded acquisition of U.S. defence frameworks, more significant joint development projects—for example, missile-tracking radars or ramble systems—and more profound participation in shared security alliances. This mirrors Trump’s first-term dialect: India “will discover out” on the off chance that it remains too close to Russian weapons, but that a waiver is conceivable under the correct conditions.  For India, exploring this requires subtlety. Delhi might depict the S-400 as a transitional defence fence, signalling preparation to slowly turn toward American stages.",
+          "That might incorporate committing to construct more U.S.-supplied frameworks domestically—extending the India-U.S. defence-industrial base—and emphasising interoperability in military drills and insights sharing. ",
+          "At its centre, the S-400 issue may be a stretch test, for CAATSA's unbending nature and for India's vital belief. Beneath President Trump’s momentous term, the stakes have risen. But in case both nations select exchange over authoritative opinion, the result might reaffirm their shared interest in building a strong, multipolar, and equitable Indo-Pacific.",
+          "For India, this implies keeping up its teaching of vital independence, while signalling a future direction more adjusted with American tech and tenet. For Trump’s organisation, it is an opportunity to illustrate vital adaptability without undermining authoritative expectations."
         ]
       },
       {
-        heading: "Harvard and the Indian Student Community",
+        heading: "4.	How has the “Harvard Issue” affected the landscape of Educational Collaborations between India and the US since Donald Trump's Re-election?",
         paragraphs: [
-          "The Indian student community in the United States has been a key contributor to the academic and scientific advancement of the country. However, under Trump’s administration, restrictive immigration policies, including changes to the H-1B visa program and increased scrutiny of student visas, created uncertainty for aspiring students. The Harvard case, wherein the university had to navigate Trump’s executive orders on online classes during COVID-19, highlighted the administration’s stance on international students. Many Indian students faced deportation threats if their courses were entirely online. These developments not only impacted individual students but also strained the people-to-people ties that form the backbone of Indo-U.S. relations."
+          "In 2025, A political and legal conflict emerged between Harvard University and Trump administration, now commonly being referred to as the “Harvard Issue.” This issue has attracted global attention regarding academic freedom, International Student Rights, and foreign relations. The issue unfolded as the Federal Government of the US accused Harvard of failing to comply with federal guidelines, started citing concerns over ideological extremism, race – based practices and non-cooperation in the student monitoring. The actions to these accusations lead to a policy decision, which includes Threats to revoke Visa, termination of research grants and a suspension of Harvard’s ability to host foreign students. These proposed changes led to reactions of shock across the International academic community, including India.  ",
+          "India, being one of the largest contributors to the student base in the majority of the US Institutions has felt a significant impact. Hundreds and Thousands of Indian students apply to American Institutions annually, with Harvard being one of the topmost of choices for advanced study and research. On April 16, 2025, the Trump Administration issued a directive more of a threat to revoke Harvard’s membership for the Student and Exchange Visitor Program, SEVP which directly jeopardized the enrolment of International Students, including Indians. This temporary barring led to widespread anxiety and disrupted academic plans for students across the globe.",
+          "Further escalating the issue, on June 4, President Trump signed a proclamation suspending Visas F, M and J categories for new enrolments/ students at Harvard, which cities concerns for foreign ties, although a federal judge later issued an injunction against Trump’s Proclamation on June 20. This to-and-fro between the Federal government and Harvard highlights the vulnerability of international students to shifting political climates.",
+          "Indian students were affected in many ways. First, there was increased uncertainty around visa insurance and renewals which led to many prospective students to either delay applications or consider alternative destinations for study and research such as Canada or Europe. Second, The Political opinions of the federal government labelling some foreign students radical or anti–American created an alarming effect where students felt compelled to self–censor academic or political opinion. Third, Indian scholars engaged in research associations with Harvard faces disruptions due to the suspension of federal grants and funding, thereby limiting academic exchange.",
+          "With funding for Joint research programs suddenly stopped and access for Indian students blocked, the Indian universities faced both academic and administrative lags, the situation highlighted that how quickly politics could disrupt academic ties. The threat to Harvard tax exempt status and the sweeping visa restrictions served as a wake–up call. In response many Indian academic institutions started reassessing the risk of heavy dependence on US-based academic networks.",
+          "At its core, the Harvard issue reflects a growing intersection between education, politics and international relations. For Indian students and institutions, this issue serves as an eye opener that academic opportunities are not immune to geopolitical shifts and also emphasizes the importance of diversifying global partnership and advocating for the protection of academic mobility and freedom. While the legal outcomes of the conflict are still evolving, the implications for India-US academic relations are clear. Transparency, mutual respect and policy stability are essential to sustaining educational exchange in an increasingly polarized world."
         ]
       },
       {
-        heading: "Racial Discrimination and the Indian Diaspora",
+        heading: "5.	To What Extent Did Culture, Media, and Diaspora Outweigh Transactional Diplomacy in India-US Relations Under Trump’s Second-Term Policies?",
         paragraphs: [
-          "Racial discrimination against the Indian diaspora saw an uptick during Trump’s second tenure. Several incidents of hate crimes and racially charged rhetoric raised concerns among Indian communities in the U.S. While Trump maintained strong diplomatic ties with India and praised the Indian-American community publicly, his domestic policies and political discourse often emboldened extremist sentiments. The lack of strong condemnation of racially motivated violence further alienated minority communities. This not only affected the diaspora’s sense of safety and belonging but also had a diplomatic ripple effect, influencing public opinion and bilateral perceptions."
+          "The Indo- American relationship is built upon diverse threads, woven together by their shared strategic interests, economic ties, democratic values, and vibrant people-to-people connections, strengthened over decades by migration and flow of cultural exchange, and mutual aspirations across the Pacific. The soft-power elements of culture, media, and especially the Indo-American diaspora foster a transnational synergy that blends Indian traditions with American innovation, shaping both countries’ cultural identities, political values, and foreign policies.",
+          "With President Trump’s return to the White House, the tone of this relationship shifted. The administration’s focus on transactional diplomacy, defined by a relentless focus on immediate and reciprocal gains over long-term strategic partnership, sidelined the soft-power diplomacy (Rossow, 2024). First, the Trump administration targeted USAID which had a $35 billion budget, mostly for health, education, and governance, especially in Africa. While the agency still exists on paper, it has been effectively dismantled. Cutting USAID has reduced U.S. presence in poor countries resulting in weakening of its soft- power influence and global messaging (Weinstein, 2025). Along with this, the 1,116th page ‘One Big Beautiful Bill’ imposes a 3.5% tax on remittances sent by US’s non-citizens, impacting Indians who are a significant portion of the US immigrant population. CA Manoj K Pahwa, FEMA & International Tax Consultant, says “To avoid paying 3.5% tax, many of them would now increasingly invest money in the US itself.” Thus, the tax would discourage remittances to India and prompt increased US investments (ADAJANIA, 2025).",
+          "Trump’s second-term agenda had also rapidly expanded deportation operations, directly impacting Indian communities, with over 20,000 undocumented Indians facing removal orders or detention. The crackdown has heightened fear and instability among mixed-status Indian families and the broader diaspora. This shift has diminished the role of the U.S. soft power by projecting an image of exclusion rather than openness, making it harder for the Indian diaspora to contribute to American innovation and culture. Policies prioritizing increased tariffs, trade balances, and immigration quotas often clash with the living realities of the diaspora and the aspirations of young Indians and Americans alike.",
+          "Despite the dominance of transactional diplomacy, soft power elements have shown resilience. The Indian diaspora in the United States, now numbering over 4.5 million, continues to play a critical role in shaping bilateral ties through enhanced political integration and advocacy. Indian-Americans secured influential positions within the Trump administration, including Harmeet Kaur Dhillon as Assistant Attorney General for Civil Rights, Vivek Ramaswamy in government efficiency, and Kash Patel’s nomination as FBI Director. These appointments amplified the diaspora’s voice, which enabled protection of the interests of Indian professionals and students. With U.S. funded programs scaled back, India leaned into its own soft power, supporting academic partnerships, diaspora-led festivals, and digital diplomacy. High-profile diaspora-driven cultural events such as “Howdy, Modi!” and “Namaste Trump” along with Indian cuisine, yoga, and Bollywood symbolized the community’s ability to act as a cultural bridge. Media, meanwhile, became both a battleground and a bridge. As trade disputes and policy disagreements made headlines, Indian diplomats, diaspora leaders, and think tanks worked to reframe the narrative. ",
+          "Yet, for all their resilience, these soft power forces faced real limits. Transactional diplomacy often sets the boundaries of possibility. Tariffs were not undone by goodwill, and visa restrictions could not be lifted by community advocacy alone. Even the strongest diaspora voices confronted the harsh realities of “America First” policies. As Joseph Nye warned, Trump’s coercive, transactional view of power risked eroding U.S. soft power, much like China’s aggressive diplomacy backfired (Nye, 2004). So, to what extent did culture, media, and diaspora outweigh transactional diplomacy in this new era? While they did not always prevail, these soft power elements softened tensions, kept channels open, and ensured the relationship remained more than a series of deals. They may not have shaped every outcome, but they safeguarded the relationship’s soul. They did not outweigh transactional diplomacy but they endured beyond it, laying the groundwork for a more inclusive and enduring chapter in India- U.S. relations."
         ]
       },
       {
-        heading: "H-1B Visa Restrictions and Tech Talent",
+        heading: "6.	The H-1B Visa and Indian Contribution to the U.S. Economy ",
         paragraphs: [
-          "The H-1B visa program, crucial for Indian tech professionals, underwent significant changes under the Trump administration. New rules increased wage requirements, narrowed eligibility criteria, and reduced the approval rate of visa applications. These changes were framed as efforts to protect American workers but had a disproportionate impact on Indian applicants, who form the largest share of H-1B holders. Major tech companies in the U.S., including Google, Microsoft, and Apple, opposed these restrictions, citing talent shortages. The tightening of visa norms disrupted career prospects for many Indians and affected the operations of Indian IT firms in the U.S., adding economic and strategic friction to bilateral ties."
+          "The H-1B visa was created under the Immigration Act of 1990 in order to counter labour shortages in the United States. The Act intended to permit immigrants from all over the world for skilled labour, particularly in science and technology. In the fiscal year of 2023, around 72% out of the total recipients of the H-1B visa were Indians . The Indian diaspora has been one of the most academically accomplished and successful immigrant communities in the United States. But despite all of their contribution to the U.S. economy, Indian immigrants working under the H-1B visa are under the risk of being deported back to India.",
+          "Indian immigrants were initially limited to the H1 visa, which was provided to qualified immigrant workers of about 65,000 per year, who intended to work temporarily in the U.S. These provisions were relaxed over time, eventually leading to the American Competitiveness and Work Force Improvement Act of 1998, which increased the number from 65,000 to 1,15,000. This increase was lobbied by tech companies who recruited more foreign workers due to lack of skilled labour among American workers.",
+          "One of the major criticisms is against Indian tech companies who follow a system of offshore development centres in India with an on-site presence in the U.S., raising concerns as they directly generate revenue to the host country. This, clubbed with the mass lay-offs and unemployment during the pandemic served as a catalyst for anti-immigration sentiments under President Trump’s administration. Policies such as ‘Buy American, Hire American’  were intended to increase employment opportunities for American workers. However, research suggests that for every H-1B visa rejection, companies hired 0.4 employees abroad, undermining the intended goal of protecting American jobs.",
+          "The Indian influence on American technology and innovation is particularly profound. For instance, 16 of the Fortune 500 companies in 2023  were led by CEOs of Indian origin. A 2015 study observed data from 219 cities conducted between 1990 to 2010 and concluded that H-1B visa holders had increased innovation and job opportunities in the U.S., particularly in STEM branches and the tech sector, as well as increasing wages among non-skilled native workers (Peri, 2015). Another study shows increased patent registrations in the U.S. from 1975 to 2004, among Chinese and Indian immigrants in STEM research and development (Kerr, 2010). This shows that Indian immigrants are not just participating in American innovation, but are also driving it.",
+          "Most bilateral cooperations such as the Transforming Relations Utilising Strategic Technologies (TRUST)  depends on talent mobility, and limiting Indian access to work visas can weaken such initiatives. These restrictions can also shrink access to critical STEM research, potentially stalling global innovation. With China’s rapid excellence in science and technology, a stronger India-U.S. tech collaboration has never been more critical. Therefore, the relaxation of H-1B visa restrictions is paramount in order to sustain true innovation."
         ]
       },
       {
-        heading: "Transnational Diplomacy and Cultural Linkages",
+        heading: "7.	How has India-US geopolitical alignment shifted under Trump's second term and what strategic adjustments should India consider?",
         paragraphs: [
-          "Despite the policy challenges, transnational diplomacy and cultural exchanges between India and the U.S. remained resilient. The Indian diaspora played a significant role in bridging gaps, advocating for stronger ties, and supporting bipartisan efforts in U.S. Congress to enhance relations with India. Events like the 'Howdy Modi' and 'Namaste Trump' rallies demonstrated the symbolic strength of the partnership. Cultural linkages through Bollywood, yoga, and academic collaborations continued to grow. These people-to-people connections underscored the long-term potential of the relationship, even amid political turbulence."
+          "7.1. India-US in balancing China",
+          "Trump claimed that his trade policy would completely eliminate US dependency on China by revoking its most favored nation trade status given his best cabinet choices and business interests India emerged as the next best alternative due to its skilled workforce and geo-economics and strategic linkage to the Indo-Pacific (Mishra et al., 2025). As China remains the world’s leading semiconductor producer with an advanced fabrication facility, India needs to leverage its own resources particularly after the recent discovery of over 5.9 million tons of lithium in Jammu and Kashmir. If harnessed successfully will strengthen India's ambition of becoming Atma Nirbhar and at the same time make it an important player in the global supply chain. ",
+          "7.2. U.S-India Rapprochement with Russia",
+          "As Russia remains India's top crude oil supplier and the trade between the two is predicted to reach US 100 billion dollar in this decade. Trump may find a way for this relationship to benefit both India and the US considering India's strategic importance and the US’s long-term vision for the Indo-Pacific. The US relies on imports of refined petroleum from India and this oil is sourced by India from Russia (Mishra et al., 2025). India came under pressure under Biden from the US to buy its Russians cheap crude oil, but it always tried to balance its relations with Russia and the West not openly, displeasing Russia, but cooperating with the US and its allies in the defence, climate, and trade. This non-aligned, multi-vector diplomacy provided India the space to manoeuvre. ",
+          "Improving ties with Russia would support Trump's agenda to end the Russia Ukraine conflict while creating an opportunity to weaken the Russia-China-axis (Mishra et al., 2025). A warming-up of relations with Russia also would help Trump’s goals to end the Russia-Ukraine war and would open up prospects for a wedge to be driven between the Russia-China alliance. India has always respected Ukraine’s territorial integrity and that’s why Trump’s policy is to pull the support out for Ukraine to end the war. In this context, it could very likely be in the interests of both the US and India to have a strategic partnership that differs from America's approach towards Russia in the past.",
+          "7.3.  India, The US and The Middle East",
+          "India diminished itself by not taking a principled, consistent stand on Gaza at a time when it aspires to be a leader of what is referred to as the Global South (Naqvi, 2025). For a country with a long tradition of being against colonialism, India’s neutrality on what is generally perceived as a case of genocide may weaken its moral authority and leadership in the Global South. Historically, India has pursued strategic autonomy, and the current middle ground India is walking, where India did not stand with Israel by condemning neither Hamas nor Gaza—threatens to undermine this legacy.",
+          "Trump has also supported the idea of attacking Iranian oil fields. Although this could be perceived as a decision aimed at escalating Israel's war on Iran, it is merely an aspect of Trump's real politic inspired isolationist policy towards the middle East aimed at terminating the Iran issue (Mishra et al., 2025) Strategic infrastructure like the Chabahar Port and the India-Middle East-Europe Economic Corridor (IMEEC) are key to India’s connectivity to Central Asia and Europe and serves as a perfect counter to China’s Belt and Road Initiative. Since the attacks on October 7 and mounting tensions between Iran and Israel seem to have cast a long shadow on the development, potentially pulling the plug on India’s connectivity aspirations. In light of all this, India must keep its engagement with the U.S. transactional, based on shared interests, not values, without surrendering its core values or sacrificing its leadership in the Global South. ",
+          "7.4. The Progress India Is Making on Climate Without Global U.S. Talks",
+          "There is a growing divide between the Global North and Global South on climate issues. The North developed its economies at high carbon emissions levels and now the South, and particularly countries like India, are feeling the worst effects of climate change. A recent report from the World Meteorological Organization lay bare the loss and damage already being caused by the climate crisis and its disproportionate impact on those least responsible in developing countries. In view of these challenges Global frameworks such as the Paris Agreement and Sustainable Development Goals address the imbalance and push for climate change technology transfer and climate finance from North to South to allow developing countries to achieve goals such as net zero by 2070. ",
+          "Under Trump the US disengaged with the Paris Agreement followed by the UK, Germany, Netherlands, France and Canada. Furthermore, US absence in the 2025 Bonn Climate Conference (SB62) raised concerns. Besides, finance was not even on the agenda as a topic of discussion. As per Press Information Bureau India, Coal is vital to India’s energy needs, supplying over half of the country’s power. Despite renewable energy growth, coal-based thermal power will remain essential, with its share projected at 55% by 2030 and 27% by 2047. India is moving from 70 percent coal dependence to renewable energy like solar and hydro so support from global partners is essential. Therefore, it is imperative for India to push the US to return to climate talks and fulfil promises on finance and technology. "
         ]
       }
     ],
     conclusion: [
-      "The Indo-U.S. bilateral relationship is one of strategic importance and shared values. While the Trump administration’s second tenure introduced several policy challenges—ranging from trade protectionism and visa restrictions to ambiguous defence signals—the foundational elements of the relationship remained intact. Mutual economic interests, defence collaboration, and the role of the Indian diaspora have sustained bilateral momentum. However, the unpredictability of the administration's decisions created uncertainty in policy execution and diplomatic coherence.",
-      "To ensure long-term stability and growth in the Indo-U.S. relationship, both countries must focus on consistent engagement, institutional cooperation, and mutual respect for democratic values. Addressing immigration concerns, enhancing trade predictability, and strengthening people-to-people ties will be crucial in navigating the evolving global landscape. As the geopolitical dynamics shift, India and the U.S. must reaffirm their commitment to a rules-based order and work collaboratively towards global peace, prosperity, and innovation."
+      "In the current context, the Indo-U.S. relationship finds itself at an inflection point - reflecting not only on the progress of this relationship but through a turbulent political climate. While collaboration in areas of trade, defence, technology, and education brought these military partners closer, new developments have uncovered a glaring vulnerability. Indian immigrants are facing a crisis in holding dual status within the state, as anti-immigration sentiments and massive layoffs might evolve into long-term policies. ",
+      "Yet, no evidence suggests the relationship is on the verge of rupture. Members of the Indian diaspora, along with numerous shared interests, continue to promote the interdependence of these two nations. Given the meteoric rise of China with respect to economic, technological, and regional power, these two nations must have stronger coordination. The Trump administration requires consistency in policies and sensitivity to culture if it hopes to altercations bilateral relations healthily. ",
+      "If these bilateral and institutional partnerships keep on increasing ties between our peoples, these two countries can create mediums, provide greater innovation and research technology/science. That said, it would be important for mutual understanding of how to navigate and manage emerging temporal conflicts of interest. As similar nations, Indo-U.S. relations will endure and shape global order through policy sanctions and diplomacy. "
     ],
     references: [
-      "The White House. (2020). Executive Order on Aligning Federal Contracting and Hiring Practices with the Interests of American Workers.",
-      "Ministry of External Affairs, Government of India. (2020). India-US Relations.",
-      "Congressional Research Service. (2021). U.S.-India Trade Relations.",
-      "U.S. Department of State. (2020). CAATSA Overview and Implementation.",
-      "Harvard Gazette. (2020). Lawsuit over ICE Rule Against Online-only Courses.",
-      "Economic Times. (2020). H-1B Visa Reforms and Impact on Indian IT Firms.",
-      "Times of India. (2021). Hate Crimes Against Indian Diaspora in the U.S.",
-      "Brookings Institution. (2020). Indian Americans: A Story of Achievement and Integration.",
-      "U.S. Citizenship and Immigration Services. (2020). H-1B Program Policy Changes.",
-      "Ministry of Defence, Government of India. (2020). Indo-US Defence Agreements Overview."
+      {
+        heading: "ADAJANIA, K. E. (2025, May 26). 3.5% remittance tax: Sending money from US to India to upset many. The Economic Times. ",
+        links: "https://economictimes.indiatimes.com/wealth/tax/3-5-remittance-tax-sending-money-from-us-to-india%20-to-u%20set-many-heres-what-nris-can-do-to-save-tax-on-remittances/articleshow/121373583.cms?from%20=mdr",
+      },
+      {
+        heading: "Bhattacharya, S. (2020, October–December). India-US Relations under the Biden Administration: Future through Prism of the Past. Indian Foreign Affairs Journal, 15(4), 312–319. ",
+        links: "10.32381/IFAJ.jstor.org/stable/48630196"
+      },
+      {
+        heading: "Davies, P. (2018, October Thursday). US President Donald Trump warns of possible sanctions after India purchases a Russian missile system. euronews. ",
+        links: "https://www.euronews.com/2018/10/11/trump-warns-india-after-their-purchase-of-russian-missile-system"
+      },
+      {
+        heading: "Gattiker, C., Altermatt, S., & Tang, R. (2025, May 28). Tariffs, trade, and tensions: Analyzing the US-China deal and its implications. Julius Baer. Retrieved June 24, 2025, from ",
+        links: "https://www.juliusbaer.com/en/insights/market-insights/market-outlook/tariffs-trade-and-tensions-analyzing-the-us-china-deal-and-its-implications/"
+      },
+      {
+        heading: "Glennon, B. (2023, March 15). How Do Restrictions on High-Skilled Immigration Affect Offshoring? Evidence from the H-1B Program. Management Science, 70(2), 671-1342. INFORMS PubsOnline. ",
+        links: "https://doi.org/10.1287/mnsc.2023.4715"
+      },
+      {
+        heading: "Graham, D. A. (2025, May 30). The TACO Presidency. The Atlantic. Retrieved June 24, 2025, from ",
+        links: "https://www.theatlantic.com/newsletters/archive/2025/05/taco-donald-trump-wall-street-tariffs/682994/?"
+      },
+      {
+        heading: "Kerr, W. R. (2010, July). The Supply Side of Innovation: H‐1B Visa Reforms and U.S. Ethnic Invention. Journal of Labor Economics, 28(3), 473-508. JSTOR. ",
+        links: "https://doi.org/10.1086/651934"
+      },
+      {
+        heading: "Kumar, M. (2025, June 10). India and US advance toward interim trade deal after four-day talks, say sources. Reuters. Retrieved June 24, 2025, from ",
+        links: "https://www.reuters.com/world/india/india-us-advance-toward-interim-trade-deal-after-four-day-talks-say-sources-2025-06-10/?"
+      },
+      {
+        heading: "The Loss and Damage Collaboration. (2025, June 13). What Is at Stake on Loss and Damage at the 2025 Bonn Climate Conference? The Loss and Damage Collaboration. ",
+        links: "https://www.lossanddamagecollaboration.org/resources/what-is-at-stake-on-loss-and-damage-at-the-2025-bonn-climate-conference"
+      },
+      {
+        heading: "Lowell, L. (2000). Temporary Workers and Evolution of the Specialty H-1B Visa. In Defense of the Alien, 23, 33-43. JSTOR. ",
+        links: "https://www.jstor.org/stable/23141256"
+      },
+      {
+        heading: "Mahapatra, C. (2020, October–December). Indo‑US Relations under the Biden Administration: Predictable Difficulties Ahead. Indian Foreign Affairs Journal, 15(4), 280–285. ",
+        links: " https://www.associationdiplomats.org/Publications/ifaj/Vol15/15.4/IFAJ-15%284%29-02-CMahapatra.pdf"
+      },
+      {
+        heading: "Mishra, V. (2025, February 07). The India-U.S. Story: Biden’s Legacy and Trump 2.0. Observer Research Foundation.",
+        links: "https://www.orfonline.org/research/the-india-us-story-bidens-legacy-and-trump-2-0"
+      },
+      {
+        heading: "Naqvi, S. (2025, June 20). What the Hindu Right sees in Israel. Frontline. ",
+        links: "https://frontline.thehindu.com/columns/india‑foreign‑policy‑gaza‑israel‑un‑abstention‑vishwaguru/article69707371.ece"
+      },
+      {
+        heading: "Nautiyal, A. (2020, October–December). India and the Biden Presidency. Indian Foreign Affairs Journal, 15(4), 297–303. ",
+        links: "https://www.associationdiplomats.org/Publications/ifaj/Vol15/15.4/IFAJ-15%284%29-04-ANautiyal.pdf"
+      },
+      {
+        heading: "Nye, J. S. (2004). Soft Power: The Means To Success In World Politics. PublicAffairs.",
+      },
+      {
+        heading: "Parpiani, K. (2024). Biden, Trump, and India‑US Technology Partnership. Observer Research Foundation (ORF), (No. 447), 28 pages. ",
+        links: "https://www.orfonline.org/research/biden-trump-and-india-us-technology-partnership"
+      },
+      {
+        heading: "Peri, G. (2025, July). STEM Workers, H-1B Visas, and Productivity in US Cities. Journal of Labor Economics, 33(S1), S225-S255. JSTOR. ",
+        links: "https://doi.org/10.1086/679061"
+      },
+      {
+        heading: "Prahladrao, S. (2025, April 10). India’s Power Sector: A Balancing Act Between Coal and Renewables. ARC Advisory Group. ",
+        links: "https://www.arcweb.com/blog/indias-power-sector-balancing-act-between-coal-renewables"
+      },
+      {
+        heading: "Rao, A. (2024, May 14). India's Trade Performance in FY 2023-24 and Strategy to Explore New Export Markets. India Briefing. Retrieved June 24, 2025, from ",
+        links: "https://www.india-briefing.com/news/indias-trade-performance-fy-2023-24-exploring-new-export-markets-32612.html/?"
+      },
+      {
+        heading: "Reuters. (2025, May 23). Reuters. Retrieved June 24, 2025, from ",
+        links: "https://www.reuters.com/business/autos-transportation/reaction-trumps-threat-50-tariffs-eu-goods-2025-05-23/"
+      },
+      {
+        heading: "Rose, A. (2025, June 20). Attacks on Harvard by Trump administration have built for months. A timeline of the dispute. CNN. ",
+        links: "https://edition.cnn.com/2025/04/26/us/harvard-university-trump-timeline"
+      },
+      {
+        heading: "Rossow, R. M. (2024, November 12). U.S.-India under Trump 2.0: A Return to Reciprocity. CSIS. ",
+        links: "https://www.csis.org/analysis/us-india-under-trump-20-return-reciprocity"
+      },
+      {
+        heading: "Saberin, Z. (2018, October 5). India signs S-400 deal with Russia sidestepping US opposition | Narendra Modi. Al Jazeera. ",
+        links: "https://www.aljazeera.com/features/2018/10/5/india-signs-s-400-deal-with-russia-sidestepping-us-opposition"
+      },
+      {
+        heading: "Sibal, K. (2021). India and the Biden Administration. National Security, IV (4)(II (2)), 105–112. Vivekananda International Foundation e-journal archive. ",
+        links: "https://www.vifindia.org/sites/default/files/national-security-vol-4-issue-2-essay-KSibal.pdf"
+      },
+      {
+        heading: "Siddiqui, H. (2025, January Monday). Trump 2.0: Transforming global geopolitics and fortifying India-US relations. Financial Express. Trump 2.0: Transforming global geopolitics and fortifying India-US relations TOI. (2025, May 13). Times of India. Retrieved June 24, 2025, from ",
+        links: "https://timesofindia.indiatimes.com/business/india-business/indias-proposed-retaliatory-tariffs-on-us-goods-may-cast-shadow-on-trade-deal-talks/articleshow/121136032.cms?"
+      },
+      {
+        heading: "USTR. (2019, March 4). USTR. Retrieved June 24, 2025, from",
+        links: "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2019/march/united-states-will-terminate-gsp"
+      },
+      {
+        heading: "Weinstein, A. (2025, June 11). Trump Is Blowing Up Soft Power. The Nation.",
+        links:  "https://www.thenation.com/article/world/trump-diplomacy-power-aid-development/"
+      },
+      {
+        heading: "Wikipedia. (2025, June 24). India–United States Civil Nuclear Agreement - Wikipedia. Wikipedia. Retrieved June 28, 2025, from", 
+        links: "https://en.wikipedia.org/wiki/India%E2%80%93United_States_Civil_Nuclear_Agreement?"
+      }
     ],
   },
   {
@@ -2642,8 +2744,7 @@ const articles = [
     authorAbbrev: "S. Mishra, R. Sayed and others",
     abstract: [
       "This research paper examines the evolving role of Alternative Dispute Resolution (ADR) mechanisms in navigating contemporary international conflicts that have proven resistant to traditional diplomacy and military deterrence. It brings together a diverse array of case studies—India–China–Pakistan’s territorial and hydropolitical disputes, Rwanda and the Democratic Republic of Congo’s complex legacy of genocide and regional insurgency, and the Russia–Ukraine war—situating each within the broader framework of international law, multilateral mediation, and state sovereignty.",
-      "Through doctrinal analysis and comparative case study, the paper assesses how ADR instruments such as arbitration, mediation, conciliation, and community-based justice systems have been employed or evaded in these conflict zones. In South Asia, treaty-based mechanisms under the Indus Waters Treaty have functioned as rare instances of successful legal ADR, whereas bilateral stalemates in Kashmir and Sino–Indian borders reveal the structural and political resistance to third-party intervention.",
-      "In Central Africa, the study explores both the grassroots justice of Rwanda’s Gacaca courts and the failure of inclusive mediation in the DRC despite multilateral efforts like the Luanda and Nairobi Processes. The Russia–Ukraine war serves as a cautionary exemplar of the collapse of international ADR frameworks when great power politics and unilateralism overtake dialogue and law.",
+      "Through doctrinal analysis and comparative case study, the paper assesses how ADR instruments such as arbitration, mediation, conciliation, and community-based justice systems have been employed or evaded in these conflict zones. In South Asia, treaty-based mechanisms under the Indus Waters Treaty have functioned as rare instances of successful legal ADR, whereas bilateral stalemates in Kashmir and Sino–Indian borders reveal the structural and political resistance to third-party intervention. In Central Africa, the study explores both the grassroots justice of Rwanda’s Gacaca courts and the failure of inclusive mediation in the DRC despite multilateral efforts like the Luanda and Nairobi Processes. The Russia–Ukraine war serves as a cautionary exemplar of the collapse of international ADR frameworks when great power politics and unilateralism overtake dialogue and law.",
       "The analysis foregrounds the strengths of ADR in creating legal, depoliticized channels for negotiation, especially in high-tension environments, but also acknowledges the fragility of such frameworks in the face of asymmetrical power, nationalist rhetoric, and lack of enforcement. It critiques the underutilization of institutional ADR—such as the International Court of Justice, Permanent Court of Arbitration, and African Court on Human and Peoples’ Rights—and examines the promise of Track II diplomacy and hybrid regional processes.",
       "Ultimately, the paper argues that ADR, when institutionally embedded and politically supported, holds transformative potential for long-term peacebuilding. Its success hinges not only on legal design, but also on the willingness of regional powers to prioritize cooperative sovereignty, the strengthening of multilateral institutions, and the integration of local actors in the resolution architecture. By treating ADR not as a diplomatic afterthought but as a core peacebuilding mechanism, the international community can reclaim space for law and justice amid an increasingly fractured global order."
     ],
@@ -2656,68 +2757,594 @@ const articles = [
     ],
     content: [
       {
-        heading: "Theme 1: South Asia’s Security Dilemmas and the Legal Limits of Bilateralism",
+        heading: "Literature Review",
         paragraphs: [
-          "Nowhere is the frailty of traditional diplomacy more visible than in South Asia, where three nuclear powers—India, Pakistan, and China—interact through a legacy of colonial border demarcations, strategic rivalry, and unresolved territorial claims. Despite several bilateral frameworks for negotiation (e.g., Shimla Agreement, Lahore Declaration), the region remains entangled in perennial disputes over Kashmir, the Line of Actual Control (LAC), and the Indus River basin. ADR mechanisms, though occasionally invoked, have been circumscribed by political distrust and sovereignty anxieties.",
-          "One of the few functioning ADR instruments is the dispute resolution mechanism under the Indus Waters Treaty (IWT), brokered by the World Bank in 1960. The IWT establishes a legal framework for India and Pakistan to share river waters and includes provisions for neutral expert review, arbitration, and recourse to the International Court of Arbitration. Notably, in the 2007 Baglihar dam dispute, India’s position was largely upheld through a neutral expert appointed by the World Bank. Similarly, the 2013 Kishanganga case was settled via the Permanent Court of Arbitration, which upheld India’s right to divert water but mandated minimum flows.",
-          "However, beyond hydro-politics, ADR has been absent. India’s position has consistently rejected third-party mediation over Kashmir, treating it as a bilateral issue. This has led to a diplomatic impasse, with Pakistan internationalizing the dispute and India maintaining a firm non-negotiation posture. Meanwhile, India–China disputes along the LAC have witnessed recurring military standoffs despite confidence-building agreements. The absence of a neutral legal forum has contributed to strategic instability and the risk of escalation.",
-          "The failure to expand legal ADR to broader territorial issues reflects a broader regional skepticism about ceding control to international institutions. While treaties like the IWT show the value of structured ADR, their success depends on institutional trust, timely implementation, and political will—all of which remain fragile in South Asia’s security matrix."
+          "The literature on ADR spans a wide spectrum of methodologies, from traditional mechanisms like mediation and negotiation to culturally embedded hybrid forums such as Rwanda’s Gacaca courts. Scholars have debated the viability, legitimacy, and scalability of such mechanisms, especially when transplanted into complex international conflicts.",
+          "In the African Great Lakes region, Rwanda presents one of the most cited post-genocide ADR models through its Gacaca courts. Scholars like Clark (2010) have commended the system for balancing restorative and retributive justice, re-establishing social cohesion after the 1994 genocide. The courts allowed for community participation in adjudicating genocide crimes, fostering reconciliation at the grassroots. However, critical perspectives, notably by, have raised concerns over due process violations, coercive confessions, and uneven power dynamics within informal systems. The literature thus highlights the double-edged nature of localized ADR—effective in societal healing, yet vulnerable to human rights critiques.",
+          "In contrast, the Democratic Republic of Congo (DRC) represents the difficulties of embedding ADR in an ongoing conflict environment. Autesserre (2010) emphasizes how fragmented armed groups, weak institutional frameworks, and lack of consistent political will have rendered many ADR attempts ineffective. A paper in International Alert further argues that while community-led reconciliation forums have made local gains, they often lack linkage to national legal structures and international support, limiting their ability to scale into national peace processes. This raises important questions about the sustainability of informal mechanisms without broader systemic reform.",
+          "South Asia provides a distinct lens through which to analyze ADR at the interstate level. The Indus Waters Treaty (IWT) between India and Pakistan, brokered by the World Bank in 1960, is often cited as a rare example of successful treaty-based ADR. Scholars such as Salman (2002) have examined the treaty’s embedded multi-tiered dispute resolution framework, including neutral expert review and Permanent Court of Arbitration (PCA) proceedings, as instrumental in de-escalating water disputes despite recurring hostilities. Yet, as India continues to reject third-party mediation in politically sensitive areas like Kashmir, ADR remains constrained by political will and strategic sovereignty concerns. The India–China conflict similarly avoids formal ADR processes, with both states opting instead for confidence-building measures and bilateral diplomatic dialogues, which lack legal enforceability. ",
+          "In the Russia–Ukraine conflict, ADR mechanisms have largely been sidelined, with formal diplomacy failing to prevent full-scale war. The annexation of Crimea in 2014 and the 2022 invasion reflect a broader breakdown in international legal norms and institutions. While some scholarship highlights the role of the Minsk Agreements as a failed ADR initiative, others point to the erosion of trust in international bodies like the UN or OSCE as a critical barrier. The literature increasingly views the conflict as a case of 'lawfare'—the strategic use and manipulation of international law as a tool of war rather than peace.",
+          "Finally, scholars such as Jones (2015) have emphasized the growing relevance of Track II diplomacy—informal legal dialogue among non-state actors, including academics, civil society, and former diplomats. These softer forms of ADR are seen as essential precursors to formal negotiation, particularly in deeply polarized environments. However, institutionalizing such frameworks and ensuring their uptake at the state level remain major challenges.",
+          "Taken together, the literature reveals that while ADR holds substantial promise in theory, its practical application is often impeded by power asymmetries, weak enforcement structures, and cultural divergences in conflict resolution norms. The challenge lies not merely in designing ADR mechanisms, but in fostering the political, legal, and social ecosystems in which such mechanisms can thrive."
+        ],
+      },
+      {
+        heading: "Theme 1: Legal ADR in South Asia’s Nuclear Triangle",
+        paragraphs: [
+          "The India–Pakistan–China triangle remains one of the world’s most persistent and dangerous zones of geopolitical volatility. All three are nuclear powers with longstanding territorial and strategic disputes, minimal mutual trust, and low institutional cooperation. Despite intermittent dialogue and confidence-building measures, the region has failed to establish sustainable peace. Traditional diplomacy, limited to formal talks and military deterrence, has often escalated tensions or yielded fragile outcomes. In this context, Alternative Dispute Resolution (ADR) offers a legally structured and depoliticized pathway to conflict resolution.",
+          "ADR methods, including arbitration, mediation, and neutral expert review, function outside the constraints of formal litigation, allowing for greater flexibility, confidentiality, and preservation of state sovereignty (Lando, 2021). Particularly in high-stakes international conflicts, ADR provides structured legal mechanisms that can de-escalate tensions and avoid protracted diplomatic deadlocks. In South Asia, where political grievances intersect with issues of water sharing, territorial demarcation, and infrastructure spillover, ADR mechanisms offer underutilized, yet promising, legal routes toward stability."
         ]
       },
       {
-        heading: "Theme 2: Rwanda and the DRC—Between Grassroots Justice and Multilateral Failure",
+        heading: "a.	Conflict Background: Disputes and Diplomatic Deadlocks",
         paragraphs: [
-          "In the African Great Lakes region, ADR has taken forms ranging from traditional community courts to high-level multilateral diplomacy. Rwanda’s post-genocide Gacaca courts, though not without controversy, offered a rare experiment in transitional justice grounded in local customs. Between 2002 and 2012, over 12,000 Gacaca courts tried approximately 1.2 million cases—reducing prison overcrowding and fostering community participation. While criticized for procedural irregularities, the model demonstrated that culturally rooted ADR can serve both justice and reconciliation.",
-          "In contrast, the Democratic Republic of Congo (DRC) has suffered from the failure of multiple mediation efforts, including the Luanda and Nairobi processes. Despite interventions by the UN, AU, and regional bodies, recurring violence by armed groups like the M23 rebels has persisted. The lack of follow-through, poor enforcement, and elite fragmentation have undermined ADR efforts. The African Court on Human and Peoples’ Rights, while symbolically important, has been underutilized due to weak state cooperation and political interference.",
-          "These cases show both the potential and limits of ADR in post-conflict societies. While local justice systems can facilitate reconciliation, their legitimacy depends on inclusion, transparency, and political support. Multilateral ADR fails when not backed by credible enforcement and sustained diplomatic engagement. The DRC’s experience highlights the danger of superficial mediation without structural reforms or accountability."
+          "India and China share a 3,488 km long undemarcated border, with territorial disputes concentrated in Aksai Chin (claimed by India but controlled by China) and Arunachal Pradesh (claimed by China). Despite bilateral agreements like the 1993 Agreement on Peace and Tranquility and the 1996 CBMs, there has been no lasting resolution. The Doklam standoff (2017) and the Galwan Valley clash (2020) revealed the ineffectiveness of existing mechanisms and the lack of trust in bilateral diplomatic channels (MEA India, 2020; Panda, 2021).",
+          "China’s longstanding rejection of third-party adjudication poses a structural barrier to ADR. This posture was reaffirmed when Beijing refused to participate in the PCA’s 2016 South China Sea arbitration, reinforcing its preference for unilateral or bilateral approaches over legal internationalism (PCA, 2016).",
+          "The India–Pakistan conflict centers on the status of Jammu and Kashmir, marked by insurgency and cross-border violence. The Simla Agreement (1972) stipulates bilateral resolution, but political shifts, particularly India’s revocation of Article 370 in 2019, have exacerbated tensions and challenged previous legal frameworks (Qureshi, 2020). While India resists external mediation in Kashmir, it has engaged in structured ADR through other treaty mechanisms.",
+          "One notable success is the Indus Waters Treaty (1960), which regulates the use of shared rivers and embeds a formal ADR mechanism. Article IX of the treaty provides a tiered system: disputes are first addressed by the Permanent Indus Commission (PIC), then a Neutral Expert, and if unresolved, arbitration under the Permanent Court of Arbitration (PCA). This model has endured wars and regime changes, offering a rare example of legal continuity."
         ]
       },
       {
-        heading: "Theme 3: Russia, Ukraine, and the Collapse of Legal Frameworks",
+        heading: "b.	ADR in Action: Case Studies and Institutional Limitations",
         paragraphs: [
-          "The ongoing Russia–Ukraine war offers a sobering case study in the collapse of international ADR frameworks under conditions of great power unilateralism. Despite multiple agreements—including the Budapest Memorandum, Minsk Accords, and Normandy Format—Russia’s 2022 invasion shattered the norms of state sovereignty and peaceful resolution. Mediation efforts by Turkey, Israel, and others have failed to gain traction, and appeals to the International Court of Justice and ICC have had limited deterrent effect.",
-          "The failure of legal ADR here is twofold: first, the aggressor is a veto-wielding power in the UN Security Council, limiting institutional response; second, the conflict itself is framed by Russia as existential, undermining compromise. Even Track II diplomacy has found little space amid military escalation and information warfare. This suggests that legal ADR can be rendered impotent when confronted by brute force and narrative control.",
-          "Nonetheless, the Ukraine conflict underscores the need for stronger ADR institutions insulated from great power capture. Expanding the jurisdiction and enforcement capacity of international courts, developing regional ADR forums, and enhancing the credibility of third-party mediators could help mitigate future crises. While ADR may not prevent all wars, its systematic erosion in Ukraine signals a dangerous precedent for global conflict resolution."
+          "The Kishanganga arbitration (PCA, 2013) illustrated the IWT’s effectiveness. Pakistan challenged India’s hydropower project for violating design parameters under Annexure D of the treaty. The PCA ruled partially in Pakistan’s favour, reinforcing that the legal dispute resolution process could function even in politically strained contexts. More recently, arbitration has resumed on the Ratle dam, with PCA hearings initiated in 2023, despite India’s objections regarding procedural irregularities.",
+          "However, India remains cautious about extending third-party adjudication to politically sensitive disputes like Kashmir. Its refusal to engage international forums such as the ICJ or UN mediators reflects a rigid interpretation of bilateralism enshrined in the Simla Agreement and broader sovereignty sensitivities.",
+          "Unlike with Pakistan, India’s disputes with China lack formal legal resolution mechanisms. Despite recurring skirmishes and standoffs, both countries have confined themselves to non-binding diplomatic platforms such as the Working Mechanism for Consultation and Coordination (WMCC) and the Special Representatives' dialogue. These platforms, while useful for managing incidents, offer no legal enforceability or resolution mechanism.",
+          "China’s resistance to adjudication extends beyond India. Its categorical rejection of the PCA’s jurisdiction in the Philippines v. China case over the South China Sea reflects a consistent opposition to legal arbitration. This refusal to accept neutral forums makes ADR nearly impossible unless mutually agreed upon in advance via treaty—a condition not currently met.",
+          "The Permanent Court of Arbitration (PCA) remains the most relevant ADR forum in South Asia, especially under treaty-based mechanisms like the IWT. Its ability to function despite political tensions demonstrates the strength of embedded legal structures. However, its role is limited where no treaty exists or where parties refuse to submit to its jurisdiction.",
+          "The International Court of Justice (ICJ) offers another forum, but its jurisdiction is based on mutual consent. India has expressly excluded disputes involving Commonwealth countries and national security from ICJ jurisdiction, further limiting its utility.",
+          "UNCLOS mechanisms, though available for maritime and environmental disputes, have not been invoked in the Himalayan context. Future riverine conflicts may test its applicability, particularly if transboundary environmental harm becomes legally actionable. Regional organizations like SAARC and SCO lack standing arbitration panels or dispute resolution mandates, and deep-seated inter-state distrust has stalled progress on this front."
+        ]
+      },
+      {
+        heading: "c.	Pathways Forward: Designing a Trilateral ADR Framework",
+        paragraphs: [
+          "To harness ADR as a tool for long-term regional peace, South Asia must move beyond reactive diplomacy and toward institutional innovation. First, there is a need for a trilateral ADR treaty between India, Pakistan, and China. Focused on non-military disputes—water sharing, infrastructure spillover, and environmental damage—this treaty could embed binding arbitration clauses, jurisdiction triggers, and neutral expert mechanisms modeled after the IWT but expanded in scope.",
+          "Second, regional forums like SAARC or SCO should establish permanent arbitration panels, composed of legal, technical, and diplomatic experts nominated by member states. These panels should operate under transparent procedural rules, with opt-in jurisdiction for states willing to resolve disputes legally.",
+          "Third, Track II legal diplomacy must be formalized. These informal expert dialogues, engaging retired judges, scholars, and ADR professionals, can serve as precursors to formal arbitration, particularly when political sensitivities make official engagement untenable. Such forums could promote cross-border legal education, collaborative research, and shared ADR training, helping build trust over time.",
+          "Lastly, mechanisms such as hybrid ADR models, combining technical conciliation with optional legal escalation, could be applied to issues where political or legal standstills prevail. This phased approach balances sovereignty concerns with dispute resolution needs, especially in riverine or environmental disputes.",
+          "In conclusion, ADR's promise in South Asia is demonstrated through functional examples like the IWT but is curtailed by sovereignty concerns, lack of institutional platforms, and political resistance to third-party resolution. Addressing these challenges through legal treaties, regional mechanisms, and informal diplomacy is not merely idealistic—it is essential for preventing the next escalation in one of the world's most fragile trilateral relationships."
+        ]
+      },
+      {
+        heading: "Theme 2: Rwanda and Democratic Republic of Congo",
+        paragraphs: [
+          "The conflict in the eastern Democratic Republic of Congo (DRC) stands as one of the most enduring and devastating crises in the modern era, rooted in a complex web of historical grievances, regional rivalries, and the global scramble for natural resources. The most recent escalation, marked by the March 23 Movement (M23)’s seizure of Goma in early 2025, cannot be viewed in isolation. It is the latest episode in a long history of violence that began in the aftermath of the 1994 Rwandan Genocide, which saw nearly one million ethnic Tutsis and moderate Hutus slaughtered by Hutu extremists. "
+        ]
+      },
+      {
+        heading: "a.	Background of the Conflict",
+        paragraphs: [
+          "As the Rwandan Patriotic Front (RPF), led by Paul Kagame, took control in Rwanda, over a million Hutu refugees, including perpetrators of the genocide, fled into eastern Zaire, now the DRC. Their presence destabilized the region, as Tutsi minorities in Congo, particularly the Banyamulenge, felt increasingly threatened by these exiled militias. Rwanda’s subsequent military interventions in the DRC were officially justified as efforts to neutralize these extremist elements.",
+          "This refugee crisis and the resulting militarization catalyzed the First Congo War (1996–1997), during which a Rwandan-backed coalition ousted the dictator Mobutu Sese Seko and installed Laurent Kabila as president. The alliance soon crumbled, leading to the Second Congo War (1998–2003), a conflict involving nine African countries and numerous armed groups. Estimates suggest that the death toll, both from direct violence and the humanitarian catastrophe it unleashed, reached upwards of six million. Although a transitional government was established in 2003 and elections were held in 2006, the eastern provinces remained plagued by instability, with various armed groups continuing to operate.",
+          "Among these groups, M23 emerged as a prominent force in the early 2010s, primarily composed of Tutsi fighters claiming to defend their communities from persecution. Supported by Rwanda, according to multiple UN reports, M23’s insurgency reignited regional tensions. Though the group was temporarily defeated in 2013 through joint efforts by the Congolese army and an offensive UN peacekeeping brigade, its resurgence in the 2020s culminated in the 2025 offensive on Goma, during which hundreds to possibly thousands were killed and massive displacement ensued. Rwanda’s alleged role in supporting M23 continues to provoke diplomatic confrontation, with the DRC accusing Kigali of violating its sovereignty and facilitating violence through proxies.",
+          "At the core of this conflict lies not only ethnic and political strife but also a fierce contest over resources. The eastern DRC holds some of the world’s largest reserves of cobalt, copper, and other minerals vital to the global electronics and clean energy sectors. Over the last decade, Chinese firms—often with direct ties to Beijing—have acquired significant stakes in Congolese mining operations, displacing prior Western investments. These commercial interests are intertwined with the militarization of the region; Congolese forces have frequently been deployed to protect Chinese-operated sites, and Chinese military equipment, including drones and arms, has been used by both the Congolese government and regional actors. Reports of corruption, labor exploitation, and even child labor have marred these operations, further complicating the international community’s engagement with the DRC."
+        ]
+      },
+      {
+        heading: "b.	Regional and International ADR and Mediation Efforts ",
+        paragraphs: [
+          "Efforts to mediate the conflict have been led by both regional and international actors. The Nairobi Process, under the East African Community (EAC), aims to foster dialogue between the Congolese government and domestic armed groups. In parallel, the Luanda Process, facilitated by Angola and operating through the International Conference on the Great Lakes Region (ICGLR), focuses on de-escalating tensions between the DRC and Rwanda. Despite diplomatic overtures and the involvement of multilateral institutions, both processes have been hampered by mutual mistrust, competing political agendas, and escalatory military developments. A humanitarian truce brokered by the United States and Angola in mid-2024 offered a brief respite but fell short of catalyzing a durable resolution.",
+          "The conflict has also entered the legal arena. In 2023, the DRC brought a case before the African Court on Human and Peoples’ Rights, accusing Rwanda of breaching international law through its support for M23 and deployment of troops on Congolese soil. Rwanda challenged the court’s jurisdiction, but as both countries are signatories to the African Charter, they are bound to respect the court’s eventual ruling. The case is being closely watched, as it could set a significant precedent for conflict resolution and interstate accountability on the continent."
+        ]
+      },
+      {
+        heading: "c.	Humanitarian Impact and Regional Spillover",
+        paragraphs: [
+          "The humanitarian toll continues to mount. Over seven million people are internally displaced, and more than twenty-one million require immediate assistance. The violence has devastated communities, strained regional stability, and raised alarms within the United Nations and the African Union. In recent briefings, MONUSCO, the UN’s stabilization mission in the DRC, warned that the M23 crisis risks igniting a broader regional war, especially in light of the continued presence of over 250 armed groups in the region. The Congolese government maintains that any meaningful negotiation is impossible, so long as Rwandan troops and proxy militias operate within its territory, while Rwanda insists that the DRC’s governance failures have endangered its national security and Tutsi populations.",
+          "Amid these dynamics, the African Union has underscored the need for a harmonized response. The proliferation of peace initiatives across various regional blocs has led to calls for better coordination. The AU’s quadripartite process—bringing together the EAC, ICGLR, ECCAS, and SADC—seeks to streamline these efforts and ensure coherent strategies. Additionally, discussions are underway to revitalize the 2013 Peace, Security, and Cooperation Framework for the DRC and the Region, a landmark but under-implemented agreement. Despite the overwhelming challenges, the African Union and its partners continue to emphasize that only a sustained political process, rooted in mutual respect for sovereignty and regional stability, can deliver lasting peace in the eastern DRC."
+        ]
+      },
+      {
+        heading: "Theme 3: Russia Ukraine Conflict",
+        paragraphs: [
+          "The early conflict annexation of Cremia by the Russia in 2014.That sparked the international tensions and pro-Russian protest which erupted in eastern Ukraine and Russia backed these  separatist. And the naval incidents and cyber warfare also involved between these nations and the tensions has rose and it became a whole escalation invasion on February 24, 2022 , Russia invaded Ukraine and marked a significant escalation of the conflict. Why Russia invaded by Ukraine because Russia never really wanted the expansion of NATO because NATO has formed to counter the expansion of USSR after World War II.",
+          "And Russia was really concerned about that Ukraine might  join NATO,  then it could be a threat to Russia’s existence. Because a major power like  USA can use its bases after taking  Ukraine in NATO , then USA’s hegemony will become dominant  and the multipolar world will soon become a unipolar world again and the situation will go beyond the hands of humanity. In between all these things, the innocents are struggling and dying. But in politics and power no one cares about the civilians because the greed of expansionist policy will never end .And it will go like this only. and just for the sake of humanity and peace every world leader will sugar-coat it’s voters .",
+          "And the same thing has done by trump also he has also promised to stop the war in Russia Ukraine after his oath ceremony . But he didn’t do so ,infect USA is  the only who’s backing Ukraine and funding Ukraine to stretch it along . That’s why this world nobody can do anything about war and peace, because it’s a cycle of creation, destruction and recreation. That’s how we all evolve. "
+        ]
+      },
+      {
+        heading: "Additional Remarks",
+        paragraphs: [
+          "Across the modern geopolitical landscape, protracted conflicts such as those between India, China, and Pakistan; Rwanda and the Democratic Republic of Congo; and Russia and Ukraine, reflect not isolated disputes but a broader pattern of contested sovereignty, historical grievances, and shifting power dynamics. While the actors, regions, and rhetoric differ, commonalities emerge: the weaponization of ethnicity and nationalism, the manipulation of international legal norms, and the recurrent failure of mediation mechanisms to yield durable peace. The persistence of such conflicts reveals not merely the limitations of bilateral diplomacy, but the structural inertia within multilateral systems—often marred by geopolitical interests, competing alliances, and selective enforcement of international law.",
+          "In South Asia, the India-China-Pakistan triangle remains encumbered by unresolved borders, mutual mistrust, and a security-first approach that sidelines civilian agency. In Africa’s Great Lakes region, the Rwanda-DRC conflict is driven by deep ethnic fault lines and resource predation, entangled further by historical trauma and external interference. In Europe, the Russia-Ukraine war has become emblematic of power-based unilateralism in the face of collective security frameworks. These regions differ in their histories and geopolitical relevance, yet each reveals how fragile peace is when accountability is fragmented and international resolve is conditional. The lessons drawn from one theatre of conflict resonate in others—underscoring the urgent need for equitable, consistent, and context-sensitive approaches to conflict resolution and post-conflict reconstruction."
         ]
       }
     ],
     conclusion: [
-      "The case studies of South Asia, Central Africa, and Eastern Europe demonstrate that ADR mechanisms hold significant but underutilized potential in resolving international conflicts. Where deployed effectively—as in the Indus Waters Treaty or Rwanda’s Gacaca courts—ADR has enabled communication, reduced hostilities, and facilitated justice. Where ignored or undermined—as in the DRC or Ukraine—conflict has deepened, and the credibility of legal frameworks has eroded.",
-      "This suggests that ADR is not a panacea but a toolkit: its effectiveness depends on institutional design, political support, and contextual fit. Legal legitimacy must be paired with enforceability and public trust. Multilateral institutions must be reformed to enable swift, impartial, and binding resolutions, especially in regions where power asymmetry and historical trauma constrain bilateral diplomacy.",
-      "Moreover, ADR must be decolonized and democratized. Community-based justice systems should not be romanticized but respected for their cultural relevance. Regional organizations should be empowered as primary mediators, supported but not dominated by global powers. Track II diplomacy and civil society engagement should be institutionalized to widen the space for dialogue beyond governments.",
-      "Ultimately, reimagining ADR as a central—not supplementary—pillar of international relations requires a paradigm shift: from sovereignty as exclusion to sovereignty as cooperation; from diplomacy as performance to diplomacy as problem-solving; and from law as a threat to law as a tool for peace. In a multipolar world defined by fragmentation and crisis, ADR offers not just a legal solution but a moral imperative to pursue justice without war."
+      "The multiplicity of modern conflicts, whether in Eastern Europe, Sub-Saharan Africa, or South Asia, signals a deep crisis in the global order’s ability to prevent violence, uphold sovereignty, and ensure justice. Despite the presence of regional organizations, international courts, and bilateral forums, enduring peace remains elusive where power politics override legal commitments and political expediency eclipses moral responsibility. The failures of mediation in the DRC, the stalemates in Kashmir and Ladakh, and the breakdown of deterrence in Ukraine all reflect a disconcerting erosion of collective security principles.",
+      "Yet these crises also present an opportunity: to reevaluate peacebuilding as more than just ceasefires and border negotiations. Sustainable peace must include transitional justice, historical truth-telling, economic equity, and the centering of local voices in policymaking. International mechanisms, whether the African Court on Human and Peoples' Rights, the United Nations Security Council, or regional summits, must act not as reactive platforms but as proactive guarantors of international norms. Ultimately, peace cannot survive where impunity flourishes. Whether in Kinshasa, Kyiv, Srinagar, or Sikkim, the only enduring antidote to conflict lies in inclusive diplomacy, institutional integrity, and the unwavering political will to prioritize people over power."
     ],
     references: [
       {
-        heading: "Indus Waters Treaty, 1960. Available at: https://www.worldbank.org/en/region/sar/brief/indus-waters-treaty",
-        links: "https://www.worldbank.org/en/region/sar/brief/indus-waters-treaty"
+        heading: "Amani Africa. (2024, July 14). Briefing on mediation and reconciliation in conflict resolution in the Eastern Democratic Republic of Congo. ",
+        links: "https://amaniafrica-et.org/brief-on-mediation-and-reconciliation-in-conflict-resolution-in-the-eastern-democratic-republic-of-congo/"
       },
       {
-        heading: "Permanent Court of Arbitration. (2013). Kishanganga Arbitration: Final Award."
+        heading: "Autesserre, S. (2010). The trouble with the Congo: Local violence and the failure of international peacebuilding. Cambridge University Press."
       },
       {
-        heading: "Clark, P. (2010). The Gacaca Courts, Post-Genocide Justice and Reconciliation in Rwanda. Cambridge University Press."
+        heading: "Clark, P. (2010). The Gacaca courts, post-genocide justice and reconciliation in Rwanda: Justice without lawyers. Cambridge University Press."
       },
       {
-        heading: "African Union. (2022). The Luanda and Nairobi Processes for Peace in the Great Lakes Region."
+        heading: "Council on Foreign Relations. (2025, June 9). Conflict in the Democratic Republic of Congo. Global Conflict Tracker. ",
+        links: "https://www.cfr.org/global-conflict-tracker/conflict/violence-democratic-republic-congo"
       },
       {
-        heading: "International Court of Justice. (2022). Ukraine v. Russian Federation, Provisional Measures."
+        heading: "Daza-Clark, A.M. (2021). Dispute Settlement Mechanisms in Transboundary Water Conflicts. "
       },
       {
-        heading: "International Crisis Group. (2023). Eastern DRC’s M23 Crisis and the Limits of Mediation."
+        heading: "Hill, D. (2006). The politics of water in South Asia. Transforming Cultures eJournal, 1(2).",
+        links: "https://doi.org/10.5130/tfc.v1i2.255"
       },
       {
-        heading: "Scharf, M.P. (2009). Alternative Dispute Resolution in International Law. Peace Studies Journal."
+        heading: "International Alert (2022). Peacebuilding with the people: Addressing the local dimensions of violence and conflict in the DRC. ",
+        links: "https://www.international-alert.org/app/uploads/2022/08/DRC-Great-Lakes-Situation-Brief-EN-2022.pdf"
       },
       {
-        heading:"United Nations Security Council Reports on Ukraine, 2022–2023."
+        heading:"Jacob, H., & Jones, P. (2016). [Review of Track Two Diplomacy: In Theory and Practice]. St Antony’s International Review, 11(2), 163–167.", 
+        links: "https://www.jstor.org/stable/26229153"
       },
       {
-        heading: "International Center for Transitional Justice. (2012). Lessons from Rwanda’s Gacaca Courts."
+        heading: "Jones, P. (2015). Track Two Diplomacy in Theory and Practice. Redwood City: Stanford University Press.",
+        links: "https://doi.org/10.1515/9780804796323."
       },
       {
-        heading: "PCA Case Repository. (2007). Baglihar Dam Dispute: Neutral Expert Report."
+        heading: "Lando, M. (2016). The advisory jurisdiction of the International Tribunal for the Law of the Sea: Comments on the Request for an advisory Opinion submitted by the Sub-Regional Fisheries Commission. Leiden Journal of International Law, 29(2), 441–461.",
+        links: "https://doi.org/10.1017/s0922156516000091"
+      },
+      {
+        heading: "Lone, F.N. (2023). Report on Sino–Indian Border Disputes: International Law and International Relations Perspectives. Chinese Journal of Comparative Law.",
+      },
+      {
+        heading: "Malat, J., & Malat, J. (2023, September 11). Does Article IX of the Indus Water Treaty Constitute a Multi-Tiered Arbitration Clause? Cambridge Core Blog.",
+        links: "https://www.cambridge.org/core/blog/2023/09/12/does-article-ix-of-the-indus-water-treaty-constitute-a-multi-tiered-arbitration-clause-reflecting-on-the-permanent-court-of-arbitrations-award-on-the-competence-of-the-court-in-the-indus-wat/"
+      },
+      {
+        heading: "Meshel, T. (2016). The evolution of interstate arbitration and the peaceful resolution of transboundary freshwater disputes. J. Disp. Resol. PDF"
+      },
+      {
+        heading: "Moussa, J. (2015). Implications of the Indus Water Kishenganga Arbitration for the International Law of Watercourses and the Environment. The International and Comparative Law Quarterly, 64(3), 697–715.",
+        links: "http://www.jstor.org/stable/24760849"
+      },
+      {
+        heading: "Qureshi, W.A. (2018). Dispute resolution mechanisms: an analysis of the Indus Waters Treaty. Pepp. Disp. Resol. LJ, 18. HeinOnline"
+      },
+      {
+        heading: "Salman, S. M. A., & Uprety, K. (2002). Conflict and cooperation on South Asia’s international rivers: A legal perspective. World Bank.",
+        links: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/274801632729540058/"
+      },
+      {
+        heading:"Trivedi, A. (2017, July 22). ICJ Jurisdiction on bilateral issues: Possibilities regarding Jammu and Kashmir dispute. Modern Diplomacy.",
+        links: "https://moderndiplomacy.eu/2017/07/22/icj-jurisdiction-on-bilateral-issues-possibilities-regarding-jammu-and-kashmir-dispute/"
+      },
+      {
+        heading: "Uprety, K. (2015). The Kishenganga Arbitration: Reviving the Indus Treaty and managing transboundary hydropolitics. Chinese Journal of International Law, 14(3), 497–543.",
+        links: "https://doi.org/10.1093/chinesejil/jmv029"
+      },
+      {
+        heading: "Viljoen, F. (2024, March 25). DRC vs Rwanda at the African Court: Why it could be a decisive moment for human rights and justice on the continent. Democracy in Africa.",
+        links: "https://democracyinafrica.org/drc-vs-rwanda-at-the-african-court-why-it-could-be-a-decisive-moment-for-human-rights-and-justice-on-the-continent/"
+      },
+      {
+        heading: "Yılmaz, M. E. (2004). Track-two diplomacy as a resolution approach to international and inter-societal conflicts. Dokuz Eylül Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 6(2), 118–135.",
+        links: "https://www.researchgate.net/publication/237444353"
+      },
+      {
+        heading: "Zimmer, M. B. (2014). Rwanda’s Gacaca courts: An innovative experiment in the post-genocide pursuit of criminal justice. International Journal for Court Administration, 6(2), 1–9.",
+        links: "https://doi.org/10.18352/ijca.100"
+      }
+    ]
+  },
+  {
+    id: 16,
+    issue:1,
+    volume: 1,
+    title: "From Gram Sabha To Echo Swaraj: Decentralized Environmental Governance Through PRIs and Community Initiatives in South India",
+    author:"Diganta Singha Roy, Devanshi Shrotriya, and Arunima Singh",
+    authorAbbrev: "D. S. Roy, D. Shroytiya, and others",
+    abstract: "This article explores the concept of Eco Swaraj, a decentralized, community-led model of environmental governance rooted in sustainability, equity, and participatory democracy. Focusing on South India, the study examines how Panchayati Raj Institutions (PRIs) and local initiatives have implemented Eco Swaraj principles to address ecological challenges. It highlights key policies like the 73rd Constitutional Amendment, Forest Rights Act, and Green India Mission, alongside grassroots success stories such as Kerala's Kudumbashree and Tamil Nadu's water conservation projects. The analysis identifies gaps in implementation, including structural inequalities and capacity deficits, while proposing policy recommendations to strengthen local governance, integrate traditional knowledge, and foster inclusive ecological stewardship. The article underscores the potential of Eco Swaraj to reconcile environmental sustainability with democratic participation, offering a pathway for resilient and equitable development.",
+    intro: [
+      "Across the world, 'ordinary' people are mounting extraordinary responses to the escalating ecological crises. Communities are extending alternatives to the paradigm of ‘development.’ One such alternative is India’s eco-swaraj movement—a decentralized, community-led model of EG and self-reliance. Eco-Swaraj offers a counter-narrative rooted in sustainability, equity, and participatory democracy.  Eco Swaraj, derived from the Gandhian principle of Swaraj, reinterprets environmental governance by emphasizing ecological sustainability rooted in community autonomy.  The term is used by Kothari to describe  hundreds of initiatives across India that are fighting destructive development. ",
+      "In India, Eco Swaraj aligns closely with the goals of the 73rd Amendment, which institutionalized PRIs as vehicles of decentralized governance. Through this institutional framework, the MoRD  has been highly successful in states such as Kerala, Karnataka, etc., where it has been able to set up task forces. ",
+      "Rethinking EG via the lens of eco-swaraj is increasingly relevant in South India, where rural populations are deeply dependent on local natural resources. In particular, these states have demonstrated notable progress by transferring significant powers in nature conservation to local governments through the PRIs. The region offers striking instances of how grassroots innovation, decentralized governance, and environmental justice converge, rooted in participatory ideals and reinforced by best practices. ",
+      "This article  explores the philosophical roots and analyzes related policies, initiatives and case studies of Eco- Swaraj in South India through PRIs, assessing both successes and challenges. The study offers actionable insights and policy pathways that could pave the way toward a more equitable and environmentally resilient future."
+    ],
+    content: [
+      {
+        heading: "Literature Review",
+        paragraphs: [
+          "Scholarly literature analyzing eco-swaraj as a distinct framework remains sparse.",
+          "Ashish Kothari (2009, 2014)  portrays Eco Swaraj as a radical alternative to centralized development, advocating for ecological sustainability and democratic control over resources.  Vandana Shiva in her Staying Alive and Earth Democracy parallels Eco Swaraj by emphasizing the rights of communities to control their local ecosystems. Baviskar explores how subaltern groups  resist the enclosure of commons.",
+          " Ostrom's work on CPR management provides insights into locally driven governance. Johnson and Baviskar (2003) critique structural constraints that inhibit true decentralization to PRIs. Environmental federalism literature also documents persistent friction between central regulatory control and local implementation. ",
+          "Eco-swaraj perspective has not been a central framework in discussions on decentralization . Harilal and T.M. Thomas Isaac (2003) has analyzed Kerala’s People’s Plan Campaign. Works by Ajit Menon (2018) and Anjal Prakash (2019) examine how climate adaptation measures can be implemented in local institutions especially in South India. Gadgil, Berkes, and Folke (1993) underscore the value of TEK while Mathew and Suresh (2019) highlight how farmer-led agroecology and knowledge networks in Andhra Pradesh and Kerala exemplify resilience. The institutionalization of TEK within governance remains understudied.",
+          "Lele and Menon (2014) highlight that decentralization doesn’t  automatically result in better environmental outcomes.  Kashwan et al. show that EG works better with strong institutions and capacity building. Recent studies link decentralized governance with climate resilience  also highlighting PRIs’ limits in ensuring ecological justice.",
+          "There is a lacuna in region-specific studies on institutional mechanisms advancing Eco Swaraj in South India. Though articles and documentaries exist, current literature overlooks how ideals translate into practice in specific contexts.",
+          "Community  involvement is restricted by EG’s  disregard for structural injustices, such as caste, gender, class, religion, etc (Agrawal & Gibson, 1999).  Dalit and Adivasi populations are marginalized by government programs, promoting inclusion (Dasgupta, 2019). Standardized methods ignore regional beliefs, hindering support.",
+          "Language, procedural, and digital barriers limit rural access to legal tools like CPGRAMS. There is a lack of interdisciplinary frameworks, assessing ecological outcomes and democratic participation. Our research addresses this gap by examining how Eco Swaraj is practically implemented through PRIs in South India. "
+        ]
+      },
+      {
+        heading: "POLICY AND LEGAL FRAMEWORK",
+        paragraphs: [
+          "A good policy is based on evidence, guided by principles, and implemented through institutions. In the context of environmental decentralization in India, this triad manifests through a diverse array of local and state institutions operationalized through PRIs. There is a widely shared belief in the potential of decentralization to lead to more efficient, responsive and accountable government, provided that appropriate powers and sufficient funds are devolved and that resources and responsibilities of local governments are made to match . This is critical to actualizing the principles of Eco‑Swaraj. The current policies on Eco Swaraj reflect a shift toward rights-based and ecosystem-sensitive governance.",
+          "73rd CAA (1992)  laid the constitutional groundwork for participatory planning and environmental decision-making.  The term Panchayati Raj signifies the system of rural local self -government.  The evolution of Panchayati Raj in India was shaped by key committees. The Balwant Rai Mehta Committee (1957) proposed a three-tier Panchayati Raj system with genuine devolution.   The G.V.K. Rao Committee (1985) emphasized district-level planning and stronger Zila Parishads.  The V.N. Gadgil Committee (1988) called for constitutional status and fiscal powers for PRIs. These ideas finally led to the 73rd Amendment (1993), which institutionalized democratic decentralization—paving the way for Eco Swaraj and EG. The features of this act have pioneered democratic decentralization, which can be regarded as a step towards “Eco- Swaraj” and “environmental decentralization”."
+        ]
+      },
+      {
+        heading: "Study teams and committees on Panchayati Raj:"
+      },
+      {
+        heading: "CHAIRMAN | NAME OF STUDY TEAM/COMMITTEE",
+        paragraphs: [
+          "V.R. Rao	| Committee on Rationalization of Panchayats Statistics (1960).",
+          "S.D. Mishra | Working Group on Panchayats and Cooperatives (1961).",
+          "V. Iswaran | Study Team on Panchayati Raj Administration (1961).",
+          "G.R. Rajgopal | Study Team on Nyaya Panchayats (1962).",
+          "R.R Diwakar | Study Team on the Position of Gram Sabha in Panchayati Raj Movement (1963).",
+          "M. Rama Krishnayya | Study Group on Budgeting and Accounting Procedure of Panchayati Raj Institutions (1963).",
+          "K. Santhanam | Study Team on Panchayati Raj Finances (1963).",
+          "K. Santhanam | Committee on Panchayati Raj Elections (1965).",
+          "R.K. Khanna | Study Team on the Audit and Accounts of Panchayati Raj Bodies (1965).",
+          "G. Ramachandran | Committee on Panchayati Raj Training Centres (1966).",
+          "V.Ramanathan | Study Team on the Involvement of Community Development Agency and Panchayati Raj Institutions in the Implementation of Basic Land Reform Measures (1969).",
+          "N. Ramakrishnayya | Working Group for Formulation of Fifth Five Year Plan on Community Development and Panchayati Raj (1972).",
+          "Smt. Daya Choubey | Committee on Community Development and Panchayati Raj (1976)."
+        ]
+      },
+      {
+        heading: "",
+        paragraphs: [
+          "The 11th Schedule empowers panchayats in areas like forestry, minor forest produce, water management, soil erosion, and fuel and fodder. PESA Act, 1996  extends PRI provisions to Scheduled Areas, recognizing tribal habitat sovereignty empowering Panchayats and formalizing  tribal governance rights over local ecosystems, reflecting a Gandhian ethos of village autonomy.",
+          "The FRA recognizes both individual and CFR rights by Gram Sabhas  encouraging  ecological restoration built on TEK and self-governance. It has been successful in creating an opportunity for local communities to secure the right to access forests, and to set out a rights-based framework for conservation and natural resource governance.  BDA (2002) mandates the creation of BMCs at local levels and the compilation of PBRs. Together, these equip Gram Sabhas with tools to document, conserve, and sustainably manage local biodiversity.",
+          "MGNREGS (2005) has emerged as a flagship platform for ecological regeneration—supporting afforestation, water conservation, and watershed management under  Panchayats. CAMPA allocates funds for compensatory afforestation and habitat restoration. Jal Jeevan Mission & Central Schemes align with PRI responsibilities under the eleventh Schedule [ inclusive water governance]. ",
+          "The central government, through the MOEFCC and the CPCB, is responsible for planning and formulating national policies and standards. The implementation and enforcement are decentralised and are the responsibility of the SPCB. In 2010, the MoRD along with the MoEF came up with a new initiative under which The JFM Committees in scheduled areas of nine states were agreed to be shifted to the authority of the Panchayats. WPA, 1972 mandates that issues like declaration and relocation of sanctuaries, etc. should be carried out after discussion with the Panchayats. ",
+          "In  Kerala PPC was launched,  decentralizing  planning authority to Panchayats. Early successes included watershed development, participatory waste management, conservation through local groups like Kudumbashree and the Haritha Keralam initiative. Through the Tamil Nadu State Environmental Policy 2017 PRIs' role in local environmental management was recognized.  Karnataka Panchayati Raj Act 1993 includes provisions for natural resource management- the  state's Bhoomi land records system facilitates transparent environmental clearance. The Kerala Panchayati Raj Act 1994 establishes environmental protection as a core function of local self-government institutions. Andhra Pradesh and Telangana have developed institutional mechanisms for watershed management and climate resilience and Telangana has  introduced  innovative digital governance approaches. ",
+          "Despite a strong legal framework, implementation remains weak due to structural challenges being marred by fragmented authority, weak institutional capacities, and limited access to reliable local data. PRIs often face capacity deficits, lacking trained personnel, inadequate fiscal devolution, bureaucratic silos and overlapping jurisdictions resulting in frequent conflicts- undermining coordination.The issue is gaining relevance as environmental activists and NGOs are fighting for greater autonomy and decentralization on environmental issues to the States and Panchayat Raj Institutions. ",
+          "Using these policy and legal frameworks—as well as complementary private and community-led initiatives—Eco Swaraj has taken root in South India, manifesting through a range of successful localized initiatives by communities and private entities.  "
+        ]
+      },
+      {
+        heading: "KEY INITIATIVES: A Step towards Participatory Environmental Development.",
+        paragraphs: [
+          "'The greatest threat to our planet is the belief that someone else will save it.'- Mahatma Gandhi. The above statement highlights the need for a collaborative and participatory approach to fight against environmental degradation. In the post LPG (Appendix A) period concerns regarding environmental degradation have gained a significant surge, to address these concerns several government initiatives have been implemented."
+        ]
+      },
+      {
+        heading: "- KEY INITIATIVES ",
+        paragraphs: [
+          "Green India Mission (GIM) and Joint Forest Management:",
+          "The Green India Mission launched in 2011 under the NAPCC (Appendix B) emphasizes decentralized forest governance. It aims at protecting; restoring and enhancing India’s diminishing forest cover and responding to climate change through adaptation and mitigation measures. ",
+          "The goals includes –",
+          "1.	Improved forest cover and its quality",
+          "2.	Improved ecosystem services including biodiversity, carbon sequestration and hydrological services",
+          "TEK of the communities along with forestry science and state of the art technology would improve the mission interventions. In states like Andhra Pradesh and Kerala the scheme operates through VFCs (Appendix C) working in tandem with PRIs.",
+          "Integrated Watershed Management Programme (IWMP)",
+          "The IWMP is the result of the new and unified approach of the GOI for treatment and development of the new generation watershed in a realistic and holistic manner. The GOI through the NRAA (Appendix D) has evolved the common guidelines, 2008 for the implementation of the Watershed Projects. The new approach envisages a broader vision of geo-hydrological units normally of average size 1,000 to 5,000 hectares comprising clusters of micro-watersheds.",
+          "The goals includes-",
+          "-	to dissipate soil and water erosion and surface runoff.",
+          "-	to harvest/recycle surface runoff or rainwater.",
+          "-	to enhance soil moisture regime/water holding capacity.",
+          "-	improve soil health and tilth",
+          "-	improve production and productivity",
+          "-	promote generation and gainful employment opportunities",
+          "The programme is significant in water-stressed regions like Rayalaseema (Andhra Pradesh) and interior Tamil Nadu. The central and state share for the IWMP projects is in the ratio 90:10.",
+          "Community led Total-Sanitation (CLTS):",
+          "The CLTS approach facilitates communities to conduct their own appraisal and analysis of open defecation, mobilizing people to identify and find solutions for their sanitation and hygiene needs. CLTS encourages people to take action to improve their situation by utilizing local knowledge, technology and innovation . ",
+          "The goals includes-",
+          "1.	focuses on behavioral change and sustainable improvements ",
+          "2.	investing in community mobilizing instead of hardware",
+          "3.	shifting the focus from toilet construction for individual households to the creation of open-defecation free villages ",
+          "4.	focusing on participatory methodologies and processes, including community mapping and transect walks.",
+          "Kerala’s gram panchayats have pioneered solid waste management systems through micro-composting and waste segregation programs at the household level, supported by the Swacch Bharat funds and technical guidance from state-level nodal agencies.",
+          "Institutional Innovations and Technological Integrations:",
+          "The effects of environmental degradation are getting worse day-by-day, in order to challenge these impacts several key emerging technologies have been adopted in India. Some of these innovations are listed below;",
+          "1.	Use of Drones and GIS in environmental monitoring- Drones capture high resolution imagery using sensors like LiDAR (Appendix E) to monitor vegetation, water quality and land-use changes while the GIS aids in data analysis for conservation.",
+          "2.	IoT Devices-The Internet of Things technology is used in agriculture to monitor and control various aspects of farming such as irrigation systems, livestock tracking and environmental conditions.",
+          "3.	Waste-to-energy technologies- Biomethanation utilizes organic waste to produce biogas, which can be used to generate power, Gasification converts waste into synthetic gas which can be used to generate electricity. Production of biodegradable plastics and plastic recycling innovations addresses the growing threat of plastic wastes. ",
+          "4.	e-Gram Swaraj portals and mobile monitoring apps- The mobile monitoring apps with the e-gram swaraj portals enabled the PRIs to monitor environmental assets and implementation progress.",
+          "5.	Kerala’s Haritha Keralam Mission is a notable example of technology enabled decentralized environment planning. "
+        ]
+      },
+      {
+        heading: "ECHOES OF ECO- SWARAJ: STORIES OF RURAL RESILIENCE AND ECOLOGICAL RENEWAL",
+        paragraphs: [
+          "We scrutinize Eco-Swaraj as a framework for sustainable living through case studies from Kerala, Tamil Nadu, Karnataka, Andhra Pradesh, and Puducherry, highlighting how community participation, TEK and innovative governance address key environmental issues."
+        ]
+      },
+      {
+        heading: "- KERALA",
+        paragraphs: [
+          "Long before the Internet era, the Silent Valley movement in Palakkad saved a pristine forest from a hydroelectric project  demonstrating the power of people's action. River Research Centre in Thrissur empowers indigenous tribal women through forest-based enterprises like beeswax processing, seed jewellery, etc.  Kudumbashree [25 years] has made its mark in large-scale organic farming, sustainable vegetable cultivation, greening campaigns like “Women for Trees”, community waste management, public sanitation facilities (with Haritha Keralam Mission) etc. Under MGNREGA, women have restored the Gayathripuzha river in areas like Pallassena and Polpully, while panchayats like Kuruvai and Attappady promote sustainable farming. ",
+          "ATREE’s Vembanad conservation centre empowers rural women, focusing on upcycling invasive water hyacinths. Initiatives like Jalapaadom, lake protection forums, waste management, sustainable menstruation practices are key efforts. In Muhamma, panchayat collaboration has driven a project to make it India’s first synthetic pad-free village.  The organic compost pits  across Alappuzha have set an international example of municipal solid waste management. ",
+          "At Meenangadi panchayat initiatives like tree banking, planting of bamboo trees, rejuvenation of existing water bodies, implementation of energy efficient measures, etc were introduced  [Carbon Neutral Meenangadi]. Kerala is the first state to complete the preparation of PBRs.  "
+        ]
+      },
+      {
+        heading: "- TAMIL NADU",
+        paragraphs: [
+          "In Dharmapuri, a project has improved groundwater levels, enhanced soil and biodiversity,  boosted farmer incomes through non-timber forest produce.  Mannivakkam became a zero garbage village with the establishment of a micro compost yard, ensuring complete source segregation of wastes, managing both solid and liquid waste.  Villages like Ayyalur have achieved complete waste segregation and processing through community participation.",
+          "In Vellore, local women under MGNREGA  organized themselves to clean the riverbed of a dried-up local river, constructing small check dams to  restore the natural flow of water.  Research on Eastern Tamil Nadu's fishing and farming communities details strategies like mangrove restoration, elevated housing, and diversifying livelihoods to cope with sea-level rise and cyclones.  The SST has desilted 276 irrigation tanks,  rejuvenated forest waterholes, helped  mitigate human-animal conflict, reduced forest fires and ensured strong community participation benefiting 1.6 million people across 2,500 villages.",
+          "R. Elango [former Panchayat President, Kuthambakkam] intiated a range of sustainable practices, including eco-friendly housing, revival of traditional water bodies, promotion of organic farming,  environmental education, etc."
+        ]
+      },
+      {
+        heading: "- KARNATAKA",
+        paragraphs: [
+          "In Male Mahadeshwara Hills, ATREE works with Soliga and Bedagampana communities to promote forest restoration, sustainable use of non-timber forest products and control of invasive species [Lantana camara].",
+          "Amasebailu village [Udupi district] stands out as Karnataka’s first fully solar-powered panchayat, where this model has improved education, livelihoods, and social inclusion in a once Naxal-affected region. ",
+          "Initiatives like Sujala Watershed Program have transformed nearly 500,000 hectares across more than 1,200 villages.   Panchayats in Sirsi region with support from NGOs like Prakruti and Vanasamrakshana Samitis, promoted conservation-based areca nut agroforestry with forest buffer zone protection, boosting farmer incomes. "
+        ]
+      },
+      {
+        heading: "- ANDHRA PRADESH",
+        paragraphs: [
+          "RySS has empowered  farmers to adopt agroecological and chemical-free practices and has  fostered local leadership, boosts yields, cuts emissions, and to build climate resilience. Snake Speek, led by 15-year-old Sampath in Andhra Pradesh, educates rural communities about the ecological importance of snakes and personifies “people and nature together.” ",
+          " “Ananta Niru Sanrakshanam” in Anantapur  has revived degraded water bodies with the help of traditional Vadde stone workers- reviving  local craftsmanship and generating rural employment. "
+        ]
+      },
+      {
+        heading: "- TELANGANA",
+        paragraphs: [
+          "In Sangareddy, the women-led DDS has revived indigenous crops, restored over 1,000 acres of land, planted a million trees, and preserved 80+ traditional seed varieties through community-managed seed banks. ",
+          "In Medak, Lambada communities use CFR governance via JFMCs and panchayats to regenerate forests, harvest NTFPs sustainably, and collaborate  with the Forest Department and NGOs."
+        ]
+      },
+      {
+        heading: "- PUDUCHERRY",
+        paragraphs: [
+          "A startup Faborg has done sustainable innovation with Calotropis gigantea, developing “Vegan Wool”, Arka- an organic insect repellent /soil nutrient,  used on over 6,000 acres in Tamil Nadu and revives traditional rice cultivation methods where Calotropis was used as mulch. ",
+          "Puducherry’s Jal Swaraj initiative transformed neglected or encroached ponds into clean, biodiversity-rich, water-retentive ecosystems through community-driven efforts. "
+        ]
+      },
+      {
+        heading: "CRITICAL ANALYSIS AND THE WAY FORWARD",
+        paragraphs: [
+          "South Indian conservation strategies give greater importance to state authority, sacrificing local initiative.  Despite sharing an ideological stance with eco-swaraj, CBC models encounter difficulties in their application.  Equal participation is hindered by internal social hierarchies, gender-based exclusions, and NGOs' financial vulnerabilities.  Despite being recognized, TEK  is still not sufficiently incorporated into official conservation planning. This section aims to highlight these gaps and extend some policy recommendations to address and rectify these gaps"
+        ]
+      },
+      {
+        heading: "- VERNMENT INITIATIVES AND THEIR LIMITATIONS",
+        paragraphs: [
+          "Numerous government programs highlight the gap between sustainability and infrastructure provision. The MGNREGS has improved conservation efforts but encounters issues with conflicted ownership of produced assets, scarce funds, and delayed wage payments. Rural sanitation initiatives like SBM-G prioritize the development of toilets, ignoring behavioural change, hampered by caste standards, notions of purity, and dereliction.",
+          " Although they encourage access to clean energy, DRE projects are limited by high capital costs, lack of regulations and livelihood convergence to match supply . Although technological tools like GIS and AI have potential, they are nevertheless unavailable because of infrastructure and digital gaps. "
+        ]
+      },
+      {
+        heading: "- BEST PRACTICES",
+        paragraphs: [
+          "South India provides examples of eco-swaraj-inspired projects that have been effective. Eco-Villages Project in coastal areas effectively connected ecotechnology, environmental consciousness, and the development of women's livelihoods. Through their conversion of invasive species into handicrafts that generate revenue, ATREE's work in Kerala and Karnataka promotes both ecological restoration and economic empowerment.",
+          "Kerala's 'Carbon Neutral Meenangadi' project shows how science along with local expertise and local government fosters efficiency. Similarly, the SST shows how private sector-backed NGOs can use participatory approaches to address issues like water scarcity, and human-animal conflict.",
+          "Programs like the women-led Vellore River restoration under MGNREGS, combining governmental assistance with local initiative, are prime examples. Hybrid concepts like Community and Conservation Reserves have been made possible by conservation policy changes like the Wildlife Amendment Act, 2002, which encourage inclusive stewardship. In contrast, livelihood-driven models based on TEK and community solidarity are marked by agro ecological movements such as the Andhra Pradesh-based RySS and the Keralan women-led collectives like Kudumbashree."
+        ]
+      },
+      {
+        heading: "- POLICY RECOMMENDATIONS AND THE WAY FORWARD",
+        paragraphs: [
+          "To accomplish a decentralized system of environmental conservation, local government institutions must be given greater financial and resource autonomy with little interference from the state, enabling them to take environmental conservation initiatives on their own.",
+          "Firstly to solidify conservation efforts, environmental laws must be amended to delegate powers to Panchayats and Municipalities under Parts IX and IXA of the Constitution. This must be backed by earmarked funds via SFCs and green budgeting, along with nationwide technical training programs through SIRDs and MoEFCC ensuring capacity building and  making sure that Gram Sabhas fully exercise their rights under the 73rd Amendment, PESA, FRA, and Biodiversity Act.",
+          "PPP models in South India have proved advantageous for environmental conservation, wherein private institutions supply the funds and resources to fill the government's capability deficiencies. Hybrid models allow the government to collaborate with indigenous people and NGOs maximising  benefits.",
+          "TEK must be incorporated while drafting EG based schemes  because the local system is more familiar to the locals than to the state or federal governments. As seen in Karnataka’s Lantana Craft Center.This can be achieved by institutionalizing Gram Sabha consultations on environmental decisions to ensure bottom-up governance.",
+          "Introduction of Integrated Environmental Schemes should be practiced, aligning MGNREGS, NEP objectives, water initiatives, CAMPA, and biodiversity conservation into coherent local-level environmental plans. Moreover, Interdepartmental Coordination: Departments for forestry, irrigation, and agriculture should be institutionally mandated to seek Gram Sabha consent in PESA/FRA areas, enhancing policy coherence.",
+          "Environmental awareness plays a crucial role in its conservation, hence an education system must be implemented, highlighting the importance of environmental conservation and the means of achieving the same. It must be ensured that this system of education is implemented at the grassroot level. Awareness drives and programs must be organized to cultivate sensitivity and consciousness amongst civilians.",
+          "Furthermore, the government should adopt a qualitative approach over a quantitative one, emphasising context-based solutions over mere participation metrics. Instead of harmful practices like mass eucalyptus planting, focus should be on ecologically suitable species. Policies must consider ingrained socio-economic realities of a particular place —caste, gender, notion of purity, toilet insecurity of women—to address issues like open defecation through holistic, curative approaches.",
+          "Finally, in order to secure a check and balance system, a grievance redressal mechanism for environmental harms at the local level must be introduced along with an annual parliamentary or state assembly review which would require to table a compliance report before the parliament to ensure democratic accountability"
+        ]
+      }
+    ],
+    conclusion: [
+      "The South Indian experience shows  eco-swaraj as a practical and developing framework for rethinking environmental governance and that there is no single model for successful environmental decentralization. Successful initiatives illustrate how ancient water systems, forgotten crops, and community forests are being reborn through local stewardship.  As India moves toward its climate commitments and SDGs the role of PRIs in environmental governance will become increasingly important. Eco‑Swaraj holds promise for a truly sustainable and democratic EG where devolution of policy-making powers enables bottom-up experimentation, enhances citizen participation, and supports greater policy responsiveness.",
+      "The 73rd Amendment has proven its significance in a short span of time,  enabling many villages to progress through environmental protection efforts.  Despite the challenges of uneven progress–  policy clarity, digital inclusion, institutional innovation can strengthen Panchayat -led ecological stewardship.  These echoes of Eco Swaraj inspire a larger movement — one that respects the land, the people, and their shared future."
+    ],
+    references: [
+      {
+        heading: "Agrawal, A., & Gibson, C. C. (1999). Enchantment and disenchantment: The role of community in natural resource conservation. World Development, 27(4), 629–649.",
+        links: "https://doi.org/10.1016/S0305-750X(98)00161-2"
+      },
+      {
+        heading: "Agrawal, A. (2005). Environ mentality: Technologies of Government and the Making of Subjects. Duke University Press. "
+      },
+      {
+        heading: "All Research Journal. (2017). Environmental deterioration: Water conservation management in Anantapur district of Andhra Pradesh Indore: All Research Journal, 3(6), Retrieved from",
+        links: "https://www.allresearchjournal.com/archives/2017/vol3issue6/PartH/3-6-78-500.pdf"
+      },
+      {
+        heading: "Appannagari, R. R. (2017). Environmental deterioration: Water conservation management in Anantapur district of Andhra Pradesh [PDF]. International Journal of Applied Research, 3(6), 503–512. Retrieved June 27, 2025, from ",
+        links: "https://www.allresearchjournal.com/archives/2017/vol3issue6/PartH/3-6-78-500.pdf"
+      },
+      {
+        heading: "Ashoka Trust for Research in Ecology and the Environment (ATREE). (n.d.). Ashoka Trust for Research in Ecology and the Environment [Homepage]. Bangalore: ATREE. Retrieved from ",
+        links: "https://www.atree.org"
+      },
+      {
+        heading: "ATREE (2024, March 12). Sustainable farming in rural India [Video]. YouTube. Retrieved from ",
+        links: "https://www.youtube.com/watch?v=9zjiS2wVwBg"
+      },
+      {
+        heading: "Baviskar, A. (2005). In the belly of the river: Tribal conflicts over development in the Narmada Valley (2nd ed.). New Delhi: Oxford University Press." 
+      },
+      {
+        heading: "Beevy, S. S., & Kamarudeen, M. (June 2021). Biodiversity register for submission to University [PDF]. University of Kerala. Retrieved from ",
+        links: "https://www.keralauniversity.ac.in/downloads/Biodiversity_Register_for_submission_to_University_june_2021.pdf"
+      },
+      {
+        heading: "Counterview. (2023, April). OSOP: Puducherry’s Jal Swaraj model to revive ponds with community participation. PondyCAN. Counterview. Retrieved from ",
+        links: "https://www.counterview.in/2023/04/osop-puducherrys-jal-swaraj-model-to.html"
+      },
+      {
+        heading: "Conservation India. (n.d.). Silent Valley: A people’s movement that saved a forest. London, UK: World Habitat. Retrieved June 27, 2025, from ",
+        links: "https://www.conservationindia.org/case-studies/silent-valley-a-peoples-movement-that-saved-a-forest"
+      },
+      {
+        heading: "Dasgupta, R. (2019). Development justice and the exclusion of Dalits and Adivasis in India. Indian Journal of Human Development, 13(2), 192–210. ",
+        links:"https://doi.org/10.1177/0973703020909113"
+      },
+      {
+        heading: "Department of Land Resources. (2020). Guidelines for Watershed Development. Government of India. ",
+        links:"https://dolr.gov.in/"
+      },
+      {
+        heading: "Down To Earth. (2023, June 8). Seed saviours: These Telangana women preserve native seeds; here is why. Down To Earth. Retrieved June 27, 2025, from ",
+        links: "https://www.downtoearth.org.in/agriculture/seed-saviours-these-telangana-women-preserve-native-seeds-here-is-why-89894"
+      },
+      {
+        heading: "Eco India. (2024, February). Eco India: Discover Tamil Nadu tribe's craft using invasive plants [Short video]. YouTube. Retrieved from ",
+        links: "https://youtu.be/e-3AyOV9spo"
+      },
+      {
+        heading: "Eco India. (2021, October 3). Eco India: A source of sustainable fibre, the calotropis plant is Puducherry’s best kept secret [Video]. YouTube. Retrieved from ",
+        links:"https://youtu.be/VjhHWvRbWmk"
+      },
+      {
+        heading: "ECO INDIA  (2023, January). Why it is essential to protect our wetland ecosystems from degrading. YouTube. Retrieved from ",
+        links:"https://www.youtube.com/watch?v=0LwfkkJvFuU&t=184s"
+      },
+      {
+        heading: "Elango, R. (n.d.). Rangaswamy Elango [Web page]. Bangalore: Unsung India. Retrieved from ",
+        links:"https://www.unsung.in/rangaswamy-elango/"
+      },
+      {
+        heading: "Gadgil, M., Berkes, F., & Folke, C. (1993). Indigenous knowledge for biodiversity conservation. Ambio, 22(2–3), 151–156. ",
+        links:"http://www.jstor.org/stable/4314060"
+      },
+      {
+        heading: "Government of India. (2006). The Mahatma Gandhi National Rural Employment Guarantee Act. "
+      },
+      {
+        heading: "Government of India, Ministry of Rural Development. (n.d.). Haritha Haram [Web page]. MyScheme. Retrieved June 27, 2025, from ",
+        links: "https://www.myscheme.gov.in/schemes/haritha-haram"
+      },
+      {
+        heading: "Government of Odisha, Department of Panchayati Raj & Drinking Water. (n.d.). Grama Panchayats rules, 1968[PDF]. Government of Odisha. Retrieved June 27, 2025, from ",
+        links:"https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2023/05/2023050183.pdf"
+      },
+      {
+        heading: "Gupta, J. (2012). Community-Based Conservation in India."
+      },
+      {
+        heading: "Harilal, K. N., & Isaac, T. M. T. (2003). Development planning in Kerala: Retrospect and prospect. In M. Mukherjee & R. Bhattacharya (Eds.), Planning and policy in South Asia. New Delhi: Sage Publications."
+      },
+      {
+        heading:"Hemalatha, K. (2021, May 18). How these Telangana women farmers rode out the pandemic. Mint Lounge. Retrieved June 27, 2025, from ",
+        links: "https://www.livemint.com/mint-lounge/ideas/how-these-telangana-women-farmers-rode-out-the-pandemic-111621251362211.html"
+      },
+      {
+        heading: "India Science, Technology and Innovation. (n.d.). An Approach for Integrated Sustainable Rural Development: Development and Implementation Working Frameworks for a Climate smart village approach ",
+        links:"https://www.indiascienceandtechnology.gov.in/research/development-and-implementation-working-frameworks-climate-smart-village-approach-integrated"
+      },
+      {
+        heading: "Institute for Development and Research in Banking Technology (IDRonline). (n.d.). Panchayats can help conserve India’s common lands. Hyderabad: IDRonline. Retrieved from ",
+        links: "https://idronline.org/article/advocacy-government/panchayats-can-help-conserve-indias-common-lands/"
+      },
+      {
+        heading: "Johnson, C., & Baviskar, A. (2003). Social movements and the state in India. Environment and Urbanization, 15(2), 71–86. ",
+        links:"https://doi.org/10.1177/095624780301500207"
+      },
+      {
+        heading: "Joseph, B. (2018). Environmental federalism and practice in India: An overview. International Journal of Humanities and Social Science Invention, 7(4), 46–50. ",
+        links: "https://www.ijhssi.org/papers/vol7(4)/Version-1/F0704014650.pdf"
+      },
+      {
+        heading: "Kantimahanti, S. (2024, March 6). Sampath Kantimahanti’s Snake Speek project educates rural communities on snake conservation in Andhra Pradesh. The Hindu. Retrieved June 27, 2025, from ",
+        links:"https://www.thehindu.com/sci-tech/energy-and-environment/sampath-kantimahantis-snake-speek-project-educates-rural-communities-on-snake-conservation-in-andhra-pradesh/article68416657.ece"
+      },
+      {
+        heading: "Kashwan, P., MacLean, L. M., & García-López, G. A. (2019). Rethinking power and institutions in the shadows of neoliberalism: (An introduction to a special issue of World Development). World Development, 120, 133–146. ",
+        links: "https://doi.org/10.1016/j.worlddev.2019.04.017"
+      },
+      {
+        heading: "Kothari, A. (2009). Radical ecological democracy: A path forward for India and beyond. Development, 52(3), 403–410. ",
+        links: "https://doi.org/10.1057/dev.2009.47"
+      },
+      {
+        heading: "Kothari, A. (2014). Eco-Swaraj: Paths to a Sustainable India.",
+        links: "https://ashishkothari.in/ "
+      },
+      {
+        heading: "Kothari, A. (2014). Radical ecological democracy: A framework for sustainable and equitable futures. Development, 57(1), 36–45. ",
+        links:"https://doi.org/10.1057/dev.2014.2"
+      },
+      {
+        heading: "Kumar, D. S. (2025, March 26). Water bodies come to life in drought‑hit district in Andhra Pradesh. The New Indian Express. Retrieved June 27, 2025, from ",
+        links:"https://www.newindianexpress.com/states/andhra-pradesh/2025/Mar/26/water-bodies-come-to-life-in-drought-hit-district-in-andhra-pradesh"
+      },
+      {
+        heading: "Lele, S., & Menon, A. (2014). Democratizing forest governance in India. New Delhi: Oxford University Press."
+      },
+      {
+        heading: "Mathew, B., & Suresh, R. (2019). Farmer-led agroecology in Andhra Pradesh and Kerala: A case for resilient agricultural practices. Journal of Agrarian Change, 19(4), 609–627. ",
+        links:"https://doi.org/10.1111/joac.12293"
+      },
+      {
+        heading: "Menon, A. (2018). Commons, climate and community: Struggles for sustainability in coastal South India. Hyderabad: Orient BlackSwan."
+      },
+      {
+        heading: "Ministry of Environment, Forest and Climate Change. (2012). Green India Mission (GIM) Guidelines. Ministry of Environment, Forest and Climate Change. ",
+        links: "https://moef.gov.in/green-india-mission-gim"
+      },
+      {
+        heading: "Ministry of Jal Shakti. Ministry of Jal Shakti. ",
+        links:"https://www.jalshakti-dowr.gov.in/"
+      },
+      {
+        heading:"National Disaster Management Authority. (2020). Technology Tools in Disaster Management"
+      },
+      {
+        heading:"National University of Juridical Sciences. (2022, November). ROLE OF PANCHAYATI RAJ INSTITUTIONS IN THE PROTECTION OF ENVIRONMENT ",
+        links:"https://www.nujs.edu/wp-content/uploads/2022/11/File-36.pdf"
+      },
+      {
+        heading: "National University of Juridical Sciences. (2022, November). ROLE OF PANCHAYATI RAJ INSTITUTIONS IN THE PROTECTION OF ENVIRONMENT ",
+        links: "https://www.nujs.edu/wp-content/uploads/2022/11/File-36.pdf"
+      },
+      {
+        heading: "Nisarga FMM Sisters. (n.d.). Sujala Watershed Project [Web page]. Nisarga FMM Sisters. Retrieved June 27, 2025, from ",
+        links: "https://www.nisargafmm.in/programs/sujala_watershed_project.html"
+      },
+      {
+        heading: "Ostrom, E. (1990). Governing the commons: The evolution of institutions for collective action. Cambridge: Cambridge University Press."
+      },
+      {
+        heading: "Prakash, A. (2019). Local institutions and adaptation to climate change: Case studies from South India. Climate and Development, 11(10), 875–885. ",
+        links: "https://doi.org/10.1080/17565529.2019.1596064"
+      },
+      {
+        heading: "Ramakrishnan, V. (2020, March 23). Conservation through private initiative: A case study in the Western Ghats, India. Gland, Switzerland: International Union for Conservation of Nature (IUCN). Retrieved June 27, 2025, from ",
+        links:"https://www.iucn.org/news/commission-environmental-economic-and-social-policy/202003/conservation-through-private-initiative-a-case-study-western-ghats-india"
+      },
+      {
+        heading: "REN21. (2019). Renewables 2019 Global Status Report."
+      },
+      {
+        heading: "Rondinelli D. A., & Nellis J. R. (1986). Assessing decentralization policies in developing countries: The case for cautious optimism. Development Policy Review, 4(1), 3–23. ",
+        links: "https://doi.org/10.1111/j.1467-7679.1986.tb00494"
+      },
+      {
+        heading: "Sharma, N. (2021, March 16). River revived: MGNREGA brings Palakkad women to the water conservation forefront. New Delhi: Down To Earth. Retrieved from ",
+        links:"https://www.downtoearth.org.in/water/river-revived-mgnrega-bring-palakkad-women-to-water-conservation-forefront-75969"
+      },
+      {
+        heading:"Shiva, V. (1988). Staying alive: Women, ecology and development. London: Zed Books."
+      },
+      {
+        heading: "Shiva, V. (2005). Earth democracy: Justice, sustainability, and peace. Cambridge, MA: South End Press. ",
+        links:"https://haritham.kerala.gov.in/ "
+      },
+      {
+        heading:"Tiwari, N. (n.d.). Centrality of Panchayati Raj. New Delhi: India Environment Portal. Retrieved from ",
+        links:"http://re.indiaenvironmentportal.org.in/files/Centrality%20of%20panchayati%20raj.pdf"
+      },
+      {
+        heading:"The New Indian Express. (2025, March 26). Water bodies come to life in drought-hit district in Andhra Pradesh. Vijayawada: The New Indian Express. Retrieved from ",
+        links:"https://www.newindianexpress.com/states/andhra-pradesh/2025/Mar/26/water-bodies-come-to-life-in-drought-hit-district-in-andhra-pradesh"
+      },
+      {
+        heading:"The Climate Group. (n.d.). Carbon Neutral Meenangadi: Integrating climate action & development [Web page]. The Climate Group. Retrieved June 27, 2025, from ",
+        links:"https://www.theclimategroup.org/our-work/resources/carbon-neutral-meenangadi-bottom-model-integrating-climate-action-development"
+      },
+      {
+        heading:"Zawya (2023, July)  How Indian villages are becoming zero‑waste towns. Zawya. Retrieved from ",
+        links:"https://www.zawya.com/en/world/indian-sub-continent/how-indian-villages-are-becoming-zero-waste-towns-dlxidg4g"
       }
     ]
   }

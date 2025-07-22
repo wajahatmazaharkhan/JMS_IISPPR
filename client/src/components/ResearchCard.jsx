@@ -20,6 +20,7 @@ const articleRoutes = {
   13: "/Bridging-The-Education-Gap",
   14: "/India-US-Bilateral-Relations",
   15: "/Diplomacy-Beyond-Diplomats",
+  16: "/From-Gram-Sabha-To-Eco-Swaraj",
 };
 
 const ResearchCard = ({ articles, onDelete }) => {

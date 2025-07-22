@@ -52,6 +52,7 @@ import MultipolarWorldmaking from "./pages/editions/MultipolarWorldmaking";
 import BridgingTheEducationGap from "./pages/editions/BridgingTheEducationGap";
 import IndiaUSBilateralRelations from "./pages/editions/IndiaUSBilateralRelations";
 import DiplomacyBeyondDiplomats from "./pages/editions/DiplomacyBeyondDiplomats";
+import FromGramSabhaToEcoSwaraj from "./pages/editions/FromGramSabhaToEcoSwaraj";
 
 function AppRoutes() {
   const location = useLocation();
@@ -182,6 +183,10 @@ function AppRoutes() {
         <Route
           path="/Diplomacy-Beyond-Diplomats"
           element={<DiplomacyBeyondDiplomats />}
+        />
+        <Route
+          path="/From-Gram-Sabha-To-Eco-Swaraj"
+          element={<FromGramSabhaToEcoSwaraj/>}
         />
 
         <Route path="*" element={<LandingPage />} />
