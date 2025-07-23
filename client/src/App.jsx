@@ -5,6 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
+import ScriptsSymbolsSoftPower from "./pages/editions/ScriptsSymbolsSoftPower";
 import ScrollToTop from "./components/ScrollToTop";
 import TopNavbar from './components/TopNavbar';
 import { useLocation } from 'react-router-dom';
@@ -45,8 +46,13 @@ import TheTroublingRiseOfRealismOverInstitutionalism from "./pages/editions/TheT
 import ImpactOfTheMaternityBenefitAct from "./pages/editions/ImpactOfTheMaternityBenefitAct";
 import ProjectingCultureShapingPerceptions from "./pages/editions/ProjectingCultureShapingPerceptions";
 import TheIntersectionOfWomenEmpowerment from "./pages/editions/TheIntersectionOfWomenEmpowerment";
-
-
+import SovereigntyStrategyAndSystemicStrain from "./pages/editions/SovereigntyStrategyAndSystemicStrain";
+import EvaluatingPolicyGapsAndYouthInvolvement from "./pages/editions/EvaluatingPolicyGapsAndYouthInvolvement";
+import MultipolarWorldmaking from "./pages/editions/MultipolarWorldmaking";
+import BridgingTheEducationGap from "./pages/editions/BridgingTheEducationGap";
+import IndiaUSBilateralRelations from "./pages/editions/IndiaUSBilateralRelations";
+import DiplomacyBeyondDiplomats from "./pages/editions/DiplomacyBeyondDiplomats";
+import FromGramSabhaToEcoSwaraj from "./pages/editions/FromGramSabhaToEcoSwaraj";
 
 function AppRoutes() {
   const location = useLocation();
@@ -150,6 +156,39 @@ function AppRoutes() {
           path="/The-Intersection-Of-Women-Empowerment"
           element={<TheIntersectionOfWomenEmpowerment />}
         />
+        <Route
+          path="/Scripts-Symbols-and-Soft-Power-Tracing-Indias-Cultural-Diplomacy-in-Global-Affairs"
+          element={<ScriptsSymbolsSoftPower />}
+        />
+        <Route
+          path="/Sovereignty-Strategy-And-Systemic-Strain"
+          element={<SovereigntyStrategyAndSystemicStrain/>}
+        />
+        <Route
+          path="/Evaluating-Policy-Gaps-And-Youth-Involvement"
+          element={<EvaluatingPolicyGapsAndYouthInvolvement />}
+        />
+        <Route 
+          path="/Multipolar-Worldmaking"
+          element= {<MultipolarWorldmaking />}
+        />
+        <Route
+          path="/Bridging-The-Education-Gap"
+          element={<BridgingTheEducationGap />}
+        />
+        <Route 
+          path="/India-US-Bilateral-Relations"
+          element={<IndiaUSBilateralRelations />}
+        />
+        <Route
+          path="/Diplomacy-Beyond-Diplomats"
+          element={<DiplomacyBeyondDiplomats />}
+        />
+        <Route
+          path="/From-Gram-Sabha-To-Eco-Swaraj"
+          element={<FromGramSabhaToEcoSwaraj/>}
+        />
+
         <Route path="*" element={<LandingPage />} />
       </Routes>
     </>
