@@ -1240,7 +1240,7 @@ const articles = [
     author: "Utkarsha Sinha, Bajendra Singh Parihar, Caroline, Sai Nitya Palakurthy, Padiwanshe, Aayushi Shah",
     authorAbbrev: "U. Sinha, B. S. Parihar, and others",
     abstract: "This paper explores the challenges of women's empowerment in India, focusing on unpaid labor, caste-gender inequalities, wage gaps, and ineffective policy implementation. It critiques the systemic invisibility of women's work and calls for intersectional policies that address structural barriers. Key recommendations include recognizing unpaid care work, enforcing labor protections, and combating patriarchal resistance to achieve meaningful gender justice.",
-    keyword: ["Women’s empowerment", "Feminism", "Public policy", "India", "Unpaid labor", "Caste and gender", "Wage inequality", "Intersectionality", "Policy implementation", "Gender justice", "Patriarchy", "Economic disparities", "Feminist movements", "Social transformation"],
+    keywords: ["Women’s empowerment", "Feminism", "Public policy", "India", "Unpaid labor", "Caste and gender", "Wage inequality", "Intersectionality", "Policy implementation", "Gender justice", "Patriarchy", "Economic disparities", "Feminist movements", "Social transformation"],
     status: "Submitted",
     intro: [
       "Women's empowerment in India is deeply intertwined with the complexities of unpaid employment, caste hierarchies, and intersecting social factors. Unpaid domestic and care work remains a central barrier to women's economic empowerment, with Indian women disproportionately burdened by such responsibilities. Being a woman in India often means shouldering a disproportionate burden of unpaid care work, navigating patriarchal societal norms, and facing significant barriers to education, employment, and healthcare. This work, largely invisible in economic statistics and undervalued in policy, restricts women’s labor force participation and perpetuates dependency and marginalization. According to the World Bank, women in India spend an average of 5 hours and 35 minutes per day on unpaid care work, compared to 38 minutes per day for men.(Observer Research Foundation. (2022, October 17)) [OBSERVE RESEARCH FOUNDATION,(2022, OCTOBR 17]",
@@ -3381,6 +3381,346 @@ const articles = [
       {
         heading:"Zawya (2023, July)  How Indian villages are becoming zero‑waste towns. Zawya. Retrieved from ",
         links:"https://www.zawya.com/en/world/indian-sub-continent/how-indian-villages-are-becoming-zero-waste-towns-dlxidg4g"
+      }
+    ]
+  },
+  {
+    id: 17,
+    issue: 1,
+    volume: 1,
+    title: "IMPACT OF SOCIAL PROTECTION POLICIES ON RURAL POVERTY, PARTICULARLY IN LOW INCOME COUNTRIES",
+    author: "Maria-Ioana Stănescu, Sharmila Bommadevara, Akansha Jhamb, Monalisha Mohanty, Yusuf Shaba",
+    authorAbbrev: "M. Stănescu, S. Bommadevara, and others",
+    abstract: [
+      "This article explores how social protection policies in low income countries are evolving especially in rural areas where poverty is persistent and complex. Using examples from countries like Pakistan, Ethiopia and Kenya the article shows how recent shifts especially after the pandemic are moving beyond short-term aid to more long-term investment approach. Additionally it discusses the often overlooked near poor and also provides recommendations to build an equitable system in policy making that will help the SDG agenda.",
+      "It also tackles common challenges like poor infrastructure, weak institutional capacity and exclusion errors in targeting. The key argument here is that social protection needs to be more inclusive, flexible and grounded in people’s actual needs not just their income level. By rethinking how we design and fund these systems, especially for groups on the edge of poverty we can build more resilient and fairer rural communities. "
+    ],
+    keywords: [
+      "social protection",
+      "SDG 1", 
+      "rural poverty",
+      "near poor", 
+      "inclusive policy", 
+      "post-pandemic welfare", 
+      "income targeting", 
+      "sustainable financing", 
+      "public-private partnerships", 
+      "multidimensional poverty", 
+      "resilience", 
+      "low income countries", 
+      "youth focused programs", 
+      "adaptive systems"
+    ],
+    status: "Submitted",
+    intro: [
+      "Rural poverty remains one of the most persistent and complex development challenges in low-income countries. Despite decades of targeted interventions, rural populations continue to experience disproportionately high levels of distress not only in terms of income, but also in access to education, healthcare, social services and opportunities for quality life. According to the World Bank, four out of five people living below the international poverty line reside in rural areas and poverty rates in these regions have declined at less than half the pace of urban areas over the past two decades (World Bank, 2022).",
+      "Social protection policies have emerged as critical tools in the fight against rural poverty, offering pathways to resilience and human development through short-term relief and long-term structural support. While many low income countries have implemented programs such as conditional cash transfers, public works and food subsidies, their design and reach remain uneven. This article explores the impact of social protection policies on rural poverty, while rethinking inclusion frameworks through a multidimensional lens that moves beyond income based approach to address the vulnerability of groups like the near poor."
+    ],
+    content: [
+      {
+        heading: "Background and Objectives",
+        paragraphs: [
+          "Globally, social protection has been increasingly recognized as central to achieving poverty reduction and inclusive development. However, rural areas continue to lag behind in both access to social services and the depth of support received. The COVID-19 pandemic exposed the inadequacies of narrowly targeted systems and prompted a rethinking of protection mechanisms highlighting the need for adaptive, shock-responsive and more inclusive strategies. Against this backdrop the article reviews key policy shifts, examines sustainable financing approaches, identifies implementation challenges and makes forward-looking recommendations to strengthen social protection frameworks for rural populations, particularly the near poor. It also explores how well-designed and inclusive social protection programs can serve not only as safety nets but also as enablers of structural transformation addressing both income and non-income dimensions of poverty. The article also sheds light on policy frameworks through a critical lens looking at whom current systems serve, whom they leave out and what financing and design reforms are required to enhance long-term effectiveness."
+        ]
+      },
+      {
+        heading: "Social Protection Policies & Post-Pandemic Shift",
+        paragraphs: [
+          "The COVID-19 pandemic dramatically changed the way people look at social protection systems. While the majority of low-income countries had limited welfare assistance with a focus on simply alleviating poverty, the pandemic prompted a wave of new policies to be established and expanded. Emergency responses, especially in rural areas, pushed governments to find new solutions, which reflected a new way of thinking that views social protection as not just assistance but also investment. This shift is especially visible in situations where governments sought to empower marginalized groups, like rural youth, as part of post-pandemic recovery strategies."
+        ]
+      },
+      {
+        heading: "A. From Redistribution to Strategic Investment",
+        paragraphs: [
+          "James Midgley's (1999) theory of social investment provides an explanatory framework for understanding the developments in welfare systems during the pandemic. Instead of considering social protection as a reduction, Midgley prefers programs that are future-oriented, which aim to develop people's capacities, increase community assets, and encourage individuals to work. During the pandemic, many states echoed this approach as a great deal of the government investment went into health care, on-line learning, and cash payment, which resulted in extending social policy beyond mere wealth redistribution.",
+          "It is very difficult to sustain these reforms in poor areas. According to Hofman (2020), the majority of developing countries had enormous financial and structural problems. Unlike advanced economies, they lacked the borrowing capacity and institutional frameworks to maintain large-scale welfare responses. High informality, weak health systems, and flight of capital left them particularly vulnerable, which reveals that investment-based protection remains aspirational without structural reform."
+        ]
+      },
+      {
+        heading: "B. Pakistan: Rural Youth at the Center of Innovation",
+        paragraphs: [
+          "A prime example of a low-income nation seeking to span short-term crisis management and long-term development is that of Pakistan. As detailed in Ahmed’s policy brief COVID-19 Pandemic Recovery: Putting Youth of Pakistan at the Forefront, the government launched several initiatives specifically targeting rural youth, a group doubly impacted by education disruption and informal labor instability. The Kamyab Jawan Programme, for instance, combined entrepreneurship training, vocational skills development, and interest-free loans, which meant directly investing in youth employability outside formal systems (Ahmed, 2022, pp. 188–191).",
+          "Another key initiative was the Corona Tiger Force, a volunteer platform that mobilized youth in public health outreach and service delivery. Although it was primarily designed for crisis response, the program also allowed youth in rural areas to take a direct role in governance and reconstruction, which reflects Midgley's focus on participation and community building. Thus, this involvement reflects a deeper trend: that certain policies of the pandemic era saw citizens not just as individuals being assisted but as agents actively engaged in development.",
+          "In education, Pakistan introduced Matric-TECH streams, where general studies are combined with vocational and technical training and so, the aim was for these newly implemented streams to expand public labs and online skill training to allow young people to gain the required skills after the pandemic. Still, access challenges persisted: with only 51% smartphone penetration and rural women 38% less likely to own a device, which means that digital inclusion still remained a significant barrier to equitable protection, making it harder for everyone to gain equal opportunities (Ahmed, 2022, pp. 191–192).",
+          "Lastly, these programs, although imperfect, represent a profound shift away from austerity welfare. However, Hofman’s (2020) broader critique reminds us that such innovations are constrained by fiscal space and international financial architecture. Pakistan, like many LMICs, remains exposed to debt pressures and donor dependency, which are problems that impose the boundaries to their institutionalization."
+        ]
+      },
+      {
+        heading: "C. Toward a Broader Vision for Rural Protection",
+        paragraphs: [
+          "The Pakistani case study illustrates a significant evolution in the scope of social protection. With COVID-19 having transformed rural youth from an overlooked demographic into a central focus of recovery, the sustainability of this transformation depends on both national priorities and global support. As Hofman (2020) emphasises, without addressing underlying vulnerabilities, those being informality, weak infrastructure, limited fiscal autonomy, the pandemic-era developments will turn out to be temporary.",
+          "So ultimately, the shift seen in Pakistan shows what is possible when a crisis generates inclusion. But to truly reduce rural poverty in low-income countries, this singular moment must not be treated as an exception, but as a model for future welfare design."
+        ]
+      },
+      {
+        heading: "Sustainable Financing of Social Policy to Address Poverty Reduction",
+        paragraphs: [
+          "Sustainable and equitable financing is essential for poverty reduction in low income countries. While international aid and partnerships can act as catalysts, continued progress requires effective domestic systems that reflect national priorities and long-term development goals. "
+        ]
+      },
+      {
+        heading: "A: Catalytic Impact of Official Development Assistance, Ethiopia",
+        paragraphs: [
+          "Official Development Assistance(ODA) was catalytic in Ethiopia’s Productive Safety Net Program(PSNP). Chronic food insecurity has long been a defining feature of poverty in Ethiopia. Before the PSNP, the government relied on near-annual emergency policies for food aid, which failed to offer a sustainable solution for addressing food insecurity and led to a growing number of people requiring emergency assistance each year(Tadesse). In response, the government initiated the PSNP, co-funded by the World Bank, European Union and USAID. Aimed at breaking the cycle of dependence, it consists of  two main components–public works and direct support(Bishop and Hilhorst). The program has successfully created a labor market for unskilled workers that contributes to household asset building and supports the most vulnerable groups unable to engage in labor-intensive public works. (Tadesse)"
+        ]
+      },
+      {
+        heading: "B: Role of Public-Private Partnerships, Kenya",
+        paragraphs: [
+          "Public-private partnerships(PPP) can be valuable for infrastructure development when risks are transparently managed. Kenya’s PPP with the Chinese Belt and Road Initiative regarding  the development of the Standard Gauge Railway (SGR) illustrates the benefits and potential downsides. While the SGR contributes to economic diversification and aligns with Kenya’s domestic priorities of infrastructure development and poverty reduction, 90% of its costs were financed by Chinese loans, increasing Kenyan debt, to 68% of its GDP (Himmer and Rod;World Bank 2025). With overly optimistic projections of profitability and inflated construction costs, the SGR faces limited potential for financial viability. This creates a cycle of dependence on Chinese funding and influence alongside unsustainable debt(Kell). This PPP ultimately undermines long-term poverty reduction goals. "
+        ]
+      },
+      {
+        heading: "C: Necessity of Domestic Revenue Mobilization, Uruguay",
+        paragraphs: [
+          "While aid and partnership can be catalytic, sustainable financing requires establishing effective domestic tax systems. Domestic revenue mobilization preserves fiscal sovereignty and enables long-term poverty alleviation. However, it is often associated with increased tax rates to balance budgets which can challenge macroeconomic stability. To mitigate this, states have adopted alternative systems, particularly to address leakages. This includes tackling tax evasion, capital flight, and the contributions of the informal market. One example of a financing mechanism to leverage the informal market is Uruguay’s monotax. The system consolidates tax collection and social security contributions into a single payment, increasing government revenue.(WIEGO). In return it provides access to healthcare and retirement benefits,  incentivizing formalization(Ulrichs). Uruguay’s informal employment rate fell significantly, from 43% in 2001 to 21.5% in 2022, highlighting the long-term fiscal and social potential of such inclusive tax strategies(International Labour Organization). "
+        ]
+      },
+      {
+        heading: "D:Effective Allocation of Public Expenditure, Egypt",
+        paragraphs: [
+          "In many low-income countries, inefficient spending diverts resources from poverty-reduction policies(Eltokhy). Therefore, improving public expenditure efficiency through reallocation is as important as revenue generation. Egypt’s reform of fuel subsidies to fund social policies is an example. While fossil fuel subsidies maintained low consumer prices of petroleum products, they disproportionately  favored the wealthiest(World Resources Institute). The government redirected these funds towards targeted conditional (Takaful) and unconditional (Karama) cash transfers for poor women, children, orphans and widows. These programs aim at breaking cycles of intergenerational poverty by linking assistance to health and education requirements, thereby promoting human capital accumulation(World Bank Group 2020). "
+        ]
+      },
+      {
+        heading: "E:Summary",
+        paragraphs: [
+          "Sustainable social policy financing requires more than external aid—it depends on strong domestic systems. Examples from Ethiopia, Kenya, Uruguay, and Egypt show that tailored approaches to aid, partnerships, taxation, and spending are essential for reducing poverty and promoting long-term social development."
+        ]
+      },
+      {
+        heading: "The Uphill Battle: Limitations and Challenges in Social Protection Policies for Low-Income Countries",
+        paragraphs: [
+          "Achieving comprehensive and equitable social protection in rural areas of low-income countries remains a pressing developmental challenge. Despite policy advancements, a large segment of rural populations, especially informal workers, continues to be excluded from formal social protection systems. This exclusion is rooted in the structural design of most existing frameworks, which are historically oriented toward formal employment sectors. As a result, rural and agricultural workers, who often operate in informal, seasonal, or subsistence-based economies, are left unprotected (ILO, 2021). The failure to include these vulnerable groups undermines broader global goals, particularly Sustainable Development Goal 1 (No Poverty), which calls for universal access to social protection for the poor and vulnerable."
+        ]
+      },
+      {
+        heading: "A. Administrative and Logistical Barriers",
+        paragraphs: [
+          "Several administrative and logistical barriers further inhibit access to social protection in rural areas. Geographic remoteness, lack of digital infrastructure, poor transportation, and bureaucratic red tape contribute to the inaccessibility of services. Many rural workers are not registered with government systems due to the absence of legal identity documentation or literacy in digital tools. These factors reinforce cycles of poverty and exclusion, rendering social protection policies ineffective where they are needed most (World Bank, 2020). In many regions, such as Burundi, Sierra Leone, and Pakistan, rural populations face an acute shortage of administrative infrastructure and service delivery channels. Digital divides, limited public awareness, and inadequate local governance mean that even where programs exist, people are simply unable to access or benefit from them in any meaningful way."
+        ]
+      },
+      {
+        heading: "B. Implementation Gaps and Financial Constraints",
+        paragraphs: ["Another major challenge lies in the limited enforcement capacity of existing institutions. Even where social protection policies exist on paper, the absence of monitoring mechanisms, especially in informal settings, allows non-compliance by employers and neglect of worker entitlements. Additionally, funding constraints, both at the national and community levels, restrict the scope and sustainability of many schemes. Governments in low-income countries often face trade-offs between investing in infrastructure, health, education, and social protection. Without stable and predictable financing, expansion of coverage remains elusive. Furthermore, donor-dependence in many low-income countries weakens long-term resilience and self-reliance in social protection delivery."]
+      },
+      {
+        heading: "C. Awareness, Stigma, and Social Trust Deficits",
+        paragraphs: ["Lack of awareness is another significant barrier. Many rural residents remain unaware of the entitlements and services available to them. Social stigma, cultural biases, and distrust in public institutions also discourage people from registering or applying for benefits. Further, the invisibility of vulnerable populations such as landless workers, women, migrants, indigenous groups, and persons with disabilities means that policies often fail to reflect the lived realities and specific needs of these communities."]
+      },
+      {
+        heading: "D. Inclusivity as a Core Pillar of Effective Policy",
+        paragraphs: ["One of the most critical elements in improving the effectiveness of social protection systems is inclusion. Inclusive policy design ensures that no one is left behind, aligning with the core philosophy of the SDGs. Inclusion entails recognizing and addressing the unique vulnerabilities of different groups and involving them in the policy-making and implementation processes. When policies are co-created with the participation of marginalized communities, they become more responsive, context-specific, and sustainable. This participatory approach builds trust, improves awareness, and enhances uptake of social protection programs. Social protection is not only a tool to reduce poverty but also a fundamental human right that fosters resilience, economic inclusion, and human dignity."]
+      },
+      {
+        heading: "Rethinking Social Protection Service : Addressing the Near-Poor",
+        paragraphs:["Social protection systems around the world are continuously evolving. For decades, governments focused on people living in extreme poverty and those who couldn't afford basic food, shelter, or healthcare. But now the ‘missing middle’ phenomenon has become particularly pronounced, where households earn too much to qualify for poverty targeted programs but lack sufficient resources to weather economic shocks or invest in long-term development. The first idea of near poverty was proposed by Mollie Orshansky. She defined the near poor as those living from 100 to 133 percent of the poverty threshold. ( A.S.P 2016 ) Unlike the extremely poor, the near-poor may have some assets, formal employment or education but these advantages can disappear quickly during economic downturns, health emergencies, or climate related disasters and they can easily slip into poverty. "]
+      },
+      {
+        heading: "A. The Error with Current Models",
+        paragraphs: ["Rethinking social protection through the lens of inclusivity and adaptability is essential. Proxy Means Testing (PMT) the usual targeting tool in many countries, often exclude the near poor due to minor fluctuations in reported income or assets. This results in high exclusion errors and leaves those on the brink of poverty without support (Brown et al., 2023). Studies from India and other low and middle-income countries also show programs such as BPL based ration cards have experienced high exclusion errors and many deserving households are missing out due to outdated or inaccurate data. Additionally categorical targeting based on caste, occupation, or geography can reinforce stigma and complexity especially for marginalised sections."]
+      },
+      {
+        heading: "B. Evidence from Successful Policies",
+        paragraphs: ["The effectiveness of social protection rests not only on the size or generosity of schemes but on who gets included and who is left out. All if not bleak as there are some programs that have addressed this issue. Community-based or hybrid targeting models like those used in Indonesia’s PNPM Mandiri have shown some success in identifying vulnerable households in a better manner (Alatas et al., 2012). Programs like Brazil’s Bolsa Família later restructured as Auxílio Brasil have  also demonstrated measurable reductions in multidimensional poverty. In addition to boosting household income the program increased school attendance, improved nutrition and reduced child mortality (Rasella et al., 2013). Similarly Ethiopia’s Productive Safety Net Programme (PSNP) offered a combination of cash and food for work that contributed to greater food security and improved health and education indicators especially among rural households (Berhane et al., 2014). These approaches are not only more responsive to local context but also better suited to capturing multidimensional forms of poverty as poverty is not merely about income. Expanding social protection to include them is not just a matter of short term safety nets but also a long term investment in rural resilience."]
+      },
+      {
+        heading: "C. Way Forward ",
+        paragraphs: ["A forward looking approach to social protection in rural areas must move beyond strict targeting. This includes designing responsive systems that can rise in times of crisis, using universal basic services where feasible, and embedding adaptive social registries that reflect real time changes in vulnerability. The countries can also abide by the concept of “responsible graduation” that ensures social protection systems provide flexible support that allows for movement both out of and back into programs as circumstances change. Rethinking protection for the near poor is not just about plugging gaps it’s about building buffers that ensure people don’t fall through them to begin with while addressing the multidimensional nature of poverty."]
+      },
+      {
+        heading: "Policy Recommendation for Reducing Rural Poverty: Strengthening Social Protection Frameworks",
+        paragraphs: ["Despite years of development efforts, rural poverty continues to persist as a stubborn challenge in many low-income countries (Suttie, 2020). The vulnerability of rural populations is increased by limited access to basic services, volatile markets and environmental shocks. Some examples of the vulnerable people are: informal workers, women and children (Lazarte, 2021). Strengthening social protection frameworks is one of the best strategies to mitigate the condition."]
+      },
+      {
+        heading: "A. Expanding coverage through targeted and inclusive mechanisms",
+        paragraphs: ["Many social protection systems have narrow reach as a key limitation. A World Bank report (2022) found that only 18% of the poorest rural households in Sub-Saharan Africa receive any form of formal social protection (International Labour Organization, 2020). Expanding coverage can help strengthen impact by adopting targeted and inclusive identification methods. In Malawi, for instance, the Social Cash Transfer Programme (SCTP) has demonstrated improved results by targeting ultra-poor and labor-constrained households, thereby ensuring that limited resources reach those in need (Government, 2024). Policies should also include vulnerable groups who are often excluded. Moreover, digital ID systems and mobile platforms can enhance outreach in remote areas (Musoni et al., 2023)."]
+      },
+      {
+        heading: "B. Strengthening institutional capacity and funding mechanisms",
+        paragraphs: ["Sustainable funding and strong institution frameworks are the core of effective social protection. In many low-income countries, inefficiency is caused by administrative weaknesses such as poor coordination among ministries and data fragmentation (ILO, 2023). Governments should invest in institutional capacity-building through training, digitized systems and decentralized delivery models. For example, Rwanda’s Local Administrative Entities Development Agency (LODA) has shown how local control of social protection programs can improve responsiveness and monitoring (LODA, 2023). Additionally, predictable and diversified financing is essential. This includes allocating a dedicated percentage of GDP to social protection (Bierbaum & Schmitt, 2022). In Ethiopia, the Productive Safety Net Programme (PSNP) has successfully combined government funds with donor support to ensure continuity even during drought years (Tadesse, 2020)."]
+      },
+      {
+        heading: "C. Integrating social protection with broader development goals" ,
+        paragraphs: ["Integrated development planning is key, social protection should be aligned with national goals in education, health, agriculture and climate resilience (UNDP, 2020). For example; the productive inclusion model, which links cash transfers with skills training, access to inputs and market support (Bossuroy & Premand, 2021). In Sahel countries, the Sahel Adaptive Social Protection Program (SASPP) combines social safety nets with climate resilience tools, showing positive outcomes in food security and income diversification (Focus et al., 2023). Moreover, linking social protection to universal health coverage, school feeding programs and climate adaptation strategies ensures that the impact of interventions is multiplied across sectors (Watkins et al., 2024). Governments should therefore implement integrated development planning and coordinating with NGOs, donors and community stakeholders."]
+      },
+      {
+        heading: "D. Overview of recommendations",
+        paragraphs:["Strengthening social protection is important for effectively reducing rural poverty in low-income countries. Key strategies: expanding inclusive coverage, enhancing institutional and financial capacity and integrating protection with broader development goals like agriculture have been explained as solutions. For lasting impact, a rights-based, inclusive and well-funded approach is needed. With strong political will and community involvement, social protection can become a powerful tool for achieving SDG1: No Poverty."]
+      }
+    ],
+    conclusion: [
+      "Social protection policies are essential to the pursuit of poverty reduction in low-income countries, particularly in rural areas where structural disadvantages persist. While existing programs have made progress in addressing extreme poverty, they often fail to account for the precarious position of the near poor and the multidimensional nature of rural deprivation. Income-based targeting methods, though common, leave many vulnerable households unsupported, especially during periods of crisis or transition. Importantly, social protection does more than alleviate poverty, it also enables rural development. When effectively implemented, it strengthens local economies through better living conditions, improves school attendance and health outcomes and reduces harmful coping strategies like child labor or debt. These spillover effects contribute to stronger rural institutions, enhanced human capital and long term development gains, that help build a resilient community. A shift toward inclusive and multidimensionally aware policies is not only necessary it is urgent. Without it rural poverty will remain deep rooted and broader goals of sustainable and equitable development will continue to fall short."
+    ],
+    references: [
+      {
+        heading: "Ahmed, D. (2022). COVID-19 pandemic recovery: Putting youth of Pakistan at the forefront. "
+      },
+      {
+        heading: "In Beyond the pandemic: Leaving no one behind (Policy Brief Series), 188–192."
+      },
+      {
+        heading: "Hofman, B. (2020). The global pandemic. Ho, (16), 61–71."
+      },
+      {
+        heading: "Midgley, J. (1999). Growth, redistribution, and welfare: Toward social investment. Social Service Review, 73(1), 3–21. ",
+        links: "https://doi.org/10.1086/515795"
+      },
+      {
+        heading: "Anami, Ali Keya. 'China's Belt and Road Initiative (BRI) and Its Role in Developing Africa's Economies. Case Study: Kenya's Standard Gauge Railway (SGR), Kenya.' Magna Scientia Advanced Research and Reviews, vol. 10, no. 1, 30 Jan. 2024, pp. 001-013, ",
+        links: "https://doi.org/10.30574/msarr.2024.10.1.0152"
+      },
+      {
+        heading: "Bishop, Carly, and Dorothea Hilhorst. 'From Food Aid to Food Security: The Case of the Safety Net Policy in Ethiopia.' JSTOR, 2010, ",
+        links: "www.jstor.org/stable/40864714?searchText=PSNP&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3DPSNP%26so%3Drel&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&refreqid=fastly-default%3A9fc933a8a43f9ca155f506a56accdfcd"
+      },
+      {
+        heading: "Eltokhy, Khaled. 'Public Investment Management Bottlenecks in Low-income Countries.' IMF Working Papers, vol. 2024, no. 232, Nov. 2024, p. 1, ",
+        links: "https://doi.org/10.5089/9798400289231.001"
+      },
+      {
+        heading: "Himmer, Michal, and Zden?k Rod. 'Chinese Debt Trap Diplomacy: Reality or Myth?' Journal of the Indian Ocean Region, vol. 18, no. 3, 2 Sept. 2022, pp. 250-72, ",
+        links: "https://doi.org/10.1080/19480881.2023.2195280"
+      },
+      {
+        heading: "Monotax and Social Monotax in Uruguay. 2023. International Labour Organization, ",
+        links: "www.social-protection.org/gimi/ShowRessource.action;jsessionid=e0PdJfOQwg8Us004sVBiL5WruHLe4pnvxA4f3n9AxoPpDTDr5pzt!87869965?id=58912"
+      },
+      {
+        heading: "Kell, Fergus. 'Kenya's Debt Struggles Go Far Deeper than Chinese Loans.' Chatham House, 31 May 2023, ",
+        links:"www.chathamhouse.org/2023/05/kenyas-debt-struggles-go-far-deeper-chinese-loans?utm"
+      },
+      {
+        heading: "Tadesse, Tasew, and Tariku Gebremedhin Zeleke. 'The Impact of the Productive Safety Net Program (PSNP) on Food Security and Asset Accumulation of Rural Households': Evidence from Gedeo Zone, Southern Ethiopia.' Cogent Economics and Finance, vol. 10, no. 1, 14 June 2022, ",
+        links:"https://doi.org/10.1080/23322039.2022.2087285"
+      },
+      {
+        heading: "Ulrichs, Martina. 'Extending Social Protection Coverage.'' Informality, Women and Social Protection: Identifying Barriers to Provide Effective Coverage, ODI, 2016, pp. 27-36. JSTOR, ",
+        links: "www.jstor.org/stable/resrep49674.10"
+      },
+      {
+        heading: "'Monotax and Social Monotax in Uruguay.' 22 Aug. 2023. Women in Informal Employment: Globalizing and Organizing(WIEGO), ",
+        links:"www.wiego.org/research-library-publications/monotax-and-social-monotax-uruguay/"
+      },
+      {
+        heading: "'Beyond the Budget : Fiscal Policy for Growth and Jobs - A Public Finance Review for Kenya (English).' World Bank Group, 2025, ",
+        links:"documents1.worldbank.org/curated/en/099052625064075957/pdf/P508617-0037cc2b-2412-4d93-af21-b1a559f4c775.pdf"
+      },
+      {
+        heading: "'Takaful and Karama: A Social Safety Net Project That Promotes Egyptian Women Empowerment and Human Capital.' 2020. World Bank Group, Takaful and Karama: A Social Safety Net project that Promotes Egyptian Women Empowerment and Human Capital. Accessed 29 June 2025."
+      },
+      {
+        heading: "'Egypt: Transitioning Away from Subsidizing Fossil Fuels.' World Resources Institute, 1 Apr. 2021, ",
+        links:"www.wri.org/snapshots/egypt-transitioning-away-subsidizing-fossil-fuels"
+      },
+      {
+        heading:" International Labour Organization. (n.d.). Challenges and opportunities in extending social security to workers in the informal economy (Chapter 1). In Social Protection[E‑module].",
+        links:"https://www.social-protection.org/gimi/Emodule.action?id=25"
+      },
+      {
+        heading: "Barrientos, A. & United Nations Research Institute for Social Development. (2010). Poverty Reduction and policy regimes",
+        links: "https://cdn.unrisd.org/assets/library/papers/pdf-files/barrientos-pp.pdf"
+      },
+      {
+        heading: "Kind, M., & Lee, Y. F. (2021). Social protection in rural areas: achieving universal access for all. In the United Nations Department of Economic and Social Affairs, United Nations Department of Economic and Social Affairs [Policy Brief].",
+        links: "https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/PB_107.pdf"
+      },
+      {
+        heading: "Anna Sączewska-Piotrowska, 2016, Near poverty - definition, factors, predictions",
+        links: "https://share.google/vvgNpLkjGkaaMYzqv"
+      },
+      {
+        heading: "M. Kind, Yern Fai Lee, 2021, Social Protection in Rural Areas : Achieving Universal Access for All",
+        links: "https://www.semanticscholar.org/paper/Social-Protection-in-Rural-Areas%3A-Achieving-Access-Kind-Lee/7fa06bb33a38e67efe35cf4ef3927992fc497521"
+      },
+      {
+        heading: "Rasella, D., et al, 2013, Effect of a conditional cash transfer programme on childhood mortality: A nationwide analysis of Brazilian municipalities",
+        links: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(13)60715-1/fulltext"
+      },
+      {
+        heading: "Berhane, G., et al, 2014 , Can social protection work in Africa? The impact of Ethiopia’s Productive Safety Net Programme",
+        links: "https://doi.org/10.2499/9780896298748_04"
+      },
+      {
+        heading: "Alatas, V. et al, 2012, Targeting the poor: Evidence from a field experiment in Indonesia",
+        links: "https://www.aeaweb.org/articles?id=10.1257/aer.102.4.1206"
+      },
+      {
+        heading: "Graduation from Social Protection",
+        links: "https://capacity4dev.europa.eu/articles/graduation-social-protection-what-it-means-how-it-works"
+      },
+      {
+        heading: " Bierbaum, M., & Schmitt, V. (2022). Investing better in universal social protection: Applying international social security standards in social protection policy and financing, ILO Working Paper 43. ",
+        links:"www.ilo.org/global/publications/working-papers"
+      },
+      {
+        heading: "Bossuroy, T., & Premand, P. (2021). Productive inclusion measures in the Sahel. ",
+        links:"https://thedocs.worldbank.org/en/doc/6ec01c2ff322bbe52aa9772f7506dc59-0380022021/original/CKEx-May-5-Economic-Inclusion-Sahel-Niger.pdf"
+      },
+      {
+        heading: "Focus, C., Security, C., On, S., Protection, S., & Adaptation, C. C. (2023). REACTIVE ASSISTANCE OR PROACTIVE PROTECTION ? SOCIAL PROTECTION AND CLIMATE RESILIENCE IN THE SAHEL REGION CGIAR FOCUS CLIMATE SECURITY SERIES ON SOCIAL PROTECTION AND CLIMATE CHANGE ADAPTATION December 2023. December. ",
+        links: "https://cgspace.cgiar.org/bitstreams/e875fe86-5d20-4385-8231-699bec29776f/download"
+      },
+      {
+        heading: "Government, M. (2024). Malawi Social Cash Transfer Programme ( SCTP ) Longitudinal Impact Evaluation. ",
+        links: "https://mtukula.com/userdata/repo/Malawi_SCTP_Baseline_Report_A4_Web 1.pdf"
+      },
+      {
+        heading: "ILO, O. and I. (2023). Sustainable Financing of Social Protection Technical paper prepared for the 1 st meeting of the Employment Working Group under the Indian presidency. January, 1–26."
+      },
+      {
+        heading: "International Labour Organization. (2020). World Social Protection Report Regional companion report for Africa. ",
+        links: "https://www.social-protection.org/gimi/RessourcePDF.action?id=57822"
+      },
+      {
+        heading:"Bierbaum, M., & Schmitt, V. (2022). Investing better in universal social protection: Applying international social security standards in social protection policy and financing, ILO Working Paper 43. ",
+        links:"www.ilo.org/global/publications/working-papers"
+      },
+      {
+        heading: "Bossuroy, T., & Premand, P. (2021). Productive inclusion measures in the Sahel. ",
+        links:"https://thedocs.worldbank.org/en/doc/6ec01c2ff322bbe52aa9772f7506dc59-0380022021/original/CKEx-May-5-Economic-Inclusion-Sahel-Niger.pdf Focus, C., Security, C., On, S., Protection, S., & Adaptation, C. C. (2023)."
+      },
+      {
+        heading: "REACTIVE ASSISTANCE OR PROACTIVE PROTECTION ? SOCIAL PROTECTION AND CLIMATE RESILIENCE IN THE SAHEL REGION CGIAR FOCUS CLIMATE SECURITY SERIES ON SOCIAL PROTECTION AND CLIMATE CHANGE ADAPTATION December 2023. December. ",
+        links:"https://cgspace.cgiar.org/bitstreams/e875fe86-5d20-4385-8231-699bec29776f/download"
+      },
+      {
+        heading: "Government, M. (2024). Malawi Social Cash Transfer Programme ( SCTP ) Longitudinal Impact Evaluation.",
+        links:"https://mtukula.com/userdata/repo/Malawi_SCTP_Baseline_Report_A4_Web 1.pd ILO, O. and I. (2023). "
+      },
+      {
+        heading: "Sustainable Financing of Social Protection Technical paper prepared for the 1 st meeting of the Employment Working Group under the Indian presidency. January, 1–26."
+      },
+      {
+        heading: "International Labour Organization. (2020). World Social Protection Report Regional companion report for Africa. ",
+        links:"https://www.social-protection.org/gimi/RessourcePDF.action?id=57822"
+      },
+      {
+        heading: "Lazarte, A. (2021). in Rural Economies. International Labour Office (ILO), 214. ",
+        links:"https://www.ilo.org/media/423391/download ODA. (2023). "
+      },
+      {
+        heading:"VUP_OPERATIONAL_MANUAL-_SUSTAINABLE_LIVELIHOOD_ENHANCEMENT_SCHEMES_AND_PARA_SOCIAL_WORKERS.pdf. ",
+        links:"https://www.loda.gov.rw/index.php?eID=dumpFile&t=f&f=107041&token=3731ea1e592966c36004864d11e9b928b903e527"
+      },
+      {
+        heading: "Musoni, M., Domingo, E., & Ogah, E. (2023). Digital ID systems in Africa: Challenges, risks and opportunities. 360."
+      },
+      {
+        heading: "Suttie, D. (2020). Overview: Rural Poverty in Developing Countries: Issues, Policies and Challenges. Investing in Rural People, 1–23. ",
+        links:"https://social.desa.un.org/sites/default/files/migrated/22/2019/03/EGM-eradicating-rural-poverty-IFAD_final.pdf"
+      },
+      {
+        heading:"Tadesse, G. (2020). Agriculture and Social Protection : The Experience of Ethiopia ’ s Productive. 16–33. ",
+        links:"https://cgspace.cgiar.org/server/api/core/bitstreams/58ba303a-5c0f-4838-a1d3-9e9d10b2ca11/content"
+      },
+      {
+        heading: "UNDP. (2020). Integrated Planning &amp; Sustainable Development: Challenges and Opportunities Synthesis Report. 136. ",
+        links:"http://www.undp.org/content/dam/undp/library/Sustainable Development/PAGE_Integrated_Planning_and_SD_SynthesisReport.pdf"
+      },
+      {
+        heading: "Watkins, K., Fiala, O., Haag, P., & Zubairi, A. (2024). School feeding and the Sustainable Development Goals transform food systems and strengthen equity. September. ",
+        links: "https://schoolmealscoalition.org/sites/default/files/2024-11/ODI_School_feeding_and_the_SDGs.pdf"
       }
     ]
   }

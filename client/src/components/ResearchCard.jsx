@@ -21,6 +21,7 @@ const articleRoutes = {
   14: "/India-US-Bilateral-Relations",
   15: "/Diplomacy-Beyond-Diplomats",
   16: "/From-Gram-Sabha-To-Eco-Swaraj",
+  17: "/Impact-Of-Social-Protection-Policies",
 };
 
 const ResearchCard = ({ articles, onDelete }) => {
