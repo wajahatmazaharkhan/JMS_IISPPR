@@ -47,7 +47,7 @@ const TopNavbar = () => {
               <BookOpen className="w-6 h-6 text-white" />
             </div>
             <span className="font-bold text-xl bg-primary from-rose-600 to-amber-500 bg-clip-text text-transparent">
-              SCIENTIFIC JOURNAL
+              STUDENTS' JOURNAL
             </span>
           </NavLink>
 
