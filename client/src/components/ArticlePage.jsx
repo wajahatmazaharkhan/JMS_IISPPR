@@ -32,9 +32,11 @@ const ArticlePage = ({
         </p>
 
         {/* Intro */}
+        {intro &&
         <h2 className="text-2xl font-semibold text-primary mb-2">
           Introduction
         </h2>
+        }
         {intro?.map((para, index) => (
           <p
             key={index}

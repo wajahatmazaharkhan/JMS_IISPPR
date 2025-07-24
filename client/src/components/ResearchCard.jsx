@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import { Download } from "lucide-react";
 import { generateArticlePDF, downloadPDF } from "../utils/pdfExport";
 
-const articleRoutes = {
+const articleRoutes1 = {
   1: "/Bridging-Literacy-Gaps-in-India",
   2: "/Impact-Of-The-Maternity-Benefit-Act",
   3: "/The-Troubling-Rise-Of-Realism-Over-Institutionalism",
@@ -23,6 +23,9 @@ const articleRoutes = {
   16: "/From-Gram-Sabha-To-Eco-Swaraj",
   17: "/Impact-Of-Social-Protection-Policies",
 };
+const articleRoutes2 = {
+  1: "/Rewiring-The-Engines-Of-Growth",
+}
 
 const ResearchCard = ({ articles, onDelete }) => {
   const [downloading, setDownloading] = useState(false);
@@ -112,11 +115,19 @@ const ResearchCard = ({ articles, onDelete }) => {
           {downloading ? "Downloading..." : "Download"}
         </button>
 
-        <Link to={articleRoutes[articles.id]}>
+        {articles.issue==1 &&
+        <Link to={articleRoutes1[articles.id]}>
           <button className="inline-flex items-center px-4 py-2 bg-new-primary-dark text-white font-medium rounded hover:bg-new-primary-sub transition disabled:opacity-50 hover:text-new-primary">
             Read More
           </button>
-        </Link>
+        </Link>}
+
+        {articles.issue==2 &&
+        <Link to={articleRoutes2[articles.id]}>
+          <button className="inline-flex items-center px-4 py-2 bg-new-primary-dark text-white font-medium rounded hover:bg-new-primary-sub transition disabled:opacity-50 hover:text-new-primary">
+            Read More
+          </button>
+        </Link>}
 
         {onDelete && isAdmin && (
           <button

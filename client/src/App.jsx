@@ -54,6 +54,7 @@ import IndiaUSBilateralRelations from "./pages/editions/IndiaUSBilateralRelation
 import DiplomacyBeyondDiplomats from "./pages/editions/DiplomacyBeyondDiplomats";
 import FromGramSabhaToEcoSwaraj from "./pages/editions/FromGramSabhaToEcoSwaraj";
 import ImpactOfSocialProtectionPolicies from "./pages/editions/ImpactOfSocialProtectionPolicies";
+import RewiringTheEnginesOfGrowth from "./pages/editions/RewiringTheEnginesOfGrowth";
 
 function AppRoutes() {
   const location = useLocation();
@@ -192,6 +193,10 @@ function AppRoutes() {
         <Route
           path="/Impact-Of-Social-Protection-Policies"
           element={<ImpactOfSocialProtectionPolicies/>}
+        />
+        <Route
+          path="/Rewiring-The-Engines-Of-Growth"
+          element={<RewiringTheEnginesOfGrowth />}
         />
 
         <Route path="*" element={<LandingPage />} />
