@@ -25,6 +25,8 @@ const articleRoutes1 = {
 };
 const articleRoutes2 = {
   1: "/Rewiring-The-Engines-Of-Growth",
+  2: "/The-Informal-Gig-Economy-In-Globalised-India",
+  3: "/Understanding-The-Mind-In-Decline",
   4: "/Reconciling-Development-And-Ecology",
   5: "/Geopolitical-Stress-Impacting-Financial-Markets-In-India",
 }

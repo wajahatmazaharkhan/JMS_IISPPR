@@ -57,6 +57,8 @@ import ImpactOfSocialProtectionPolicies from "./pages/editions/ImpactOfSocialPro
 import RewiringTheEnginesOfGrowth from "./pages/editions/RewiringTheEnginesOfGrowth";
 import ReconcilingDevelopmentAndEcology from "./pages/editions/ReconcilingDevelopmentAndEcology";
 import GeopoliticalStressImpactingFinancialMarketsInIndia from "./pages/editions/GeopoliticalStressImpactingFinancialMarketsInIndia";
+import TheInformalGigEconomyInGlobalisedIndia from "./pages/editions/TheInformalGigEconomyInGlobalisedIndia";
+import UnderstandingTheMindInDecline from "./pages/editions/UnderstandingTheMindInDecline";
 
 function AppRoutes() {
   const location = useLocation();
@@ -207,6 +209,14 @@ function AppRoutes() {
         <Route
           path="/Geopolitical-Stress-Impacting-Financial-Markets-In-India"
           element={<GeopoliticalStressImpactingFinancialMarketsInIndia/>}
+        />
+        <Route
+          path="/The-Informal-Gig-Economy-In-Globalised-India"
+          element={<TheInformalGigEconomyInGlobalisedIndia/>}
+        />
+        <Route
+          path="/Understanding-The-Mind-In-Decline"
+          element={<UnderstandingTheMindInDecline/>}
         />
 
         <Route path="*" element={<LandingPage />} />

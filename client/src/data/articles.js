@@ -4898,444 +4898,6 @@ const articles = [
 
   },
   {
-    id: 4,
-    issue: 2,
-    volume: 1,
-    title: "RECONCILING DEVELOPMENT AND ECOLOGY: A REGIONAL ANALYSIS OF SDG 15 IMPLEMENTATION IN INDIA",
-    author: "Maithreyi Govindula and Stooti Horo",
-    authorAbbrev: "Maithreyi Govindula and Stooti Horo",
-    abstract: "The essay examines the clash between ecological sustainability and economic development in India through a regional perspective, using the case of application of Sustainable Development Goal 15 (Life on Land). Based on two meticulous case studies illegal coal mining in Chhattisgarh's Hasdeo Aranya forest and unplanned urbanization in Hyderabad. The research subjectively analyses the socio-environmental implications of development processes that overlook ecological interest and disenfranchise native populations. It identifies chronic governance lapses, poor enforcement of environmental policies, and structural exclusion of indigenous perspectives in land-use planning. Far from India's official pledge to SDG 15, the results unveil profound structural disconnects between policy discourse and on-ground realities. The article demands a rights-based, inclusive environmental governance framework that incorporates local wisdom, emphasizes ecological durability, and confronts the trade-offs between short-term development and long-term resilience. Ultimately, it champions alternate paths of development based on transparency, inclusivity, and environmental justice.",
-    status: "Submitted",
-    intro: [
-      "India’s recent economic transformation over the past three decades has been characterised by extensive infrastructural growth, industrialisation, and urbanisation. While these developments have driven increases in income, employment, and access, they have also placed unprecedented pressure on the nation’s environmental systems. The pursuit of development, often framed in terms of Gross Domestic Product (GDP) growth and international competitiveness, has frequently come into conflict with environmental sustainability, particularly concerning land use and natural resource management. This tension is most evident in sectors such as mining, urban expansion, and disaster management, where environmental considerations are repeatedly sidelined in favour of commercial and administrative priorities.",
-      "This paper examines two paradigmatic case studies that illustrate the complex relationship between India’s development trajectory and environmental degradation. The first is illegal mining in Chhattisgarh, where extractive industries have encroached upon forest and tribal lands, often bypassing environmental regulations and local consent (Tripathy, 2024). The second case is urban sprawl in Hyderabad, where real estate speculation and infrastructure development have driven rapid city expansion, leading to the significant loss of green cover, water bodies, and biodiversity, with serious implications for urban climate resilience and environmental justice (Jha et al., 2021).",
-      "These case studies are analysed in relation to Sustainable Development Goal 15 (SDG 15): Life on Land, which calls for the protection, restoration, and sustainable use of terrestrial ecosystems. Despite India’s formal commitment to the 2030 Agenda for Sustainable Development, the realities on the ground reveal a persistent gap between policy rhetoric and implementation. This disconnect is further exacerbated by weak institutional accountability, fragmented governance structures, and the systematic exclusion of local and indigenous communities from environmental decision-making processes.",
-      "The structure of this article is as follows. Section 2 presents the background and literature review, situating the case studies within the wider context of land acquisition, mining, and urbanisation in India, and discusses India’s take on SDG15 targets. Section 3 briefly explains how this study contributes to the broader debate. Sections 4 and 5 provide detailed examinations of the Chhattisgarh and Hyderabad case studies, respectively. Section 6 offers a comparative analysis of the two cases, identifies recurring governance patterns, and discusses alternative development models. The final section presents the conclusion, summarising key findings, outlining policy recommendations, and proposing directions for future research and community-led conservation initiatives.",
-      "By engaging with these grounded case studies, this article aims to make a constructive contribution to the ongoing debates on sustainable development in India and more broadly, underscoring the urgent need for more ecologically sensitive and socially inclusive approaches to development."
-    ],
-    content: [
-      {
-        heading: "2.	BACKGROUND AND LITERATURE REVIEW",
-        paragraphs: [
-          "The Sustainable Development Goals (SDGs) are the 17 global objectives established by the United Nations in 2015, to be achieved by 2030 as part of its Sustainable Development (SD) programme (Tisdell, 2020). This study focuses specifically on SDG 15: Life on Land, to critically examine how these goals are being pursued in India.",
-          "SDG 15 aims to 'protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss' (Klein, 2020, p.1). ",
-          "As a signatory to the UN’s SD agenda, India has committed to fulfilling selected targets, including setting specific quantitative performance objectives for three of the twelve SDG 15 targets by 2030 (Tisdell, 2020).",
-          "However, the cases of illegal mining in Chhattisgarh and urban sprawl in Hyderabad reveal the significant challenges these goals face on the ground. India has been experiencing rapid urbanisation and growing resource extraction activities in recent years. In areas such as Chhattisgarh, illegal mining has led to extensive deforestation, the displacement of indigenous communities, and damage to local ecosystems (Ghosh, 2022; Tripathy, 2024). These mining operations often proceed without appropriate legal and environmental clearances, violating both national environmental regulations and the rights of Adivasi (indigenous) communities, forcing them into cycles of displacement and deprivation (Ghosh, 2022). Such activities directly undermine India’s progress towards achieving SDG 15, which calls for the protection and sustainable use of terrestrial ecosystems.",
-          "Simultaneously, in rapidly expanding urban centres like Hyderabad, large-scale land-use changes driven by infrastructure development, real estate expansion, and technology corridors have significantly reduced urban green spaces and wetlands (Jha et al., 2021; Ramachandra et al., 2020). The city’s green cover has declined sharply, while the loss of water bodies has exacerbated flooding and intensified the urban heat island effect. The 2025 Kanche Gachibowli forest clearance incident and the subsequent enforcement actions by the Hyderabad Disaster Response & Asset Protection Agency (HYDRAA) illustrate the governance dilemmas where urban development frequently overrides environmental priorities, often resulting in social displacement and institutional failures in ecosystem protection.",
-          "SDG 15 consists of twelve targets that promote international cooperation and emphasise biodiversity conservation, but trade-offs and policy misalignments remain persistent challenges. In India, various government departments handle different aspects of biodiversity and environmental management, often operating independently and following fragmented and poorly coordinated policies (Tisdell, 2020). This fragmentation contributes to policy conflicts and hinders the effective achievement of SDG 15 goals.",
-          "India has specifically committed to SDG targets 15.1, 15.2, and 15.7 as part of its contribution to the 2030 Sustainable Development Agenda. However, the cases from Chhattisgarh and Hyderabad reflect a broader national pattern where development-driven environmental degradation is routinely prioritised over sustainability, social justice, and long-term ecological resilience."
-        ]
-      },
-      {
-        heading: "Target 15.1: Conservation of Ecosystems",
-        paragraphs: [
-          "India has committed to maintaining the proportion of water bodies within its forest areas as part of its SDG 15.1 efforts (Tisdell, 2020). However, mining operations frequently exploit local water sources, leaving minimal access for nearby villages and farmers. The remaining water is often contaminated with toxic chemicals, posing severe risks to aquatic life and the health of local populations (Jha & Jha, 2022). Ghosh (2022) vividly describes the extent of environmental harm, recounting how coal dust settled on fields, polluted water sources, and clung to children as they ran home from school. Furthermore, dam construction for irrigation or industrial purposes without adequate conservation measures has negatively affected wetlands and forests. In Hyderabad, urban expansion has led to the significant loss of green cover, wetlands, and local habitats (Jha et al., 2021; Ramachandra et al., 2020)."
-        ]
-      },
-      {
-        heading: "Target 15.2: Sustainable Forest Management and Halting Deforestation",
-        paragraphs: ["India’s approach to achieving target 15.2 remains vague, with unclear definitions, insufficient transparency, and no explicit national target for the sustainable management of all forest types (Tisdell, 2020). Official records, which have been questioned by the United Nations, report increasing forest cover but fail to differentiate between ecologically rich natural forests, such as Hasdeo, and privately owned monoculture plantations. These are often classified as forests based solely on canopy density and area, without considering ecological integrity (Talukdar, 2022). Replacing ecologically significant forests with monoculture plantations cannot substitute for the biodiversity and cultural value of intact natural forests."]
-      },
-      {
-        heading: "Target 15.7: Ending Poaching and Illegal Wildlife Trade",
-        paragraphs: [
-          "India’s SDG 15.7 target focuses on maintaining wild elephant populations at 2017 levels but neglects the escalating issue of human-elephant conflict. The current plan does not address retaliatory killings of elephants due to crop damage, a critical omission. This is particularly relevant as mining expansion in the Hasdeo Aranya region has worsened human-elephant conflicts, frequently resulting in loss of life and crop destruction (Mukherjee, 2021). Mining also opens up previously inaccessible forests, creating new routes for illegal wildlife trade and poaching (Sayer et al., 2020). Although SDG 15.7 highlights the need to reduce illegal trafficking of elephant products, in India, Asian elephants are more commonly killed due to their perceived threat to agriculture, rather than ivory poaching (Tisdell, 2020). "
-        ]
-      },
-      {
-        heading: "3.	LITERATURE REVIEW",
-        paragraphs: [
-          "Environmental Degradation through Resource Exploitation",
-          "Kumar (2024) situates these conflicts within a political ecology framework, highlighting how local communities, NGOs, social movements, governments, and multinational corporations, backed by military and police power, compete over resources. Kumar critiques the tokenistic inclusion of indigenous voices in energy transitions and land-use policies, noting that industries often claim to represent multiple stakeholders but fail to meaningfully involve local and indigenous communities. The repeated violations of legal protections for tribal lands by Indian state and regional authorities to facilitate coal and hydropower projects reinforce this pattern. Ghosh (2021) documents a 2009 protest in Madhya Pradesh, where 5,000 Adivasis marched against mining approvals secured using fraudulent gram sabha resolutions.",
-          "Ghosh (2022) and Tripathy (2024) further document how illegal mining in Chhattisgarh has displaced indigenous communities, degraded forests, and eroded local governance rights. Chhotray’s comparative analysis of Jharkhand and Chhattisgarh shows that while both states have substantial indigenous populations and rich mineral resources, Jharkhand’s Adivasis have achieved a stronger political foothold, enabling more public debate and resistance. In contrast, Chhattisgarh’s indigenous communities, lacking sustained political representation and facing greater repression, have experienced more severe marginalisation.",
-          "Urbanisation and Governance Failures",
-          "Hyderabad’s rapid urbanisation and selective demolition policies reveal deep-seated governance and equity issues that have disproportionately affected marginalised communities while escalating environmental risks. HYDRAA’s demolition campaigns, though aimed at reclaiming public property, have mainly targeted marginal spaces and developer-led encroachments, often displacing those with insecure tenure and limited legal protection (Ramesh & Rao, 2021).",
-          "Environmental and Social Implications",
-          "Mukherjee (2021) critiques the persistent framing of development as displacement-driven progress, which has historically marginalised vulnerable communities. He argues that existing legal protections, if properly enforced, could prevent the harms currently inflicted on affected populations. In Hyderabad, environmental regulations have often been ignored in favour of rapid commercial development. The 2025 Kanche Gachibowli clearance for an IT park proceeded without adequate adherence to the Forest Conservation Act or Environmental Impact Assessment norms (newindianexpress.com; telanganatoday.com). This environmentally damaging clearance not only triggered public protests but also highlighted the ongoing tensions between development and ecosystem protection. Students and professors joined the resistance, emphasising the land’s crucial role in sustaining local wildlife and water cycles (indianexpress.com)."
-        ]
-      },
-      {
-        heading: "Contribution to the Broader Debate",
-        paragraphs: [
-          "This study adds to the broader debate by demonstrating that India’s SDG 15 commitments are consistently undermined by on-ground development practices that prioritise short-term economic growth over environmental and social sustainability. By situating these local struggles within the global sustainability framework, this research highlights a critical disconnect between international sustainability goals and national development trajectories.",
-          "The findings emphasise the pressing need for more inclusive, transparent, and coordinated environmental governance that fully integrates the rights of indigenous and marginalised communities and foregrounds ecological sustainability in policy planning and implementation. Through this focused analysis, the study enriches ongoing discussions about how SDG commitments, particularly in developing countries like India, are often compromised by policy trade-offs, institutional fragmentation, and accountability gaps in the face of extractive and urban development pressures."
-        ]
-      },
-      {
-        heading: "  I.	ILLEGAL MINING IN CHHATTISGARH",
-        paragraphs: [
-          "Case Study: Coal mining in Hasdeo Aranya Forest",
-          "The Hasdeo Aranya Forest in Chhattisgarh, India, is a critical ecological and cultural zone, home to indigenous communities such as the Gond, Korwa, and Baiga tribes (Verma, 2024). It is an important ecological and cultural area, where indigenous communities rely on the forest’s resources for their daily survival and way of life. The region is rich in mineral resources, particularly coal, which has attracted significant interest from both public and private mining companies. Although the coal mining sector is primarily managed by the public sector company Coal India, the vast coal deposits in this region have increasingly attracted private companies driven by profit (Mukherjee, 2021). The Hasdeo-Arand Coalfield, one of India’s largest, has been central to this interest, with its extensive coal reserves of over five billion tonnes playing a significant role in supporting the economy and energy supply, albeit at considerable environmental and social costs (Verma, 2024).",
-          "The push for economic development and energy security has led to extensive coal mining in this area, driven by the Indian government’s strategy to boost domestic coal production and meet its growing energy demands, despite India being the world’s lowest-cost solar power producer its commitment to increasing renewable capacity to 450 gigawatts by 2030 (Talukdar, 2021). With significant declarations regarding the coal mining in June 2020, the government announced the auction of 41 coal blocks, five of which are located within or near the Hasdeo Forest (Chhotray, 2022; Jha & Jha, 2022). This has heightened environmental and social concerns. The expansion of mining activities has resulted in severe deforestation, disruption of wildlife corridors, and contamination of local water sources. Notably, the mining operations in the Parsa East and Kente Basan (PEKB) block began in 2013 under Adani Mining (a subsidiary of the Adani Group) (Ghosh, 2022; Talukdar, 2021). Tribal communities strongly believe that mining corporations have bypassed or manipulated the gram sabha consent process to secure government approvals, which they view as a direct violation of their constitutional rights (Mukherjee, 2021). Projects such as the Kente Extension and Parsa Coal Block are under development and have faced repeated allegations of circumventing gram sabha consent or using fraudulent means to obtain approvals (Talukdar, 2021).",
-          "Key Protests and Legal Struggles",
-          "Indigenous communities in Hasdeo have consistently protested against these mining projects, arguing that they violate constitutional protections and disrupt their traditional way of life (Tripathy, 2024; Ghosh, 2022). These protests have included long foot marches to the state capital, Raipur, and continuous appeals against the environmental clearances granted for mining (Jha & Jha, 2022). The Hasdeo Aranya Bachao Sangharsh Samiti has been at the forefront of this resistance, advocating for the preservation of the forest and the protection of tribal rights under the Forest Rights Act (FRA) and the Panchayats (Extension to Scheduled Areas) Act (PESA) (Mukherjee, 2021).",
-          "Despite legislative frameworks like the FRA, which mandates that no Scheduled Tribe member or traditional forest dweller can be evicted without proper recognition and verification of their rights, enforcement on the ground has been weak (Verma, 2024; Mukherjee, 2021). The Land Acquisition Act of 2013 aimed to ensure fair compensation and community consultation (Ghosh, 2022; Taldukdar, 2021), but amendments introduced in 2014 diluted these protections, particularly for public-private partnership projects (Mukherjee, 2021). These changes made it easier for the government and corporations to acquire land without securing community consent or conducting thorough social impact assessments (Mukherjee, 2021).",
-          "Socio-Economic Impacts",
-          "The socio-economic impacts on displaced communities have been severe. Mass displacement has not only uprooted livelihoods but also disrupted the ways in which these communities have preserved their cultural identity over generations, something that holds no monetary equivalent. However even the relocation efforts, job offers, and compensation promised by mining companies are often inadequate or remain unfulfilled (Jha & Jha, 2022). Many tribal families have reported losing their primary sources of livelihood following the acquisition of their land for coal mining (Verma, 2024). The loss of fertile land and forests has forced many to relocate to cities or nearby towns in search of employment. Major towns such as Korba, Bilaspur, and Raipur have attracted economic migrants by offering job opportunities mainly in unorganised sectors like construction and domestic work (Verma, 2024). However, displaced individuals migrating to urban areas frequently face challenges such as discrimination, low wages, and difficulty adjusting to city life (Tripathy, 2024). Research in Chhattisgarh has shown that displacement has disrupted livelihoods, family dynamics, and social network of the families displaced (Verma, 2024). ",
-          "Environmental Impacts",
-          "Environmental degradation has been another significant consequence. The Hasdeo Aranya Forest spas 170,000 hectares and contains a unique ecosystem, including the proposed Lemru Elephant Reserve (Tripathy, 2024). These destruction of forests has escalated human-elephant conflicts (Mukherjee, 2021), leading to frequent loss of lives and damage to agricultural crops (Ghosh, 2022), as well as reducing access to clean water (Jha & Jha, 2022). Mining operations have depleted and contaminated local water sources. Adani’s PEKB operations in Chhattisgarh have come undere particular scrutiny for environmental violations, especially the release of contaminated water from coal washing activities (Talukdar, 2021). ",
-          "Data from independent sources like the Global Forest Watch Dashboard reveal that India continues to lose and convert natural forests for industrial purposes (Talukdar, 2022). Mining in general poses a threat to the environment, but open-cast mining has significantly accelerated environmental degradation. In Jharia, Dhanbad, abandoned underground mines were left unfilled, allowing oxygen to reach burning coal seams and intensify ongoing underground fires (Chhotray, 2022). Together, these activities endanger the region’s biodiversity and erode the Adivasi communities' role as traditional caretakers of the environment (Chhotray, 2022; Talukdar, 2021). ",
-          "Community Protests",
-          "Protests have taken place by these communities coming together to fight for their rights. While some protests have temporarily halted mining operations, corporations have frequently used legal mechanisms to resume their projects (Jha & Jha, 2022). This region has seen many protests as form of non-violent oppositions against the coal firms. Among the common forms of protest, like the month-long dharnas (sit-ins), padyatras (marches), and fasts, the sit-in beginning in October 2019 against land acquisition for the Parsa coal mine became particularly significant. Hundreds of villagers demonstrated for over three months until it was interrupted by the COVID-19 lockdown the following year, making it the longest ever sit in protest in the region’s history (Talukdar, 2021).",
-          "The government’s role as a mediator remains critical, yet its actions have frequently favoured industrial development over the rights and welfare of tribal populations (Chhotray, 2022). In December 2009, around 5,000 Adivasis staged a protest march to the Mines Office in Madhya Pradesh after news broke of a fake gram sabha resolution being submitted to secure mining approvals (Ghosh, 2021 as cited in Kumar, 2024). Despite such resistance, similar patterns continued, as seen in 2011 when Ghatbarra village near the PEKB mine rejected coal mining and filed forest rights claims under the Forest Rights Act (FRA), which prohibits mining clearances until community rights are recognized; nevertheless, the PEKB mine was approved in 2012 and Adani began construction in 2013 (Talukdar, 2021).",
-          "Cultural Impacts",
-          "The Hasdeo Forest holds deep cultural significance for indigenous communities who have lived there for generations. Their cultural and spiritual practices are deeply intertwined with the forest ecosystem (Verma, 2024). As Ghosh (2022) notes, the community’s resistance is fundamentally tied to the defence of their cultural heritage and their right to continue traditional ways of life without external disruption. Displacement in the region, largely driven by mining in the Hasdeo-Arand Coalfield, has forced many indigenous people to relocate to urban or peri-urban areas, where they struggle to preserve their cultural identities and face pressures to assimilate (Mathew & Kasi, 2021, as cited in Verma, 2024).",
-          "Repeated displacement, weakening legal protections, and the continued alignment of state policies with corporate interests have further marginalised these cultural claims (Ghosh, 2022; Mukherjee, 2021). The bypassing of gram sabha consent processes, particularly after the 2014 amendment to the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013, is not merely a legal violation but a profound dismissal of the cultural governance systems that these communities depend upon for decision-making and environmental management (Talukdar, 2021). The imposition of development projects without genuine community consultation reflects a systemic disregard for indigenous voices and cultural values."
-        ]
-      },
-      {
-        heading: "  II.	URBAN SPRAWL IN HYDERABAD",
-        paragraphs: [
-          "Hyderabad, a fast-growing city and key IT hub, exemplifies the environmental threat posed by uncontrolled urbanisation. The city’s intense land use changes, driven by infrastructure corridors, gated enclaves, and industrial parks, have led to the loss of ecosystem services, increased vulnerability to disasters, and conflicts with biodiversity targets under SDG 15: Life on Land.",
-          "Patterns and Processes of Urban Expansion",
-          "Urban expansion in Hyderabad, particularly since liberalisation, has been driven by real estate developers and large-scale infrastructure projects such as the Outer Ring Road, IT corridors along Gachibowli-Kondapur, and the planned Pharma City. Farmlands, wetlands, and forest cover have been rapidly urbanised (Jha et al., 2021; Ramachandra et al., 2020).",
-          "Remote sensing estimates indicate that the city’s green cover declined from 2.71% in 1991 to 1.66% in 2020 (Jha et al., 2021). Simultaneously, more than half of the water bodies within the Hyderabad Metropolitan Development Area (HMDA) have either disappeared or become ecologically degraded due to encroachments (Ramachandra et al., 2020).",
-          "Case Study: Kanche Gachibowli Forest Clearing (April, 2025)",
-          "In April 2025, the government ordered the clearing of approximately 400 acres near the University of Hyderabad in the Kanche Gachibowli area for the possible development of IT parks. Around 1,524 trees, including 125 protected species, were felled using heavy machinery, raising concerns regarding violations of the Forest Conservation Act and Environmental Impact Assessment (EIA) norms (newindianexpress.com).",
-          "The Supreme Court took suo motu cognisance of the matter, ordering an immediate halt to tree felling and requesting an expert assessment by the Central Empowered Committee (CEC) (telanganatoday.com). The CEC found “extensive damage” to the site, including harm to flora, fauna, and hydrological features, and questioned the haste in diverting land without appropriate environmental assessment (newindianexpress.com).",
-          "The case sparked protests by university students and professors, who highlighted the environmental importance of the land, its status as a habitat for peacocks, deer, and indigenous plant species, and its role in maintaining local water cycles (indianexpress.com).",
-          "Enforcement: Hydra (HYDRAA) crackdowns (2024-2025)",
-          "In July 2024, Telangana established HYDRAA, the Hyderabad Disaster Response & Asset Protection Agency, with the mandate to clear encroachments on public properties such as lakes, drains, and parks (en.wikipedia.org). By late 2024, HYDRAA pledged to exempt residential buildings constructed before July 2024 from demolition but to dismantle commercial and encroaching buildings constructed thereafter, particularly around lakes and water bodies (timesofindia.indiatimes.com).",
-          "In April 2025, HYDRAA reclaimed 39 acres of government land at Raidurg (Narne Estates) and 39.2 acres in Hafeezpet (Vasantha Homes), removing unauthorised constructions, encroachments on water bodies, and site signboards, despite ongoing Supreme Court litigations (newindianexpress.com).",
-          "Environmental and Social Consequences",
-          "The large-scale urbanisation and forced demolitions highlight deep-rooted governance and equity challenges. Urban sprawl has intensified Hyderabad’s urban heat island effect, worsened air pollution, and increased flood risks, as clearly demonstrated during the 2020 floods when the filling of lakes and the clogging of stormwater drains caused loss of life and extensive infrastructure damage (Shah, 2020).",
-          "HYDRAA’s demolition drives, though intended to reclaim public land, often targeted marginal and developer-built areas; many affected individuals lacked secure tenure or legal support (Ramesh & Rao, 2021). Displacement without adequate rehabilitation remains a persistent issue.",
-          "Relevance to SDG15",
-          "Hyderabad’s experience highlights the tension between short-term economic growth and environmental sustainability. SDG 15 targets, particularly those related to conserving ecosystems (15.1) and halting biodiversity loss (15.5), are under direct threat from such developments. The Kanche Gachibowli case, in particular, underscores institutional shortcomings in protecting urban ecosystems and enforcing environmental safeguards."
-        ]
-      },
-      {
-        heading: "4.	ADDITIONAL INSIGHTS",
-        paragraphs: [
-          "The cases of illegal mining in Chhattisgarh and urban sprawl in Hyderabad reveal significant fault lines in India’s environmental governance. Although they differ by region and sector, mining versus urban infrastructure, both illustrate a development trajectory that consistently sidelines ecological concerns and disempowers local communities. These case studies expose persistent institutional failures and offer valuable insight into the limitations of current sustainability efforts under Sustainable Development Goal (SDG) 15: Life on Land.",
-          "Common Patterns and Structural Failures",
-          "Across both cases, poor governance emerges as a consistent pattern. In Chhattisgarh, mining operations continue with minimal regulation, often bypassing environmental clearances and violating the Forest Rights Act (FRA), which legally secures forest communities’ rights to their lands. In Hyderabad, state and city-level authorities have facilitated unchecked urban growth through selective land-use amendments, often disregarding Environmental Impact Assessment (EIA) protocols and forest protections, as exemplified by the 2025 Kanche Gachibowli deforestation incident.",
-          "Another shared theme is the persistent prioritisation of economic development over environmental and social justice. In both instances, government narratives of “progress” and “infrastructure expansion” are employed to justify land acquisition, displacement, and ecological destruction. These narratives serve to legitimise the transfer of public or common lands, often rich in biodiversity and essential to local livelihoods, into the hands of private industrial and real estate developers.",
-          "Moreover, both cases highlight the systemic exclusion of local and indigenous communities from planning and governance processes. In Chhattisgarh, Adivasi populations face displacement and criminalisation when they resist illegal mining activities. In Hyderabad, informal settlers and protesters opposing lake encroachments or forest clearance are routinely ignored, or worse, targeted through enforcement bodies such as the Hyderabad Disaster Response and Asset Protection Agency (HYDRAA). These exclusionary practices result in development outcomes that are both ecologically unsustainable and socially unjust.",
-          "Alternative Development Pathways",
-          "Despite these failings, opportunities exist to chart alternative development pathways that centre ecological sustainability and democratic participation. In Chhattisgarh, community-led forest governance movements have successfully challenged unauthorised mining, demonstrating the effectiveness of bottom-up conservation strategies aligned with FRA protections and biodiversity goals. Similarly, in Hyderabad, grassroots protests, such as those against the tree felling in Kanche Gachibowli, have prompted judicial intervention and sparked broader public debate on environmental governance.",
-          "Realising these alternatives will require robust institutional accountability, strict legal compliance, and participatory decision-making processes. A rights-based approach to land governance, supported by transparent EIA procedures and stringent enforcement against non-compliance, could lead to a more equitable development model. Incorporating ecological data into urban planning, using tools such as geospatial zoning and assessments of ecological carrying capacity, could help safeguard critical ecosystems from irreversible damage.",
-          "Global Relevance and SDG Trade-off",
-          "The tensions evident in these two Indian cases reflect a broader global challenge: balancing SDG 15 (Life on Land) with overlapping objectives like SDG 8 (Decent Work and Economic Growth) and SDG 9 (Industry, Innovation and Infrastructure). Across the Global South, infrastructure and extractive projects are frequently prioritised at the expense of biodiversity, climate resilience, and human rights.",
-          "These trade-offs underscore the importance of integrated policy responses that do not subordinate ecological considerations. The Indian experience demonstrates that environmental sustainability cannot simply be an add-on to development agendas; it must be embedded within the design, governance, and execution of development initiatives. Anything less risks reducing sustainable land use and biodiversity conservation to little more than aspirational targets."
-        ]
-      }
-    ],
-    conclusion: [
-      "India’s development trajectory, both in rural mining regions and rapidly expanding urban centres such as Hyderabad, reveals a persistent conflict between economic growth and environmental protection under SDG 15. While India has legal provisions intended to safeguard biodiversity and protect community rights, these laws are frequently bypassed, weakly enforced, or treated as administrative hurdles. Cases like Ghatbarra demonstrate how the consent of indigenous communities is often disregarded, with clearances granted despite legal protections such as the Forest Rights Act (FRA) and the Panchayat (Extension to Scheduled Areas) Act (PESA). In Hyderabad, the unchecked spread of infrastructure projects, shrinking green cover, and the loss of water bodies have intensified environmental risks, including flooding, urban heat islands, and air pollution. Demolition drives like those carried out by HYDRAA, while aimed at reclaiming public spaces, have also exposed underlying governance issues, particularly the displacement of vulnerable groups without proper rehabilitation. Although India’s legal frameworks offer indigenous and local communities more formal rights compared to countries like Australia, where the Wangan and Jagalingou people face weaker protections, the problem in India lies in the gap between the law and its enforcement (Talukdar, 2021). Activists continue to play a crucial role in bridging this gap by making legal information accessible and supporting communities in navigating complex bureaucracies. Ultimately, India’s ability to meet its SDG 15 targets depends not only on having strong laws, but on ensuring their meaningful enforcement, rebuilding public trust, and placing community voices and ecological sustainability at the centre of development planning."
-    ],
-    references: [
-      {
-        heading: "Chhotray, V. (2022). Extractive regimes in the coal heartlands of India: Difficult questions for a just energy transition. Climate Justice in India, 74-97."
-      },
-      {
-        heading: "Ghosh, D. (2022). ‘This land is our mother and we cannot dig up the bones of our mother’: Adivasi Dispossession and Contestation in Chhattisgarh: The 2020 AR Davis Memorial Lecture. Journal of the Society for Asian Humanities, 53, 3-21."
-      },
-      {
-        heading: "HYDRAA reclaiming land and demolitions (April 2025)."
-      },
-      {
-        heading: "Jha, A., & Jha, R. (2022). A CONFLICT REIGNITED BY COAL-Anti-Mining Protests in Chhattisgarh and what it means for the country. International Research Journal of Management Sociology & Humanity, 3(10), 2277-9859."
-      },
-      {
-        heading: "Jha, S., Kumar, D., & Anand, S. (2021). Urban sprawl and the loss of green cover in Hyderabad: A geospatial analysis. Journal of Urban and Environmental Studies, 12(3), 221–234."
-      },
-      {
-        heading: "Klein, M. (2020). SDG 15: life on land. Jean Monnet Sustainable Development Goals Network Policy Brief Series, 1, 1-6."
-      },
-      {
-        heading: "Kumar, M. (2024). Violent transitions: towards a political ecology of coal and hydropower in India. Climate and Development, 16(9), 751-761."
-      },
-      {
-        heading: "Mahajan, V., & Singh, J. (2022). Lives, livelihoods and environment: The challenge of sustainable development goals in India. Financial crises, poverty and environmental sustainability: Challenges in the context of the SDGs and Covid-19 recovery, 93-105."
-      },
-      {
-        heading: "Mukherjee, T. (2021). We, the people of India. Journal of the Department of Sociology of North Bengal University, 8(31), 2348-6538."
-      },
-      {
-        heading: "Ramachandra, T. V., Bharath, H. A., & Sowmyashree, M. V. (2020). Impact of urbanisation on the hydrology of Hyderabad's wetlands. Environmental Monitoring and Assessment, 192(5), 312."
-      },
-      {
-        heading: "Ramesh, S., & Rao, K. (2021). Environmental governance in Indian cities: case study of Hyderabad's expansion. Urban Affairs Review, 57(6), 1489–1510."
-      },
-      {
-        heading: "Ravindra, N. (2019). SUSTAINABLE LAND MANAGEMENT INDICATORS UNDER THE FRAME OF UN SDG 15: LIFE ON LAND (A CASE STUDY ON INDIA). International Journal of Engineering Applied Sciences and Technology, 4(2), 2455-2143."
-      },
-      {
-        heading: "Sayer, J., Sheil, D., Galloway, G., Riggs, R. A., Mewett, G., MacDicken, K. G., ... & Edwards, D. P. (2019). SDG 15 Life on land–the central role of forests in sustainable development. In Sustainable development goals: their impacts on forest and people ( 482-509). Cambridge University Press."
-      },
-      {
-        heading: "Shah, A. (2020, October 18). Hyderabad floods: The price of urban apathy. The Hindu."
-      },
-      {
-        heading: "Supreme Court orders halt to deforestation in Kancha Gachibowli (April 2025) (telanganatoday.com)."
-      },
-      {
-        heading: "Taldukdar, R. (2021). Indigenous peoples demand'water, forests, land'before coal. Green Left, (1323), 12-13."
-      },
-      {
-        heading: "Talukdar, R. (2022). Indigenous resistance and forest rights key to green climate action. Green Left, (1370), 13-13."
-      },
-      {
-        heading: "Telangana Forest Department. (2025). Supreme Court and CEC halt tree-felling in Kanche–Gachibowli."
-      },
-      {
-        heading: "Tisdell, C. A. (2020). Biodiversity Conservation and the UN’s Sustainable Development Goals: India’s Responses Evaluated—Particularly in Relation to SDG15. Sustainable Development Goals: An Indian Perspective, 225-233."
-      },
-      {
-        heading: "Tripathy, S. N. (2024). Indigenous Displacement in India: A Tragic Tale of Uprooted Lives and the Battle for Hasdeo’s Heart. Society and Culture Development in India, 4(1), 169-183."
-      },
-      {
-        heading: "Verma, M. (2024). Migration and Displacement from Hasdeo Forest Area at Chhattisgarh: A Study. Innovation and Integrative Research Center Journal, 2(11), 83-94."
-      }
-    ]
-  },
-  {
-    id: 5,
-    issue: 2,
-    volume: 1,
-    title: "GEOPOLITICAL STRESSIMPACTING FINANCIAL MARKETS IN INDIA: A Secondary Data-based research study",
-    author: "Shubh Kirti, Divya Anand, K. Siva Rama Subramaniam, K K Praveena, Kanishka Jindal",
-    authorAbbrev: "S. Kirti, D. Anand, and others",
-    abstract: "This research examines the effects of geopolitical pressures on the financial markets in India, emphasizing how international disputes and global conflicts affect key metrics like the stock market, foreign exchange rates, foreign institutional investment (FII) flows, and commodity prices. India, as a developing economy with considerable involvement in global trade and capital movements, is especially vulnerable to geopolitical disturbances like the Israel–Hamas war, the Russia–Ukraine conflict, and increasing U.S.–China tensions. Such incidents frequently create a reluctance to take risks, disturb energy supplies, and incite capital outflow, leading to currency devaluation, fluctuations in the stock market, and inflationary tensions. Through recent case studies and time-series data examination, the study investigates the pathways by which geopolitical uncertainty influences investor behavior and market results. The results indicate that even conflicts occurring far away can create notable short-term disruptions in India's financial system, particularly via increased oil prices and abrupt changes in global liquidity. Moreover, the research emphasizes the function of the Reserve Bank of India (RBI) in stabilizing the rupee and preserving macroeconomic equilibrium via intervention tactics. This study seeks to enhance the comprehension of how financial markets in emerging economies react to geopolitical risks and offers policy suggestions to strengthen India's economic resilience and market stability amid growing global uncertainty. ",
-    status: "Submitted",
-    intro: [
-      "In a more interconnected world, the stability of national financial markets, including India's, is greatly affected by geopolitical factors like military conflicts, trade disagreements, and diplomatic strains. India's swift economic growth and incorporation into international trade render it especially susceptible to external disturbances that may hinder its financial stability. Geopolitical factors appear as worldwide political tensions that foster instability, influencing India's stock exchanges, foreign exchange (forex) markets, commodity values, and capital movements. The nation’s dependence on imported crude oil and vulnerability to foreign investments increase its exposure to these geopolitical disturbances. For example, the forex market responds quickly to geopolitical instability, causing the Indian rupee to weaken when safe-haven currencies gain strength, which can increase import costs and inflation, especially regarding oil prices. Foreign Institutional Investors (FIIs) frequently exit emerging markets amid geopolitical tensions, causing substantial drops in equity indices such as the Nifty 50 and Sensex. This trend shows a relationship between global risk appetite and market movements in India. ",
-      "The research seeks to examine the influence of geopolitical elements on India's financial markets, investigating both short-term and long-term effects on currency rates, stock indices, capital movements, bond yields, and commodity prices. Through the analysis of recent geopolitical events, the study aims to improve insights into risk transmission in India's financial system and recommend measures to strengthen economic resilience. "
-    ],
-    content: [
-      {
-        heading: "Research Findings",
-        paragraphs: [""]
-      },
-      {
-        heading: "Impact of Russia Ukraine Conflict on the Indian Stock Market",
-        paragraphs: [
-          "India has maintained strong, time- tested strategic diplomatic relations with both Russia and Ukraine. Russia and India marks its 78 years of diplomatic engagement which have been strong since the Cold War and the beginning was marked after the resolution of the Soviet Union in 1991. Ever since it has maintained strong relations, tightening it through the signing of “Declaration on the India-Russia Strategic Partnership” in October 2000 and “Special and Privileged Strategic Partnership” in 2010 which enhanced the levels of cooperation in areas of defence, security, trade and economy, science and technology and culture. In 2023-24 reports, Russia stands as the fourth largest trade partner of India with bilateral trade of $65.5 Billion in present mainly in crude oil, coal, nuclear energy and defence equipment’s. Its contribution has been the most in defence accounting for India's top military 36% of total defence imports where the relations has progressed from a mere buyer seller to one involving development, advancement and research in the field (Ministry of External Affairs).",
-          "Regarding India’s relation with Ukraine, it was one of the first countries to recognize Ukraine as a sovereign country in December 1991. The relationship has primarily revolved around trade, education, and cooperation in areas such as science and technology, defense repair services, and pharmaceuticals. Ukraine has been a key exporter of agricultural products like sunflower oil and corn to India, while India has exported pharmaceuticals, machinery, and chemicals. A significant aspect of the relationship is the presence of thousands of Indian students, particularly in medical universities across Ukraine, which has fostered people-to-people ties."
-        ]
-      },
-      {
-        heading: "India’s stance on Russia Ukraine Conflict",
-        paragraphs: [
-          "India’s response to the Russia- Ukraine conflict shows a carefully calibrated balancing act rooted in strategic autonomy, non- alignment and national interest. India chose to abstain from voting on UN resolutions that criticized Russia and called for an immediate cessation of violence. This diplomatic posture allowed India to preserve its long standing strategic and defence partnership with Russia. It also did not remain indifferent to Ukraine, where PM Narendra Modi became the first PM to visit Ukraine since 1991. It underscored its India’s commitment to human security without compromising geopolitical interests. The Indian Stock Market comprising BSE and NSE serves as a crucial barometer of economic growth and investor sentiment. As an emerging market, it has attracted domestic and foreign investments and has also been triggered by global geopolitical developments, particularly cross-border tensions and conflicts. The usual reactions in the market would be the change in volatility of stocks, which fuels future uncertainty. It is followed by loss in investor confidence, disruption in global supply chains and foreign portfolio investment. Sectors like defence, oil, and energy are especially sensitive to these developments, while some remain resilient, others face heightened volatility.",
-          "From the history of shocks which affected Indian Stock market including Russia–Ukraine war, U.S.–China trade tensions, India–China border conflicts, and Middle East crises the pattern of reaction has been consistent. While equity markets may drop 3–7 per cent during major conflicts, it has been only temporary and short lived which has always been followed by growth and recovery.",
-          "A major blow after the Covid pandemic which shook the global economy has been the Russia Ukraine conflict which took start on 24th February 2022. Russia and Ukraine are significant international players and contributing to trade in energy and oil. According to the stock data from NSE, the closing price of Nifty 50 had been 17063.25 one day prior to the conflict which dropped to 15863.15 just few days after the conflict broke, marking a 7% decline as investors reacted to the uncertainty. But it was only a initial spike in volatility and was followed by resilient growth and recovery by end of the year where the closing price reached 18105.3. A report by The Times of India noted BSE SENSEX to experience the worst fall in the last 2 years. It crashed by nearly 4,000 points in the first 20 days of war falling below 51,000 level. It later witnessed a upward trajectory where it reached 60,000 by the end of 2022. ",
-          "Empirical studies have supported these observations. Madhvi Kaushik and Dr. Neeraj Kumar, using t-test analysis, revealed that there was a significant difference in Nifty 50 Index before and after the war. The primary explanation lies in India’s dependency on crude oil, edible oil, fertilisers, and defence supplies. Another study by Aaryash Bhandari and Amritkant Mishra to understand the impact of this conflict on specific sectoral indices revealed that war has created uncertainty among energy, oil and gas, real estate, IT, and FMCG sectors whereas metal, auto, and banking sector remained relatively stable. "
-        ]
-      },
-      {
-        heading: "Economic Implications and effect on consumer behaviour",
-        paragraphs: [
-          "IMFs article “The long lasting economic shock of war” named Russia’s invasion of Ukraine to destroy the global peace. The main effects had been the adverse economic trends, including rising inflation, poverty, food insecurity, deglobalization, and environmental degradation. India’s economic growth has been resilient and expanded 13.5% in the first quarter of 2022 but the real impact of this conflict was long term which reduced gdp growth to 6.3% by the second quarter. The inflation of India rose to a 8 year high of 7.79% after the conflict. This was mainly fuelled by the increase in global crude oil prices to $139 a barrel, due to global supply chain interruptions.",
-          "The impact on consumer behaviour has been cutting down the expenditure on luxury, delaying the purchase of expensive goods and reallocating spending toward essentials due to price spike, demonstrating the classic substitution effect and income effect from consumer theory. . The consumer sentiment index, tracked by CMIE, rose steadily until February 2022 but slowed down reflecting the dampening confidence post conflict. The pattern also revealed consumers moving to digital and e- commerce platforms attracted by discounts and looking for sustainable options. There was much dependence on public transport due to the hike in petrol prices as well. ",
-          "In conclusion, the Russia–Ukraine conflict served as a stress test for India's economic stability, stock market resilience, and consumer adaptability. While the immediate shocks were mitigated through strategic policy responses and market recovery, the long-term implications call for greater economic preparedness. While such a balancing stance invites invites criticism from both sides, it also enhances India’s credibility as a nation capable of mediating complex global crises through dialogue, pragmatism, and sovereign decision-making."
-        ]
-      },
-      {
-        heading: "Impact of Israel Hamas conflict on Financial Market of India",
-        paragraphs: [
-          "The continuing struggle between Israel and Hamas, which flared up dramatically in October 2023, has significant repercussions extending beyond the Middle East. The global financial system has been significantly impacted, particularly the foreign exchange (FX) markets in emerging economies such as India. Due to the conflict causing fluctuations in energy prices, increasing geopolitical risks, and impacting global investor sentiment, the Indian rupee (INR) faced increased strain. The resulting changes in capital movements, import expenses, and inflation outlooks have put the Indian foreign exchange market in a responsive position, highlighting the nation’s susceptibility to external geopolitical disturbances. ",
-          "India ranks among the largest global importers of crude oil, fulfilling over 85% of its energy needs through imports. A substantial share of this supply comes from the Middle East, especially via the Strait of Hormuz—a vital passage for worldwide oil. The intensification of the Israel–Hamas conflict heightened concerns about a broader regional war that could include Iran, Lebanon, or additional Gulf nations. Any involvement of this nature could jeopardize oil supplies, interrupt transport routes, and increase global crude oil prices. Consequently, Brent crude prices surged significantly, surpassing the $90-per-barrel threshold in the initial stages of the conflict before displaying some indicators of stabilization amid diplomatic initiatives. This rise in costs increased India’s import expenses, adding more pressure on the trade deficit and worsening current account issues. ",
-          "The direct result of increased oil prices was a decline in the value of the Indian rupee. In October–November 2023, the rupee declined to approximately ₹86.75–86.80 per U.S. dollar, indicating a notable depreciation compared to earlier in the year. A declining rupee increases import costs and contributes to inflationary pressure, particularly when paired with elevated energy prices. This, consequently, could influence consumer expenditure and growth outlooks in the overall economy. Market players attentively monitored the Reserve Bank of India (RBI), which took measures to control the currency’s fluctuations. The RBI disbursed dollars from its reserves to mitigate the decline and employed forward market operations to reassure expectations. ",
-          "Although geopolitical risks have long existed in the Indian FX market, the uniqueness of this event lies in its timing and its overlap with other global economic challenges. India, similar to various emerging markets, was already facing the effects of the U.S. Federal Reserve’s restrictive monetary policy. Increased interest rates in the U.S. enhance the appeal of dollar-denominated investments for international investors, frequently resulting in capital flight from more volatile emerging markets. The Israel–Hamas conflict introduced further uncertainty, causing foreign portfolio investors (FPIs) to withdraw investments from Indian equity and debt markets. In October and November 2023, FPIs were net sellers in Indian stocks, increasing the downward pressure on the rupee. ",
-          "The RBI's action extended beyond spot markets. It also utilized tools such as variable rate reverse repos (VRRR) to take in surplus liquidity and uphold stability in money markets. Furthermore, forward premium rates—the expense of safeguarding against future currency fluctuations—experienced an increase during the crisis's height, indicating that corporations and institutional investors were more actively pursuing protection against additional rupee decline. Nonetheless, the currency markets exhibited comparatively lower volatility than in past geopolitical occurrences, suggesting that the RBI's macroprudential framework had developed in its ability to handle external shocks. ",
-          "Another essential aspect was the effect on inflation. A weaker rupee along with more expensive oil imports resulted in increased pressure on wholesale and retail prices. The inflation measured by the Consumer Price Index (CPI), which had eased earlier in 2023, rose slightly once more, raising worries about the RBI’s capability to uphold its inflation targeting goal. Despite core inflation being kept in check by steady food prices, the overall inflation figures raised concerns among policymakers. Analysts pondered whether the RBI would maintain its pause on raising interest rates or adopt a more aggressive stance if inflationary pressures remained. ",
-          "Notably, although the rupee encountered difficulties, it demonstrated strength against other emerging market currencies, thanks to India's comparatively robust macroeconomic fundamentals. Foreign exchange reserves stayed strong at more than $590 billion, reassuring markets that the central bank could uphold the rupee if necessary. Additionally, India's GDP expansion continued to be among the quickest worldwide, bolstering investor trust in the medium term. This relative strength enabled the rupee to rebound in late December 2023 and January 2024, with the currency briefly reaching ₹86.05 per dollar as crude prices fell to $67–69 per barrel during ceasefire discussions and decreased regional tensions.","Additionally, the Israel–Hamas conflict highlighted the strategic necessity for India to diversify its energy import sources and strengthen energy security. India intensified its long-term agreements with Russia, the U.S., and African nations to lessen reliance on the Middle East. Policymakers have also intensified their efforts for the development of alternate energy sources, such as solar and green hydrogen, within the larger Aatmanirbhar Bharat (self-reliant India) framework. ",
-          "From a wider economic viewpoint, the conflict influenced investor confidence, especially for firms with supply chain or trade connections in West Asia. The Indian government observed developments carefully and undertook diplomatic initiatives to reduce tensions, fully aware that a prolonged conflict might escalate into a broader regional war, with significantly greater economic ramifications. Moreover, the conflict revealed the vulnerability of international payment networks and supply chains to geopolitical disturbances, highlighting the importance of strategic risk management, budgetary caution, and sufficient sovereign reserves. ",
-          "Ultimately, the Israel–Hamas conflict has noticeably influenced India’s foreign exchange market, operating via increased oil prices, heightened investor risk aversion, capital flight, and inflation anticipations. Despite an initial depreciation of the rupee, timely actions by the RBI, strong macroeconomic indicators, and sturdy external accounts aided in reducing significant repercussions. Nonetheless, the incident underscored India's vulnerability to worldwide disruptions and the significance of strategic economic oversight to sustain currency and financial stability. In the future, the performance of the FX market will depend on global crude oil trends, geopolitical events in West Asia, the Fed’s interest rate decisions, and India’s structural reforms and fiscal policy decisions. "
-        ]
-      },
-      {
-        heading: "Impact of the Russia-Ukraine Geopolitical Conflict on India’s Money Market ",
-        paragraphs: [
-          "The Russia-Ukraine war, which escalated in February 2022, has had profound repercussions on global economies and financial markets. India, despite being geographically distant and politically non-aligned, faced significant spill over effects, particularly in its money market — a crucial segment for short-term borrowing and lending that influences liquidity, interest rates, and inflation control.",
-          "1. Crude Oil Prices and Inflationary Pressures","Russia is the world’s third-largest oil producer, and the conflict led to global sanctions against Russian energy exports, reducing supply and spiking global oil prices. Brent crude crossed $120 per barrel in March 2022, compared to around $78 per barrel in December 2021 (Source: Statista). For India, which imports about 85% of its crude oil, this meant a sharp rise in import bills, leading to inflationary pressures.",
-          "India’s Consumer Price Index (CPI) inflation shot up to 7.8% in April 2022, well above the Reserve Bank of India’s (RBI) target of 4-6%. In response, the RBI raised the repo rate from 4% in May 2022 to 6.5% by February 2023, tightening liquidity in the money market. This caused a direct spike in short-term interest rates, impacting the yields of Treasury Bills (T-Bills), Certificates of Deposit (CDs), and Commercial Papers (CPs).",
-          "2. Foreign Portfolio Investment (FPI) Outflows",
-          "The geopolitical uncertainty drove risk aversion globally. FPIs began withdrawing from emerging markets, including India, to move into safer assets like U.S. Treasuries. Between February and June 2022, India saw FPI outflows of over ₹2.6 lakh crore, especially from the debt segment (Source: NSDL). These capital outflows led to a depreciation of the Indian Rupee, which touched ₹81.5/USD in September 2022, compared to ₹74/USD in January 2022 (Source: RBI). The rupee depreciation added to inflationary concerns and prompted the RBI to conduct Open Market Operations (OMOs) and currency market interventions, thereby affecting liquidity conditions in the money market.",
-          "3. Liquidity Crunch and Volatility in Yields",
-          "As inflation rose and the RBI began tightening monetary policy, the Weighted Average Call Rate (WACR) — a key money market indicator — increased from around 3.3% in January 2022 to 6.4% by March 2023. The demand for short-term funds increased, while supply remained restricted due to the RBI’s policy stance.",
-          "T-Bill yields rose significantly:",
-          "•	91-day T-Bill yield: From 3.7% in Jan 2022 to 6.9% in Mar 2023",
-          "•	364-day T-Bill yield: From 4.3% to 7.1% during the same period (Source: RBI)",
-          "Such yield increases make short-term borrowing costlier for businesses and banks, reducing credit availability and investment activity.",
-          "4. Government Borrowing and Fiscal Pressure",
-          "Higher oil prices widened India’s Current Account Deficit (CAD) to 3.7% of GDP in Q2 FY23. To manage fiscal stress, the government increased market borrowings. The increased supply of government securities added pressure on the short-term yield curve in the money market.",
-          "The Russia-Ukraine conflict has impacted India’s money market by creating inflationary pressure, triggering interest rate hikes, causing FPI outflows, and increasing volatility in short-term instruments. While the Indian economy has shown resilience, the geopolitical tension has underscored the vulnerability of financial markets to global events.",
-        ]
-      },
-      {
-        heading: "Impact of Pahalgam attack on Indian Stock Market",
-        paragraphs: [
-          "On April 23, 2025, the market started at 24,357.60 and ended at 24,039.35 on April 25, 2025, reflecting a movement of approximately -1.31% over the last three days of that week. The market went through fluctuations during the initial phase, with gains and losses as investors were hesitant and careful in the wake of the Pahalgam attack. On April 25, the Sensex posted a 600-point decline (about 0.74%) to settle around 79,212, continuing its slide into the week’s end. For investors and market stakeholders, this rise in geopolitical risk brought about a new wave of uncertainty and heavily impacted sectors that are sensitive to global sentiment—defense, energy, and aviation were among the first to feel the strain.",
-          "Between May 5, 2025, and May 9, 2025, when India executed military operations targeting nine locations throughout Pakistan and Pakistan-occupied Kashmir, the Nifty 50 index experienced significant fluctuations. On May 5, the market started at 24,419.50 and closed at 24,008.00 on May 9, 2025, indicating a decrease of 1.69% .The market remained unpredictable during Operation Sindoor and investors faced uncertainty regarding the severity and duration of this unrest. ",
-          "However, The ceasefire announcement i.e. on May 10, 2025 sparked a notable rise in market sentiment, leading to a 3.82% increase, with the market closing at 24,924.70. The rally was driven by restored investor confidence following the easing of geopolitical tensions. The ceasefire news is expected to boost market sentiment since the de-escalation alleviates a key source of investor anxiety and is likely to be regarded as a significant positive development by the financial markets. "
-        ]
-      },
-      {
-        heading: "Impact of Operation Sindoor on India's capital market ",
-        paragraphs: [
-          "India and Pakistan, born out of the partition of British India in 1947, have shared a turbulent relationship characterized by wars, border tensions and diplomatic standoffs. At the core of their conflict lies the long-standing Kashmir dispute, which has been the flashpoint for most military confrontations, including the wars of 1947, 1965, 1971, and the 1999 Kargil conflict. One such recent event was the Pahalgam terrorist attack in June 2025. This act of terror not only reignited geopolitical tensions but also sent ripples through Indian financial markets.",
-          "Following the Pahalgam attack, the Indian stock market witnessed a sharp decline, reflecting investor nervousness amid fears of rising conflict. The benchmark indices such as the Sensex and Nifty dipped in the immediate aftermath, driven by sectors sensitive to geopolitical risk, such as banking, infrastructure, and travel. Historically, such attacks have led to short-term volatility, as markets react to uncertainty over national security, foreign relations, and potential retaliatory actions.",
-          "Thus, Indo-Pak relations, particularly during periods of heightened conflict or attacks like Pahalgam, continue to play a critical role not just in shaping regional peace, but also in influencing India’s economic and financial stabilility. "
-        ]
-      },
-      {
-        heading: "After effects of Operation Sindoor",
-        paragraphs: [
-          "The Indian equity markets showed initial caution but quickly rebounded after the news of Operation Sindoor. Although Gift Nifty indicated a lower opening, both Sensex and Nifty rose shortly after markets opened despite geopolitical tensions. On May 7, 2025, the Sensex began 692 points down but recovered to gain over 200 points, remaining volatile and slightly down around 10 AM. The Nifty 50 also declined initially but made gains later in the day. The Indian rupee opened 19 paise lower against the US dollar, with investors favoring safe-haven assets leading to a slight increase in gold prices. Government bond yields showed stability in early trading. In contrast, Pakistan’s stock exchange plummeted by 5%, with the KSE-100 index dropping over 7.2%, indicating heightened investor fear regarding the country's economy." ,
-          "The conflict led to immediate disruptions, halting bilateral trade valued at $1.2 billion per year. Pakistan’s suspension of trade affected access to Indian pharmaceuticals and cotton, pushing import costs up by 20–30% through informal routes. India incurred losses from the closure of the Attari-Wagah border, projected at ₹7,013 crore over five years, resulting in nearly 12,000 job losses. The 'war-like situation' hurt consumer sentiment, particularly in states like Punjab and Gujarat, where sales of discretionary products dropped by 20-50%. However, the ceasefire created potential for recovery in consumer goods demand.",
-          "Inflation emerged as a concern, with a weaker rupee increasing import costs, especially for crude oil, while elevated defense spending posed risks to essential goods pricing. Pakistan's economy, already fragile with inflation over 38% and dependence on IMF bailouts, faced severe impacts, potentially leading to a currency crisis and shortages. Indian investors, particularly in mutual funds, remained composed, avoiding panic sell-offs and taking advantage of market dips, particularly in defense and energy sectors. While foreign institutional investors might show temporary caution, they leaned toward Indian large-cap companies for growth prospects amid global stagnation. ",
-          "Historically, Indian markets have shown resilience against geopolitical tensions, with modest declines followed by recoveries. The analysis of previous conflicts indicates a consistent pattern of markets recovering rapidly post-tension. Current investor behavior indicates a trend of focusing on long-term investments and weight on stability in sectors like healthcare and IT. Despite challenges, India’s macroeconomic fundamentals remain strong, bolstered by increasing FDI and the prospective India-UK Free Trade Agreement. Operation Sindoor's impact on markets appears contained, signaling opportunities rather than panic, while investor caution against scams is critical amidst the operation's geopolitical implications."
-        ]
-      },
-      {
-        heading: "Impact of the 1962 Indo-China War on India’s Foreign Exchange Market",
-        paragraphs: [
-          "The 1962 Indo-China War between India and China not only represented a military encounter but also served as a critical economic shock, prompting India to reshape its developmental agenda. The brief conflict led to increased defense spending, a strain on foreign exchange reserves, and a shift in foreign exchange policies during a period dominated by the Second Five-Year Plan, which focused on public sector investments and import-led industrialization. The abrupt pivot towards defense readiness destabilized India's already fragile balance of payments (BoP).",
-          "Defense expenditure surged from ₹200 crore in 1961–62 to ₹460 crore by 1965–66—an increase of over 130%—primarily due to the urgent need for military equipment, which had to be imported from countries like the U.S. and USSR, thus exerting substantial pressure on India’s limited foreign reserves. Concurrently, the trade deficit ballooned from ₹196 crore in 1961–62 to ₹663 crore by 1965–66, driven not just by defense imports but also an escalating dependence on imports for essentials such as oil and food grains, further complicating the economic scenario.",
-          "Foreign exchange reserves, which stood at approximately $705 million in 1958, began to dwindle, falling to around $400 million by 1965. This decline stemmed from heightened payments for military imports and reduced remittances, coupled with weak export earnings amid pricing pressures internationally. The current account deficit, reaching nearly 3% of GDP in the mid-1960s, indicated significant stress on India’s external financial position. ",
-          "To address the resulting financing gap, India sought aid from international financial institutions, with over $1.5 billion received from the U.S.-backed Aid India Consortium between 1961 and 1966. However, this aid often came with stipulations for India to undertake structural reforms including fiscal discipline and trade liberalization. The necessity to stabilize its BoP led to the devaluation of the Indian rupee in 1966, shrinking its value by 36.5%. While intended to bolster export competitiveness, the devaluation spurred domestic inflation and political discontent due to its adverse economic effects. ",
-          "The post-war period saw increased rupee volatility, compelling the Reserve Bank of India (RBI) to intervene actively. In light of the crisis, the government imposed stringent exchange control measures, including regulations on foreign currency transactions and foreign travel, setting the stage for the Foreign Exchange Regulation Act (FERA) of 1973, rooted in the vulnerabilities revealed by the war.",
-          "India’s strategy evolved towards Import Substitution Industrialization (ISI) to mitigate the forex crises. The government incentivized local production of essential goods and defense equipment while tightening industrial licensing to curtail imports. Recognizing the weaknesses in its export base, India implemented various export promotion schemes. Nonetheless, these efforts led to the entrenchment of a high-cost industrial structure that would later complicate reforms.",
-          "The conflict and devaluation culminated in cost-push inflation, with prices rising significantly, especially affecting the urban poor, leading to political unrest. The inflation undermined developmental targets, forcing policymakers to adjust their objectives amidst external economic pressures.",
-          "Geopolitically, the war prompted India to pivot closer to the Soviet Union, an opportunity to reduce dollar dependency through rupee trade agreements. This shift altered India’s foreign exchange landscape, allowing temporary relief while complicating trade balance efforts. Overall, the 1962 Indo-China War catalyzed a significant transformation in India's economic policies and foreign exchange management, revealing critical structural weaknesses in its import-driven strategy and reliance on external aid. In response, India adopted stringent exchange controls and pursued a policy of self-reliance through import substitution, leading to a tightly regulated economic framework that persisted until the 1990s liberalization.",
-          "Thus, the war instigated a re-evaluation of India’s development priorities, establishing forex management as a central tenet of macroeconomic policy. It represented a pivotal moment in India's economic history, reshaping the nation's approach to foreign exchange for decades."
-        ]
-      }
-    ],
-    conclusion: [
-      "The results of this research demonstrate that geopolitical stressors—including wars, border conflicts, and global confrontations—have a profound and complex impact on the Indian financial markets. Although India may not frequently participate in these events directly, the interdependence of global trade, capital, and energy markets guarantees that any major geopolitical upheaval quickly impacts India’s stock exchanges, currency rates, money market instruments, and commodity prices. ",
-      "Incidents like the Russia–Ukraine war, the Israel–Hamas conflict, the 2025 Pahalgam terrorist attack, and the following Operation Sindoor emphasize the effect of global and regional turmoil on India's economic metrics. Such disruptions frequently result in greater uncertainty, amplified volatility, capital flight, and inflationary stress—particularly via the oil import route. The significant increase in crude oil prices and the depreciation of the rupee during these conflicts directly affected India’s import expenses, inflation, and interest rates. The exit of Foreign Portfolio Investors (FPIs) in these situations, as observed during the Russia–Ukraine conflict and the Israel–Hamas crisis, exacerbates instability in financial markets, indicating a global aversion to risk and a drop in investor confidence.",
-      "Despite these disruptions, the Indian economy and markets have repeatedly demonstrated notable strength. Historically, both the Sensex and Nifty indices have faced brief downturns followed by consistent recoveries, supported by robust macroeconomic indicators, timely policy actions by the Reserve Bank of India (RBI), and investor faith in India's long-term growth narrative. In instances like Operation Sindoor, early volatility transitioned to investor confidence after the easing of hostilities, indicating that markets tend to react favorably to stability and clear geopolitical narratives. ",
-      "The research emphasizes the essential function of the RBI in supporting the rupee and ensuring liquidity stability via its monetary instruments—like open market operations, currency interventions, and interest rate modifications. Likewise, the government's diplomatic balancing efforts, like sustaining strategic relationships with Russia while providing humanitarian support to Ukraine, demonstrate India's policy adaptability in a multipolar environment. ",
-      "A major insight is that investor behavior is very responsive to perceived geopolitical risk, influencing not just equity markets but also currency markets, inflation expectations, and consumption trends. During crises, consumer expenditure often shifts from non-essential to essential items, while the demand for safe investments such as gold or government bonds increases. The 1962 Indo-China conflict provides a historical perspective on how such clashes can alter macroeconomic policy, foreign exchange tactics, and even long-term development planning. ",
-      "In summary, although geopolitical stressors are external and unforeseeable, their economic impacts are significant and necessitate readiness, policy flexibility, and strategic vision. Moving ahead, boosting India's energy security, broadening trade alliances, increasing foreign exchange reserves, and establishing robust fiscal protections will be vital to shielding the financial system from these external disruptions. Additionally, educating investors and implementing financial market reforms should focus on fostering confidence and reducing reactions driven by panic. This research highlights the necessity for ongoing surveillance, analytics-based predictions, and cooperative economic diplomacy to safeguard and stabilize India’s financial framework amidst a more turbulent geopolitical landscape. "
-    ],
-    references: [
-      {
-        heading: "Business Standard. (2023, October 15). India’s current account deficit worsens due to oil shock.", 
-        links: "https://www.business-standard.com"
-      },
-      {
-        heading: "International Monetary Fund. (2023). World economic outlook: Navigating global shocks. ", 
-        links: "https://www.imf.org/en/Publications/WEO"
-      },
-      {
-        heading: "LiveMint. (2023, October 18). RBI interventions help rupee stay resilient despite war-led oil shock. ", 
-        links: "https://www.livemint.com"
-      },
-      {
-        heading: "Ministry of Finance, Government of India. (2024). Economic review reports. ", 
-        links: "https://dea.gov.in/economic-surveys"
-      },
-      {
-        heading: "OilPrice.com. (2023, October 12). Brent crude rallies on Middle East conflict fears. ", 
-        links: "https://oilprice.com"
-      },
-      {
-        heading: "Reserve Bank of India. (2024). Monthly bulletin: Foreign exchange reserves and exchange rate data. ", 
-        links: "https://www.rbi.org.in"
-      },
-      {
-        heading: "Reuters. (2023, October 14). Rupee falls as oil rises amid Israel-Hamas conflict. ", 
-        links: "https://www.reuters.com"
-      },
-      {
-        heading: "The Economic Times. (2023, October 16). FPIs turn net sellers amid geopolitical tensions. ", 
-        links: "https://economictimes.indiatimes.com"
-      },
-      {
-        heading: "The Hindu BusinessLine. (2024, January 5). Energy security: India accelerates diversification amid Middle East conflict. ", 
-        links: "https://www.thehindubusinessline.com"
-      },
-      {
-        heading: "United Nations Conference on Trade and Development. (2023). Trade and development report 2023. ", 
-        links: "https://unctad.org"
-      },
-      {
-        heading: "World Bank. (2023). Macro poverty outlook for India. ", 
-        links: "https://www.worldbank.org"
-      },
-      {
-        heading: "BloombergQuint. (2023, October 20). How geopolitics is influencing emerging market currencies. "
-      },
-      {
-        heading: "Groww. (n.d.). Geopolitical events and their effects on financial markets. Groww. ", 
-        links: "https://groww.in/blog/geopolitical-events-and-their-effects-on-financial-markets"
-      },
-      {
-        heading: "Times of India. (2023, February 24). One year of Russia-Ukraine war: How the conflict impacted Indian economy. ", 
-        links: "https://timesofindia.indiatimes.com/business/india-business/one-year-of-russia-ukraine-war-how-the-conflict-impacted-indian-economy/articleshow/98214568.cms"
-      },
-      {
-        heading: "Times of India. (2022, February 24). Sensex crashes over 1300 points as Russia orders military action in Ukraine. ", 
-        links: "https://economictimes.indiatimes.com/markets/stocks/news/sensex-crashes-over-1300-points-as-russia-orders-military-action-in-ukraine/articleshow/89789291.cms?from=mdr"
-      },
-      {
-        heading: "Deccan Herald. (2023, August 22). Do geopolitical events really move Indian markets? ", 
-        links: "https://www.deccanherald.com/business/markets/do-geopolitical-events-really-move-indian-markets-3546453"
-      },
-      {
-        heading: "Business Standard. (2025, May 8). Indo-Pak cross-border tensions: How it impacts the stock market. ", 
-        links: "https://www.business-standard.com/content/specials/indo-pak-cross-border-tensions-how-it-impacts-the-stock-market-125050800582_1.html"
-      },
-      {
-        heading: "Bhandari, A., & Mishra, A. (2023). Effect of Russia-Ukraine conflict on sectoral indices: A pragmatic investigation of Indian stock market. SSRG International Journal of Economics and Management Studies, 10(10), 47–53. ", 
-        links: "https://doi.org/10.14445/23939125/IJEMS-V10I10P106"
-      },
-      {
-        heading: " Kaushik, M., & Kumar, N. (2023). Impact of Russia Ukraine war on stock market in India (A study on NSE Nifty 50). International Journal of Financial Management and Economics, 6(1), 162–165. ", 
-        links: "https://doi.org/10.33545/26179210.2023.v6.i1.188"
-      },
-      {
-        heading: "International Monetary Fund. (2022). The long-lasting economic shock of war. IMF Finance & Development. ", 
-        links: "https://www.imf.org/en/Publications/fandd/issues/2022/03/the-long-lasting-economic-shock-of-war"
-      },
-      {
-        heading: "Centre for Monitoring Indian Economy. (n.d.). CMIE Database. ", 
-        links: "https://www.cmie.com/"
-      },
-      {
-        heading: "NSE Indices. (n.d.). Historical data reports. ", 
-        links: "https://www.niftyindices.com/reports/historical-data"
-      },
-      {
-        heading: "BSE India. (n.d.). Index archive data. ", 
-        links: "https://www.bseindia.com/Indices/IndexArchiveData.html"
-      },
-      {
-        heading: "Embassy of India, Moscow. (n.d.). India-Russia bilateral relations. ", 
-        links: "https://indianembassy-moscow.gov.in/bilateral-relations-india-russia.php"
-      },
-      {
-        heading: "Reserve Bank of India. (2023, March 8). RBI bulletin – March 2023: India's external sector – A review. ", 
-        links: "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53322"
-      },
-      {
-        heading: "National Securities Depository Limited. (n.d.). FPI statistics – Year-wise investments. ", 
-        links: "https://www.fpi.nsdl.co.in/web/Reports/Yearwise.aspx?RptType=5"
-      },
-      {
-        heading: "Press Information Bureau, Government of India. (2023, February 1). Finance Minister presents Union Budget 2023-24: Indian economy to grow at 7% in real terms in FY24. ", 
-        links: "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1894932#:~:text=The%20Union%20Minister%20for%20Finance,in%20real%20terms%20in%20FY24"
-      },
-      {
-        heading: "Statista. (n.d.). Weekly crude oil prices from January 2020 to May 2025. ", 
-        links: "https://www.statista.com/statistics/326017/weekly-crude-oil-prices/"
-      },
-      {
-        heading: "Trading Economics. (n.d.). India GDP annual growth rate. ", 
-        links: "https://tradingeconomics.com/india/full-year-gdp-growth"
-      },
-      {
-        heading: "Wikipedia contributors. (n.d.). 2021–2023 inflation surge. Wikipedia. ", 
-        links: "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge"
-      }
-    ]
-  },
-  {
     id: 2,
     issue: 2,
     volume: 1,
@@ -6124,6 +5686,444 @@ const articles = [
         links: "https://doi.org/10.1016/b978-0-323-91890-9.00020-9",
       },
     ],
+  },
+  {
+    id: 4,
+    issue: 2,
+    volume: 1,
+    title: "RECONCILING DEVELOPMENT AND ECOLOGY: A REGIONAL ANALYSIS OF SDG 15 IMPLEMENTATION IN INDIA",
+    author: "Maithreyi Govindula and Stooti Horo",
+    authorAbbrev: "Maithreyi Govindula and Stooti Horo",
+    abstract: "The essay examines the clash between ecological sustainability and economic development in India through a regional perspective, using the case of application of Sustainable Development Goal 15 (Life on Land). Based on two meticulous case studies illegal coal mining in Chhattisgarh's Hasdeo Aranya forest and unplanned urbanization in Hyderabad. The research subjectively analyses the socio-environmental implications of development processes that overlook ecological interest and disenfranchise native populations. It identifies chronic governance lapses, poor enforcement of environmental policies, and structural exclusion of indigenous perspectives in land-use planning. Far from India's official pledge to SDG 15, the results unveil profound structural disconnects between policy discourse and on-ground realities. The article demands a rights-based, inclusive environmental governance framework that incorporates local wisdom, emphasizes ecological durability, and confronts the trade-offs between short-term development and long-term resilience. Ultimately, it champions alternate paths of development based on transparency, inclusivity, and environmental justice.",
+    status: "Submitted",
+    intro: [
+      "India’s recent economic transformation over the past three decades has been characterised by extensive infrastructural growth, industrialisation, and urbanisation. While these developments have driven increases in income, employment, and access, they have also placed unprecedented pressure on the nation’s environmental systems. The pursuit of development, often framed in terms of Gross Domestic Product (GDP) growth and international competitiveness, has frequently come into conflict with environmental sustainability, particularly concerning land use and natural resource management. This tension is most evident in sectors such as mining, urban expansion, and disaster management, where environmental considerations are repeatedly sidelined in favour of commercial and administrative priorities.",
+      "This paper examines two paradigmatic case studies that illustrate the complex relationship between India’s development trajectory and environmental degradation. The first is illegal mining in Chhattisgarh, where extractive industries have encroached upon forest and tribal lands, often bypassing environmental regulations and local consent (Tripathy, 2024). The second case is urban sprawl in Hyderabad, where real estate speculation and infrastructure development have driven rapid city expansion, leading to the significant loss of green cover, water bodies, and biodiversity, with serious implications for urban climate resilience and environmental justice (Jha et al., 2021).",
+      "These case studies are analysed in relation to Sustainable Development Goal 15 (SDG 15): Life on Land, which calls for the protection, restoration, and sustainable use of terrestrial ecosystems. Despite India’s formal commitment to the 2030 Agenda for Sustainable Development, the realities on the ground reveal a persistent gap between policy rhetoric and implementation. This disconnect is further exacerbated by weak institutional accountability, fragmented governance structures, and the systematic exclusion of local and indigenous communities from environmental decision-making processes.",
+      "The structure of this article is as follows. Section 2 presents the background and literature review, situating the case studies within the wider context of land acquisition, mining, and urbanisation in India, and discusses India’s take on SDG15 targets. Section 3 briefly explains how this study contributes to the broader debate. Sections 4 and 5 provide detailed examinations of the Chhattisgarh and Hyderabad case studies, respectively. Section 6 offers a comparative analysis of the two cases, identifies recurring governance patterns, and discusses alternative development models. The final section presents the conclusion, summarising key findings, outlining policy recommendations, and proposing directions for future research and community-led conservation initiatives.",
+      "By engaging with these grounded case studies, this article aims to make a constructive contribution to the ongoing debates on sustainable development in India and more broadly, underscoring the urgent need for more ecologically sensitive and socially inclusive approaches to development."
+    ],
+    content: [
+      {
+        heading: "2.	BACKGROUND AND LITERATURE REVIEW",
+        paragraphs: [
+          "The Sustainable Development Goals (SDGs) are the 17 global objectives established by the United Nations in 2015, to be achieved by 2030 as part of its Sustainable Development (SD) programme (Tisdell, 2020). This study focuses specifically on SDG 15: Life on Land, to critically examine how these goals are being pursued in India.",
+          "SDG 15 aims to 'protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss' (Klein, 2020, p.1). ",
+          "As a signatory to the UN’s SD agenda, India has committed to fulfilling selected targets, including setting specific quantitative performance objectives for three of the twelve SDG 15 targets by 2030 (Tisdell, 2020).",
+          "However, the cases of illegal mining in Chhattisgarh and urban sprawl in Hyderabad reveal the significant challenges these goals face on the ground. India has been experiencing rapid urbanisation and growing resource extraction activities in recent years. In areas such as Chhattisgarh, illegal mining has led to extensive deforestation, the displacement of indigenous communities, and damage to local ecosystems (Ghosh, 2022; Tripathy, 2024). These mining operations often proceed without appropriate legal and environmental clearances, violating both national environmental regulations and the rights of Adivasi (indigenous) communities, forcing them into cycles of displacement and deprivation (Ghosh, 2022). Such activities directly undermine India’s progress towards achieving SDG 15, which calls for the protection and sustainable use of terrestrial ecosystems.",
+          "Simultaneously, in rapidly expanding urban centres like Hyderabad, large-scale land-use changes driven by infrastructure development, real estate expansion, and technology corridors have significantly reduced urban green spaces and wetlands (Jha et al., 2021; Ramachandra et al., 2020). The city’s green cover has declined sharply, while the loss of water bodies has exacerbated flooding and intensified the urban heat island effect. The 2025 Kanche Gachibowli forest clearance incident and the subsequent enforcement actions by the Hyderabad Disaster Response & Asset Protection Agency (HYDRAA) illustrate the governance dilemmas where urban development frequently overrides environmental priorities, often resulting in social displacement and institutional failures in ecosystem protection.",
+          "SDG 15 consists of twelve targets that promote international cooperation and emphasise biodiversity conservation, but trade-offs and policy misalignments remain persistent challenges. In India, various government departments handle different aspects of biodiversity and environmental management, often operating independently and following fragmented and poorly coordinated policies (Tisdell, 2020). This fragmentation contributes to policy conflicts and hinders the effective achievement of SDG 15 goals.",
+          "India has specifically committed to SDG targets 15.1, 15.2, and 15.7 as part of its contribution to the 2030 Sustainable Development Agenda. However, the cases from Chhattisgarh and Hyderabad reflect a broader national pattern where development-driven environmental degradation is routinely prioritised over sustainability, social justice, and long-term ecological resilience."
+        ]
+      },
+      {
+        heading: "Target 15.1: Conservation of Ecosystems",
+        paragraphs: [
+          "India has committed to maintaining the proportion of water bodies within its forest areas as part of its SDG 15.1 efforts (Tisdell, 2020). However, mining operations frequently exploit local water sources, leaving minimal access for nearby villages and farmers. The remaining water is often contaminated with toxic chemicals, posing severe risks to aquatic life and the health of local populations (Jha & Jha, 2022). Ghosh (2022) vividly describes the extent of environmental harm, recounting how coal dust settled on fields, polluted water sources, and clung to children as they ran home from school. Furthermore, dam construction for irrigation or industrial purposes without adequate conservation measures has negatively affected wetlands and forests. In Hyderabad, urban expansion has led to the significant loss of green cover, wetlands, and local habitats (Jha et al., 2021; Ramachandra et al., 2020)."
+        ]
+      },
+      {
+        heading: "Target 15.2: Sustainable Forest Management and Halting Deforestation",
+        paragraphs: ["India’s approach to achieving target 15.2 remains vague, with unclear definitions, insufficient transparency, and no explicit national target for the sustainable management of all forest types (Tisdell, 2020). Official records, which have been questioned by the United Nations, report increasing forest cover but fail to differentiate between ecologically rich natural forests, such as Hasdeo, and privately owned monoculture plantations. These are often classified as forests based solely on canopy density and area, without considering ecological integrity (Talukdar, 2022). Replacing ecologically significant forests with monoculture plantations cannot substitute for the biodiversity and cultural value of intact natural forests."]
+      },
+      {
+        heading: "Target 15.7: Ending Poaching and Illegal Wildlife Trade",
+        paragraphs: [
+          "India’s SDG 15.7 target focuses on maintaining wild elephant populations at 2017 levels but neglects the escalating issue of human-elephant conflict. The current plan does not address retaliatory killings of elephants due to crop damage, a critical omission. This is particularly relevant as mining expansion in the Hasdeo Aranya region has worsened human-elephant conflicts, frequently resulting in loss of life and crop destruction (Mukherjee, 2021). Mining also opens up previously inaccessible forests, creating new routes for illegal wildlife trade and poaching (Sayer et al., 2020). Although SDG 15.7 highlights the need to reduce illegal trafficking of elephant products, in India, Asian elephants are more commonly killed due to their perceived threat to agriculture, rather than ivory poaching (Tisdell, 2020). "
+        ]
+      },
+      {
+        heading: "3.	LITERATURE REVIEW",
+        paragraphs: [
+          "Environmental Degradation through Resource Exploitation",
+          "Kumar (2024) situates these conflicts within a political ecology framework, highlighting how local communities, NGOs, social movements, governments, and multinational corporations, backed by military and police power, compete over resources. Kumar critiques the tokenistic inclusion of indigenous voices in energy transitions and land-use policies, noting that industries often claim to represent multiple stakeholders but fail to meaningfully involve local and indigenous communities. The repeated violations of legal protections for tribal lands by Indian state and regional authorities to facilitate coal and hydropower projects reinforce this pattern. Ghosh (2021) documents a 2009 protest in Madhya Pradesh, where 5,000 Adivasis marched against mining approvals secured using fraudulent gram sabha resolutions.",
+          "Ghosh (2022) and Tripathy (2024) further document how illegal mining in Chhattisgarh has displaced indigenous communities, degraded forests, and eroded local governance rights. Chhotray’s comparative analysis of Jharkhand and Chhattisgarh shows that while both states have substantial indigenous populations and rich mineral resources, Jharkhand’s Adivasis have achieved a stronger political foothold, enabling more public debate and resistance. In contrast, Chhattisgarh’s indigenous communities, lacking sustained political representation and facing greater repression, have experienced more severe marginalisation.",
+          "Urbanisation and Governance Failures",
+          "Hyderabad’s rapid urbanisation and selective demolition policies reveal deep-seated governance and equity issues that have disproportionately affected marginalised communities while escalating environmental risks. HYDRAA’s demolition campaigns, though aimed at reclaiming public property, have mainly targeted marginal spaces and developer-led encroachments, often displacing those with insecure tenure and limited legal protection (Ramesh & Rao, 2021).",
+          "Environmental and Social Implications",
+          "Mukherjee (2021) critiques the persistent framing of development as displacement-driven progress, which has historically marginalised vulnerable communities. He argues that existing legal protections, if properly enforced, could prevent the harms currently inflicted on affected populations. In Hyderabad, environmental regulations have often been ignored in favour of rapid commercial development. The 2025 Kanche Gachibowli clearance for an IT park proceeded without adequate adherence to the Forest Conservation Act or Environmental Impact Assessment norms (newindianexpress.com; telanganatoday.com). This environmentally damaging clearance not only triggered public protests but also highlighted the ongoing tensions between development and ecosystem protection. Students and professors joined the resistance, emphasising the land’s crucial role in sustaining local wildlife and water cycles (indianexpress.com)."
+        ]
+      },
+      {
+        heading: "Contribution to the Broader Debate",
+        paragraphs: [
+          "This study adds to the broader debate by demonstrating that India’s SDG 15 commitments are consistently undermined by on-ground development practices that prioritise short-term economic growth over environmental and social sustainability. By situating these local struggles within the global sustainability framework, this research highlights a critical disconnect between international sustainability goals and national development trajectories.",
+          "The findings emphasise the pressing need for more inclusive, transparent, and coordinated environmental governance that fully integrates the rights of indigenous and marginalised communities and foregrounds ecological sustainability in policy planning and implementation. Through this focused analysis, the study enriches ongoing discussions about how SDG commitments, particularly in developing countries like India, are often compromised by policy trade-offs, institutional fragmentation, and accountability gaps in the face of extractive and urban development pressures."
+        ]
+      },
+      {
+        heading: "  I.	ILLEGAL MINING IN CHHATTISGARH",
+        paragraphs: [
+          "Case Study: Coal mining in Hasdeo Aranya Forest",
+          "The Hasdeo Aranya Forest in Chhattisgarh, India, is a critical ecological and cultural zone, home to indigenous communities such as the Gond, Korwa, and Baiga tribes (Verma, 2024). It is an important ecological and cultural area, where indigenous communities rely on the forest’s resources for their daily survival and way of life. The region is rich in mineral resources, particularly coal, which has attracted significant interest from both public and private mining companies. Although the coal mining sector is primarily managed by the public sector company Coal India, the vast coal deposits in this region have increasingly attracted private companies driven by profit (Mukherjee, 2021). The Hasdeo-Arand Coalfield, one of India’s largest, has been central to this interest, with its extensive coal reserves of over five billion tonnes playing a significant role in supporting the economy and energy supply, albeit at considerable environmental and social costs (Verma, 2024).",
+          "The push for economic development and energy security has led to extensive coal mining in this area, driven by the Indian government’s strategy to boost domestic coal production and meet its growing energy demands, despite India being the world’s lowest-cost solar power producer its commitment to increasing renewable capacity to 450 gigawatts by 2030 (Talukdar, 2021). With significant declarations regarding the coal mining in June 2020, the government announced the auction of 41 coal blocks, five of which are located within or near the Hasdeo Forest (Chhotray, 2022; Jha & Jha, 2022). This has heightened environmental and social concerns. The expansion of mining activities has resulted in severe deforestation, disruption of wildlife corridors, and contamination of local water sources. Notably, the mining operations in the Parsa East and Kente Basan (PEKB) block began in 2013 under Adani Mining (a subsidiary of the Adani Group) (Ghosh, 2022; Talukdar, 2021). Tribal communities strongly believe that mining corporations have bypassed or manipulated the gram sabha consent process to secure government approvals, which they view as a direct violation of their constitutional rights (Mukherjee, 2021). Projects such as the Kente Extension and Parsa Coal Block are under development and have faced repeated allegations of circumventing gram sabha consent or using fraudulent means to obtain approvals (Talukdar, 2021).",
+          "Key Protests and Legal Struggles",
+          "Indigenous communities in Hasdeo have consistently protested against these mining projects, arguing that they violate constitutional protections and disrupt their traditional way of life (Tripathy, 2024; Ghosh, 2022). These protests have included long foot marches to the state capital, Raipur, and continuous appeals against the environmental clearances granted for mining (Jha & Jha, 2022). The Hasdeo Aranya Bachao Sangharsh Samiti has been at the forefront of this resistance, advocating for the preservation of the forest and the protection of tribal rights under the Forest Rights Act (FRA) and the Panchayats (Extension to Scheduled Areas) Act (PESA) (Mukherjee, 2021).",
+          "Despite legislative frameworks like the FRA, which mandates that no Scheduled Tribe member or traditional forest dweller can be evicted without proper recognition and verification of their rights, enforcement on the ground has been weak (Verma, 2024; Mukherjee, 2021). The Land Acquisition Act of 2013 aimed to ensure fair compensation and community consultation (Ghosh, 2022; Taldukdar, 2021), but amendments introduced in 2014 diluted these protections, particularly for public-private partnership projects (Mukherjee, 2021). These changes made it easier for the government and corporations to acquire land without securing community consent or conducting thorough social impact assessments (Mukherjee, 2021).",
+          "Socio-Economic Impacts",
+          "The socio-economic impacts on displaced communities have been severe. Mass displacement has not only uprooted livelihoods but also disrupted the ways in which these communities have preserved their cultural identity over generations, something that holds no monetary equivalent. However even the relocation efforts, job offers, and compensation promised by mining companies are often inadequate or remain unfulfilled (Jha & Jha, 2022). Many tribal families have reported losing their primary sources of livelihood following the acquisition of their land for coal mining (Verma, 2024). The loss of fertile land and forests has forced many to relocate to cities or nearby towns in search of employment. Major towns such as Korba, Bilaspur, and Raipur have attracted economic migrants by offering job opportunities mainly in unorganised sectors like construction and domestic work (Verma, 2024). However, displaced individuals migrating to urban areas frequently face challenges such as discrimination, low wages, and difficulty adjusting to city life (Tripathy, 2024). Research in Chhattisgarh has shown that displacement has disrupted livelihoods, family dynamics, and social network of the families displaced (Verma, 2024). ",
+          "Environmental Impacts",
+          "Environmental degradation has been another significant consequence. The Hasdeo Aranya Forest spas 170,000 hectares and contains a unique ecosystem, including the proposed Lemru Elephant Reserve (Tripathy, 2024). These destruction of forests has escalated human-elephant conflicts (Mukherjee, 2021), leading to frequent loss of lives and damage to agricultural crops (Ghosh, 2022), as well as reducing access to clean water (Jha & Jha, 2022). Mining operations have depleted and contaminated local water sources. Adani’s PEKB operations in Chhattisgarh have come undere particular scrutiny for environmental violations, especially the release of contaminated water from coal washing activities (Talukdar, 2021). ",
+          "Data from independent sources like the Global Forest Watch Dashboard reveal that India continues to lose and convert natural forests for industrial purposes (Talukdar, 2022). Mining in general poses a threat to the environment, but open-cast mining has significantly accelerated environmental degradation. In Jharia, Dhanbad, abandoned underground mines were left unfilled, allowing oxygen to reach burning coal seams and intensify ongoing underground fires (Chhotray, 2022). Together, these activities endanger the region’s biodiversity and erode the Adivasi communities' role as traditional caretakers of the environment (Chhotray, 2022; Talukdar, 2021). ",
+          "Community Protests",
+          "Protests have taken place by these communities coming together to fight for their rights. While some protests have temporarily halted mining operations, corporations have frequently used legal mechanisms to resume their projects (Jha & Jha, 2022). This region has seen many protests as form of non-violent oppositions against the coal firms. Among the common forms of protest, like the month-long dharnas (sit-ins), padyatras (marches), and fasts, the sit-in beginning in October 2019 against land acquisition for the Parsa coal mine became particularly significant. Hundreds of villagers demonstrated for over three months until it was interrupted by the COVID-19 lockdown the following year, making it the longest ever sit in protest in the region’s history (Talukdar, 2021).",
+          "The government’s role as a mediator remains critical, yet its actions have frequently favoured industrial development over the rights and welfare of tribal populations (Chhotray, 2022). In December 2009, around 5,000 Adivasis staged a protest march to the Mines Office in Madhya Pradesh after news broke of a fake gram sabha resolution being submitted to secure mining approvals (Ghosh, 2021 as cited in Kumar, 2024). Despite such resistance, similar patterns continued, as seen in 2011 when Ghatbarra village near the PEKB mine rejected coal mining and filed forest rights claims under the Forest Rights Act (FRA), which prohibits mining clearances until community rights are recognized; nevertheless, the PEKB mine was approved in 2012 and Adani began construction in 2013 (Talukdar, 2021).",
+          "Cultural Impacts",
+          "The Hasdeo Forest holds deep cultural significance for indigenous communities who have lived there for generations. Their cultural and spiritual practices are deeply intertwined with the forest ecosystem (Verma, 2024). As Ghosh (2022) notes, the community’s resistance is fundamentally tied to the defence of their cultural heritage and their right to continue traditional ways of life without external disruption. Displacement in the region, largely driven by mining in the Hasdeo-Arand Coalfield, has forced many indigenous people to relocate to urban or peri-urban areas, where they struggle to preserve their cultural identities and face pressures to assimilate (Mathew & Kasi, 2021, as cited in Verma, 2024).",
+          "Repeated displacement, weakening legal protections, and the continued alignment of state policies with corporate interests have further marginalised these cultural claims (Ghosh, 2022; Mukherjee, 2021). The bypassing of gram sabha consent processes, particularly after the 2014 amendment to the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013, is not merely a legal violation but a profound dismissal of the cultural governance systems that these communities depend upon for decision-making and environmental management (Talukdar, 2021). The imposition of development projects without genuine community consultation reflects a systemic disregard for indigenous voices and cultural values."
+        ]
+      },
+      {
+        heading: "  II.	URBAN SPRAWL IN HYDERABAD",
+        paragraphs: [
+          "Hyderabad, a fast-growing city and key IT hub, exemplifies the environmental threat posed by uncontrolled urbanisation. The city’s intense land use changes, driven by infrastructure corridors, gated enclaves, and industrial parks, have led to the loss of ecosystem services, increased vulnerability to disasters, and conflicts with biodiversity targets under SDG 15: Life on Land.",
+          "Patterns and Processes of Urban Expansion",
+          "Urban expansion in Hyderabad, particularly since liberalisation, has been driven by real estate developers and large-scale infrastructure projects such as the Outer Ring Road, IT corridors along Gachibowli-Kondapur, and the planned Pharma City. Farmlands, wetlands, and forest cover have been rapidly urbanised (Jha et al., 2021; Ramachandra et al., 2020).",
+          "Remote sensing estimates indicate that the city’s green cover declined from 2.71% in 1991 to 1.66% in 2020 (Jha et al., 2021). Simultaneously, more than half of the water bodies within the Hyderabad Metropolitan Development Area (HMDA) have either disappeared or become ecologically degraded due to encroachments (Ramachandra et al., 2020).",
+          "Case Study: Kanche Gachibowli Forest Clearing (April, 2025)",
+          "In April 2025, the government ordered the clearing of approximately 400 acres near the University of Hyderabad in the Kanche Gachibowli area for the possible development of IT parks. Around 1,524 trees, including 125 protected species, were felled using heavy machinery, raising concerns regarding violations of the Forest Conservation Act and Environmental Impact Assessment (EIA) norms (newindianexpress.com).",
+          "The Supreme Court took suo motu cognisance of the matter, ordering an immediate halt to tree felling and requesting an expert assessment by the Central Empowered Committee (CEC) (telanganatoday.com). The CEC found “extensive damage” to the site, including harm to flora, fauna, and hydrological features, and questioned the haste in diverting land without appropriate environmental assessment (newindianexpress.com).",
+          "The case sparked protests by university students and professors, who highlighted the environmental importance of the land, its status as a habitat for peacocks, deer, and indigenous plant species, and its role in maintaining local water cycles (indianexpress.com).",
+          "Enforcement: Hydra (HYDRAA) crackdowns (2024-2025)",
+          "In July 2024, Telangana established HYDRAA, the Hyderabad Disaster Response & Asset Protection Agency, with the mandate to clear encroachments on public properties such as lakes, drains, and parks (en.wikipedia.org). By late 2024, HYDRAA pledged to exempt residential buildings constructed before July 2024 from demolition but to dismantle commercial and encroaching buildings constructed thereafter, particularly around lakes and water bodies (timesofindia.indiatimes.com).",
+          "In April 2025, HYDRAA reclaimed 39 acres of government land at Raidurg (Narne Estates) and 39.2 acres in Hafeezpet (Vasantha Homes), removing unauthorised constructions, encroachments on water bodies, and site signboards, despite ongoing Supreme Court litigations (newindianexpress.com).",
+          "Environmental and Social Consequences",
+          "The large-scale urbanisation and forced demolitions highlight deep-rooted governance and equity challenges. Urban sprawl has intensified Hyderabad’s urban heat island effect, worsened air pollution, and increased flood risks, as clearly demonstrated during the 2020 floods when the filling of lakes and the clogging of stormwater drains caused loss of life and extensive infrastructure damage (Shah, 2020).",
+          "HYDRAA’s demolition drives, though intended to reclaim public land, often targeted marginal and developer-built areas; many affected individuals lacked secure tenure or legal support (Ramesh & Rao, 2021). Displacement without adequate rehabilitation remains a persistent issue.",
+          "Relevance to SDG15",
+          "Hyderabad’s experience highlights the tension between short-term economic growth and environmental sustainability. SDG 15 targets, particularly those related to conserving ecosystems (15.1) and halting biodiversity loss (15.5), are under direct threat from such developments. The Kanche Gachibowli case, in particular, underscores institutional shortcomings in protecting urban ecosystems and enforcing environmental safeguards."
+        ]
+      },
+      {
+        heading: "4.	ADDITIONAL INSIGHTS",
+        paragraphs: [
+          "The cases of illegal mining in Chhattisgarh and urban sprawl in Hyderabad reveal significant fault lines in India’s environmental governance. Although they differ by region and sector, mining versus urban infrastructure, both illustrate a development trajectory that consistently sidelines ecological concerns and disempowers local communities. These case studies expose persistent institutional failures and offer valuable insight into the limitations of current sustainability efforts under Sustainable Development Goal (SDG) 15: Life on Land.",
+          "Common Patterns and Structural Failures",
+          "Across both cases, poor governance emerges as a consistent pattern. In Chhattisgarh, mining operations continue with minimal regulation, often bypassing environmental clearances and violating the Forest Rights Act (FRA), which legally secures forest communities’ rights to their lands. In Hyderabad, state and city-level authorities have facilitated unchecked urban growth through selective land-use amendments, often disregarding Environmental Impact Assessment (EIA) protocols and forest protections, as exemplified by the 2025 Kanche Gachibowli deforestation incident.",
+          "Another shared theme is the persistent prioritisation of economic development over environmental and social justice. In both instances, government narratives of “progress” and “infrastructure expansion” are employed to justify land acquisition, displacement, and ecological destruction. These narratives serve to legitimise the transfer of public or common lands, often rich in biodiversity and essential to local livelihoods, into the hands of private industrial and real estate developers.",
+          "Moreover, both cases highlight the systemic exclusion of local and indigenous communities from planning and governance processes. In Chhattisgarh, Adivasi populations face displacement and criminalisation when they resist illegal mining activities. In Hyderabad, informal settlers and protesters opposing lake encroachments or forest clearance are routinely ignored, or worse, targeted through enforcement bodies such as the Hyderabad Disaster Response and Asset Protection Agency (HYDRAA). These exclusionary practices result in development outcomes that are both ecologically unsustainable and socially unjust.",
+          "Alternative Development Pathways",
+          "Despite these failings, opportunities exist to chart alternative development pathways that centre ecological sustainability and democratic participation. In Chhattisgarh, community-led forest governance movements have successfully challenged unauthorised mining, demonstrating the effectiveness of bottom-up conservation strategies aligned with FRA protections and biodiversity goals. Similarly, in Hyderabad, grassroots protests, such as those against the tree felling in Kanche Gachibowli, have prompted judicial intervention and sparked broader public debate on environmental governance.",
+          "Realising these alternatives will require robust institutional accountability, strict legal compliance, and participatory decision-making processes. A rights-based approach to land governance, supported by transparent EIA procedures and stringent enforcement against non-compliance, could lead to a more equitable development model. Incorporating ecological data into urban planning, using tools such as geospatial zoning and assessments of ecological carrying capacity, could help safeguard critical ecosystems from irreversible damage.",
+          "Global Relevance and SDG Trade-off",
+          "The tensions evident in these two Indian cases reflect a broader global challenge: balancing SDG 15 (Life on Land) with overlapping objectives like SDG 8 (Decent Work and Economic Growth) and SDG 9 (Industry, Innovation and Infrastructure). Across the Global South, infrastructure and extractive projects are frequently prioritised at the expense of biodiversity, climate resilience, and human rights.",
+          "These trade-offs underscore the importance of integrated policy responses that do not subordinate ecological considerations. The Indian experience demonstrates that environmental sustainability cannot simply be an add-on to development agendas; it must be embedded within the design, governance, and execution of development initiatives. Anything less risks reducing sustainable land use and biodiversity conservation to little more than aspirational targets."
+        ]
+      }
+    ],
+    conclusion: [
+      "India’s development trajectory, both in rural mining regions and rapidly expanding urban centres such as Hyderabad, reveals a persistent conflict between economic growth and environmental protection under SDG 15. While India has legal provisions intended to safeguard biodiversity and protect community rights, these laws are frequently bypassed, weakly enforced, or treated as administrative hurdles. Cases like Ghatbarra demonstrate how the consent of indigenous communities is often disregarded, with clearances granted despite legal protections such as the Forest Rights Act (FRA) and the Panchayat (Extension to Scheduled Areas) Act (PESA). In Hyderabad, the unchecked spread of infrastructure projects, shrinking green cover, and the loss of water bodies have intensified environmental risks, including flooding, urban heat islands, and air pollution. Demolition drives like those carried out by HYDRAA, while aimed at reclaiming public spaces, have also exposed underlying governance issues, particularly the displacement of vulnerable groups without proper rehabilitation. Although India’s legal frameworks offer indigenous and local communities more formal rights compared to countries like Australia, where the Wangan and Jagalingou people face weaker protections, the problem in India lies in the gap between the law and its enforcement (Talukdar, 2021). Activists continue to play a crucial role in bridging this gap by making legal information accessible and supporting communities in navigating complex bureaucracies. Ultimately, India’s ability to meet its SDG 15 targets depends not only on having strong laws, but on ensuring their meaningful enforcement, rebuilding public trust, and placing community voices and ecological sustainability at the centre of development planning."
+    ],
+    references: [
+      {
+        heading: "Chhotray, V. (2022). Extractive regimes in the coal heartlands of India: Difficult questions for a just energy transition. Climate Justice in India, 74-97."
+      },
+      {
+        heading: "Ghosh, D. (2022). ‘This land is our mother and we cannot dig up the bones of our mother’: Adivasi Dispossession and Contestation in Chhattisgarh: The 2020 AR Davis Memorial Lecture. Journal of the Society for Asian Humanities, 53, 3-21."
+      },
+      {
+        heading: "HYDRAA reclaiming land and demolitions (April 2025)."
+      },
+      {
+        heading: "Jha, A., & Jha, R. (2022). A CONFLICT REIGNITED BY COAL-Anti-Mining Protests in Chhattisgarh and what it means for the country. International Research Journal of Management Sociology & Humanity, 3(10), 2277-9859."
+      },
+      {
+        heading: "Jha, S., Kumar, D., & Anand, S. (2021). Urban sprawl and the loss of green cover in Hyderabad: A geospatial analysis. Journal of Urban and Environmental Studies, 12(3), 221–234."
+      },
+      {
+        heading: "Klein, M. (2020). SDG 15: life on land. Jean Monnet Sustainable Development Goals Network Policy Brief Series, 1, 1-6."
+      },
+      {
+        heading: "Kumar, M. (2024). Violent transitions: towards a political ecology of coal and hydropower in India. Climate and Development, 16(9), 751-761."
+      },
+      {
+        heading: "Mahajan, V., & Singh, J. (2022). Lives, livelihoods and environment: The challenge of sustainable development goals in India. Financial crises, poverty and environmental sustainability: Challenges in the context of the SDGs and Covid-19 recovery, 93-105."
+      },
+      {
+        heading: "Mukherjee, T. (2021). We, the people of India. Journal of the Department of Sociology of North Bengal University, 8(31), 2348-6538."
+      },
+      {
+        heading: "Ramachandra, T. V., Bharath, H. A., & Sowmyashree, M. V. (2020). Impact of urbanisation on the hydrology of Hyderabad's wetlands. Environmental Monitoring and Assessment, 192(5), 312."
+      },
+      {
+        heading: "Ramesh, S., & Rao, K. (2021). Environmental governance in Indian cities: case study of Hyderabad's expansion. Urban Affairs Review, 57(6), 1489–1510."
+      },
+      {
+        heading: "Ravindra, N. (2019). SUSTAINABLE LAND MANAGEMENT INDICATORS UNDER THE FRAME OF UN SDG 15: LIFE ON LAND (A CASE STUDY ON INDIA). International Journal of Engineering Applied Sciences and Technology, 4(2), 2455-2143."
+      },
+      {
+        heading: "Sayer, J., Sheil, D., Galloway, G., Riggs, R. A., Mewett, G., MacDicken, K. G., ... & Edwards, D. P. (2019). SDG 15 Life on land–the central role of forests in sustainable development. In Sustainable development goals: their impacts on forest and people ( 482-509). Cambridge University Press."
+      },
+      {
+        heading: "Shah, A. (2020, October 18). Hyderabad floods: The price of urban apathy. The Hindu."
+      },
+      {
+        heading: "Supreme Court orders halt to deforestation in Kancha Gachibowli (April 2025) (telanganatoday.com)."
+      },
+      {
+        heading: "Taldukdar, R. (2021). Indigenous peoples demand'water, forests, land'before coal. Green Left, (1323), 12-13."
+      },
+      {
+        heading: "Talukdar, R. (2022). Indigenous resistance and forest rights key to green climate action. Green Left, (1370), 13-13."
+      },
+      {
+        heading: "Telangana Forest Department. (2025). Supreme Court and CEC halt tree-felling in Kanche–Gachibowli."
+      },
+      {
+        heading: "Tisdell, C. A. (2020). Biodiversity Conservation and the UN’s Sustainable Development Goals: India’s Responses Evaluated—Particularly in Relation to SDG15. Sustainable Development Goals: An Indian Perspective, 225-233."
+      },
+      {
+        heading: "Tripathy, S. N. (2024). Indigenous Displacement in India: A Tragic Tale of Uprooted Lives and the Battle for Hasdeo’s Heart. Society and Culture Development in India, 4(1), 169-183."
+      },
+      {
+        heading: "Verma, M. (2024). Migration and Displacement from Hasdeo Forest Area at Chhattisgarh: A Study. Innovation and Integrative Research Center Journal, 2(11), 83-94."
+      }
+    ]
+  },
+  {
+    id: 5,
+    issue: 2,
+    volume: 1,
+    title: "GEOPOLITICAL STRESSIMPACTING FINANCIAL MARKETS IN INDIA: A Secondary Data-based research study",
+    author: "Shubh Kirti, Divya Anand, K. Siva Rama Subramaniam, K K Praveena, Kanishka Jindal",
+    authorAbbrev: "S. Kirti, D. Anand, and others",
+    abstract: "This research examines the effects of geopolitical pressures on the financial markets in India, emphasizing how international disputes and global conflicts affect key metrics like the stock market, foreign exchange rates, foreign institutional investment (FII) flows, and commodity prices. India, as a developing economy with considerable involvement in global trade and capital movements, is especially vulnerable to geopolitical disturbances like the Israel–Hamas war, the Russia–Ukraine conflict, and increasing U.S.–China tensions. Such incidents frequently create a reluctance to take risks, disturb energy supplies, and incite capital outflow, leading to currency devaluation, fluctuations in the stock market, and inflationary tensions. Through recent case studies and time-series data examination, the study investigates the pathways by which geopolitical uncertainty influences investor behavior and market results. The results indicate that even conflicts occurring far away can create notable short-term disruptions in India's financial system, particularly via increased oil prices and abrupt changes in global liquidity. Moreover, the research emphasizes the function of the Reserve Bank of India (RBI) in stabilizing the rupee and preserving macroeconomic equilibrium via intervention tactics. This study seeks to enhance the comprehension of how financial markets in emerging economies react to geopolitical risks and offers policy suggestions to strengthen India's economic resilience and market stability amid growing global uncertainty. ",
+    status: "Submitted",
+    intro: [
+      "In a more interconnected world, the stability of national financial markets, including India's, is greatly affected by geopolitical factors like military conflicts, trade disagreements, and diplomatic strains. India's swift economic growth and incorporation into international trade render it especially susceptible to external disturbances that may hinder its financial stability. Geopolitical factors appear as worldwide political tensions that foster instability, influencing India's stock exchanges, foreign exchange (forex) markets, commodity values, and capital movements. The nation’s dependence on imported crude oil and vulnerability to foreign investments increase its exposure to these geopolitical disturbances. For example, the forex market responds quickly to geopolitical instability, causing the Indian rupee to weaken when safe-haven currencies gain strength, which can increase import costs and inflation, especially regarding oil prices. Foreign Institutional Investors (FIIs) frequently exit emerging markets amid geopolitical tensions, causing substantial drops in equity indices such as the Nifty 50 and Sensex. This trend shows a relationship between global risk appetite and market movements in India. ",
+      "The research seeks to examine the influence of geopolitical elements on India's financial markets, investigating both short-term and long-term effects on currency rates, stock indices, capital movements, bond yields, and commodity prices. Through the analysis of recent geopolitical events, the study aims to improve insights into risk transmission in India's financial system and recommend measures to strengthen economic resilience. "
+    ],
+    content: [
+      {
+        heading: "Research Findings",
+        paragraphs: [""]
+      },
+      {
+        heading: "Impact of Russia Ukraine Conflict on the Indian Stock Market",
+        paragraphs: [
+          "India has maintained strong, time- tested strategic diplomatic relations with both Russia and Ukraine. Russia and India marks its 78 years of diplomatic engagement which have been strong since the Cold War and the beginning was marked after the resolution of the Soviet Union in 1991. Ever since it has maintained strong relations, tightening it through the signing of “Declaration on the India-Russia Strategic Partnership” in October 2000 and “Special and Privileged Strategic Partnership” in 2010 which enhanced the levels of cooperation in areas of defence, security, trade and economy, science and technology and culture. In 2023-24 reports, Russia stands as the fourth largest trade partner of India with bilateral trade of $65.5 Billion in present mainly in crude oil, coal, nuclear energy and defence equipment’s. Its contribution has been the most in defence accounting for India's top military 36% of total defence imports where the relations has progressed from a mere buyer seller to one involving development, advancement and research in the field (Ministry of External Affairs).",
+          "Regarding India’s relation with Ukraine, it was one of the first countries to recognize Ukraine as a sovereign country in December 1991. The relationship has primarily revolved around trade, education, and cooperation in areas such as science and technology, defense repair services, and pharmaceuticals. Ukraine has been a key exporter of agricultural products like sunflower oil and corn to India, while India has exported pharmaceuticals, machinery, and chemicals. A significant aspect of the relationship is the presence of thousands of Indian students, particularly in medical universities across Ukraine, which has fostered people-to-people ties."
+        ]
+      },
+      {
+        heading: "India’s stance on Russia Ukraine Conflict",
+        paragraphs: [
+          "India’s response to the Russia- Ukraine conflict shows a carefully calibrated balancing act rooted in strategic autonomy, non- alignment and national interest. India chose to abstain from voting on UN resolutions that criticized Russia and called for an immediate cessation of violence. This diplomatic posture allowed India to preserve its long standing strategic and defence partnership with Russia. It also did not remain indifferent to Ukraine, where PM Narendra Modi became the first PM to visit Ukraine since 1991. It underscored its India’s commitment to human security without compromising geopolitical interests. The Indian Stock Market comprising BSE and NSE serves as a crucial barometer of economic growth and investor sentiment. As an emerging market, it has attracted domestic and foreign investments and has also been triggered by global geopolitical developments, particularly cross-border tensions and conflicts. The usual reactions in the market would be the change in volatility of stocks, which fuels future uncertainty. It is followed by loss in investor confidence, disruption in global supply chains and foreign portfolio investment. Sectors like defence, oil, and energy are especially sensitive to these developments, while some remain resilient, others face heightened volatility.",
+          "From the history of shocks which affected Indian Stock market including Russia–Ukraine war, U.S.–China trade tensions, India–China border conflicts, and Middle East crises the pattern of reaction has been consistent. While equity markets may drop 3–7 per cent during major conflicts, it has been only temporary and short lived which has always been followed by growth and recovery.",
+          "A major blow after the Covid pandemic which shook the global economy has been the Russia Ukraine conflict which took start on 24th February 2022. Russia and Ukraine are significant international players and contributing to trade in energy and oil. According to the stock data from NSE, the closing price of Nifty 50 had been 17063.25 one day prior to the conflict which dropped to 15863.15 just few days after the conflict broke, marking a 7% decline as investors reacted to the uncertainty. But it was only a initial spike in volatility and was followed by resilient growth and recovery by end of the year where the closing price reached 18105.3. A report by The Times of India noted BSE SENSEX to experience the worst fall in the last 2 years. It crashed by nearly 4,000 points in the first 20 days of war falling below 51,000 level. It later witnessed a upward trajectory where it reached 60,000 by the end of 2022. ",
+          "Empirical studies have supported these observations. Madhvi Kaushik and Dr. Neeraj Kumar, using t-test analysis, revealed that there was a significant difference in Nifty 50 Index before and after the war. The primary explanation lies in India’s dependency on crude oil, edible oil, fertilisers, and defence supplies. Another study by Aaryash Bhandari and Amritkant Mishra to understand the impact of this conflict on specific sectoral indices revealed that war has created uncertainty among energy, oil and gas, real estate, IT, and FMCG sectors whereas metal, auto, and banking sector remained relatively stable. "
+        ]
+      },
+      {
+        heading: "Economic Implications and effect on consumer behaviour",
+        paragraphs: [
+          "IMFs article “The long lasting economic shock of war” named Russia’s invasion of Ukraine to destroy the global peace. The main effects had been the adverse economic trends, including rising inflation, poverty, food insecurity, deglobalization, and environmental degradation. India’s economic growth has been resilient and expanded 13.5% in the first quarter of 2022 but the real impact of this conflict was long term which reduced gdp growth to 6.3% by the second quarter. The inflation of India rose to a 8 year high of 7.79% after the conflict. This was mainly fuelled by the increase in global crude oil prices to $139 a barrel, due to global supply chain interruptions.",
+          "The impact on consumer behaviour has been cutting down the expenditure on luxury, delaying the purchase of expensive goods and reallocating spending toward essentials due to price spike, demonstrating the classic substitution effect and income effect from consumer theory. . The consumer sentiment index, tracked by CMIE, rose steadily until February 2022 but slowed down reflecting the dampening confidence post conflict. The pattern also revealed consumers moving to digital and e- commerce platforms attracted by discounts and looking for sustainable options. There was much dependence on public transport due to the hike in petrol prices as well. ",
+          "In conclusion, the Russia–Ukraine conflict served as a stress test for India's economic stability, stock market resilience, and consumer adaptability. While the immediate shocks were mitigated through strategic policy responses and market recovery, the long-term implications call for greater economic preparedness. While such a balancing stance invites invites criticism from both sides, it also enhances India’s credibility as a nation capable of mediating complex global crises through dialogue, pragmatism, and sovereign decision-making."
+        ]
+      },
+      {
+        heading: "Impact of Israel Hamas conflict on Financial Market of India",
+        paragraphs: [
+          "The continuing struggle between Israel and Hamas, which flared up dramatically in October 2023, has significant repercussions extending beyond the Middle East. The global financial system has been significantly impacted, particularly the foreign exchange (FX) markets in emerging economies such as India. Due to the conflict causing fluctuations in energy prices, increasing geopolitical risks, and impacting global investor sentiment, the Indian rupee (INR) faced increased strain. The resulting changes in capital movements, import expenses, and inflation outlooks have put the Indian foreign exchange market in a responsive position, highlighting the nation’s susceptibility to external geopolitical disturbances. ",
+          "India ranks among the largest global importers of crude oil, fulfilling over 85% of its energy needs through imports. A substantial share of this supply comes from the Middle East, especially via the Strait of Hormuz—a vital passage for worldwide oil. The intensification of the Israel–Hamas conflict heightened concerns about a broader regional war that could include Iran, Lebanon, or additional Gulf nations. Any involvement of this nature could jeopardize oil supplies, interrupt transport routes, and increase global crude oil prices. Consequently, Brent crude prices surged significantly, surpassing the $90-per-barrel threshold in the initial stages of the conflict before displaying some indicators of stabilization amid diplomatic initiatives. This rise in costs increased India’s import expenses, adding more pressure on the trade deficit and worsening current account issues. ",
+          "The direct result of increased oil prices was a decline in the value of the Indian rupee. In October–November 2023, the rupee declined to approximately ₹86.75–86.80 per U.S. dollar, indicating a notable depreciation compared to earlier in the year. A declining rupee increases import costs and contributes to inflationary pressure, particularly when paired with elevated energy prices. This, consequently, could influence consumer expenditure and growth outlooks in the overall economy. Market players attentively monitored the Reserve Bank of India (RBI), which took measures to control the currency’s fluctuations. The RBI disbursed dollars from its reserves to mitigate the decline and employed forward market operations to reassure expectations. ",
+          "Although geopolitical risks have long existed in the Indian FX market, the uniqueness of this event lies in its timing and its overlap with other global economic challenges. India, similar to various emerging markets, was already facing the effects of the U.S. Federal Reserve’s restrictive monetary policy. Increased interest rates in the U.S. enhance the appeal of dollar-denominated investments for international investors, frequently resulting in capital flight from more volatile emerging markets. The Israel–Hamas conflict introduced further uncertainty, causing foreign portfolio investors (FPIs) to withdraw investments from Indian equity and debt markets. In October and November 2023, FPIs were net sellers in Indian stocks, increasing the downward pressure on the rupee. ",
+          "The RBI's action extended beyond spot markets. It also utilized tools such as variable rate reverse repos (VRRR) to take in surplus liquidity and uphold stability in money markets. Furthermore, forward premium rates—the expense of safeguarding against future currency fluctuations—experienced an increase during the crisis's height, indicating that corporations and institutional investors were more actively pursuing protection against additional rupee decline. Nonetheless, the currency markets exhibited comparatively lower volatility than in past geopolitical occurrences, suggesting that the RBI's macroprudential framework had developed in its ability to handle external shocks. ",
+          "Another essential aspect was the effect on inflation. A weaker rupee along with more expensive oil imports resulted in increased pressure on wholesale and retail prices. The inflation measured by the Consumer Price Index (CPI), which had eased earlier in 2023, rose slightly once more, raising worries about the RBI’s capability to uphold its inflation targeting goal. Despite core inflation being kept in check by steady food prices, the overall inflation figures raised concerns among policymakers. Analysts pondered whether the RBI would maintain its pause on raising interest rates or adopt a more aggressive stance if inflationary pressures remained. ",
+          "Notably, although the rupee encountered difficulties, it demonstrated strength against other emerging market currencies, thanks to India's comparatively robust macroeconomic fundamentals. Foreign exchange reserves stayed strong at more than $590 billion, reassuring markets that the central bank could uphold the rupee if necessary. Additionally, India's GDP expansion continued to be among the quickest worldwide, bolstering investor trust in the medium term. This relative strength enabled the rupee to rebound in late December 2023 and January 2024, with the currency briefly reaching ₹86.05 per dollar as crude prices fell to $67–69 per barrel during ceasefire discussions and decreased regional tensions.","Additionally, the Israel–Hamas conflict highlighted the strategic necessity for India to diversify its energy import sources and strengthen energy security. India intensified its long-term agreements with Russia, the U.S., and African nations to lessen reliance on the Middle East. Policymakers have also intensified their efforts for the development of alternate energy sources, such as solar and green hydrogen, within the larger Aatmanirbhar Bharat (self-reliant India) framework. ",
+          "From a wider economic viewpoint, the conflict influenced investor confidence, especially for firms with supply chain or trade connections in West Asia. The Indian government observed developments carefully and undertook diplomatic initiatives to reduce tensions, fully aware that a prolonged conflict might escalate into a broader regional war, with significantly greater economic ramifications. Moreover, the conflict revealed the vulnerability of international payment networks and supply chains to geopolitical disturbances, highlighting the importance of strategic risk management, budgetary caution, and sufficient sovereign reserves. ",
+          "Ultimately, the Israel–Hamas conflict has noticeably influenced India’s foreign exchange market, operating via increased oil prices, heightened investor risk aversion, capital flight, and inflation anticipations. Despite an initial depreciation of the rupee, timely actions by the RBI, strong macroeconomic indicators, and sturdy external accounts aided in reducing significant repercussions. Nonetheless, the incident underscored India's vulnerability to worldwide disruptions and the significance of strategic economic oversight to sustain currency and financial stability. In the future, the performance of the FX market will depend on global crude oil trends, geopolitical events in West Asia, the Fed’s interest rate decisions, and India’s structural reforms and fiscal policy decisions. "
+        ]
+      },
+      {
+        heading: "Impact of the Russia-Ukraine Geopolitical Conflict on India’s Money Market ",
+        paragraphs: [
+          "The Russia-Ukraine war, which escalated in February 2022, has had profound repercussions on global economies and financial markets. India, despite being geographically distant and politically non-aligned, faced significant spill over effects, particularly in its money market — a crucial segment for short-term borrowing and lending that influences liquidity, interest rates, and inflation control.",
+          "1. Crude Oil Prices and Inflationary Pressures","Russia is the world’s third-largest oil producer, and the conflict led to global sanctions against Russian energy exports, reducing supply and spiking global oil prices. Brent crude crossed $120 per barrel in March 2022, compared to around $78 per barrel in December 2021 (Source: Statista). For India, which imports about 85% of its crude oil, this meant a sharp rise in import bills, leading to inflationary pressures.",
+          "India’s Consumer Price Index (CPI) inflation shot up to 7.8% in April 2022, well above the Reserve Bank of India’s (RBI) target of 4-6%. In response, the RBI raised the repo rate from 4% in May 2022 to 6.5% by February 2023, tightening liquidity in the money market. This caused a direct spike in short-term interest rates, impacting the yields of Treasury Bills (T-Bills), Certificates of Deposit (CDs), and Commercial Papers (CPs).",
+          "2. Foreign Portfolio Investment (FPI) Outflows",
+          "The geopolitical uncertainty drove risk aversion globally. FPIs began withdrawing from emerging markets, including India, to move into safer assets like U.S. Treasuries. Between February and June 2022, India saw FPI outflows of over ₹2.6 lakh crore, especially from the debt segment (Source: NSDL). These capital outflows led to a depreciation of the Indian Rupee, which touched ₹81.5/USD in September 2022, compared to ₹74/USD in January 2022 (Source: RBI). The rupee depreciation added to inflationary concerns and prompted the RBI to conduct Open Market Operations (OMOs) and currency market interventions, thereby affecting liquidity conditions in the money market.",
+          "3. Liquidity Crunch and Volatility in Yields",
+          "As inflation rose and the RBI began tightening monetary policy, the Weighted Average Call Rate (WACR) — a key money market indicator — increased from around 3.3% in January 2022 to 6.4% by March 2023. The demand for short-term funds increased, while supply remained restricted due to the RBI’s policy stance.",
+          "T-Bill yields rose significantly:",
+          "•	91-day T-Bill yield: From 3.7% in Jan 2022 to 6.9% in Mar 2023",
+          "•	364-day T-Bill yield: From 4.3% to 7.1% during the same period (Source: RBI)",
+          "Such yield increases make short-term borrowing costlier for businesses and banks, reducing credit availability and investment activity.",
+          "4. Government Borrowing and Fiscal Pressure",
+          "Higher oil prices widened India’s Current Account Deficit (CAD) to 3.7% of GDP in Q2 FY23. To manage fiscal stress, the government increased market borrowings. The increased supply of government securities added pressure on the short-term yield curve in the money market.",
+          "The Russia-Ukraine conflict has impacted India’s money market by creating inflationary pressure, triggering interest rate hikes, causing FPI outflows, and increasing volatility in short-term instruments. While the Indian economy has shown resilience, the geopolitical tension has underscored the vulnerability of financial markets to global events.",
+        ]
+      },
+      {
+        heading: "Impact of Pahalgam attack on Indian Stock Market",
+        paragraphs: [
+          "On April 23, 2025, the market started at 24,357.60 and ended at 24,039.35 on April 25, 2025, reflecting a movement of approximately -1.31% over the last three days of that week. The market went through fluctuations during the initial phase, with gains and losses as investors were hesitant and careful in the wake of the Pahalgam attack. On April 25, the Sensex posted a 600-point decline (about 0.74%) to settle around 79,212, continuing its slide into the week’s end. For investors and market stakeholders, this rise in geopolitical risk brought about a new wave of uncertainty and heavily impacted sectors that are sensitive to global sentiment—defense, energy, and aviation were among the first to feel the strain.",
+          "Between May 5, 2025, and May 9, 2025, when India executed military operations targeting nine locations throughout Pakistan and Pakistan-occupied Kashmir, the Nifty 50 index experienced significant fluctuations. On May 5, the market started at 24,419.50 and closed at 24,008.00 on May 9, 2025, indicating a decrease of 1.69% .The market remained unpredictable during Operation Sindoor and investors faced uncertainty regarding the severity and duration of this unrest. ",
+          "However, The ceasefire announcement i.e. on May 10, 2025 sparked a notable rise in market sentiment, leading to a 3.82% increase, with the market closing at 24,924.70. The rally was driven by restored investor confidence following the easing of geopolitical tensions. The ceasefire news is expected to boost market sentiment since the de-escalation alleviates a key source of investor anxiety and is likely to be regarded as a significant positive development by the financial markets. "
+        ]
+      },
+      {
+        heading: "Impact of Operation Sindoor on India's capital market ",
+        paragraphs: [
+          "India and Pakistan, born out of the partition of British India in 1947, have shared a turbulent relationship characterized by wars, border tensions and diplomatic standoffs. At the core of their conflict lies the long-standing Kashmir dispute, which has been the flashpoint for most military confrontations, including the wars of 1947, 1965, 1971, and the 1999 Kargil conflict. One such recent event was the Pahalgam terrorist attack in June 2025. This act of terror not only reignited geopolitical tensions but also sent ripples through Indian financial markets.",
+          "Following the Pahalgam attack, the Indian stock market witnessed a sharp decline, reflecting investor nervousness amid fears of rising conflict. The benchmark indices such as the Sensex and Nifty dipped in the immediate aftermath, driven by sectors sensitive to geopolitical risk, such as banking, infrastructure, and travel. Historically, such attacks have led to short-term volatility, as markets react to uncertainty over national security, foreign relations, and potential retaliatory actions.",
+          "Thus, Indo-Pak relations, particularly during periods of heightened conflict or attacks like Pahalgam, continue to play a critical role not just in shaping regional peace, but also in influencing India’s economic and financial stabilility. "
+        ]
+      },
+      {
+        heading: "After effects of Operation Sindoor",
+        paragraphs: [
+          "The Indian equity markets showed initial caution but quickly rebounded after the news of Operation Sindoor. Although Gift Nifty indicated a lower opening, both Sensex and Nifty rose shortly after markets opened despite geopolitical tensions. On May 7, 2025, the Sensex began 692 points down but recovered to gain over 200 points, remaining volatile and slightly down around 10 AM. The Nifty 50 also declined initially but made gains later in the day. The Indian rupee opened 19 paise lower against the US dollar, with investors favoring safe-haven assets leading to a slight increase in gold prices. Government bond yields showed stability in early trading. In contrast, Pakistan’s stock exchange plummeted by 5%, with the KSE-100 index dropping over 7.2%, indicating heightened investor fear regarding the country's economy." ,
+          "The conflict led to immediate disruptions, halting bilateral trade valued at $1.2 billion per year. Pakistan’s suspension of trade affected access to Indian pharmaceuticals and cotton, pushing import costs up by 20–30% through informal routes. India incurred losses from the closure of the Attari-Wagah border, projected at ₹7,013 crore over five years, resulting in nearly 12,000 job losses. The 'war-like situation' hurt consumer sentiment, particularly in states like Punjab and Gujarat, where sales of discretionary products dropped by 20-50%. However, the ceasefire created potential for recovery in consumer goods demand.",
+          "Inflation emerged as a concern, with a weaker rupee increasing import costs, especially for crude oil, while elevated defense spending posed risks to essential goods pricing. Pakistan's economy, already fragile with inflation over 38% and dependence on IMF bailouts, faced severe impacts, potentially leading to a currency crisis and shortages. Indian investors, particularly in mutual funds, remained composed, avoiding panic sell-offs and taking advantage of market dips, particularly in defense and energy sectors. While foreign institutional investors might show temporary caution, they leaned toward Indian large-cap companies for growth prospects amid global stagnation. ",
+          "Historically, Indian markets have shown resilience against geopolitical tensions, with modest declines followed by recoveries. The analysis of previous conflicts indicates a consistent pattern of markets recovering rapidly post-tension. Current investor behavior indicates a trend of focusing on long-term investments and weight on stability in sectors like healthcare and IT. Despite challenges, India’s macroeconomic fundamentals remain strong, bolstered by increasing FDI and the prospective India-UK Free Trade Agreement. Operation Sindoor's impact on markets appears contained, signaling opportunities rather than panic, while investor caution against scams is critical amidst the operation's geopolitical implications."
+        ]
+      },
+      {
+        heading: "Impact of the 1962 Indo-China War on India’s Foreign Exchange Market",
+        paragraphs: [
+          "The 1962 Indo-China War between India and China not only represented a military encounter but also served as a critical economic shock, prompting India to reshape its developmental agenda. The brief conflict led to increased defense spending, a strain on foreign exchange reserves, and a shift in foreign exchange policies during a period dominated by the Second Five-Year Plan, which focused on public sector investments and import-led industrialization. The abrupt pivot towards defense readiness destabilized India's already fragile balance of payments (BoP).",
+          "Defense expenditure surged from ₹200 crore in 1961–62 to ₹460 crore by 1965–66—an increase of over 130%—primarily due to the urgent need for military equipment, which had to be imported from countries like the U.S. and USSR, thus exerting substantial pressure on India’s limited foreign reserves. Concurrently, the trade deficit ballooned from ₹196 crore in 1961–62 to ₹663 crore by 1965–66, driven not just by defense imports but also an escalating dependence on imports for essentials such as oil and food grains, further complicating the economic scenario.",
+          "Foreign exchange reserves, which stood at approximately $705 million in 1958, began to dwindle, falling to around $400 million by 1965. This decline stemmed from heightened payments for military imports and reduced remittances, coupled with weak export earnings amid pricing pressures internationally. The current account deficit, reaching nearly 3% of GDP in the mid-1960s, indicated significant stress on India’s external financial position. ",
+          "To address the resulting financing gap, India sought aid from international financial institutions, with over $1.5 billion received from the U.S.-backed Aid India Consortium between 1961 and 1966. However, this aid often came with stipulations for India to undertake structural reforms including fiscal discipline and trade liberalization. The necessity to stabilize its BoP led to the devaluation of the Indian rupee in 1966, shrinking its value by 36.5%. While intended to bolster export competitiveness, the devaluation spurred domestic inflation and political discontent due to its adverse economic effects. ",
+          "The post-war period saw increased rupee volatility, compelling the Reserve Bank of India (RBI) to intervene actively. In light of the crisis, the government imposed stringent exchange control measures, including regulations on foreign currency transactions and foreign travel, setting the stage for the Foreign Exchange Regulation Act (FERA) of 1973, rooted in the vulnerabilities revealed by the war.",
+          "India’s strategy evolved towards Import Substitution Industrialization (ISI) to mitigate the forex crises. The government incentivized local production of essential goods and defense equipment while tightening industrial licensing to curtail imports. Recognizing the weaknesses in its export base, India implemented various export promotion schemes. Nonetheless, these efforts led to the entrenchment of a high-cost industrial structure that would later complicate reforms.",
+          "The conflict and devaluation culminated in cost-push inflation, with prices rising significantly, especially affecting the urban poor, leading to political unrest. The inflation undermined developmental targets, forcing policymakers to adjust their objectives amidst external economic pressures.",
+          "Geopolitically, the war prompted India to pivot closer to the Soviet Union, an opportunity to reduce dollar dependency through rupee trade agreements. This shift altered India’s foreign exchange landscape, allowing temporary relief while complicating trade balance efforts. Overall, the 1962 Indo-China War catalyzed a significant transformation in India's economic policies and foreign exchange management, revealing critical structural weaknesses in its import-driven strategy and reliance on external aid. In response, India adopted stringent exchange controls and pursued a policy of self-reliance through import substitution, leading to a tightly regulated economic framework that persisted until the 1990s liberalization.",
+          "Thus, the war instigated a re-evaluation of India’s development priorities, establishing forex management as a central tenet of macroeconomic policy. It represented a pivotal moment in India's economic history, reshaping the nation's approach to foreign exchange for decades."
+        ]
+      }
+    ],
+    conclusion: [
+      "The results of this research demonstrate that geopolitical stressors—including wars, border conflicts, and global confrontations—have a profound and complex impact on the Indian financial markets. Although India may not frequently participate in these events directly, the interdependence of global trade, capital, and energy markets guarantees that any major geopolitical upheaval quickly impacts India’s stock exchanges, currency rates, money market instruments, and commodity prices. ",
+      "Incidents like the Russia–Ukraine war, the Israel–Hamas conflict, the 2025 Pahalgam terrorist attack, and the following Operation Sindoor emphasize the effect of global and regional turmoil on India's economic metrics. Such disruptions frequently result in greater uncertainty, amplified volatility, capital flight, and inflationary stress—particularly via the oil import route. The significant increase in crude oil prices and the depreciation of the rupee during these conflicts directly affected India’s import expenses, inflation, and interest rates. The exit of Foreign Portfolio Investors (FPIs) in these situations, as observed during the Russia–Ukraine conflict and the Israel–Hamas crisis, exacerbates instability in financial markets, indicating a global aversion to risk and a drop in investor confidence.",
+      "Despite these disruptions, the Indian economy and markets have repeatedly demonstrated notable strength. Historically, both the Sensex and Nifty indices have faced brief downturns followed by consistent recoveries, supported by robust macroeconomic indicators, timely policy actions by the Reserve Bank of India (RBI), and investor faith in India's long-term growth narrative. In instances like Operation Sindoor, early volatility transitioned to investor confidence after the easing of hostilities, indicating that markets tend to react favorably to stability and clear geopolitical narratives. ",
+      "The research emphasizes the essential function of the RBI in supporting the rupee and ensuring liquidity stability via its monetary instruments—like open market operations, currency interventions, and interest rate modifications. Likewise, the government's diplomatic balancing efforts, like sustaining strategic relationships with Russia while providing humanitarian support to Ukraine, demonstrate India's policy adaptability in a multipolar environment. ",
+      "A major insight is that investor behavior is very responsive to perceived geopolitical risk, influencing not just equity markets but also currency markets, inflation expectations, and consumption trends. During crises, consumer expenditure often shifts from non-essential to essential items, while the demand for safe investments such as gold or government bonds increases. The 1962 Indo-China conflict provides a historical perspective on how such clashes can alter macroeconomic policy, foreign exchange tactics, and even long-term development planning. ",
+      "In summary, although geopolitical stressors are external and unforeseeable, their economic impacts are significant and necessitate readiness, policy flexibility, and strategic vision. Moving ahead, boosting India's energy security, broadening trade alliances, increasing foreign exchange reserves, and establishing robust fiscal protections will be vital to shielding the financial system from these external disruptions. Additionally, educating investors and implementing financial market reforms should focus on fostering confidence and reducing reactions driven by panic. This research highlights the necessity for ongoing surveillance, analytics-based predictions, and cooperative economic diplomacy to safeguard and stabilize India’s financial framework amidst a more turbulent geopolitical landscape. "
+    ],
+    references: [
+      {
+        heading: "Business Standard. (2023, October 15). India’s current account deficit worsens due to oil shock.", 
+        links: "https://www.business-standard.com"
+      },
+      {
+        heading: "International Monetary Fund. (2023). World economic outlook: Navigating global shocks. ", 
+        links: "https://www.imf.org/en/Publications/WEO"
+      },
+      {
+        heading: "LiveMint. (2023, October 18). RBI interventions help rupee stay resilient despite war-led oil shock. ", 
+        links: "https://www.livemint.com"
+      },
+      {
+        heading: "Ministry of Finance, Government of India. (2024). Economic review reports. ", 
+        links: "https://dea.gov.in/economic-surveys"
+      },
+      {
+        heading: "OilPrice.com. (2023, October 12). Brent crude rallies on Middle East conflict fears. ", 
+        links: "https://oilprice.com"
+      },
+      {
+        heading: "Reserve Bank of India. (2024). Monthly bulletin: Foreign exchange reserves and exchange rate data. ", 
+        links: "https://www.rbi.org.in"
+      },
+      {
+        heading: "Reuters. (2023, October 14). Rupee falls as oil rises amid Israel-Hamas conflict. ", 
+        links: "https://www.reuters.com"
+      },
+      {
+        heading: "The Economic Times. (2023, October 16). FPIs turn net sellers amid geopolitical tensions. ", 
+        links: "https://economictimes.indiatimes.com"
+      },
+      {
+        heading: "The Hindu BusinessLine. (2024, January 5). Energy security: India accelerates diversification amid Middle East conflict. ", 
+        links: "https://www.thehindubusinessline.com"
+      },
+      {
+        heading: "United Nations Conference on Trade and Development. (2023). Trade and development report 2023. ", 
+        links: "https://unctad.org"
+      },
+      {
+        heading: "World Bank. (2023). Macro poverty outlook for India. ", 
+        links: "https://www.worldbank.org"
+      },
+      {
+        heading: "BloombergQuint. (2023, October 20). How geopolitics is influencing emerging market currencies. "
+      },
+      {
+        heading: "Groww. (n.d.). Geopolitical events and their effects on financial markets. Groww. ", 
+        links: "https://groww.in/blog/geopolitical-events-and-their-effects-on-financial-markets"
+      },
+      {
+        heading: "Times of India. (2023, February 24). One year of Russia-Ukraine war: How the conflict impacted Indian economy. ", 
+        links: "https://timesofindia.indiatimes.com/business/india-business/one-year-of-russia-ukraine-war-how-the-conflict-impacted-indian-economy/articleshow/98214568.cms"
+      },
+      {
+        heading: "Times of India. (2022, February 24). Sensex crashes over 1300 points as Russia orders military action in Ukraine. ", 
+        links: "https://economictimes.indiatimes.com/markets/stocks/news/sensex-crashes-over-1300-points-as-russia-orders-military-action-in-ukraine/articleshow/89789291.cms?from=mdr"
+      },
+      {
+        heading: "Deccan Herald. (2023, August 22). Do geopolitical events really move Indian markets? ", 
+        links: "https://www.deccanherald.com/business/markets/do-geopolitical-events-really-move-indian-markets-3546453"
+      },
+      {
+        heading: "Business Standard. (2025, May 8). Indo-Pak cross-border tensions: How it impacts the stock market. ", 
+        links: "https://www.business-standard.com/content/specials/indo-pak-cross-border-tensions-how-it-impacts-the-stock-market-125050800582_1.html"
+      },
+      {
+        heading: "Bhandari, A., & Mishra, A. (2023). Effect of Russia-Ukraine conflict on sectoral indices: A pragmatic investigation of Indian stock market. SSRG International Journal of Economics and Management Studies, 10(10), 47–53. ", 
+        links: "https://doi.org/10.14445/23939125/IJEMS-V10I10P106"
+      },
+      {
+        heading: " Kaushik, M., & Kumar, N. (2023). Impact of Russia Ukraine war on stock market in India (A study on NSE Nifty 50). International Journal of Financial Management and Economics, 6(1), 162–165. ", 
+        links: "https://doi.org/10.33545/26179210.2023.v6.i1.188"
+      },
+      {
+        heading: "International Monetary Fund. (2022). The long-lasting economic shock of war. IMF Finance & Development. ", 
+        links: "https://www.imf.org/en/Publications/fandd/issues/2022/03/the-long-lasting-economic-shock-of-war"
+      },
+      {
+        heading: "Centre for Monitoring Indian Economy. (n.d.). CMIE Database. ", 
+        links: "https://www.cmie.com/"
+      },
+      {
+        heading: "NSE Indices. (n.d.). Historical data reports. ", 
+        links: "https://www.niftyindices.com/reports/historical-data"
+      },
+      {
+        heading: "BSE India. (n.d.). Index archive data. ", 
+        links: "https://www.bseindia.com/Indices/IndexArchiveData.html"
+      },
+      {
+        heading: "Embassy of India, Moscow. (n.d.). India-Russia bilateral relations. ", 
+        links: "https://indianembassy-moscow.gov.in/bilateral-relations-india-russia.php"
+      },
+      {
+        heading: "Reserve Bank of India. (2023, March 8). RBI bulletin – March 2023: India's external sector – A review. ", 
+        links: "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53322"
+      },
+      {
+        heading: "National Securities Depository Limited. (n.d.). FPI statistics – Year-wise investments. ", 
+        links: "https://www.fpi.nsdl.co.in/web/Reports/Yearwise.aspx?RptType=5"
+      },
+      {
+        heading: "Press Information Bureau, Government of India. (2023, February 1). Finance Minister presents Union Budget 2023-24: Indian economy to grow at 7% in real terms in FY24. ", 
+        links: "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1894932#:~:text=The%20Union%20Minister%20for%20Finance,in%20real%20terms%20in%20FY24"
+      },
+      {
+        heading: "Statista. (n.d.). Weekly crude oil prices from January 2020 to May 2025. ", 
+        links: "https://www.statista.com/statistics/326017/weekly-crude-oil-prices/"
+      },
+      {
+        heading: "Trading Economics. (n.d.). India GDP annual growth rate. ", 
+        links: "https://tradingeconomics.com/india/full-year-gdp-growth"
+      },
+      {
+        heading: "Wikipedia contributors. (n.d.). 2021–2023 inflation surge. Wikipedia. ", 
+        links: "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge"
+      }
+    ]
   },
 ];
 
