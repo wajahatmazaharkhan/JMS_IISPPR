@@ -55,6 +55,8 @@ import DiplomacyBeyondDiplomats from "./pages/editions/DiplomacyBeyondDiplomats"
 import FromGramSabhaToEcoSwaraj from "./pages/editions/FromGramSabhaToEcoSwaraj";
 import ImpactOfSocialProtectionPolicies from "./pages/editions/ImpactOfSocialProtectionPolicies";
 import RewiringTheEnginesOfGrowth from "./pages/editions/RewiringTheEnginesOfGrowth";
+import ReconcilingDevelopmentAndEcology from "./pages/editions/ReconcilingDevelopmentAndEcology";
+import GeopoliticalStressImpactingFinancialMarketsInIndia from "./pages/editions/GeopoliticalStressImpactingFinancialMarketsInIndia";
 
 function AppRoutes() {
   const location = useLocation();
@@ -197,6 +199,14 @@ function AppRoutes() {
         <Route
           path="/Rewiring-The-Engines-Of-Growth"
           element={<RewiringTheEnginesOfGrowth />}
+        />
+        <Route
+          path="/Reconciling-Development-And-Ecology"
+          element={<ReconcilingDevelopmentAndEcology/>}
+        />
+        <Route
+          path="/Geopolitical-Stress-Impacting-Financial-Markets-In-India"
+          element={<GeopoliticalStressImpactingFinancialMarketsInIndia/>}
         />
 
         <Route path="*" element={<LandingPage />} />
