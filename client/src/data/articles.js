@@ -4619,7 +4619,506 @@ const articles = [
         links: "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge"
       }
     ]
-  }
+  },
+  {
+    id: 2,
+    issue: 2,
+    volume: 1,
+    title:
+      "The Informal / Gig Economy In A Globalised India: Challenges And Transitions",
+    author:
+      "Shubhi Purwar, Aryan Singh Chauhan, Ghanisht, Nirbhay Tiwari, Yasmin A Nijam",
+    authorAbbrev: "S. Purwar, A. Chauhan, and others",
+    abstract:
+      "India's labour market is being dramatically reshaped by globalisation and digital technology. This paper analyses the growth of the gig economy—a sector where flexible, task-oriented, short-term employment is made possible through digital intermediaries such as Swiggy, Uber, Urban Company, Upwork, and Fiverr. The acceleration of this economy (projected to expand from 7.7 million workers in 2020–21 to 23.5 million by 2030) highlights its growing relevance in India's overall economic landscape. We discuss how smartphone proliferation, youth population, urbanisation, and changing consumer tastes drive this growth. While gig work has some distinct benefits—flexibility, reduced entry barriers, and business scalability—it carries serious issues as well. They range from inadequate formal labour protections, social security, irregular income, and worker exposure to unemployment fears, which have been intensified by the COVID-19 pandemic. From a rigorous analysis of legislative initiatives (such as the Code on Social Security 2020) and private sector interventions, this paper identifies continuing gaps in regulation, worker classification, and enforcement. Informed by international and domestic literature, we outline policy reforms, social protection models, skilling strategies, and collective organisation to promote an inclusive and equitable gig economy. Our study shows how India can balance flexibility with dignity, enabling inclusive transitions in the face of digital disruption.",
+    keywords: [
+      "Gig economy",
+      "digital platforms",
+      "labour market",
+      "flexible employment",
+      "informal sector",
+      "globalization",
+      "digital technology",
+      "urbanization",
+      "youth employment",
+      "platform work",
+      "social security",
+      "labour regulation",
+      "worker protection",
+      "policy reform",
+      "skilling and training",
+      "inclusive growth",
+      "COVID-19 impact",
+      "platform intermediaries (Swiggy, Uber, Urban Company, Upwork, Fiverr)",
+      "precarious employment",
+      "technological disruption",
+    ],
+    status: "Submitted",
+    intro: [
+      "India's labour market is currently experiencing profound changes reflective of the two forces of globalisation and digital innovation. At the heart of this transformation is the gig economy, a changing labour model based on short-term, flexible and task-oriented work. Gig work is a departure from the 9–5 job model, centred on autonomy, independence and on-demand work, often with the help of technology platforms. The word “gig” has its roots in the music industry and originally was used to describe short-term performances, but now can refer to a wide range of work relationships across a number of industries.",
+      "Indeed, the spread of what Morozov (2019) refers to as the fourth industrial revolution globally has forced the inculcation of robotics, automation and artificial intelligence into workers’ daily routines (Banwari, 2018). As digital progress has exploded, so too has remote work, app-driven delivery, freelancer markets, and gig work. The gig economy in India has grown fast courtesy, increasing smartphone penetration, urbanisation and a youthful demography (Bekal et al., 2023). According to Boston Consulting Group, the gig economy in India could account for more than $250 billion in annual transactions and up to 90 million jobs in the coming decade (Manjunatha, 2023).",
+      "The gig economy now forms an integral part of India’s growth story. Gig economy is not limited to the delivery or transportation sector and could be related to software development, creative content, consulting, design, digital marketing, et.al (Kshatriya & Kurien, 2023). Among the advantages: flexibility, autonomy and lower barriers to entry that appeal to both workers and companies. Gig workers are a cost-efficient and scalable labour pool for companies, particularly startups and SMEs. Labour force (especially Millennials and Gen Z) is more attracted by the work-life balance, experience and autonomy the gig economy brings (Seshadri, 2024).",
+      "But for all its promise, the gig economy is not without obstacles. Most of the gig workers are independent contractors with no social security, health insurance or job security. There are no regulations around minimum wages, working conditions, or grievance redressal. This renders gig work precarious, especially with inflation, erratic income, and the absence of institutional credit (Manjunatha, 2023). The vulnerabilities of income disruption, health risks, and job loss were starkly revealed during the COVID-19 pandemic for many gig workers (Kshatriya & Kurien, 2023).",
+      "To respond to these concerns, the government has made efforts with reforms such as the Code on Social Security 2020, which aims to extend social security provisions to gig and platform workers. Urban Company and BigBasket are other examples of companies that have adopted proactive policies such as paying minimum wages and offering skills training (Seshadri, 2024). However, effective implementation is still elusive due to definitional ambiguities and the absence of strong enforcement frameworks. Thus India’s gig economy epitomises both opportunity alongside inequality. It seeks stronger labour protections while widening pathways for employment in self-employment amidst a digitally transformative backdrop. Undoubtedly, the gig economy will be pivotal in driving India towards its $5 trillion aspiration, but only if guided by sustainable transitions rooted in equity along with robust regulatory frameworks.",
+    ],
+    content: [
+      {
+        heading: "Literature Review",
+        paragraphs: [
+          "The rise of new technologies and shifting customer expectations have pushed businesses to rethink how they operate. To stay ahead in today’s fast-paced environment, many companies are reinventing their business models. As part of this shift, a new term, the ‘Gig Economy’, has arisen, a slang term for a job where workers are paid on a per-performance basis (Zwick et al., 2018).",
+          "The growing demand for the growth of the gig economy was primarily stimulated by cost-saving pressures in response to the global financial crisis in 2008, which instigated demand for temporary and contract-based workers (Cunningham et al., 2016; Glynn TP et al., 2018). Collins et. al. find that almost all the growth in the gig workforce since 2011 was in online platform work (Collins et al., 2019). Market platforms, such as the capital platform Airbnb and the labour platforms Upwork, Uber, Zomato, etc., offer several advantages (Farrell, Greig et al. There is now more than ever a demand for working remotely at home in the world of COVID-19! A study by the National Bureau of Economics shows that in 2020, almost 2.1 million new workers entered the gig economy, double the number of entrants in 2019 (S.Li, 2023; NBER, 2023).",
+          "Young adults aged 18–29 are most common in the economy (Aleksandric, M., 2023), and approximately 30% of them work on gig platforms for money (Aleksandric, M., 2023). Jobs in the form of gig work are popular not only in Nigeria but in other parts of the world for corporate strategies and performance management in IT-enabled services, e-commerce, hotel, retail, FMCG among others, mostly for short-term engagements at the lateral levels: (Schmenner, Swink, 1998; AfDB et al., 2018). In the Indian economy itself, the gig economy started to evolve from around the early 2000s, and a number of catalysts, including employer preference, demographic shifts in the mass of workers, and technological innovation, were behind this development. Due to this, the traditional 9-5 model of employment began to be broken down by promoting a more flexible, agile style of work (Wood AJ et al., 2019).",
+          "The gig economy sees the efficient use of resources and puts into play the element of which workers’ skills are best used in which task. This, in turn, helps individuals and businesses to run more smoothly and also sees to it that talent is put to full use, which in turn boosts overall productivity, and we see that play out in greater economic growth. Also, to that point, the gig economy does very well in what it does in countries like India, which is seeing a growth in the job-seeking population which outpaces that of traditional job growth. It puts forth options for which people may have a hard time getting into stable, long-term employment for a number of reasons, which include age barriers, family responsibilities, or a lack of formal education (Kasliwal, 2020). Also, in the case of the gig economy, we see that it puts forth greater value to society, which in turn improves urban living and sustainability. For instance, we have seen a reduction in motor vehicle accidents, in traffic jam levels and improvement in air quality (Greenwood, Wattal, 2017; Tran, Sokas, 2017). Also, these are the issues which put the gig economy in a positive light.",
+          "But also, the gig economy has its downsides. In India, which has limited social safety nets and where many gig workers are from low financial backgrounds, we see that the lack of stable income and job security only serves to worsen the present hard times. Also, as reported by L. Snider, companies are able to reduce cost per employee by 20-30% by getting away from paying for things like overtime, vacation, social security, Medicare and monetary workplace injury compensation (Snider et al., 2018). Companies also term these employees as ‘delivery partners’ to get around any responsibility. As a large number of which do not fit into traditional employee categories we see that gig workers’ access to what are considered basic benefits is a issue health care, set work times, stable contracts, and which which which also have access to processes in place for when issues arise. Also, to this point, the constant search for the next gig, which is a part of the gig economy, puts a lot of pressure on workers, which in turn causes stress and burnout. In the platform economy, we see that each task is a performance opportunity or a penalty, which in turn leaves no time for rest and puts workers in a constant state of control. Also, we see that in the platform economy, tech advances like AI are used to put workers in touch with the right clients, which in turn leads to better task matching, greater job satisfaction, and income growth, but also has the issue of leaving no room for rest.",
+          "Some reports also claim that the gig economy causes economic disparity and gender inequality in economic terms (Wood AJ et al., 2019; Churchill B, 2021). The World Bank reported that among 435 million global gig workers, many, especially in developing countries, have no job protections or savings, making them vulnerable to exploitation (World Bank, 2023). A study of over 20,000 freelancers found that women typically earn around 30% less per hour than men (Kuhn et al., 2017).",
+          "A very big reason for such disparities is that the gig workers are not specifically covered by any of India's current labour laws, including the Employees' Provident Fund Act, the Payment of Wages Act, and the Industrial Disputes Act. Because of this, gig workers are missing out on fundamental labour rights. The Code on Social Security, 2020, provides some measures to explain gig workers' issues and work towards social security funds for gig workers. Although the Code on Social Security, 2020, makes promises to extend some benefits, the exercise of its provisions, along with enforcement, remains variable and lacking. Gig workers also have limited ability to organise or form unions because they are excluded from the labour rules that protect the right to collective bargaining (Nadagoudar et al., 2021). As such, there is a need to digest labour laws and separate out a category for gig workers with a limited set of labour rights (Harris SD, 2017; Cherry MA et al., 2016; Prassl J et al., 2017). According to the Observer Research Foundation, a paper highlights important aspects that regulatory interventions could address—protection against workplace harassment, an emergency button for physical safety, social security, and contract security protection (Kasliwal, 2020). While these proposals are reasonable, there exists a gap in addressing certain ethical dilemmas. First, the lack of detailed data on the number of workers and composition of India's gig workforce is a significant gap. Secondly, sizable uncertainty remains regarding the socioeconomic impact of gig employment. Further study, moreover, is required to ascertain the impact of the new gig economy on traditional labour markets. There is a strong demand for this research to sail past its methodological gaps. This constitutes a layered approach recognising the various dimensions of safeguarding the rights and welfare of gig workers. In this regard, the gig economy should be not only flexible labour but also attempts to provide labour that is both flexible as well as ethically acceptable, such that the new space of gig work contributes to every stakeholder's benefit, particularly the workers at the heart of it.",
+        ],
+      },
+      {
+        heading: "Methodology",
+        paragraphs: [
+          "This research adopts a qualitative-descriptive approach relying on secondary data analysis. It focuses on four dimensions: (1) growth drivers (digitalisation, urbanisation); (2) worker experience (algorithmic control, income risk); (3) policy landscape (Code on Social Security 2020); (4) transition dynamics (shifts from traditional to platform-mediated employment).",
+          "Sources include government reports (NITI Aayog, Ministry of Labour), international institutions (ILO, World Bank), peer-reviewed journals, and platform case studies (Uber, Swiggy). Thematic content analysis is used to identify core patterns. Comparative policy analysis examines international precedents. Limitations include the urban-centric nature of available data, reliance on secondary sources, and challenges in generalizing to rural informal sectors.",
+        ],
+      },
+      {
+        heading: "1. Research Design",
+        paragraphs: [
+          "The study employs a multi-thematic analytical approach, centred on four key dimensions:",
+          "Growth Drivers: like digitalisation, globalisation, and demographic change",
+          "Worker Experience: like income uncertainty, insecurity, and algorithmic management",
+          "Policy & Legal Landscape: analysis of the Code on Social Security, 2020 and related reforms",
+          "Transition Dynamics: tracing transitions between traditional and platform-mediated employment",
+          "This strategy allows the study to not just explain but also interpret the evolving transitions in employment structures and labour relations in the Indian gig economy.",
+        ],
+      },
+      {
+        heading: "2. Sources of Data",
+        paragraphs: [
+          "The research is based chiefly on secondary data, gathered from a broad array of credible and recent sources, such as international, industry, governmental, legal, journal, and platform studies:",
+          " -	Government documents (e.g., NITI Aayog, Ministry of Labour and Employment, NSSO, Economic Survey of India)",
+          " -	International organisations (e.g., ILO, World Bank, IMF)",
+          " -	Industry analyses (e.g., Boston Consulting Group, Observer Research Foundation)",
+          " -	Peer-reviewed scholarly articles and legal analysis",
+          " -	Platform case studies (Uber, Swiggy, Urban Company, etc.)",
+        ],
+      },
+      {
+        heading: "3. Analytical Tools and Techniques",
+        paragraphs: [
+          "Thematic content analysis was used to uncover patterns with respect to central issues: social protection, labour classification, consumerism, worker agency, and regulation of platforms. Comparative policy analysis was employed to assess cross-national precedents (e.g., Spain, Canada) in regulating gig work.",
+          "Trend mapping facilitated visualising the development path and projected expansion of the gig labour force.",
+          "4. Scope and Limitations",
+          "The research is qualitative rather than quantitative and does not comprise primary field data or econometric quantities.",
+          "The research emphasises urban platform work more as a result of data availability, which could constrain generalizability to rural informal sectors.",
+          "While exhaustive, worker views are based on secondary interviews and reports, rather than direct interaction.",
+        ],
+      },
+      {
+        heading: "Rise of the Gig Economy in Globalised India",
+        paragraphs: [
+          "India's integration into the rest of the world through technology and the internet has had quite an impact on the rapid development of the gig economy. The evolution of mobile technology and platforms offering services have changed how people interact economically, permitting new forms for work throughout employment globalization accompanied by a shift toward digital interfacing. Services such as Swiggy, Ola, Uber, Flipkart, and Urban Company have created a new digitally mediated-serviced economy that enables millions to take part in short-term contracts or independent gigs (Banwari, 2018).This change has been aided by various demographic factors. The population’s younger age structure along with ongoing urbanization as well as high smartphone penetration created a pool of digitally-educated young job seekers. In light of few available secure salaried positions coupled with costly living standards, freelance work is highly attractive. Platforms offer opportunities via Freelancer.com, Fiverr or Upwork allows far greater reach which boosts income from foreign exchange as well international exports of services (Seshadri 2024).",
+          "As per the data released Online Labour Index, India ranks top within countries supplied online freelance labour globally. Approximate 45% share in Online Indian Gig Work participation comes from Software Development & Technology Services (Banwari 2018). The increased confidence in e-commerce and the surge in app-based services have broadened avenues of work access, easing geographic, qualification, and formal training limitations (Bekal et al., 2023).",
+          "Globalization has its benefits, but they are not equally shared. Residents living in urban areas with readily available internet connectivity and modern technological devices stand at an advantage to access gig work, while residents from rural areas remain largely marginalized. Not to mention the intense competition for available tasks cuts wages further perpetuating long-term income instability (Manjunatha, 2023). Additionally, this type of globalized gig work deepens skill mismatches–where overqualified individuals engage in menial work unaligned with their education (Seshadri, 2024).",
+          "Still, the potential of the gig economy as a driver towards inclusive employment is significant. With proper digital infrastructure coupled with targeted skilling initiatives and strong policy frameworks, globalization can be used constructively toward expanding gig work inclusively. Protective policies should also be implemented to guarantee adequate compensation, pay disputes, worker classification safeguards, and nullify contractor misclassification schemes ensuring balance between growth and equity within this changing framework of employment.",
+        ],
+      },
+      {
+        heading: "Consumerism in the Age of the Gig Economy",
+        paragraphs: [
+          "Consumerism is a socioeconomic way of thinking that assumes that the more goods purchased (and services consumed), the better the economy is. It also constitutes a factor which, in modern post-industrial societies, not only informs market behaviors, but also attitudes, values, identity, and the structure of various institutions. Coupled with the increase in consumer culture, the last two decades have seen the emergence ofthe  gig economy—an agile human-worker based on a digital network which links people to a plethora of short-term and casual work opportunities. These changes have greatly contributed to ongoing debates concerning precarious employment opportunities and the reduction of stable jobs (Joshi et al., 2024; Woodcock, 2021).",
+          "Raw gig work is characterized as informal and divided, nontraditional (Sterrantino & Salerno, 2021). Uber, DoorDash, Airbnb, and Fiverr are examples of flexible employment that digitally connect their users. Flexible Work Environments have been discussed by Huang et al in 2020. While for some it is a supplementary source of income, for a substantial part it serves as the primary source of income (Friedland & Balkan, 2022). This situation typically generates financial instability and causes employees to assume very pragmatic and risk-averse consumption behaviours (Zietlow, 2020).",
+          "Gig platforms collect mountains of consumer data, studying preferences, behavior, and use, and tailoring services and targeted advertising accordingly. This continual bombardment of personalized advertising not only promotes on-platform traction but also stimulates impulsive purchasing and a positive feedback loop of need and satisfaction.",
+        ],
+      },
+      {
+        heading: "1. Gig Work as Consumerist Behaviour",
+        paragraphs: [
+          "The design and function of the gig economy are to promote and feed into consumerist trends in several key ways.",
+          "1.1. Instant Gratification, which is made in real time.",
+          "They present immediate results. These days, everything from a meal to a ride to a house call can be summoned within minutes, changing our sense of what is immediate and accessible. This change is West’s attempt to double down on his culture’s disinterest in waiting, to raise immediacy to the operative principle and make the cycle playback ever faster and more frequently.",
+          "1.2. Task Outsourcing and Time-Monetization.",
+          "Gig platforms which have integrated into the fabric of our daily lives are those which allow for the outsourcing of a great range of tasks from cooking and cleaning to running errands and doing repairs. We see time as a subjectified currency which we put forward in trade for what we get back in terms of leisure or consumption. But instead of using it for sleep or fun, this time it is often recycled into more of the same consumer behavior.",
+          "1.3. Experience Economy: Access is Greater than Ownership",
+          "Contemporary consumption is more and more experience-driven as opposed to thing-driven. Gig platforms like Airbnb make travel experiences feel curated, and services like TaskRabbit allow you to order skill-based labour on demand. While they are packaged as sustainable options, such services increase consumption, too, by expanding access to personal, bespoke experiences and encouraging new desires.",
+          "1.4. Cheap Tricks and The Real Cost of Convenience",
+          "Gig companies frequently sidestep traditional labour costs by categorizing workers as independent contractors, a move that enables them to undercut prices. This brings services that used to be the luxury resort of the few — like a chauffeur ride, a restaurant-quality meal delivered at home — into the mainstream. Though it appeals to consumers, these low prices are all too often the product of undercutting worker protections and fair wages, and have made normal something that places affordability before equity.",
+          "1.5. Personalization Through Data-Driven Consumption",
+        ],
+      },
+      {
+        heading: "2. Consumerist Aspiration and Gig Work",
+        paragraphs: [
+          "The gig economy doesn’t just generate consumption; it is also the product of pre-existing consumerist values.",
+          "2.1. Personalization and Velocity: The New Market Demands",
+          "The consumer of today is a demanding customer who wants very personalized services that work for them, right away. The #gig #economy feeds on providing agile services that align with user preferences on the fly, from opting for the type of cuisine one needs, to timing the delivery of a desired service on a freelance basis. This consumer-friendly convenience has parallels in the wider personalization and efficiency.",
+          "2.2. Frictionless Experience and User-Centric Design",
+          "It embodies the consumerist order: user experience is everything, and gig platforms like to pride themselves on streamlined user experience. Smooth interfaces, fast payments, and review systems people trust, they eliminate any hesitation and speed up the decision-making. This frictionless experience suggests regular, and sometimes spur-of-the-moment, interaction, which is conducive to habitual consumption.",
+          "2.3. The construction of an aspirational lifestyle",
+          "For many people, making use of gig services is not only about functionality, but about living the life they want. From the ability to order artisan meals to the arrival in a private car, the gig economy fosters curated convenience in accordance with status and luxury. These tendencies are reinforced through advertising, whose message links effortlessness to accomplishment, consumption to identity.",
+          "The gig economy has come to symbolize 21st-century consumerism, providing unparalleled convenience at the cost of hiding its own inconvenient truths. Presented as progress, however, this system routinely shifts economic and ecological costs onto both workers and nature. It’s the cyclical nature of gig labour and consumer demand that makes the model so difficult to sustain financially.",
+          "Only when we understand these historical dynamics can we move towards a system that appreciates fairness, sustainability, and social harmony. What the Gig Economy Must Do in 2016. The next era of the sharing economy, 'The gig economy should be about more than consumption. It needs to be digitized and improve the quality of work for everyone. Consumers, platforms, and policy-makers all have a part to play in shaping this evolution into a fairer and responsible digital economy.",
+        ],
+      },
+      {
+        heading: "Opportunities and Benefits of the Gig Economy",
+        paragraphs: [
+          "India is the second largest in terms of freelancers worldwide, with around 15 million people, representing 40% of freelancers in the world(Gaur & Sharma,2023). This can be attributed in part to the gig work culture, which gives workers the flexibility and independence (Ray,2024). Gig, or freelance, workers can choose their own hours and places of work, allowing the involvement of women and rural communities in India’s economy to upshift considerably (Gaur & Sharma,2023). This enables women and other employees to generate incomes from multiple sources while balancing work and life (Gaur & Sharma,2023). These gig platforms offer women the flexibility to balance their personal and professional responsibilities, thus promoting financial independence(Sharma & Gaurav,2023). Now they can spend as per their requirement in a more empowered manner, which will lead to empowerment of women and effective use of India’s demographic dividend.",
+          "The gig economy is utilising India’s demographic dividend too, as it hires under- and semi- educated on the basis of their skills rather than their education (Gaur & Sharma,2023). Several ed-tech platforms, including UpGrad and Simplilearn, are seeing rising demand for courses in these skills. Government programs such as Digital India have boosted the growth of the gig economy through better telecommunication infrastructure and internet accessibility (Gaur & Sharma,2023). They now have the Internet and/or smartphones in their hands, even in the hinterland, and they can participate in the digital economy. So, people living in the village can decrease the migration to cities based on work and finding something to do, and it’s all fine for them to be able to do everything remotely (Sharma & Gaurav,2023).",
+          " Newer players like Ola, Uber, Swiggy, Zomato have merged unmet service patterns to freelancers who are available to fulfill those meet (Ray,2024). These businesses, which are nascent companies, are highly dependent on gig workers for delivery and ridesharing. Startups generally have a lean operation, and they have a need for skilled manpower at lower costs (Gaur & Sharma,2023). While gig workers might not be highly educated, they are upskilled by ed tech companies or by the platforms themselves. This process is good for startups because it cuts the cost of business (Gaur & Sharma,2023) and it also creates more jobs. India Non IIM MBA Jobs A report by the World Bank in the year 2018 (as cited in Gaur & Sharma,2023) was a revelation in itself. India needs to add 8 million new jobs every year to keep the employment figure going, with about 1.3 million individuals becoming jobless every month. The gig economy goes some way toward solving this by offering more than 15 million jobs in India (Gaur & Sharma,2023). There is a growing engagement of gig workers in other functions such as human resources, customer service, operations, marketing, sales, software engineering, graphic designing (Gaur & Sharma,2023), and even manual labour, many of which do not require formal qualifications (Gaur & Sharma,2023). The growth of the gig economy has seen development in infrastructure, technology, and logistics. We see that access to the internet, Wi-Fi availability, and digital payment options are improving as we meet the needs of the market (Sharma & Gaurav,2023). Also, this expansion reports that, which in turn improves the quality of life for many gig workers.  ",
+        ],
+      },
+      {
+        heading: "Challenges Faced by Informal and Gig Workers",
+        paragraphs: [
+          "Although the economy will have grown to value of $335 billion (Gaur & Sharma,2023) and also generate 350 million jobs by 2025 (India Brand Equity Foundation as cited in Gaur & Sharma,2023) . But it is also to address some of the problems such as high precarity (Ray,2024) i.e. Uncertainty, in the payment system, in other words, nobody really knows that whether full payment will go into an account or not, that it will do so in a timely way or not (Gaur & Sharma,2023). We then have an issue in how we will deal if any future crises come ,like COVID-19, which is very likely to see platforms and state reassemble who will leave vulnerable individuals ,like they did in COVID -19 (Ray,2024) to fall back on families in villages ,Whatsapp groups and other parallel socio  “spatial networks” (Ray,2024) helped grant access to concessional medicines and other resources during the pandemic (Ray,2024). But for the labour  not having any solid support system in their villages, this was not of any help to them (Ray,2024). This triggered a spike in transportation cost as demand spiked. And a study conducted last year by Flourish Venture found that 90% of ride-share drivers and 75% of delivery riders experienced a marked decline in earnings (Ray,2024). ",
+          "The digitization of the informal sector on these platforms has not at all altered the cultural and social attitudes or the socialist view of the worker as diseased and poor (Ray,2024) and the state of the workers’ labour follows suit in an unbroken continuity of brutality as what they used to suffer remains their continuing lot in life (Ray,2024). Digitalization of the informal economy on these platforms in no way altered the cultural and social attitude or socialist perspectives about such workers so they are perceived as diseased and poor rendering them immediately facing no less adversity than they experienced before (Ray,2024). ",
+          "Gig workers are classified as independent contractors and not as workers which means they do not have the benefits that formal employees have insurance, provident fund, and protection under labour laws (Suvarnapathaki et al.2025). The law is thus not on their side, the Code of Social Security 2020 may have put them in the worker category which was a step forward for their cause but that legislation has yet to be put into practice (Suvarnapathaki et al.2025).Even the Code of Social Security does not mention that they will get insurance, provident fund or paid leave and the law does not mandate companies to provide it (Suvarnapathaki et al.2025), which leaves these labourers without any voice in the company (Sharma & Gaurav,2023). ",
+          " Two interesting insights were obtained through a review of 14 couriers in Hyderabad (Govindharaj,2024). The first is the general classification of waiting time, which consists of standing time for order pickup in the restaurant’s line and intra-order between end of one and assigning other and outside residential hubs customer waiting time. From the employees point of view, if you simply add all four of these types of waiting together it is estimated they represent about 25 to 30% of the their recorded hours (Govindharaj,2024) .The other issue was working with mobile apps and it was leading to tedious workflows of clicking confirm buttons for deliveries, calling customers for directional guidance, taking pictures for proof including within the Swiggy application and Google Maps leading to mental tiredness and burnout (Govindharaj,2024).",
+        ],
+      },
+      {
+        heading: "Policy, Recommendations and Legal Response in India",
+        paragraphs: [],
+      },
+      {
+        heading: "Present policies in India:",
+        paragraphs: [
+          "While at present we have see initiatives like the Code on Social Security (2020) and Rajasthan’s ground breaking state level legislation which have set in motion a regulatory trend, in many areas we still see large gaps in protection, classification and enforcement. India has taken initial action to put gig and platform work into separate labour categories. The Code on Social Security (2020) is a base element which includes “gig workers” and “platform workers” in social welfare programs. The Code which also serves as a foundation puts in place life insurance, health benefits and pension security which the central government is to design via contributions from the government, platform companies and the workers itself (Code on Social Security, 2020). Alongside this, the Rajasthan Platform-Based Gig Workers (Registration and Welfare) Act of 2023 was India’s first legislative effort at state-level governance for gig work. It provided for the establishment of a welfare board, a grievance mechanism, and data-sharing requirements—creating important groundwork for federal action (Rajasthan Bill 2023). ",
+          "Still, some issues persist:",
+          "●	 Regulatory Gaps: The law fails to adequately categorize gig workers as employees or independent contractors leading to ongoing legal ambiguity. Waitlisted Social Insurance: Under the central code, social security measures have not been fully rolled out.",
+          "●	Narrow Focus: Current gig worker policies focus mainly on welfare aid, overlooking adequate compensation, health and safety, and unionization. ",
+          "●	Weak Enforcement Mechanisms: The enforcement of regulations within gig work is complicated due to its decentralized and digital character (Agarwal & Singh, 2021). ",
+          "●	Federal Discord: India's concurrent federal structure creates an inconsistency policy conflict between state-level legislation and central governance which threatens cohesive regulation (NITI Aayog, 2022). ",
+        ],
+      },
+      {
+        heading: "Policy Reforms",
+        paragraphs: [
+          " To sustain the emerging gig workforce in India within the context of globalization and digitalization, a radical transformative policy restructuring is needed. The following multi-faceted reforms are suggested:",
+        ],
+      },
+      {
+        heading: "1. Worker Classification and Basic Protections",
+        paragraphs: [
+          "1.1 Hybrid Worker: Introduce classification 'Platform Worker' or 'Dependent Contractor' with rights between traditional employment and those centered around a gig economy worker. Defined base earnings on either platform(s), single source dependency for earnings, and minimal control over important decision facets—pricing, task selection. Gig work is driven by selective supervision (ILO, 2021). This type of functional exclusivity is permanent and dictated by application-based job assignment. 'Hybrid classifications are increasingly seen in countries like Spain and Canada to balance flexibility with fairness' (ILO, 2023).",
+          "1.2 National Portable Social Security Fund:",
+          "● Tripartite Model: Serves as a social security account which provides joint contribution from the platforms, workers, and government funding towards a mandatory account managed by social security agencies at the national level. Benefits may be cumulative or proportional for part-time workers.",
+          "● Tiered Benefits: Benefits can be relative to hours worked or income for part-time gig workers, offering a flexible benefits structure and significantly accommodating more users.",
+          "● Digital Integration: Leverage existing infrastructure for seamless benefit transfers in real-time for the delivery of eligible subsidies to entitled citizens using Aadhaar, UPI, and Jan Dhan.",
+          "1.3 Mandatory Risk Coverage: All health gig services will have basic health and accident insurance which is to be co-financed by platforms and workers.",
+        ],
+      },
+      {
+        heading: "2. Fair Remuneration and Work Standards",
+        paragraphs: [
+          "2.1 Minimum Pay per Active Hour: Define 'active hours' with a regional sector-specific inflation-adjusted minimum pay rate (Agarwal & Singh, 2021).",
+          "2.2 Pricing Transparency: Every platform should maintain transparency on their commissions, bonuses, and other payable deductibles that shall not be changed without prior notice to the workers (Quadrennial Terms Review Group).",
+          "2.3 Regulated Breaks and Working Hours: Limits on maximum daily working hours combined with mandatory rest intervals help prevent overwork and associated health risks such as hypertension, especially in transport/logistics industries.",
+          "2.4 Safety Norms: Mandatory issue of health and safety training to workers, provision of safety gear (e.g., helmets, reflective gear), and formalisation of platform responsibility—including infrastructure improvement—must be put into writing.",
+        ],
+      },
+
+      {
+        heading: "3. Dispute Resolution and Worker Representation",
+        paragraphs: [
+          "3.1 Independent Tribunal System: Establish a special grievance authority which will have the power to mediate and resolve issues related to deactivation, pay differences, or contract violations. In countries like Australia we have seen improvement in gig labour fairness after the introduction of independent ombudsman-type bodies (Business Standard, 2023).",
+          "3.2 Internal Redressal Forums: We see to it that companies put in place transparent app-based platforms for redressal and also that these are made to run efficiently.",
+          "3.3 Worker Collectives: The government should play a role in the formation of digital unions, cooperatives, or what may be informal worker groups, even within the class of new hybrid groupings which improve workers’ voice.",
+        ],
+      },
+      {
+        heading: "4. Skilling, Diversity, and Inclusion",
+        paragraphs: [
+          "4.1 Upskilling Funds: Mandate that all platforms and the government put into skill development programs that equip gig workers for future employment transitions.",
+          "4.2 Issue of Certification: We should issue certifiable skill records to gig workers, which in turn will improve their job mobility across platforms and industries.",
+          "4.3 Digital Literacy, Financial Tools: Also, we must do away with the lack of access to financial literacy programs and digital tools (like tax calculators, credit score apps), which will, in turn, empower gig worker autonomy.",
+        ],
+      },
+      {
+        heading: "5. Algorithmic Governance and Data Rights",
+        paragraphs: [
+          "5.1 Algorithmic Accountability: Platforms must report on how algorithms impact ratings, payouts, and job allocation. Workers should have the right to access and appeal algorithmic decisions.",
+          "5.2 Data Portability and Ownership: Employees should be able to move their performance data onto different systems, which will facilitate better negotiation for jobs and advancement opportunities.",
+        ],
+      },
+      {
+        heading: "6. Financial Security and Taxation",
+        paragraphs: [
+          "6.1 Simplified Taxation Reduced compliance burden increases formalisation for small gig economy workers through presumptive taxation models.",
+          "6.2 Platform-Enabled Filing: Platforms should put in place features within their apps which help workers with tax reporting.",
+          "6.3 Financial Access: Encourage banks and fintech companies to create out credit, insurance, and savings products that play to gig workers’ needs, which we know from their reported income.",
+        ],
+      },
+      {
+        heading: "7. Regulatory Oversight",
+        paragraphs: [
+          "7.1 National Gig Economy Authority: Provision for a separate regulatory body to:. Draft out guidelines and see to their implementation. Also plays a role in state-level initiative coordination. Report back on platform compliance. Run a research centre on digital labour. “A central regulatory body which is in charge of uniform enforcement also which will include state level variations” (NITI Aayog, 2022).",
+          "Implementing the policy ecosystem will require:",
+          "● Phased Rollout: Start from basic safeguards such as insurance and grievance redress mechanisms, then gradually expand to skill and data rights.",
+          "● Stakeholder Consultation: Sustain engagement with gig workers, platforms, unions, and civil society actors.",
+          "● Tech-Enabled Delivery: Leverage India’s digital infrastructure for real-time dispensation of benefits and tracking of disputes for due automated servicing.",
+          "● Flexibility Without Rigidity: Focus formalized protective regulation that safeguards stifling innovative activity.",
+          "● Federal-State Synergy: Institutional cooperation propels alignment between central and state legal frameworks.",
+          "As India’s platform economy grows in size and scope, we see the need to protect gig workers which at the same time we must not stifle digital innovation. A balanced regulatory framework which is rooted in flexibility, fairness, and futurism -- is what India needs to put together a gig economy that is not only competitive on the global stage but also inclusive socially. Through the use of hybrid classifications, universal benefits, transparent algorithms, and participatory governance India can position itself as a leader in fair digital labour. This is the time to act before we institutionalize informality.",
+        ],
+      },
+      {
+        heading: "Limitations",
+        paragraphs: [
+          "●	Data Limitations and Informality of the Sector",
+          "One of the principal shortcomings in researching the informal or gig economy is that there are no reliable and consistent data sets. Because so much of this economy lies outside of formal regulatory systems, it is challenging to get accurate estimates of employment, wages, or working conditions. This hinders the ability to make strong conclusions or extrapolate findings across regions or sectors.",
+          "●	Over-reliance on Urban-Centric Narratives",
+          "Most of the evidence and debate surrounding the gig economy is centered on city platforms such as Uber, Swiggy, or Zomato, overlooking rural or semi-urban informal labour that could have some fundamentally different issues. This might lead to a distorted view of the overall informal landscape in India. ",
+          "●	Counterargument: Platform Work Offers Flexibility and Agency",
+          "People who argue against regulation of the gig economy typically point out that platforms offer flexibility and autonomy to workers, particularly women and students, who like part-time or freelance options. Excessive regulation, they contend, would hamper the very things that make jobs under such platforms attractive to individuals.",
+          "●	Difficulty in Defining the Sector Clearly",
+          "The 'informal' or 'gig' economy encompasses a broad spectrum of jobs—from construction workers to mobile app-based delivery drivers—so it is challenging to establish global policies or solutions. This definitional uncertainty tends to result in disjointed policy approaches.",
+          "●	Transition Challenges to Formalisation",
+          "Although formalisation is presented as the norm, the process of transition is complex. Most informal businesses lack the resources to cover registration, tax, or compliance. Additionally, employees might oppose formalisation if it will deprive them of temporary incomes or independence.",
+          "●	Globalisation as Both Opportunity and Threat",
+          "Whereas globalisation has created new opportunities for gig work (such as online freelancing), it has also raised labour market competition and undermined employment security for most informal workers. Such dual impact makes it challenging to describe globalisation as either totally advantageous or unfavorable to the industry.",
+        ],
+      },
+    ],
+    conclusion: [
+      "The gig economy adds value to business-as-usual brick and mortar, it helps to open up new markets and access spaces they were never able to reach before. A comprehensive dive into the world of the gig economy, showing how it has become the essential lifestyle for workers, consumers, and businesses across the globe._taboola. However, along with the flexibility, job creation and economic empowerment, the research highlights some vital challenges and ethical issues which suggest the need for cautions. The gig workers are fabric in the existing law under which the protection is still not complete and hence,they are increasingly becoming exploitation closer and exploitation. The proliferation of the gig economy is fuelled by technological progression and so it becomes imperative to keep a step ahead to meet these challenges.",
+      "The study highlights the need for thoughtful and tailored solutions, such as introducing specific labour laws or creating new categories for gig workers, that adjust to meet the protection of gig workers' fundamental rights and guarantee equitable treatment. Ethical issues are also very important, with discrimination, especially as it pertains to race and gender, becoming a dominant concern in the gig economy. Thus, the framework should aim to protect social benefits and post-retirement entitlements while ensuring appropriate compensation for services rendered, maintaining a careful balance between flexibility in work hours. There is an alarming lack of oversight offered through regulation that establishes basic legal standards for working conditions across different industries. As such there is an immediate void that needs to be addressed. This model calls upon policymakers to proactively shape shipping into respectable real work rather than leftover tasks provided by businesses of shifting models devoid of meaning confined to screens.",
+      "In conclusion, the concerns raised by Byung-Chul Han about self-exploitation, along with insights from SME Futures highlighting the harsh realities behind the promise of 'being your own boss,' seem to reflect the growing challenges faced by gig workers today. While the gig economy offers flexibility and independence, it often comes with instability, a lack of protections, and increased pressure to constantly perform. India has the potential to build a gig economy that is fair, sustainable, and aligned with long-term economic growth by implementing targeted regulatory reforms and fostering collaboration among all stakeholders. These issues highlight the need for further research to create a more secure future for the gig workers in India.",
+    ],
+    references: [
+      {
+        heading:
+          "AfDB, ADB, EBRD, IADB (2018) The Future of Work: The Regional Perspectives, Washington, D.C.: African Development Bank, Asian Development Bank, European Bank for Reconstruction and Development, Inter-American Development Bank.",
+        links:
+          "https://www.adb.org/sites/default/files/publication/481901/future-work-regional-perspectives.pdf",
+      },
+      {
+        heading:
+          "Agarwal, R., & Singh, R. (2021). The Gig Economy in India: Challenges and Opportunities for Sustainable Livelihoods. Economic & Political Weekly.",
+        links: "",
+      },
+      {
+        heading:
+          "Aleksandric, M. (2023). 20+ Gig Economy Statistics for 2023: The State of Gig Work. FinMasters.",
+        links:
+          "https://finmasters.com/gig-economy-statistics/?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs_IeZUEf6GAdwztdSdjY_pWpY0FlCnRwXNKKAoXnseQiNdwYVml0AaAp8aEALw_wcB",
+      },
+      {
+        heading:
+          "Atkinson, R. Shaping structural change in an era of new technology.",
+        links:
+          "https://policynetwork.progressivebritain.org/opinions/essays/shaping-structural-change-era-new-technology/",
+      },
+      {
+        heading:
+          "Banwari, V. (2018). Gig Economy: Challenges and Opportunities in India. Journal of Emerging Technologies and Innovative Research (JETIR), Vol. 5, Issue 11.",
+        links: "",
+      },
+      {
+        heading:
+          "Bekal, S., Harish, A., Bhandari, K., Y., K., Marda, K., & Bishnoi, Y. (2023). Review of Literature on the Topic of the Gig Economy in India. International Journal of Innovative Science and Research Technology, Vol. 8, Issue 4.",
+        links: "",
+      },
+      {
+        heading:
+          "Business Standard. (Analysis and news on platform economy developments in India).",
+        links: "",
+      },
+      {
+        heading:
+          "Cascio, W. F. (2019). The Changing Nature of Work. Annual Review of Organizational Psychology and Organizational Behavior, 6, 95–115.",
+        links: "",
+      },
+      {
+        heading:
+          "Chandy L. (2017) The Future of Work in the Developing World (Brookings Blum Roundtable 2016 Post-Conference Report), Washington, D.C.: Brookings Institution.",
+        links: "",
+      },
+      {
+        heading:
+          "Cherry, M. A., & Aloisi, A. (2016). Dependent contractors in the gig economy: A comparative approach. American University Law Review, 66(3), 635–689.",
+        links: "https://doi.org/10.2139/ssrn.2847869",
+      },
+      {
+        heading:
+          "Churchill B, Signe Ravn LC. Gendered and generational inequalities in the gig economy era.",
+        links: "https://doi.org/10.1177/1440783319893754",
+      },
+      {
+        heading: "Code on Social Security, 2020. (India).",
+        links: "https://labour.gov.in/code-on-social-security-2020",
+      },
+      {
+        heading:
+          "Cunningham-Parmeter, K. From Amazon to Uber: Defining employment in the modern economy. BUL Rev., 96, 1673 (2016).",
+        links: "",
+      },
+      {
+        heading:
+          "The Economic Times. (Various articles on gig economy regulations and worker protests in India).",
+        links: "",
+      },
+      {
+        heading:
+          "Farrell D., Greig F. (2016). The online platform economy: Has growth peaked? JP Morgan Chase and Co. Institute.",
+        links:
+          "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/institute/pdf/jpmc-institute-online-platform-econ-brief.pdf",
+      },
+      {
+        heading: "Fuchs, C. (2014). Digital Labour and Karl Marx. Routledge.",
+        links: "",
+      },
+      {
+        heading:
+          "Gaur, V., & Sharma, M. (2023). Digital globalization: Challenges for gig workers in India. Global Strategic Management Journal, 11(2).",
+        links: "",
+      },
+      {
+        heading:
+          "Glynn, T. P. (2023). Apployment. Houston Law Review, 61(1); Li, S. The gig economy and labour market dynamics. Adv. Econ. Manag. Polit. Sci. 61(1), 275–281.",
+        links:
+          "https://www.researchgate.net/publication/376887925_The_Gig_Economy_and_Labour_Market_Dynamics",
+      },
+      {
+        heading:
+          "Govindharaj, Y. (2024). The gig economy in India: The rise of startups, infrastructure, and the organization of the informal workforce. Journal of Entrepreneurship and Development Studies, 9(1).",
+        links: "",
+      },
+      {
+        heading:
+          "Greenwood, B. N., & Wattal, S. (2017). Show me the way to go home: An empirical investigation of ride sharing and alcohol-related motor vehicle fatalities. MIS Quarterly, 41(1), 163–187.",
+        links: "https://doi.org/10.25300/MISQ/2017/41.1.08",
+      },
+      {
+        heading:
+          "Harris, S. D., & Krueger, A. B. (2017). A Proposal for Modernising Labour Laws for Twenty-First-Century Work: The “Independent Worker”. Stewart and Stanford.",
+        links: "",
+      },
+      {
+        heading:
+          "International Labour Organization (ILO). (Various reports on the gig economy and future of work).",
+        links: "",
+      },
+      {
+        heading:
+          "Joshi, J., Woodcock, W., Sterrantino, S., Salerno, S., Huang et al., Friedland, F., Balkan, B., & Zietlow, Z. (2024). The gig economy: a catalyst for consumerism.",
+        links: "",
+      },
+      {
+        heading:
+          "Kasliwal, R. (2020). Gender and the Gig Economy: A qualitative study of gig platforms for women workers. Observer Research Foundation.",
+        links:
+          "https://www.orfonline.org/research/gender-and-the-gig-economy-a-qualitative-study-of-gig-platforms-for-women-workers-65948/",
+      },
+      {
+        heading:
+          "Kshatriya, N., & Kurien, D. (2023). Gig Workers in India: Emerging Opportunities in the New Economy. ResearchGate.",
+        links: "",
+      },
+      {
+        heading:
+          "Kuhn, P., & Maleki, A. (2017). Microtasking, gender, and labour market outcomes: Evidence from online freelancing platforms. Centre for European Economic Research (ZEW).",
+        links:
+          "https://www.zew.de/en/publications/microtasking-gender-and-labour-market-outcomes-evidence-from-online-freelancing-platforms",
+      },
+      {
+        heading:
+          "Manjunatha, K. (2023). Gig Economy in India: From the Perspective of Challenges, Opportunities and Best Practices. Quest Journals: Journal of Research in Business and Management, Vol. 11, Issue 12.",
+        links: "",
+      },
+      {
+        heading:
+          "Murdock, C. (2017). The Gig Economy: What is it, and is it a Game Changer? Federal Reserve Bank of Kansas City Economic Review, Second Quarter, 5–26.",
+        links: "",
+      },
+      {
+        heading:
+          "Nadagoudar, S., & Patil, R. (2021). Social Security Code 2020: An analysis. Christ University Law Journal, 10(2), 19–42.",
+        links: "https://doi.org/10.12728/culj.19.2",
+      },
+      {
+        heading:
+          "NITI Aayog. (2022). India's Booming Gig and Platform Economy: Perspectives and Recommendations on the Future of Work. Government of India.",
+        links: "",
+      },
+      {
+        heading:
+          "Prassl, J., & Risak, M. (2017). The legal protection of crowdworkers: Four avenues for workers’ rights in the virtual realm. In Meil, P., & Kirov, V. (Eds.), Policy Implications of Virtual Work (pp. 273–295). Springer.",
+        links: "",
+      },
+      {
+        heading:
+          "Ray, A. (2024). Coping with crisis and precarity in the gig economy: ‘Digitally organised informality’, migration and socio-spatial networks among platform drivers in India. Environment and Planning A: Economy and Space.",
+        links: "https://doi.org/10.1177/0308518X231220296",
+      },
+      {
+        heading:
+          "Rajasthan Platform-Based Gig Workers (Registration and Welfare) Bill, 2023.",
+        links: "",
+      },
+      {
+        heading:
+          "Rao, D. T. (2021). “Gig Economy”: A Study on Its Growing Relevance in India. Glob J Sci Res Publ, 1:6–9.",
+        links: "",
+      },
+      {
+        heading:
+          "Schmenner, R. W., & Swink, M. L. (1998). On theory in operations management. Journal of Operations Management, 17(1), 97–113.",
+        links: "https://doi.org/10.1016/S0272-6963(98)00028-X",
+      },
+      {
+        heading:
+          "Schor, J. B. (2020). After the Gig: How the Sharing Economy Got Hijacked and How to Win It Back. University of California Press.",
+        links: "",
+      },
+      {
+        heading:
+          "Seshadri, S. (2024). Decoding India’s Gig Economy: Trends, Challenges and the Way Forward. International Journal of Creative Research Thoughts (IJCRT), Vol. 12, Issue 4.",
+        links: "https://ijcrt.org/papers/IJCRT2404001.pdf",
+      },
+      {
+        heading:
+          "Sharma, R., & Gaurav, G. (2023). The rise of gig and platform workers in India: An approach towards formalising the informal workforce. Centre for Policy Research.",
+        links: "",
+      },
+      {
+        heading:
+          "Snider, L. (2018). Enabling Exploitation: Law in the Gig Economy. Critical Criminology, 26(4), 563–577.",
+        links: "https://doi.org/10.1007/s10612-018-9416-9",
+      },
+      {
+        heading: "Srnicek, N. (2017). Platform Capitalism. Polity Press.",
+        links: "",
+      },
+      {
+        heading:
+          "Suvarnapathaki, N., Iyer, R., & Thomas, A. (2025). ‘The boring and the tedious’: Invisible labour in India’s gig economy. Labour Studies Journal.",
+        links: "https://doi.org/10.1007/lsj.2025.07.004",
+      },
+      {
+        heading:
+          "Tran, M., & Sokas, R. K. (2017). The gig economy and contingent work: An occupational health assessment. Journal of Occupational and Environmental Medicine, 59(4), e63–e66.",
+        links: "https://dx.doi.org/10.1097%2FJOM.0000000000000977",
+      },
+      {
+        heading:
+          "Vallas, S., & Schor, J. (2020). What do we talk about when we talk about the 'gig economy'? Work, Employment and Society, 34(3), 329–346.",
+        links: "",
+      },
+      {
+        heading:
+          "Wood, A. J., Graham, M., Lehdonvirta, V., & Hjorth, I. (2019). Good Gig, Bad Gig: Autonomy and Algorithmic Control in the Global Gig Economy. Work, Employment & Society, 33, 567–575.",
+        links: "https://doi.org/10.1177/0950017018785616",
+      },
+      {
+        heading:
+          "Zwick, A. (2018). Welcome to the Gig Economy: Neoliberal industrial relations and the case of Uber. GeoJournal, 83(4), 679–691.",
+        links: "https://doi.org/10.1007/s10708-017-9793-8",
+      },
+    ],
+  },
 ];
 
 export default articles;
+
