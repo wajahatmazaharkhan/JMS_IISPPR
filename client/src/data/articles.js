@@ -5401,8 +5401,8 @@ const articles = [
     volume: 1,
     title:
       "Understanding the Mind in Decline: A Neuropsychological Journey Through Brain Disorders",
-    author: "",
-    authorAbbrev: "",
+    author: "Harshita Mann, Tanvi Nagpal, Gladys Claudia, Soundarya Prabhakar",
+    authorAbbrev: " H Mann, T Nagpal and others",
     abstract:
       "Understanding cognitive impairments within major brain disorders is central to neuropsychology and clinical psychology. This paper explores Post-Traumatic Stress Disorder (PTSD), Alzheimer’s Disease (AD), Specific Learning Disorders (SLD), and through cognitive and neural perspectives. PTSD’s characteristic hypervigilance and memory intrusions are explained by models emphasizing elaborated fear networks and attentional biases (Hayes et al., 2012). Alzheimer’s disease reflects hippocampal and DMN disconnection, leading to memory and executive dysfunction (Mevel et al., 2011). Developmental dyslexia, as a representative SLD, is underpinned by phonological deficits and dysfunction in reading circuits (Menghini et al., 2010). By comparing distinct neuropsychological profiles and their shared features such as deficits in memory, executive function, and processing speed. This paper underscores the significance of brain-behavior relationships. The analysis emphasizes how cognitive impairments in these disorders correspond to disruptions in large-scale brain networks, guiding both diagnostic approaches and targeted interventions within clinical practice.",
     keywords: [
