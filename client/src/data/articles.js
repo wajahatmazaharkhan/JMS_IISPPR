@@ -276,7 +276,7 @@ const articles = [
         heading: "Additional Insights",
         paragraphs: [
           "One of the most significant criticisms of the Maternity Benefit (Amendment) Act, 2017 is its employer-centric funding model, which places the entire financial burden of paid maternity leave on private businesses, without any state support or subsidy. This model stands in sharp contrast to international best practices. In countries like Canada, the United Kingdom, and several members of the OECD, maternity leave costs are partially or fully subsidized by the government through social insurance schemes, public funds, or payroll contributions. For example, in Canada, maternity and parental benefits are covered under the Employment Insurance (EI) system, ensuring that employers are not disincentivized from hiring women of reproductive age. Similarly, in the UK, employers can recover 92–103% of statutory maternity pay from the government, depending on their size (OECD, 2022).",
-          "In India, however, the absence of such cost-sharing mechanisms creates structural disincentives, especially for small and medium enterprises (SMEs), which operate on thin margins and often lack the administrative capacity to manage long leave periods. A 2022 All India Manufacturers' Organisation (AIMO) survey found that over 35% of SMEs considered avoiding hiring women in childbearing age groups due to financial and operational concerns related to maternity leave. Integrating existing schemes like the Pradhan Mantri Matru Vandana Yojana (PMMVY)—which currently offers conditional cash transfers of ₹5,000 for the first live birth—with the statutory maternity benefit framework could help extend support to women in informal sectors and reduce the exclusive burden on employers.",
+          "In India, however, the absence of such cost-sharing mechanisms creates structural disincentives, especially for small and medium enterprises (SMEs), which operate on thin margins and often lack the administrative capacity to manage long leave periods. A 2022 All India Manufacturers' Organisation (AIMO) survey found that over 35% of SMEs considered avoiding hiring women in childbearing age groups due to financial and operational concerns related to maternity leave. Integrating existing schemes like the Pradhan Mantri Matru Vandana Yojana (PMMVY)—which currently offers conditional cash transfers of Rs. 5,000 for the first live birth—with the statutory maternity benefit framework could help extend support to women in informal sectors and reduce the exclusive burden on employers.",
           "However, PMMVY coverage remains limited; according to NFHS-5 (2019–21), only 28% of eligible women received full maternity benefits, highlighting significant gaps in awareness, access, and implementation. Beyond economic costs, the motherhood penalty continues to disadvantage women professionally. A study by Das & Ghosh (2020) reported a 22% decline in interview callbacks for women in the 25–35 age range, especially in urban service sectors like IT, banking, and education. This bias, both overt and subtle, affects long-term career progression, wage growth, and retention. To overcome these barriers, policy reforms must include government-funded reimbursements, tax incentives for compliant employers, mandatory paternity leave, and investment in subsidized, quality childcare infrastructure. Such measures would not only alleviate the financial burden on businesses but also foster a more gender-equitable labor market by challenging norms that place childcare solely on women.",
         ],
       },
@@ -659,10 +659,10 @@ const articles = [
         paragraphs: [
           "1. Establishing a strong system boundary and the extent of LCA coverage for hydrogen production routes to analyse the whole life cycle of hydrogen production and delivery to the 'city gate,' considering operations such as hydrogen storage, compression, and transportation.",
           "2. To present how grey, blue, and green hydrogen (in the usual technological avenues as steam methane reforming (SMR), SMR with CCS and renewable-powered electrolysis (such as wind or solar)) can be produced using the most prominent industry processes.",
-          "3. To collect and compile the credible primary and secondary data of trusted sources such as Eco invent v3 database, Argonne National Laboratory GREET model, IEA/IRENA reports, and peer-reviewed articles. This will include region-specific information on electricity grid emissions, methane leakage rates, CO₂ capture efficiency, and water stress indicators.",
-          "4. In a bid to utilize LCA simulation programs such as SimaPro or GREET to measure the flow of matters and energy, pollutants (CO₂, CH₄, NOₓ, etc.), and resource inputs (e.g., fossil energy, water, and land use) in the supply chain of each hydrogen route.",
+          "3. To collect and compile the credible primary and secondary data of trusted sources such as Eco invent v3 database, Argonne National Laboratory GREET model, IEA/IRENA reports, and peer-reviewed articles. This will include region-specific information on electricity grid emissions, methane leakage rates, CO2 capture efficiency, and water stress indicators.",
+          "4. In a bid to utilize LCA simulation programs such as SimaPro or GREET to measure the flow of matters and energy, pollutants (CO2, CH4, NOx, etc.), and resource inputs (e.g., fossil energy, water, and land use) in the supply chain of each hydrogen route.",
           "5. To quantify a wide range of environmental aspects such as global warming potential (GWP), fossil fuel depletion, water usage, and land use, thus enabling a multi-dimensional study of sustainability apart from carbon footprints.",
-          "6. To carry out sensitivity and uncertainty analysis that focuses on the consideration of the influence of major elements-natural gas leakage rates, electrolyser efficiency, renewable energy mix, and CO₂ capture rates-on the environmental performance of each type of hydrogen through the change of variables to be sure of the consistency and the usefulness of the findings.",
+          "6. To carry out sensitivity and uncertainty analysis that focuses on the consideration of the influence of major elements-natural gas leakage rates, electrolyser efficiency, renewable energy mix, and CO2 capture rates-on the environmental performance of each type of hydrogen through the change of variables to be sure of the consistency and the usefulness of the findings.",
           "7. To provide a comparative, data-driven review of the environmental sustainability of hydrogen production pathways highlighting differences such as blue hydrogen GWP that figures are 40–70% lower than grey hydrogen under best-case CCS and specifying the circumstances in which green hydrogen can be practically emission-free.",
           "8. To be part of policy and academic literature on the role of hydrogen as a clean energy carrier by offering scientifically approved recommendations on the expansion of green and blue hydrogen in a way that is consistent with net-zero ambitions, climate targets, and sustainable development goals.",
         ],
@@ -670,34 +670,34 @@ const articles = [
       {
         heading: "Methodology",
         paragraphs: [
-          "We define a 'Cradle-to-gate' LCA for each hydrogen type. Grey hydrogen is modelled as SMR of natural gas: system boundaries include NG extraction and processing, pipeline transport, the reformer unit, and H₂ purification. Blue hydrogen follows the same steps but adds CO₂ capture, compression, and sequestration stages (we assume ~90% CO₂ capture efficiency).",
-          "Green hydrogen is modelled as water electrolysis powered by renewable electricity (e.g. wind or solar). We assume use of a polymer electrolyte membrane (PEM) electrolyser (a common technology). Upstream of the electrolyser we include renewable power generation (wind turbines or solar PV farms), with associated land and material inputs. All cases include auxiliary operations (e.g. compression, storage, or transport of H₂ to the 'city gate') within the system boundary.",
+          "We define a 'Cradle-to-gate' LCA for each hydrogen type. Grey hydrogen is modelled as SMR of natural gas: system boundaries include NG extraction and processing, pipeline transport, the reformer unit, and H2 purification. Blue hydrogen follows the same steps but adds CO2 capture, compression, and sequestration stages (we assume ~90% CO2 capture efficiency).",
+          "Green hydrogen is modelled as water electrolysis powered by renewable electricity (e.g. wind or solar). We assume use of a polymer electrolyte membrane (PEM) electrolyser (a common technology). Upstream of the electrolyser we include renewable power generation (wind turbines or solar PV farms), with associated land and material inputs. All cases include auxiliary operations (e.g. compression, storage, or transport of H2 to the 'city gate') within the system boundary.",
         ],
       },
       {
         heading: "Data Collection",
         paragraphs: [
           "We use a combination of primary data and secondary LCA datasets. Key inventory data are drawn from recognized databases and literature: for example, the Eco invent v3 database (global LCI data for materials and processes) and Argonne National Laboratory's GREET model (U.S.-focused fuel LCA data) are used for background processes.",
-          "The data on the electricity mix, emissions across natural gas supply chain and performance differences in technologies (e.g. electrolyser efficiency, CCS energy penalty) are retrieved from IEA/IRENA and LCA reports. Multi-regional and country specific statistics (e.g. NG methane leakage rate or grid CO₂ intensity) are added where possible in order to capture sensible variations.",
+          "The data on the electricity mix, emissions across natural gas supply chain and performance differences in technologies (e.g. electrolyser efficiency, CCS energy penalty) are retrieved from IEA/IRENA and LCA reports. Multi-regional and country specific statistics (e.g. NG methane leakage rate or grid CO2 intensity) are added where possible in order to capture sensible variations.",
         ],
       },
       {
         heading: "LCA Modelling",
         paragraphs: [
-          "The LCA follows ISO 14040/44 standards. We adopt a functional unit of 1 kg of H₂ delivered (cradle to-gate or cradle-to-city-gate). Life-cycle inventory is compiled using LCA software (e.g. SimaPro or GREET as simulation tools).",
-          "We model the mass and energy flows of each unit process in the supply chain: e.g. natural gas inputs and combustion in SMR, electricity inputs to the electrolyser, materials for plant construction, and emissions (CO₂, CH₄, N₂O, NOₓ, etc.) from fuel/energy production.",
-          "The impact assessment phase calculates midpoint indicators for each category. Standard LCIA characterization factors (e.g. IPCC GWP100 for CO₂ equivalent) are applied to aggregate emissions into global warming potential.",
+          "The LCA follows ISO 14040/44 standards. We adopt a functional unit of 1 kg of H2 delivered (cradle to-gate or cradle-to-city-gate). Life-cycle inventory is compiled using LCA software (e.g. SimaPro or GREET as simulation tools).",
+          "We model the mass and energy flows of each unit process in the supply chain: e.g. natural gas inputs and combustion in SMR, electricity inputs to the electrolyser, materials for plant construction, and emissions (CO2, CH4, N2O, NOx, etc.) from fuel/energy production.",
+          "The impact assessment phase calculates midpoint indicators for each category. Standard LCIA characterization factors (e.g. IPCC GWP100 for CO2 equivalent) are applied to aggregate emissions into global warming potential.",
         ],
       },
     ],
     conclusion: [
       "Expected Outcomes",
-      "We expect green, grey, and blue hydrogen to show distinctly different life-cycle environmental profiles. In terms of GWP, grey hydrogen is anticipated to be the highest. Literature reports grey H₂ GWP on the order of 10–15 kg CO₂e per kg H₂ (cradle-to-gate).",
-      "In contrast, green hydrogen powered by renewables can be an order of magnitude lower: Patel et al. found wind-based electrolysis as low as 0.6 kgCO₂/kg and even solar-based ~2.5 kgCO₂/kg; overall averages for renewables-powered electrolysis are around 2.0 kgCO₂/kg.",
-      "Blue hydrogen falls in between: e.g. Patel et al. report ~7.6–9.3 kgCO₂/kg H₂ for natural gas routes with CCS. Under best-case conditions (high CO₂ capture, very low methane leakage), blue H₂ GWP can approach only a few kgCO₂/kg (comparable to the upper end of green H₂).",
+      "We expect green, grey, and blue hydrogen to show distinctly different life-cycle environmental profiles. In terms of GWP, grey hydrogen is anticipated to be the highest. Literature reports grey H2 GWP on the order of 10–15 kg CO2e per kg H2 (cradle-to-gate).",
+      "In contrast, green hydrogen powered by renewables can be an order of magnitude lower: Patel et al. found wind-based electrolysis as low as 0.6 kgCO2kg and even solar-based ~2.5 kgCO2/kg; overall averages for renewables-powered electrolysis are around 2.0 kgCO2/kg.",
+      "Blue hydrogen falls in between: e.g. Patel et al. report ~7.6–9.3 kgCO2/kg H2 for natural gas routes with CCS. Under best-case conditions (high CO2 capture, very low methane leakage), blue H2 GWP can approach only a few kgCO2/kg (comparable to the upper end of green H2).",
       "Alignment with Sustainable Development Goals (SDGs)",
       "Important UN SDGs are directly supported by this analysis. Because it encourages clean fuels and applies life-cycle thinking to resource use, assessing low-carbon hydrogen pathways advances SDG7 (Affordable and Clean Energy) and SDG12 (Responsible Consumption and Production).",
-      "By measuring the GHG emissions of each hydrogen route, it also addresses SDG 13 (Climate Action), guiding decisions that lessen their impact on the climate. By showing that green H₂ production (using renewables) can almost completely eliminate CO₂ emissions per unit of energy, for instance, policies and investments in clean energy infrastructure are encouraged.",
+      "By measuring the GHG emissions of each hydrogen route, it also addresses SDG 13 (Climate Action), guiding decisions that lessen their impact on the climate. By showing that green H2 production (using renewables) can almost completely eliminate CO2 emissions per unit of energy, for instance, policies and investments in clean energy infrastructure are encouraged.",
       "The findings will, in general, direct sustainable energy transitions by determining which hydrogen technologies best fulfil the targets of SDGs 7/12/13 and by emphasising the significance of incorporating emissions controls and renewable power into hydrogen strategies.",
     ],
     references: [
@@ -862,12 +862,12 @@ const articles = [
       {
         heading: "Recommendations",
         paragraphs: [
-          "● Standardize Global Regulations: It is of utmost importance for international bodies such as the United Nations and ISO to work together on a centralized regulatory framework that helps to properly characterize greenwashing clearly and sets definitive standards for environmental claims.",
-          "● Enforcement of Penalties that are stringent to aid compliance: To ensure that corporations take accountability into perspective existing penalties must be revisited and made commensurate to corporate scale and profit.",
-          "● Institutionalize Environmental Auditing: Environmental auditing should be adopted by national governments and bodies and enforced on corporations.",
-          "● Promotion of Transparent Reporting: Corporations should be encouraged, to utilize internationally recognized frameworks like GRI, TCFD, or SASB to disclose their sustainability practices.",
-          "● Educate Consumers and Empower Ethical Decision-Making: Raise public awareness harnessing the importance of Government agencies, civil society organizations, and educational institutions and investing in campaigns that help consumers identify greenwashing tactics.",
-          "● Encouraging Multi-Stakeholder Collaboration: Everyone involved must collaborate to monitor, report, and reduce greenwashing,these include Government agencies,individuals, communities, environmental agencies e.t.c.",
+          " Standardize Global Regulations: It is of utmost importance for international bodies such as the United Nations and ISO to work together on a centralized regulatory framework that helps to properly characterize greenwashing clearly and sets definitive standards for environmental claims.",
+          " Enforcement of Penalties that are stringent to aid compliance: To ensure that corporations take accountability into perspective existing penalties must be revisited and made commensurate to corporate scale and profit.",
+          " Institutionalize Environmental Auditing: Environmental auditing should be adopted by national governments and bodies and enforced on corporations.",
+          " Promotion of Transparent Reporting: Corporations should be encouraged, to utilize internationally recognized frameworks like GRI, TCFD, or SASB to disclose their sustainability practices.",
+          " Educate Consumers and Empower Ethical Decision-Making: Raise public awareness harnessing the importance of Government agencies, civil society organizations, and educational institutions and investing in campaigns that help consumers identify greenwashing tactics.",
+          " Encouraging Multi-Stakeholder Collaboration: Everyone involved must collaborate to monitor, report, and reduce greenwashing,these include Government agencies,individuals, communities, environmental agencies e.t.c.",
         ],
       },
     ],
@@ -1131,7 +1131,7 @@ const articles = [
           "India's contemporary cultural diplomacy policy rests primarily on its civilizational self-image as a Vishwaguru (mentor to the world) and Vishwabandhu (world friend), positioning itself as an advocate of peace, discussion, and “Vasudhaiva kutumbakam” collective prosperity. Within the Vishwaguru framework, India showcases its ancient epistemological systems—like Yoga, Ayurveda, and Sanskrit—as global public goods. The UN's International Day of Yoga, (UN, 2014) launched by Prime Minister Narendra Modi in 2014 and embraced by the UN the same year, is today observed in more than 190 nations and is often viewed as India's greatest cultural export success. India’s Vishwabandhu identity is backed by its compassionate initiatives like Vaccine Maitri, cultural solidarity with the Global South, and cultivating value-based cooperation through the cultural track of the G20 under India's 2023 Presidency (G20, 2023).",
           "Pravasi Bharatiya Divas, is observed every two years to acknowledge and celebrate the Indian diaspora's contribution to national growth and its vast international reach. The MEA has also launched Initiatives such as the “Bharat Ko Janiye Quiz” which aims to promote cultural identity for second- and third-generation Indian diaspora abroad through interactive sessions and tailored visits to India (MEA, 2024). One of the most successful initiatives is the “Festival of India Abroad”, celebrated in 50+ countries on themes such as Namaste India (Japan) and India by the Nile (Egypt). These government-sponsored events feature Indian dance, food, films, and crafts, underlining bilateral cultural relations (ICCR, 2024).",
           "“Repatriation of heritage” is another high-engagement diplomatic initiative that can be included under the cultural diplomacy of India. Since 2014, India has repatriated more than 300 stolen artefacts from nations like the U.S, U.K, and Australia reflecting a commitment for restoration of its centuries old civilizational pride. (MOC, 2023).",
-          "In addition, India has welcomed digital cultural diplomacy. The 2023 G20 Culture Track, with the theme Culture Unites All, focused on heritage protection, cultural diversity, and sustainability, thus incorporating culture into the broader foreign policy domain. The most significant milestone in India's cultural diplomacy this year is the Waves Summit (Waves, 2025), which was launched on 12th June in Mumbai. Organized by Reliance and backed by the government, it established India as a global creative hub. With the involvement of 90+ nations, ₹1,300 crore value deals, and the WAVES Declaration signed by 77 countries, the summit promoted Indian content, crafts, and stories around the world. Initiatives such as WAVES Bazaar and 'Create in India' challenges highlighted India's creative economy and growing soft power.",
+          "In addition, India has welcomed digital cultural diplomacy. The 2023 G20 Culture Track, with the theme Culture Unites All, focused on heritage protection, cultural diversity, and sustainability, thus incorporating culture into the broader foreign policy domain. The most significant milestone in India's cultural diplomacy this year is the Waves Summit (Waves, 2025), which was launched on 12th June in Mumbai. Organized by Reliance and backed by the government, it established India as a global creative hub. With the involvement of 90+ nations, Rs. 1,300 crore value deals, and the WAVES Declaration signed by 77 countries, the summit promoted Indian content, crafts, and stories around the world. Initiatives such as WAVES Bazaar and 'Create in India' challenges highlighted India's creative economy and growing soft power.",
         ],
       },
       {
@@ -1160,7 +1160,7 @@ const articles = [
         heading: "The Road Ahead (Nidhi)",
         paragraphs: [
           "India is currently positioned at a pivotal moment in history, where its deep-rooted civilizational heritage and growing international influence create a distinctive opportunity to reshape and strengthen its approach to cultural diplomacy. What was once a symbolic soft power gesture must now evolve into a coherent, inclusive, and strategic global engagement model. While India’s cultural assets—ranging from Yoga and Ayurveda to cinema, cuisine, and diaspora connections—are globally recognized, their full potential remains underutilized due to fragmented outreach, limited coordination, and inadequate resourcing.",
-          "The road ahead demands a fundamental rethinking of both policy and implementation. The Standing Committee on External Affairs has laid a foundation for this transformation, emphasizing the urgent need to restructure the Indian Council for Cultural Relations (ICCR)—India’s primary cultural outreach body. A clearly defined mandate, decentralized functioning, and a ₹500 crore budget enhancement are essential first steps to ensure ICCR can respond effectively to global cultural demands.",
+          "The road ahead demands a fundamental rethinking of both policy and implementation. The Standing Committee on External Affairs has laid a foundation for this transformation, emphasizing the urgent need to restructure the Indian Council for Cultural Relations (ICCR)—India’s primary cultural outreach body. A clearly defined mandate, decentralized functioning, and a Rs. 500 crore budget enhancement are essential first steps to ensure ICCR can respond effectively to global cultural demands.",
           "Equally critical is institutional coordination. India must break down silos between the Ministry of External Affairs, Ministry of Culture, Ministry of Education, and other stakeholders. A formal coordination committee and joint working groups should drive a unified cultural diplomacy strategy, with shared databases and measurable objectives tailored to regional contexts.",
           "Looking forward, India must adopt continent-specific cultural strategies. Africa would benefit from collaborative art and heritage programs; Latin America could respond to Ayurveda and wellness diplomacy; and East Asia holds promise for cinema and literary outreach. These engagements must be grounded in authenticity and inclusivity, avoiding cultural appropriation and ideological overtones that risk alienating global audiences.",
           "Digital platforms, storytelling tools, and diaspora-led outreach will be crucial to making India’s culture more accessible and engaging. A Yoga Certification Board, as proposed by the Committee, can help preserve the integrity of Indian traditions in global practice. Meanwhile, tourism promotion should follow a country-specific model informed by real-time visitor feedback, supported by expanded overseas tourism offices.",
@@ -1859,7 +1859,7 @@ const articles = [
       {
         heading: "Analysis of Statistics",
         paragraphs: [
-          "The association between faculty type and awareness level was investigated using a chi-square test (χ²). The findings revealed a statistically significant difference (χ² = 18.34, df = 2, p <.001), suggesting that law students were considerably more aware than those studying social science and education.",
+          "The association between faculty type and awareness level was investigated using a chi-square test (Chi^2). The findings revealed a statistically significant difference (Chi^2= 18.34, df = 2, p <.001), suggesting that law students were considerably more aware than those studying social science and education.",
         ],
       },
       {
@@ -2818,7 +2818,7 @@ const articles = [
       },
       {
         heading:
-          "3.	S‑400 Dilemma: Can U.S.–India Defence Ties Survive CAATSA Sanctions in Trump’s Second-Term?",
+          "3.	S-400 Dilemma: Can U.S.-India Defence Ties Survive CAATSA Sanctions in Trump's Second-Term?",
         paragraphs: [
           "With Donald Trump reintroduced once more on January 20, 2025, for his second non-consecutive term as the 47th U.S. president, the issue of CAATSA sanctions on India’s S-400 buy has taken on renewed criticality. The current U.S. organisation, firmly rooted in the “America First” ideology, faces a fundamental test: implement the spirit of sanctions, or shift toward a pragmatic organisation?",
           "Amid Trump’s to begin with term, his administration transparently cautioned India about CAATSA punishments, whereas opening the door partially open for a waiver in the event that New Delhi moved toward U.S. military gear. Presently, four of the five S-400 regiments are currently deployed along India’s borders with China and Pakistan, with the ultimate framework anticipated by early 2026 .This buy, imperative to India’s defence calculus, has drawn renewed attention in Washington and reignited the talk about over vital consistency versus lawful commitment.",
@@ -2870,12 +2870,12 @@ const articles = [
           "7.1. India-US in balancing China",
           "Trump claimed that his trade policy would completely eliminate US dependency on China by revoking its most favored nation trade status given his best cabinet choices and business interests India emerged as the next best alternative due to its skilled workforce and geo-economics and strategic linkage to the Indo-Pacific (Mishra et al., 2025). As China remains the world’s leading semiconductor producer with an advanced fabrication facility, India needs to leverage its own resources particularly after the recent discovery of over 5.9 million tons of lithium in Jammu and Kashmir. If harnessed successfully will strengthen India's ambition of becoming Atma Nirbhar and at the same time make it an important player in the global supply chain. ",
           "7.2. U.S-India Rapprochement with Russia",
-          "As Russia remains India's top crude oil supplier and the trade between the two is predicted to reach US 100 billion dollar in this decade. Trump may find a way for this relationship to benefit both India and the US considering India's strategic importance and the US’s long-term vision for the Indo-Pacific. The US relies on imports of refined petroleum from India and this oil is sourced by India from Russia (Mishra et al., 2025). India came under pressure under Biden from the US to buy its Russians cheap crude oil, but it always tried to balance its relations with Russia and the West not openly, displeasing Russia, but cooperating with the US and its allies in the defence, climate, and trade. This non-aligned, multi-vector diplomacy provided India the space to manoeuvre. ",
-          "Improving ties with Russia would support Trump's agenda to end the Russia Ukraine conflict while creating an opportunity to weaken the Russia-China-axis (Mishra et al., 2025). A warming-up of relations with Russia also would help Trump’s goals to end the Russia-Ukraine war and would open up prospects for a wedge to be driven between the Russia-China alliance. India has always respected Ukraine’s territorial integrity and that’s why Trump’s policy is to pull the support out for Ukraine to end the war. In this context, it could very likely be in the interests of both the US and India to have a strategic partnership that differs from America's approach towards Russia in the past.",
+          "As Russia remains India's top crude oil supplier and the trade between the two is predicted to reach US 100 billion dollar in this decade. Trump may find a way for this relationship to benefit both India and the US considering India's strategic importance and the US’s long-term vision for the Indo-Pacific. The US relies on imports of refined petroleum from India and this oil is sourced by India from Russia (Mishra et al., 2025). India came under pressure under Biden from the US to buy its Russians cheap crude oil, but it always tried to balance its relations with Russia and the West not openly, displeasing Russia, but cooperating with the US and its allies in the defence, climate, and trade. This non-aligned, multi-vector diplomacy provided India the space to manoeuvre. ",
+          "Improving ties with Russia would support Trump's agenda to end the Russia Ukraine conflict while creating an opportunity to weaken the Russia-China-axis (Mishra et al., 2025). A warming-up of relations with Russia also would help Trump's goals to end the Russia-Ukraine war and would open up prospects for a wedge to be driven between the Russia-China alliance. India has always respected Ukraine’s territorial integrity and that’s why Trump’s policy is to pull the support out for Ukraine to end the war. In this context, it could very likely be in the interests of both the US and India to have a strategic partnership that differs from America's approach towards Russia in the past.",
           "7.3.  India, The US and The Middle East",
-          "India diminished itself by not taking a principled, consistent stand on Gaza at a time when it aspires to be a leader of what is referred to as the Global South (Naqvi, 2025). For a country with a long tradition of being against colonialism, India’s neutrality on what is generally perceived as a case of genocide may weaken its moral authority and leadership in the Global South. Historically, India has pursued strategic autonomy, and the current middle ground India is walking, where India did not stand with Israel by condemning neither Hamas nor Gaza—threatens to undermine this legacy.",
-          "Trump has also supported the idea of attacking Iranian oil fields. Although this could be perceived as a decision aimed at escalating Israel's war on Iran, it is merely an aspect of Trump's real politic inspired isolationist policy towards the middle East aimed at terminating the Iran issue (Mishra et al., 2025) Strategic infrastructure like the Chabahar Port and the India-Middle East-Europe Economic Corridor (IMEEC) are key to India’s connectivity to Central Asia and Europe and serves as a perfect counter to China’s Belt and Road Initiative. Since the attacks on October 7 and mounting tensions between Iran and Israel seem to have cast a long shadow on the development, potentially pulling the plug on India’s connectivity aspirations. In light of all this, India must keep its engagement with the U.S. transactional, based on shared interests, not values, without surrendering its core values or sacrificing its leadership in the Global South. ",
-          "7.4. The Progress India Is Making on Climate Without Global U.S. Talks",
+          "India diminished itself by not taking a principled, consistent stand on Gaza at a time when it aspires to be a leader of what is referred to as the Global South (Naqvi, 2025). For a country with a long tradition of being against colonialism, India’s neutrality on what is generally perceived as a case of genocide may weaken its moral authority and leadership in the Global South. Historically, India has pursued strategic autonomy, and the current middle ground India is walking, where India did not stand with Israel by condemning neither Hamas nor Gaza—threatens to undermine this legacy.",
+          "Trump has also supported the idea of attacking Iranian oil fields. Although this could be perceived as a decision aimed at escalating Israel's war on Iran, it is merely an aspect of Trump's real politic inspired isolationist policy towards the middle East aimed at terminating the Iran issue (Mishra et al., 2025) Strategic infrastructure like the Chabahar Port and the India-Middle East-Europe Economic Corridor (IMEEC) are key to India’s connectivity to Central Asia and Europe and serves as a perfect counter to China’s Belt and Road Initiative. Since the attacks on October 7 and mounting tensions between Iran and Israel seem to have cast a long shadow on the development, potentially pulling the plug on India’s connectivity aspirations. In light of all this, India must keep its engagement with the U.S. transactional, based on shared interests, not values, without surrendering its core values or sacrificing its leadership in the Global South. ",
+          "7.4. The Progress India Is Making On Climate Without Global U.S. Talks",
           "There is a growing divide between the Global North and Global South on climate issues. The North developed its economies at high carbon emissions levels and now the South, and particularly countries like India, are feeling the worst effects of climate change. A recent report from the World Meteorological Organization lay bare the loss and damage already being caused by the climate crisis and its disproportionate impact on those least responsible in developing countries. In view of these challenges Global frameworks such as the Paris Agreement and Sustainable Development Goals address the imbalance and push for climate change technology transfer and climate finance from North to South to allow developing countries to achieve goals such as net zero by 2070. ",
           "Under Trump the US disengaged with the Paris Agreement followed by the UK, Germany, Netherlands, France and Canada. Furthermore, US absence in the 2025 Bonn Climate Conference (SB62) raised concerns. Besides, finance was not even on the agenda as a topic of discussion. As per Press Information Bureau India, Coal is vital to India’s energy needs, supplying over half of the country’s power. Despite renewable energy growth, coal-based thermal power will remain essential, with its share projected at 55% by 2030 and 27% by 2047. India is moving from 70 percent coal dependence to renewable energy like solar and hydro so support from global partners is essential. Therefore, it is imperative for India to push the US to return to climate talks and fulfil promises on finance and technology. ",
         ],
@@ -2884,7 +2884,7 @@ const articles = [
     conclusion: [
       "In the current context, the Indo-U.S. relationship finds itself at an inflection point - reflecting not only on the progress of this relationship but through a turbulent political climate. While collaboration in areas of trade, defence, technology, and education brought these military partners closer, new developments have uncovered a glaring vulnerability. Indian immigrants are facing a crisis in holding dual status within the state, as anti-immigration sentiments and massive layoffs might evolve into long-term policies. ",
       "Yet, no evidence suggests the relationship is on the verge of rupture. Members of the Indian diaspora, along with numerous shared interests, continue to promote the interdependence of these two nations. Given the meteoric rise of China with respect to economic, technological, and regional power, these two nations must have stronger coordination. The Trump administration requires consistency in policies and sensitivity to culture if it hopes to altercations bilateral relations healthily. ",
-      "If these bilateral and institutional partnerships keep on increasing ties between our peoples, these two countries can create mediums, provide greater innovation and research technology/science. That said, it would be important for mutual understanding of how to navigate and manage emerging temporal conflicts of interest. As similar nations, Indo-U.S. relations will endure and shape global order through policy sanctions and diplomacy. ",
+      "If these bilateral and institutional partnerships keep on increasing ties between our peoples, these two countries can create mediums, provide greater innovation and research technology/science. That said, it would be important for mutual understanding of how to navigate and manage emerging temporal conflicts of interest. As similar nations, Indo-U.S. relations will endure and shape global order through policy sanctions and diplomacy. ",
     ],
     references: [
       {
@@ -2923,7 +2923,7 @@ const articles = [
       },
       {
         heading:
-          "Kerr, W. R. (2010, July). The Supply Side of Innovation: H‐1B Visa Reforms and U.S. Ethnic Invention. Journal of Labor Economics, 28(3), 473-508. JSTOR. ",
+          "Kerr, W. R. (2010, July). The Supply Side of Innovation: H-1B Visa Reforms and U.S. Ethnic Invention. Journal of Labor Economics, 28(3), 473-508. JSTOR. ",
         links: "https://doi.org/10.1086/651934",
       },
       {
@@ -2945,7 +2945,7 @@ const articles = [
       },
       {
         heading:
-          "Mahapatra, C. (2020, October–December). Indo‑US Relations under the Biden Administration: Predictable Difficulties Ahead. Indian Foreign Affairs Journal, 15(4), 280–285. ",
+          "Mahapatra, C. (2020, October-December). Indo-US Relations under the Biden Administration: Predictable Difficulties Ahead. Indian Foreign Affairs Journal, 15(4), 280-285. ",
         links:
           " https://www.associationdiplomats.org/Publications/ifaj/Vol15/15.4/IFAJ-15%284%29-02-CMahapatra.pdf",
       },
@@ -2959,11 +2959,11 @@ const articles = [
         heading:
           "Naqvi, S. (2025, June 20). What the Hindu Right sees in Israel. Frontline. ",
         links:
-          "https://frontline.thehindu.com/columns/india‑foreign‑policy‑gaza‑israel‑un‑abstention‑vishwaguru/article69707371.ece",
+          "https://frontline.thehindu.com/columns/india-foreign-policy-gaza-israel-un-abstention-vishwaguru/article69707371.ece",
       },
       {
         heading:
-          "Nautiyal, A. (2020, October–December). India and the Biden Presidency. Indian Foreign Affairs Journal, 15(4), 297–303. ",
+          "Nautiyal, A. (2020, October-December). India and the Biden Presidency. Indian Foreign Affairs Journal, 15(4), 297-303. ",
         links:
           "https://www.associationdiplomats.org/Publications/ifaj/Vol15/15.4/IFAJ-15%284%29-04-ANautiyal.pdf",
       },
@@ -2973,7 +2973,7 @@ const articles = [
       },
       {
         heading:
-          "Parpiani, K. (2024). Biden, Trump, and India‑US Technology Partnership. Observer Research Foundation (ORF), (No. 447), 28 pages. ",
+          "Parpiani, K. (2024). Biden, Trump, and India-US Technology Partnership. Observer Research Foundation (ORF), (No. 447), 28 pages. ",
         links:
           "https://www.orfonline.org/research/biden-trump-and-india-us-technology-partnership",
       },
@@ -2984,7 +2984,7 @@ const articles = [
       },
       {
         heading:
-          "Prahladrao, S. (2025, April 10). India’s Power Sector: A Balancing Act Between Coal and Renewables. ARC Advisory Group. ",
+          "Prahladrao, S. (2025, April 10). India's Power Sector: A Balancing Act Between Coal and Renewables. ARC Advisory Group. ",
         links:
           "https://www.arcweb.com/blog/indias-power-sector-balancing-act-between-coal-renewables",
       },
@@ -3043,7 +3043,7 @@ const articles = [
       },
       {
         heading:
-          "Wikipedia. (2025, June 24). India–United States Civil Nuclear Agreement - Wikipedia. Wikipedia. Retrieved June 28, 2025, from",
+          "Wikipedia. (2025, June 24). India-United States Civil Nuclear Agreement - Wikipedia. Wikipedia. Retrieved June 28, 2025, from",
         links:
           "https://en.wikipedia.org/wiki/India%E2%80%93United_States_Civil_Nuclear_Agreement?",
       },
@@ -3270,12 +3270,12 @@ const articles = [
       },
       {
         heading:
-          "Yılmaz, M. E. (2004). Track-two diplomacy as a resolution approach to international and inter-societal conflicts. Dokuz Eylül Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 6(2), 118–135.",
+          "Yilmaz, M. E. (2004). Track-two diplomacy as a resolution approach to international and inter-societal conflicts. Dokuz Eylül Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 6(2), 118-135.",
         links: "https://www.researchgate.net/publication/237444353",
       },
       {
         heading:
-          "Zimmer, M. B. (2014). Rwanda’s Gacaca courts: An innovative experiment in the post-genocide pursuit of criminal justice. International Journal for Court Administration, 6(2), 1–9.",
+          "Zimmer, M. B. (2014). Rwanda's Gacaca courts: An innovative experiment in the post-genocide pursuit of criminal justice. International Journal for Court Administration, 6(2), 1-9.",
         links: "https://doi.org/10.18352/ijca.100",
       },
     ],
@@ -3315,7 +3315,7 @@ const articles = [
       {
         heading: "POLICY AND LEGAL FRAMEWORK",
         paragraphs: [
-          "A good policy is based on evidence, guided by principles, and implemented through institutions. In the context of environmental decentralization in India, this triad manifests through a diverse array of local and state institutions operationalized through PRIs. There is a widely shared belief in the potential of decentralization to lead to more efficient, responsive and accountable government, provided that appropriate powers and sufficient funds are devolved and that resources and responsibilities of local governments are made to match . This is critical to actualizing the principles of Eco‑Swaraj. The current policies on Eco Swaraj reflect a shift toward rights-based and ecosystem-sensitive governance.",
+          "A good policy is based on evidence, guided by principles, and implemented through institutions. In the context of environmental decentralization in India, this triad manifests through a diverse array of local and state institutions operationalized through PRIs. There is a widely shared belief in the potential of decentralization to lead to more efficient, responsive and accountable government, provided that appropriate powers and sufficient funds are devolved and that resources and responsibilities of local governments are made to match . This is critical to actualizing the principles of Eco-Swaraj. The current policies on Eco Swaraj reflect a shift toward rights-based and ecosystem-sensitive governance.",
           "73rd CAA (1992)  laid the constitutional groundwork for participatory planning and environmental decision-making.  The term Panchayati Raj signifies the system of rural local self -government.  The evolution of Panchayati Raj in India was shaped by key committees. The Balwant Rai Mehta Committee (1957) proposed a three-tier Panchayati Raj system with genuine devolution.   The G.V.K. Rao Committee (1985) emphasized district-level planning and stronger Zila Parishads.  The V.N. Gadgil Committee (1988) called for constitutional status and fiscal powers for PRIs. These ideas finally led to the 73rd Amendment (1993), which institutionalized democratic decentralization—paving the way for Eco Swaraj and EG. The features of this act have pioneered democratic decentralization, which can be regarded as a step towards “Eco- Swaraj” and “environmental decentralization”.",
         ],
       },
@@ -3483,13 +3483,13 @@ const articles = [
       },
     ],
     conclusion: [
-      "The South Indian experience shows  eco-swaraj as a practical and developing framework for rethinking environmental governance and that there is no single model for successful environmental decentralization. Successful initiatives illustrate how ancient water systems, forgotten crops, and community forests are being reborn through local stewardship.  As India moves toward its climate commitments and SDGs the role of PRIs in environmental governance will become increasingly important. Eco‑Swaraj holds promise for a truly sustainable and democratic EG where devolution of policy-making powers enables bottom-up experimentation, enhances citizen participation, and supports greater policy responsiveness.",
-      "The 73rd Amendment has proven its significance in a short span of time,  enabling many villages to progress through environmental protection efforts.  Despite the challenges of uneven progress–  policy clarity, digital inclusion, institutional innovation can strengthen Panchayat -led ecological stewardship.  These echoes of Eco Swaraj inspire a larger movement — one that respects the land, the people, and their shared future.",
+      "The South Indian experience shows  eco-swaraj as a practical and developing framework for rethinking environmental governance and that there is no single model for successful environmental decentralization. Successful initiatives illustrate how ancient water systems, forgotten crops, and community forests are being reborn through local stewardship.  As India moves toward its climate commitments and SDGs the role of PRIs in environmental governance will become increasingly important. Eco-Swaraj holds promise for a truly sustainable and democratic EG where devolution of policy-making powers enables bottom-up experimentation, enhances citizen participation, and supports greater policy responsiveness.",
+      "The 73rd Amendment has proven its significance in a short span of time,  enabling many villages to progress through environmental protection efforts.  Despite the challenges of uneven progress-  policy clarity, digital inclusion, institutional innovation can strengthen Panchayat -led ecological stewardship.  These echoes of Eco Swaraj inspire a larger movement — one that respects the land, the people, and their shared future.",
     ],
     references: [
       {
         heading:
-          "Agrawal, A., & Gibson, C. C. (1999). Enchantment and disenchantment: The role of community in natural resource conservation. World Development, 27(4), 629–649.",
+          "Agrawal, A., & Gibson, C. C. (1999). Enchantment and disenchantment: The role of community in natural resource conservation. World Development, 27(4), 629-649.",
         links: "https://doi.org/10.1016/S0305-750X(98)00161-2",
       },
       {
@@ -3504,7 +3504,7 @@ const articles = [
       },
       {
         heading:
-          "Appannagari, R. R. (2017). Environmental deterioration: Water conservation management in Anantapur district of Andhra Pradesh [PDF]. International Journal of Applied Research, 3(6), 503–512. Retrieved June 27, 2025, from ",
+          "Appannagari, R. R. (2017). Environmental deterioration: Water conservation management in Anantapur district of Andhra Pradesh [PDF]. International Journal of Applied Research, 3(6), 503-512. Retrieved June 27, 2025, from ",
         links:
           "https://www.allresearchjournal.com/archives/2017/vol3issue6/PartH/3-6-78-500.pdf",
       },
@@ -3530,19 +3530,19 @@ const articles = [
       },
       {
         heading:
-          "Counterview. (2023, April). OSOP: Puducherry’s Jal Swaraj model to revive ponds with community participation. PondyCAN. Counterview. Retrieved from ",
+          "Counterview. (2023, April). OSOP: Puducherry's Jal Swaraj model to revive ponds with community participation. PondyCAN. Counterview. Retrieved from ",
         links:
           "https://www.counterview.in/2023/04/osop-puducherrys-jal-swaraj-model-to.html",
       },
       {
         heading:
-          "Conservation India. (n.d.). Silent Valley: A people’s movement that saved a forest. London, UK: World Habitat. Retrieved June 27, 2025, from ",
+          "Conservation India. (n.d.). Silent Valley: A people's movement that saved a forest. London, UK: World Habitat. Retrieved June 27, 2025, from ",
         links:
           "https://www.conservationindia.org/case-studies/silent-valley-a-peoples-movement-that-saved-a-forest",
       },
       {
         heading:
-          "Dasgupta, R. (2019). Development justice and the exclusion of Dalits and Adivasis in India. Indian Journal of Human Development, 13(2), 192–210. ",
+          "Dasgupta, R. (2019). Development justice and the exclusion of Dalits and Adivasis in India. Indian Journal of Human Development, 13(2), 192-210. ",
         links: "https://doi.org/10.1177/0973703020909113",
       },
       {
@@ -3558,12 +3558,12 @@ const articles = [
       },
       {
         heading:
-          "Eco India. (2024, February). Eco India: Discover Tamil Nadu tribe's craft using invasive plants [Short video]. YouTube. Retrieved from ",
+          "Eco India. (2024, February). Eco India: Discover Tamil Nadu tribe's craft using invasive plants [Short video]. YouTube. Retrieved from ",
         links: "https://youtu.be/e-3AyOV9spo",
       },
       {
         heading:
-          "Eco India. (2021, October 3). Eco India: A source of sustainable fibre, the calotropis plant is Puducherry’s best kept secret [Video]. YouTube. Retrieved from ",
+          "Eco India. (2021, October 3). Eco India: A source of sustainable fibre, the calotropis plant is Puducherry's best kept secret [Video]. YouTube. Retrieved from ",
         links: "https://youtu.be/VjhHWvRbWmk",
       },
       {
@@ -3628,24 +3628,24 @@ const articles = [
       },
       {
         heading:
-          "Joseph, B. (2018). Environmental federalism and practice in India: An overview. International Journal of Humanities and Social Science Invention, 7(4), 46–50. ",
+          "Joseph, B. (2018). Environmental federalism and practice in India: An overview. International Journal of Humanities and Social Science Invention, 7(4), 46-50. ",
         links:
           "https://www.ijhssi.org/papers/vol7(4)/Version-1/F0704014650.pdf",
       },
       {
         heading:
-          "Kantimahanti, S. (2024, March 6). Sampath Kantimahanti’s Snake Speek project educates rural communities on snake conservation in Andhra Pradesh. The Hindu. Retrieved June 27, 2025, from ",
+          "Kantimahanti, S. (2024, March 6). Sampath Kantimahanti's Snake Speek project educates rural communities on snake conservation in Andhra Pradesh. The Hindu. Retrieved June 27, 2025, from ",
         links:
           "https://www.thehindu.com/sci-tech/energy-and-environment/sampath-kantimahantis-snake-speek-project-educates-rural-communities-on-snake-conservation-in-andhra-pradesh/article68416657.ece",
       },
       {
         heading:
-          "Kashwan, P., MacLean, L. M., & García-López, G. A. (2019). Rethinking power and institutions in the shadows of neoliberalism: (An introduction to a special issue of World Development). World Development, 120, 133–146. ",
+          "Kashwan, P., MacLean, L. M., & García-López, G. A. (2019). Rethinking power and institutions in the shadows of neoliberalism: (An introduction to a special issue of World Development). World Development, 120, 133-146. ",
         links: "https://doi.org/10.1016/j.worlddev.2019.04.017",
       },
       {
         heading:
-          "Kothari, A. (2009). Radical ecological democracy: A path forward for India and beyond. Development, 52(3), 403–410. ",
+          "Kothari, A. (2009). Radical ecological democracy: A path forward for India and beyond. Development, 52(3), 403-410. ",
         links: "https://doi.org/10.1057/dev.2009.47",
       },
       {
@@ -3655,12 +3655,12 @@ const articles = [
       },
       {
         heading:
-          "Kothari, A. (2014). Radical ecological democracy: A framework for sustainable and equitable futures. Development, 57(1), 36–45. ",
+          "Kothari, A. (2014). Radical ecological democracy: A framework for sustainable and equitable futures. Development, 57(1), 36-45. ",
         links: "https://doi.org/10.1057/dev.2014.2",
       },
       {
         heading:
-          "Kumar, D. S. (2025, March 26). Water bodies come to life in drought‑hit district in Andhra Pradesh. The New Indian Express. Retrieved June 27, 2025, from ",
+          "Kumar, D. S. (2025, March 26). Water bodies come to life in drought-hit district in Andhra Pradesh. The New Indian Express. Retrieved June 27, 2025, from ",
         links:
           "https://www.newindianexpress.com/states/andhra-pradesh/2025/Mar/26/water-bodies-come-to-life-in-drought-hit-district-in-andhra-pradesh",
       },
@@ -3670,7 +3670,7 @@ const articles = [
       },
       {
         heading:
-          "Mathew, B., & Suresh, R. (2019). Farmer-led agroecology in Andhra Pradesh and Kerala: A case for resilient agricultural practices. Journal of Agrarian Change, 19(4), 609–627. ",
+          "Mathew, B., & Suresh, R. (2019). Farmer-led agroecology in Andhra Pradesh and Kerala: A case for resilient agricultural practices. Journal of Agrarian Change, 19(4), 609-627. ",
         links: "https://doi.org/10.1111/joac.12293",
       },
       {
@@ -3712,12 +3712,12 @@ const articles = [
       },
       {
         heading:
-          "Prakash, A. (2019). Local institutions and adaptation to climate change: Case studies from South India. Climate and Development, 11(10), 875–885. ",
+          "Prakash, A. (2019). Local institutions and adaptation to climate change: Case studies from South India. Climate and Development, 11(10), 875-885. ",
         links: "https://doi.org/10.1080/17565529.2019.1596064",
       },
       {
         heading:
-          "Ramakrishnan, V. (2020, March 23). Conservation through private initiative: A case study in the Western Ghats, India. Gland, Switzerland: International Union for Conservation of Nature (IUCN). Retrieved June 27, 2025, from ",
+          "Ramakrishnan, V. (2020, March 23). Conservation through private initiative: A case study in the Western Ghats, India. Gland, Switzerland: International Union for Conservation of Nature (IUCN). Retrieved June 27, 2025, from ",
         links:
           "https://www.iucn.org/news/commission-environmental-economic-and-social-policy/202003/conservation-through-private-initiative-a-case-study-western-ghats-india",
       },
@@ -3764,7 +3764,7 @@ const articles = [
       },
       {
         heading:
-          "Zawya (2023, July)  How Indian villages are becoming zero‑waste towns. Zawya. Retrieved from ",
+          "Zawya (2023, July)  How Indian villages are becoming zero-waste towns. Zawya. Retrieved from ",
         links:
           "https://www.zawya.com/en/world/indian-sub-continent/how-indian-villages-are-becoming-zero-waste-towns-dlxidg4g",
       },
@@ -3777,11 +3777,11 @@ const articles = [
     title:
       "IMPACT OF SOCIAL PROTECTION POLICIES ON RURAL POVERTY, PARTICULARLY IN LOW INCOME COUNTRIES",
     author:
-      "Maria-Ioana Stănescu, Sharmila Bommadevara, Akansha Jhamb, Monalisha Mohanty, Yusuf Shaba",
-    authorAbbrev: "M. Stănescu, S. Bommadevara, and others",
+      "Maria-Ioana Stanescu, Sharmila Bommadevara, Akansha Jhamb, Monalisha Mohanty, Yusuf Shaba",
+    authorAbbrev: "M. Stanescu, S. Bommadevara, and others",
     abstract: [
       "This article explores how social protection policies in low income countries are evolving especially in rural areas where poverty is persistent and complex. Using examples from countries like Pakistan, Ethiopia and Kenya the article shows how recent shifts especially after the pandemic are moving beyond short-term aid to more long-term investment approach. Additionally it discusses the often overlooked near poor and also provides recommendations to build an equitable system in policy making that will help the SDG agenda.",
-      "It also tackles common challenges like poor infrastructure, weak institutional capacity and exclusion errors in targeting. The key argument here is that social protection needs to be more inclusive, flexible and grounded in people’s actual needs not just their income level. By rethinking how we design and fund these systems, especially for groups on the edge of poverty we can build more resilient and fairer rural communities. ",
+      "It also tackles common challenges like poor infrastructure, weak institutional capacity and exclusion errors in targeting. The key argument here is that social protection needs to be more inclusive, flexible and grounded in people's actual needs not just their income level. By rethinking how we design and fund these systems, especially for groups on the edge of poverty we can build more resilient and fairer rural communities. ",
     ],
     keywords: [
       "social protection",
@@ -4027,6 +4027,7 @@ const articles = [
           "Tadesse, Tasew, and Tariku Gebremedhin Zeleke. 'The Impact of the Productive Safety Net Program (PSNP) on Food Security and Asset Accumulation of Rural Households': Evidence from Gedeo Zone, Southern Ethiopia.' Cogent Economics and Finance, vol. 10, no. 1, 14 June 2022, ",
         links: "https://doi.org/10.1080/23322039.2022.2087285",
       },
+
       {
         heading:
           "Ulrichs, Martina. 'Extending Social Protection Coverage.'' Informality, Women and Social Protection: Identifying Barriers to Provide Effective Coverage, ODI, 2016, pp. 27-36. JSTOR, ",
@@ -4056,7 +4057,7 @@ const articles = [
       },
       {
         heading:
-          " International Labour Organization. (n.d.). Challenges and opportunities in extending social security to workers in the informal economy (Chapter 1). In Social Protection[E‑module].",
+          " International Labour Organization. (n.d.). Challenges and opportunities in extending social security to workers in the informal economy (Chapter 1). In Social Protection[E-module].",
         links: "https://www.social-protection.org/gimi/Emodule.action?id=25",
       },
       {
@@ -4073,7 +4074,7 @@ const articles = [
       },
       {
         heading:
-          "Anna Sączewska-Piotrowska, 2016, Near poverty - definition, factors, predictions",
+          "Anna Saczewska-Piotrowska, 2016, Near poverty - definition, factors, predictions",
         links: "https://share.google/vvgNpLkjGkaaMYzqv",
       },
       {
@@ -4116,7 +4117,7 @@ const articles = [
       },
       {
         heading:
-          "Focus, C., Security, C., On, S., Protection, S., & Adaptation, C. C. (2023). REACTIVE ASSISTANCE OR PROACTIVE PROTECTION ? SOCIAL PROTECTION AND CLIMATE RESILIENCE IN THE SAHEL REGION CGIAR FOCUS CLIMATE SECURITY SERIES ON SOCIAL PROTECTION AND CLIMATE CHANGE ADAPTATION December 2023. December. ",
+          "Focus, C., Security, C., On, S., Protection, S., & Adaptation, C. C. (2023). REACTIVE ASSISTANCE OR PROACTIVE PROTECTION ? SOCIAL PROTECTION AND CLIMATE RESILIENCE IN THE SAHEL REGION CGIAR FOCUS CLIMATE SECURITY SERIES ON SOCIAL PROTECTION AND CLIMATE CHANGE ADAPTATION December 2023. December. ",
         links:
           "https://cgspace.cgiar.org/bitstreams/e875fe86-5d20-4385-8231-699bec29776f/download",
       },
@@ -4149,7 +4150,7 @@ const articles = [
       },
       {
         heading:
-          "REACTIVE ASSISTANCE OR PROACTIVE PROTECTION ? SOCIAL PROTECTION AND CLIMATE RESILIENCE IN THE SAHEL REGION CGIAR FOCUS CLIMATE SECURITY SERIES ON SOCIAL PROTECTION AND CLIMATE CHANGE ADAPTATION December 2023. December. ",
+          "REACTIVE ASSISTANCE OR PROACTIVE PROTECTION ? SOCIAL PROTECTION AND CLIMATE RESILIENCE IN THE SAHEL REGION CGIAR FOCUS CLIMATE SECURITY SERIES ON SOCIAL PROTECTION AND CLIMATE CHANGE ADAPTATION December 2023. December. ",
         links:
           "https://cgspace.cgiar.org/bitstreams/e875fe86-5d20-4385-8231-699bec29776f/download",
       },
@@ -4186,13 +4187,13 @@ const articles = [
       },
       {
         heading:
-          "Suttie, D. (2020). Overview: Rural Poverty in Developing Countries: Issues, Policies and Challenges. Investing in Rural People, 1–23. ",
+          "Suttie, D. (2020). Overview: Rural Poverty in Developing Countries: Issues, Policies and Challenges. Investing in Rural People, 1-23. ",
         links:
           "https://social.desa.un.org/sites/default/files/migrated/22/2019/03/EGM-eradicating-rural-poverty-IFAD_final.pdf",
       },
       {
         heading:
-          "Tadesse, G. (2020). Agriculture and Social Protection : The Experience of Ethiopia ’ s Productive. 16–33. ",
+          "Tadesse, G. (2020). Agriculture and Social Protection : The Experience of Ethiopia ’ s Productive. 16-33. ",
         links:
           "https://cgspace.cgiar.org/server/api/core/bitstreams/58ba303a-5c0f-4838-a1d3-9e9d10b2ca11/content",
       },
@@ -4237,7 +4238,7 @@ const articles = [
           `Defining Smart Cities in the Global South Context`,
           `“A smart city is the effective integration of physical, digital, and human systems in the built environment to deliver a sustainable, prosperous and inclusive future for its citizens” (British Standards Institution, 2014). In the Global South, this concept means more than technology; it promises real transformation in how cities serve their most vulnerable residents. It uses modern technologies like Internet of Things (IoT), ICT (Information & Communication Technology), sensors & analysed data to optimize city operations, be it energy, water, transport or governance.`,
           `Challenges Faced by Legacy Urban Systems`,
-          `Firstly, high rates of unregulated urban sprawl—unplanned, low-density & uncontrolled expansion of urban areas into previously undeveloped rural or suburban areas—have burdened these areas and their already stressed components (United Nations, 2024). Secondly, severe infrastructure deficits: about 60% of cities in the Global South are facing infrastructure limitations (Altala, 2025). Thirdly, growing slum populations: it is estimated that 1 in every 3 residents of urban areas in the Global South live in informal settlements or slums (Altala, 2025). In 2022, 1.12 billion urban residents lived in slums—25% of city dwellers, with numbers rising most in Asia and Sub-Saharan Africa (United Nations, 2025). Fourth, exclusion of citizens from accessing public services: globally, just 44% of urban residents live within a 400 m radius of open public spaces and only 40% of the urban population in least developed countries has easy access to public transport (United Nations, 2025). Fifth, waste & drainage system failures: multi storeyed waste dumps & waterlogging events are now common problems in metropolitan cities like Delhi.`,
+          `Firstly, high rates of unregulated urban sprawl—unplanned, low-density & uncontrolled expansion of urban areas into previously undeveloped rural or suburban areas—have burdened these areas and their already stressed components (United Nations, 2024). Secondly, severe infrastructure deficits: about 60% of cities in the Global South are facing infrastructure limitations (Altala, 2025). Thirdly, growing slum populations: it is estimated that 1 in every 3 residents of urban areas in the Global South live in informal settlements or slums (Altala, 2025). In 2022, 1.12 billion urban residents lived in slums—25% of city dwellers, with numbers rising most in Asia and Sub-Saharan Africa (United Nations, 2025). Fourth, exclusion of citizens from accessing public services: globally, just 44% of urban residents live within a 400 m radius of open public spaces and only 40% of the urban population in least developed countries has easy access to public transport (United Nations, 2025). Fifth, waste & drainage system failures: multi storeyed waste dumps & waterlogging events are now common problems in metropolitan cities like Delhi.`,
           `Smart City Solutions: Addressing Legacy Urban Deficits`,
           `The traditional idea of smart cities has often focused narrowly on digitisation, automated traffic lights, surveillance cameras, and data dashboards. However, this approach is far too limited. Smart infrastructure must go beyond mere technology, to offer a transformative upgrade—but only when designed with inclusion and resilience at its core. As UN-Habitat (2022) aptly observed, “Data alone doesn’t make a city smart—what matters is whether it listens, adapts, and includes.”`,
           `Digital platforms and community-generated data will help map underserved areas, identify stress points, and prioritise resource allocation. This will ensure that informal settlements, which are often excluded from master plans, receive targeted and timely infrastructure upgrades. For instance, Delhi’s urban heat-mapping project used AI and satellite imagery to identify vulnerable zones in slums and inform heat-resilience planning (SEEDS India, 2022). Real-time monitoring through IoT & sensors will enable proactive detection of water leaks, drainage blockages, or power failures. It will allow instant response before they escalate into crises. This will minimise service downtime & disaster risk, especially in vulnerable neighbourhoods. Indore, for example, has installed IoT sensors in over 300 public toilets to monitor hygiene, odour, and water levels, ensuring timely maintenance and public health safety (Smart Cities Mission, 2023). Smart transit systems and inclusive public spaces will use mobility data and citizens’ feedback to design accessible, gender-sensitive, and climate-resilient mobility options. This will further promote social equity. Cape Town’s MyCiTi transit system exemplifies this by using universal design, gender-separated facilities, and step-free infrastructure to improve access for all (Institute for Transportation and Development Policy, 2021).`,
@@ -4250,7 +4251,7 @@ const articles = [
         heading: "Sustainable Infrastructure: A Pressing Priority",
         paragraphs: [
           `In an era of accelerating climate change and rapid urbanization, investing in sustainable infrastructure is more important now than ever before. As the world faces a climate crisis and global economic slowdown, the need to address inequalities that disproportionately affect the most vulnerable people rises rapidly. When we talk about the Infrastructure-79% of global greenhouse gas emissions are related to infrastructure. 4% growth in global GDP by 2030 is possible with clean energy investments. 92% of SDG targets are achievable through infrastructure investment. `,
-          `India and South Asian countries are significantly advancing infrastructure development to support inclusive growth and climate resilience. India’s ₹108 trillion, National Infrastructure Pipeline, focuses on roads, metros, energy, and digital systems, with highways and urban transit expanding rapidly. South Asia faces a $2.5 trillion infrastructure gap, but targeted investments—such as smart ports, energy storage, and rural connectivity—are helping bridge it. These efforts are vital to achieving the Sustainable Development Goals and ensuring long-term regional development. Sustainable urbanization is the key to development in low- and middle-income countries, addressing rural-urban needs, reducing poverty, and protecting ecosystems. Proper urban planning can boost jobs, growth, and inclusion while reducing pollution and resource use.`,
+          `India and South Asian countries are significantly advancing infrastructure development to support inclusive growth and climate resilience. India's Rs. 108 trillion, National Infrastructure Pipeline, focuses on roads, metros, energy, and digital systems, with highways and urban transit expanding rapidly. South Asia faces a $2.5 trillion infrastructure gap, but targeted investments—such as smart ports, energy storage, and rural connectivity—are helping bridge it. These efforts are vital to achieving the Sustainable Development Goals and ensuring long-term regional development. Sustainable urbanization is the key to development in low- and middle-income countries, addressing rural-urban needs, reducing poverty, and protecting ecosystems. Proper urban planning can boost jobs, growth, and inclusion while reducing pollution and resource use.`,
           `IDB Principles of Sustainable Infrastructure`,
           ` The Inter-American Development Bank (IDB) considered the global principles on sustainable infrastructure and highlighted its four dimensions:Economic and Fiscal Sustainability; Social Sustainability; Environmental Sustainability; and Institutional Sustainability.`,
           `Infrastructure 4.0`,
@@ -4305,7 +4306,7 @@ const articles = [
         heading: `Political Inclusion: A Catalyst for Equitable Urban Planning and Effective Public Service Delivery `,
         paragraphs: [
           `Exclusion of migrants from decision-making in their host community often limits their access to certain public goods, highlighting a common issue migrants face in participating in local governance. The migration of people seeking better livelihoods has led to rapid urbanization within and between countries, leading to intense competition for limited resources and affecting public service delivery (World Migration Report, 2015). Elections, which are the foundation of a democratic system, provide an avenue for citizens to choose their representatives.  While a significant portion of urban populations consists of migrants (migration data, 2022), they are often ineligible to vote for their representatives or compete for principal positions. How citizens are represented directly impacts their satisfaction (Metwally & Samir, 2024), giving governments insights on how to improve the experiences of different demographic groups with public services. According to Alba and Foner (2015), the level of representation of individuals with a migrant background is a key indicator of a society’s inclusion capacity. It is also vital for communities to create channels or policies for immigrants to voice their concerns.`,
-          `Research has been conducted on the political representation and participation of migrants, exploring how migration politics are played out (Gherghina and Basarabă, 2024; Zogu & Schönthaler, 2023). As the share of the world’s population living in urban areas is expected to increase by 60% in 2030 (United Nations, 2018), urban planning should therefore be a priority for governments in addressing societal issues. Town planners have often ignored the issue of migrant populations, which has often jeopardized the effective delivery of public services (Patel, Patel & Tailor, 2024). The political inclusion of migrants in decision-making is essential for urban planning to ensure equitable access to public services.`,
+          `Research has been conducted on the political representation and participation of migrants, exploring how migration politics are played out (Gherghina and Basaraba, 2024; Zogu & Schonthaler, 2023). As the share of the world’s population living in urban areas is expected to increase by 60% in 2030 (United Nations, 2018), urban planning should therefore be a priority for governments in addressing societal issues. Town planners have often ignored the issue of migrant populations, which has often jeopardized the effective delivery of public services (Patel, Patel & Tailor, 2024). The political inclusion of migrants in decision-making is essential for urban planning to ensure equitable access to public services.`,
           `The lack of participation of migrants in decision-making has created inequality between migrants and the indigenous people of such communities (International Organization for Migration, n.d.). The idea that a better life is available elsewhere and that moving can help reduce the differences between their situation and that of people in more prosperous areas is common. However, migrants often face the harsh reality that they may have unequal access to rights and public resources. While local governments play a significant role in making sure urban areas are inclusive, many people in large urban populations still lack access to adequate public resources (World Migration Report, 2015), most of whom are migrants because they are new to the environment. `,
           `In low-income settings such as communities in the global south, rapid urbanization can lead to high levels of inaccessible infrastructure, housing shortages, and service gaps, placing pressure on local governments and national agencies due to congestion. This can bring a positive outcome if properly managed through collective governance, it can boost economic growth in the urban area (World Migration Report, 2015). `,
         ],
@@ -4357,7 +4358,7 @@ const articles = [
           `The long-term monitoring and follow-up evaluation are important in the post-displacement stage as a way of evaluating and meeting the psychosocial needs (Miller & Rasmussen, 2010). Women-led organizations of peer support were found to foster community resilience and maintain mental health through promotion (Amzad, 2020). MHPSS can be integrated in primary care in resettlement locations, and this enables access to care and support continuity (Saxena et al., 2007). To ensure institutionalized interventions, it is necessary to revise Environmental and Social Impact Assessments (ESIA) and Resettlement Action Plans (RAP) to contain psychosocial risk indicators (Chen et al., 2022). MHPSS provisions should be obligated by international funding agencies like the World Bank and Asian Development Bank during the eligibility conditions of projects in the frameworks of ESG (ADB, 2022). The local governments can coordinate NGOs and academic institutes to implement this model and customize services to cultural and contextual requirements (Jain & Jadhav, 2008).`,
           `Institutional Roles and Stakeholders`,
           `Synergetic incorporation of the stakeholders is imperative in the successful integration of MHPSS in infrastructure projects. Infrastructure projects are mostly undertaken by the urban development and transport ministries, which have little to no mandate and expertise in dealing with psychosociological outcomes (UN-Habitat, 2020). Therefore, ministries of health, which are in a better position to plan and manage MHPSS programs, should make mental health an issue to be shared collectively (Patel et al., 2007).`,
-          `The local governments play an important middle-level role, particularly in the mobilisation of communities and in the last-mile service delivery (Kumar & Singh, 2022). Culturally competent counseling, awareness-building sessions, and social support networks could be offered through NGOs and community-based organizations (CBOs) that have set up work in informal settlements in urban areas (Siddikī, 2024).`,
+          `The local governments play an important middle-level role, particularly in the mobilisation of communities and in the last-mile service delivery (Kumar & Singh, 2022). Culturally competent counseling, awareness-building sessions, and social support networks could be offered through NGOs and community-based organizations (CBOs) that have set up work in informal settlements in urban areas (Siddiki, 2024).`,
           `Financial support and guidance as MHPSS interventions can come in the form of international development agencies like the World Bank, ADB, and UN-Habitat (ADB, 2022; UN-Habitat, 2020). Donor agencies also contribute to determining social safeguard standards as well as providing incentives for the adoption of policies. Institutions of higher learning and mental health practitioners will be instrumental in the formulation of context-responsive assessment playbooks and carrying out rigorous impact assessments (Cosgrove et al., 2020).`,
           `Obstacles and Constraints`,
           `Although this policy shows the promise of transformation, it is subject to a number of structural and operational issues. One is that institutional barriers to coordination have been perpetuated by the ongoing siloing of the sectors (health, housing, and transport) (Saxena et al., 2007). The inclusion of MHPSS in infrastructure projects would also involve political efforts at the top level and the redesigning of institutions (Patel et al., 2018). Second, South Asian culture places a lot of stigma on mental health and thus, usually underreports and is not willing to seek support (Jain & Jadhav, 2008). Community work and policy priorities may then be impeded by such a social stigma. Third, the region lacks adequately trained mental health professionals, and few can be used to deliver the programs on a large scale (WHO, 2014). Fourth, mental health risk indicators are not required in some of the available tools used to design projects, like ESIs, leaving gaps in risk analysis (World Bank, 2021). Lastly, the donor conditionalities are subject to inconsistency or half-baked implementation, and this also pertains to the sustainability of MHPSS integration (ADB, 2022).`,
@@ -4444,7 +4445,7 @@ const articles = [
         heading: `Fung, A., & Wright, E. O. (2003). Deepening democracy: Institutional innovations in empowered participatory governance. Verso.`,
       },
       {
-        heading: `Gherghina, S., & Basarabă, A. (2024). Migrants' voter turnout in the home country elections: Non‐integration or political anchor? Politics and Governance, 12. https://doi.org/10.17645/pag.7396`,
+        heading: `Gherghina, S., & Basaraba, A. (2024). Migrants' voter turnout in the home country elections: Non-integration or political anchor? Politics and Governance, 12. https://doi.org/10.17645/pag.7396`,
       },
       {
         heading: `Global Infrastructure Hub. (n.d.). Sustainable infrastructure. https://www.gihub.org/sustainable-infrastructure/`,
@@ -4543,7 +4544,7 @@ const articles = [
         heading: `Simone, A., & Pieterse, E. (2017). New Urban Worlds: Inhabiting Dissonant Times. Polity Press. https://www.google.com/books/edition/New_Urban_Worlds/yijBDgAAQBAJ`,
       },
       {
-        heading: `Siddikī, B. (Ed.). (2024). Displacement and Refugee Issues in South Asia: Uncovering the Contested Realities. Lexington Books.`,
+        heading: `Siddiki, B. (Ed.). (2024). Displacement and Refugee Issues in South Asia: Uncovering the Contested Realities. Lexington Books.`,
       },
       {
         heading: `Smart Cities Mission. (2023). Indore smart sanitation report. Ministry of Housing and Urban Affairs. https://smartcities.gov.in/`,
@@ -4686,7 +4687,7 @@ const articles = [
     heading: `Fung, A., & Wright, E. O. (2003). Deepening democracy: Institutional innovations in empowered participatory governance. Verso.`
   },
   {
-    heading: `Gherghina, S., & Basarabă, A. (2024). Migrants' voter turnout in the home country elections: Non‐integration or political anchor? Politics and Governance, 12. `,
+    heading: `Gherghina, S., & Basaraba, A. (2024). Migrants' voter turnout in the home country elections: Non-integration or political anchor? Politics and Governance, 12. `,
     links:`https://doi.org/10.17645/pag.7396`
   },
   {
@@ -4811,7 +4812,7 @@ const articles = [
     links:`https://www.google.com/books/edition/New_Urban_Worlds/yijBDgAAQBAJ`
   },
   {
-    heading: `Siddikī, B. (Ed.). (2024). Displacement and Refugee Issues in South Asia: Uncovering the Contested Realities. Lexington Books.`
+    heading: `Siddiki, B. (Ed.). (2024). Displacement and Refugee Issues in South Asia: Uncovering the Contested Realities. Lexington Books.`
   },
   {
     heading: `Smart Cities Mission. (2023). Indore smart sanitation report. Ministry of Housing and Urban Affairs. `,
@@ -4891,7 +4892,7 @@ const articles = [
     heading: `World Migration Report. (2015). Urbanization, Rural-urban Migration and Urban Poverty. International Organization for Migration (IOM).`
   },
   {
-    heading: `Zogu, G. (2021). Entering politics: Political engagement of visible and non‐visible minorities in South Tyrol. Wien. `,
+    heading: `Zogu, G. (2021). Entering politics: Political engagement of visible and non-visible minorities in South Tyrol. Wien. `,
     links:`https://ubdata.univie.ac.at/AC16227885`
   }
 ],
@@ -4907,7 +4908,7 @@ const articles = [
       "Shubhi Purwar, Aryan Singh Chauhan, Ghanisht, Nirbhay Tiwari, Yasmin A Nijam",
     authorAbbrev: "S. Purwar, A. Chauhan, and others",
     abstract:
-      "India's labour market is being dramatically reshaped by globalisation and digital technology. This paper analyses the growth of the gig economy—a sector where flexible, task-oriented, short-term employment is made possible through digital intermediaries such as Swiggy, Uber, Urban Company, Upwork, and Fiverr. The acceleration of this economy (projected to expand from 7.7 million workers in 2020–21 to 23.5 million by 2030) highlights its growing relevance in India's overall economic landscape. We discuss how smartphone proliferation, youth population, urbanisation, and changing consumer tastes drive this growth. While gig work has some distinct benefits—flexibility, reduced entry barriers, and business scalability—it carries serious issues as well. They range from inadequate formal labour protections, social security, irregular income, and worker exposure to unemployment fears, which have been intensified by the COVID-19 pandemic. From a rigorous analysis of legislative initiatives (such as the Code on Social Security 2020) and private sector interventions, this paper identifies continuing gaps in regulation, worker classification, and enforcement. Informed by international and domestic literature, we outline policy reforms, social protection models, skilling strategies, and collective organisation to promote an inclusive and equitable gig economy. Our study shows how India can balance flexibility with dignity, enabling inclusive transitions in the face of digital disruption.",
+      "India's labour market is being dramatically reshaped by globalisation and digital technology. This paper analyses the growth of the gig economy—a sector where flexible, task-oriented, short-term employment is made possible through digital intermediaries such as Swiggy, Uber, Urban Company, Upwork, and Fiverr. The acceleration of this economy (projected to expand from 7.7 million workers in 2020-21 to 23.5 million by 2030) highlights its growing relevance in India's overall economic landscape. We discuss how smartphone proliferation, youth population, urbanisation, and changing consumer tastes drive this growth. While gig work has some distinct benefits—flexibility, reduced entry barriers, and business scalability—it carries serious issues as well. They range from inadequate formal labour protections, social security, irregular income, and worker exposure to unemployment fears, which have been intensified by the COVID-19 pandemic. From a rigorous analysis of legislative initiatives (such as the Code on Social Security 2020) and private sector interventions, this paper identifies continuing gaps in regulation, worker classification, and enforcement. Informed by international and domestic literature, we outline policy reforms, social protection models, skilling strategies, and collective organisation to promote an inclusive and equitable gig economy. Our study shows how India can balance flexibility with dignity, enabling inclusive transitions in the face of digital disruption.",
     keywords: [
       "Gig economy",
       "digital platforms",
@@ -4947,7 +4948,7 @@ const articles = [
           "Young adults aged 18–29 are most common in the economy (Aleksandric, M., 2023), and approximately 30% of them work on gig platforms for money (Aleksandric, M., 2023). Jobs in the form of gig work are popular not only in Nigeria but in other parts of the world for corporate strategies and performance management in IT-enabled services, e-commerce, hotel, retail, FMCG among others, mostly for short-term engagements at the lateral levels: (Schmenner, Swink, 1998; AfDB et al., 2018). In the Indian economy itself, the gig economy started to evolve from around the early 2000s, and a number of catalysts, including employer preference, demographic shifts in the mass of workers, and technological innovation, were behind this development. Due to this, the traditional 9-5 model of employment began to be broken down by promoting a more flexible, agile style of work (Wood AJ et al., 2019).",
           "The gig economy sees the efficient use of resources and puts into play the element of which workers’ skills are best used in which task. This, in turn, helps individuals and businesses to run more smoothly and also sees to it that talent is put to full use, which in turn boosts overall productivity, and we see that play out in greater economic growth. Also, to that point, the gig economy does very well in what it does in countries like India, which is seeing a growth in the job-seeking population which outpaces that of traditional job growth. It puts forth options for which people may have a hard time getting into stable, long-term employment for a number of reasons, which include age barriers, family responsibilities, or a lack of formal education (Kasliwal, 2020). Also, in the case of the gig economy, we see that it puts forth greater value to society, which in turn improves urban living and sustainability. For instance, we have seen a reduction in motor vehicle accidents, in traffic jam levels and improvement in air quality (Greenwood, Wattal, 2017; Tran, Sokas, 2017). Also, these are the issues which put the gig economy in a positive light.",
           "But also, the gig economy has its downsides. In India, which has limited social safety nets and where many gig workers are from low financial backgrounds, we see that the lack of stable income and job security only serves to worsen the present hard times. Also, as reported by L. Snider, companies are able to reduce cost per employee by 20-30% by getting away from paying for things like overtime, vacation, social security, Medicare and monetary workplace injury compensation (Snider et al., 2018). Companies also term these employees as ‘delivery partners’ to get around any responsibility. As a large number of which do not fit into traditional employee categories we see that gig workers’ access to what are considered basic benefits is a issue health care, set work times, stable contracts, and which which which also have access to processes in place for when issues arise. Also, to this point, the constant search for the next gig, which is a part of the gig economy, puts a lot of pressure on workers, which in turn causes stress and burnout. In the platform economy, we see that each task is a performance opportunity or a penalty, which in turn leaves no time for rest and puts workers in a constant state of control. Also, we see that in the platform economy, tech advances like AI are used to put workers in touch with the right clients, which in turn leads to better task matching, greater job satisfaction, and income growth, but also has the issue of leaving no room for rest.",
-          "Some reports also claim that the gig economy causes economic disparity and gender inequality in economic terms (Wood AJ et al., 2019; Churchill B, 2021). The World Bank reported that among 435 million global gig workers, many, especially in developing countries, have no job protections or savings, making them vulnerable to exploitation (World Bank, 2023). A study of over 20,000 freelancers found that women typically earn around 30% less per hour than men (Kuhn et al., 2017).",
+          "Some reports also claim that the gig economy causes economic disparity and gender inequality in economic terms (Wood AJ et al., 2019; Churchill B, 2021). The World Bank reported that among 435 million global gig workers, many, especially in developing countries, have no job protections or savings, making them vulnerable to exploitation (World Bank, 2023). A study of over 20,000 freelancers found that women typically earn around 30% less per hour than men (Kuhn et al., 2017).",
           "A very big reason for such disparities is that the gig workers are not specifically covered by any of India's current labour laws, including the Employees' Provident Fund Act, the Payment of Wages Act, and the Industrial Disputes Act. Because of this, gig workers are missing out on fundamental labour rights. The Code on Social Security, 2020, provides some measures to explain gig workers' issues and work towards social security funds for gig workers. Although the Code on Social Security, 2020, makes promises to extend some benefits, the exercise of its provisions, along with enforcement, remains variable and lacking. Gig workers also have limited ability to organise or form unions because they are excluded from the labour rules that protect the right to collective bargaining (Nadagoudar et al., 2021). As such, there is a need to digest labour laws and separate out a category for gig workers with a limited set of labour rights (Harris SD, 2017; Cherry MA et al., 2016; Prassl J et al., 2017). According to the Observer Research Foundation, a paper highlights important aspects that regulatory interventions could address—protection against workplace harassment, an emergency button for physical safety, social security, and contract security protection (Kasliwal, 2020). While these proposals are reasonable, there exists a gap in addressing certain ethical dilemmas. First, the lack of detailed data on the number of workers and composition of India's gig workforce is a significant gap. Secondly, sizable uncertainty remains regarding the socioeconomic impact of gig employment. Further study, moreover, is required to ascertain the impact of the new gig economy on traditional labour markets. There is a strong demand for this research to sail past its methodological gaps. This constitutes a layered approach recognising the various dimensions of safeguarding the rights and welfare of gig workers. In this regard, the gig economy should be not only flexible labour but also attempts to provide labour that is both flexible as well as ethically acceptable, such that the new space of gig work contributes to every stakeholder's benefit, particularly the workers at the heart of it.",
         ],
       },
@@ -5063,10 +5064,10 @@ const articles = [
         paragraphs: [
           "While at present we have see initiatives like the Code on Social Security (2020) and Rajasthan’s ground breaking state level legislation which have set in motion a regulatory trend, in many areas we still see large gaps in protection, classification and enforcement. India has taken initial action to put gig and platform work into separate labour categories. The Code on Social Security (2020) is a base element which includes “gig workers” and “platform workers” in social welfare programs. The Code which also serves as a foundation puts in place life insurance, health benefits and pension security which the central government is to design via contributions from the government, platform companies and the workers itself (Code on Social Security, 2020). Alongside this, the Rajasthan Platform-Based Gig Workers (Registration and Welfare) Act of 2023 was India’s first legislative effort at state-level governance for gig work. It provided for the establishment of a welfare board, a grievance mechanism, and data-sharing requirements—creating important groundwork for federal action (Rajasthan Bill 2023). ",
           "Still, some issues persist:",
-          "●	 Regulatory Gaps: The law fails to adequately categorize gig workers as employees or independent contractors leading to ongoing legal ambiguity. Waitlisted Social Insurance: Under the central code, social security measures have not been fully rolled out.",
-          "●	Narrow Focus: Current gig worker policies focus mainly on welfare aid, overlooking adequate compensation, health and safety, and unionization. ",
-          "●	Weak Enforcement Mechanisms: The enforcement of regulations within gig work is complicated due to its decentralized and digital character (Agarwal & Singh, 2021). ",
-          "●	Federal Discord: India's concurrent federal structure creates an inconsistency policy conflict between state-level legislation and central governance which threatens cohesive regulation (NITI Aayog, 2022). ",
+          "-	 Regulatory Gaps: The law fails to adequately categorize gig workers as employees or independent contractors leading to ongoing legal ambiguity. Waitlisted Social Insurance: Under the central code, social security measures have not been fully rolled out.",
+          "-	Narrow Focus: Current gig worker policies focus mainly on welfare aid, overlooking adequate compensation, health and safety, and unionization. ",
+          "-	Weak Enforcement Mechanisms: The enforcement of regulations within gig work is complicated due to its decentralized and digital character (Agarwal & Singh, 2021). ",
+          "-	Federal Discord: India's concurrent federal structure creates an inconsistency policy conflict between state-level legislation and central governance which threatens cohesive regulation (NITI Aayog, 2022). ",
         ],
       },
       {
@@ -5080,9 +5081,9 @@ const articles = [
         paragraphs: [
           "1.1 Hybrid Worker: Introduce classification 'Platform Worker' or 'Dependent Contractor' with rights between traditional employment and those centered around a gig economy worker. Defined base earnings on either platform(s), single source dependency for earnings, and minimal control over important decision facets—pricing, task selection. Gig work is driven by selective supervision (ILO, 2021). This type of functional exclusivity is permanent and dictated by application-based job assignment. 'Hybrid classifications are increasingly seen in countries like Spain and Canada to balance flexibility with fairness' (ILO, 2023).",
           "1.2 National Portable Social Security Fund:",
-          "● Tripartite Model: Serves as a social security account which provides joint contribution from the platforms, workers, and government funding towards a mandatory account managed by social security agencies at the national level. Benefits may be cumulative or proportional for part-time workers.",
-          "● Tiered Benefits: Benefits can be relative to hours worked or income for part-time gig workers, offering a flexible benefits structure and significantly accommodating more users.",
-          "● Digital Integration: Leverage existing infrastructure for seamless benefit transfers in real-time for the delivery of eligible subsidies to entitled citizens using Aadhaar, UPI, and Jan Dhan.",
+          "- Tripartite Model: Serves as a social security account which provides joint contribution from the platforms, workers, and government funding towards a mandatory account managed by social security agencies at the national level. Benefits may be cumulative or proportional for part-time workers.",
+          "- Tiered Benefits: Benefits can be relative to hours worked or income for part-time gig workers, offering a flexible benefits structure and significantly accommodating more users.",
+          "- Digital Integration: Leverage existing infrastructure for seamless benefit transfers in real-time for the delivery of eligible subsidies to entitled citizens using Aadhaar, UPI, and Jan Dhan.",
           "1.3 Mandatory Risk Coverage: All health gig services will have basic health and accident insurance which is to be co-financed by platforms and workers.",
         ],
       },
@@ -5132,28 +5133,28 @@ const articles = [
         paragraphs: [
           "7.1 National Gig Economy Authority: Provision for a separate regulatory body to:. Draft out guidelines and see to their implementation. Also plays a role in state-level initiative coordination. Report back on platform compliance. Run a research centre on digital labour. “A central regulatory body which is in charge of uniform enforcement also which will include state level variations” (NITI Aayog, 2022).",
           "Implementing the policy ecosystem will require:",
-          "● Phased Rollout: Start from basic safeguards such as insurance and grievance redress mechanisms, then gradually expand to skill and data rights.",
-          "● Stakeholder Consultation: Sustain engagement with gig workers, platforms, unions, and civil society actors.",
-          "● Tech-Enabled Delivery: Leverage India’s digital infrastructure for real-time dispensation of benefits and tracking of disputes for due automated servicing.",
-          "● Flexibility Without Rigidity: Focus formalized protective regulation that safeguards stifling innovative activity.",
-          "● Federal-State Synergy: Institutional cooperation propels alignment between central and state legal frameworks.",
+          "- Phased Rollout: Start from basic safeguards such as insurance and grievance redress mechanisms, then gradually expand to skill and data rights.",
+          "- Stakeholder Consultation: Sustain engagement with gig workers, platforms, unions, and civil society actors.",
+          "- Tech-Enabled Delivery: Leverage India’s digital infrastructure for real-time dispensation of benefits and tracking of disputes for due automated servicing.",
+          "- Flexibility Without Rigidity: Focus formalized protective regulation that safeguards stifling innovative activity.",
+          "- Federal-State Synergy: Institutional cooperation propels alignment between central and state legal frameworks.",
           "As India’s platform economy grows in size and scope, we see the need to protect gig workers which at the same time we must not stifle digital innovation. A balanced regulatory framework which is rooted in flexibility, fairness, and futurism -- is what India needs to put together a gig economy that is not only competitive on the global stage but also inclusive socially. Through the use of hybrid classifications, universal benefits, transparent algorithms, and participatory governance India can position itself as a leader in fair digital labour. This is the time to act before we institutionalize informality.",
         ],
       },
       {
         heading: "Limitations",
         paragraphs: [
-          "●	Data Limitations and Informality of the Sector",
+          "-	Data Limitations and Informality of the Sector",
           "One of the principal shortcomings in researching the informal or gig economy is that there are no reliable and consistent data sets. Because so much of this economy lies outside of formal regulatory systems, it is challenging to get accurate estimates of employment, wages, or working conditions. This hinders the ability to make strong conclusions or extrapolate findings across regions or sectors.",
-          "●	Over-reliance on Urban-Centric Narratives",
+          "-	Over-reliance on Urban-Centric Narratives",
           "Most of the evidence and debate surrounding the gig economy is centered on city platforms such as Uber, Swiggy, or Zomato, overlooking rural or semi-urban informal labour that could have some fundamentally different issues. This might lead to a distorted view of the overall informal landscape in India. ",
-          "●	Counterargument: Platform Work Offers Flexibility and Agency",
+          "-	Counterargument: Platform Work Offers Flexibility and Agency",
           "People who argue against regulation of the gig economy typically point out that platforms offer flexibility and autonomy to workers, particularly women and students, who like part-time or freelance options. Excessive regulation, they contend, would hamper the very things that make jobs under such platforms attractive to individuals.",
-          "●	Difficulty in Defining the Sector Clearly",
+          "-	Difficulty in Defining the Sector Clearly",
           "The 'informal' or 'gig' economy encompasses a broad spectrum of jobs—from construction workers to mobile app-based delivery drivers—so it is challenging to establish global policies or solutions. This definitional uncertainty tends to result in disjointed policy approaches.",
-          "●	Transition Challenges to Formalisation",
+          "-	Transition Challenges to Formalisation",
           "Although formalisation is presented as the norm, the process of transition is complex. Most informal businesses lack the resources to cover registration, tax, or compliance. Additionally, employees might oppose formalisation if it will deprive them of temporary incomes or independence.",
-          "●	Globalisation as Both Opportunity and Threat",
+          "-	Globalisation as Both Opportunity and Threat",
           "Whereas globalisation has created new opportunities for gig work (such as online freelancing), it has also raised labour market competition and undermined employment security for most informal workers. Such dual impact makes it challenging to describe globalisation as either totally advantageous or unfavorable to the industry.",
         ],
       },
@@ -5562,7 +5563,7 @@ const articles = [
       },
       {
         heading:
-          "Ergen, B., & Sertkaya, M. E. (2022). Alzheimer Hastalığının Erken Teşhisinin Çoklu Değişken Kullanarak Tespiti. European Journal of Science and Technology.",
+          "Ergen, B., & Sertkaya, M. E. (2022). Alzheimer Hastaliginin Erken Teshisinin Coklu Degisken Kullanarak Tespiti. European Journal of Science and Technology.",
         links: "https://doi.org/10.31590/ejosat.1082297",
       },
       {
@@ -5822,7 +5823,7 @@ const articles = [
         heading: "Ghosh, D. (2022). ‘This land is our mother and we cannot dig up the bones of our mother’: Adivasi Dispossession and Contestation in Chhattisgarh: The 2020 AR Davis Memorial Lecture. Journal of the Society for Asian Humanities, 53, 3-21."
       },
       {
-        heading: "HYDRAA reclaiming land and demolitions (April 2025)."
+        heading: "HYDRAA reclaiming land and demolitions (April 2025)."
       },
       {
         heading: "Jha, A., & Jha, R. (2022). A CONFLICT REIGNITED BY COAL-Anti-Mining Protests in Chhattisgarh and what it means for the country. International Research Journal of Management Sociology & Humanity, 3(10), 2277-9859."
@@ -5843,7 +5844,7 @@ const articles = [
         heading: "Mukherjee, T. (2021). We, the people of India. Journal of the Department of Sociology of North Bengal University, 8(31), 2348-6538."
       },
       {
-        heading: "Ramachandra, T. V., Bharath, H. A., & Sowmyashree, M. V. (2020). Impact of urbanisation on the hydrology of Hyderabad's wetlands. Environmental Monitoring and Assessment, 192(5), 312."
+        heading: "Ramachandra, T. V., Bharath, H. A., & Sowmyashree, M. V. (2020). Impact of urbanisation on the hydrology of Hyderabad's wetlands. Environmental Monitoring and Assessment, 192(5), 312."
       },
       {
         heading: "Ramesh, S., & Rao, K. (2021). Environmental governance in Indian cities: case study of Hyderabad's expansion. Urban Affairs Review, 57(6), 1489–1510."
@@ -5855,7 +5856,7 @@ const articles = [
         heading: "Sayer, J., Sheil, D., Galloway, G., Riggs, R. A., Mewett, G., MacDicken, K. G., ... & Edwards, D. P. (2019). SDG 15 Life on land–the central role of forests in sustainable development. In Sustainable development goals: their impacts on forest and people ( 482-509). Cambridge University Press."
       },
       {
-        heading: "Shah, A. (2020, October 18). Hyderabad floods: The price of urban apathy. The Hindu."
+        heading: "Shah, A. (2020, October 18). Hyderabad floods: The price of urban apathy. The Hindu."
       },
       {
         heading: "Supreme Court orders halt to deforestation in Kancha Gachibowli (April 2025) (telanganatoday.com)."
@@ -5873,7 +5874,7 @@ const articles = [
         heading: "Tisdell, C. A. (2020). Biodiversity Conservation and the UN’s Sustainable Development Goals: India’s Responses Evaluated—Particularly in Relation to SDG15. Sustainable Development Goals: An Indian Perspective, 225-233."
       },
       {
-        heading: "Tripathy, S. N. (2024). Indigenous Displacement in India: A Tragic Tale of Uprooted Lives and the Battle for Hasdeo’s Heart. Society and Culture Development in India, 4(1), 169-183."
+        heading: "Tripathy, S. N. (2024). Indigenous Displacement in India: A Tragic Tale of Uprooted Lives and the Battle for Hasdeo's Heart. Society and Culture Development in India, 4(1), 169-183."
       },
       {
         heading: "Verma, M. (2024). Migration and Displacement from Hasdeo Forest Area at Chhattisgarh: A Study. Innovation and Integrative Research Center Journal, 2(11), 83-94."
@@ -5927,11 +5928,11 @@ const articles = [
         paragraphs: [
           "The continuing struggle between Israel and Hamas, which flared up dramatically in October 2023, has significant repercussions extending beyond the Middle East. The global financial system has been significantly impacted, particularly the foreign exchange (FX) markets in emerging economies such as India. Due to the conflict causing fluctuations in energy prices, increasing geopolitical risks, and impacting global investor sentiment, the Indian rupee (INR) faced increased strain. The resulting changes in capital movements, import expenses, and inflation outlooks have put the Indian foreign exchange market in a responsive position, highlighting the nation’s susceptibility to external geopolitical disturbances. ",
           "India ranks among the largest global importers of crude oil, fulfilling over 85% of its energy needs through imports. A substantial share of this supply comes from the Middle East, especially via the Strait of Hormuz—a vital passage for worldwide oil. The intensification of the Israel–Hamas conflict heightened concerns about a broader regional war that could include Iran, Lebanon, or additional Gulf nations. Any involvement of this nature could jeopardize oil supplies, interrupt transport routes, and increase global crude oil prices. Consequently, Brent crude prices surged significantly, surpassing the $90-per-barrel threshold in the initial stages of the conflict before displaying some indicators of stabilization amid diplomatic initiatives. This rise in costs increased India’s import expenses, adding more pressure on the trade deficit and worsening current account issues. ",
-          "The direct result of increased oil prices was a decline in the value of the Indian rupee. In October–November 2023, the rupee declined to approximately ₹86.75–86.80 per U.S. dollar, indicating a notable depreciation compared to earlier in the year. A declining rupee increases import costs and contributes to inflationary pressure, particularly when paired with elevated energy prices. This, consequently, could influence consumer expenditure and growth outlooks in the overall economy. Market players attentively monitored the Reserve Bank of India (RBI), which took measures to control the currency’s fluctuations. The RBI disbursed dollars from its reserves to mitigate the decline and employed forward market operations to reassure expectations. ",
+          "The direct result of increased oil prices was a decline in the value of the Indian rupee. In October–November 2023, the rupee declined to approximately Rs. 86.75–86.80 per U.S. dollar, indicating a notable depreciation compared to earlier in the year. A declining rupee increases import costs and contributes to inflationary pressure, particularly when paired with elevated energy prices. This, consequently, could influence consumer expenditure and growth outlooks in the overall economy. Market players attentively monitored the Reserve Bank of India (RBI), which took measures to control the currency’s fluctuations. The RBI disbursed dollars from its reserves to mitigate the decline and employed forward market operations to reassure expectations. ",
           "Although geopolitical risks have long existed in the Indian FX market, the uniqueness of this event lies in its timing and its overlap with other global economic challenges. India, similar to various emerging markets, was already facing the effects of the U.S. Federal Reserve’s restrictive monetary policy. Increased interest rates in the U.S. enhance the appeal of dollar-denominated investments for international investors, frequently resulting in capital flight from more volatile emerging markets. The Israel–Hamas conflict introduced further uncertainty, causing foreign portfolio investors (FPIs) to withdraw investments from Indian equity and debt markets. In October and November 2023, FPIs were net sellers in Indian stocks, increasing the downward pressure on the rupee. ",
           "The RBI's action extended beyond spot markets. It also utilized tools such as variable rate reverse repos (VRRR) to take in surplus liquidity and uphold stability in money markets. Furthermore, forward premium rates—the expense of safeguarding against future currency fluctuations—experienced an increase during the crisis's height, indicating that corporations and institutional investors were more actively pursuing protection against additional rupee decline. Nonetheless, the currency markets exhibited comparatively lower volatility than in past geopolitical occurrences, suggesting that the RBI's macroprudential framework had developed in its ability to handle external shocks. ",
           "Another essential aspect was the effect on inflation. A weaker rupee along with more expensive oil imports resulted in increased pressure on wholesale and retail prices. The inflation measured by the Consumer Price Index (CPI), which had eased earlier in 2023, rose slightly once more, raising worries about the RBI’s capability to uphold its inflation targeting goal. Despite core inflation being kept in check by steady food prices, the overall inflation figures raised concerns among policymakers. Analysts pondered whether the RBI would maintain its pause on raising interest rates or adopt a more aggressive stance if inflationary pressures remained. ",
-          "Notably, although the rupee encountered difficulties, it demonstrated strength against other emerging market currencies, thanks to India's comparatively robust macroeconomic fundamentals. Foreign exchange reserves stayed strong at more than $590 billion, reassuring markets that the central bank could uphold the rupee if necessary. Additionally, India's GDP expansion continued to be among the quickest worldwide, bolstering investor trust in the medium term. This relative strength enabled the rupee to rebound in late December 2023 and January 2024, with the currency briefly reaching ₹86.05 per dollar as crude prices fell to $67–69 per barrel during ceasefire discussions and decreased regional tensions.","Additionally, the Israel–Hamas conflict highlighted the strategic necessity for India to diversify its energy import sources and strengthen energy security. India intensified its long-term agreements with Russia, the U.S., and African nations to lessen reliance on the Middle East. Policymakers have also intensified their efforts for the development of alternate energy sources, such as solar and green hydrogen, within the larger Aatmanirbhar Bharat (self-reliant India) framework. ",
+          "Notably, although the rupee encountered difficulties, it demonstrated strength against other emerging market currencies, thanks to India's comparatively robust macroeconomic fundamentals. Foreign exchange reserves stayed strong at more than $590 billion, reassuring markets that the central bank could uphold the rupee if necessary. Additionally, India's GDP expansion continued to be among the quickest worldwide, bolstering investor trust in the medium term. This relative strength enabled the rupee to rebound in late December 2023 and January 2024, with the currency briefly reaching Rs. 86.05 per dollar as crude prices fell to $67–69 per barrel during ceasefire discussions and decreased regional tensions.","Additionally, the Israel–Hamas conflict highlighted the strategic necessity for India to diversify its energy import sources and strengthen energy security. India intensified its long-term agreements with Russia, the U.S., and African nations to lessen reliance on the Middle East. Policymakers have also intensified their efforts for the development of alternate energy sources, such as solar and green hydrogen, within the larger Aatmanirbhar Bharat (self-reliant India) framework. ",
           "From a wider economic viewpoint, the conflict influenced investor confidence, especially for firms with supply chain or trade connections in West Asia. The Indian government observed developments carefully and undertook diplomatic initiatives to reduce tensions, fully aware that a prolonged conflict might escalate into a broader regional war, with significantly greater economic ramifications. Moreover, the conflict revealed the vulnerability of international payment networks and supply chains to geopolitical disturbances, highlighting the importance of strategic risk management, budgetary caution, and sufficient sovereign reserves. ",
           "Ultimately, the Israel–Hamas conflict has noticeably influenced India’s foreign exchange market, operating via increased oil prices, heightened investor risk aversion, capital flight, and inflation anticipations. Despite an initial depreciation of the rupee, timely actions by the RBI, strong macroeconomic indicators, and sturdy external accounts aided in reducing significant repercussions. Nonetheless, the incident underscored India's vulnerability to worldwide disruptions and the significance of strategic economic oversight to sustain currency and financial stability. In the future, the performance of the FX market will depend on global crude oil trends, geopolitical events in West Asia, the Fed’s interest rate decisions, and India’s structural reforms and fiscal policy decisions. "
         ]
@@ -5943,7 +5944,7 @@ const articles = [
           "1. Crude Oil Prices and Inflationary Pressures","Russia is the world’s third-largest oil producer, and the conflict led to global sanctions against Russian energy exports, reducing supply and spiking global oil prices. Brent crude crossed $120 per barrel in March 2022, compared to around $78 per barrel in December 2021 (Source: Statista). For India, which imports about 85% of its crude oil, this meant a sharp rise in import bills, leading to inflationary pressures.",
           "India’s Consumer Price Index (CPI) inflation shot up to 7.8% in April 2022, well above the Reserve Bank of India’s (RBI) target of 4-6%. In response, the RBI raised the repo rate from 4% in May 2022 to 6.5% by February 2023, tightening liquidity in the money market. This caused a direct spike in short-term interest rates, impacting the yields of Treasury Bills (T-Bills), Certificates of Deposit (CDs), and Commercial Papers (CPs).",
           "2. Foreign Portfolio Investment (FPI) Outflows",
-          "The geopolitical uncertainty drove risk aversion globally. FPIs began withdrawing from emerging markets, including India, to move into safer assets like U.S. Treasuries. Between February and June 2022, India saw FPI outflows of over ₹2.6 lakh crore, especially from the debt segment (Source: NSDL). These capital outflows led to a depreciation of the Indian Rupee, which touched ₹81.5/USD in September 2022, compared to ₹74/USD in January 2022 (Source: RBI). The rupee depreciation added to inflationary concerns and prompted the RBI to conduct Open Market Operations (OMOs) and currency market interventions, thereby affecting liquidity conditions in the money market.",
+          "The geopolitical uncertainty drove risk aversion globally. FPIs began withdrawing from emerging markets, including India, to move into safer assets like U.S. Treasuries. Between February and June 2022, India saw FPI outflows of over Rs. 2.6 lakh crore, especially from the debt segment (Source: NSDL). These capital outflows led to a depreciation of the Indian Rupee, which touched Rs. 81.5/USD in September 2022, compared to Rs. 74/USD in January 2022 (Source: RBI). The rupee depreciation added to inflationary concerns and prompted the RBI to conduct Open Market Operations (OMOs) and currency market interventions, thereby affecting liquidity conditions in the money market.",
           "3. Liquidity Crunch and Volatility in Yields",
           "As inflation rose and the RBI began tightening monetary policy, the Weighted Average Call Rate (WACR) — a key money market indicator — increased from around 3.3% in January 2022 to 6.4% by March 2023. The demand for short-term funds increased, while supply remained restricted due to the RBI’s policy stance.",
           "T-Bill yields rose significantly:",
@@ -5975,7 +5976,7 @@ const articles = [
         heading: "After effects of Operation Sindoor",
         paragraphs: [
           "The Indian equity markets showed initial caution but quickly rebounded after the news of Operation Sindoor. Although Gift Nifty indicated a lower opening, both Sensex and Nifty rose shortly after markets opened despite geopolitical tensions. On May 7, 2025, the Sensex began 692 points down but recovered to gain over 200 points, remaining volatile and slightly down around 10 AM. The Nifty 50 also declined initially but made gains later in the day. The Indian rupee opened 19 paise lower against the US dollar, with investors favoring safe-haven assets leading to a slight increase in gold prices. Government bond yields showed stability in early trading. In contrast, Pakistan’s stock exchange plummeted by 5%, with the KSE-100 index dropping over 7.2%, indicating heightened investor fear regarding the country's economy." ,
-          "The conflict led to immediate disruptions, halting bilateral trade valued at $1.2 billion per year. Pakistan’s suspension of trade affected access to Indian pharmaceuticals and cotton, pushing import costs up by 20–30% through informal routes. India incurred losses from the closure of the Attari-Wagah border, projected at ₹7,013 crore over five years, resulting in nearly 12,000 job losses. The 'war-like situation' hurt consumer sentiment, particularly in states like Punjab and Gujarat, where sales of discretionary products dropped by 20-50%. However, the ceasefire created potential for recovery in consumer goods demand.",
+          "The conflict led to immediate disruptions, halting bilateral trade valued at $1.2 billion per year. Pakistan’s suspension of trade affected access to Indian pharmaceuticals and cotton, pushing import costs up by 20–30% through informal routes. India incurred losses from the closure of the Attari-Wagah border, projected at  Rs. 7,013 crore over five years, resulting in nearly 12,000 job losses. The 'war-like situation' hurt consumer sentiment, particularly in states like Punjab and Gujarat, where sales of discretionary products dropped by 20-50%. However, the ceasefire created potential for recovery in consumer goods demand.",
           "Inflation emerged as a concern, with a weaker rupee increasing import costs, especially for crude oil, while elevated defense spending posed risks to essential goods pricing. Pakistan's economy, already fragile with inflation over 38% and dependence on IMF bailouts, faced severe impacts, potentially leading to a currency crisis and shortages. Indian investors, particularly in mutual funds, remained composed, avoiding panic sell-offs and taking advantage of market dips, particularly in defense and energy sectors. While foreign institutional investors might show temporary caution, they leaned toward Indian large-cap companies for growth prospects amid global stagnation. ",
           "Historically, Indian markets have shown resilience against geopolitical tensions, with modest declines followed by recoveries. The analysis of previous conflicts indicates a consistent pattern of markets recovering rapidly post-tension. Current investor behavior indicates a trend of focusing on long-term investments and weight on stability in sectors like healthcare and IT. Despite challenges, India’s macroeconomic fundamentals remain strong, bolstered by increasing FDI and the prospective India-UK Free Trade Agreement. Operation Sindoor's impact on markets appears contained, signaling opportunities rather than panic, while investor caution against scams is critical amidst the operation's geopolitical implications."
         ]
@@ -5984,7 +5985,7 @@ const articles = [
         heading: "Impact of the 1962 Indo-China War on India’s Foreign Exchange Market",
         paragraphs: [
           "The 1962 Indo-China War between India and China not only represented a military encounter but also served as a critical economic shock, prompting India to reshape its developmental agenda. The brief conflict led to increased defense spending, a strain on foreign exchange reserves, and a shift in foreign exchange policies during a period dominated by the Second Five-Year Plan, which focused on public sector investments and import-led industrialization. The abrupt pivot towards defense readiness destabilized India's already fragile balance of payments (BoP).",
-          "Defense expenditure surged from ₹200 crore in 1961–62 to ₹460 crore by 1965–66—an increase of over 130%—primarily due to the urgent need for military equipment, which had to be imported from countries like the U.S. and USSR, thus exerting substantial pressure on India’s limited foreign reserves. Concurrently, the trade deficit ballooned from ₹196 crore in 1961–62 to ₹663 crore by 1965–66, driven not just by defense imports but also an escalating dependence on imports for essentials such as oil and food grains, further complicating the economic scenario.",
+          "Defense expenditure surged from Rs. 200 crore in 1961–62 to Rs. 460 crore by 1965–66—an increase of over 130%—primarily due to the urgent need for military equipment, which had to be imported from countries like the U.S. and USSR, thus exerting substantial pressure on India’s limited foreign reserves. Concurrently, the trade deficit ballooned from Rs. 196 crore in 1961–62 to Rs. 663 crore by 1965–66, driven not just by defense imports but also an escalating dependence on imports for essentials such as oil and food grains, further complicating the economic scenario.",
           "Foreign exchange reserves, which stood at approximately $705 million in 1958, began to dwindle, falling to around $400 million by 1965. This decline stemmed from heightened payments for military imports and reduced remittances, coupled with weak export earnings amid pricing pressures internationally. The current account deficit, reaching nearly 3% of GDP in the mid-1960s, indicated significant stress on India’s external financial position. ",
           "To address the resulting financing gap, India sought aid from international financial institutions, with over $1.5 billion received from the U.S.-backed Aid India Consortium between 1961 and 1966. However, this aid often came with stipulations for India to undertake structural reforms including fiscal discipline and trade liberalization. The necessity to stabilize its BoP led to the devaluation of the Indian rupee in 1966, shrinking its value by 36.5%. While intended to bolster export competitiveness, the devaluation spurred domestic inflation and political discontent due to its adverse economic effects. ",
           "The post-war period saw increased rupee volatility, compelling the Reserve Bank of India (RBI) to intervene actively. In light of the crisis, the government imposed stringent exchange control measures, including regulations on foreign currency transactions and foreign travel, setting the stage for the Foreign Exchange Regulation Act (FERA) of 1973, rooted in the vulnerabilities revealed by the war.",
