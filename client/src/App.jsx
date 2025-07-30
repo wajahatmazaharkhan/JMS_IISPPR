@@ -59,6 +59,7 @@ import ReconcilingDevelopmentAndEcology from "./pages/editions/ReconcilingDevelo
 import GeopoliticalStressImpactingFinancialMarketsInIndia from "./pages/editions/GeopoliticalStressImpactingFinancialMarketsInIndia";
 import TheInformalGigEconomyInGlobalisedIndia from "./pages/editions/TheInformalGigEconomyInGlobalisedIndia";
 import UnderstandingTheMindInDecline from "./pages/editions/UnderstandingTheMindInDecline";
+import BeyondFirewalls from "./pages/editions/BeyondFirewalls";
 
 function AppRoutes() {
   const location = useLocation();
@@ -217,6 +218,10 @@ function AppRoutes() {
         <Route
           path="/Understanding-The-Mind-In-Decline"
           element={<UnderstandingTheMindInDecline/>}
+        />
+        <Route
+          path="/Beyond-Firewalls-The-Human-Factor-In-Cybersecurity"
+          element={<BeyondFirewalls/>}
         />
 
         <Route path="*" element={<LandingPage />} />

@@ -29,6 +29,7 @@ const articleRoutes2 = {
   3: "/Understanding-The-Mind-In-Decline",
   4: "/Reconciling-Development-And-Ecology",
   5: "/Geopolitical-Stress-Impacting-Financial-Markets-In-India",
+  6:"/Beyond-Firewalls-The-Human-Factor-In-Cybersecurity",
 }
 
 const ResearchCard = ({ articles, onDelete }) => {
