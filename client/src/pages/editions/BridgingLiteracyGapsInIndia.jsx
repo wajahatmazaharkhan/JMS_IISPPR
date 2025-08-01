@@ -15,6 +15,7 @@ const BridgingLiteracyGapsInIndia = () => {
       intro={article.intro}
       content={article.content}
       conclusion={article.conclusion}
+      acknowledegements = {article.acknowledegements}
       references={article.references}
     />
   ) : (
