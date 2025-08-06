@@ -30,6 +30,10 @@ const articleRoutes2 = {
   4: "/Reconciling-Development-And-Ecology",
   5: "/Geopolitical-Stress-Impacting-Financial-Markets-In-India",
   6:"/Beyond-Firewalls-The-Human-Factor-In-Cybersecurity",
+  7: "/Mahatma-Gandhi-Rural",
+  8: "/From-Passive-Player-To-Active-Participant",
+  9: "/India-Approach-Crisis",
+  10: "/Economics",
 }
 
 const ResearchCard = ({ articles, onDelete }) => {

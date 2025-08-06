@@ -6370,6 +6370,609 @@ const articles = [
       } 
     ]
   },
+    {
+    id: 7,
+    issue: 2,
+    volume: 1,
+    title: "The Mahatma Gandhi National Rural Employment Guarantee Act: It’s Impacts and Overall Analysis ",
+    author: "Atharva Raul, Avinash Kumar, Gopika Jayakumar, Monika Singh, Nayanika, Sneha Soni, Neeruj Sagwal.",
+    authorAbbrev: "A. Raul, A. Kumar, G. Jayakumar, M. Singh, Nayanika, S. Soni, N. Sagwal",
+    abstract: "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), or MGNREGS, has seen a lot of appraisals and criticisms in the policy and political landscapes through the years. However, keeping the political debates aside, the purpose of this article is to look at the positive developments—both social and infrastructural—and the probable developments that can take place as a result of MGNREGA being implemented with proper execution. In this article, we are discussing development that has taken place across sectors, or one can say, the proposed development that has so far taken place or can take place as a result of MGNREGA." ,
+    keyword:[
+      "MGNREGA",
+      "rural employment",
+      "social development",
+      "infrastructure",
+      "economic impact"
+    ],
+    status: "Submitted",
+    intro: [
+       "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), passed by the Indian government in 2005, is widely recognized as the world’s largest rural employment scheme. The core idea behind MGNREGA is straightforward: to ensure that every rural household in India can access up to 100 days of paid work each year by doing unskilled manual labor. This is not just a welfare measure, it is a legal right. Any adult in rural India who wants such work can demand it from the government, which is then legally bound to provide employment within 15 days or pay an unemployment allowance. ",
+       "The scheme is run mainly through Gram Panchayats (local village councils), who help identify local infrastructure needs and supervise the work. This decentralized approach promotes transparency, encourages participation from villagers, and increases public accountability through social audits and open meetings. ",
+       "A unique feature of MGNREGA is its focus on building rural infrastructure as part of the employment given. This includes creating key assets like ponds, roads, small irrigation canals, and water conservation projects. These infrastructure works help not only to support agriculture and local economies, but also to address one of India’s pressing challenges: distress migration from villages to cities. By providing work close to home within 5km if possible and especially during times when farm jobs are scarce, MGNREGA helps keep families together and discourages risky and forced seasonal migration. Research shows that this has slowed or reduced distress-driven migration in many areas. ",
+       "The program also pays special attention to women and marginalized groups, requiring that at least one-third of total workers be women, and ensuring equal pay for men and women alike. These rights are further protected by provisions for timely wage payments, workplace facilities (such as drinking water and first aid), and grievance redress mechanisms. ",
+       "As a landmark law, MGNREGA is considered the last major independent rights-based social legislation in India. It shifted welfare policy from discretionary aid to a legally enforceable right, representing a more participatory, transparent, and citizen-focused approach to rural development and social protection. ",
+       "While MGNREGA has been significant in addressing rural unemployment, there exists a gap when it comes to urban unemployment. Currently, there exists no single central act in India that offers a nationwide urban employment guarantee like MGNREGA. ",
+       "This gap is especially notable given the increasing urbanization and issues with it. A national urban employment guarantee act has been introduced and reported to include discussion and proposals of the act, such as The Bhagat Singh National Urban Employment Guarantee Bill, 2022, but none yet exist as a central law. We have programs like the Deendayal Antyodaya Yojana - National Urban Livelihoods Mission (DAY-NULM), which are considered whole missions and not legally binding employment guarantee acts. ",
+       "To address this gap, state governments across India have made efforts to establish their own employment guarantee acts. These schemes, typically framed with reference to the Act of MGNREGA, have succeeded in providing some security for urban informal labourers. Examples include Kerala's Ayyankali Urban Employment Guarantee Scheme (AUEGS), Rajasthan's Indira Gandhi Shahri Rozgar Guarantee Yojana, Himachal Pradesh's Mukhya Mantri Shahri Ajeevika Guarantee Yojna, Odisha's Mukhya Mantri Karma Tatpara Abhiyan (MUKTA), Jharkhand's Mukhyamantri Shramik Yojana, and the Tamil Nadu Urban Employment Guarantee Scheme.",
+       "The development of urban legislation is based on the nature of the migration systems from rural to urban areas. Migration studies have found that most migrants migrate from rural to urban areas for improved employment opportunities and higher wages. However, the 'spillover of rural poverty' into the urban area leads to the migrants experiencing either stagnated or reduced income levels despite migrating from rural to urban areas of higher economic amenities. Shockingly, while 94% of the migrants were above the poverty line before they migrated, they dropped to only 88.18% of now staying above the urban poverty line. Clearly, the direction of the rural-to-urban migration is not guaranteed to increase economic stability. Moreover, these patterns of migration have increased unemployment rates in urban areas and decreased agricultural production in rural areas. ",
+       "Therefore, the case for a national urban employment guarantee scheme is even more urgent now, especially in the wake of the COVID-19 pandemic. The pandemic has sharply highlighted the extreme vulnerability of urban informal workers, many of whom lost their livelihoods overnight. In April 2020, the International Labour Organisation (ILO) estimated that there was a potential loss of 2.5 crore jobs worldwide from the economic crisis of the pandemic. The ILO recognized that the crisis could push over 40 crore informal workers in India, who do not have social security, further into poverty because of the economic fallout. In addition, beyond the crisis faced by the pandemic, informal workers constantly face insecurity of work without social security, fair wages, and job security.",
+
+    ],
+    content: [
+      
+      {
+        heading: "Policy Framework ",
+        paragraphs: [
+         "The problem stream for MGNREGA emerged from chronic rural distress in India. In the late 1990s and early 2000s, rural wage growth had largely stagnated – agricultural wages were rising only ~1–1.4% per year during 2000–05 – and many farm households remained vulnerable to seasonal unemployment. Persistent poverty and drought-prone agriculture underscored an urgent need for guaranteed work. Civil society and grassroots movements (notably the Mazdoor Kisan Shakti Sangathan and allied groups) seized on this problem, campaigning for a formal “right to work” as a policy solution. Drawing on experiences with earlier “food-for-work” programs and state-level employment schemes, activists and experts drafted a blueprint for a nationwide employment guarantee. By 2003–04, a pan-India campaign had mobilized tens of thousands of rural laborers and generated a model bill for a rural jobs guarantee. This evidence and debate helped solidify an actionable policy stream: a legal guarantee of 100 days’ work for rural households, with statutory wages and accountability mechanisms. ",
+         "The politics stream crystallised after the 2004 general elections. The Congress-led United Progressive Alliance (UPA) narrowly won power with outside support from leftist parties. The UPA had pledged a right-to-work guarantee in its 2004 manifesto, reflecting the political salience of rural distress. Left parties (Communist Party of India and allies) insisted that a national employment-guarantee be the very first item in the UPA’s National Common Minimum Programme. This coalition context created a policy window: the new government, under Prime Minister Manmohan Singh (2004–09), faced both electoral incentives and external pressure to enact an ambitious rural employment law. Key policy entrepreneurs seized this opportunity. Members of the National Advisory Council (NAC) – a body chaired by Congress leader Sonia Gandhi and including activists like Aruna Roy – worked out the details of the guarantee in early 2005. Veteran activists such as Aruna Roy and Nikhil Dey used their credibility to frame the scheme as a legal right, urging its passage in Parliament. In the summer of 2005, these streams coupled: the UPA government, pressed by left allies and civil-society advocates, introduced and enacted the Mahatma Gandhi National Rural Employment Guarantee Act. (MGNREGA was gazetted in August 2005 and came into force in early 2006.) In short, widespread recognition of rural poverty combined with a mature policy proposal and a supportive coalition government – marshaled by determined policy entrepreneurs – to open the policy window for MGNREGA.",
+        ]
+      },
+      {
+        heading: "Policy Recommendations ",
+        paragraphs: [
+          "To strengthen MGNREGA’s impact today, the following practical reforms are recommended in three areas: "
+        ]
+      },
+      {
+        heading: "Implementation Gaps ",
+        paragraphs: [
+         "•	Administrative capacity: Increase staffing and training at the block and panchayat levels. Recruit more engineers, gram rozgaar sevaks and support staff so that projects can be planned and executed promptly. Provide regular capacity-building programs to ensure officials understand MGNREGA rules (e.g. asset guidelines, wage calculations) and can process payments on time.",
+         "•	Social audit coverage: The Act mandates community audits in every gram panchayat at least twice a year. Ensure this mandate is met uniformly: fund state-level Social Audit Units, train independent auditors, and publicize audit findings. Encouraging civil society participation (NGOs, media) in audits will improve transparency. For example, by mid-2022, twenty-seven states and one UT had established independent social audit units; the goal now is to achieve full participation and regular audits in the remaining areas.",
+         "•	Grievance redressal: Expand and streamline complaint mechanisms. Set up toll-free helplines (at least one per district) and digital grievance portals that log every complaint and its resolution status. Designate district-level officers (e.g. a grievance redressal commissioner) to oversee timely case resolution. Publicise average resolution times. Encourage use of SMS or mobile apps (e.g. Janmanrega) so beneficiaries can report delays in payment, job card issues, or wage theft.",
+         "•	Local governance: Deepen the role of panchayats and Gram Sabhas. Mandate that village plans explicitly list MGNREGA works, and link fund releases to approval by the Gram Sabha. Strengthen village employment councils (VELC) to monitor muster rolls and work quality. Provide training to elected panchayat members on MGNREGA, and hold Gram Sabhas to review scheme performance quarterly. Empowering local leaders (sarpanches, panchayat secretaries) will help detect malpractices early and align projects with community needs."
+        ]
+      },
+      {
+        heading: "Technology ",
+        paragraphs: [
+         "•	Digital payment and MIS integration: Fully implement end-to-end e-governance. All wage payments should be disbursed via Direct Benefit Transfer (DBT) into worker bank accounts. Use the NREGASoft MIS platform (as already deployed) to capture every step: job card issuance, job demand registration, muster roll entry, and payment. This reduces delays, avoids cash leakages and enables real-time oversight of funds. Ensure network and computer facilities at all blocks/GPs so data is entered promptly.",
+         "•	Mobile monitoring and geotagging: Scale up use of mobile apps for field monitoring. The National Mobile Monitoring Service (NMMS) app, for instance, records daily attendance with geotagged photos, curbing ghost entries. Extend such biometric and GPS-enabled tools to every site: e.g. require foremen to mark muster rolls via smartphone apps that capture worker fingerprints and timestamps. An “Area Officer Monitoring” app (already piloted) can allow state officials to file time-stamped, geotagged inspection reports in real time. These measures increase citizen oversight and make discrepancies immediately visible.",
+         "•	Citizen feedback tools: Promote user-friendly digital interfaces for beneficiaries. The government’s “Janmanrega” mobile app (a citizen feedback tool) should be widely advertised, so workers can quickly report issues or rate completed assets. Maintain public dashboards (on the NREGA website) showing state- and district-level data on works, wages and delays, updated monthly. Enable SMS updates in local languages (for example, on wage credit notifications). Together, these digital channels will boost transparency and allow instant field intelligence from the ground.",
+
+        ]
+      },
+      {
+        heading: "Migration and Livelihood Alignment ",
+        paragraphs: [
+        "•	Target migration-prone areas: Use local data to anticipate seasonal migration and direct MGNREGA work accordingly. Districts should map villages with high outmigration (e.g. via household surveys or past muster data). In those areas, pre-assign additional work targets and materials so that employment is readily available. Maharashtra’s Nandurbar district, for example, ran a “Nandadeep” pilot identifying migrant families and ensuring local jobs on demand. Replicating such targeted pilots can help lock in MGNREGA gains by giving at-risk households timely work.",
+        "•	Livelihood-enhancing works: Prioritize MGNREGA projects that boost agriculture and non-farm income in lean seasons. Invest in water harvesting and irrigation (farm ponds, tanks, check dams) and horticulture (orchard planting) in drought-prone villages. These assets complement farming – as seen in Nandurbar, where a tribal farmer built a drip-irrigation pond and mango orchard under MGNREGA, enabling two crops per year and eliminating his need to migrate. By scheduling more such works during summer or pre-monsoon months, the scheme can smooth rural income fluctuations and reduce distress migration.",
+        "•	Portable entitlements: Strengthen portability of MGNREGA benefits for migrants. Publicize that any rural worker with a job card can demand 100 days’ work in any district (and claim an unemployment allowance if work is delayed). Coordinate with urban employment and welfare programs so that returning migrants can immediately re-enter local MGNREGA work. For instance, maintain a current registry of returning migrants each season to preemptively issue job cards or muster rolls. By aligning the scheme’s operations with known migration cycles, MGNREGA can serve both as a rural safety net and as a buffer against destabilizing labor shifts.",
+        "By addressing these gaps with practical steps, MGNREGA can more effectively fulfil its promise of rural livelihood security. Strengthening administration, leveraging technology for transparency, and proactively integrating migration considerations will help ensure that the Act’s legal guarantees translate into real work and income for India’s rural poor."
+        ]
+      },
+       {
+        heading: "“Security in Every Season”: A qualitative study of employment stability under MGNREGA Policy.   ",
+        paragraphs: [
+        "MGNREGA’s centralized framework aims to stabilize rural livelihoods. This paper synthesizes qualitative evidence to assess how mgnrega fosters employment stability. In this analysis, we have taken case studies from five states i.e. Rajasthan, Karnataka, Odisha, Jammu & kashmir and West Bengal, collected between 2018-2023. MGNREGA’s strength lies in its centralized design run by the Ministry of Rural Development (MoRD) in which every rural household has the right to 100 days of work. Wages go directly to the bank account of the beneficiaries via National electronic Fund Management System (NeFMS). Digital records ensure availability and authenticity of the central database. Fair wages allotted by the central government ensures workers are not underpaid and extra workdays are added in case of emergencies like COVID-19. Local Gram Panchayats make it easier, but their effectiveness varies from region to region. ",
+
+        ]
+      },
+       {
+        heading: "How does it stabilize lives? ",
+        paragraphs: [
+        "MGNREGA has changed rural India in a big way. This program has generated 389 crores workdays in 2020-2021 and 295 crore workdays in 2022-2023 with households averaging 49.8 days in 2024-2025 (MGNREGA MIS). In Rajasthan, families plan farming around 40-60 MGNREGA Days knowing they have got a fallback. ",
+        "99% of the wages are now paid electronically with timelines improving from ~40% in 2016-2017 to ~70% by 2018-19 (CAG,2018). From the study done in Budgam, Jammu & Kashmir, women use steady payments to buy livestock, boosting their income. ",
+        "In the city of Jalpaiguri, West Bengal, local jobs are cutting seasonal migration by 30-40% whereas in kalahandi, Odisha, families admit that MGNREGA helps them put food on the table. During COVID-19, beneficiaries were provided with extra workdays (up to 150) to help those returned back to their hometowns/ villages. They called it A job when no one was hiring. ",
+        "To conclude, MGNREGA is a lifeline for rural India, giving families steady work, fair pay, and hope during tough times. From Rajasthan’s villages to Odisha’s fields, it cut migration and empowered women. But inconsistent funding, tech hiccups, and uneven local efforts hold it back. With smarter budgets, better data, and a focus on women and climate-friendly projects, MGNREGA can keep being India’s strongest shield against rural poverty. ",
+        ]
+      },
+       {
+        heading: "MGNREGA and Migration Patterns in India: A Comprehensive Analysis of Impact and Effectiveness  ",
+        paragraphs: [
+        "Based on an extensive review of academic research, government reports, and empirical studies from across India, this analysis reveals that the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) has demonstrated significant effectiveness in reducing various forms of rural-to-urban migration, while also highlighting important variations in implementation success and ongoing challenges. The evidence consistently shows that MGNREGA has served as a crucial safety net, particularly for seasonal and distress migration, though its impact varies considerably across different regions, demographic groups, and types of migration.MGNREGA's effectiveness in reducing different types of migration patterns across Indian states, showing percentage reductions from various research studies",
+        ]
+      },
+       {
+        heading: "Historical Context and Pre-MGNREGA Migration Patterns  ",
+        paragraphs: [
+        "Migration in India has been a complex phenomenon driven by multiple interconnected factors including agricultural distress, seasonal unemployment, poverty, and the search for better livelihood opportunities. Prior to MGNREGA's implementation, rural-to-urban migration constituted approximately 87% of total economic migration in the country. The primary source states for out-migration included Uttar Pradesh, Bihar, Jharkhand, Rajasthan, and Madhya Pradesh, regions characterized by high agricultural dependence, limited irrigation facilities, and seasonal unemployment patterns.",
+        "The 2007-08 National Sample Survey Office (NSSO) data revealed that nearly 79% of rural male migrants and 56% of urban male migrants moved primarily due to employment-related reasons. The predominant migration streams showed rural-to-rural migration as the largest category, particularly among women due to marriage-related movement, while male migration was increasingly driven by economic necessity. Seasonal migration, in particular, had become a critical livelihood strategy for poor rural households, with migrants typically working in construction, brick kilns, agriculture, and urban informal sectors during agricultural lean seasons.",
+        ]
+      },
+       {
+        heading: "MGNREGA's Design and Migration Control Objectives ",
+        paragraphs: [
+        "Enacted in 2005 and fully implemented across all rural districts by 2008, MGNREGA was explicitly designed with migration control as one of its primary objectives. The Act aims to arrest out-migration of unskilled landless labor force from the rural areas to urban areas by ensuring up to 100 days of guaranteed wage employment within their residential jurisdiction. The program's design features specifically address migration drivers through several mechanisms:",
+        "1.	Local Employment Provision: Work sites must be located within a 5-kilometer radius of applicants' homes, with additional compensation (10% extra wages) provided when this is not possible",
+        "2.	Seasonal Coverage: Employment is guaranteed during agricultural lean seasons when migration typically peaks.",
+        "3.	Gender Equity: Equal wages for men and women with at least one-third jobs reserved for women, addressing gendered migration patterns.",
+        "4.	Rights-based Framework: Legal entitlement to work or unemployment allowance within 15 days of application.",
+        ]
+      },
+      {
+        heading: "Empirical Evidence of Migration Reduction",
+        paragraphs: [
+        
+        ]
+      },
+       {
+        heading: "1.	Seasonal Migration Impact ",
+        paragraphs: [
+        "Multiple studies demonstrate MGNREGA's substantial impact on seasonal migration patterns. Research in West Bengal's Cooch Behar district found that the probability of households sending at least one member for short-term migration decreases significantly as the number of days of participation in MGNREGA increases. In Madhya Pradesh, field studies documented migration reduction by more than half since MGNREGA's introduction, allowing families better access to educational and medical facilities in their existing locations.",
+        "A comprehensive study across four backward districts in Karnataka (Bidar, Chitradurga, Gulbarga, and Raichur) revealed a dramatic reduction in migration from 74% of households before MGNREGA to 37% after implementation. Significantly, unemployment ceased to be a reason for migration after MGNREGA's implementation in these areas, though poverty remained a persistent driver."
+        ]
+      },
+       {
+        heading: "3.	Regional Variations in Effectiveness  ",
+        paragraphs: [
+        "The impact of MGNREGA on migration varies significantly across states and regions, reflecting differences in implementation quality, local economic conditions, and baseline migration patterns. States like Andhra Pradesh, Tamil Nadu, Chhattisgarh, Madhya Pradesh, Himachal Pradesh, Rajasthan, and Uttarakhand, which actively implemented MGNREGA, showed more consistent results in migration reduction..",
+        "However, challenges persist in several regions. In Odisha's Ganjam district, known for high out-migration to cities like Surat, Mumbai, Chennai, Hyderabad, and Bangalore, research found that 50% of households still had at least one migrant even after MGNREGA implementation. Similarly, a micro-study in Dokur village, Andhra Pradesh, revealed that seasonal migration remained high at almost 50% of households, with MGNREGA wages of Rs. 120 being insufficient compared to Rs. 200-300 available in urban construction sites."
+        ]
+      },
+      {
+        heading: "COVID-19 and Migration: MGNREGA as Emergency Response: ",
+        paragraphs: [
+        "The COVID-19 pandemic provided a unique test of MGNREGA's capacity to address large-scale return migration. Research shows that nearly 7.5 million seasonal migrant workers took refuge under MGNREGA during the lockdown, finding work for around 23 days and securing about 28% of their pre-COVID income. This demonstrated the program's crucial role as a safety net during economic crises, though it could only address the needs of about one-third of returning migrants"
+        ]
+      },
+      {
+        heading: "MGNREGA: An Integrated Approach to Rural Development, Social Auditing, and Rights-Based Empowerment:",
+        paragraphs: [
+        "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) provides an integrated approach to rural development, economic stability, social development, and asset creation, in addition to offering jobs for the poor. MGNREGA's success stems from its ability to address a wide range of issues. ",
+        "By directly generating job opportunities, the program helps many people secure their livelihoods. In addition to improving food security and lowering poverty, this has also improved health and education. Research shows that participants save and earn more money (5–9%) and eat better. MGNREGA fosters a strong sense of self-worth and dignity among workers by enabling them to earn. Women's empowerment, which encourages their involvement and fosters financial independence, is one of its key features, with 79% of female employees collecting their wages on their own and 68% controlling their earnings (National Family Health Survey (NFHS-5), as cited by Observer Research Foundation (ORF) in Financial Inclusion of Women: Current Evidence from India,2023). The program also demonstrates high participation from marginalised groups, with SCs accounting for 22.6% and STs for 17.6% of beneficiaries. ",
+        "The development of durable assets that improve the rural economy is one of MGNREGA's primary goals. A significant 75% of projects directly benefit agriculture, and 87% of them are operational. These resources include water-saving structures, afforestation initiatives, and roads, which increase access and agricultural output. This close connection to agriculture promotes sustainable rural livelihoods and raises wages in rural areas. MGNREGA successfully lowers migration by offering job opportunities within 5 km of the applicant's home; notable instances include sharp declines in Anantapur (from 27% to 7%) and Bastar (from 4500 to 500 people). ",
+        "The program promotes financial inclusion by urging employees to make use of banking services for wage disbursements. Additionally, MGNREGA promotes greater accountability and transparency in governance through mandatory social audits. By including Panchayats in planning and implementation, it strengthens local democracy, increasing the political voice of rural communities by enabling them to participate in decision-making more successfully."
+        ]
+      },
+      {
+        heading: "Support for Marginalized Communities and Rights-Based Challenges:  ",
+        paragraphs: [
+        "MGNREGA is a clear hope towards the deprived ones, prioritizing marginalised sections like SC, ST, Dalits, or adivasis, keeping in mind the discrimination they have faced. For women, there is 1/3rd of registration placement, and in some areas, even 50% of the quota is reserved. People of rural areas desperately needed change and improvement in terms of infrastructure, gender-based development, and safeguarding marginalised and backward classes by employing them in their area, reducing distress migration. The program also provides welfare services like education, healthcare, and rationing through the public distribution system. It promotes empowerment through community participation by panchayat planning through gram Sabhas, giving the community a say about roads, water harvesting, structures, and land development. ",
+        "The framework often helps uplift them by protecting them from caste-based discrimination, arbitrary exclusion, providing job cards, and ensuring transparency. A main feature for their welfare is the creation of durable assets for SC, ST communities, as their livelihood and employment are through land, by improving land productivity and infrastructure in areas predominantly inhabited by them. Land levelling, irrigation canals, and plantation of fallow lands directly help the farmers by increasing their long-term self-reliance. Other government schemes often lacked transparency, community participation, and accountability, making the population distrustful. With MGNREGA, rural people were prioritized by recognizing their employment needs and providing an equal base in society, overcoming hurdles, and using their skills. It has come out as a boon for the needy caste and class, helping the landless, empowering the disadvantaged, and creating useful assets at the ground level for rural development. ",
+        "The MGNREGA Act provides guaranteed employment, but this is interconnected with rights. According to the constitution, fundamental rights include the right to employment without any failure or discrimination. However, the legal process of the policy is uncertain, and awareness regarding rights at the lower level is yet to be accomplished. Mere creation of a strict legal process for a rights-based approach is incomplete unless the population can recruit its benefits wholly. People face problems regarding legal application due to high illiteracy and low digital acceptance. The government should make the process of legality easy and smooth for those without full information or knowledge of their rights. A case in Rajasthan saw workers not receiving wages, status remaining pending, requiring government workers to ensure guaranteed employment and wages. ",
+        "Challenges include corruption and mismanagement, which dislocate the purpose of the act by manipulating, ghosting workers with fake job cards, and imposing hierarchical structures that exclude the poor. Technological imbalance or barriers mean workers complain regarding Aadhaar card-linked documents, a lack of digital devices, internet access, or understanding of the process, making them soft targets for theft and scams, which leads to discontinuing participation, demanding rights, and complaining against the system. Underfunding and budget cuts have deeply impacted work areas and quality, with low funds causing some states to lag in creating proper employment opportunities with wages, undermining credibility. ",
+        "MGNREGA's rights-based approach to development is still a bigger challenge to achieve. For promising, fair, and undivided rights, we need political commitment, community awareness, digital inclusion, and stronger awareness to get rid of the uncertainty of government institutions. Although there are various challenges like corruption, delayed wage payments, poor asset quality in some areas, and limited administrative capacity in low-income states, the high level of user satisfaction further supports MGNREGA's efficacy: 90% of those surveyed say the works are helpful. ",
+        ]
+      },
+      {
+        heading: "MGNREGA and Infrastructure:  ",
+        paragraphs: [
+       "So far as we have discussed, we can see that MGNREGA as an act, as a policy, is primarily set to tackle the problem of rural unemployment. Rural employment is often a form of disguised unemployment. This often means a lower marginal product per unit of labor employed. However, there are also other forms of unemployment that affect the rural regions of this country, some of which are seasonal or cyclical in nature. MGNREGA, however, aims to solve the broader problem of unemployment. The model is very largely based on a project-infrastructure-employment framework. ",
+       "To simply explain, this works primarily in a decentralized format. In this, projects are recorded, facilitated, and taken up by the local governance bodies, which are ultimately sent to the necessary administrative departments, and a budget is allocated. Once this is done, projects are undertaken, and necessary persons are employed. This is a very concise summary of how the projects work. This means, at large, or in an aggregate sense, the employment generated through the scheme also leads to infrastructure development in some form or another. ",
+       "Here, we might tend to find some amount of difference or skewness between the number of projects employed and the budget allocated, or we may tend to find a slow rate of completion. But these are problems based on the implementation of the scheme, which may vary in nature from planning problems to political issues in a region or a district. This is one of the larger criticisms of the policy, which we won’t be addressing. However, looking at the general framework, we can see that if the policy is implemented with efficiency, there is a larger scope for rural development. ",
+       "Addressing a few examples from a few states, we can list the following works undertaken at large. Statewide, in West Bengal, we see projects undertaken for: nursery raising on fruit and forest plants, vetiver seedling raising, hardening of banana tissue culture, establishment of poultry, piggery, goatery units, skill development training, land leveling, roads being built, integrated farming by IBS, vermicompost units, and re-excavation of ponds. These rural works undertaken or being focused upon shed light on how agricultural infrastructure is being prioritized. This means there is a positive indication, at least about the proposals of infrastructure, hinting at possible infrastructure growth along with employment in the region.",
+       "Taking into consideration another state of a similar, or rather close, state-economy, Jammu and Kashmir has shown a very good record with the scheme's implementation and infrastructure, primarily seeing the development of roadways and projects related to water conservation and management. From a review of articles, it was found that Jammu and Kashmir has shown a rather positive trend with MGNREGA implementation and infrastructure development taking place because of the same. Coming to one more state of a similar size, we take the example of Odisha, where the following works are being and were reportedly undertaken: construction projects, water and irrigation management, rural sanitation initiatives, repair and maintenance of local infrastructure, land development efforts, drought-resistant projects, and provision of drinking water in rural areas, which again is a positive sign. In total, the act provides a list of permissible works, which includes several infrastructure initiatives, from water management in rural regions to agricultural activities and technologies, and forestry works. ",
+       "To summarize and conclude the review of the relationship between employment under MGNREGA and infrastructure development, we can see that with MGNREGA, there is most certainly a scope for infrastructure development in the rural region, at least to the necessary sustenance levels and even more. The design of the policy facilitates infrastructure development, even though there might be some issues with the execution in some states. However, some states such as Jammu and Kashmir have shown a better governance and execution model. We can also say that with proper and timely executions after considering loopholes, we can see a very large scope for Rural Infrastructural Development.",
+
+        ]
+      },
+
+    ],
+    conclusion: [
+     "In conclusion, we can see that MGNREGA has several positive effects that accompany its proper implementation. A social audit reveals that MGNREGA has had a notably positive impact on its execution. While an assessment of the policy's implementation and employment output reveals several criticisms—primarily concerning migration, wage rates (which are a factor affecting migration even with the policy in place), and overall execution—these issues do not negate the fact that some positive change has been observed in several states. There has consistently been a significant number of beneficiaries, and the policy has had a visible positive impact. This suggests that while the policy may not be completely efficient (as no policy ever is), it is not entirely inefficient either. The positive changes observed indicate that with better implementation and improved management of the works, the policy could become far more efficient and lead to a substantial amount of rural development. Implementing any policy is challenging and can never be completely efficient, but if the planning and institutional frameworks are improved, the policy can certainly work to its near potential.",
+     "Criticisms and Consequences",
+     "1.	Wage-Related Issues ",
+     "Beneficiaries are discouraged by low nominal salaries, which causes migration and underuse of the 100-day guarantee. Inadequate funding and administrative roadblocks, like frozen accounts or inactive Aadhaar, cause excessive and systematic delays in wage payments. Legally mandated compensation for unpaid wages is often not provided. Unjustified disparities result from the lack of a uniform wage rate among states and UTs. All things considered, the delay in wage payments brought on by fund transfer and administrative problems is a serious worry.",
+     "2.	Implementation & Oversight Deficiencies ",
+     "Unemployment benefits provisions that are poorly implemented result in an inadequate payout. Two significant shortcomings in social auditing practices are limited public access to reports and insufficient audit coverage. Grievance resolution is challenging due to low district ombudsperson appointment rates. A general lack of administrative and planning skills at the local (Panchayat) levels leads to inefficient budget utilisation. The use of machinery in place of manual labour and the prohibition of contractors are examples of violations of the scheme's objectives. Planning, approval, monitoring, and transparency are all hampered by a lack of technical and administrative staff at all levels (Block, Grama Panchayat). Additionally, this results in subpar planning and execution at the local level, which does not produce enough work. Inefficiencies are further aggravated by a lack of accountability and monitoring systems.",
+     "3.	Corruption and Financial Misuse ",
+     "Bribery for job cards, embezzlement by local officials, and the prevalence of ghost accounts are examples of widespread corruption. Fraudulent activities include making fake muster roll entries, using fake identities, and including deceased individuals. Only a tiny percentage of funds are allegedly able to reach recipients due to significant misappropriation. Two important problems that limit the scheme's actual benefits from reaching the workers are corruption and leaks.",
+     "4.	Beneficiary Rights & Eligibility Issues ",
+     "Beneficiaries are not aware of their rights and entitlements. The demand and supply of work among beneficiaries vary by season and location. Effective policy evaluation is hindered by inadequate monitoring systems and a lack of transparency. The requirement for Aadhaar-linked wage payments (ABPS) and seeding delays increases the risk of bank account mapping and seeding issues, which may lead to payment issues or beneficiary exclusion. Delays in payments discourage recipients and lower participation. Lack of funds reduces the number of workdays available. Concerns are raised over MGNREGA's slow approvals, which have an impact on rural livelihoods and employment opportunities.",
+     "5.	Social and Beneficiary Difficulties ",
+     "Delays in issuing job cards and discouragement from manual labour are examples of instances of discrimination against women and marginalised groups. Workplaces often lack basic amenities and safety measures, like childcare facilities. The rural poor's lack of awareness of their rights, such as the ability to obtain job cards, minimum wages, and unemployment benefits, impedes the demand for employment. Wasteful wage spending interferes with savings and financial inclusion, especially when cash is received. Since most workers are still not organised, it is challenging for them to demand their rights. Furthermore, official documents and accountability are mismanaged.",
+     "6.	External & Systemic Weaknesses ",
+     "Given the expanding budget and falling tax-to-GDP ratio, inadequate funding creates doubt about the scheme's long-term sustainability. The program is susceptible to economic downturns and budget cuts. Project quality and employee well-being are negatively impacted by political interference and cut money strategies. Areas affected by the Maoist insurgency are performing poorly and creating fewer jobs. The program's heavy reliance on manual labour limits its capacity to emphasise productivity and skill development. Modernisation in agriculture and industry may lead to a decrease in the need for manual labour. Work availability is impacted by inadequate or postponed budget allocation. Caste relations and social hierarchies have an impact on marginalised communities and the distribution of work. The integrity of the program can be completely jeopardised by political interference. A lack of awareness among local officials, insufficient administrative capacity, and bureaucratic red tape are among the problems."
+    ],
+    references: [
+      {
+        heading: "MGNREGA MIS (nrega.nic.in, accessed July 2025).", 
+        links:""
+      },
+      {
+        heading: "Bitrián, J. L. (2024). Training and efficacy in cyber awareness. Journal of Cybersecurity Education and Research, 12(1), 45–58.", 
+        links: ""
+      },
+      {
+        heading: "⦁ CAG of India. (2018, 2020). MGNREGA Audit Reports.   ", 
+        links: ""
+      },
+      {
+        heading: " Imbert, C., & Papp, J. (2015). Labor Market Effects of MGNREGA.  ", 
+        links: ""
+      },
+      {
+        heading: "CybSafe. (2024). User behavior and susceptibility in cyberattacks. ", 
+        links: ""
+      },
+      {
+        heading: "Dev, S. M. (2016). Impact of 10 years of MGNREGA: An overview. National Institute of Rural Development and Panchayati Raj (NIRDPR) ", 
+        links: ""
+      },
+      {
+        heading: "⦁ Observer Research Foundation. (2023). Financial Inclusion of Women: Current Evidence from India", 
+        links: ""
+      },
+      
+    ]
+  },
+
+  {
+    id: 8,
+    issue: 2,
+    volume: 1,
+    title: "From Passive Player to Global Shaper: India and the New Multilateralism",
+    author: "Samiya Sharma ,Ishika Jain ",
+    authorAbbrev: "S.Sharma ,I.Jain ",
+    abstract: ["The changing India in international economic governance portrays a shift of a strategic refocus, which includes a switch from a normative idealism to a pragmatic geoeconomic statecraft. Historically, India has been regarded as a policy-taker to the multilateral organizations, (owing partly to its post-colonial economic vulnerabilities and identification with the Global South), and its hesitant attitude towards liberalization and global rule-setting was evident during its initial cooperation with the BWIs as well as the Non-Aligned Movement. But after the economic reforms of 1991 and the structural adjustments which were imposed throughout the politics of the IMF, India started settling down in the global economy with more assertiveness. In this regard, India has been moving towards re-branding itself as a rule-maker in multilateral forums, be it the G20 or BRICS much less new coalitions like the Quad and IPEF today, as the fifth-largest economy in the global sentencing." ,
+    "In this paper, the author follows the history of India as a participant in the nexus of global economic governance and evaluates critically their novice geoeconomic instrumentation, such as the introduction of Digital Public Infrastructure (DPI) like Aadhaar and UPI, development diplomacy through official development assistance and training capabilities like ITEC, and soft power of culture like the Indian Council for Cultural Relations (ICCR). It appraises how India uses such tools to cultivate strategic leverage, a digital and development-shaped global phenomenon, and campaign agentry change in multilateral establishments that are structurally inclined to the Global North. Simultaneously, the paper questions the domestic constraints in India like regulatory unpredictability, internal economic disparity and policy vulnerability that hamper the Indian multilateral effectiveness.",
+    "The paper helps in the understanding about how the emerging powers negotiate global governance, in the sense that by analyzing the phenomena of the India moving out of the reactive participation to the proactive agenda-setting. The alternative, inclusive and development-oriented multilateralism of an ever-more multipolar world order is possible through the model of India with its strategic autonomy, South-South solidarity, and institutional pluralism.",
+    ],
+    keyword:[
+      
+    ],
+    status: "Submitted",
+    intro: [
+      
+    ],
+    content: [
+      
+      {
+        heading: "Reimagining India’s Role in Global Economic Governance ",
+        paragraphs: [
+         "India’s transformation from a policy taker in the post-colonial economic order to an emerging shaper of global economic governance marks a significant shift in the 21st century. Traditionally aligned with the Global South and platforms like the G77 and Non-Aligned Movement, India often played a reactive role within multilateral institutions such as the IMF, World Bank, and WTO. However, with it growing economic clout now the world’s fifth-largest economy (IMF World Economic Outlook, 2024) India is actively engaging in shaping the rules of the global economy.",
+         "From its leadership in the G20 during the 2023 Presidency (G20.org) to its initiatives within BRICS, IPEF, and the Quad, India is increasingly deploying tools of economic statecraft. It now influences policy on global trade, digital governance, climate financing, and development infrastructure. As noted by the Observer Research Foundation (ORF) and Brookings India, India’s recent multilateral diplomacy reflects a shift from normative idealism to pragmatic strategic engagement.",
+         "India’s repositioning reflects broader trends in global power redistribution, and how it balances its ambitions with principles of strategic autonomy, Global South solidarity, and economic competitiveness."
+        ]
+      },
+      {
+        heading: "Policy Recommendations ",
+        paragraphs: [
+          "To strengthen MGNREGA’s impact today, the following practical reforms are recommended in three areas: "
+        ]
+      },
+      {
+        heading: "Historical Trajectory: From Bretton Woods to BRICS",
+        paragraphs: [
+         "India's developed role in global economic rule should be understood through its historical trajectory-from its vigilant engagement with post-World War institutions to becoming a major voice in emerging multilateral groups. In the decades after independence, India adopted a socialist, inward economic model. This Nehru vision-shaped developmental path emphasized the state-led industrialization and import replacement, India was kept relatively to the capitalist world economy and Bretton Woods institutions (Chatterjee, 2011). ",
+         "During the Cold War, India aligned themselves with a group of non-aligned movement (NAM) and G7 to give voice to global South concerns. Instead of being an active partner in multilateral economic rules, India often adopted a moralist and defensive stance, which emphasizes sovereignty and equity on liberalization (Murthy, 2020). This reinforced its image as a policy-taking, which often reacts to global economic development rather than shaping them.",
+         "There was a turn in 1991, when India faced a serious balance of payment crisis and introduced structural economic reforms under IMF guidance. These liberalization policies opened India into global markets, which change their views for multilateral engagement. India gradually shifted to creative participation in institutions such as the World Trade Organization (WTO) and the World Bank. It started actively negotiating on trade rules, intellectual property rights and investment structure.",
+         "This shift from being a rule-taker to a rule-shaper underscores India's desire not only for greater voice and representation but also for a more democratic, inclusive, and development-oriented global economic system. India's evolving position illustrates how emerging powers can leverage their growing economic and geopolitical weight to reshape global governance institutions from within while simultaneously building alternatives outside the traditional Western framework.",
+        ]
+      },
+      {
+        heading: "India’s Development Diplomacy and the Global South",
+        paragraphs: [
+         "The concept of development diplomacy that India is playing is a true representation of a Southern model of partnership which is based on the principles of mutual development and capacity-building. Leveraged with such development aid instruments such as the Development Partnership Administration (DPA) and conducted under the auspices of programmes such as the Indian Technical and Economic Cooperation (ITEC) programme, India has trained more than 200,000 officials in 160 countries (Prabhu, 2023). India has invested in railways, education, and water systems in Africa, South Asia, and Indo-Pacific through Lines of Credit and grants-in-aid, and this has made it an important development partner (Prabhu, 2023).",
+         "India has a Digital Public Infrastructure (DPI) infrastructure such as Aadhaar, UPI, and MOSIP that form another important pillar of Indian soft power. These open-source tools have been used to recreate the concept of digital governing and service delivery to people, which is now being employed by other nations including Morocco, Ethiopia, and the Philippines (Sarma, 2023). In 2023, India was the president of the G20 club and stated that DPI is a global public good, endorsed by IMF, World Bank, and UN as beneficial in terms of inclusiveness, innovation, and SDG acceleration with the involvement of civil society (Sarma, 2023).",
+         "The role of cultural diplomacy in India is growing stronger and it is having an increase in soft power thanks to organizations like ICCR. Traditional programmes that cater to yoga and classical arts and programmes encouraging the use of Indian languages are being coupled with efforts at the Global Gen Next Buddhist Leaders Network, sponsorship of Indologists around the world (Rajya Sabha, 2021; 2023). This is how India has been able to blur the present and create a perception about her in the global world through a fusion of tradition and strategy.",
+         "During the NITI Aayog summit of 2025 on Viksit Bharat @2047, it was realized that India had to lead in trade, renewable energy, digital regulation and legal reforms to compete globally and build multilateral engagements (PIB, 2025). The geoeconomic twist that India just took based on technology, development diplomacy, and cultural capital is, in effect, an alternative global system that is founded on cooperation, inclusivity, and resilience."
+
+        ]
+      },
+      {
+        heading: "Constraints, Critiques, and the Road Ahead ",
+        paragraphs: [
+        "India, as a rising power, seeks to reshape global governance to align with its evolving aspirations. The current global order, marked by entrenched power structures, does not reflect India’s economic, demographic, and geopolitical significance. India now calls for “reformed multilateralism,” emphasizing flexible cooperation over rigid alignment and advocating inclusivity for emerging powers and the Global South India’s rise in multilateral economic governance (MEG) is seen in its proactive role in institutions like the WTO, IMF, World Bank, BRICS, and G20  is often hailed as a marker of its global economic aspirations. However, this rise has not been without critiques. India champions Global South solidarity yet often aligns with developed nations on issues like intellectual property rights or trade liberalization. India often lacks domestic consensus on key reforms needed to back its multilateral positions (e.g., agricultural subsidies, investment liberalization). India has become more protectionist in trade, especially after 2014, which contrasts with its earlier role as a champion of liberalization with the Withdrawal from RCEP (Regional Comprehensive Economic Partnership) is cited as evidence of a retreat from economic integration. . India’s active role in G20 discussions on achieving the Sustainable Development Goals (SDGs) has been significant, particularly in areas such as poverty reduction, education, and health.   India, despite being one of the largest economies, lacks proportional representation in Bretton Woods institutions (IMF, World Bank) and WTO decision-making processes for e.g.- Voting rights in the IMF are still skewed in favor of the US and EU, limiting India's influence.  India's slow bureaucratic processes, policy uncertainty, and frequent regulatory changes limit its ability to negotiate effectively in multilateral forums. Domestic politics often shape trade and economic policies to favour short-term populism over long-term global integration.  As a developing economy, India must balance multilateral obligations with domestic development needs like poverty alleviation, infrastructure, and food security. It often seeks special and differential treatment (S&DT) at WTO, which sometimes clashes with developed economies.",
+       "The success of India’s financial inclusion programs, as discussed by Suresh et al. (2017) [25] , could serve as a model for other developing nations, particularly those looking to reduce poverty through improved access to banking services. Moreover, India's leadership in digital trade infrastructure development has implications for future global trade policies, particularly as the world moves towards more digitized economies. India's leadership in the International Solar Alliance demonstrates the potential for global cooperation on climate issues, with India playing a leading role in this transition. India aims to secure greater representation and voting rights in organizations like the International Monetary Fund (IMF) and the World Bank. India is positioning itself as the voice of the Global South, advocating for more inclusive, development-centric economic policies. To strengthen its position further, India should focus on expanding its leadership in digital trade and cybersecurity, areas of growing importance in global economic governance. Additionally, continuing to advocate for the interests of developing countries will help India maintain its influence in the world.  "
+        ]
+      },
+      
+    ],
+    conclusion: [
+     "The rise to an agenda-setter in multilateral economic governance is an illustration of the rising economic power, technological prowess, and diplomatic boldness of India. Examples of such initiatives include development partnerships in Africa, digital diplomacy with the India Stack, and cultural outreach with the ICCR, which is a form of strategic influence that is based on inclusivity, sovereignty, and South cooperation. But, this transition does not come without limitations. India is still struggling with the problem of inconsistency in its domestic policymaking, underrepresentation in major multilateral institutions, and more general geopolitical limitations on its global ambitions. In the future, the capacity of India to balance national development interests against international obligations will be key to its durability. Due to the tendency of the international system to become more fragmented and multipolar, the geoeconomic statecraft of India presents an attractive model of re-imagining global governance, which is development-centric, digitally empowered, and built upon equitable multilateralism."
+    ],
+    references: [
+      {
+        heading: "Chatterjee, P. (2011). The Nation and Its Fragments: Colonial and Postcolonial Histories. Princeton University Press.", 
+        links:""
+      },
+      {
+        heading: "Murthy, C.S.R. (2020). India and the Changing Face of Multilateralism, Indian Foreign Affairs Journal, Vol. 15(1).", 
+        links: ""
+      },
+      {
+        heading: "Panagariya, A. (2008). India: The Emerging Giant. Oxford University Press.  ", 
+        links: ""
+      },
+      {
+        heading: " Ananta Aspen Centre. (n.d.). India’s views on multilateral reform ", 
+        links: "https://anantaaspencentre.in/indias-views-on-multilateral-reform/"
+      },
+      {
+        heading: "Kumar, P. J. (2024). India’s views on multilateral reform. International Journal of Foreign Trade and International Business, 6(2), 43–48. ", 
+        links: "https://www.foreigntradejournal.com/article/view/115/6-2-8"
+      },
+      {
+        heading: "Khetrapal, N. (n.d.). The new-age multilateralism: The Indian way. Geneva Centre for Security Policy ", 
+        links: "https://dam.gcsp.ch/files/misc/alumni-notes-new-age-multilateralism-indian-way"
+      },
+      {
+        heading: "NITI Aayog. (n.d.). India’s global economic strategy [Reports and publications]. Government of India", 
+        links: " https://www.niti.gov.in"
+      },
+       {
+        heading: " Bhatia, R. (2020). India’s RCEP exit: What next? Gateway House: Indian Council on Global Relations ",
+        links:"https://www.gatewayhouse.in/indias-rcep-exit-what-next/",
+       },
+       {
+        heading: "Ministry of External Affairs. (2024, January 31). 4th India-Portugal Foreign Office Consultations (FOC).", 
+        links: "  https://mea.gov.in"
+      },
+       {
+        heading: "PIB Delhi. (2025, February 7). NITI Aayog Hosts a Conclave on ‘Towards Viksit Bharat@2047’", 
+        links: "  https://pib.gov.in"
+      },
+       {
+        heading: "Prabhu, S. (2023, August 15). Ushering a new era of development partnerships. Raisina Debates", 
+        links: "  https://www.orfonline.org/expert-speak/ushering-a-new-era-of-development-partnerships"
+      },
+       {
+        heading: "Rajya Sabha. (2021, December 16). Enhancement of India’s Soft Power (Unstarred Question No. 2152)", 
+        links: "  https://pqars.nic.in "
+      },
+       {
+        heading: "Rajya Sabha. (2023, March 23). Promotion of India’s Soft Power (Unstarred Question No. 2616)", 
+        links: "  https://pqars.nic.in"
+      },
+      {
+        heading: " Sarma, A. (2023, November 9). Home and the world: India’s DPI proposition. Raisina Debates", 
+        links: "   https://www.orfonline.org/expert-speak/home-and-the-world-indias-dpi-"
+      },
+      
+    ]
+  },
+  {
+    id: 9,
+    issue: 2,
+    volume: 1,
+    title: "India's Approach to Crisis Diplomacy: Influential Mediator, Strategic Middle Power, or Global Impersonator?",
+    author: "Annesha Gupta",
+    authorAbbrev: "A.Gupta",
+    abstract: [
+      "At the turn of the 21st century, the post-Cold War unipolar period, dominated by the United States, has steadily given way to a multipolar international order, where emerging powers are increasingly influencing global governance. According to a 2024 report, over 61% of countries now perceive the world to be multipolar rather than just U.S.-led, a significant increase from 47% in 2018 (Leonard & Shapiro, 2024), signaling a growing dispersion of power. In this evolving geopolitical landscape, India has positioned itself as a rising global actor backed by its status as the largest democracy, the fifth largest economy, and the country with the largest population in the world. This paper examines India’s approach to crisis diplomacy through three major international conflicts discussed in the form of case studies, namely, the Taliban’s takeover of Afghanistan, the Russia-Ukraine war, and the Israel-Palestine conflict, to critically assess the nature of India’s influence in global affairs. Drawing from the conceptual debates surrounding middle powers and emerging powers, the paper interrogates whether India acts as an influential mediator, a power of strategic balance, or a mere global impersonator. The case studies reveal a pattern of strategic ambivalence guided more by the need to minimise the negative impacts of a crisis on it than normative consistency. While India aspires to shape global outcomes, its diplomatic style frequently reflects an indecisive behavior and skittish positioning, rather than true leadership. The paper concludes by asserting that unless India bridges the credibility gap existing between its domestic self-perception and its actual diplomatic behavior, its aspirations to lead in a multipolar world may remain just a dream rather than become a reality.",
+       ],
+    
+    keyword:[
+      "multipolar international order",
+      "global governance, ",
+      "crisis diplomacy",
+      "international conflicts", 
+      "Taliban takeover of Afghanistan",
+      "Israel-Palestine crisis",
+      "middle powers",
+      "emerging powers", 
+      "credibility gap."
+    ],
+    status: "Submitted",
+    intro: [
+      "At the turn of the 21st century, given the increasing multipolarity of the world marked by frequent political, humanitarian, and security crises, the role of emerging powers in crisis diplomacy has come under growing scrutiny in the international forum. India, with its strategic location, rising economic ascendency, and normative aspirations, often projects itself as a responsible global stakeholder advocating for peace and stability and is therefore considered to be an important actor when it comes to crisis diplomacy. Broadly speaking, crisis diplomacy refers to the diplomatic efforts and strategies employed by countries to manage and resolve international crises. These crises can take many forms, such as armed conflicts, natural disasters, economic crises, and public health emergencies, and the diplomatic efforts may include negotiation, mediation, and peacekeeping operations. Despite the various nuances exhibited by the term, in the context of this paper, crisis diplomacy refers to the style of diplomacy employed by a country to handle situations of inter- and intra-state conflicts in the international arena that have become the focal point of public discourse for the overwhelming impact that they have had on global actors. The paper, through the comparative analysis of several case studies, seeks to offer a clear evaluative lens for understanding India’s foreign policy in the current scenario and tries to answer the question- whether this style of diplomacy is successful in meeting the interests of the country and genuinely influences outcomes in the international forum, or is it but a veiled attempt at hiding the weakening bargaining power of the state. "
+      
+    ],
+    content: [
+      
+      {
+        heading: "India’s Diplomatic Leverage and the Middle Power Question ",
+        paragraphs: [
+        "Despite some contextual ambiguities, it is widely accepted that a middle power is a state that is not a superpower or a great power, but still exerts influence and plays a significant role in international relations. These countries often possess certain capabilities, such as strong economies, advanced technologies, and diplomatic influence, that allow them to have a voice in global affairs. Given that words like “middle,” “great”, and “small” generally signify the presence of a spectrum rather than something discrete, there’s a lot of discourse regarding what makes an international actor a “middle power”. In recent years, India has increasingly outgrown the constraints of being labeled a ‘middle power’. As one of the world’s fastest-growing economies, coupled with its strategic geographic position in South Asia, India is on the trajectory to become an ‘emerging great power’. This transformation distinguishes it from other traditionally classified middle powers such as Brazil, Germany, and South Africa. India’s ambitions are reflected in its comprehensive approach of economic reforms and military modernization, signaling its intent to play a more influential role on the global stage.  Moreover, India’s engagement in international groupings such as the QUAD, BRICS, and G4 plays a crucial part in its global strategy. These alliances serve distinct purposes; the QUAD, for instance, provides India with a platform to counterbalance China’s regional ambitions. ",
+        "Meanwhile, BRICS aligns with India’s goals of reforming global governance structures to reflect contemporary economic realities. Through these alliances, India not only asserts its autonomy but also amplifies its influence in international decision-making. India’s soft power and cultural relevance act as another key leverage- the country has the largest overseas diaspora (32+ million people), contributing to economic and political influence. Therefore, despite the structural limitations faced by the country, most of which are recognized to be a legacy of the extensive history of colonial rule, such as poverty and socio-economic inequality, most global actors are of the opinion that the traditional label of middle power fails to capture India’s growing status. Courtesy of the balanced approach successfully adopted toward the great powers, its neighbors in South Asia, players in the extended neighborhood, and other Global South countries, in the current scenario, India might be closer to what is referred to as an “emerging power” than a “middle power”. Despite aligning with the fundamental characteristic of an emerging power, that is, being an emerging economy, some have argued the efficacy of classifying India as one, on the basis of ambiguity related to the actual influence that it has on the world. While sixty-eight percent of Indian adults believe that India’s influence has risen in the world, only a median of 28% adults across 19 other countries in the world think so (Pew Research Center, 2023). This perception gap highlights a disconnect between India’s self-image and how the world perceives its actual diplomatic impact. Domestic narratives, government communication, and media in India tend to promote a “soft power inflation”, emphasising India’s growing stature through G20 presidency, vaccine diplomacy, et cetera; however, this image so propagated is not fully convincing to external observers.",
+        "Nevertheless, as per majoritarian consensus, India in the 21st century is, in fact, a rising power given the influence that it exhibits on the international forum, irrespective of whether the magnitude of it is inflated or not. Analyzing India's actions in high-stakes international crises is crucial to comprehending how its perceived diplomatic status translates into practical action. Although conceptual discussions tend to focus exclusively on India's goals and resources, they do not by themselves indicate whether India actually exerts influence or merely projects it. We can examine how far India has progressed from performative diplomacy to becoming a significant player on the international scene by analyzing its actions in particular geopolitical hotspots. The following case studies evaluate India's role by analyzing its diplomatic response to various international crises."
+        ]
+      },
+      {
+        heading: "India and the Afghanistan Crisis: Strategic Caution Amid Regime Change",
+        paragraphs: [
+          "The Taliban’s return to power in Afghanistan in August 2021 disrupted two decades of India’s carefully cultivated ties with the elected Afghan republic. Long regarded by India as a proxy of Pakistan’s security establishment and a patron of anti-India terrorist networks, the Taliban presents a unique strategic challenge that involves navigating this engagement without undermining its principles or compromising its security. India’s immediate response to the takeover was characterized by caution, and the government took a pragmatic approach, opting not to immediately engage with the Taliban but keeping diplomatic channels open through multilateral platforms such as the UN and the SCO. India’s approach appeared to be reactive as it shut down its Kabul embassy in August 2021, initiated a rescue operation, and limited its interactions with the Taliban to the delivery of aid. Stationing a “technical team” in Kabul was one of the first public steps that the Indian government took towards engaging with the Taliban. While the U.S. and other Western powers condemned the Taliban’s actions, India was wary of openly criticizing the group in a way that could undermine its regional influence. India’s policy emphasized the need for an inclusive government in Afghanistan that would represent all ethnic and political groups, including the Tajiks, Uzbeks, and Hazaras, while ensuring that the Taliban respected the rights of women and minorities. However, the country gave the Taliban leadership the de facto legitimacy it has sought from the international community since its return to power when its top diplomat Vikram Misri met Taliban acting foreign minister Amir Khan Muttaqi in Dubai - the highest level of engagement since Kabul's fall.",
+          "Afghanistan has always been a critical space for India’s strategic outreach in Central Asia, and the Taliban’s resurgence has complicated these efforts. India’s interests in Afghanistan extend beyond political influence; it also seeks access to Central Asia’s energy resources and trade routes. The re-establishment of a Taliban regime creates a challenge for India’s access to these resources, particularly given the Taliban’s ties with Pakistan and China. The Taliban’s return to power could lead to an increase in cross-border terrorism, particularly from groups like Lashkar-e-Taiba (LeT) and Jaish-e-Mohammed (JeM), which have historically had safe havens in Afghanistan. Thus, India’s cautious approach in engaging the Taliban could be justified given its twin related concerns about security threats emerging from Afghanistan and the Taliban regime’s relationship with Pakistan. What is harder to rationalize is the documented shortcomings of the Indian government in its treatment of Afghan citizens since the Taliban’s takeover. These issues include problems around visa issuance, renewal of visas for Afghan students in India, challenges faced by Afghan citizens currently in India, and the uncertainty faced by Afghan refugees in India. Although some might interpret India’s response to the takeover as the country’s ever-increasing dedication to making peace with the geopolitical realities of the world, there is no doubt that this demonstrates the limits of India’s crisis diplomacy in a volatile neighborhood.",
+
+        ]
+      },
+      {
+        heading: "India and the Russia-Ukraine War: Crisis Diplomacy or Crisis Deflection?",
+        paragraphs: [
+        "India’s response to the Russian invasion of Ukraine has been distinctive among the major democracies and U.S. strategic partners. Despite its discomfort with Russia’s aggression, India has adopted a studied public neutrality toward Russia. It has abstained from successive votes in the UN Security Council, General Assembly, and Human Rights Council that condemned Russian aggression in Ukraine and, thus far, has refused to openly call out Russia as the instigator of the crisis. Its declared positions were intended to convey, more subtly than is justified, its dismay with Russian actions without taking a proper stand. Thus, India urged “respect for the sovereignty and territorial integrity of states,” called “for the immediate cessation of violence and hostilities,” regretted “that the path of diplomacy was given up” and urged the concerned states to “return to it,” and reiterated that “dialogue is the only answer to settling differences and disputes, however daunting that may appear at this moment.” ",
+        " For the United States, India’s neutrality has been disappointing because it signaled a sharp divergence between the U.S. and India on a fundamental issue of global order, namely, the legitimacy of using force to change borders and occupy another nation’s territory through a blatant war of conquest. Whatever their views on the genesis and the precipitants of the Ukraine war, most Indian strategic elites would admit that their country’s diplomatic neutrality ultimately signifies what one Indian scholar has called “a subtle pro-Moscow position.” This seems particularly incongruous today because India stands shoulder-to-shoulder with the United States in opposing Chinese assertiveness in the Indo-Pacific while at the same time appearing tolerant of the vastly more egregious Russian belligerence in Europe.",
+        "India’s tightrope walk on the Ukraine war has been described as “strategic ambivalence.” Expressing the country’s interest in peacebuilding efforts, Narendra Modi has met Ukrainian President Volodymyr Zelenskyy on multiple occasions. As part of its humanitarian response, India sent medical supplies, equipment, and relief materials to Ukraine, while at the same time, it has significantly increased its imports of discounted Russian oil since the conflict began. In this context, the weak efforts made by the country in support of Ukraine, such as pushing to open the Black Sea Grain Corridor, can be deduced to attempts aimed at hiding its informed inability to take a stand with the thin veil of “neutrality”. After all, alienating Russia is not an option for India, given the central role the former plays in the latter’s security concerns against China and Pakistan. Moreover, the country’s military, economy, and energy sector are overwhelmingly dependent on Russia, to the extent that any act of outright antagonism poses the threat of destabilising the country’s internal machinery. Thus, the decision to steer clear of publicly condemning Russia is shaped not by abstract concerns about the integrity of the world order but by strategic geopolitical considerations."
+        ]
+      },
+      {
+        heading: "India’s Calibrated Ambiguity in the Israel–Palestine Conflict",
+        paragraphs: [
+         "The Israel-Palestine conflict, the origins of which go back more than a century, once again found a point of eruption on 7th October, 2023 when the Hamas and several other Palestinian militant groups launched coordinated armed incursions from the Gaza Strip into the Gaza envelope of southern Israel, the first large-scale invasion of Israeli territory since the 1948 Arab-Israeli War. In light of this situation, the Indian government had condemned terrorism in the strongest language and stood with Israel over the attack, while calling on Israel for restraint, dialogue, and diplomacy, condemning the death of civilians, and calling for “humanitarian pauses” in bombardment. At the same time, India has reaffirmed its support for a “two-state solution” including a sovereign, viable state of Palestine existing in peace alongside Israel and supported the “socio-economic welfare” of the Palestinian people. However, as the conflict has progressed, at least 60,332 people, including at least 17,400 children, have been killed as of July 29, 2025, according to the reports of the Gaza Ministry of Health.",
+         "Historically speaking, India’s stance on the Israel-Palestine issue has been nothing short of inconsistent. In 1977, India was among the first non-Arab nations to recognize the Palestine Liberation Organization (PLO), and has since consistently supported a two-state solution. However, its diplomatic stance on the current war in Gaza has not aligned with this position, and domestically, authorities have shown little tolerance for pro-Palestine activism.",
+         "Indian diplomacy has taken to knowingly maintain a layer of ambiguity regarding its actual stand, propagated by its policy of “abstention”, which has been the default vote of India on every UN resolution decrying the horrors of the ongoing crisis taking place in Gaza. The Permanent Representative (PR) to the UN has expressed the country’s “unwavering support” to the “Palestinian cause” in the UN Security Council, yet it refuses to hold anyone responsible. This has once again exposed the tension between India’s moral commitments and strategic alignments, given that India buys about $2 billion worth of arms from Israel every year, making up over 30 percent of Israel’s total exports of armaments. Moreover, the Indian public opinion views the current conflict through the lens of counterterrorism, and it views the Israeli assault on Gaza as a counterterrorism operation- and counterterrorism operations don’t pause for humanitarian truces. The main question, however, remains whether India can maintain credibility as a responsible global actor while remaining diplomatically ambiguous in humanitarian crises."
+        ]
+      },
+      
+      
+    ],
+    conclusion: [
+     "In the evolving global order marked by heightened crises, India stands at a crossroads. As multipolarity becomes entrenched and expectations rise for middle and emerging powers to play constructive roles, India's crisis diplomacy will come under increasing international scrutiny. If India aspires to be seen as more than a swing state or a selective responder, it must articulate clearer foreign policy doctrines on humanitarian and geopolitical emergencies backed by timely and decisive action. While the country continues to assert itself as a responsible actor committed to peace, its conduct across key geopolitical arenas such as Afghanistan, Ukraine, and Gaza demonstrates a recurring pattern of strategic caution, ambiguous action, and situational inability to act on key matters. The domestic majoritarian public opinion regarding the country’s style of diplomacy in recent years seems to be uninformed at best and hypocritical at worst. The same crowd that views the country’s thawing relationship with the Taliban through the lens of realism is the same crowd that would defend India’s silent pro-Russian position in the Ukraine-Russia war based on some misguided notion of “historic ties” and “loyalty”. However, what they fail to recognize is that India’s stand of “strategic ambivalence” is not something that is hand-crafted; rather, it is something that the country has no choice but to follow, given the magnitude of its dependence on countries like Russia and Israel. While the freedom from the compulsion to align is something that the country has fought for since its Non-Alignment days, it is doubtful whether any self-righteous entity has the moral right to not take a stance in the face of human rights violations, breaches of sovereignty, or humanitarian catastrophes.",
+     "India's approach to crisis diplomacy is typical of a state negotiating its transitional status: it is no longer classified as a traditional middle power but is also not yet politically or materially prepared to act as an independent global influencer, at least when it comes to issues that do not directly involve it. Whether India can overcome its present constraints and adopt a more assertive and cohesive diplomatic persona will rely on its readiness to go beyond hedging, cultivate issue-based leadership, and exhibit coherence between its principles and its conduct."
+    ],
+    references: [
+      {
+        heading: "Leonard, M., & Shapiro, J. (2024). The Age of Unpeace: Global perceptions of power and order. European Council on Foreign Relations. Retrieved August 1, 2025, from ", 
+        links:"https://ecfr.eu/publication/the-age-of-unpeace-global-perceptions-of-power-and-order"
+      },
+      {
+        heading: "DiploFoundation. (n.d.). Crisis diplomacy. Retrieved August 2, 2025, from .", 
+        links: "https://www.diplomacy.edu/topics/crisis-diplomacy/"
+      },
+      {
+        heading: "Jordaan, E. (2003). The concept of a middle power in international relations: Distinguishing between emerging and traditional middle powers. Politikon: South African Journal of Political Studies, 30(1), 165–181  ", 
+        links: " https://ink.library.smu.edu.sg/soss_research/394/"
+      },
+      {
+        heading: "Author Unknown. (2025, May). India: Beyond the middle power paradigm. Center for Policy & Stability. Retrieved August 2, 2025, from  ", 
+        links: "https://policystability.com/post/2025-05/india-beyond-middle-power/"
+      },
+      {
+        heading: "Kumar, P. J. (2024). India’s views on multilateral reform. International Journal of Foreign Trade and International Business, 6(2), 43–48. ", 
+        links: "https://www.foreigntradejournal.com/article/view/115/6-2-8"
+      },
+      {
+        heading: "The World Geostrategic Insights. (n.d.). The key role of tourism and soft power in India's diplomacy. Retrieved August 2, 2025, from  ", 
+        links: "https://www.wgi.world/the-key-role-of-tourism-and-soft-power-in-india-s-diplomacy/"
+      },
+      {
+        heading: "Bhatia, R. (2025, April 17). The emerging exception: India sees itself as transcending middle power. The Diplomat. Retrieved August 2, 2025, from ", 
+        links: " https://thediplomat.com/2025/04/the-emerging-exception-india-sees-itself-as-transcending-middle-power/"
+      },
+       {
+        heading: " Bhatia, R. (2020). India’s RCEP exit: What next? Gateway House: Indian Council on Global Relations ",
+        links:"https://www.gatewayhouse.in/indias-rcep-exit-what-next/",
+       },
+       {
+        heading: "Hindustan Times. (2023, August 30). India’s global influence and Modi’s popularity: Pew Research Center study shows contrasting views at home and abroad. Retrieved August 2, 2025, .", 
+        links: " https://www.hindustantimes.com/india-news/indias-global-influence-and-modi-s-popularity-pew-research-center-study-shows-contrasting-views-at-home-and-abroad-101693327450687.html"
+      },
+       {
+        heading: "Behera, A. D. (2025, April 3). India’s strategic gamble with the Taliban. The Indian Express. Retrieved August 2, 2025, from ", 
+        links: "https://indianexpress.com/article/opinion/columns/indias-strategic-gamble-with-taliban-9922018/"
+      },
+       {
+        heading: "Scientia Tutorials. (2025). India’s strategic response to the Taliban takeover of Afghanistan: Challenges and diplomatic manoeuvres. Retrieved August 2, 2025, from ", 
+        links: "https://scientiatutorials.in/indias-strategic-response-to-the-taliban-takeover-of-afghanistan-challenges-and-diplomatic-maneuvers/"
+      },
+       {
+        heading: "Norman, U. (2025, March 28). India’s approach to Taliban 2.0: Cautious and persistent. South Asian Voices. Retrieved August 2, 2025, from ", 
+        links: "  https://southasianvoices.org/two-years-after-taliban-takeover-what-is-indias-afghanistan-policy/"
+      },
+       {
+        heading: "Tellis, A. J. (2022, April 25). “What is in our interest”: India and the Ukraine war. Carnegie Endowment for International Peace. Retrieved August 2, 2025, from ", 
+        links:"https://carnegieendowment.org/research/2022/04/what-is-in-our-interest-india-and-the-ukraine-war?lang=en"
+      },
+      {
+        heading: " Panda, J. (2025, January 14). Can India advance peace in Ukraine? United States Institute of Peace. Retrieved August 2, 2025, from ", 
+        links: "https://www.usip.org/publications/2025/01/can-india-advance-peace-ukraine"
+      },
+       {
+        heading: "Ministry of External Affairs. (2024, December 13). Question No. 3200: India’s stance on Palestine issue. Lok Sabha Q&A Archive", 
+        links: " https://www.mea.gov.in/lok-sabha.htm?dtl/38773/QUESTION+NO+3200+INDIAS+STANCE+ON+PALESTINE+ISSUE"
+      },
+       {
+        heading: " Indian Express. (2025, July 30). India reiterates support at UN for two‑state solution to Israel‑Palestinian conflict. Retrieved August 2, 2025, from  ", 
+        links: "https://indianexpress.com/article/india/india-support-un-two-state-solution-israel-palestinian-conflict-10158673/"
+      },
+       {
+        heading: " The Hindu. (2025, May 21). Where does India stand on the Israel‑Hamas war? Explained. Retrieved August 2, 2025, from  ", 
+        links: "https://www.thehindu.com/news/international/where-does-india-stand-on-the-israel-hamas-war-explained/article67574331.ece"
+      },
+      {
+        heading: " Al Jazeera. (2025, March 18). Israel‑Gaza war death toll: Live tracker. Al Jazeera News. Retrieved August 2, 2025, from  ", 
+        links: "https://www.aljazeera.com/news/2025/3/18/gaza‑tracker"
+      },
+      {
+        heading: " Anadolu Agency. (2024, October 4). 1 year of Gaza genocide: Israeli war tests India’s Palestine policy. Anadolu Agency – English. Retrieved August 2, 2025, from   ", 
+        links: "https://www.aa.com.tr/en/1-year-of-gaza-genocide/1-year-of-gaza-genocide-israeli-war-tests-india-s-palestine-policy/"
+      },
+      {
+        heading: " The Hindu. (2025, May 30). Israel–Gaza genocide: How India’s Palestine policy has failed. Frontline (The Hindu). Retrieved August 2, 2025, from  ", 
+        links: "https://frontline.thehindu.com/columns/israel-gaza-genocide-palestine-india-foreign-policy-failure/article69868487.ece"
+      },
+      
+    ]
+  },
+   
+  {
+    id: 10,
+    issue: 2,
+    volume: 1,
+    title: "Economics: The New Weapon in Global Politics",
+    author: "Jwaala Narasimhan",
+    authorAbbrev: "J.Narasimhan",
+    abstract: [
+      "Geoeconomics has always been inextricably linked to the battle for world power, by the very definition of leveraging economic tools strategically for geopolitical purposes. As the international order realigned and ended military confrontation in the traditional sense, states have increasingly deployed tools such as trade policy, foreign investment, sanctions and control over supply chains to shape and safeguard their national interests. China consequently became a key actor in this dynamic, transforming U.S. strategy and accelerating globalization’s balkanization. Diplomacy, regional positioning, national security strategies — all these are impacted by geoeconomics. This paper tackles the ascendance of geoeconomic statecraft, its working today, and weaponized interdependence and its consequences. It examines how great powers adapt to this shifting landscape while constructively confronting the danger of economic coercion overreach, the consequences of strategic decoupling, and the normative imperative for state relations in tomorrow’s multipolar world.",
+       ],
+    
+    keyword:[
+      "geoeconomics",
+      "global politics",
+      "economic tools",
+      "trade policy",
+      "foreign investment",
+      "sanctions",
+      "supply chains",
+      "China",
+      "U.S. strategy",
+      "globalization’s balkanization",
+      "diplomacy",
+      "national security strategies"
+    ],
+    status: "Submitted",
+    intro: [
+      " The current order of the world in the 21st century is not characterized by conventional military confrontations; rather, it is dominated of economic rivalry and strategic maneuvers through markets, or geoeconomics. Unlike geopolitics which is focused on the physical territory and military force, geoeconomics is concerned with the use of economic might in trade, investment, finance and technology in order to influence the conduct of states and other entities. This trend marks a crucial shift in the nature of power in a globalized context where the capacity to influence economic frameworks and supply networks leads to determining the geopolitical outcomes. The rapid rise of China, particularly with the BRI, has transformed American economic statecraft; it has accelerated the undermining of US economic hegemony and accelerated the fragmentation of global markets. In turn, the US has adopted a more sophisticated approach to maintaining its strategic edge—export controls on critical technology and sanctions. This is one American example where diplomacy, alliance-building, and national security have been shaped by geoeconomics.  The increasing interconnectedness of the global economy, once considered a force that calms tensions, now stands out as a potential weakness as it enables the world’s strongest powers to view inter-state economic entanglement as a means to exert influence.This paper focuses on the rise of geoeconomics in the global geopolitical contest and the instruments deployed.  ",
+      
+    ],
+    content: [
+      
+      {
+        heading: "The evolution of Geoeconomics:",
+        paragraphs: [
+        "In the 1990s, the term geoeconomics was coined by Edward Luttwak, who foresees a changing paradigm: from military confrontation to economic competition as the platform for state rivalry. Initially a conceptual plane, geoeconomics became an applied plane with the growth of globalization and states' realization of economic leverage. Post-Cold War liberalism promoted open markets and global economic integration as forces of peace and prosperity. China poses a challenge to this paradigm and so do the resurgence of Russia and volatile U.S. policies. Never before have economic levers been so weaponized, warranted perhaps, from sanctions, tariffs, screening of investment to infrastructure diplomacy.  A recent U.S.-China rivalry presents the BRI from a better view in concrete geoeconomic competition. BRI, inaugurated in 2013, shows very heavy investment in connectivity and infrastructure all over Asia, Africa, and Europe that create economic dependency, which translates into political power. In response, the U.S. has stepped up export controls.",
+
+        ]
+      },
+      {
+        heading: "Important Tools in Geoeconomic Strategy",
+        paragraphs: [
+          "•	Trade Tactics",
+          "Even in today's world, trade is one of the core tools. Countries employ tactics such as tariffs, quotas, or total bans to either pressurize another country or promote their own businesses. The U.S.-China trade confrontation highlighted the possibility of wielding tariffs as a tool of national protectionism on the one hand and a tool to shape the geopolitical outlook of competitor nations on the other.",
+          "•	Sanctions and Money Control",
+          "Less attention is usually paid to sanctions (omit)as far as geoeconomics is concerned. They isolate the given country from an array of things like payment global systems, freezing of assets, and various economic activities. Since the U.S. dollar is the main world reserve currency, U.S. sanctions are more effective than those of other countries. Some organizations, such as SWIFT, direct the money flows, and this determines who follows the protocols and rules and who does not.",
+          "•	Checking Foreign Investments and Building Relationships",
+          "Many countries nurture a rivalry with other nations to the extent that they try to keep essential resources only in their own hands. While all this goes on, projects meant to construct structures for transport, such as port facilities and railroads, are carried out, often financed by states, to increase influence in real life. Such as China investing in ports along the vital shipping lines.",
+          "•	Technology Control",
+          "There is no doubt that the main area of stretch in geoeconomics is the control of key technologies such as semiconductors, 5G, and AI. This is where things like export rules and protocols for setting up certain standards take place, and these are the tools used to stay ahead in technology and close doors on competitor nations",
+
+        ]
+      },
+      {
+        heading: "How Big Countries Are Changing and New Plans",
+        paragraphs: [
+        "United States",
+        "The U.S. to date has relied on its power in finance and its alliances for its economic superiority. The recent laws are intended to stimulate and boost local semiconductor production on the one hand, and the withdrawal of dependence on other sovereign countries through policies, on the other hand. The U.S., in concert with other allies, is also fighting back against China.",
+         "China",
+        " It is the Chinese strategy to amalgamate economic maneuvers into its diplomatic relations. The various projects are generally being constructed with the hope of establishing friendships and creating more power over the world. China will also direct the capital into technology and wants its yuan to become quickly used on a global scale to get stronger than the dollar.",
+         "European Union and Other Countries",
+         "The EU, on the other hand, tries to reconcile the interests of business and the struggle of keeping the industries protected. Countries such as Japan, India, and Australia are adjusting their trade and investment policies in order to counterbalance the geoeconomic competition.",
+         "Problems and What’s Next for Geoeconomics",
+         "Feeding on economic interdependence to achieve political goals is questionable, especially in terms of the system's stability. That scenario will severely impact organizations like the World Trade Organization and present challenges for managing global issues effectively.",
+         "The strong requirement for putting in place regulation to control economic pressure, to internationalize lending standards and to pursue fair trade relations is dominating the debate. In the absence of cooperation, overall geoeconomic conflict may be transformed into an economic war with pathetic ramifications worldwide.",
+        ]
+      },
+      {
+        heading: "Problems & What Lies Ahead in Geoeconomics",
+        paragraphs: [
+         "However, economically, being linked should have been a platform for nations to cooperate in such a way that this could be used as a tool to fight terrorism. A perfect example is if one country controls major things like monetary centers, data harbors, or vital supply chains register, it can come in very good stalling for other countries who would be forced to pay a price or pushovers. This creates problems. For example, the imposition of sanctions on Iran and Russia, whose economies are mostly based on the use of the dollar system, appears to be very detrimental to them. Moreover, the issues with the computer chip supply line demonstrate how depending on technology can be a sort of insecurity towards national defense. This geoeconomic rivalry is also prompting nations to minimize their interconnections with other countries. They want to shift the manufacturing facilities back into their home country or find suppliers who are based elsewhere. The improvement increases competitiveness; however, it usually results in a reduction of the global market, an increase in costs, and a possibility for the breakup of the international economic system.",
+         "When nations use their cash ties to push others around, it shakes folks up about world peace. If the system breaks apart, groups like the World Trade Org might get hurt, & handling world issues would turn rough. We need rules to block nations from bullying each other with cash power. Also, loans must be fair and open, and cash ties need balance—else, we might see harsh fights that no one wins. It's like, if we don't learn to team up, this fight might make a mess that pulls all down.",
+
+        ]
+      },
+      
+      
+    ],
+    conclusion: [
+    "Geoeconomics has changed how power shows on the world stage—from old wars with guns to sly fights with cash moves. Nations now use trade deals, bans, cash plans, and tech rules to gain what they want, which makes world ties much trickier & tense. Take the US & China, for example—their tug-of-war shows how much cash strength can shift talks, friends, & safety issues. But here’s the deal: pushing too hard with cash might make gaps, less equality, & even chaos. So, if the world aims to stay calm, we need a mix of fight & work-together—and clear rules for using cash power well. Really, the whole future of our world system hangs on finding this good spot."
+    ],
+    references: [
+      {
+        heading: "The foundational concept of geoeconomics as a shift from geopolitics to economic competition was extensively discussed by Edward Luttwak in his 1990 article, “From Geopolitics to Geo-Economics: Logic of Conflict, Grammar of Commerce,” published in The National Interest ", 
+        links:"https://nationalinterest.org/feature/geoeconomics-logic-conflict-grammar-commerce-27692"
+      },
+      {
+        heading: "The UC Institute on Global Conflict and Cooperation provides an insightful overview of geoeconomics and economic statecraft, exploring how states use economic tools for strategic ends ", 
+        links: "https://ucigcc.org/research/geoeconomics-and-economic-statecraft"
+      },
+      {
+        heading: "For a data-driven perspective on global capital flows and geoeconomics, the National Bureau of Economic Research (NBER) published a detailed paper titled “Global Capital Allocation and Geoeconomics” ", 
+        links: " https://globalcapitalallocation.s3.us-east-2.amazonaws.com/NBER_MacroAnnual_Geoeconomics.pdf"
+      },
+      {
+        heading: "European Council on Foreign Relations (ECFR) on Open Strategic Autonomy:The ECFR has discussed the concept of Open Strategic Autonomy, emphasizing the need for the European Union to act independently when necessary while cooperating multilaterally when possible. This approach aims to enhance Europe's capacity to shape its environment without over-reliance on external powers. For a comprehensive understanding, you can refer to their publication: ", 
+        links: "https://ecfr.eu/publication/strategic-interdependence-europes-new-approach-in-a-world-of-middle-powers/"
+      },
+      {
+        heading: "Council on Foreign Relations (CFR) on Economic Sanctions:The CFR provides an in-depth overview of economic sanctions, defining them as the withdrawal of customary trade and financial relations for foreign- and security-policy purposes. Sanctions can be comprehensive or targeted, aiming to influence the behavior of governments, organizations, or individuals. For more detailed information, visit their backgrounder:", 
+        links:" https://www.cfr.org/backgrounder/what-are-economic-sanctions"
+      },
+      
+      
+    ]
+  },
+
 ];
 
 
