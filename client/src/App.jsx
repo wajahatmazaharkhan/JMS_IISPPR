@@ -64,6 +64,12 @@ import Economics from "./pages/editions/Economics";
 import MahatmaGandhiRural from "./pages/editions/MahatmaGandhiRural";
 import IndiaApproachCrisis from "./pages/editions/IndiaApproachCrisis";
 import FromPassivePlayer from "./pages/editions/FromPassivePlayer";
+import IndiaPolicyPromote from "./pages/editions/IndiaPolicyPromote";
+import ImpactAnalysis from "./pages/editions/ImpactAnalysis";
+import FromTraditional from "./pages/editions/FromTraditional";
+import SmokeSludge from "./pages/editions/SmokeSludge";
+import WhoDeserveToBe from "./pages/editions/WhoDeserveToBe";
+
 
 function AppRoutes() {
   const location = useLocation();
@@ -244,6 +250,29 @@ function AppRoutes() {
           path="/From-Passive-Player-To-Active-Participant"
           element={<FromPassivePlayer />}
           />
+
+          <Route
+          path="/From-Traditional"
+          element={<FromTraditional />}
+          />
+          <Route
+          path="/Impact-Analysis"
+          element={<ImpactAnalysis />}
+          />
+          <Route
+          path="/India-Policy-Promote"
+          element={<IndiaPolicyPromote />}
+          />
+          <Route
+          path="/Smoke-Sludge"
+          element={<SmokeSludge />}
+          />
+          <Route
+          path="/Who-Deserve-To-Be"
+          element={<WhoDeserveToBe/>}
+          />
+
+
           
         <Route path="*" element={<LandingPage />} />
       </Routes>
