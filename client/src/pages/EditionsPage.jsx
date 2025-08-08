@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { Download } from "lucide-react";
 import { generateArticlePDF, downloadPDF } from "../utils/pdfExport";
-import { useLocation } from "react-router-dom";
+import { useLocation,useNavigate, } from "react-router-dom";
 import articleData from "../data/articles";
 import ResearchCard from "../components/ResearchCard";
 import articles from "../data/articles";
 import ResearchEnhancements from "../components/ResearchEnhancements";
 import { motion } from "framer-motion";
 import FilterDropdown from "../components/FilterDropdown";
+import Issues from "./issues/Issues";
 
 const EditionsPage = () => {
   const [downloading, setDownloading] = useState({});
@@ -95,18 +96,21 @@ const EditionsPage = () => {
 
   const filteredArticles = articleData.filter((article) => {
     if (selectedIssue === "All") return true;
-    if (selectedVolume === "All") return String(article.issue) === String(selectedIssue);
+    if (selectedVolume === "All")
+      return String(article.issue) === String(selectedIssue);
     return (
       String(article.issue) === String(selectedIssue) &&
       String(article.volume) === String(selectedVolume)
     );
   });
 
+  const navigate = useNavigate();
   return (
     <div
       className="relative min-h-screen text-white grid gap-4"
       style={{
-        background: "linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)",
+        background:
+          "linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)",
       }}
     >
       {/* Hero Banner */}
@@ -139,7 +143,7 @@ const EditionsPage = () => {
               className="text-2xl font-serif font-semibold"
               style={{ color: "#ffffff" }}
             >
-              Journal Issues (2025)
+              Journal Issues
             </h2>
 
             <div className="flex flex-col sm:flex-row gap-4 items-center">
@@ -167,7 +171,17 @@ const EditionsPage = () => {
           </div>
 
           {/* Issues Container */}
-          <motion.div whileHover={{ scale: 1.005 }} className="grid gap-8">
+           <Issues
+        onIssueClick={(issueTitle) => {
+          const issueNumber = issueTitle.match(/Issue:\s*(\d+)/)?.[1];
+          if (issueNumber) {
+            navigate(`/editions/${issueNumber}`);
+          }
+        }}
+      />
+          
+          
+          {/* <motion.div whileHover={{ scale: 1.005 }} className="grid gap-8">
             <div className="grid gap-6">
               {filteredArticles.map((article, idx) => (
                 <motion.div
@@ -185,10 +199,38 @@ const EditionsPage = () => {
                       color: "#693155ff",
                     }}
                   />
+
+                    
+
                 </motion.div>
               ))}
             </div>
-          </motion.div>
+          </motion.div> */}
+
+          {/* <motion.div whileHover={{ scale: 1.005 }} className="grid gap-8">
+            <div className="grid gap-6">
+              {filteredArticles.map((article, idx) => (
+                <motion.div
+                  key={article.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 * idx }}
+                >
+                  <ResearchCard
+                    articles={article}
+                    onDelete={isAdmin ? handleDelete : null}
+                    style={{
+                      backgroundColor: "white",
+                      borderColor: "#d6a7c0",
+                      color: "#693155ff",
+                    }}
+                  />
+
+                </motion.div>
+              ))}
+            </div>
+          </motion.div> */}
+
         </motion.div>
       </div>
     </div>
