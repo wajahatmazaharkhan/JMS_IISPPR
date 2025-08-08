@@ -21,6 +21,7 @@ const Issues = ({ onIssueClick }) => {
             <p className="text-gray-700">{issue.description}</p>
           </div>
         ))}
+        
       </div>
     </div>
   );
