@@ -70,6 +70,10 @@ import FromTraditional from "./pages/editions/FromTraditional";
 import SmokeSludge from "./pages/editions/SmokeSludge";
 import WhoDeserveToBe from "./pages/editions/WhoDeserveToBe";
 import FilteredIssuePage from "./pages/issues/FilteredIssuePage";
+import BridgingTheDivide from "./pages/editions/BridgingTheDivide";
+import LocalizingClimateAction from "./pages/editions/LocalizingClimateAction";
+import ImpactOfTrump from "./pages/editions/ImpactOfTrump";
+import FromPaperToPractice from "./pages/editions/FromPaperToPractice";
 
 
 function AppRoutes() {
@@ -273,6 +277,26 @@ function AppRoutes() {
           path="/Who-Deserve-To-Be"
           element={<WhoDeserveToBe/>}
           />
+          <Route
+          path="/Bridging-The-Divide"
+          element={<BridgingTheDivide/>}
+          />
+          <Route
+          path="/From-Paper-To-Practice"
+          element={<FromPaperToPractice/>}
+          />
+          <Route
+          path="/Impact-Of-Trump-Era-US-Migration-Policy"
+          element={<ImpactOfTrump/>}
+          />
+          <Route
+          path="/Localizing-Climate-Action"
+          element={<LocalizingClimateAction/>}
+          />
+
+
+
+
 
 
           
