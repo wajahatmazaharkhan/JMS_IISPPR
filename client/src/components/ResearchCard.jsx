@@ -44,6 +44,10 @@ const articleRoutes3 = {
   3:"/Smoke-Sludge",
   4:"/Who-Deserve-To-Be",
   5:"/From-Traditional",
+  6: "/From-Paper-To-Practice",
+  7: "/Bridging-The-Divide",
+  8: "/Localizing-Climate-Action",
+  9: "/Impact-Of-Trump-Era-US-Migration-Policy",
  
   // Add more articles here for Issue 3...
 };

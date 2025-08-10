@@ -7902,6 +7902,980 @@ const articles = [
             
         },
     ]
+},
+
+{
+  id: 6,
+  issue: 3,
+  volume: 1,
+  title: "From Paper to Practice: A Study on Health-System Bias and Exclusions in Assessing SRHR in India",
+  author: "Aashi Sahu, Anshim, Ritika Jindal, Swastika Kar",
+  authorAbbrev: "A.Sahu, Anshim, R.Jindal, S.Kar",
+  abstract: [
+   "This paper attempts to investigate the gap between reproductive health policies in India and their grassroots implementation. Special focus is given to marginalized women, mainly those from Dalit and tribal backgrounds. Although there are various legal frameworks such as the Janani Suraksha Yojana (JSY) and the Medical Termination of Pregnancy (MTP) Act amendments, deep rooted impediments continue to restrict women's access to sexual and reproductive health rights (SRHR). Most mainstream literature focuses on service outreach metrics but fails to look into the intersectional realities of caste, class, age, and geography in health-system interactions.",
+    "Methodologically, this paper builds on the qualitative approach with content analysis of policy documents, review of secondary data, and semi-structured interviews with women. Alongside, this paper explores the lacuna in SRHR. Primary focus is given to institutional bias, provider’s attitudes, and lack of infrastructure that result in denial or delay of services. Emphasizing lived experiences and examining the state's accountability in ensuring bodily autonomy, the research aims to offer a nuanced critique of India’s reproductive health landscape. The paper concludes with policy recommendations targeting both structural reforms and sensitization frameworks to make reproductive rights meaningfully accessible to marginalized women."
+  ],
+  keyword: [
+    "SRHR",
+    "Reproductive Health Policy",
+    "Marginalized Women",
+    "Caste and Gender",
+    "Intersectional realities",
+    "Policy Recommedations",
+    
+  ],
+  status: "Submitted",
+  intro: [
+   "The foundation of bodily autonomy and gender equality is formed by sexual and reproductive health rights (SRHR). Central to human rights lies SRHR, which not only encompasses access to healthcare services but also the right to make informed choices about one's body (United Nations Population Fund [UNFPA], 2022).In India, the government’s unwavering commitments  towards women’s reproductive health can be witnessed through several legal and policy initiatives. The schemes include, Janani Suraksha Yojana (JSY), the Medical Termination of Pregnancy (MTP) Act along with its 2021 amendments, and other maternal healthcare schemes (Ministry of Health and Family Welfare [MoHFW], 2021). In spite of these initiatives, there exists stark disparities in  the implementation of these rights, especially for women from marginalized backgrounds, including adolescents, Dalits, and tribal communities.",
+   "Recent policy evaluations suggest that while India has improved certain reproductive health indicators such as reduced maternal mortality and increased institutional deliveries, qualitative aspects of care remain deeply compromised (Chatterjee, 2020). This discrepancy is particularly evident in the gap between high-level policy commitments and the lived experiences of women at the grassroots level. Studies increasingly reveal that social determinants such as caste, class, age, and geography play a crucial role in determining access to reproductive healthcare (Deshpande, 2022). Women from Dalit and tribal backgrounds often face layered marginalization in the form of institutional discrimination, infrastructural deficits, provider apathy, and limited awareness about their reproductive rights (Raj et al., 2023).",
+   "Moreover, healthcare providers' attitudes and systemic biases frequently result in the denial or delay of services like safe abortion, contraception, and maternal care (Kumar & Rai, 2021). In many instances, services provided under schemes like JSY tend to reduce women to mere statistical targets, sidelining their autonomy and preferences. The focus on numerical achievements in public health metrics has diverted attention away from more complex, intersectional issues of dignity, agency, and consent in reproductive healthcare delivery (Chatterjee, 2020). Consequently, the promise of universal reproductive rights remains an illusion for large sections of marginalized women in India.",
+  ],
+  content: [
+    {
+      heading: "Problem Statement & Research Objectives ",
+      paragraphs: [
+        "This paper addresses these critical gaps by adopting a qualitative inquiry into how reproductive health policies are implemented in practice. Using content analysis of policy documents, a review of secondary literature, and semi-structured interviews with affected women and healthcare providers; it investigates how systemic biases, infrastructural shortcomings, and socio-cultural barriers collectively obstruct marginalized women from accessing dignified reproductive care. In doing so, the study confronts a central paradox: despite the presence of progressive reproductive health policies in India, marginalized women, particularly adolescents, Dalits, and tribal women continue to experience systemic exclusions that undermine their reproductive autonomy. By highlighting the disconnect between policy narratives and lived experiences, the paper aims to bridge this gap in scholarly discourse and policy evaluation, contributing towards a more grounded understanding of reproductive rights that goes beyond numerical outreach to address structural and attitudinal inequalities within India’s healthcare system."
+      ]
+    },
+    {
+      heading: "Thematic Literature Review ",
+      paragraphs: [
+      "It makes more sense from a theoretical standpoint to conduct a thorough investigation of SRHR-related impediments. Intersectionality theory, as pioneered by Kimberlé Crenshaw (1989), explains how multiple social identities (such as caste, gender, class, and religion) overlap to create complex yet unique experiences of discrimination and privilege. In the Indian context, this perspective is crucial for understanding why policies focused solely on gender or caste fail to address the compounded disadvantages faced by Dalit, tribal, and rural women. Laws and health programs frequently overlook these intertwined barriers while resulting in policies that do not effectively reach those who experience multiple forms of exclusion. An intersectional lens thus pushes for policy frameworks and interventions that are attuned to the specific circumstances of people at the margins and demands for a systematic recognition of how layered oppression functions within existing legal, institutional, and cultural settings. ",
+      "Bodily contestation theory addresses the power struggles around who has the authority to make decisions regarding bodies while focusing on how autonomy, rights, and agency are regulated by social norms, legal systems, and institutional practices. In the context of reproductive and sexual health, this literature emphasizes on the ongoing battles between individual autonomy and societal/institutional constraints (such as legal requirements, medical gatekeeping, and moral policing). Contemporary analyses show that, despite improvements like the MTP Act and related legal reforms, genuine bodily autonomy for Indian women remains hindered by patriarchal structures, stigma, and the discretionary power of providers. Ultimately, this theory calls attention to the need for legal and policy reforms that secure real agency and dignity to ensure that individuals (especially women and marginalized groups) are empowered to make informed decisions about their own bodies free from coercion or undue interference.",
+      "The literature study deconstructs the intricacy of SRHR by focusing on four main and connected issues.",
+      "A.	Legal and Institutional policy and framework - There are still many gaps in its implementation that keep the people from fully benefiting from the initiatives, despite India's significant contributions to legal and policy frameworks, including the incorporation of the Right of Health under Article 21 and multiple rulings that made SRHR a crucial topic to concentrate on. Kapoor (2024) criticizes the MTP (Regulation) Act as being burdensome and doctor-centric, often requiring the consent of the spouse or family even if it is legal. The Government of India's Surrogacy Bill is criticized by Jakhar (2025) for upholding strict traditional norms by prohibiting unmarried and LGBTQ+ individuals from becoming parents. Women in India are still viewed as a means of population control, particularly in rural areas where sterilization camps are prevalent, according to the CREA Shadow Report (2018). It also mentions the ongoing issue of responsibility in society, which hinders community involvement and the opportunity to discuss their rights and the violence they encounter.",
+      "B.	Multiple layers of Marginalization - Including the underprivileged in the benefits will help India reach SDG 5 because not everyone in India has access to reproductive rights, particularly the LGBTQ+ community, Adivasi or tribal people, religious minorities, adolescents, and those who are poor.In her research, Narang (2024) highlighted that pervasive identity differentiation (caste, creed, religion, etc.) will eventually make it more challenging for the general public to benefit from government initiatives. Tribal women may face discrimination and judgment even when they receive care, or they may have trouble traveling to hospitals. LGBTQ+ people, adolescents, and single people are also denied access to abortion services because of their nonconformity with the ideal family model. The CHJS (2015) states that research hardly ever discusses caste-related data or gender-sensitive topics, including their difficulties. It is therefore difficult for the government, service providers, and legislators to find answers and fill in the gaps.",
+      "C.	Patriarchal control and Gender norms - There is still social stigma associated with discussing abortion, menstruation, and other sexual health issues in public. Women continue to be reluctant to discuss these difficulties in their families due to a number of societal constraints, which prevents them from participating in government-sponsored programs. Narang (2024) asserts that the patriarchal and social conventions around women date back to ancient times, when women were viewed as mothers, caregivers, and the moral pillars of the household. In some ways, these standards are still reflected in current policies, which prioritize motherhood and population control over bodily autonomy and choice. According to Khanna et al. (2022), women in urban areas frequently experience early marriages and rigid gender roles, which in some ways prevents them from evaluating SRHR. Despite the fact that abortion, menstruation, and other health services are safe and legal, women are reluctant to use them due to family pressure and fear of being judged. A Bollywood movie called Jayesh Bhai Jordaar also explores the same theme of social conventions and patriarchal control. In order to have a son, his wife has to undergo several abortions, and there are numerous other restrictions placed on women, such as the prohibition against using scented soaps to prevent male arousal.This demonstrates that patriarchal control is not just common in rural areas but also in impoverished urban areas.",
+      "D.	Unawareness of SRHR - Lack of knowledge on SRHR remains a hurdle in spite of numerous legal attempts. Sharma (2025) asserts that in spite of numerous government-introduced policies, such as Beti Padhao and Beti Bachao, as well as numerous laws, a lack of public communication and other social norms causes a problem as it prevents women from accessing the services designed to help them. Grown et al. (2005) state that women can be made aware of SRHR through community involvement, education, counseling, and infrastructure improvements. When these elements are absent, women's sexual and reproductive health suffers. "
+      ]
+    },
+    {
+      heading: "Methodological Overview",
+      paragraphs: [
+        "Review Question",
+        "What is the influence of health-system biases and gender norms on women's access to sexual and reproductive health rights (SRHR) in India?",
+        "Review Objective ",
+        "To investigate how reproductive health policies intersect with social hierarchies like caste, age, and geography, and how these intersections contribute to the denial of bodily autonomy and access to sexual and reproductive health rights (SRHR).",
+        "Review Design ",
+        "This study employs a systematic review design with qualitative, quantitative and intersectional research approach  to examine the gap between reproductive health policies and their ground-level implementation in India, specifically for marginalized women such as Dalits, Adivasis, and adolescents. The research focuses on how social hierarchies, institutional mechanisms, and policy frameworks interact to impact access to sexual and reproductive health rights (SRHR).",
+        "The study is based on both primary and secondary data. Primary data will be collected through  semi-structured interviews administered via digital platforms (Google Forms). These will be shared with women from represented and underrepresented communities. The use of both open-ended and close-ended questions is intended to obtain both personalized narratives and specific factual information regarding individuals’ access to and experiences with reproductive healthcare services. Although conducted remotely, this method allows for the collection of qualitative and quantitative data in a manner that is adaptable and sensitive to diverse contextual realities. The study will also conduct a document review of key policies and legal frameworks such as the Janani Suraksha Yojana (JSY), the Medical Termination of Pregnancy (MTP) Act, and other related schemes. Using content analysis, these documents will be examined for the ways in which they construct eligibility, access, and entitlements – particularly in relation to caste, age, marital status, and geographic location.",
+        "A review of secondary literature will be undertaken to understand the broader academic and policy discourse on SRHR in India. This will include research articles, survey data, and reports by government and non-governmental organizations. It will focus on identifying structural gaps, provider-level biases, and areas that remain under-researched. All collected data will be analyzed through thematic analysis that are aimed at identifying recurring patterns and issues related to systemic exclusion, delay, or denial of services. The analysis will be informed by feminist grounded  theories (like bodily contestation theory) as key theoretical frameworks for enabling a critical understanding of how reproductive rights are shaped by social structures and state institutions.",
+        "This methodological diversity ensures a comprehensive analysis of the interplay between gender norms and health outcomes."
+
+
+      ]
+    },
+    {
+      heading: "Core Findings ",
+      paragraphs: [
+        
+      ]
+    },
+        {
+      heading: "6.1 Sexual Health Policies ",
+      paragraphs: [
+        "The Government of India has implemented a range of policies to address sexual health and reproductive rights, with a particular focus on ensuring better, affordable healthcare for the impoverished, rural, and marginalized communities, including women.",
+         "Building on the success of the first two National Health Policies (1983 and 2002), the 2017 policy was reintroduced to reinforce and expand the government's role in healthcare—covering areas such as health financing, technology, medical education, disease prevention, and human capital investment (Ministry of Health & Family Welfare, Government of India, 2017). A major goal of this policy is to provide free primary healthcare services, especially in maternity, child, and adolescent health, by optimizing existing resources (World Health Organization: WHO, 2019). It sets targets to reduce maternal and infant mortality, increase life expectancy from 67.5 to 70 years by 2025, and improve disease prevention and awareness (Dahiya, 2018). By 2022, the maternal mortality rate dropped from 130 per 100,000 live births in 2017 to 97, and the infant mortality rate declined from 39 to 23 per 1,000 live births during the same period (Agrawal et al., 2024). ",
+         "In 1966, the Shantilal Shah Committee recommended liberalizing abortion laws to reduce maternal deaths due to unsafe abortions. This led to the Medical Termination of Pregnancy (MTP) Bill, introduced in 1969 and enacted in 1971. The Act mandates that abortions must be conducted in government-approved facilities (legal Service India, n.d.). While the MTP Act has helped reduce unsafe abortions, barriers remain for poor and marginalized women. A report by the Centre for Reproductive Rights reveals that India still performs 8,000 unsafe abortions annually (Diamondstein, 2021). Unsafe abortions account for approximately 15,000 maternal deaths annually—about 8.9% of all such deaths. Only 25% of organized-sector abortion clinics are government-owned, with the remainder in the private sector. In Jharkhand, 82% of women are unaware that abortion is legal (Kohli, 2008), and around 190,000 adolescents undergo unsafe abortions without proper medical care, as 78% of procedures occur outside regulated facilities (Seth, 2022).",
+         "The healthcare workforce shortage also affects service delivery. There is only one government physician for every 10,189 people, compared to the WHO recommendation of one per 1,000. Only 1,351 obstetricians and gynaecologists serve rural community health centres (Banerjee, 2022). While institutional deliveries increased from 39% in 2005 to 79% in 2015, 21% of births still occur at home (Mishra et al., 2021). The National Rural Health Mission (NRHM), launched in 2005, aims to provide affordable, accessible healthcare in rural areas. Since 1990, India has seen an 83% reduction in maternal mortality, surpassing the global decline of 45% (Ministry of Health & Family Welfare-Government of India, n.d.). The Accredited Social Health Activist (ASHA) program, also part of NRHM, engages over a million trained volunteers to provide maternal care, immunization, and family planning services (Kuldeep, 2025).",
+         "The Janani Suraksha Yojana (JSY), also launched in 2005, seeks to reduce maternal and infant mortality by offering financial incentives for institutional deliveries (Pillai, 2024). Despite its reach, disparities persist. Mothers from marginalized backgrounds often face economic and social barriers in accessing hospital care. SC/STs represent 37.6% of JSY beneficiaries, compared to 61.8% from non-SC/ST groups (Mishra, Veerapandian, et al., 2021). The 2015–16 report from the National AIDS Control Organization (NACO) indicates that transgender individuals have the second-highest HIV prevalence among high-risk groups at 8.82%, largely due to systemic discrimination and limited access to healthcare.",
+         "In 2013, the Ministry of Health & Family Welfare launched the Reproductive, Maternal, Newborn, Child, Adolescent Health and Nutrition (RMNCAH+N) strategy. It aims to reduce maternal and child mortality through improvements in infrastructure, human resources, and cross-sectoral collaboration (Ministry of Health & Family Welfare-Government of India, n.d.)."
+  
+      ]
+    },
+    {
+      heading: " 6.2 Reproductive Rights of Women",
+      paragraphs: [
+        "Reproductive rights form a crucial subset of human rights. For robust SRHR outcomes, states must ensure the availability and accessibility of quality public health facilities. However, India’s public healthcare system faces significant challenges, including inadequate infrastructure, insufficiently trained personnel, and low investment. Despite improvements, rising costs due to private sector dominance hinder access for the poor and marginalized.",
+        "The Indian judiciary has progressively recognized reproductive autonomy as part of personal liberty under Article 21 of the Constitution. In the landmark Puttaswamy judgment, the Supreme Court upheld a woman's right to make reproductive choices. Similarly, in Suchitra Srivastava v. Chandigarh Administration, the court affirmed a woman’s right to bodily autonomy, dignity, privacy, and choice in pregnancy decisions (Mathur, n.d.). The 2017 ruling further recognized health as a fundamental right under Article 21, reaffirming reproductive autonomy and access to abortion. The Surrogacy (Regulation) Bill, 2020 restricts surrogacy to altruistic arrangements for Indian couples, aiming to eliminate exploitation in commercial surrogacy. Meanwhile, the Protection of Children from Sexual Offences (POCSO) Act, 2012 safeguards minor girls’ reproductive rights by ensuring legal abortion access in cases of abuse. According to NFHS-5, rural maternal mortality stands at 114 per 100,000 live births, compared to 87 in urban areas. About 20% of rural women lack access to safe abortion and modern contraception. Teenage pregnancies are recorded at 7.1% nationally (rural: 9.3%, urban: 4.2%) (Chandra, 2025). NFHS-3 data shows that 16% of girls aged 15–19 are mothers, and 46% were married before age 18. In Jharkhand, one in four teenage girls is already a parent. Alarmingly, 35% of Indian women report experiencing physical or sexual violence, and 54% believe spousal abuse is justified (Chowdhury, 2021)"
+
+      ]
+    },
+    {
+      heading: "Interpretation & Analysis ",
+      paragraphs: [
+        "7.1 The analysis reveals the complex reality of underprivileged women, adolescents, and gender-diverse communities accessing India's reproductive health system through the use of feminist and rights-based lenses;"
+      ]
+    },
+    {
+      heading: "7.1.1 Policy Intent vs Ground-level realities: ",
+      paragraphs: [
+        "Structural deficits persist despite India’s SRHR policy’s intention to be inclusive, equity-oriented and rights-based. As Dr. Ritu Priya (JNU) argues, “health policy in India often gets trapped between technocratic planning and political inaction, leading to a disconnect between community needs and service design.” On the brighter side, The National Health Policy 2017, NRHM, and initiatives like RMNCAH+N emphasize accessibility and affordability, however, the darker side paints the picture of implementation gaps and structural loopholes"
+      ]
+    },
+    
+    {
+      heading: "7.1.2 Unsafe abortions and Legal illiteracy: ",
+      paragraphs: [
+        "Despite having progressive laws like the Medical Termination of Pregnancy (MTP) Act, India paradoxically leads the world in unsafe abortions. Every year, unsafe abortions result in over 15,000 maternal fatalities, exposing a more serious lack of knowledge and access.The fact that 82% of Jharkhand women did not know that abortion was allowed illustrates both the lack of legal knowledge and the part that sociocultural silence plays in stifling female sexuality. Even in cases where laws are in place, feminist scholars such as Shivani Nag and Flavia Agnes contend that bureaucratic gatekeeping, stigma, and patriarchy prevent women from freely exercising their rights."
+      ]
+    },
+    {
+      heading: "7.1.3 The ASHA program ",
+      paragraphs: [
+        "The Accredited Social Health Activists (ASHAs)  have significantly contributed to rising institutional deliveries, better immunization coverage, family planning awareness, and early detection of illnesses like TB and malaria.The model, despite being people-centric, has limitations in the nature of workers having minimal pay, precarious job security, and overwhelming responsibilities. ASHAs are not treated as formal employees but as “volunteers,” receiving performance-based incentives instead of fixed wages.  ",
+        "Ravi Duggal notes that “ASHAs have become the backbone of India's public health, yet the state treats their labor as dispensable and voluntary.”",
+      ]
+    },
+    {
+      heading: "7.1.4 Public- Private Divide:",
+      paragraphs: [
+        "Nowhere is the dichotomy between the public and private sector more evident than in the domain of sexual and reproductive health rights (SRHR) in India. This divide is not just about infrastructure, but also about ideology and priorities. Private sector expansion has not led to equitable health delivery, it has rather made healthcare less affordable, especially in reproductive health domains. The current scenario reflects upon how India’s healthcare narrative is increasingly shaped by market logics rather than social justice imperatives. ",
+      ]
+    },
+    {
+      heading: "7.2. Thematic Analysis of the Primary Data: ",
+      paragraphs: [
+        "“Understanding Access to Sexual and Reproductive Health: A Ground-Level Reality Check” (a questionnaire)The responses obtained from the structured questionnaire offer vital information about the knowledge levels, lived experiences, and structural obstacles that people, especially women and marginalized groups face when trying to access sexual and reproductive health (SRH) services."
+      ]
+    },
+    {
+      heading: "Key demographics: ",
+      paragraphs: [
+        "Out of all the primary respondents, a dominant 79.5% fall within the 18–25 age group, indicating that young adults are the primary participants in this survey.  The same numerical estimate, i.e. 79.5% is reflected in the gender group analysis wherein women are dominating the survey.  More than 90% of the respondents belong to the urban geographical region as opposed to around only 6.8% belonging to the rural. The data showed state diversity with 25% people belonging to Delhi, and the rest from states like Assam (2.3%), Uttar Pradesh (13.6%), West Bengal (18.2%), Punjab (9.1%), etc.   83.7% respondents were un-married or single while the rest were married, showing the dominance of a younger group of individuals. "
+      ]
+    },
+    {
+      heading: "Theme-1: Awareness of Reproductive Health Rights ",
+      paragraphs: [
+        "As per the questionnaire, while 45.5% of respondents felt ‘well-informed’ about reproductive health rights, a slightly higher 50% reported being only ‘somewhat aware’, reflecting limited understanding or incomplete information. A marginal section remained unaware or uncertain about key SRHR terms. "
+      ]
+    },
+    {
+      heading: "Theme-2: Awareness of Reproductive Health Schemes",
+      paragraphs: [
+        "When asked about the awareness of government schemes related to reproductive health like Janani Suraksha Yojana (JSY) or the MTP Act,  response statistics are as follows;As is clearly evident from the chart, only 11.4% of respondents demonstrate full awareness, despite the fact that reproductive health programs like the MTP Act and JSY have been in place for years. A gap between policy and practice is evident in the remaining majority, who are either completely ignorant or only slightly informed. These findings show under-utilization of maternal health schemes among youth and marginalized groups",
+      ]
+    },
+    {
+      heading: "Theme-3: Silence and Stigma in conversations on reproductive health",
+      paragraphs: [
+       "There is overall openness which is emerging but hesitancy still prevails. A combined 56.8% (somewhat + mostly comfortable) shows a moderate shift towards comfort in discussing sexual and reproductive health (SRH).  Only 1 in 4 (25%) feel ‘Very Comfortable’ when talking about such issues. This suggests that a strong psychological or social barrier still exists. There is dominance of responses in favour of ‘somewhat comfortable’ (40.9%) indicating social ambivalence.  The ‘not comfortable’ section remains marginalized which portrays a positive picture and emerging confidence. " 
+      ]
+    },
+    {
+      heading: "Theme-3: Silence and Stigma in conversations on reproductive health",
+      paragraphs: [
+       "There is overall openness which is emerging but hesitancy still prevails. A combined 56.8% (somewhat + mostly comfortable) shows a moderate shift towards comfort in discussing sexual and reproductive health (SRH).  Only 1 in 4 (25%) feel ‘Very Comfortable’ when talking about such issues. This suggests that a strong psychological or social barrier still exists. There is dominance of responses in favour of ‘somewhat comfortable’ (40.9%) indicating social ambivalence.  The ‘not comfortable’ section remains marginalized which portrays a positive picture and emerging confidence. " 
+      ]
+    },
+    {
+      heading: "Theme-4: Judgement in care",
+      paragraphs: [
+       "A significant minority have personally experienced judgment or awkwardness from healthcare providers. This suggests a breach of medical neutrality and professional decorum in patient care. High “Not Sure” Responses (32%) Signal Ambiguity and Mistrust or a reluctance to report negative experiences due to internalized shame or power dynamics with healthcare providers.  Just one-third had a clearly positive experience which suggests that safe and respectful SRH consultation is not a universal norm.",
+      ]
+    },
+    {
+      heading: "Theme-5: Accessibility of Reproductive health services",
+      paragraphs: [
+        "The vast majority (70.4%) are classified as somewhat or not very accessible. This suggests inconsistent or unreliable access to public reproductive healthcare services, suggesting that although there may be availability in theory, actual use is hampered by obstacles like stigma, lack of privacy, poor quality, and distance. This small minority (11.4%) reflects a stark gap between public health service provision and lived experience. While 0% report a complete absence of services, this may point to basic infrastructure being present, but failing in quality, outreach, or cultural acceptability. ",
+      ]
+    },
+    {
+      heading: "Theme-5: Accessibility of Reproductive health services",
+      paragraphs: [
+        "The vast majority (70.4%) are classified as somewhat or not very accessible. This suggests inconsistent or unreliable access to public reproductive healthcare services, suggesting that although there may be availability in theory, actual use is hampered by obstacles like stigma, lack of privacy, poor quality, and distance. This small minority (11.4%) reflects a stark gap between public health service provision and lived experience. While 0% report a complete absence of services, this may point to basic infrastructure being present, but failing in quality, outreach, or cultural acceptability. ",
+      ]
+    },{
+      heading: "Theme-6: Informal gatekeepers",
+      paragraphs: [
+        "Young people clearly gravitate toward digital spaces because of their simplicity, privacy, and relatability, as seen by the fact that more than 3/4 (77.3%) of them rely on the internet and social media. But there is a chance that this will lead to misinformation. There is a near-Complete Absence of Family as a Source (0%). This reflects upon the lack of openness in Indian families with regards to Sexual and Reproductive Health. It also suggests that the inter-generational transfer is broken probably due to shame or discomfort. The schools and teachers have played a marginal role (11.4%) which exposes a critical policy-practice gap in formal schooling. Lastly, the fact that none of the respondents identified health professionals as their main source of SRH information is concerning."
+      ]
+    },
+    {
+      heading: "Theme-7: Influence of regional and social identities",
+      paragraphs: [
+        "The majority of the respondents believe that the bias exists (81.8%- combining ‘Yes’ and ‘Sometimes’). This is consistent with research demonstrating that underprivileged groups experience worse treatment, longer wait times, or the denial of respectful medical attention. The fact that so few people (9.1%) deny any discrimination highlights the fact that healthcare equity is still viewed as an ideal rather than a reality. Certain biases (such as tone, neglect, or language) are subtle or covert, and not all users may notice them right away. "
+      ]
+    },
+     {
+      heading: "Theme-8: Attitudes Toward Unmarried Women Seeking SRHR Services",
+      paragraphs: [
+       "Judgement is the Norm: a clear majority (56.8%) believe that women are treated with judgement. This represents ingrained moral and social prejudices in healthcare environments, where the sexual agency of unmarried women is frequently vilified. Barely 1 in 4 respondents think such women will be treated with dignity and support, highlighting a serious trust deficit in the public healthcare system. This also points to fragmented positive experiences. A small segment (6.8%) is unaware of how unmarried women are treated. This indicates social silence  around these experiences."
+      ]
+    },
+     {
+      heading: "Theme-9: Navigating access of legal abortion ",
+      paragraphs: [
+        "Even in cases where abortion is legal, the absence (0%) of a very easy response is concerning since it draws attention to structural inefficiencies or obstacles in obtaining abortion services. While over half the respondents believe it’s possible (59.1%), they also acknowledge hurdles such as repeated consultations, judgmental staff, or delays. One-third (34.1%) believe that legal abortion is difficult to obtain in government hospitals, perhaps as a result of a lack of qualified gynecologists and physicians' fear of legal ramifications. Lastly, a tiny but significant minority (6.8%) feels that access to legal abortions in governmental contexts is virtually nonexistent. This impression could result from instances of discrimination by providers, misinterpretations of gestation, or denials based on marital status."
+      ]
+    },
+     {
+      heading: "Theme-10: Understanding Deterrents to Public SRHR Services ",
+      paragraphs: [
+        "The largest group (43.2%) points to systemic inefficiencies in the delivery of public healthcare by citing lengthy wait times or subpar service. This reflects structural constraints in the system of service delivery.  Almost one out of three (32%) respondents said that healthcare providers' critical views are a hindrance. This is consistent with other research showing that young or single women are deterred from visiting public health facilities by the stigma associated with premarital sex, contraception, and abortion. Concerns regarding privacy are significant (18.2%)- Particularly in small towns or rural settings where communities are close-knit, women are afraid of being exposed in public waiting areas or having their anonymity violated.7.3 Stakeholder MappingStakeholder mapping serves as a critical tool to identify, analyze, and engage the diverse actors whose interests, influence, and actions shape the trajectory and outcomes of the research issue at hand."
+        ]
+      
+    },
+     {
+      heading: "8.1 Legal and Institutional Accountability  ",
+      paragraphs: [
+       "The intersectional approach, as theorized by Kimberlé Crenshaw,  recognized how overlapping identities influence access to rights. (Crenshaw, 1991) Integrating some principles would align Indian policy more closely with the reproductive justice framework which will view reproductive rights not just as access to services but the freedom to make decisions about one’s body, family, and future. (Ross & Solinger, 2017) While reproductive health is part of the right to life under Article 21 of the Indian Constitution, it still requires stronger legal backing and better systems to protect these rights in real life (Srivastava v. Chandigarh, 2009). ",
+       "India should bring a separate reproductive law that specifically protects the reproductive rights of women regardless of a woman’s caste, marital status, or background. This law should give women the legal right to decide whether they want to have children, when to have them, and how to manage their fertility. (Nisha Ranjan, 2025)  Access rules should be revised under the MTP Act. While the 2021 amendment extended abortion access for some women up to 24 weeks of pregnancy, decisions still heavily depend on doctors. (MTP Act, 2021) The law should trust women to make independent choices without needing multiple medical approvals (except in emergencies). Additionally, it should be made sure that all national laws and policies follow treaties like the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW) and the International Covenant on Economic, Social and Cultural Rights (ICESCR) alongwith setting up clear ways to check and fix any violations of maternal and reproductive rights. (UNHRC, 2024) To ensure this, independent monitoring and feedback systems should be set up with teams (including health experts, legal professionals, and members of civil society) at district or state levels that check whether hospitals and Primary Health Centres (PHCs) are following laws and policies related to sexual and reproductive health.  The bodily contestation theory emphasizes how women's bodies are sites of social and political control. (Bordo, 1993) Accordingly, policies must shift from provider-centric models to ones that prioritise women’s bodily autonomy in order to ensure their right to make informed and independent decisions about contraception, abortion, and maternal care free from any coercion or paternalistic interference. Judicial activism should be encouraged to actively protect sexual and reproductive health (SRH) rights. Public interest litigations (PILs) and past cases can help ensure that marginalized women are not denied essential services. Each state should appoint a dedicated SRH ombudsperson to handle complaints (particularly from adolescents) who seek care without parental consent or face caste-based discrimination in healthcare."
+
+      ]
+    },
+     {
+      heading: "8.2 Health System Strengthening and Service Delivery ",
+      paragraphs: [
+        "According to NFHS-5 (2020–21), only about 56.5% of currently married women (15–49 years) use modern contraceptive methods and knowledge about emergency contraception remains alarmingly low. (IIPS & ICF, 2021) These gaps illustrate the systemic failure to guarantee reproductive agency, especially among young and rural women. To change this:",
+        "PHCs (Primary Health Centres) and smaller clinics should be equipped to offer not only pregnancy care, but provide full reproductive services i.e. safe abortion services, contraception, treatment of infections, and health education. (WHO, 2022) Medication abortion (using pills to terminate early pregnancies) should be made available at these centres as it doesn’t require advanced tools or hospitalization. For women who can't travel due to distance, cost, or restrictions, healthcare workers should deliver monthly door-to-door check-ups, especially in rural and tribal areas. Sexual and reproductive health (SRH) should be integrated into the Universal Health Coverage (UHC) agenda through a ‘progressive universalism’ approach that prioritizes those most at risk, such as young, poor, Dalit, and tribal women, rather than merely extending services uniformly to middle-class populations. (WHO, 2022) Many healthcare providers such as Auxiliary Nurse Midwives (ANMs) or Accredited Social Health Activists (ASHAs) need training to be more empathetic and informed to understand the unique needs of adolescents or Dalit and tribal women. It should include respect for consent, privacy, and non-judgmental care.   There should be regular social audits and public meetings to check how well things are working. Civil society groups should be involved in reviewing gaps and making sure SPARSH (Sensitization, Prevention and Redressal of Sexual Harassment) rules are followed in healthcare. (MoHFW, 2021) Additionally, as seen during the COVID-19 pandemic, sexual and reproductive health services were often stopped. The government should stay prepared during emergencies and treat these as essential services even during crises to prevent more maternal deaths or unwanted pregnancies. (Ministry of Health, 2020) Most importantly, financial incentives should be directed with enough safeguards to ensure that care remains voluntary and of high quality. The government should allocate dedicated funds to set up adolescent-friendly SRH centers within Primary Health Centres (PHCs) that offer confidential services for menstruation, STIs, contraception, and mental health. To improve access to safe abortion, trained Registered Medical Practitioners (RMPs) at PHC level should be allowed to prescribe Medication Abortion (MA) drugs under the MTP Rules. This step would significantly reduce stigma and eliminate the need for women to travel long distances for basic reproductive care. "
+      ]
+    },
+     {
+      heading:"8.3 Community Engagement and Rights-Based Education ",
+      paragraphs: [
+       "A key challenge is the normalisation of shame and silence around reproductive health in India particularly among unmarried women and gender minorities. Addressing this requires a cultural shift where bodily autonomy is not perceived as immoral but rather as essential to individual dignity and democracy.",
+       "Many women and adolescents do not know their reproductive rights or are afraid to ask for services because of social stigma.  Rights-based education should be started by introducing Comprehensive Sexuality Education (CSE) in schools and community learning centres. This means teaching about puberty, consent, menstrual health, contraception, and gender equality in age-appropriate ways which should be available to both girls and boys. (UNESCO, 2024) Awareness campaigns should be introduced in regional languages by using radio, TV, social media, and local public meetings to tell women about their rights under laws like the MTP Act, while also clarifying that unmarried women and rape survivors can legally access abortions. (MoHFW, 2021) Safe spaces should be created to report abuse or denial wherein healthcare centres should put up clear information about complaint systems in local languages. If a woman is denied care or treated badly, she should know whom to contact and how to get help.",
+       "Rather than being utopian visions, these policies are doable within the infrastructure already available. For instance, expanding medication abortion pills is low-cost and can be done at the PHC level. District health offices already run monitoring visits which can be improved to focus on rights and treatment quality. Training and awareness programs already exist and they only need to include topics like consent, discrimination and inequality. (WHO, 2022) By focusing on real-life challenges, these suggestions help bridge the gap between paper policies and women's actual experiences. Most importantly, they make bodily autonomy and dignity a real part of India’s public health system and not just legal promises.",
+       "Limitation and Implementation Challenges - While the proposed reforms are based on systems that already exist, putting them into action will need strong political support, enough funding, and better training, especially in rural areas where the health system is already stretched. Additionally, any changes in the law must take into account the possibility of social and cultural resistance. This is the reason it is equally important to invest in spreading awareness, educating people about their rights and involving communities in the process."
+
+      ]
+    },`
+    `
+
+  ],
+  conclusion: [
+    "This paper investigates critically the ongoing discrepancy in the execution of India's reproductive health policies at the local level. Systemic barriers based on caste, class, gender, and geography still affect marginalized groups, especially Dalit, tribal women, and adolescents, even in the face of progressive legal frameworks like the Medical Termination of Pregnancy (MTP) Act and programs like Janani Suraksha Yojana (JSY). In India, health policy frequently gets trapped between technocratic planning and political inaction, as Dr. Ritu Priya points out, leading to inefficient service delivery. The authors point out that unsafe abortions continue to be a serious problem, contributing to over 15,000 maternal fatalities every year, primarily as a result of stigma and legal illiteracy (Shivani Nag & Flavia Agnes). ",
+    "The study highlights the disparity between public and private sectors in reproductive healthcare, where social justice is subordinated to market-driven goals, resulting in unequal access. The results of primary surveys show a general lack of knowledge of schemes, prejudice against unmarried women, and obstacles such provider bias and privacy concerns. ",
+    "To close the gap between policy and practice, it is suggested that rights-based education, institutional reforms, and enhanced legal responsibility be taken up. A case for a change toward empowering women's bodily autonomy, comprehensive sexuality education, and sensitive healthcare delivery, citing Kimberlé Crenshaw's intersectionality paradigm, is made. In order to ensure that everyone has meaningful access to sexual and reproductive health rights, the paper advocates for a comprehensive, inclusive strategy."
+  ],
+  references: [
+    {
+      heading: "Ajaz, M., & Dar, M. A. (2024). Reproductive rights in India: A comprehensive analysis of laws and policies. International Journal of Legal Science and Innovation, 6(3), 379–396.",
+      links: "https://ijlsi.com/wp-content/uploads/Reproductive-Rights-in-India-A-Comprehensive-Analysis-of-Laws-and-Policies.pdf"
+    },
+   
+     {
+      heading: "Ghose, A., Inamdar, P., & Bagchi, P. (2022). Reproductive health of women in India: A sociological and legal overview. International Journal of Health Sciences, 6(S4), 11917–11927.",
+      links: "https://sciencescholar.us/journal/index.php/ijhs/article/download/11422/8689/8804"
+    },
+     {
+      heading: " Sharma, S. (2015). Reproductive rights and women’s health in India: A new prospective. Indian Socio-Legal Journal. 4. Sen, G., & Govender, V. (2015). Sexual and reproductive health and rights in changing health systems. Global Public Health, 10(2), 228–242. ",
+      links: " https://ir.nbu.ac.in/server/api/core/bitstreams/b025783d-a063-43c5-8371-25d483c58db1/content"
+    },
+    {
+
+      heading: "Sen, G., & Govender, V. (2015). Sexual and reproductive health and rights in changing health systems. Global Public Health, 10(2), 228–242.",
+      links: "https://idl-bnc-idrc.dspacedirect.org/server/api/core/bitstreams/9305fcd0-d04a-4fd4-9643-8360487cc134/content"
+    },
+    {
+      heading: "Das, S. (2025). Reproductive health rights of women in India. Journal of Emerging Technologies and Innovative Research (JETIR), 12(3), 495–500.",
+      links: "https://www.jetir.org/papers/556835.pdf"
+    },
+    {
+      heading: "World Health Organization. (2023). Achieving gender equality and sexual and reproductive health and rights (SRHR). In HRP annual report 2022.",
+      links: "https://www.jstor.org/stable/resrep56762.13"
+    },
+    {
+      heading: ". Ministry of Health and Family Welfare (MoHFW), Government of India. (2017). National Health Policy 2017. ",
+      links: "[https://main.mohfw.gov.in]"
+    },
+    {
+      heading: "Banerjee, A. (2022). All India Rural Health Statistics 2021–22. [Ministry of Health and Family Welfare]",
+      links: ""
+    },
+    {
+      heading: "Duggal, R. (2014). The Political Economy of Health Care in India: Toward a Rights-Based Approach. Social Scientist, 42(11–12), 17–25."
+    },
+    {
+      heading: "Seth, A. (April 28, 2022). Sexual and Reproductive Health Rights (SRHR) in India. The Times of India.  ",
+      links: "[https://timesofindia.indiatimes.com/blogs/nonpartisan-perspectives/sexual-and-reproductive-health-rights-srhr-in-india-part-1/]"
+    },
+
+    {
+      heading: ". Banerjee, S. (2022, November 9). Battleground Body: Sexism and the right to safe abortions in India. ",
+      links: "https://science.thewire.in/health/safe-abortion-access-sexism/"
+    },
+     {
+      heading: "Chowdhury, Dr. (2021). REPRODUCTIVE RIGHTS OF THE INDIAN WOMEN: AN ANALYSIS. In Women’s Rights are Human Rights: Role of Non-State Actors. Patna Women’s College Publications.",
+      links: ""
+    },
+    {
+      heading: "Dahiya, H. (2018). NATIONAL HEALTH POLICY OF INDIA. International Journal of Recent Scientific Research, 9(7(B)), 27842–27844.",
+      links: ""
+    },
+    {
+      heading: "Diamondstein, M. (2021, September 27). Abortion in India: Report reveals widespread legal barriers and recommends ways to improve access. Center for Reproductive Rights.",
+      links: "[https://reproductiverights.org/report-barriers-india-abortion-access/#:~:text=A%20recent%20fact-finding%20report%20by%20the%20Center%20for,account%20for%208-10%25%20of%20maternal%20deaths%20in%20India]"
+    },
+    {
+      heading: "Ghose, A., Inamdar, P., & Bagchi, P. (2022). Reproductive health of women in India. International Journal of Health Sciences, 11917–11927. ",
+      links: ""
+    },
+    {
+      heading: "Kohli, N. (2008, August 9). Most unsafe abortions in India | Latest News India - Hindustan Times. Hindustan Times.",
+      links: "[https://www.hindustantimes.com/india/most-unsafe-abortions-in-india/story-UhtYsSeiNpCwMaO4TO3pjI.html?] "
+    },
+    {
+      heading: "Kuldeep. (2025, March 12). ASHA: Inspiring change in rural healthcare in India. Raj Medical. ",
+      links: "[https://rajmedical.co.in/accredited-social-health-activist-asha/] "
+    },
+    {
+      heading: "Mishra, P. S., Veerapandian, K., & Choudhary, P. K. (2021). Impact of socio-economic inequity in access to maternal health benefits in India: Evidence from Janani Suraksha Yojana using NFHS data. PLoS ONE, 16(3), e0247935.",
+      links: "https://doi.org/10.1371/journal.pone.0247935"
+    },
+    {
+      heading: "Mishra, P. S., Kumar, P., & Srivastava, S. (2021). Regional inequality in the Janani Suraksha Yojana coverage in India: a geo-spatial analysis. International Journal for Equity in Health, 20(1). ",
+      links:"https://doi.org/10.1186/s12939-020-01366-2"
+    },
+
+    {
+      heading: "Narang, M. (2024). Reclaiming Rights: Analysis of sexual and reproductive health rights from global and Indian perspectives. INTERNATIONAL JOURNAL OF HUMAN RIGHTS LAW REVIEW, 3(6), 53–59.",
+    },
+    {
+      heading: "Pillai, N. (2024, July 1). Janani Suraksha Yojana Scheme – Eligibility, Benefits & More. Impact Guru. ",
+      links: "[https://www.impactguru.com/info/janani-suraksha-yojana-jsy/] "
+    },
+    {
+      heading: "Release of SDG India Index 2023-24",
+      links: "[https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2032857] "
+    },
+    {
+      heading:"Seth, A. (2022a, April 28). Sexual and Reproductive Health Rights (SRHR) in India [Part 1]. Times of India Voices. ",
+      links: "[https://timesofindia.indiatimes.com/blogs/nonpartisan-perspectives/sexual-and-reproductive-health-rights-srhr-in-india-part-1/] "
+    },
+    {
+      heading: ". Chatterjee, S. (2020). Reproductive justice in India: A review of policies and practices. Indian Journal of Gender Studies, 27(2), 231–250. "
+    },
+     {
+      heading: "  Deshpande, M. (2022). Caste, class and reproductive health: Examining intersectional inequalities in India. Economic & Political Weekly, 57(12), 40–47."
+    },
+     {
+      heading: ". Kumar, R., & Rai, P. (2021). Healthcare provider bias and its impact on reproductive health services in rural India. Social Science & Medicine, 289, 114373. "
+    },
+     {
+      heading: ". Ministry of Health and Family Welfare. (2021). The Medical Termination of Pregnancy (Amendment) Act, 2021. Government of India. "
+    },
+     {
+      heading: "Raj, A., Dasgupta, A., Silverman, J. G., & Gupta, J. (2023). Addressing health-system barriers to reproductive autonomy for Dalit and tribal women in India. The Lancet Global Health, 11(5), e622–e630. ",
+     },
+     {
+      heading: "United Nations Population Fund. (2022). State of world population 2022: Seeing the unseen."
+     }
+  ]
+},
+{
+    id: 7,
+    issue: 3,
+    volume: 1,
+    title: "BRIDGING THE DIVIDE: DIGITAL PUBLIC INFRASTRUCTURE IN THE INFORMAL SECTOR",
+    author: "Harmanpreet Singh – Panjab University, Naukhaiz Aftab – Chaudhary Charan Singh University, Gauri Sharma – Indira Gandhi National Open University, Ruchi Tiwari- University of Mumbai, Mahi Tyagi- University of Delhi, Shivangi Varma- Deen Dayal Upadhyay Gorakhpur University",
+    authorAbbrev: "H. Singh, N. Aftab, G. Sharma, R. Tiwari, M. Tyagi, S. Varma",
+    abstract: [
+        "The rapid digitalisation and expansion of Digital Public Infrastructure (DPI) in India have brought mixed outcomes, particularly for informal sector workers. The digital divide is a result of existing inequalities in socioeconomic status, geography, caste, and gender. While digitalisation has improved access in many areas, its benefits remain unevenly distributed. This paper investigates structural and systemic factors behind this gap and explores legal frameworks and the PPP model to promote financial inclusion.",
+        "Using qualitative analysis of secondary data, this study finds that access to digital services remains uneven, for informal workers with low digital skills and sporadic access to the internet. It underscores spatial divide, limitations of the “one-size-fits-all” approach and the lack of legal protection in labour codes. It also reveals disparities within the informal sector, where MSME owners benefit from DPI but many workers remain excluded.",
+        "Key recommendations include a universal legal definition for informal workers, rural digital awareness, government digital hubs under PPP model, and simplified user-centric e-portals designed with principle of privacy. Bridging the digital divide needs inclusive policy reforms to improve access to DPI across the Indian informal economy."
+    ],
+    keyword: [
+        "Digital Public Infrastructure (DPI)",
+        "Informal Sector",
+        "Informal Economy",
+        "Micro, Small & Medium Enterprises (MSME)",
+        "Digital Divide",
+        "Public-Private Partnership (PPP) model",
+        "Jan Dhan, Aadhar, Mobile (JAM) Trinity",
+        "Unified Payments Interface (UPI)",
+        "Financial Inclusion",
+        "Digitalisation"
+    ],
+    status: "",
+    intro: [
+        "“Digital public infrastructure is not just about technology—it is about enabling equal access, empowering every citizen, and laying the digital rails for inclusive growth.” — Nandan Nilekani, co-founder of Infosys and founding Chairperson of the Unique Identification Authority of India (UIDAI)",
+        "A world that becomes increasingly interconnected is finding a potent force in its ability to influence the way that governments, businesses, and individuals transact and interact through Digital Public Infrastructure (DPI). The most significant ones are the digital identity and payment system and the data exchange layers, which are creating preconditions of efficient and inclusive service provision at scale. They are materialised in India through Aadhaar, UPI, DigiLocker, e-SHRAM, and ONDC, which form the heart of digital governance and the economy of the country.",
+        "To appreciate the actual effects of DPI is to look at how it interacts with India’s informal economy, which itself constitutes more than 90% of the labour force and almost 50% of its GDP. The unorganised sector in India is the consequence of certain structural limitations like low capital formation, as well as regional disparities and a failure of formal infrastructure to absorb the increasing labour. These are the workers who work in this unorganised sector—daily wagers, domestic help, street vendors, artisans, and micro-entrepreneurs—and they may not have a formal contract/right, legal protection, access to credit, or social security. That’s why they’re not immune from abuse, economic shocks, and generation span poverty. The emergence of DPI represents a chance to close such a historic gap, although its achievement is not automatic and homogenous. The most frequent obstacle is a digital divide, particularly the rural-urban, gender, and income-related ones. Although the mobile connectivity and smartphone penetration have been enhanced, the problem is that digital access and digital literacy are still skewed, especially among women and elderly and marginalised groups. This digital divide affects financial inclusion directly. The Indian fintech revolution has resulted in women still having limited access to digital payment systems, access to formal credit, and ownership of assets, highlighting the importance of the design of DPI to be gender-sensitive.",
+        "Another factor behind the DPI story in India is a well-functioning model of public-private partnerships (PPP), where the government makes core infrastructure (e.g., Aadhaar and UPI), and private actors develop applications and services on top. This model makes innovation possible at scale and checks its oversight by the public. But to have any lasting effect on livelihoods, DPI should do more than just enable transactions. It is supposed to allow the informal workforce to get access to new markets (such as ONDC for the local sellers), employment opportunities, generate credit histories, and access government schemes through websites such as e-SHRAM.",
+        "Meanwhile, a fast rate of digitisation of citizen information presents important legal and regulatory questions, especially in regard to data privacy and surveillance, informed consent, and risks of exclusion. Data localisation norms, grievance redressal systems, and the Personal Data Protection Act need to dynamically advance along with the implementation of DPI to safeguard the rights of the informal labour force. The following paper focuses on the multidimensionality of the interaction of DPI in reconstituting the informal economy of India. It examines the position of dominant industries in the informal space, e.g., retail, construction, domestic services, and gig work, and the impact that DPI has on their inclusion, productivity, and resilience. The study will examine the major policy interventions, usage patterns, and current obstacles in order to present practical solutions towards an inclusive digital future."
+    ],
+    content: [
+        {
+            heading: "PROBLEM STATEMENT AND RESEARCH QUESTION",
+            paragraphs: [
+                "The aim of this research paper is to comprehensively examine the varying stages of digital transformation across the country, with an explicit concentration on the function and consequences of digital public infrastructure on various aspects of society, with special reference to the informal sector. Our questions seek to understand both the drivers and consequences of digital access and usage patterns, while also considering systemic elements within the DPI ecosystem. This report is guided by the following research questions.",
+                "●How do socio-economic and contextual factors influence the patterns of access to and effective utilisation of digital public infrastructure by different informal sector subgroups, and what are the resulting effects on their outcomes in knowledge acquisition, well-being, financial inclusivity, and the livelihoods of workers under various informal sector arrangements?",
+                "●To what extent do trends of privatisation, phantomization, and wealth accumulation within the Digital Public Infrastructure landscape, alongside the prevailing legal frameworks and Public-Private Partnership (PPP) models, influence digital access and the ability of informal sector actors to leverage these technologies for their benefit, and how can these challenges be addressed?",
+                "In line with the above-mentioned stratification hypothesis, we argue that variations in access to and use of technology are reproducing themselves, which in turn are exacerbating realworld disparities. This has restricted the ability of the digitally disadvantaged to access resources and fully reap the benefits of the virtual world."
+            ]
+        },
+        {
+            heading: "THEMATIC LITERATURE REVIEW",
+            paragraphs: [
+                "UNDERSTANDING THE DIGITAL DIVIDE",
+                "OECD defines the digital divide as a gap across various socioeconomic levels in the use of ICTs and internet usage. It results from several factors, such as gender, affordability, location, and digital literacy. Only 31% of the rural population uses the internet, compared to 67% in urban areas (Oxfam India, 2022). Laskar (2023) shows an existing divide between urbanrural and intra-urban, causing limited digital access and technology-based skills, while Vaidehi et al. (2020) found low internet access, usage, and digital literacy in marginalised communities.",
+                "Digitalisation has benefited some while excluding a large section of society (Dubey et al., 2024). These gaps persist despite government initiatives like the Digital India campaign, JAM, and UPI (ILO, 2024), particularly impacting the wages of informal workers (Sengupta et al., 2021).",
+                "FINANCIAL INCLUSION",
+                "Monetary policy becomes more effective through increased interest rate influence on economic transactions (Mehrotra & Yetman, 2015; Patra, 2021).",
+                "According to Gupta et al. (2017), digital transformation can improve GDP and fiscal policy. At the 2017 Global Entrepreneurship Summit in Hyderabad, PM Modi emphasised joint efforts by women and men for prosperity and development (Balasubramaniam et al. 2021).",
+                "Inclusive financial services, as recognised by the International Labour Organisation (ILO), are key to social security and poverty (Bhandari 2018).",
+                "According to Ghosh and Bhattacharya (2019), financial innovations have expanded services for women and underprivileged individuals.",
+                "REGULATORY AND LEGAL FRAMEWORKS",
+                "Maiti and Khari (2023) discovered that as a country uses more digital technologies, informal firms shrink and then grow again. The finest digital tools assist informal enterprises in becoming legitimate in countries with robust legislation. If laws are weak, digital tools may make it tougher for informal labourers to get work. If they feel observed, informal workers may avoid digital tools.",
+                "In Puttaswamy v. Union of India, the court upheld Aadhaar but ruled that everyone has the right to privacy. The judicial system must respect digital privacy and dignity for DPI to be trusted.",
+                "According to A. Panagariya (2022), existing social protection legislation ignores DPI and commends the India Stack, a combination of open APIs and digital public goods, for regulation. Current labour rules don't protect informal gig workers since they ignore DPI.",
+                "Data protection and privacy are first and foremost about ensuring personal data is used with consent and kept within India. The Digital Personal Data Protection Act, 2023 draft, based on the recommendations of the Justice B.N. Srikrishna Committee, sets these rules, with the Data Protection Board of India investigating data breaches and imposing fines up to 250 crore.",
+                "Electronic signatures and contracts are legally validated by the Information Technology Act, 2000, defined under section 2(1) (p), ensuring the authenticity of digital documents. The controller of certifying authorities licenses digital signature providers.",
+                "IMPACT ON LIVELIHOODS",
+                "With the growth of technology, Digital Public Infrastructure (DPI) has risen as one of the determiners in enhancing the livelihoods of the informal workers in India. It has simplified the process of delivery of welfare programs and wage payments and minimised leakages of the transfer of benefits (Kshirsagar & Cleary, 2024).",
+                "Indeed, ICRIER (2017) established that when Aadhaar is integrated with wage-paying systems, the underpayments and delays among workers have been materially reduced.",
+                "With Aadhaar integration, the services of the middlemen were also minimised, and workers received government assistance and other necessary services directly (Muralidharan et al., 2020).",
+                "DPI has also been beneficial to the stability of households, to better access the fundamental base of resources, including food and fuel (World Bank, 2018).",
+                "Nevertheless, a part of the workforce still experiences an impediment caused by the ambiguity regarding the usage of the system or the cases of manipulation and misuse (Krishna, 2020).",
+                "In general, DPI has made the outcomes of livelihood more robust.",
+                "STATUS OF INFORMAL WORKER",
+                "In their work Das, H., Gupta, A., & ILAVARASAN, V. (2025) found out that small business owners were highly benefited through the DPI model; UPI has helped them achieve stability and constant support in conducting their day-to-day activities.",
+                "In their report Vedavalli, P., Kwatra, N., Srinivasan, S., & Sinha, V. (2023) discuss the various difficulties the sector of the informal economy, i.e., the labour sector, especially the non-agricultural labour, has to face in their lives on a daily basis.",
+                "State-of-Indias-Informal-Sector_A-Deep-Dive-into-Enterprises-Statistics-and-Segments report talks about the status of MSME workers and, with the introduction of digital platforms, how much more convenient their work has become.",
+                "Imam, M., & Chinnadurai, A. S. Digital Inclusion for Rural Women puts emphasis on digital inclusivity for women workers in rural areas and raises the issue about how digital inclusivity helps in the promotion of women's empowerment.",
+                "Sindakis, S., & Showkat, G. (2024) discuss how in rural areas various sections of society have digital access, including workers and women in rural regions.",
+                "PUBLIC- PRIVATE PARTNERSHIP (PPP) MODEL",
+                "Bhatnagar (2004) points out that PPP enhances e-governance in resource-poor settings through digital literacy & CSCs. Few states land records were digitised, improving redressal mechanisms vis-à-vis the effective PPP model.",
+                "Varun Sharma (2020) highlights that PPPs enable specific services, i.e., geo-tagged digital platforms. He mentions safeguards & digital literacy to prevent encroachment & empower informal sector workers.",
+                "Rahul Mishra & Ritu Sharma (2022) explains the role of PPPs in providing welfare schemes like the e-Shram portal. He brings forth PPP in welfare like DBTs, better documentation, & transferring of benefits across states.",
+                "The World Bank defines PPPs as legally structured, performance-based deals. It highlights India’s adoption of hard infrastructure and soft infrastructure, stressing the need for clear rules & regulations, transparency, accountability, & outcomes in informal sectors.",
+                "Singh (2019) emphasises its role in bridging the gap through urban informal infrastructure delivery and the effectiveness that it brings to the ecosystem. Singh points out that while public funds are limited, private partners bring innovation & scale.",
+                "Above resources, it emphasises how significant the PPP model is in present times & can be in the future w.r.t. providing services and goods effectively & efficiently, ensuring safety nets to informal workers & securing them from exploitation via legal bindings and mechanisms in PPP."
+            ]
+        },
+        {
+            heading: "METHODOLOGICAL OVERVIEW",
+            paragraphs: [
+                "The methodology used for conducting this analysis of this policy, “Bridging the Divide: DPI in the Informal Sector, is a hybrid and integrative approach that includes secondary, qualitative, and, to an extent, quantitative means to meet the ends to comprehensively analyse the intersection of Digital Public Infrastructure (DPI) and the informal sector in India. The foundations of the study actually rest on the secondary research, where a broader range of existing literature, policy documents, legal frameworks, academic articles, and government reports were taken deep into account and were consulted. These include key sources such as Oxfam, World Bank assessments, and the landmark legislations & acts like the Digital Personal Data Protection Act (2023), the Aadhar Act, and the IT Act (2000) that helped & allowed to map the evolution of the DPI and its practical implications on the informal workers. Complementary to this is the qualitative analysis that helped deep dive into the structural and contextual realities of these informal sectors. Rather than just relying on the data, the study explores issues like digital exclusion; systemic marginalisation, which is based on caste and gender; exploitation by private players; the phantomization of data, i.e., through databases like e-Shram; and gaps in digital literacy. Legal judgements like Puttaswamy v. Union of India are analysed qualitatively to interpret how privacy rights and data governance influence trust and participation in the digital ecosystems. Furthermore, the study to some extent integrates the basic quantitative insights to validate its claims, using the statistics to reflect the extent of digital access and the economic impact of DPI. Overall, this mixed methodology enriches the study by ensuring that secondary data provides a macro-policylevel perspective, in which the qualitative interpretation adds depth to socio-economic and political realities, and picked quantitative data underscores the scale of digital disparities and economic outcomes. This mixed approach is particularly well suited for policy analysis in the Indian informal sector, where diversity on the ground level and structural inequalities demand more than a single-method investigation. The methodology effectively captures the complexity of the DPI’s impact, showing how interventions of technology are backed by robust institutional support. Hence, the methodology reflects not only the researchers’ intent to examine existing knowledge critically but also through a holistic lens."
+            ]
+        },
+        {
+            heading: "CORE FINDINGS AND ANALYSIS",
+            paragraphs: [
+                "UNDERSTANDING THE DIGITAL DIVIDE",
+                "The digital divide is a result of existing socioeconomic inequalities in society. Though more visible in rural areas, it is also prevalent in urban spaces, showcasing inequality between resource-rich and under-resourced communities. This reveals that infrastructure alone, without inclusive policies, cannot bridge this divide.",
+                "Marginalised communities remain excluded due to ingrained systemic barriers like castebased issues and digital literacy, widening the divide.",
+                "Here the digital divide emerges as both a cause and a consequence of the societal divide. Its impact on the wages of the informal sector extends to family welfare, health, and education.",
+                "The limited impact of initiatives like JAM and UPI shows disconnect in policy targets and implementation; without accountability and a holistic strategy involving the community, these initiatives risk deepening rather than bridging the divide.",
+                "FINANCIAL INCLUSION",
+                "The government and RBI have focused on financial inclusion by leveraging technology, improving infrastructure, and supporting financial literacy among informal sector workers and digitally excluded populations. Low-income populations hesitate to use DPI-enabled services due to tax concerns, which lower their financial activity in the formal economy, reducing their contribution to India’s GDP and economic development. For informal sector workers, financial inclusion must cover access to credit, insurance, and emergency funds.",
+                "These steps ensure digital financial inclusion becomes a driver of equity, supporting sustainable livelihoods and enabling broader socio-economic development across underserved communities. Financial inclusion under DPI ensures that informal sector workers and low-income groups access essential financial services like savings, loans, and insurance efficiently and transparently. Digital ID systems simplify know your customer (KYC) procedure and reduce customer verification costs, allowing financial institutions to deliver affordable and efficient services to low-income and rural populations with minimal infrastructure. Senior citizens often lack digital knowledge, making it difficult for them to access DPI platforms like telemedicine or pension services, which increase their vulnerability to online fraud and misinformation during financial or insurance scheme linking. Women in rural areas face many barriers in digital finance, like limited skills, low device ownership, poor literacy, and lack of documentation.",
+                "REGULATORY AND LEGAL FRAMEWORKS",
+                "The legal and regulatory framework of digital public infrastructure can be defined as the infrastructure that helps to reduce the time, money, and efforts of citizens, businessmen, and institutions for transparency, accountability, and inclusive participation.",
+                "The Aadhar card allows individuals to prove their identity via biometrics such as fingerprints and eye retina and facilitates access to digital public services and government benefits. The Unique Identification Authority of India was established, and the Aadhaar Act was passed for governing, ensuring transparency, accountability, and issue resolution.",
+                "The Payment and Settlement System Act was passed in 2007, and RBI regulations ensure operations, risk management, and licensing of payment providers. The RBI monitors transaction limits and business on boarding. Digital payment systems like UPI and Aadharlinked payment systems enable digital money transfers.",
+                "IMPACT ON LIVELIHOODS",
+                "Digital Public Infrastructure (DPI) is also changing the way informal workers are supported in terms of their lives becoming easier in having access to welfare programs and employment-related information as well as crucial services that are provided by the government. Government initiatives such as authentication of Aadhaar cards and direct benefit transfers have also helped the government in ensuring timely payment of aid, as fewer individuals are required to mediate the payments. The e-Shram database and other similar ones have made it easier to map informal workers, particularly during emergencies like the COVID-19 one.",
+                "Through its efficiency in delivery, DPI has enhanced transparency and accountability, which has facilitated the maintenance of basic income supplied to vulnerable groups. Nevertheless, even these advantages still have certain obstacles to implementing the developed system and accessing its services: augmented reality, limited digital skills, sporadic access to the internet, and hiccups that might lock numerous individuals out. DPI is most effective when combined with local recruitment, offline support, and support of institutions. Instead of being like a one-size-fits-all program, it is a platform that needs to be aligned to what workers are experiencing. How maximally DPI can reinforce livelihoods is eventually subject to the inclusiveness with which the program is fashioned and its efficiency anchored on the ground.",
+                "STATUS OF INFORMAL WORKERS",
+                "The informal sector in India is a very vast sector; it includes various forms of labour, workers, and small businesses that are not industrially formalised yet and operate in a very small area. There are various subgroups that have benefited from the DPI, but there are groups who are neglected or unable to utilise the service provided to them in the optimum manner. Small business owners benefited the most from the e-payment system; it gave them the sense of security to run their business from their home. But the informal sector does not only contain the small businesses; it also contains the vast labour sector, which includes all kinds of labourers (daily wage labourers, gig workers, street vendors, rickshaw pullers, glass industry workers, etc.) who are not literate or digitally illiterate. They are the people who face the difficulty of accessing digital forums the most. They are generally illiterate, come in under the poverty line, and have very minute access to various technological services. The digital inclusion of women, specifically for the women in rural areas, is significantly low and mostly linked to the socioeconomic barriers as well. While digital inclusion can prove to play an important role in women's social and economic upliftment, they face a significant amount of discrimination in access to technologies.",
+                "PUBLIC- PRIVATE PARTNERSHIP (PPP) MODEL",
+                "According to the Government of India, the PPP is collaboration between public authorities and private entities for delivering infrastructure or services, with shared investment, risk, & responsibility.”",
+                "The PPP model is evident due to the result of the scarce resources, as the government cannot fund and falls into deficit to meet the needs of India’s large population. PPP results in identifying the potential and performing effectively, giving back quality and quantity at the same time. What stands out is how the PPP model becomes human. It works at the best level where and when people know each other, where technology is elaborated in local languages, and where digital access is made less daunting. In a manner, it’s not just about raising infrastructure, but it’s about building comfort and confidence. The PPP model, if not regularised, can lead to exploitation, which mainly depends on who is providing it and where, which in turn can undervalue the significance of PPP in the informal sector.",
+                "The PPP model supports the informal workers via hard and soft infrastructure, providing incentives but does not tend to take into consideration the marginalisation that led to illiteracy & backwardness. Also, where people often lack documents and stable addresses, the PPP model can feel patchy many a time."
+            ]
+        },
+        {
+            heading: "POLICY AND PRACTICE RECOMMENDATIONS",
+            paragraphs: [
+                "After intensively studying and analysing the concerns outlined above, we proposed the following recommendations:",
+                "•There should be a universal legal definition for the informal workers, for formal recognition, legal security and access to welfare schemes.",
+                "•Organise awareness drives at the rural-level through Panchayats, ASHA workers, and Anganwadi workers for both men and women about the digital schemes and also identify the challenges faced by them to cater them accordingly.",
+                "•Simplify e-portals and offer interface in various regional and local languages to cater to the mass public.",
+                "•Establish government digital hubs under PPP model, specifically designed to provide digital services to those without smartphones or internet access. These hubs to be staffed with local language speaking trained personnel.",
+                "•Emphasises the need for user-centric design and usability of digital services, involving user-friendly interfaces, clear instructions, and features that cater to the specific needs of rural populations.",
+                "•The government should adhere to the principle of privacy by design, which entails considering privacy from the outset when developing any digital platform, including applications, websites, or other digital public infrastructure.",
+                "A systematic approach is essential to bridge the digital divide in the country. The informal sector requires government attention from the initial stages of creating an online account to sustained access and inclusion."
+            ]
+        },
+        
+    ],
+    conclusion: [
+        "This paper examines the persistent digital divide and the exclusion of informal sector workers from accessing Digital Public Infrastructure (DPI) in India. Despite initiatives like Jan Dhan, UPI, and E-Shram, many informal workers remain excluded due to deep-rooted socioeconomic and structural barriers. The paper highlights how digital access can serve as useful measure to formalise the informal sector, making it more visible and connected.",
+        "Using secondary data, this paper reveals how digital connectivity affects informal workers socioeconomically. While DPI has benefited MSME owners, large proportion of informal workers, particularly women in rural areas still face exclusion because of limited digital literacy, deep-rooted social norms, and infrastructural gaps.",
+        "This paper argues for an inclusive, systematic policy approach to address these challenges. Key recommendations include introducing a universal legal definition for informal workers, expanding digital awareness programs-especially for women in rural areas, setting up local digital hubs through Public-Private Partnership (PPP) model, simplification of e-portals and adherence to principle of privacy by design. Future research should explore the rural–urban digital divide within the informal sector more deeply and apply quantitative methods to measure DPI’s impact over time.",
+        "In conclusion, DPI must be viewed not only as technological advancement but as a driver of inclusive growth and social equity. If implemented equitably, it can help achieve Sustainable Development Goals such as SDG 1 (poverty eradication), SDG 5 (gender equality), SDG 8 (decent work and economic growth), SDG 9 (industry, innovation and infrastructure), SDG 10 (reduced inequalities), SDG 16 (peace, justice and strong institutions), and SDG 17 (partnerships for the goals). Its aim should be to build an inclusive society across the country—not just a digitalised economy.",
+        "AUTHORS’ CONTRIBUTIONS ",
+        "1. Gauri Sharma",
+        "Contributions: Status of Informal Workers, Methodological Overview, Conclusion, policy recommendation",
+        "2. Harmanpreet Singh",
+        "Contributions: Understanding the Digital Divide, Abstract, policy recommendation",
+        "3.Naukhaiz Aftab",
+        "Contributions: Regulatory and Legal Frameworks, Problem Statement and Research Question, policy recommendation",
+        "4.Ruchi Tiwari",
+        "Contributions: PPP Model, Methodological Overview, policy recommendation",
+        "5.Shivangi Varma",
+        "Contributions: Financial Inclusivity, Introduction and Background, policy recommendation",
+        "6.Mahi Tyagi",
+        "Contributions: Impact on Livelihoods, Introduction and Background, policy recommendation"
+
+    ],
+    references: [
+        {
+            heading: "1. Alliance, G. Digital Public Infrastructure Ecosystem.",
+            "links": ""
+        },
+        {
+            "heading": "2. Bandura, R., McLean, M., & Smutny, C. (2024). Approaches to digital public infrastructure in the Global South: An overview of India, Ukraine, Brazil, and Zambia. Centre for Strategic and International Studies (CSIS)",
+            "links": "https://www.jstor.org/stable/resrep62744"
+        },
+        {
+            "heading": "3. Bhatnagar, S. (2004). E-Government: From vision to implementation. The Sage Publications.",
+            "links": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.scribd.com/document/610714527/Subhash-Bhatnagar-E-Government-From-Vision-to-Implementation-A-Practical-Guide-With-Case-Studies-SAGE-Publications-Pvt-Ltd-2004-1&ved=2ahUKEwiGzYveu9iOAxU07jgGHUSwCxwQFnoECCAQAQ&usg=AOvVaw2vQj5lPe3AUSAfFohttGAL"
+        },
+        {
+            "heading": "4. Chakraborty, S., & Das, S. (2025). Financial Inclusion of the MSME Sector in India. In Contemporary Business Practices and Sustainable Strategic Growth (pp. 170-185). Bentham Science Publishers.",
+            "links": ""
+        },
+        {
+            "heading": "5. Committee of Experts on Data Protection Framework for India. (2018). A Free and Fair Digital Economy: Protecting Privacy, Empowering Indians.",
+            "links": "https://prsindia.org/policy/reportsummaries/free-and-fair-digital-economy"
+        },
+        {
+            "heading": "6. Das, H., Gupta, A., & ILAVARASAN, V. (2025). Unlocking Growth: Drivers of Small Businesses to Embrace Digital Public Infrastructure.",
+            "links": ""
+        },
+        {
+            "heading": "7. Devi, S. (2025).Impact of digitization and UPI on small informal businesses in India. Journal of Advanced Management Studies, 2(1), 1–4.",
+            "links": "https://doi.org/10.36676.jams.v2.i2.34"
+        },
+        {
+            "heading": "8. Dewan, R., & Kulkarni, S. (2023). Digital public infrastructure: The rails for an inclusive digital economy. Observer Research Foundation.",
+            "links": "https://www.orfonline.org/research/digitalpublic-infrastructure"
+        },
+        {
+            "heading": "9. Dubey, A., Sinha, A., & Raj, A. (2024). Navigating the digital divide in India: A comprehensive guide. Humanities & Social Sciences Reviews, 12(2).",
+            "links": "https://doi.org/10.18510/hssr.2024.1223"
+        },
+        {
+            "heading": "10. Economic Survey 2022-23, Arvind Panagariya, VC of NITI Aayog.",
+            "links": ""
+        },
+        {
+            "heading": "11. Government of India. (2000). The Information Technology Act, 2000.",
+            "links": "https://www.indiacode.nic.in/handle/123456789/13116"
+        },
+        {
+            "heading": "12. Government of India. (2007). The Payment and Settlement Systems Act, 2007.",
+            "links": "https://www.indiacode.nic.in/handle/123456789/2082"
+        },
+        {
+            "heading": "13. Government of India. (2023). Digital Personal Data Protection Act, 2023",
+            "links": "https://www.meity.gov.in/content/digital-personal-data-protection-act-2023"
+        },
+        {
+            "heading": "14. Imam, M., & Chinnadurai, A. S. Digital Inclusion for Rural Women: The Role of Panchayati Raj Institutions in Bridging the Gender Gap.",
+            "links": ""
+        },
+        {
+            "heading": "15. International Labour Organization. (2024). Scaling up digital wages: Lessons and challenges from India’s enabling environment. ILO Global Centre on Digital Wages for Decent Work.",
+            "links": "https://www.ilo.org"
+        },
+        {
+            "heading": "16. Kshirsagar, A., & Cleary, S. (2024). Achieving equitable growth: An assessment of the impact of digital public infrastructure on informal workers in India. Journal of Student Research, 13(4).",
+            "links": "https://www.jsr.org/hs/index.php/path/article/view/8209"
+        },
+        {
+            "heading": "17. Kumari, D., Giri, A. K., &Saruparia, C. (2025). Role of gender-based digital financial inclusion and women empowerment in poverty reduction: evidence from Asian countries. Discover Sustainability, 6(1), 283.",
+            "links": ""
+        },
+        {
+            "heading": "18. Laskar, M. (2023). Caste-based digital divide and the question of inclusivity. Economic and Political Weekly, 58(31).",
+            "links": "https://www.epw.in"
+        },
+        {
+            "heading": "19. Maiti, D., & Khari, B. (2023). Digitalisation, Governance and the Informal Sector.",
+            "links": ""
+        },
+        {
+            "heading": "20. Mishra, R., & Sharma, R. (2022). Public-private partnerships in digital welfare: Linking Aadhaar to informal sector policy. Indian Journal of Public Administration, 68(3), 278–292.",
+            "links": ""
+        },
+        {
+            "heading": "21. Muralidharan, K., Niehaus, P., &Sukhtankar, S. (2016/2020). The impact of Aadhaar-linked biometric authentication on welfare delivery and leakage in India. In Integrating biometric authentication in India’s welfare programs. India Policy Forum Working Paper.",
+            "links": ""
+        },
+        {
+            "heading": "22. Oxfam India. (2022). India inequality report 2022: Digital divide.",
+            "links": "https://www.oxfamindia.org"
+        },
+        {
+            "heading": "23. Reserve Bank of India. (nd). Unified Payments Interface (UPI).",
+            "links": "https://www.rbi.org.in/commonman/English/scripts/upi.aspx"
+        },
+        {
+            "heading": "24. Sengupta, N., Gaurav, S., & Evans, J. (2021). The skills space in informal work: Insights from Bangalore slums. The Journal of Development Studies, 57(10).",
+            "links": "https://doi.org/10.1080/00220388.2021.1898593"
+        },
+        {
+            "heading": "25. Sharma, S., Bose, A., Shekhar, H., & Pathania, R. (2019). Strategy for financial inclusion of informal economy workers (No. 374). Working Paper.",
+            "links": ""
+        },
+        {
+            "heading": "26. Sharma, V. (2020). PPPs for urban slums: Innovations in digital service delivery. Centre for Policy Research. (CPR).",
+            "links": ""
+        },
+        {
+            "heading": "27. Sindakis, S., &Showkat, G. (2024). The digital revolution in India: bridging the gap in rural technology adoption. Journal of Innovation and Entrepreneurship, 13(1), 29.",
+            "links": ""
+        },
+        {
+            "heading": "28. Singh, C., & Sanyal, A. (2023). An Analysis of Financial Inclusion of India. Productivity, 64(3), 309-320.",
+            "links": ""
+        },
+        {
+            "heading": "29. Singh, R. (2019). Role of PPPs in infrastructure development for informal sectors in Indian cities. Journal of Urban Affairs, 41(5), 715–731.",
+            "links": ""
+        },
+        {
+            "heading": "30. State-of-Indias-Informal-Sector_A-Deep-Dive-into-Enterprises-Statistics-and-Segments.",
+            "links": "https://www.microsave.net/wp-content/uploads/2024/12/State-of-Indias-Informal-Sector_A-Deep-Dive-into-Enterprises-Statistics-and-Segments.pdf"
+        },
+        {
+            "heading": "31. Unique Identification Authority of India (UIDAI)",
+            "links": "https://uidai.gov.in"
+        },
+        {
+            "heading": "32. Vaidehi, Y., Hiranandani, K., &Rajgopal, S. (2020). Bridging the digital divide through community networks: The case of Gram Marg. Proceedings of the 7th Annual Symposium on Computing for Development.",
+            "links": "https://doi.org/10.1145/3446223.3446224"
+        },
+        {
+            "heading": "33. Vedavalli, P., Kwatra, N., Srinivasan, S., & Sinha, V. (2023). Leveraging Digital Public Infrastructure for building inclusive social protection systems.",
+            "links": ""
+        },
+        {
+            "heading": "34. World Bank. (2018). India development update: Digital infrastructure and household welfare. World Bank.",
+            "links": ""
+        },
+        {
+            "heading": "35. World Bank. (n.d.). PPP Knowledge Lab: Introduction to Public-Private Partnerships.",
+            "links": "https://ppp.worldbank.org/public-privatepartnership/PPP_Online_Reference_Guide/Introduction"
+        }
+    ]
+
+},
+{
+    "id": 8,
+    "issue": 3,
+    "volume": 1,
+    "title": "Localizing Climate Action: The National Action Plan on Climate Change (NAPCC) and Panchayats",
+    "author": "Sayyed Zeenat, T. S. Bagheshri, and Bhavya Singh",
+    authorAbbrev: "S. Zeenat, T. S. Bagheshri, B. Singh",
+    abstract: [
+        "This article studies the localization of climate action through the lens of National Action Plan on Climate Change (NAPCC) and its implementation through the framework of Panchayat Raj Institutions aiming to understand how effectively climate change is being localized in In the context of SDGs 13(Climate Action), we focus on assessing the alignment between national climate goals and their reach into community-level initiatives. The idea behind this study is to uncover the potential of decentralized governance in building climate-resilient Panchayats. Using the qualitative research methods such as policy reviews, literature reviews and case studies from selected Panchayats, by analyzing the current state of NAPCC mission integration at the local level.",
+        "It identifies three critical themes: (1) Climate Resilient Rural Development, (2) Policy and Institutional Synergies, and (3) Capacity Building and Finance. These themes guide the investigation into institutional, policy, and financial mechanisms that support or hinder effective climate action at the grassroots",
+        "This study reveals that many communities find it difficult to make the climate action plans implemented in their local level effectively. However, there are some notable cases—like the integration of GPDP, Mission LiFE, and collaborations with initiatives such as MGNREGA—that demonstrate how teamwork can drive real progress. The paper concludes with some practical recommendations: enhancing training for local leaders, ensuring better coordination among departments, and involving everyone in the planning process to make climate action more impactful at the local level."
+    ],
+    keyword: [],
+    status: "Submitted",
+    intro: [
+        "The national framework on climate change in India is based on the National Action Plan on Climate Change (NAPCC) that outlines eight national missions aimed at promoting environmental sustainability and resilience to climate change. The NAPCC is strategic in its vision, but realizing that vision is contingent on its monocular application and incorporation into local actions. PRIs being the institutional levels responsible for rural development, are important agents of climate change governance.",
+        "Nonetheless, there are issues related to poor access to resources, inadequate institutional capacity, and limited policy coherence that challenge this localization. The introduction has the aim of laying the framework for understanding how the climate change agenda, as outlined at the level of the national agenda, is then translated into actions by the Panchayats."
+    ],
+    content: [
+        {
+            heading: "Problem Statement and Research Objectives",
+            paragraphs: [
+                "Problem Statement:",
+                "Although India has developed a goal-oriented national climate policy through the NAPCC, implementation of these policies and missions into action at the grassroots level remains a significant challenge and under-researched work.",
+                "Research Objectives:",
+                "To assess the integration of NAPCC missions into Gram Panchayat Development Plans (GPDPs)",
+                "To identify best practices and barriers in localizing climate action"
+            ]
+        },
+        {
+            heading: "Thematic Literature Review",
+            paragraphs: [
+                "Theme: – Climate Resilient Rural Development",
+                "Rural India is on the frontline of climate change vulnerability. The majority of the rural population (more than 70%), for their livelihoods depend on agriculture and natural resources, are especially vulnerable with a degree of risk associated with more irregular weather events, insufficient water resources, land degradation and loss of biodiversity. Thus, climate resilient rural development represents more than a development challenge but also a question of climate justice, food security and sustainable national development over long timeframes.",
+                "The National Action Plan on Climate Change (NAPCC) provides a policy framework at the macro-level through 8 missions and their associated objectives, including the National Mission for Sustainable Agriculture (NMSA), the National Water Mission (NWM) and the Green India Mission. At present, they are often not visible at the grassroots level and aligned to local institutions, and thus rarely act as vehicle for transformative change in rural society.",
+                "Panchayati Raj Institutions (PRIs) provide a particular institutional opportunity for decentralized and participatory climate action. They derive their legitimacy from the 73rd Constitutional Amendment, and are legislated to create and execute development plans for socio-economic development and social justice. If we embedded those objectives as part of the NAPCC in the Gram Panchayat Development Plans (GPDPs) then community endorsed resilience strategies could facilitate local solutions to these vulnerabilities.",
+                "The 'Climate Resilient Livelihoods' project in Malkangiri district, Odisha involved a collaborative partnership between Grams Panchayats, UNDP and the Odisha State Climate Change Cell. For PRIs, participatory vulnerability assessments in their communities helped to identify issues of concern, including cyclical floods and crop failures, and adaptive solutions, including elevated grain banks, saline first paddy varieties and decentralized solar irrigation. All of this was supported by relevant components of National Mission for Sustainable Agriculture (NMSA) and National Water Mission (NWM) which was an effective example of vertical integration connecting the policy with planning at the local sub-district level.",
+                "Likewise, in Kolar, Karnataka, the Panchayat implemented water budgeting and demand-side groundwater management with guidance from the National Water Mission “Catch the Rain” campaign. This example shows how PRI-led microplanning can be cumulatively harnessed to meet mission targets on water efficiency.",
+                "Nonetheless, structural barriers remain:",
+                 "Lack of climate literacy among Panchayat m",
+                 " Lack of local climate data and early warnings",
+                 " Rigid scheme-oriented funding that does not allow for integrated resilience planning",
+                 " Weak convergence across sectors (agriculture, forestry, water, rural development).",
+                "The next pivotal step is to create 'Climate-Resilient Panchayat Frameworks' at the state level, with allocated budgets, capacity development modules, and data dashboards around district-specific vulnerabilities. The Climate Resilient Rural Development will also enhance the climate action or SDG 13 relationship as there is greater recognition of the importance of local action within the global space. The continued commitment of India to support climate-resilient communities through Mission LiFE and the Localizing SDGs Campaign can further bolster the ability of Gram Panchayats (GPs) to scale adaptation responses.",
+                "Theme:  Policy and Institutional Synergies",
+                "Successful climate governance in India relies on ongoing coordination between policy regimes and institutions. The National Action Plan on Climate Change (NAPCC), and their eight mission based approaches, creates strategic ideas on how to address climate challenges. The implementation part however, depends on how well it blends with State Action Plans on Climate Change (SAPCCs) and becomes part of the local governance frameworks, especially through Panchayati Raj Institutions (PRIs). This sensitive link, sometimes called policy and institutional synergy is essential to helping national goals falls into activities that have local relevance.",
+                "One of the major challenge is the gap between center policy making and local implementation. While Gram Panchayat Development Plans (GPDPs) give a mechanism for localizing climate priorities, poor coordination and inadequate technical assistance often limit their practical implementation. Many a times Panchayats are not fully utilized, despite the fact that Constitution have given role of panchayats separately for local development. Looking at the positive side, local developments have taken few steps, models such as watershed programs and behavior change initiatives merged with MGNREGA like programs exemplify the benefits of institutional synergy. These initiatives shows that if ministries, departments, and Panchayats work together closely, climate action can become more effective and inclusive.",
+                "In order to augment this synergy, there is a need to institute formal coordination mechanisms at different levels. This must involve central ministries (such as MoEFCC and DST), state climate cells, and local government institutions. Providing access to climate information and financial resources, in particular through connecting funds from schemes such as PMKSY and Jal Jeevan Mission, is also essential. India is an agrarian country we know this agriculture happens in village, agriculture is the most crucial and ignorant in terms of taking it as a career. This is also due to no prominent outcome which ultimately linked to climate actions. Our actions, how we take care of the climate is given back to us, so it is utmost important to make local community familiar with climate actions and policies made for it causes.",
+                "India has achieved its position in international climate discussions and debates, internal unity is important. Locals community should be aware of the policies made for them under climate action plans and implementation of those policies should be done effectively. Its of utmost importance to recognize panchayats, as actors and participants in the stakeholders participatory framework, rather than simply just implementers. At the end, the success of climate resilience at the grassroots level rests on enabling integrated policy interventions and institutional coordination to enable actor and beneficiary to enable to take ownership of their own adaptations initiatives.",
+                "Theme: Capacity Building and Finance",
+                "Building the capacity of Panchayati Raj Institutions (PRIs) and enabling access to climate finance is crucial for converting the frameworks outlined in the National Action Plan on Climate Change (NAPCC) into actions at the local level. PRIs manage over 250,000 Gram Panchayats that interact directly with almost 65% of the rural population in India (MoPR, 2020). Yet, with this powerful base, they are not able to achieve much with climate change, largely due to a shortage of technical knowledge and institutional assistance, as well as a lack of access to financial resources.",
+                "Recent analysis finds, only 12% of Gram Panchayat Development Plans (GPDPs), built climate resilience into their plans, and over 70% of Panchayats have never accessed climate specific funding (NIRDPR, 2021). Although GPDP or other funding mechanisms exist, such as the National Adaptation Fund on Climate Change (NAFCC), MGNREGA and PM-KUSUM, PRI participation is limited, due to their lack of understanding and skills to mobilize climate finance (MoEFCC, 2023).",
+                "Capacity building is a tremendous need. A survey done by NIRDPR (2019) reported that only 10% of Primary Revenue Institutions (PRI) facilitators had received any form of training on climate adaptation (NIRDPR, 2020). PRIs cannot access funds such as the ₹364.35 crore NAFCC (MoEFCC, 2023), or take advantage of schemes under the State Action Plans on Climate Change (SAPCCs) without training on proposal writing, budgeting, and co-ordination between departments. For example, in PM-KUSUM which aims for 30.8GW solar capacity for rural areas where the scheme is not fully exploited due to incomplete integration at sub-state levels (MNRE, 2022).",
+                "Working alongside NGOs, private Corporate Social Responsibility (CSR) actors and experts in the field can lead to lessons that improve climate adaptations at the grassroots. Two pilot programs in Odisha and Maharashtra demonstrated a 25–30% increase in the proportion of climate-related spending in the budgetary allocation and enabled a better relationship with communities (Vij et al., 2024).",
+                "Since India suffers $87 billion in economic losses due to climate disasters every year (World Bank, 2021), investing in the PRIs is a compelling strategy. As greater training, access to financial resources and inclusive planning is developed, PRIs can take the transformational lead in locally-driven sustainable climate action."
+            ]
+        },
+        {
+            heading: "Methodological Overview",
+            "paragraphs": [
+                "The focus of this research is qualitative. We have used secondary sources which were available like policy documents, earlier research, official reports, and expert commentary to collect data. To look at the weaknesses and strengths in the local implementation of NAPCC policies and schemes, we drawn themes through research lens and comparative case studies from selected Panchayats."
+            ]
+        },
+        {
+            heading: "Core Findings",
+            paragraphs: [
+                "Strengthening Local Climate Governance",
+                "· PRIs generally have little to no access to climate finance, such as the NAPCC.",
+                "· A majority of PRIs do not have the technical capability to support the writing of fundable project proposals.",
+                "· Climate and ecology are not embedded into GPDPs – due to the low levels of awareness and capacity around climate and ecology.",
+                "Inter-Institutional Coordination",
+                "· The various departments, such as agriculture, energy, and rural development, are generally insulated from one another and as a result climate planning is often not integrated.",
+                "Bridging the Capacity-Finance Gap",
+                "· More than 90% of PRI officials do not have a formal education and training for mobilizing climate finance, interlinking schemes and budgeting for resilience approaches (NIRDPR, 2020)",
+                "· The existing climate-related schemes, like PM-KUSUM and SAPCCs aren't even localized with Panchayats not aware of scheme components like objectives, eligibility or modalities of implementation.",
+                "· Even if CSR and NGO partnerships exist, it's obvious that most Panchayats do not have the institutional set-up to initiate or sustain these partnerships.",
+                "· There is almost no incorporation of climate-related vulnerabilities (like drought/flood risks) into the planning and fund allocation, which, as sad as it sounds, makes the proposal less investable or productive",
+                "· There is no formal and standardized digital platforms or dashboards that capture climate-related pathways to finance, the fund status, and any anecdotes from successful examples (other models)."
+            ]
+        },
+        {
+            heading: "Interpretation and Analysis",
+            paragraphs: [
+                "If the national architecture (NAPCC) is a full-fledged document, there are gaps between aspirations and implementation because of lack of capacity, coordination and context. The successful pathways and models, like climate-sensitive GPDPs and interdisciplinary convergence (E.g watershed management through MGNREGA) proved that structured and quality capacity and participatory governance can work. The analysis suggests that Panchayats can be conveners of climate adaptation when provided relevant tools, training and funds."
+            ]
+        },
+        {
+            heading: "Policy and Practice Recommendations",
+            paragraphs: [
+                "Recommendation Area: Technical Support and Finance Mobilization",
+                "· Establish climate action technical cells within district planning offices.",
+                "· Conduct training sessions on accessing climate finance and ensuring compliance.",
+                "· Create a district-level climate fund pooling mechanism.",
+                "· Introduce a mobile support system for PRIs to provide real-time help.",
+                "Recommendation Area: Community Participation and Innovation",
+                "• Launch the “One Panchayat, One Climate Action” campaign to promote local solutions.",
+                "• Incentivize and recognize climate-resilient initiatives with annual Panchayat-level climate awards.",
+                "• Use social audits and Gram Sabhas to assess climate-related projects and promote accountability",
+                "Recommendation Area: PRI-Centric Climate Solutions: Identifying Risks, Raising Funds, and Tracking Progress",
+                "· Create a team of ‘Trained Professionals – Climate Guides’ at the block/district level to assist PRIs in fund identification, proposal drafting, and monitoring",
+                "· Incorporate localized climate risk mapping into Panchayat planning, like recurring floods or heatwaves, so their plans reflect what’s happening on the ground.",
+                "· Design an open-access “Climate Finance Navigator” portal, offering real-time data on schemes, deadlines, fund status and successful use cases.",
+                "· Facilitate PRI–CSR convergence platforms at the district level to unlock non-government funding through trust-building",
+                "· Mandate quarterly climate finance utilization reviews at the district planning committee level."
+            ]
+        },
+        {
+            heading: "Author Credentials",
+            paragraphs: [
+                "Batch: JULY B2 – Public Policy 4",
+                "Authors (by Theme):",
+                "Climate Resilient Rural Development: Bagheshri T. S.- bagheshri14@gmail.com",
+                "Policy and Institutional Synergies: Sayyed Zeenat Yahiya -sayyedzeenat741@gmail.com",
+                "Capacity Building and Finance: Bhavya Gupta- bhavyagupta2075@gmail.com"
+            ]
+        }
+    ],
+    conclusion: [
+        "Panchayati Raj Institutions (PRIs) act as the agents of local climate action. Localizing climate action through PRIs is not merely a governance issue, it is an evolution needed in India’s climate framework. This report shows that, in spite of the NAPCC laying out a well-planned national strategy, this does not translate into action at the local level, partly due to issues like fragmentation of institutions for climate action, capacity, disjointed pathways to funds, and limited community engagement.",
+        "The findings indicated a significant shift in the climate governance architecture of India away from a top-down policy delivery model towards building bottom-up resilience. The Panchayats must not only be perceived as implementers of climate action, but as recognized climate decision-makers. For this milestone to materialize, state and central governments have to work to catalyze knowledge transfer and to build technical capacity, with participatory governance models that are forged from the local experience.",
+        "To achieve the tipping point of SDG 13 (Climate Action) at scale is to ensure that the lowest tiers of governance are empowered. With climate considerations integrated into Local plans and PRIs as active actors in the climate response, India will be on a pathway to building resilient rural communities that are ready not only to survive the climate crisis, but to spearhead effective resistance against it."
+    ],
+    references: [
+        { heading: "Department of Science & Technology, Government of India. (n.d.). Climate Change Programme. Ministry of Science & Technology.",  links: "https://dst.gov.in/climate-change-programme#:~:text=The%20Government%20of%20India%20launched,Strategic%20Knowledge%20for%20Climate%20Change" },
+        { heading: "Press Information Bureau. (2024, June 5). India ranks 7th in the Global Climate Risk Index 2024. Ministry of Environment, Forest and Climate Change.", links: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2032857#:~:text=The%20composite%20score%20for%20India,improving%20the%20lives%20of%20citizens" },
+        { heading: "Drishti IAS. (2019, September 19). National Action Plan on Climate Change (NAPCC).", links: "https://www.drishtiias.com/to-the-points/Paper2/national-action-plan-on-climate-change" },
+        { heading: "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ). (2019, March). National Adaptation Plan (NAP) India – Climate adaptation in action.", links: "https://www.adaptationcommunity.net/wp-content/uploads/2019/04/giz2019-en-factsheet-nap-india-low-res.pdf" },
+        { heading: "Press Information Bureau. (2025, June 5). India leads climate action through policy and local-level implementation: MoEFCC.", links: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2101289" },
+        { heading: "Singh, M. (2021). Politics and Community Narratives of Participation in Local Governance of Rural India. SSRN.", links: "https://doi.org/10.2139/ssrn.4034736" },
+        { heading: "Tarh, T. Ramya. (2014). Role of Panchayati Raj Institutions in Rural Development: The Study of a Tribal Village in Arunachal Pradesh. SSRN.", links: "https://doi.org/10.2139/ssrn.2556301" },
+        { heading: "Vij, S. et al. (2024). Power in climate change policy-making process in South Asia. Climate Policy, 24(1).", links: "https://doi.org/10.1080/14693062.2023.2271440" },
+        { heading: "National Institute of Rural Development and Panchayati Raj (NIRDPR). (2020). Training Module on Climate Change Adaptation for PRIs.", links: "" },
+        { heading: "Ministry of Environment, Forest and Climate Change (MoEFCC). (2023). Guidelines for Accessing Climate Finance under NAFCC and SAPCCs.", links: "" },
+        { heading: "T. Ramya (Tarh), “Role of Panchayati Raj Institutions in Rural Development: The Study of a Tribal Village in Arunachal Pradesh,” SSRN Electron. J., 2014, doi: 10.2139/ssrn.2556301.", links: "https://doi.org/10.2139/ssrn.2556301" },
+        { heading: "S. Vij, R. Stock, A. Ishtiaque, M. Gardezi, and A. Zia, “Power in climate change policy-making process in South Asia,” Clim. Policy, vol. 24, no. 1, pp. 104–116, Jan. 2024, doi: 10.1080/14693062.2023.2271440.", links: "https://doi.org/10.1080/14693062.2023.2271440" },
+        { heading: "GIZ. (2019). National Adaptation Plan (NAP) India – Climate adaptation in action.", links: "https://www.adaptationcommunity.net/wp-content/uploads/2019/04/giz2019-en-factsheet-nap-india-low-res.pdf" },
+        { heading: "Ministry of Environment, Forest and Climate Change (MoEFCC). (2024). India leads climate action through policy and local-level implementation: MoEFCC (Press Release, June 5).", links: "https://pib.gov.in/PressReleasePage.aspx?PRID=2101289" },
+        { heading: "National Institute of Rural Development and Panchayati Raj (NIRDPR). (n.d.). Capacity building for Panchayats.", links: "https://nirdpr.org.in/" }
+    ]
+},
+{
+  id: 9,
+  issue: 3,
+  volume: 1,
+  title: "The Impact of Trump-Era U.S. Migration Policy on Humanitarian Protections, Global Inequalities, and International Legal Frameworks",
+  author: "Christabel Okoroafor, Anushka Pandey, Natalie Joseph, Ceren Kale, Akshara Shukla, Chibudom Ironuru",
+  authorAbbrev: "C. Okoroafor, A. Pandey, N. Joseph, C. Kale, A. Shukla, C. Ironuru",
+  abstract: [
+    "Migration is a fundamental aspect of human history, driven by the search for survival, security, and opportunity. From the earliest movements out of East Africa to contemporary global flows, migration patterns have always reflected deeply embedded political, economic, and environmental dynamics. In the modern era, migration is shaped by “push” factors such as conflict, poverty, and climate change, and “pull” factors like economic opportunity and safety. However, these movements are not merely personal choices—they symbolize persistent global inequalities, particularly between the Global North and South. Statistics reveal that while 37% of migration occurs between Southern nations, corridors such as Mexico–U.S. and Africa–Europe underscore the influence of geopolitical alliances, policy disparities, and entrenched systemic inequalities.",
+    "The study of U.S. migration policy offers a powerful lens into these broader forces. Recent years have witnessed profound shifts, especially under the Trump administration, which implemented sweeping rollbacks on humanitarian protections. Policies like the “Zero-Tolerance” family separation initiative, the “Remain in Mexico” protocol, travel bans targeting Muslim-majority and African countries, and narrowing of asylum eligibility marked a stark departure from prior commitments to refugee and asylum rights. These measures resulted in widespread family separation, increased deportations, and fueled an atmosphere of fear and exclusion for migrants and asylum seekers.",
+    "Moreover, the Trump administration’s approach has had long-term reverberations—weakening institutional capacity, fueling backlogs, and politicizing immigration agencies. Even as the Biden administration has attempted to reverse some of these policies, structural barriers and the legacy of enforcement-first strategies persist, complicating efforts toward humane migration justice and reform. The implications extend beyond the U.S., altering global attitudes and contributing to a backlash against multilateral cooperation on migration issues. As migration remains a key site of contestation and negotiation, achieving genuine change will require not just policy reversal but structural transformation to address the deep-rooted inequalities, uphold human rights, and rebuild trust in migration governance."
+  ],
+  keyword: [],
+  status: "",
+  intro: [
+    "Migration is as old as humanity itself, rooted in survival, security, and opportunity. The introduction and core findings establish a theoretical foundation for understanding migration, highlighting it as a historical constant shaped by 'push' and 'pull' factors, and as a reflection of global inequalities. The contemporary period is highlighted by intense South-North corridors, policy disparities, and global inequality."
+  ],
+  content: [
+    {
+      heading: "Research Objectives",
+      paragraphs: [
+        "1.  How did Trump-era U.S. migration policies affect humanitarian protections, asylum processes, and migrant communities?",
+        "2.  How do global inequalities between the Global South and North shape migration flows and policies, especially in key corridors like Mexico-U.S. and Africa-Europe?",
+        "3.  What impact do U.S. migration policy changes have on international legal frameworks and global cooperation on migration?"
+      ]
+    },
+    {
+      heading: "Methodology",
+      paragraphs: [
+        "This research uses a mix of quantitative and qualitative approaches, analyzing migration data, government policies, and also conducting interviews and document reviews. Combining these methods helps capture both broad migration trends and the personal experiences of migrants."
+      ]
+    },
+    {
+      heading: "Thematic Literature Review",
+      paragraphs: [
+       "The provided research overviews the multifaceted and complex dynamics of global migration, focusing on the U.S. and its policy shifts. The introduction and core findings establish a theoretical foundation for understanding migration, highlighting it as a historical constant shaped by push and pull factors, but also as a reflection of deep-seated global inequalities. The literature, including works by Georgiana Florentina Tataru and Jennifer Hyndman, positions migration within a geopolitical context, with disparities between the Global South and North driving significant flows. The mention of the Migration Policy Institute’s statistics on South-South versus South-North migration corridors reinforces this point, underscoring the influence of economic disparities and geopolitical alliances. The review of Trump-era policies, drawing on various sources like AP News and The Guardian, provides a detailed account of specific measures such as the Zero-Tolerance and Remain in Mexico policies. These sections emphasize the severe humanitarian consequences of these policies, including family separations and the erosion of asylum protections. The Long-Term Legacy and DEI implications sections extend this analysis, citing sources like the Brookings Institution and the National Immigration Law Center (NILC) to argue that these policies have had a lasting, detrimental impact on institutional capacity and the principles of Diversity, Equity, and Inclusion (DEI). The final section, International Legal Frameworks, broadens the scope to international relations, detailing how U.S. policies influenced other countries and weakened global cooperation on migration, with references from Amnesty International and the American Immigration Council. Overall, the literature collectively paints a picture of migration as a political and social phenomenon, deeply affected by policy choices that have far-reaching humanitarian and international consequences. " 
+      ]
+    },
+    {
+      heading: "Core Findings",
+      paragraphs: [
+        "The Politics of Migration: ",
+        "Migration is as old as humanity itself, but it has always been rooted in survival, whether it is for food, security, or opportunity. From early human movement out of East Africa to the transatlantic slave trade, migration has long been shaped by political, economic, and environmental factors. ",
+        "Today, migration refers to the movement of people within and across borders, driven by “push” factors (conflict, poverty, climate change) or “pull” factors (economic opportunity, safety). But migration is not merely individual, but it reflects deep structural inequalities between the Global South and Global North. World-systems theory explains how core countries prosper at the expense of peripheral ones, fueling South-North migration and inequalities. It is important that we have a clear understanding of global migration as not just the movement or mobility from Global South to the Global North but a more complex system shaped by history, geopolitics and economic disparities. ",
+        "The Migration Policy Institute states that South-South migration accounts for 37% of global migration, followed by South-North (35%), North-North (19–23%), and North-South (6%). Migration corridors like Mexico to the U.S. or Africa to Europe, which has continuously highlighted the geopolitical alliances preferences and the various inequalities. The Henley Passport Index shows vast disparities in travel freedom across countries, detailing how one's predetermined origin determines their travel liberty, with many countries in the Global South remaining restricted from going to all destinations. Visas favour the wealthy and educated while criminalizing other migrants. ",
+        "Migration policies also reveal a moral complexity in global immigration. Under the Trump administration, U.S. policies, for instance, have welcomed white immigrants (i.e. 59 white South Africans accepted in 2025) while criminalizing migrants from Latin America and Africa (PBS News, 2025; Al Jazeera, 2025; DW, 2025). Family reunification processes were disrupted, and travel bans were implemented for citizens of several Muslim-majority and African countries. These policies were subject to legal challenges and were briefly reversed and reinstated across the Trump and Biden administrations. The use of tactics by U.S. Immigration and Customs Enforcement (ICE), such as mass raids and detention without legal counsel, has been criticized by organizations like Human Rights Watch. Their findings suggest that enforcement has disproportionately targeted Black, Asian, and Hispanic individuals, raising questions about compliance with SDG 10, Target 10.7, which aims to facilitate safe and responsible migration. This raises a crucial question: where is the line between national security and the principles of justice and human rights? ",
+        "Ultimately, migration is a geopolitical issue, where countries use immigration policies to shape alliances, economic strategies, and foreign policy. Borders and immigration policies are not neutral; they reflect a nation's stance on refugee acceptance, visa approval, and the travel freedom of migrants from the Global South. These borders are often racialized and militarized, reflecting deep-seated biases based on a migrant's wealth and country of origin. While SDG 10 seeks to reduce these gaps, current migration frameworks often reinforce them, leaving the American Dream more of a myth than a reality for many. "
+      ]
+    },
+    {
+      heading: "Asylum and Refugee Policy Rollbacks under Trump",
+      paragraphs: [
+       "The Trump-era rollbacks on asylum and refugee protections marked a sharp departure from longstanding U.S. humanitarian commitments. A centerpiece of this shift was the “Zero-Tolerance” policy, which led to mass family separations at the southern border. Intended as a deterrence strategy, it resulted in thousands of children being forcibly separated from their families. Subsequent court findings and psychological research highlighted enduring mental health effects such as PTSD, anxiety, and disrupted attachment—often persisting long after reunification. ",
+       "The “Remain in Mexico” policy (Migrant Protection Protocols) further intensified the crisis by requiring asylum seekers—including vulnerable families—to wait in dangerous, unsanitary camps along the U.S.–Mexico border while their claims were processed. Many were denied legal representation, severely undermining their right to due process. Simultaneously, policies denying claims based on gang or domestic violence and restricting access for migrants who traveled through third countries further narrowed asylum eligibility. ",
+       "Additionally, the administration drastically slashed refugee admissions and enforced travel bans that targeted several Muslim-majority and African countries, even attempting to block refugees already cleared for resettlement. Many of these actions were blocked by courts, reaffirming the primacy of congressional mandates over executive overreach. Legal challenges also arose over expedited removals and mass arrests of asylum seekers. ",
+       "These policies drew sharp criticism from human rights organizations, legal experts, and the public. Surveys now show that 79% of Americans support immigration and favor more humane reforms. Critics argue that the rollbacks were less about national security and more about advancing an ideologically driven, racialized immigration agenda. ",
+       "Ultimately, these measures reshaped U.S. asylum and refugee policy, raising urgent questions about executive power, legal protections, and America’s global role in upholding human rights. The legal and moral battles sparked during this era continue to influence contemporary immigration reform discourse. "
+      ]
+    },
+    {
+      heading: "The U.S.–Mexico Border Crisis: ICE and Deportation",
+      paragraphs: [
+        "The study of contemporary American politics and policy confirms that borders do indeed matter. In the immediate aftermath of the terrorist attacks of September 11, 2001, the United States closed its land borders and airspace, asserting control over US territory while concomitantly disrupting continental trade relations. This event highlighted the need to develop “smarter” border security policies that would allow goods to continue to flow freely. Given the recent prominence of US–Mexico border security in American electoral politics, and given that cognate issues such as immigration policy and defense spending have been researched extensively, it is surprising that public opinion research has paid little attention to America's borders. Even though scholars have noted that the map-image of the state and the lines that demarcate the limits of state territory are imprinted on public consciousness. The dynamics and scale of migration in and throughout the Americas have changed since the COVID-19 pandemic. Millions of migrants and displaced people are arriving every year to the U.S.-Mexico border, hailing not just from Mexico and northern Central America, but also from countries further south and from across the globe.Although the COVID-19 pandemic, which began in 2020, likely contributed to a significant drop in immigration that year, undocumented immigration at the US-Mexico border surged and broke records in subsequent years, with unauthorized border crossings reaching over two million in both 2022 and 2023. So far, in 2024, encounter numbers have decreased overall, but they remain high for certain countries. In the first five months of the year, CBP agents encountered more than nine hundred thousand migrants and asylum seekers at the U.S.-Mexico border. The majority hailed from just six countries: Mexico, Guatemala, Venezuela, Cuba, Ecuador, and Colombia, in descending order. A 2022 UN International Organization for Migration survey found that 90 percent of Mexican migrants left the country due to violence, extortion, or organized crime. The United States and Mexico have historically cooperated on countering organized crime, but during the six-year term of outgoing Mexican President Andrés Manuel López Obrador, Mexico’s federal government often took a hands-off approach to cartels and gangs, allowing them to expand their territorial presence. Meanwhile, bilateral security cooperation has faltered. "
+      ]
+    },
+    {
+      heading: "Long-Term Legacy of Trump-Era Migration Policies",
+      paragraphs: [
+       "The Trump administration's immigration policies left a lasting mark on the American system, systematically dismantling humanitarian protections and aggressively expanding enforcement. Measures like the zero tolerance policy, which led to family separations at the border, the Remain in Mexico program, and the broad application of the public charge rule, were designed to deter immigration and create a more precarious existence for undocumented individuals in the U.S. (Hacking Law Practice, n.d.). This period saw a dramatic increase in deportations and a deliberate erosion of due process for asylum seekers, fostering an atmosphere of fear and uncertainty within immigrant communities nationwide (NILC, 2025). ",
+       "Upon assuming office, the Biden administration pledged to reverse these restrictive policies and move towards a more humane and orderly immigration system. Indeed, Biden halted border wall construction, rescinded the controversial travel ban targeting Muslim-majority countries, and affirmed protections for DACA recipients (American Journal of International Law, n.d.). However, a complete reversal has proven difficult. While some policies were swiftly overturned, others, like the institutional capacity for expedited deportations and deeply embedded enforcement mechanisms, have been harder to dismantle. The Biden administration has, at times, faced pressure to maintain aspects of the previous administration's stricter border control, as demonstrated by its recent executive order to shut down the border if crossings exceed a certain threshold (White House Briefing, 2024). ",
+       "The enduring impact of the Trump era extends beyond individual policies to the institutional damage inflicted upon agencies such as U.S. Citizenship and Immigration Services (USCIS) and Immigration and Customs Enforcement (ICE). Staffing reductions, a focus on enforcement over service, and the politicization of immigration processes have resulted in backlogs and diminished the capacity for fair and efficient case adjudication (Brookings Institution, 2025). This institutional scarring presents a significant obstacle to the future of migration justice—a framework that champions the rights, dignity, and fair treatment of all individuals, regardless of their migratory status (Human Rights Law Centre, n.d.). ",
+       "Moving forward, achieving genuine migration justice demands not only the reversal of harmful policies but also a fundamental rebuilding of trust and capacity within the immigration system. It necessitates addressing the root causes of migration, investing in humane reception and processing, and establishing accessible pathways to legal status. Without a concerted effort to repair the institutional damage and prioritize human rights, the shadow of Trump-era policies will continue to loom large, complicating efforts to build a truly just and equitable immigration system. " 
+      ]
+    },
+    {
+      heading: "U.S. Immigration Policy Under Trump in 2025 and its Implications for DEI",
+      paragraphs: [
+       "President Trump’s 2025 administration marks a harsh shift toward restrictive and punitive measures on immigration policies. This narrative not only affects humanitarian protections but also the broader landscape of Diversity, Equity, and Inclusion (DEI) in American society. ",
+       "Policy Landscape ",
+       "Policies like the end of safe passage, the mass deportations with reduced oversight by courts, have created humanitarian crises and exclusion of vulnerable groups seeking asylum or refuge. The elimination of categorical humanitarian protections such as Temporary Protected Status (TPS) and DACA leave populations with long-lasting community ties on the margins while ending direct support for victims of violence and persecution. The use of ideological vetting of visa applicants closes the door on those whose prospective entry is based on an assumption of their political stances and threatens civil liberties for those fleeing from authoritarian regimes or other forms of oppression. ",
+       "DEI Implications ",
+       "These actions reflect a dismantling of DEI values that have shaped U.S. immigration over the last few decades. By limiting not only who can enter the U.S., but also who is provided any of the protections afforded by the U.S., the administration rolled back momentum toward the goal of increasing racial, ethnic, and ideological diversity. ",
+       "Diversity: Limitations on entry for certain nationals, and the elimination of diversity components, undermine efforts to grow, sustain, and maintain a diverse and multicultural society and decreases global representation within the U.S. population",
+       "Equity: The opposite of equity, the reductions in humanitarian protections target low-income, marginalized, or high-risk communities and perpetuate cycles of disadvantage in reference to existing race, ethnicity, and national origins. ",
+       "Inclusion: The hostile environment for immigrants, enhanced interior enforcement, increased raids in sensitive places, and targeting of mixed-status families generates fear and exclusionary practices, and disrupts the social fabric in the community by reducing the opportunity for integration. "
+      ]
+    },
+    {
+      heading: "International Legal Frameworks and Institutional Backlash",
+      "paragraphs": [
+       "As a result of Trump’s harsh migration policies, a number of countries have put in place similar migration policies that also serve to discriminate against migrants and hamper their welfare. These countries’ policies sometimes differ in the sense that some of these policies are a result of direct compulsion by the US government, while some others are simply in existence due to the ideological similarities between Trump and the countries’ heads of state.  " ,
+       "For example, the governments of Guatemala, El Salvador and Honduras in 2019, were pressured by the Trump administration to sign what were called “safe third country agreements” (Amnesty International, 2020). These agreements, one could say, formed part of these three countries’ migration policy as they were in essence, supposed to open their borders and let in thousands of deportees (who are citizens of the other countries) from the United States. Thankfully, the Covid-19 pandemic and lockdown, stopped the agreement from being implemented, although, that with Guatemala was put into effect for some months(American Immigration Council, 2021). On the other hand, countries with right-leaning governments such as Hungary, Italy, Germany, Austria have followed the lead of Trump and put in place similarly harsh migration policies or have engaged in Trump-like anti-immigration rhetoric.  ",
+       "Asides from influencing specific countries, Trump has also done damage to existing international norms and frameworks. From the 2017 decision to end US participation in the Global Compact on Migration (GCM) which dealt a big blow to global efforts towards multilateralism in global migration policy decisions, to views concerning undocumented migrants which serve to criminalize them and associate them with violence (Chavez, et al., 2023). This has made the efforts of well-meaning governments and institutions a lot less effective as many people in the global north are becoming anti-immigration.  ",
+      ]
+    }
+  ],
+  conclusion: [
+    "The research makes it clear: migration is not merely a logistical challenge but a profound human story, one deeply scarred by policy choices. The Trump administration's measures—from Zero-Tolerance family separations to the Remain in Mexico protocols—did more than just change laws; they actively dismantled humanitarian protections, inflicting lasting trauma and widespread suffering. These policies were not isolated events but were born from a geopolitical landscape of deep global inequality, where the Global North's prosperity often comes at the expense of the Global South. The reverberations of this era continue to echo. The institutional damage to agencies like USCIS and ICE has created a backlog of cases and fostered a climate of fear that persists today. This legacy complicates every attempt at reform, making the pursuit of a humane and just immigration system an uphill battle. Furthermore, these actions set a dangerous precedent on the international stage, weakening global cooperation and encouraging other nations to adopt similar anti-immigration stances. Ultimately, this period serves as a stark reminder that policy decisions have immense human consequences. Moving forward requires more than simply reversing past mistakes. It demands a fundamental commitment to migration justice—a vision that addresses the root causes of displacement, rebuilds trust in our institutions, and affirms the inherent dignity and rights of all individuals, regardless of their origin. Without this transformation, the shadow of past policies will continue to loom, making the American Dream a hollow promise for those who seek it most. "
+  ],
+  references: [
+    {
+      heading: "American Journal of International Law. (n.d.). Biden Administration Reverses Trump Administration Policies on Immigration and Asylum.",
+      links: ""
+    },
+    {
+      heading: "Amnesty International (2020, November 28). Rebuilding from the Ashes, Trump’s Heritage on Migration and Asylum Policy.",
+      links: "https://www.amnesty.org/en/latest/news/2020/11/trumps-heritage-immigration-asylum-policy/?hl=en-US"
+    },
+    {
+      heading: "Brookings Institution. (2025). 100 days of immigration under the second Trump administration.",
+      links: ""
+    },
+    {
+      heading: "Chavez, M., Gabaldon, M.P., et al (2023). The Consistency of Donald Trump Twitter Rhetoric about Immigration… Norteamerica. Vol.18",
+      links: ""
+    },
+    {
+      heading: "Costa, D. (2025, May 12). Trump attacks on temporary immigration protections. Economic Policy Institute.",
+      links: "https://www.epi.org/blog/trump-attacks-on-temporary-immigration-protections-like-tps-hurt-the-economy-and-strip-millions-of-their-workplace-rights/"
+    },
+    {
+      heading: "Freeman, W., et al. (2024, June 9.). Why Six countries Account for most Immigrants at the US-Mexico Border. Council on Foreign Relations.",
+      links: "https://www.cfr.org/article/why-six-countries-account-most-migrants-us-mexico-border"
+    },
+    {
+      heading: "Gravelle, T. B. (2018). Politics, time, space, and attitudes toward US–Mexico border security. Political Geography, 65, 107-116.",
+      links: ""
+    },
+    {
+      heading: "Hacking Law Practice. (n.d.). The Impact of Trump Immigration Policy on American Security.",
+      links: ""
+    },
+    {
+      heading: "Hogan, M. (2024, September 9). Trump vs. Harris on immigration: Future policy proposals. Peterson Institute for International Economics.",
+      links: "https://www.piie.com/blogs/realtime-economics/2024/trump-vs-harris-immigration-future-policy-proposals"
+    },
+    {
+      heading: "Human Rights Law Centre. (n.d.). Migration Justice.",
+      links: ""
+    },
+    {
+      heading: "Hyndman, J. (2012). The geopolitics of migration and mobility. Geopolitics, 17(2), 243-255.",
+      links: ""
+    },
+    {
+      heading: "NILC. (2025). The Anti-Immigrant Policies in Trump's Final “Big Beautiful Bill,” Explained",
+      links: ""
+    },
+    {
+      heading: "Pittman, J. (2025, June 24). Trump's Immigration Policies and Project 2025. Docketwise.",
+      links: "https://www.docketwise.com/blog/trump-2025-immigration-plan/"
+    },
+    {
+      heading: "Reichlin-Meinlick, A., (2021, February 8). Biden Administration Ends ‘Safe Third Country’ Agreements, American Immigration Council.",
+      links: "https://www.americanimmigrationcouncil.org/blog/safe-third-country-agreement-biden/"
+    },
+    {
+      heading: "Singh, M. (2024, July 2). Trump’s asylum ban at US-Mexico border ruled unlawful. The Guardian.",
+      links: "https://www.theguardian.com/us-news/2025/jul/02/trump-us-mexico-border-immigrants-asylum"
+    },
+    {
+      heading: "Tataru, G. F. (2019). Migration–an overview on terminology, causes and effects. Logos, Universality, Mentality, Education, Novelty. Section: Law, 7(2), 10-29.",
+      links: ""
+    },
+    {
+      heading: "White House Briefing. (2024, June 4). Fact Sheet: President Biden Announces New Actions to Secure the Border.",
+      links: "https://cl.usembassy.gov/fact-sheet-president-biden-announces-new-actions-to-secure-the-border/"
+    },
+    {
+      heading: "Boone, R., & Thanawala, S. (2020, February 5). Travel ban on refugees blocked by federal judge. AP News.",
+      links: "https://apnews.com/article/44ff62623ac10ef287710f0ebcf5904b"
+    },
+    {
+      heading: "The Guardian. (2025, July 16). Trump administration sued over arrests at immigration courts.",
+      links: "https://www.theguardian.com/us-news/2025/jul/16/trump-administration-sued-immigration"
+    },
+    {
+      heading: "Al Jazeera. (2025, May 12). Trump administration welcomes 59 white South Africans as refugees to the US.",
+      links: "https://www.aljazeera.com/news/2025/5/12/trump-administration-welcomes-59-white-south-africans-as-refugees-to-the-us"
+    },
+    {
+      heading: "Shelton, J. (2025, May 13). US welcomes first white South African 'refugees'. DW.",
+      links: "https://www.dw.com/en/us-welcomes-first-white-south-african-refugees/a-72523983"
+    },
+    {
+      heading: "awaz, A. (2025, May 12). White South Africans arrive in U.S. after receiving refugee status from Trump. PBS NewsHour.",
+      links: "https://www.pbs.org/newshour/show/white-south-africans-arrive-in-u-s-after-receiving-refugee-status-from-trump"
+    }
+  ]
 }
 
 ];
