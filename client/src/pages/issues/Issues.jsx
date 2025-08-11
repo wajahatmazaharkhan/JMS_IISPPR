@@ -5,6 +5,7 @@ const Issues = ({ onIssueClick }) => {
     { id: 1, title: "2025 Issue: 1", description: "Description for 2025 Issue 1" },
     { id: 2, title: "2025 Issue: 2", description: "Description for 2025 Issue 2" },
     { id: 3, title: "2025 Issue: 3", description: "Description for 2025 Issue 3" },
+    { id: 4, title: "2025 Issue: 4", description: "Description for 2025 Issue 4" },
     // Add more issues as needed
   ];
 

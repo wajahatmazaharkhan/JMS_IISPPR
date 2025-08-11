@@ -8876,7 +8876,768 @@ const articles = [
       links: "https://www.pbs.org/newshour/show/white-south-africans-arrive-in-u-s-after-receiving-refugee-status-from-trump"
     }
   ]
-}
+},
+{
+    id: 10,
+    issue: 3,
+    volume: 1,
+    title: "Advancing Urban Institutional Transparency through Digital Governance: A Comparative Analysis of Anti-Corruption and Public Trust Mechanisms in India and Europe",
+    author: "Asanda Keitumetse Khwabe – Stellenbosch University, Maksym Loharzhevskyi – Charles University in Prague, Omundu Eddy Odhiambo – University of Nairobi, Onemena Odebala – Baze University Abuja",
+    authorAbbrev: "A.K. Khwabe, M. Loharzhevskyi, O.E. Odhiambo, O. Odebala",
+    abstract: [
+        "Accountability, rule of law and trust are at a continuous turbulent state that serve as the foundation of peace, justice and strong institutions categorised as the SDG 16. The inconsistency of such factors contributes to the global polycrisis of instability, birthing corruption and mismanagement. Thus, with such an environment conjured, institutions cannot mandate sustainable cities and communities of SDG 11, which ultimately break down the vital state-citizen relationship. Continuously, quantitative data research has revealed that the introduction of integrating information and communications technology (ICT) into the political realm will promote transparency, reinforce better trust mechanisms, and contribute to anti-corruption attempts. This particular paper explored two different regions, India and European countries executing the transformation of e-governance while revealing the extent of successes of maintaining both SDG 16 and SDG 11 goals as well as the challenges faced by both regions. It is imperative to understand that strong institutions and the performance style in which to manage their unique society have not been perfected, for there are always different multifaceted factors such as circumstances presented by histories of the regions as well as the dynamics instilled and practiced by the government and people based on preferences to use. Thus, with expectations, functioning governing bodies should be able to sustain their societies, ensure transparent justice and safety, and curate mandates for the betterment of the civil. Thus, this paper concludes such findings of the specific method of integrating ICTs in attempts to bridge the existing disconnect experienced by multiple institutions."
+    ],
+    keyword: [
+        "Digital Governance",
+        "Transparency",
+        "Anti-Corruption",
+        "Public Trust",
+        "India",
+        "Europe",
+        "Urban Governance",
+        "SDG 16",
+        "SDG 11"
+    ],
+    status: "",
+    intro: [
+        "It has become increasingly clear lately that in the context of rapid urbanization, accountability, openness, and trust from society are becoming critical for city authorities (Harkness & Katz, 2016; Pickup, 2024). Cities, as key centers of administrative and demographic life, often face such problems as, for example, corruption, lack of transparency, and alienation of citizens from decision-making. Undoubtedly, this not only weakens the democratic foundations of city governance but also reduces its effectiveness (Mupandanyama, 2023; Transparency International, n.d.).",
+        "It is our deep conviction that Goals 16 and 11 of the Sustainable Development Agenda, aimed at ensuring \"peace, justice, and strong institutions\" and “sustainable cities and communities,” respectively (United Nations, 2015; United Nations Department of Economic and Social Affairs, n.d.), are particularly relevant in this context. The main thing is that the first emphasizes the importance of combating corruption, increasing transparency, and engaging citizens at all levels of government, and the second one reinforces it in the more communal context. Namely, the aforementioned task of SDG 16 is especially important in cities, where the interaction between citizens and government is most direct and intense. Although this goal is global, we believe that achieving it requires local solutions, as each city has its own unique institutional, political, and cultural characteristics that influence the implementation and reception of transparency initiatives.",
+        "Another challenge in city governance is the bureaucratic procedures and often inconsistent accountability systems that city authorities are trying to combat. Of course, such institutional deficiencies only increase public mistrust, especially among vulnerable and marginalized groups who feel excluded from decision-making processes (Bertsou, 2019). In countries like India, institutional closures are often rooted in colonial administrative systems and are exacerbated by a lack of resources and uneven development of digital infrastructure (Panda & Kumar, 2025; Vision IAS, 2024). At the same time, in many European cities, the decline in trust is not so much due to corruption as to the gap between government actions and the daily needs of the population (Bertsou, 2019).",
+        "As a response to these challenges, digital governance is gaining popularity. It is part of the world's transition to the sixth technological paradigm and, in the urban context, uses open databases, blockchain technologies, and platforms for citizen feedback. The long-term use of these tools in some cities and countries has already proven that they can improve governance by increasing transparency and inclusiveness, which, in turn, strengthens public trust in government, simplifies access to information, and optimizes service delivery (OECD, 2020; World Bank, 2021).",
+        "However, it is obvious that the effectiveness of such digital solutions strongly depends on the specific conditions in which they are implemented. For example, the cities of Tallinn and Helsinki have made impressive progress in the digitalization of governance thanks to significant investments in sustainable technologies and high digital literacy of the population (Estonian Ministry of Economic Affairs and Communications, 2022; Government of Finland, n.d.; UN-Habitat, 2020; UN-Habitat et al., 2022). On the other hand, cities in India, despite attempts to introduce anti-corruption platforms (Nandy and Kumar, 2025), face problems of digital inequality and bureaucratic resistance (Panda and Kumar, 2025)."
+    ],
+        content: [
+        {
+            heading: "Problem Statement and Research Objectives",
+            paragraphs: [
+              "Despite the significant potential of digital tools, a gap between the promise of technological solutions and the reality remains in urban governance around the world. This problem gives rise to a key issue known as the ‘transparency paradox.’ One leading view explains this paradox through the lens of instrumental incentives: corrupt or institutionally weak governments voluntarily join transparency initiatives not so much out of a genuine desire for reform but to gain reputational benefits such as access to international aid or increased political legitimacy (David-Barrett & Okamura, 2013). However, this reputational approach is not the only explanation. An alternative view shifts the focus from external incentives to internal dynamics, arguing that pressure from below is often the key driver of change. According to this approach, an active and organized civil society can force governments to increase transparency by using international initiatives as a tool for increasing domestic accountability (Isaksson, 2015). In this case, the main motivation is not the pursuit of international approval but the result of domestic political struggle.",
+              "This theoretical dilemma directly affects our comparative analysis. In Indian cities, the adoption of digital platforms can be both a façade for external benefits and a concession to internal pressures, while ill-considered technology adoption risks creating digital inequalities (Panda & Kumar, 2025; Bertot et al., 2010). In European cities, even bottom-up reforms face an “e-governance paradox,” where technological solutions do not automatically increase trust (Otieno & Omwenga, 2016).",
+              "A key research challenge, therefore, is the lack of understanding of which of these drivers—external reputational gain or internal civic pressure—and in what combination, determines the trajectory and success of digital governance in different institutional contexts.",
+              "To address this multifaceted challenge, this study sets out to undertake a number of interrelated objectives. First, the paper aims to analyze the theoretical foundations underlying digital governance as a tool for enhancing transparency and trust. Building on this foundation, the study will proceed to its main objective: conducting an in-depth comparative analysis of specific digital governance initiatives in selected cities in India and Europe.",
+              "The third objective is to assess the actual impact of these initiatives on the level of institutional transparency, accountability, and citizen trust. Finally, the findings of this study are concluded by pointing out the spheres of development of contextually informed recommendations for policymakers and practitioners on how to better use digital tools to strengthen urban governance."
+            ]
+        },
+        {
+            heading: "Thematic Literature Review",
+            paragraphs: [
+              "The transparency and accountability of urban institutions are essential to achieving Sustainable Development Goal 16, which focuses on reducing corruption and building effective, inclusive institutions. In response to persistent governance challenges, cities have increasingly turned to digital tools—such as open data platforms and participatory applications—to address institutional gaps and rebuild public trust. This literature review highlights key areas of focus, including anti-corruption mechanisms in urban India and Europe, the role of digital tools in promoting citizen trust, and comparative frameworks that support cross-regional policy learning.",
+            "Digital Anti-Corruption Mechanisms",
+          "In Indian cities, there are digitized service delivery focused on reducing petty corruption. An example is Karnataka's e-Governance projects that demonstrated a reduction of bribery and increased efficiency, especially in licensing and municipal services (Chakraborty & Pandey, 2020). In Mumbai, transparency portals enabled real-time public access to civic contracts, increasing public audit interventions by almost 50% (Bose & Dey, 2022). Despite having an improvement, scholars still support that these tools only benefit urban elites and so hinder equitable access especially in peri-urban areas (Kumar, 2023).",
+          "European cities have leveraged more advanced technological environments to integrate anti-corruption tools. For example, Tallinn, the capital of Estonia, has a blockchain-based public contract system that offers unchangeable records, reducing procurement fraud risks (Tatar & Kalvet, 2021). Moreover, Helsinki, capital of Finland, has an open Ahjo platform that enhances transparency by providing real-time legislative data, strengthening public scrutiny (Lindgren et al., 2019). Critically, institutional readiness influences its success, not only technology indicating advanced digital systems fail where institutional accountability strategies are weak (Tummers et al., 2022). This highlights a research contrast between European and Indian urban governance outcomes.",
+          "Public Trust and Participatory Technology",
+          "Digital participation has emerged as a tool for building trust. Public trust in Indian cities remains divided as the platform like MyGov struggles with inclusivity and at the same time encourages civic dialogue (Sharma & Bawa, 2021). The exclusion of marginalized groups that face digital literacy barriers and low-income groups risks deepening existing governance divides in urban areas.",
+          "On the other hand, European cities stress on participatory governance where everyone is required to take part in public decision making. For instance, Amsterdam’s Open Stad and Helsinki’s Decidim are proof that transparent and inclusive citizen and noncitizen engagement correlates with higher institutional trust (Linders et al., 2023). However, Bannister and Connolly (2021) argue that institutional action on citizen feedback is required for information access. Therefore, to build trust, transparency initiatives must be coupled with good governance. This study is significant in India, where rapid urbanization outgrows institutional response.",
+          "Comparative Urban Governance and Gaps in the Literature",
+        "In India, the Smart Cities Mission has emphasized the modernization of infrastructure and the introduction of digital platforms like the India Urban Data Exchange and Mahiti Kanaja to promote transparency in public service delivery. However, many of these tools function in a top-down manner, often driven by state or national agencies rather than city-level democratic engagement (Kumar & Prakash, 2019). ",
+      "In contrast, European cities tend to frame digital governance as a citizen-centered process. For instance, Amsterdam’s City Data Lab and the “Right to Challenge” initiative empower citizens not only to access data but also to actively shape local policy outcomes (Linders et al., 2023). These initiatives reflect a governance culture grounded in subsidiarity, where municipal institutions are granted considerable autonomy in decision-making and innovation. Additionally, platforms like Helsinki’s open budgeting system and Tallinn’s blockchain-based registries are examples of how technological design is aligned with broader institutional trust mechanisms (European Commission, 2022).",
+    "From a theoretical lens, the principal-agent model helps frame how digital tools reduce information asymmetry between citizens (principals) and public officials (agents), thereby curbing opportunities for corruption (Janssen et al., 2012). Similarly, the trust-as-legitimacy theory posits that trust emerges not just from procedural openness but from the consistent responsiveness of institutions (Bannister & Connolly, 2021). Applying these frameworks comparatively, however, reveals that even technologically advanced platforms can fail when the institutional culture resists citizen empowerment—a challenge seen in both Indian and certain European cases.",
+  "Despite a growing body of work on digital governance and urban innovation, there is a clear gap in comparative, cross-regional analysis. Most studies focus either on single-city innovations or national-level digital programs, without adequately linking municipal strategies in the Global South and North. Few have investigated how cities operationalize SDG 16 targets, particularly in relation to transparency and trust, using real-world case studies. This paper contributes to closing that gap by providing a comparative review of selected Indian and European cities, examining not only the tools they deploy but also the institutional ecosystems that enable or constrain their effectiveness."]
+        },
+        {
+            heading: "Methodological Overview",
+            paragraphs: [
+            "Examining the fundamental relationships between governments and citizens in both India and Europe is crucial to comprehending the challenges of incorporating technology into digital governance. A qualitative comparative approach will be used to capture these subtleties, enabling a precise and contextualized examination of the major determinants of governance. By considering the institutional and sociopolitical factors that influence the use of digital tools, this method makes it possible to identify significant trends and distinctions between the two regions.",
+            "This study will examine the underlying reasons of corruption and assess the efficacy of countermeasures by utilizing a variety of qualitative data sources, such as published research findings and expert consensus. These revelations are essential to comprehending the formation of public trust in governance structures. According to this theory, political outcomes are the results of government initiatives to resolve conflicts between conflicting interests while guaranteeing the equitable and effective allocation of resources. Since economic inequality and inequities have a big impact on how the public views legitimacy and efficacy, special attention is paid to how these issues are handled. The study intends to demonstrate the connection between enhanced governance performance and anti-corruption initiatives by analyzing these dynamics.",
+            "The government will be better equipped to handle civil unrest, resource shortages, and environmental issues as well as make strategic investments in important institutions like education if it can remain consistent and deliver its services in an organized manner. The foundation for more extensive change, such as the transition to a digital state, is laid by effective governance in these domains. The government can improve accountability and openness by adopting new technologies. This advancement promotes long-term development objectives while also bolstering institutional trust. In the end, a responsive and well-coordinated government is better equipped to address the demands of the populace and promote sustainable progress in a world that is becoming more digitally connected.",
+            "Continuously, information obtained will explain challenges faced by integration, such as justice isolation, social engagement, and disintegration that reveal the people's trust and attitudes towards their governments. A historical overview will be particularly included to highlight unique challenges and conflicts that arose from the cultural and social status quo. Hence, findings will give insight into possible methods that India can adapt , such as strong institutional frameworks, according to their governing style, that ensure proper regulations. This includes the values of accountability and delivering operational continuity actions as well as the consequences of such changes.",
+            "Moreover, it is important to emphasize that this research does not romanticize the digitalization of cities and their institutions. While European cities have made significant strides in adopting digital technologies, they continue to confront complex and evolving challenges associated with these advancements. Recognizing both the opportunities and limitations of digital governance provides a balanced foundation for the analysis."
+            ]
+        },
+        {
+            heading: "Core Findings",
+            paragraphs: [
+            "As urban governance becomes increasingly complex, governments are turning to digital tools to enhance transparency, accountability, and citizen engagement. This section explores in detail the key initiatives in India and select international cities that illustrate how digital systems are being deployed to strengthen public trust and improve administrative responsiveness.",
+            "Indian Cases",
+            "The Public Finance Management System was  launched in the late 2000s and has been of great use in tracking disbursements for social sector schemes all over India. It is connected to banks via a real‑time portal that enables monitoring of funds from the central government to beneficiaries at district and individual levels (PFMS, 2025). This system integrated pension and ration disbursements digitally as evident inAndhra Pradesh’s Krishna district hence a reduction in leakages(IMF, 2024).",
+            "India’s centralized Public Grievance Redress and Monitoring System (CPGRAMS) has captured eyes across the commonwealth for its impact(Business Standard, April 2024). The state‑level Integrated Grievance Redressal System resolved most of the complaints filed by care‑seekers with disabilities in Uttar Pradesh, demonstrating speed and transparency(Times of India, Jun 2025). ",
+            "Integrated Command and Control Centres(ICCCs) run over 80 cities aggregating data from traffic, sanitation, CCTV, utilities, and public securities (Indian Express, 2022; Noida IAS Update, 2025). Pune and Bengaluru operate Smart City Command Centres with numerous sensors, emergency call boxes, dashboards, and real‑time analytics (LinkedIn/Pune; PC Mohan/Bengaluru). During the COVID‑19 pandemic, 45 such centres were rapidly repurposed into war‑rooms for tracking, helpline coordination, and logistics support (PMC NCBI, 2022; Economic Times, 2020). Several cities have integrated ICCCs into municipal budgets or adopted self‑sustaining models despite the end of central funding in March 2025(Hindustan Times, May 2025).",
+            "The Swachhata App, launched under the Swachh Bharat Mission by the Ministry of Housing and Urban Affairs (MoHUA), enables citizens to register sanitation-related grievances via a geo-tagged, time-stamped mobile interface. Citizens can track the status of their complaints, view before-and-after resolution images, and interact with municipal officials, ensuring accountability and responsiveness (Janaagraha, 2024). As of 2024, over 27 million complaints have been registered with a reported resolution rate of over 93% across 4,500+ cities (Janaagraha, 2024).",
+            "The e-Municipality Project, part of the National e-Governance Plan, focuses on digitising core urban local body services such as property tax, water billing, trade licences, and grievance redressal. By allowing online service delivery, status tracking, and structured workflows, it reduces physical interaction, minimizes corruption, and improves service transparency (BANotes, 2024).",
+            "The MyGov Portal, which was launched in July 2014 and is overseen by the National Informatics Centre, serves as a primary platform for citizen engagement and consultation. Research conducted by Banerjee (2021) characterizes MyGov as an example of open innovation—where ministries and citizens collaboratively develop policy inputs, thus enhancing the participatory and transparent nature of governance processes. Singh and Kaushik (2020) emphasize how MyGov has institutionalized direct contributions from citizens and centralized public discourse among governmental departments. Nevertheless, empirical evaluations (The Hindu Centre, 2021) reveal a limited engagement in essential policy drafts: only approximately 8% of the discussions hosted were related to pre-legislative drafts, and only 11 out of 60 ministries were involved, indicating a tendency towards selective transparency (The Hindu Centre, 2021).",
+            "European Cases",
+            "The City of Amsterdam is leading the digital initiatives in Europe by incorporating ICT into, not only the government, but also towards the civil sector (Digital Cities: Amsterdam’s Ecosystem of Cooperation, n.d.; Netherlands - Digital Economy, 2024). This reflects the continuous progress of successfully strengthening the State-Citizen relationship as it incorporates research institutions as well, and collectively addresses various issues. It has been stated that Amsterdam collaborated with multinational ICT companies resolving conflicts and secrecy to cooperation and transparency which too revealed accountability (Digital Cities: Amsterdam’s Ecosystem of Cooperation, n.d.). According to the city’s second Digital Agenda 2023/2026, the core principles of believing in “A Digital City that is human, reliable and future proof”. Furthermore, another ongoing initiative that is recognised as Amsterdam InChange, used to be known as Amsterdam Smart City that was birthed in 2017 (ITA, 2025), prioritises the residences' and users’ of these cities interests and engagement through the tools, data and technology (ASC, 2025). As indicated in the methodology, the government’s ability to sustain consistency with thorough organisation, will have a greater chance to transform into a digital state and secure transparency through technological advancements. Consequently, this initiative has created a trust mechanism resulting in a cohesive environment in which citizens’ participation is the foundation platform where exchanging valuable and knowledgeable information with one another, to improve the city, takes place.",
+            "Similarly in Finland’s Helsinki, reputable for the self-organised communities, integrates ICTs to generate quality rich “community activities and environment” (Horelli, Saad-Sulonen, Wallin and Botero, 2013) through various initiatives. Thus, Finland’s e-planning has intersected “urban planning and community development” (Horelli, Saad-Sulonen, Wallin and Botero, 2013) through the Learning-based framework, which enhance further the participation and flow of the state-citizen relationship regarding the daily life within the city. Continuously, Finland has invested the most in quantum computing research in comparison to other European countries to sustain the pace of technological developments around the world and within its country (ITA, 2025).",
+            "Estonia's capital city of Tallinn is regarded as one of the world's best examples of digital administration. Tallinn has improved accountability and openness by implementing digital technologies at every level of urban service delivery as part of the e-Estonia initiative. X-Road, a secure data exchange network that links more than 900 public and commercial bodies and allows for real-time information sharing while protecting data privacy, is an essential part of this infrastructure (e-Estonia Briefing Centre, 2023). This innovation lowers the possibility of corruption and minimizes bureaucracy. Furthermore, blockchain technology has been integrated into public procurement procedures, allowing contracts and financial records to be securely stored with time stamps. This improves auditability for oversight and civil society organizations (Tatar & Kalvet, 2021). Despite being a national program, e-Residency has a big urban influence on Tallinn since it makes it possible for non-residents to communicate with local authorities, create enterprises, and obtain legal services—all of which promote transnational transparency (Digital Nations Report, 2024). In keeping with EU digital goals, the city also runs a comprehensive Open Data Portal that provides access to municipal data on zoning, transportation, and budgets. This makes it possible for people, NGOs, and journalists to hold local government officials responsible (City of Tallinn, 2024). In accordance with EU anti-corruption and inclusion directives, Tallinn stresses digital inclusion by providing ICT training for elderly persons and rural immigrants, even in the face of widespread e-service penetration (Estonia Digital Strategy, 2023). These initiatives offer as an example of a governance approach in which technology enhances democratic engagement by enabling citizens to actively observe the government rather than being passively watched. Tallinn thus exemplifies how smart urban systems can foster both efficiency and civic empowerment."
+            ]
+        },
+        {
+            heading: "Interpretation and Analysis",
+            paragraphs: [
+            "The digital governance initiatives in India and Europe, while sharing a lexicon of transparency and participation, are fundamentally expressions of two different state-citizen relationships, shaped by divergent historical contexts and contemporary challenges. A comparative analysis reveals that these are not merely different tools for similar problems, but different solutions for entirely different problems altogether. Where Indian digital governance is a story of a post-colonial state using technology to establish order and transactional trust across a vast, developing nation, the European model is one of mature democracies leveraging technology to deepen an existing, though sometimes strained, social contract.",
+          "This core difference is most evident in the foundational purpose of their flagship initiatives. India’s Public Finance Management System was born of necessity—a direct, top-down assault on the systemic corruption and financial leakages that have plagued its welfare state. It is a tool of control, designed to impose accountability where it was historically absent. In stark contrast, Amsterdam’s Right to Challenge initiative emerges not from a crisis of corruption, but from a crisis of alienation, addressing a perceived gap between a functioning state and the needs of its citizens. The Indian system thus uses technology to build trust from a low baseline by proving its ability to deliver services honestly, while the Dutch system uses technology to sustain trust by devolving power and agency to a citizenry that already expects to be heard. One is an instrument of administrative necessity; the other is an evolution of democratic principle.",
+        "This distinction permeates the nature of citizen participation. Where India’s Swachhata App provides a structured, top-down channel for citizens to report sanitation failures to a central authority, Helsinki's open budgeting platforms or Amsterdam's co-creation projects invite citizens to define the problem and allocate resources themselves. The Indian citizen is positioned as a monitor or a service recipient providing feedback to the state, a model evident even in the MyGov portal, where engagement often stops short of influencing core policy. Conversely, the European citizen is framed as a partner with the state. This reveals a different understanding of the citizen's role: in India, technology helps them hold a powerful state to account for its duties, whereas in Europe, it facilitates their active participation in the state’s decision-making processes, a reflection of a long-standing tradition of subsidiarity and local autonomy.",
+        "The very architecture of digital systems reflects this philosophical divide. India's Integrated Command and Control Centres are centralized hubs of data aggregation and surveillance, designed to give the state a comprehensive view for managing urban chaos and ensuring security. They are instruments of management and control. This differs fundamentally from the logic of Tallinn’s X-Road infrastructure. While also a central system, X-Road is designed as a secure, decentralized enabler of interaction, not just for the state to see, but for all actors—citizens, ministries, and businesses—to exchange data transparently and securely. The ICCC is an architecture for top-down oversight, born from the need to manage complexity, while X-Road is an architecture for ecosystem-wide trust, born from a societal consensus on digital rights and transparency.",
+        "Finally, this comparative lens reveals different approaches to the inherent risks of digitalization. In India, the 'transparency paradox' of providing information without ceding influence is a major challenge, and the deployment of advanced technology constantly battles the risk of deepening the digital divide. The solution to digital exclusion is often seen as a secondary challenge to the primary goal of technological implementation. This contrasts sharply with Tallinn’s proactive strategy of integrating ICT training for all demographic groups. For Estonia, digital inclusion is not an afterthought but a prerequisite for the legitimacy of its digital state. It represents a mature understanding that digital governance cannot succeed if it is not equitable, a principle that carries a far greater weight and complexity in India's vastly more diverse and unequal socio-economic landscape."
+      ]
+        },
+        {
+            heading: "Policy and Practice Recommendations",
+            paragraphs: [
+            "We think that the following suggestions, which are based on a comparison of digital governance in India and Europe, provide a way for both parties to learn from one another and create urban governance models that are more open, inclusive, and successful.",
+            "First and foremost, we believe that a more participatory model of digital governance should replace India's current top-down, control-oriented approach. Policymakers can create trust that goes beyond service delivery by adopting components of European frameworks, like Amsterdam's co-creation initiatives. As a result, the relationship between the state and its citizens shifts from one of administration to one of partnership, encouraging a greater feeling of citizen ownership and active participation in governance.",
+            "However, if a digital governance system engages in social exclusion, it will not be effective. Thus, secondly, in order to bridge the gap between digitally advanced metropolitan centers and other areas, India must promote digital literacy, particularly in rural and vulnerable groups, if it hopes to make this new collaboration inclusive. One important lesson from Estonia's proactive inclusion strategy is that accessible tactics and customized training programs are essential to any deployment of digital governance, guaranteeing that no person is left behind.",
+            "Thirdly, it is our deep conviction that India must abandon a paradigm in which power is still centralized and information is only accessible if it is to genuinely establish confidence through transparency. The creation of platforms that give people actual control over policy is the next stage. Passive information portals are unable to create the deep level of institutional confidence that may be fostered by allowing residents to directly engage in important procedures, such as municipal budgeting decisions, as demonstrated in Helsinki. Because of this, transparency is no longer a one-way message but rather an active, two-way roadway.",
+            "The risks of data misuse and spying inevitably rise with the depth and decentralization of digitalization. Fourth, in order to protect its population, India must establish strong institutional and legal protections. Taking inspiration from Europe's General Data Protection Regulation and the ethical design principles incorporated into Tallinn's digital infrastructure, this entails creating comprehensive legal frameworks that explicitly enshrine digital rights, data privacy, and algorithmic accountability.",
+            "Fifth, we insist that platforms like MyGov need to be updated. This will help make citizen feedback transparent and useful. People need to see that their opinions influence policy. Then trust in the system will grow. It is important that citizen participation is not limited to surveys. It is necessary to show how digital feedback is used in real decisions. This will help reduce the gap between consultation and action..",
+            "Ultimately, it is important to develop a culture of digital citizenship. This is the foundation for sustainable change that goes beyond technology and politics. To create literate and engaged citizens, India must invest in education. This should focus on digital rights, responsibilities, and participation. Other steps are needed to reach people of all income and educational levels. We think that these could include countrywide awareness campaigns, best done in local languages and with the participation of the communities themselves. Such programs should clearly explain rights, such as freedom of speech and data protection. But it is also important to talk about responsibilities, such as the need to participate in online discussions."
+            ]
+        }
+    ],
+        conclusion: [
+        "As a result, this comparison of digital governance in Europe and India shows two different trajectories influenced by different historical and sociopolitical settings. Although both areas use technology to increase openness and public confidence, their primary driving forces are very different. Specifically, the majority of India's digital initiatives are a top-down reaction to structural issues like inefficiency in service delivery and corruption. They serve as instruments of control to impose responsibility. European models, on the other hand, like those in Tallinn and Amsterdam, come from a history of democratic cooperation. The goal of these programs is to increase public participation in the actual decision-making process. This is a significant distinction. One system distributes power to maintain confidence, while the other aims to establish trust by showcasing skill.",
+        "We think that in order for India to advance, it needs to change its digital governance model from one that is control-oriented to one that is more participative. This calls for a multifaceted approach. In order to close the existing divide between urban elites and underprivileged communities, it is also imperative to invest in universal digital literacy. Furthermore, in order to safeguard data privacy and defend digital rights, strong legal frameworks that are modeled after laws like the GDPR must be developed.",
+        "Thus, by embracing a more inclusive and decentralized approach, India can foster a culture of digital citizenship, transforming its governance landscape into a truly collaborative and transparent ecosystem."
+        ],
+    references: [
+        {
+            "heading": "Banerjee, S. (2021). Open Innovation for Better Governance: A Case Study of MyGov Platform of Government of India. Academy of Marketing Studies Journal, 25(2).",
+            "links": ""
+        },
+        {
+            "heading": "BANotes. (n.d.). Urban development e‑Governance Mission Mode Projects. Retrieved from ",
+            "links": "https://banotes.org/e-governance/urban-development-e-governance-mission-mode-projects/ "
+        },
+        {
+            "heading": "Bertot, J. C., Jaeger, P. T., & Grimes, J. M. (2010). Using ICTs to create a culture of transparency: E-government and social media as openness and anti-corruption tools for societies. Government Information Quarterly, 27(3), 264-271. ",
+            "links": "https://www.sciencedirect.com/science/article/pii/S0740624X10000201"
+        },
+        {
+            "heading": "Bertsou, E. (2019). Rethinking political distrust. European Political Science Review, 11(2), 213–230.",
+            "links": " https://doi.org/10.1017/S1755773919000080"
+        },
+        {
+            "heading": "Bose, D., & Dey, T. (2022). Digital platforms and municipal transparency in India. Urban Governance Journal, 7(3), 144–159.",
+            "links": ""
+        },
+        {
+            "heading": "Business Standard. (2024, April). India’s grievance redressal system ranked among top in Commonwealth.",
+            "links": "https://www.business-standard.com"
+        },
+        {
+            "heading": "Chakraborty, S., & Pandey, A. (2020). E-Governance and public service delivery in India. Public Administration Review, 80(4), 610–624.",
+            "links": ""
+        },
+        {
+            "heading": "City, A. S. (n.d.). About us. Amsterdam Smart City. ",
+            "links": "https://amsterdamsmartcity.com/about "
+        },
+        {
+            "heading": "City of Tallinn. (2024). Tallinn Open Data Portal. ",
+            "links": "https://opendata.tallinn.ee"
+        },
+        {
+            "heading": "David-Barrett, L., & Okamura, K. (2013). The Transparency Paradox: Why do Corrupt Countries Join EITI? (Working Paper No. 38). European Research Centre for Anti-Corruption and State-Building.",
+            "links": "https://eiti.org/sites/default/files/attachments/The-Transparency-Paradox.-Why-do-Corrupt-Countries-Join-EITI1.pdf"
+        },
+        {
+            "heading": "Digital cities: Amsterdam’s ecosystem of cooperation. (2021). Urbact.eu.",
+            "links": "https://urbact.eu/articles/digital-cities-amsterdams-ecosystem-cooperation "
+        },
+        {
+            "heading": "Digital Nations Report. (2024). e-Residency and the Estonian Model.",
+            "links": "https://www.digitalnations.gov.ee"
+        },
+        {
+            "heading": "Economic Times. (2020, March 28). 45 Smart City control rooms converted into COVID-19 war rooms: Ministry of Housing and Urban Affairs. ",
+            "links": "https://economictimes.indiatimes.com/news/india/45-smart-city-control-rooms-converted-into-covid-19-war-rooms-ministry-of-housing-and-urban-affairs/articleshow/74866020.cms "
+        },
+        {
+            "heading": "e-Estonia Briefing Centre. (2023). How Estonia Became the Most Digitally Advanced Country. ",
+            "links": "https://e-estonia.com"
+        },
+        {
+            "heading": "Estonia Digital Strategy. (2023). Digital Skills for All. Ministry of Economic Affairs and Communications.",
+            "links": "https://mkm.ee/en/digital-strategy"
+        },
+        {
+            "heading": "Harkness, A. J., & Katz, B. (2016). Why urban governance matters—now more than ever. Brookings Institution. ",
+            "links": "https://www.brookings.edu/articles/why-urban-governance-matters-now-more-than-ever/ "
+        },
+        {
+            "heading": "Hindustan Times. (2025, May). After Smart City funding ends, cities look for ways to sustain ICCCs. ",
+            "links": "https://www.hindustantimes.com"
+        },
+        {
+            "heading": "Horelli, Saad-Sulonen, Wallin and Botero. (2013). When self-organization and urban governance intersect: Two cases from Helsinki.",
+            "links": ""
+        },
+        {
+            "heading": "Indian Express. (2022, February 28). Explained: How Integrated Command and Control Centres work.",
+            "links": "https://indianexpress.com/article/explained/iccc-smart-cities-mission-explained-7816433/ "
+        },
+        {
+            "heading": "International Monetary Fund. (2024). Digital Public Infrastructure in India: Lessons from the PFMS (IMF Working Paper No. 24/86).",
+            "links": "https://www.imf.org "
+        },
+        {
+            "heading": "International Trade Administration. (2024, September 19). Finland - Digital Economy. International Trade Administration. Accessed from: Trade.gov.",
+            "links": " https://www.trade.gov/country-commercial-guides/finland-digital-economy "
+        },
+    {
+        "heading": "International Trade Administration. (2024). Netherlands - Digital Economy. International Trade Administration. Accessed from: Trade.gov.",
+        "links": ""
+    },
+    {
+        "heading": "Isaksson, A. S. (2015). Who Drives Change? The Role of Domestic Civil Society in the Extractive Industries Transparency Initiative. World Development, 68, 156-166.",
+        "links": "https://doi.org/10.1016/j.worlddev.2014.11.020"
+    },
+    {
+        "heading": "Janaagraha. (n.d.). Swachhata technology platform.",
+        "links": "https://www.janaagraha.org/work/swachhata-technology-platform/"
+    },
+    {
+        "heading": "Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information Systems Management, 29(4), 258–268.",
+        "links": "https://doi.org/10.1080/10580530.2012.716740"
+    },
+    {
+        "heading": "Kumar, R. (2023). Digital divides and governance in urban India. Journal of Urban Affairs, 45(2), 213–230.",
+        "links": ""
+    },
+    {
+        "heading": "Linders, D., van der Meer, T., & Rutgers, M. R. (2023). Civic tech and trust in European cities. Local Government Studies, 49(1), 1–23.",
+        "links": ""
+    },
+    {
+        "heading": "Lindgren, I., Madsen, C. Ø., Hofmann, S., & Melin, U. (2019). Digital government transformation in the EU. Government Information Quarterly, 36(4), 101-410.",
+        "links": ""
+    },
+    {
+        "heading": "Margetts, H., & Dorobantu, C. (2019). Rethink government with AI and digital technologies. Nature Human Behaviour, 3(5), 346–349.",
+        "links": "https://doi.org/10.1038/s41562-019-0565-2"
+    },
+    {
+        "heading": "Meijer, A., & Grimmelikhuijsen, S. (2021). Transparency in digital urban governance. Government Information Quarterly, 38(3), 101-599.",
+        "links": ""
+    },
+    {
+        "heading": "Ministry of Economic Affairs and Communications of Estonia. (2022, May 23). Estonia is leading the world in the use of data. e-Estonia.",
+        "links": "https://e-estonia.com/estonia-is-leading-the-world-in-the-use-of-data/"
+    },
+    {
+        "heading": "Mupandanyama, T. (2023). Corruption in urban councils and its impact on service delivery. Journal of Ethics, Governance & Political Science.",
+        "links": "https://www.researchgate.net/publication/372680584_Corruption_in_Urban_Councils_and_its_Impact_on_Service_Delivery_Tapiwa_Mupandanyama"
+    },
+    {
+        "heading": "Nandy, A., & Kumar, A. (2025). Engage citizens to smarten city governance. Smart Cities and Regional Development Journal, 9(2), 29-42.",
+        "links": ""
+    },
+    {
+        "heading": "National Center for Biotechnology Information. (2022). Smart Cities and COVID-19: Repurposing India's urban infrastructure.",
+        "links": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9245932/"
+    },
+    {
+        "heading": "OECD. (2020). The use of digital technologies for public engagement in policymaking. OECD Publishing.",
+        "links": "https://www.oecd.org/gov/the-use-of-digital-technologies-for-public-engagement-in-policymaking-b8f32a7d-en.htm"
+    },
+    {
+        "heading": "Otieno, I. J., & Omwenga, E. (2016). The e-Government Paradox: Is it Real and How can it be Resolved? In IST-Africa Conference Proceedings, 2016. IEEE.",
+        "links": "https://www.researchgate.net/publication/303868542_The_e-Government_Paradox_Is_it_Real_and_How_can_it_be_Resolved"
+    },
+    {
+        "heading": "Panda, A. K., & Kumar, A. (2025). E-governance in India and Its Role in Modern Governance: A Conceptual Overview. International Journal for Research Trends and Innovation, 10(3), a708-a715.",
+        "links": ""
+    },
+    {
+        "heading": "Panda, A. K., & Kumar, A. (2025). E-governance in India and Its Role in Modern Governance: A Conceptual Overview. International Journal for Research Trends and Innovation, 10(3), a708-a715.",
+        "links": "https://www.ijrti.org/papers/IJRTI2503087.pdf"
+    },
+    {
+        "heading": "Pickup, F. (2024). Urban governance vital for cities to prosper. United Nations Development Programme.",
+        "links": "https://www.undp.org/blog/urban-governance-vital-cities-prosper"
+    },
+    {
+        "heading": "Public Financial Management System. (2025). PFMS dashboard. Ministry of Finance, Government of India.",
+        "links": "https://pfms.nic.in"
+    },
+    {
+        "heading": "Sharma, A., & Bawa, A. (2021). MyGov and urban civic engagement in India. Journal of Development Policy, 18(2), 89–104.",
+        "links": ""
+    },
+    {
+        "heading": "Singh, A., & Kaushik, A. (2020). Platform for Citizen Engagement for Good Governance in India: A Case Study of MyGov.in. In Civic Engagement Frameworks and Strategic Leadership Practices for Organization Development. IGI Global.",
+        "links": ""
+    },
+    {
+        "heading": "Tatar, M., & Kalvet, T. (2021). Blockchain for Public Services: The Case of Tallinn. Government Information Quarterly, 38(2).",
+        "links": "https://doi.org/10.1016/j.giq.2021.101566"
+    },
+    {
+        "heading": "Tatar, M., & Kalvet, T. (2021). Blockchain in Estonian public governance. Government Information Quarterly, 38(4), 101-607.",
+        "links": ""
+    },
+    {
+        "heading": "The Hindu Centre. (2021). How Participatory is My Government? A Closer Look at MyGov.in.",
+        "links": "https://www.thehinducentre.com/article9411455.ece"
+    },
+    {
+        "heading": "Times of India. (2025a, June). Most grievances of differently abled resolved.",
+        "links": "https://timesofindia.indiatimes.com/city/lucknow/most-grievances-of-differently-abled-resolved/articleshow/121541626.cms"
+    },
+    {
+        "heading": "Transparency International. (n.d.). Transparency International joins global campaign for participatory urban governance.",
+        "links": "https://www.transparency.org/en/press/transparency-international-joins-global-campaign-for-participatory-urban-go"
+    },
+    {
+        "heading": "Tummers, L., Bekkers, V., & Steijn, B. (2022). Institutional trust and digital reforms. Public Management Review, 24(6), 819–839.",
+        "links": ""
+    },
+    {
+        "heading": "UN-Habitat, CAF, Edinburgh Napier University, & Tallinn University of Technology. (2022). Global review of smart city governance practices. UN-Habitat.",
+        "links": ""
+    },
+    {
+        "heading": "UN-Habitat. (2020). World cities report 2020: The value of sustainable urbanization. United Nations Human Settlements Programme.",
+        "links": "https://unhabitat.org/sites/default/files/2020/10/wcr_2020_report.pdf"
+    },
+    {
+        "heading": "United Nations. (2015). Transforming our world: The 2030 agenda for sustainable development.",
+        "links": "https://sdgs.un.org/goals/goal16"
+    },
+    {
+        "heading": "United Nations Department of Economic and Social Affairs. (n.d.). Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable. United Nations. Retrieved July 14, 2025.",
+        "links": "https://sdgs.un.org/goals/goal11"
+    },
+    {
+        "heading": "Valtioneuvoston kanslia. (n.d.). Finland, a pioneer in digitalisation and new technologies. Prime Minister's Office. Retrieved July 12, 2024.",
+        "links": "https://vnk.fi/en/finland-a-pioneer-in-digitalisation-and-new-technologies"
+    },
+    {
+        "heading": "Vision IAS. (2024, May 6). Redefining governance: India's path to administrative reforms.",
+        "links": "https://visionias.in/current-affairs/posts/redefining-governance-indias-path-to-administrative-reforms/"
+    },
+    {
+        "heading": "World Bank. (2021, April 28). Enhancing government effectiveness and transparency: The fight against corruption.",
+        "links": "https://www.worldbank.org/en/news/feature/2021/04/28/enhancing-government-effectiveness-and-transparency-the-fight-against-corruption"
+    }
+
+    ]
+},
+{
+  id: 1,
+  issue: 4,
+  volume: 1,
+  title: "The Relationship between Identity Formation and Age of Young Adults in India",
+  author: "Swati Dokania, Yaja Kalpesh Rachchh, Maahi Chourasia, Tanisha Sharma, Navya Yadav, Roshni Singh, Sridatri Bhattacharya, Sanjana Sinha, Lavanya Puniani, Sudarshan G M",
+  authorAbbrev: "S. Dokania, Y. K. Rachchh, M. Chourasia, T. Sharma, N. Yadav, R.Singh, S. Bhattacharya, S. Sinha, L. Puniani, S. G M",
+  abstract: [
+  "A vast majority of research on identity formation focuses on societal and environmental factors. However, there has been less research on the age factor in identity formation.There are various dimensions of the identity we form for ourselves ranging from achievement, moratorium, foreclosure, diffusion and achievement- moratorium cycle. This study uses quantitative data collected by a survey form based on the Modified Marcia Questionnaire to understand the formation of such identities in individuals of ages 18-24. The results of this study highlights the age factor in identity formation in young adults. A major chunk of the population of young adults have reached the dimension of achievement, and many are at the level of achievement moratorium cycle."
+  ],
+  keyword: [
+    "Identity formation",
+    "young adults",
+    "Achievement",
+    "moratorium"
+  ],
+  status: "",
+  intro: [
+  "In today’s changing world, identity formation remains an important task for young adults as they gain more independence and face social pressures. They often start questioning their values, beliefs, goals, and the roles they play in different parts of life such as school, family, or work. Identity refers to an individual’s understanding of who they are, encompassing values, beliefs, goals, and roles in various domains of life. According to Erikson (1968), establishing a coherent identity is an important part of adolescence and young adulthood, where individuals resolve the tension between identity and role confusion to achieve psychological well being. He emphasised that this period is a period of confusion and experiments regarding identity and one’s life path. He talks of a psychological moratorium where teens put on hold to committing to an identity while they explore other options. ",
+  "A more detailed framework for understanding identity development was offered by James Marcia (1966), who expanded on Erikson’s theory by introducing four identity statuses. Identity achievement describes individuals who have explored a range of options and made firm commitments to personal values, career paths, and beliefs, and is linked with higher self-esteem and clarity. Moratorium refers to those actively exploring identity alternatives without yet committing; this phase is often filled with uncertainty and psychological tension but is a critical stage in eventual identity resolution. In contrast, foreclosure involves strong commitments made without adequate exploration, often reflecting values inherited from authority figures or tradition, which may hinder future adaptability. Lastly, identity diffusion characterizes individuals who neither explore nor commit meaningfully, often resulting in fragmented or unstable self-concepts and increased emotional distress (Schwartz, 2001). These statuses illustrate that identity development is a dynamic and individual process, shaped by both internal drives and contextual influences. ",
+  "Identity during young adulthood is shaped by a mix of personal and social influences such as family values, peer relationships, cultural background, education, and social expectations. Today, digital media adds a new aspect, offering spaces for self expression but also exposing young people to comparison, pressure, and confusion. At the same time, gender roles, financial realities, and access to education can either expand or restrict identity choices. Because of this, identity development isn’t just personal, it’s deeply shaped by context. Every young person’s journey is unique, unfolding at the intersection of self exploration and the world they live in.",
+  "Studying identity formation in young adulthood matters because it shapes so much of a person’s future for example, how they feel about themselves, the choices they make, and how they relate to others. This stage of life, usually between 18 and 25, is a time of growing independence and big transitions. As young people move away from roles set by family or school, they begin to make more personal, self-directed choices (Arnett, 2000). They explore what they believe in, who they want to be with, and what kind of work they want to do. These explorations make identity development one of the most important psychological tasks. By understanding what supports or challenges identity development during these years, researchers and professionals can help young adults build a clearer, more meaningful sense of who they are, something that will guide them well beyond their twenties.",
+  "The aim of this study is to analyse the identity formation of young adults in India and understand on what level they fall in Marcia's identity stages according to their age. "
+  ],
+  content: [
+    {
+      heading: "2.RATIONALE",
+      paragraphs: [
+      "Identity formation is one of the most significant psychological and social processes that individuals undergo during young adulthood. This phase of life, often marked by the transition from adolescence to early adulthood, is a critical period where individuals explore, question, and shape who they are in terms of values, beliefs, career goals, cultural background, gender roles, and personal identity",
+      "In today’s world, young adults face a complex mix of influences—ranging from social media and peer pressure to educational expectations and shifting cultural norms. These influences can both support and challenge their process of self-discovery. With the rise of digital spaces and increased global connectivity, young people are exposed to diverse identities and ideologies, which often adds to their internal conflict or accelerates their personal growth.",
+      "Our interest in this topic stems from the fact that identity formation is not just a personal journey—it is deeply social and cultural. Understanding how young adults form their identities can help educators, parents, mental health professionals, and policy-makers to better support them in making informed, healthy, and empowering choices.",
+      "By focusing on this area, our research aims to explore the various dimensions focusing on how identity formation in young adults is influenced at this age such as family background, social context, peer relationships, digital influence, and cultural narratives—that shape identity development. We also aim to highlight the struggles young adults often face, such as identity confusion, pressure to conform, emotional uncertainty and also to understand how age and factors which an individual faces at this age influences identity formation.",
+      "Ultimately, this study hopes to contribute to a better understanding of how identity is formed, negotiated, and expressed among young adults today—and why this process is so vital for their overall well-being and future growth."  
+      ]
+    },
+    {
+      heading: "3.REVIEW OF LITERATURE",
+      paragraphs: [
+        "3.1 Sánchez‑Queija, I., & Sánchez‑Queija, A. (2024). Identity development and adjustment during emerging adulthood from a gender perspective.",
+      "This study confirmed the Spanish version of the Dimensions of Identity Development Scale (DIDS) and looked at how identity processes connect to well-being in emerging adults, focusing on gender differences. The researchers guessed that identity dimensions would predict psychological adjustment and that these connections would differ by gender. The results showed that men had higher scores in commitment, while women scored higher in exploration and ruminative thinking. Identity commitment had a stronger positive effect on well-being for men than for women.",
+    "3.2 Mungo, A., Delhaye, M., Blondiau, C., & Hein, M. (2024). Identity formation in individuals between 16 and 25 years old with borderline personality disorder.",
+    "This clinical study looked at identity development in young adults with borderline personality disorder (BPD). Researchers expected to find problems with identity formation. The results showed that individuals with BPD had significantly lower identity synthesis and higher identity confusion compared to their peers. The study emphasizes how BPD interrupts important identity development during adolescence and young adulthood.",
+    "3.3 Longitudinal Associations among Identity Processes and Mental Health in Young Adulthood",
+    "Using a Canadian sample of young adults, this study tracked how identity exploration, both in breadth and depth, relates to mental health, with social support acting as a mediator. The researchers thought that broader exploration would reduce symptoms, while deeper, ruminative exploration could raise them. The results revealed that broader exploration was connected to fewer depressive symptoms. In contrast, deeper exploration predicted higher levels of anxiety and depression, partly influenced by perceived support from close relationships.",
+    "3.4 Jeon, H., et al. (2025). Letters from Future Self: Augmenting the letter-exchange exercise with LLM-based agents to enhance young adults",
+    "This study tested whether AI-generated “future-self” letters could improve career identity in young adults. The researchers believed that AI-based exercises would improve engagement and career clarity. While AI tools did increase participant engagement, they did not significantly perform better than traditional self-writing in improving future orientation or career self-concept.",
+    "3.5 The Role of Identity Exploration and Commitment in Predicting Well-being in Emerging Adults by Luyckx, K., Goossens, L., & Soenens, B. (2006)",
+    "This research examines the processes of identity development, exploration, and commitment, and their connection to psychological well-being in young adults. The authors assumed that a higher level of identity commitment together with active exploration would predict more life satisfaction and reduced depressive symptoms. They surveyed 425 college students from 18 to 25 years old, who filled out assessments of identity styles, commitment, exploration, and psychological adjustment. Regression analyses indicated that identity commitment was a robust predictor of well-being. In contrast, ruminative exploration was associated with greater anxiety and depressive symptoms. The study emphasizes the double-edged nature of exploration, which is healthy when future-oriented but pathological when excessive. This study is central to the study of identity formation since it illustrates how equilibrating commitment with cautious exploration enhances psychological health among young adults.",
+    "3.6 Emerging Adulthood: A Theory of Development from the Late Teens through the Twenties by Jeffrey Jensen Arnett (2000)",
+    "This article comes up with 'emerging adulthood' as a distinct period of development characterized by identity experimentation, instability, self-centeredness, and a sense of in-betweenness between adolescence and adult age. From interviews and questionnaires with people in the 18-25 age group from various socioeconomic classes, the research posits this stage to be a time of experimenting with different life choices, such as jobs, love, and religion. Arnett contends that identity development through this stage takes longer because society has changed, with people delaying marriage and their years at school. This theory is significant to research regarding young adult identity development since it structures the intricate dynamics of identity exploration in current society and accounts for variation in identity trajectories.",
+    "3.7 The Influence of Social Media on Identity Development in Adolescents and Young Adults by Michikyan, M., Subrahmanyam, K., & Dennis, J. (2014)",
+    "This article explores how online self-presentation affects identity processes among adolescents and emerging adults. The authors thought that increased authenticity in Internet profiles would be associated with better identity and greater self-esteem. Surveys were completed by a sample of 216 college undergraduates, aged 18-22, concerning their use of social media, clarity of identity, and conceptions of self. The findings indicated that individuals who presented authentic self-presentations on the Internet endorsed higher identity clarity and less self-concept confusion. Conversely, people who posed exaggerated or idealized descriptions of themselves encountered greater distress related to identity. This study is significant in the era of the digital world, showing how online communities function as arenas for identity experimentation and exploration and play a large role in the construction of stable and coherent identities among young adults. ",
+    "3.8 Parental and Peer Influences on Identity Formation in Emerging Adulthood by Crocetti, E., Rubini, M., & Meeus, W. (2008)",
+    "This article investigates the role of parents and peers in shaping the process of identity formation. The researchers hypothesized that supportive parenting and positive peer relationships would result in identity commitment and reduce identity confusion. The investigators tracked a sample of 357 youths entering emerging adulthood, aged 17-21, with identity status interviews and measures of relationship quality. The results indicated that parent support resulted in increased identity commitment over time and that peer relationship quality was related to continued identity exploration and reconsideration. The research brings out the crucial place of relationships in determining identity trajectories and demonstrates that identity development is far from a lone endeavor but deeply embedded in social relations. These discoveries can serve to better explain how peer and family contributions make for a cohesive identity in young adults."
+  ]
+    },
+    {
+      heading: "4.RESEARCH METHODOLOGY ",
+      paragraphs: [
+       "This section discusses the sampling, data collection method, and data analysis protocol that were used to examine the impact of social media on identity formation of young adults.",
+      "4.1 Sampling Strategy ",
+      "The target population of the research was people of 18-25 years of age who have reached a said milestone in their careers.",
+      "Sampling method: A random sampling approach was used to ensure sampling representation in terms of gender and age. ",
+      "4.2 Data Collection Tools",
+      "To measure the various dimensions of identity like achievement, moratorium, foreclosure and diffusion, the modified version of Marcia Identity Questionnaire was used. A google survey form was created and distributed to the participants. To answer the questions the scale used was a 5 point likert scale. ",
+      "4.3 Data Analysis Methodology",
+      "To analyse the data collected through the google forms on the questionnaire we used the following methods:",
+      "1.Jamovi: we used the software Jamovi to do the detailed analysis and statistical calculation of the data using the co-relation function as well as statistics like chi- square test to get the significance for the same.",
+      "2.Excel: The data collected was initially manually sorted into various sheets in excel and made into graphs for better understanding and clearer visual comprehension.",
+      "4.4 Ethical Considerations",
+      "-Informed consent: The participants were informed of the motive of the survey before they filled out the form. ",
+      "-Confidentiality: The data was securely stored.",
+      "-Voluntary Participation: Filling out the survey form was totally on the voluntary participation of the participants. "
+    ]
+    },
+    {
+      heading: "5.FINDINGS AND DISCUSSION",
+      paragraphs: [
+        "The Politics of Migration: ",
+        "Migration is as old as humanity itself, but it has always been rooted in survival, whether it is for food, security, or opportunity. From early human movement out of East Africa to the transatlantic slave trade, migration has long been shaped by political, economic, and environmental factors. ",
+        "Today, migration refers to the movement of people within and across borders, driven by “push” factors (conflict, poverty, climate change) or “pull” factors (economic opportunity, safety). But migration is not merely individual, but it reflects deep structural inequalities between the Global South and Global North. World-systems theory explains how core countries prosper at the expense of peripheral ones, fueling South-North migration and inequalities. It is important that we have a clear understanding of global migration as not just the movement or mobility from Global South to the Global North but a more complex system shaped by history, geopolitics and economic disparities. ",
+        "The Migration Policy Institute states that South-South migration accounts for 37% of global migration, followed by South-North (35%), North-North (19–23%), and North-South (6%). Migration corridors like Mexico to the U.S. or Africa to Europe, which has continuously highlighted the geopolitical alliances preferences and the various inequalities. The Henley Passport Index shows vast disparities in travel freedom across countries, detailing how one's predetermined origin determines their travel liberty, with many countries in the Global South remaining restricted from going to all destinations. Visas favour the wealthy and educated while criminalizing other migrants. ",
+        "Migration policies also reveal a moral complexity in global immigration. Under the Trump administration, U.S. policies, for instance, have welcomed white immigrants (i.e. 59 white South Africans accepted in 2025) while criminalizing migrants from Latin America and Africa (PBS News, 2025; Al Jazeera, 2025; DW, 2025). Family reunification processes were disrupted, and travel bans were implemented for citizens of several Muslim-majority and African countries. These policies were subject to legal challenges and were briefly reversed and reinstated across the Trump and Biden administrations. The use of tactics by U.S. Immigration and Customs Enforcement (ICE), such as mass raids and detention without legal counsel, has been criticized by organizations like Human Rights Watch. Their findings suggest that enforcement has disproportionately targeted Black, Asian, and Hispanic individuals, raising questions about compliance with SDG 10, Target 10.7, which aims to facilitate safe and responsible migration. This raises a crucial question: where is the line between national security and the principles of justice and human rights? ",
+        "Ultimately, migration is a geopolitical issue, where countries use immigration policies to shape alliances, economic strategies, and foreign policy. Borders and immigration policies are not neutral; they reflect a nation's stance on refugee acceptance, visa approval, and the travel freedom of migrants from the Global South. These borders are often racialized and militarized, reflecting deep-seated biases based on a migrant's wealth and country of origin. While SDG 10 seeks to reduce these gaps, current migration frameworks often reinforce them, leaving the American Dream more of a myth than a reality for many. "
+      ]
+    },
+    {
+      heading: "6. Limitations and Future Directions",
+      paragraphs: [
+      "●Limitations:",
+    "1.Sampling Limitations",
+  "The data that was collected included an uneven age distribution making it difficult to analyse and generalise the data. Hence the sampling could have been more varied and included an equal number of participants from all age groups. Also because the sampling method was random some of the participants did not fill out the questionnaire truthfully and tried to fill the form without interest leading to redundant answers or same choices for all questions which later had to be removed from the data analysis. A regulated and non biased sample should have been selected but the lack of time and the willingness of individuals influenced the sample. Finally, working with a larger sample size would have given us more accurate results which was one of our biggest limitations.",
+"2.Socio-Cultural Constraints on Identity Exploration  questionnaire",
+"Within the Indian collectivist framework, choices regarding careers, beliefs, and relationships are largely influenced by family, caste, or community standards. Young adults frequently encounter restricted educational and employment opportunities, along with limited freedom to pursue ideological or relationship decisions, particularly if these differ from societal norms. This structural constraint complicates the transition for many from the moratorium stage to achievement, or may lead them to move too hastily towards foreclosure, where an identity is accepted without adequate exploration.",
+"3.Peer, Social Media & Self-Presentation Biases while answering ",
+"Today's youth are subjected to an unprecedented level of comparison and pressure to present themselves positively through social media. These platforms heighten social comparison—resulting in insecurity or a fragmented sense of self—and magnify peer norms across social class, gender, or beliefs that may clash with their genuine values. Consequently, many individuals find themselves in an extended moratorium phase, reassessing their identity in light of fluctuating social benchmarks.",
+"4.Intersectional Challenges: Caste, Class, Gender, and Geography  were not accounted for in the questionnaire",
+"Elements such as caste, socio-economic status, gender identity, and the divide between rural and urban areas significantly influence the trajectory of identity development. Youth from lower-caste backgrounds or those facing economic hardships often encounter discrimination and limited opportunities, while societal gender norms restrict the freedom to explore unconventional roles, particularly for women seeking relationships or careers that challenge traditional expectations. Consequently, intersectional marginalisation can hinder or complicate the transition from exploration to achievement."
+]
+    },
+  ],
+  conclusion: [
+    "Identity formation is influenced by various factors but the formation of an identity for an individual has multiple dimensions.Through this research, we were able to understand that the young adults have majorly completed this task of establishing an identity according to their age. Even though the correlation established between age and Identity Achievement was not very significant, the P value showed a positive co-relation of 0.992.",
+    "Understanding the complexities of identity formation and its variation among young adults is very essential for developing effective strategies to support their academic and personal growth,and helping their transition from adolescence to adulthood. This study reveals that identity development is shaped by a mix or combination of individual experiences, socio-cultural influences, family expectations and values rather than by age alone. Recognising diverse pathways and challenges faced by young adults including the intersectional impacts of caste,gender,class and environment highlights the critical need for tailored approaches.",
+    "By addressing all those unique challenges and strengthening support and providing a supportive environment whether in educational institutions,communities or families stakeholders can nurture a healthy identity exploration and foster a sense of autonomy and commitment among young adults.",
+  "Ultimately, embracing an holistic, flexible and inclusive framework for Identity development empowers young adults to navigate their transition into adulthood from adolescence and thrive to fulfill the demands of a challenging society, build resilient self-concepts and achieve their true potential. Policymakers and institutions must commit to ongoing research and adaptation to ensure that all young people are given a chance or facilitated to shape their identities and future.",
+"The study brings the scope of further research with a larger sample and Indianised version of the questionnaire. We observed that in the Indian context, family norms and cultural beliefs play a very significant role in a person finding and associating themselves to a particular identity. ",
+"We can conclude that with relation to various factors such as peer pressure, conformity, and cultural beliefs, Age drives the formation of one’s Identity." 
+],
+  references: [
+    {
+      heading: "1)Arnett, J. J. (2000). Emerging adulthood: A theory of development from the late teens through the twenties. American Psychologist, 55(5), 469–480. ",
+      links: "https://doi.org/10.1037/0003-066X.55.5.469 "
+    },
+    {
+       heading: "2)Erikson, E. H. (1968). Identity: Youth and crisis. W. W. Norton. ",
+      links: ""
+     },
+     {
+       heading: "3)Jeon, H., Kim, S., Park, J., & Lee, H. (2025). Letters from future self: Augmenting the letter-exchange exercise with LLM-based agents to enhance young adults’ identity development. Computers in Human Behavior, 146, 107896. ",
+      links: ""
+     },
+     {
+       heading: "4)Kroger, J., & Marcia, J. E. (2011). The identity statuses: Origins, meanings, and interpretations.",
+      links: ""
+     },
+     {
+       heading: "5)Klimstra, T. A., Luyckx, K., Meeus, W., & Beyers, W. (2024). Longitudinal associations among identity processes and mental health in young adulthood. Developmental Psychology, 60(1), 22–35.",
+      links: ""
+     },
+     {
+       heading: "6)In S. J. Schwartz, K. Luyckx, & V. L. Vignoles (Eds.), Handbook of identity theory and research (pp. 31–53). Springer.",
+      links: "https://doi.org/10.1007/978-1-4419-7988-9_2 "
+     },
+     {
+       heading: "7)Marcia, J. E. (1966). Development and validation of ego identity status. Journal of Personality and Social Psychology, 3(5), 551–558. ",
+      links: "https://doi.org/10.1037/h0023281 "
+     },
+     {
+       heading: "8)Marcia, J. E. (1980). Identity in adolescence. In J. Adelson (Ed.), Handbook of adolescent psychology (pp. 159–187). Wiley. ",
+      links: ""
+     },
+     {
+       heading: "9)Mungo, A., Delhaye, M., Blondiau, C., & Hein, M. (2024). Identity formation in individuals between 16 and 25 years old with borderline personality disorder. Journal of Personality Disorders, 38(2), 123–139.",
+      links: ""
+     },
+     {
+       heading: "10)Sánchez‑Queija, I., & Sánchez‑Queija, A. (2024). Identity development and adjustment during emerging adulthood from a gender perspective. Journal of Adolescence, 100, 45–56. ",
+      links: ""
+     },
+     {
+       heading: "11)Schwartz, S. J. (2001). The evolution of Eriksonian and Neo-Eriksonian identity theory and research: A review and integration. Identity, 1(1), 7–58.",
+      links: ""
+     },
+     {
+       heading: "12)Lukács, B., Babarović, T., Burić, I., & Kovačević, J. (2024). Recent stressful life events and identity development in emerging adulthood: A cross-lagged panel study. Journal of Adolescence, 104, 101-112.",
+      links: "https://doi.org/10.1016/j.adolescence.2024.04.002"
+     },
+     {
+       heading: "13)Berman, A. M., Laflamme, M., & Ratelle, C. F. (2023). Longitudinal associations among identity processes, mental health symptoms, and perceived social support in emerging adulthood. Journal of Adolescence, 101, 15-25. ",
+      links: "https://doi.org/10.1016/j.adolescence.2023.02.008"
+     },
+     {
+       heading: "14)Yerofeyeva, I., Galyautdinova, M., Gavrilova, T., Wang, C., & Zhou, Y. (2024). Shimmering emerging adulthood: In search of the invariant IDEA model for collectivistic countries. Frontiers in Psychology, 15, 1349375. ",
+      links: "https://doi.org/10.3389/fpsyg.2024.1349375"
+     },
+     {
+       heading: "15)Steenbakkers, A., van der Steen, S., & van der Zanden, R. (2024). Exploring narrative identities in emerging adults who have been in foster care. Children and Youth Services Review, 160, 107501.",
+      links: "https://doi.org/10.1016/j.childyouth.2024.107501"
+     }
+   
+  ]
+},
+{
+  id: 2,
+  issue: 4,
+  volume: 1,
+  title: "From Hegemony to Humanitarianism? The Dual Role of the US in Middle East Peace and Conflict in International Relations Discourse",
+  author: "1)Mansha :-  Desh Bhagat University, Punjab,2)Sonali:-  Central University of Gujarat,3)Mimansa joshi :-3rd Year B.A.LL. B (Hons) at Rajiv Gandhi National University of Law, Punjab,4)Safia shahnawaz:- 4th year B.A. LL. B(hons) at Faculty of Law, Aligarh Muslim University",
+  authorAbbrev: "Mansha,Sonali,Mi. joshi,S. shahnawaz",
+  abstract: [
+  "This paper addresses the complicated contortions of the United States in the Middle East, where strategic hegemony is interpreted through a mostly humanitarian lens. Beyond the blatant interventions of Iraq and Syria, the paper examines less discernable U.S. interventions in Yemen, Lebanon, and Oman—geographies that have taken up U.S. influence and control by making use of aid, diplomacy, and military partnerships without open hostilities. This paper uses Realist approaches to theories and critical discourse analysis and shows how doctrines such as the “Responsibility to Protect” are instrumentalized and strategically deployed to advance its strategic interests. The paper then turns to the U.S.-Israel relationship and examines how the convergence of Commonwealth, political, social, and religious affinities influences policy decisions. At the same time, American complacency in Palestine and recent involvement in military strategies against Iran certainly raises legitimate doubts about the U.S. credibility as a peacebuilder. In conclusion, the research argues that humanitarianism is an engineered instrument of American hegemony, wherein the concept of intervention shifts from the making of overt war to subtle domination."
+],
+  keyword: [
+    "United States in the Middle East",
+    "humanitarian lens",
+    " Influence without Force",
+    "Moral Rhetoric",
+    "corruption trail "
+  ],
+  status: "",
+  intro: [
+    "Introduction and Background",
+    "Power no longer shows up in tanks. Power shows up in language, in leverage, in legal cover. It offers peace, but leaves ash. A  Diplomacy in which the language of liberation is often just a mask for imperial ambition. This research proceeds from that tension the paradox of American presence in the Middle East. The United States’ involvement in the Middle East is often explored through its most overt violence invasions of Iraq, Afghanistan, and Syria. But the true shift in power occurs in other areas in places where the U.S. employs not invasion, but invisibility. These are quiet laboratories in which the differences between humanitarianism and hegemony have become indistinguishable. In places like Yemen, Lebanon, and Oman, the American presence is being discussed more often than the U.S. military presence, but the implications are even more pronounced. These are not traditional or classic battlegrounds but They are silent laboratories, where the line between aid and influence, protection and regulations, has eroded beyond recognition.",
+    "Background –",
+    "In which case it refuses the binary of invader/saviour and rather maps out the architecture of a power that has mastered how to adapt: from overt military domination to embedded political and economic presence, disguised as humanitarian initiatives. Conventional academic approaches have focused on the exposed conflicts and interventions; that of Iraq, Afghanistan, and Syria more noticeably, while the United States remains to be understood on how they orient an enduring, strategic presence through sustained, systemic, and muted practices.",
+        "By the late 2000s and early 2010s particularly following the Arab Spring uprisings. The United States began strategically revaluating its battle against radicalization in the Middle East. It pivoted away from direct combat role and toward a vision in which it exerted influence regularly but sustainably and with less political capital. This pivot stands out in a number of contexts particularly the following three. ",
+        "1.First, in Yemen (after 2014) the United States adopted an indirect approach to combat radicalization and provided direct support to the Saudi-led coalition while justifying its participation by focusing on humanitarian initiatives.",
+        "2.Second, in Lebanon (after the 2006 war) the United States made substantial efforts to develop national institutions to represent an alternative stabilizing force to Hezbollah, especially its support for the Lebanese Armed Forces (LAF).",
+        "3.Third, in Oman, throughout the 2010s, the United States developed quiet military partnerships and took advantage of Omani policy neutrality to facilitate diplomatic back channelling.",
+        "The U.S. is deeply involved in several places, such as Yemen, Lebanon, and Oman, where we are supplying arms while financing humanitarian aid in Yemen, we condition the political outcome in Lebanon with assistance, and we unobtrusively operate military capabilities in Oman. There are institutional mechanisms inherent across the DoD, DoS, USAID and international organizations that enable the U.S. to provide influence without intervention. This paper examines this model where humanitarianism is often a front for calibrated hegemony."
+  ],
+  content: [
+    {
+      heading: "Problem statement and research objectives –",
+      paragraphs: [
+        "The United States’ current foreign policy is indicative of a more pronounced transformation from visible military power to a more implicit control via humanitarian rhetoric, multilateral agency resourcing, and peace diplomacy. The shift that is referred to in this dissertation as ‘strategic humanitarian governance’ allows the U.S. to project influence across regions without the requirement of a traditional military. Recent diplomatic efforts by the U.S. including proposals for the disarmament of Hezbollah (ABC News, 2025, highlight how we disguise geopolitical plans in peacebuilding talk and raise serious considerations regarding the use of humanitarian governance to alter regional balance of power. In states such as Yemen, Lebanon, and Oman, a stark duality can be seen. In Yemen, U.S. humanitarian assistance for Yemenis exists alongside a licensed arms sale for the Saudi-led coalition’s activities against the Houthis. In Lebanon, providing assistance for the Lebanese Armed Forces is framed as peacekeeping but is used as a tool to contain Shia political power, at present with Hezbollah. In Oman, constructing an identity of neutrality provides cover to coordinate military and intelligence assessments of the region.",
+        "This shift provides an extremely compelling, often overlooked, set of questions for scholars and practitioners:",
+        "1.Does delivery of humanitarian aid now represent soft power mechanisms for contemporary empire?",
+        "2.What does soft-intervention do to state sovereignty?",
+        "3.Where are the ethical contradictions when peacebuilding efforts are sequestered by what is essentially geopolitical engineering?",
+        "This attempts to stabilize some of these tensions through exposing how the language of relief is regularly called upon in the service of ideological translation to legitimate invisible hegemony, and fundamentally challenges hegemonic understandings of intervention and global leadership.."
+      ]
+    },
+    {
+      heading: "Research Objectives - ",
+      paragraphs: [
+         "This study aims to critically analyze how humanitarianism is instrumentally repurposed as a vehicle of geopolitical power in contemporary U.S. foreign policy in the Middle East. By introducing the concept of “strategic humanitarian governance” this study provides a new lens to understand how the language of aid, peacebuilding, and create institutional support serves the purpose of forwarding hegemonic objectives while maintaining a moral shield.",
+        "The specific ambitions of this study are the following: ",
+        "1.To conceive and theorize “strategic humanitarian governance” as a modern rendering of a non-coercive form of power exertion where diplomacy, development aid, and security partnerships become the substitute for guns and occupation.",
+        "2.To undertake a critical analysis of U.S engagement in Yemen, Lebanon, and Oman in how humanitarian and diplomatic tools systematically align with long-term strategies and political interests.",
+        "3.To ethically, legally, and sovereignty determine the effects of humanitarian interventions that generate dependency, entrench asymmetries, or maintain conflict environments indirectly.",
+         "4.To interrogate if U.S foreign policy is a commodified remaking of empire manifested through invisibility, consent making, and moral justifications rather than occupation and use of force.",
+        "5.To offer an interdisciplinary theoretical synthesis of realist power theory, postcolonial critique, and critical humanitarianism to disrupt conventional debates about surveillance and global intervention."
+      ]
+    },
+    {
+      heading: "Literature review -",
+      paragraphs: [
+        "Theme 1 –U.S. Strategic Hegemony and Realist Interpretations",
+        "The United States has played a multifaceted role in the Middle East, often shifting between acting as a dominant global power and presenting itself as a promoter of humanitarian values. This fusion of strategic ambition and moral rhetoric has sparked ongoing debates in both academic and policy-making circles. It raises fundamental issues regarding the intersection of power, intervention, global stability, and ethical justification.",
+        "From the perspective of realist theory particularly hegemonic stability theory as outlined by Robert Violin 1981 a single dominant power is necessary to maintain international order. Following the cold war, the US emerged as the leading global Hegemon and sought to shape the Middle East geopolitical environment through a combination of military strength, economic leverage, and diplomatic leadership (Walth,2005). However this leadership is driven less by altruistic motives and more by the strategic imperative to maintain a favorable balance of power.",
+        "Mearsheimer 2001 concept of offensive realism further this view by arguing that major powers are inherently motivated to expand their influence in order to prevent the rise of regional challenges. According to this logic, U.S. actions in the Middle East can be seen not merely as reactive or defensive , but as a part of a broader strategy to preserve its dominance in a region critical to global power dynamics.",
+         "Layne 2006 also observed that U.S. dominance is sustained not by idealist policies, but by coercive and preventive methods aimed at ensuring energy flows and military superiority.",
+        "Realist thinkers emphasized the role of alliance as an instrument of power projection and stability. The United States has always supported authoritarian regimes like Egypt, Saudi Arabia, Gulf States and Jordan, not out of democratic solidarity but for geopolitical reasons (Kirkpatrick, 1979). The United States pursued a containment theory in this region during the Cold War period with countries such as Saudi Arab, Iran, Israel. After the disintegration of the USSR, the United States adopted a more direct hegemonic role, which became an evidence of long term military presence in Iraq, in 1991 Gulf War and the Persian Gulf ( Gause, 2009). In 2002 Bush gave the concept of National Security Strategy and introduced the doctrine of Preemptive war under this in 2003 Iraq invasion was justified. Scholars such as Khalidi 2013 and Parsi 2007 argue this enhanced U.S. dominance at the cost of regional peace and sovereignty.",
+        "“American intervention in Iraq was not about democracy—it was about reasserting hegemony in a strategically critical region.” (Chomsky, 2003)",
+        "Theme 2 – Humanitarian Justification and the Moral Rhetoric of Intervention",
+        "Mearsheimer 2011 and Chomsky 1999 argue that moral justification is often used to serve power driven objectives. For example, the doctrine of the “Responsibility to Protect” R2P,",
+        "Although formally adopted by the United Nations World Summit, has been selectively applied, raising the question about its true function. The United States has invoked R2P in a selective manner such as Libya, parts of Syria and Kurdish regions of Iraq suggesting that humanitarian arguments are often used to legitimize strategic interests rather than uphold universal moral principles.",
+        "Realists saw NATO s 2011 involvement in Libya, which was officially justified by humanitarian needs as a strategic measure to remove a stubborn regime and ensure western access to Mediterranean oil lines. The absence of post-conflict planning confirms the realistic view that such activities are tactically motivated rather than part of a long term rebuilding strategy.",
+        "Mazey(2019) talks about how presidents like Barack Obama and George W. Bush formed alliances both domestic and international by using humanitarian rhetoric. Obama placed a strong emphasis on “saving civilians from massacre” in Libya , while critics like Mamdani 2012 noted that the regime change agenda was behind the rhetoric. Cases such as Somalia 1992- 1993), and portions of Syria 2013-present demonstrate that humanitarian interventions frequently result in long term destabilisation. Whether humanitarian intentions were sincere or merely tactically advantageous is questioned in the literature ( Duffield,2001: Hehir,2013).",
+        "Theme 3 - Peacebuilding, Mediation, and the Crisis of the U.S. Credibility",
+        "In the conflict between Israel and Palestine the US claims to be a peacemaker. Scholars such as Rashid Khalidi 2013 in “Broker of Deceit” argue that the US consistently prioritises Israel’s interests, compromising its reputation as an impartial entity. It shows the “hegemonic alignment” and peace rhetoric are at odds with each other.",
+         "The United States strategy assessing non-state groups such as the Syrian Democratic forces, Mujahideen in Afghanistan, and Kurdish militias often backfire. Instead of promoting peace, proxy warfare has exacerbated conflict, created power vacuums and empowered rival interventions (Hazbun, 2016; Bachevich,2020).",
+      "The inconsistency of United States interventions has diminished the moral authority of its leadership. After the failure of Iraq and Libya, along with inaction in Yemen, international confidence of lost faith in the U.S. laid peacebuilding.",
+      "Perceptions of double standards are reinforced even within the U.N. The United States votes on humanitarian resolutions such as those pertaining to Gaza (Lynch,2023; Falk,2014).",
+      "The United States talks about freedom	but supports tyranny and it talks about peace yet weapons the war ( Fall,2014).",
+      "The dual role of the United States in the Middle East ( Humanitarian and hegemon) indicates deep tension in American foreign policy. While humanitarian discourses frequently accompany interventions, research suggests the framing often promotes hegemonic interest rather than genuine moral imperatives.",
+      "Each of the three themes of hegemonic strategy, humanitarian justification, and peacebuilding credibility demonstrate how the United States speech and actions regularly vary. If the United States wants to re-establish credibility in peacebuilding, it must balance its strategic goals with continuous, norm based international participation."
+    ]
+    },
+    {
+      heading: "Methodology",
+      paragraphs: [
+         "Discourse analysis in international relations serves as the foundation for this study’s qualitative and interpretive methodology. With an emphasis on the delicate transition from overt military interventions to strategic humanitarian narratives that conceal hegemonic aspirations, the research explores the evolution of U.S. foreign policy in the Middle East. The following is the structure of the methodology, which combines case study analysis, document evaluation, and discourse interpretation:",
+        "Case Study Selection:",
+        "Oman, Lebanon, and Yemen are three important Middle Eastern situations that have been purposefully chosen because they provide valuable examples of the dual role of the United States. Every instance provides a distinct illustration of how American influence appears through non-combative, indirect means: Yemen: The Saudi-led coalition is supported by the United States under the pretence of humanitarian concerns.",
+        "Lebanon: Using military diplomacy to balance Hezbollah with institutional assistance. Quiet military alliances and diplomatic backchanneling in Oman.",
+        "Document and Policy Analysis:",
+         "The evolution of U.S. involvement has been traced through primary sources, including Congressional Research Service (CRS) reports, policy briefs, and international agency documentation. These records were picked because they were reliable and up to date, enabling a thorough examination of American foreign policy following the Arab Spring.",
+        "Discourse Analysis:",
+        "In order to defend and frame their operations in the Middle East, U.S. agencies such as the Department of Defense (DoD), Department of State (DoS), and USAID employ language and rhetoric that is critically evaluated in this study. This method emphasizes the difference between the overt humanitarian rhetoric and the oftentimes hidden geopolitical agendas.",
+        "Analytical Framework:",
+        "Drawing on critical theories in international relations and postcolonial studies, the study uses the conceptual lenses of “soft power hegemony” and “strategic humanitarianism.” These frameworks allow for a more nuanced understanding of the operationalization of influence without resorting to direct conflict ",
+        "Limitations:",
+        "The study acknowledges the limitations of access to classified data and the interpretive nature of discourse analysis, which may involve a degree of subjectivity. Nonetheless, using reliable government sources and triangulating case studies helps reduce the possibility of bias."
+      ]
+    },
+    {
+      heading: "Interpretation and analysis ",
+      paragraphs: [
+         "US strategic interests in Israel-Palestine conflict and escalating tensions with Iran",
+        "The topic of the duality of the USA is evident in its actions in the Middle East—providing around $30 million in aid to Palestine while also offering military support to Israel. The U.S. has long intervened in regional conflicts, and its current stance shows support for Israel while remaining in conflict with Iran. Recent reports highlight bombings and alleged war crimes, including the killing of civilians, children, and medical workers. This raises questions about the U.S.’s role and its complex relationships in the region.",
+        "US-Israel relations",
+        "With several nation been hostile to Israel actions in Palestine still armoured with US as an ally, in 1917, the Balfour Declaration transferred rule of the middle eastern region known as Palestine to the British Empire as a temporary national home for Jewish people. Between 1917 and 1948, Palestine was inhabited by Jewish immigrants who supported the idea of Zionism (the right of the Jewish people to return to the Holy Land) and Arabic-speaking Muslims and Christians who had occupied the land for many centuries. U.S. President Harry Truman was the first world leader to officially recognise Israel as a legitimate Jewish state on May 14, 1948, only eleven minutes after its creation. The response US gave led us analyse the core idea of American support for Zionism",
+        "American Israel” a term frequently used to connect US with ancient Israel by connection usually felt by Americans towards Israel through representation of biblical landscapes, one was portrayed by Abiel Abbot’s thanksgiving in 1799 speech, where he referred Americans to be connected with Israel by citing religious references. The Old Testament (Jewish bible) gave much source to the way puritans explained about future difficulties in biblical languages. Protestant Christians saw the atrocities that were committed to Israelis by European Christians and condemned the holocaust. Further the journey for ‘promised land’ connected well with the ways Israelis journey to their new home is part of biblical commandments that were cited by a lot of scholars well recognised personalities as the right enshrined in the Bible where God promised to Abraham:",
+         "“I will give you, and them the land in which you are now a foreigner” -  Genesis 17:8",
+        "Most Americans believed this verses to be authentic and thus is free from any discrepancies and argued Regarding return to homeland and thus as a result Religion plays a major role in uplifting of what now Israel calls their land where Truman recognised its establishment.",
+        "US also shares same culture with Idealism, liberal republicans which connected US and Zionist and later this ideal was shown as supporting Jewish national movement. Herman Melville quotes “We Americans are peculiar, chosen people – the Israel of our time, we bear the ask of the liberties of the world,”",
+        "In the similar way George R Brown describes Palestine as origin field for Jewish home seekers and was discussed in house resolution 52. Another reason that Americans supported Jews is to full the vote bank nearly 3 million lived in US. President such as Delano and Roosevelt relied on Jewish money."
+      ]
+    },
+    {
+      heading: "Core Findings ",
+      paragraphs: [
+         "It war or peace or just an excuse to be at seat?",
+        "Now that American support for Israel is evident the escalation went quickly with the ongoing genocide that Israel committed in Palestine as per Francesca Albanese reports on genocide anatomy and genocide as colonial erase. It discussed about erosion of humankind backed by political consensus. Israel continues with genocide even after UN intervention and several voting in favour of ceasefire except for one power. This was just seen as an excuse where the President Benjamin Netanyahu was engaged in a corruption trail as case 1000, case 2000 and case 4000 which was alleged as taken bribe from Arnon Milchan, an Israeli Hollywood film producer, and James Packer, an Australian billionaire. A 2020 conflict of interest arrangement, drawn up by then-Attorney General Avichai Mandelblit and upheld by the High Court of Justice, prevents Prime Minister Benjamin Netanyahu from involving himself in judicial appointments or legislation that could impact his ongoing corruption trial, and to distract the public as well as international forums on the trial Netanyahu is committed to destroy Gaza as only up to now only 18% land is left for Palestine on the strip.",
+        "Operation rising lion",
+        "Israel conducted a surgical operation targeting key Iranian military and nuclear personnel where main target was to Disrupt Iran’s strategic confidence and command structure through sophisticated deception techniques and the Pre-positioned strike platforms inside Iranian territory to bypass traditional defence system that eliminated possible key scientists, military heads. It was based on apprehension conducted as to Iran possibly having 400kg of uranium. US asked Iran for unconditional surrender whereby 125 aircrafts were launched striking 75 precision bombs. America used B2 stealth bombs for deploying the Bunker buster bomb GBU- 57 on Iran where in no such claims were ever made by IAEA[ IAEA,2025, IAEA Director general Grossi’s statement to UNSC on situation in Iran, Vienna, Austria available at https://www.iaea.org/newscenter/statements/iaea-director-general-grossis-statement-to-unsc-on-situation-in- iran   22-june-2025 (last visited on 22nd July,2025) ],  it was a deliberate attempt to distract public, us as a nation wants Israel as an ally based on strategic interests. The hegemony showed from the part of US towards activity of Middle East is evident in recent days, Trump on one hand tried mediating between the two nations and on the other supporting Netanyahu y military assistance and veto power"
+      ]
+    },
+    {
+      heading: "Policy and practice Recommendations ",
+      paragraphs: [
+         "In disclosing the facade of humanitarianism as covert statecraft, U.S. foreign policy must undergo the cleansing of ethics and structural decoupling. First, there would be the institutionalization of a Geo-Humanitarian Firewall Protocol, i.e., a protocol requiring that military logistics cannot be linked in any verifiable manner to humanitarian assistance, with transregional ethics council-based enforcement. Second, creating Assembly for Recipient-Led Resilience (ARRs) would ensure that non-negotiables for aid conditionality are set by frontline states such as Yemen, Lebanon, and Oman in order to prevent support from being legitimate for political containment. Third, a Diplomatic Influence Disclosure Act should be passed in order to make public all bilateral humanitarian negotiations and detail where aid serves ideological ends. Furthermore, the Digital Hegemony Tracker would monitor the simultaneous convergence of defense cooperation with development diplomacy in real-time. Finally, Ethical Imbalance Simulations could be embedded within American foreign policy academia to help train diplomats in evaluating the long-term fallout of double-edged aid. Using simulation case labs based on past neglect, such as Lebanon post-2006, will potentially build anticipatory ethics."
+      ]
+    }
+  ],
+  conclusion: [
+     "These proposals challenge From Hegemony to Humanitarianism? The Dual Role of the US in Middle East Peace and Conflict in International Relations Discourse, the topic suggests a broad approach towards peace resilience and engagement for prosperity with showing the dominance which was engaged since the beginning of geopolitical change. US engagement in Middle East is not a new phenomenon it existed since a long while where tensions between hegemonic approach and humanitarian intervention existed in parallel forms, the duality shown in Yemen by supporting Saudi led government to supplying military assistance to Israel simultaneously providing humanitarian aid to Gaza all this is nothing but a strategic interest where power is driven through persistent frame of democracy combined with American foreign policy, where efforts toward peace are frequently undermined by alliances with authoritarian regimes, military interventions, and selective support for human rights. Within international relations discourse, this duality challenges scholars and practitioners to critically reassess the authenticity of humanitarian justifications and the long-term implications of hegemonic behavior disguised as benevolent leadership. Moving forward, a more coherent and ethically consistent U.S. approach will be essential for achieving genuine stability and credibility in the region.",
+        "The United States’ strategic hegemony and humanitarian rhetoric are purposefully combined in the Middle East. Through the use of aid, diplomacy, and institutional support in place of overt warfare, the United States transforms intervention into a more palatable but no less effective form of control. It has demonstrated by its activities in Yemen, Lebanon, and Oman how soft power tools can uphold geopolitical goals while putting on a moral front. According to this study, maintaining domination is more important than providing aid in “strategic humanitarian government.” In light of the ongoing debate over the morality of intervention, the U.S. model calls into question the traditional divisions between power projection and peacebuilding and calls for a reassessment of the viability and significance of such a dual-purpose foreign policy. "
+    ],
+  references: [
+    {
+      heading: "Sharp, J. M. (2023). Yemen: Civil war and U.S. policy (CRS Report No. RL34170). Congressional Research Available at ",
+      links: "https://crsreports.congress.gov/product/pdf/RL/RL34170"
+    },
+    {
+      heading: "Blanchard, C. M. (2021). Lebanon: Background and U.S. Relations. Congressional Research Service available at ",
+      links: "https://crsreports.congress.gov"
+    },
+    {
+      heading: "Katzman, K. (2022). Politics, security, and relations between the U.S. and Oman  (CRS Report No. RS21534). Congressional Research Service. Available at ",
+      links: "https://crsreports.congress.gov/product/pdf/RS/RS21534 "
+    },
+    {
+      heading: "ABC News. (2025, July 19). U.S. envoy receives Lebanese government’s response to Hezbollah disarmament.",
+      links: "https://abcnews.go.com/International/wireStory/us-envoy-receives-lebanese-governments-response-hezbollah-disarmament-123530104"
+    },
+    {
+      heading: "Amnesty International. (2025). Reductions in U.S. aid exacerbate Yemen’s humanitarian emergency. ",
+      links: "https://amnesty.ca/human-rights-news/yemen-us-aid-cuts-compound-humanitarian-crisis/ "
+    },
+    {
+      heading: "The Guardian, Eleven Yemeni detainees are moved from Guantánamo to Oman by the U.S. ",
+      links: "https://www.theguardian.com/us-news/2025/jan/06/yemeni-prisoners-guantanamo-oman-transfer "
+    },
+    {
+      heading: "1 Harry S Truman library museum, Recognition of Israel, National Archives available at",
+      links: "https://www.trumanlibrary.gov/education/presidential-inquiries/recognition-israe"
+    },
+    {
+      heading: "David Tal, 2022, The making of an Alliance ‘The origin and development of US-Israel Relationship’ Cambridge University Press, C28B5, United Kingdom.",
+      links: ""
+    },
+    {
+      heading: "Francesca Albanese, 2024, Genocide as colonial erasure, United Nations, available at",
+      links: "https://www.un.org/unispal/document/genocide-as-colonial-erasure-report-francesca-albanese-01oct24 "
+    },
+    {
+      heading: "4 BBC news.2022, Benjamin Netanyahu: What are the corruption charges? Available at",
+      links: "https://www.bbc.com/news/world-middle-east-47409739.amp"
+    },
+    {
+      heading: "IAEA,2025, IAEA Director general Grossi’s statement to UNSC on situation in Iran, Vienna, Austria available at ",
+      links: "https://www.iaea.org/newscenter/statements/iaea-director-general-grossis-statement-to-unsc-on-situation-in- iran   22-june-2025 "
+    },
+    {
+      heading: "6 Zineb Ribou, 2025, How Israel operation lion dismantled Iran from within, Hudson Institute.",
+      links: ""
+    },
+    {
+      heading: "1.Bellamy, A. J. (2011). Global Politics and the Responsibility to Protect. Routledge.",
+      links: ""
+    },
+    {
+      heading: "2.Brownlee, J. (2012). Democracy Prevention: The Politics of the U.S.-Egyptian Alliance. Cambridge.",
+      links: ""
+    },
+    {
+      heading: "3.Gause, F. G. (2010). The International Relations of the Persian Gulf. Cambridge. Gilpin, R. (1981).",
+      links: ""
+    },
+    {
+      heading: "4. War and Change in World Politics. Cambridge University Press.",
+      links: ""
+    },
+    {
+      heading: "5.Khalidi, R. (2013). Brokers of Deceit: How the U.S. Has Undermined Peace in the Middle East.Beacon Press.",
+      links: ""
+    },
+    {
+      heading: "6.Kirkpatrick, J. (1979). Dictatorships and Double Standards. Commentary.",
+      links: ""
+    },
+    {
+      heading: "7.Layne, C. (2006). The Peace of Illusions: American Grand Strategy from 1940 to the Present. Cornell.",
+      links: ""
+    },
+    {
+      heading: "8.Mearsheimer, J. J. (2001). The Tragedy of Great Power Politics. Norton.",
+      links: ""
+    },
+    {
+      heading: "9.Layne, C. (2006). The Peace of Illusions: American Grand Strategy from 1940 to the Present. Cornell. ",
+      links: ""
+    },
+
+    {
+      heading: "10.Mearsheimer, J. J. (2001). The Tragedy of Great Power Politics. Norton.",
+      links: ""
+    },
+    {
+      heading: "11.Posen, B. R. (2003). Command of the Commons: The Military Foundation of U.S. Hegemony. International Security.",
+      links: ""
+    },
+    {
+      heading: "12.Walt, S. M. (2005). Taming American Power: The Global Response to U.S. Primacy. Norton. Waltz, K. N. ",
+      links: ""
+    },
+    {
+      heading: "13.(1979). Theory of International Politics. McGraw-Hill.",
+      links: ""
+    },
+    {
+      heading: " Wright, S. M. (2007). Analysing United States foreign policy towards the Middle East 1993–2003: Origins and grand strategies [Doctoral dissertation, Durham University]. Durham E-Theses.",
+      links: " https://core.ac.uk/download/108965.pdf"
+    },
+    {
+      heading: "Korshenko, A. (2025). Understanding U.S. foreign policy in Iran and the Middle East: A general review study. Journal of Humanities and Education Development (JHED), 7(1), Article 3.",
+      links: "https://dx.doi.org/10.22161/jhed.7.1.3"
+    },
+    {
+      heading: "Soimaru, D. (2023). The U.S. foreign policy in the Middle East: The evolution of the strategic partnership with Israel. Strategic Impact [Journal], uploaded via Academia.edu. Retrieved from ",
+      links: "https://www.academia.edu/110369122/The_U_S_Foreign_Policy_in_the_Middle_East_The_Evolution_of_the_ Strategic_Partnership_with_Israel"
+    },
+    {
+      heading: "Soimaru, D. (n.d.). U.S. foreign policy in the Middle East and the need for realignment. Strategic Impact. Retrieved	July	22,	2025,	from ",
+      links: "https://www.academia.edu/2178776/US_Foreign_Policy_in_the_Middle_East_and_the_Need_for_Realignment "
+    }
+    ]
+},
+
+
+
+
 
 ];
 

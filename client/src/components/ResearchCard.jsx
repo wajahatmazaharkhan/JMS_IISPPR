@@ -48,8 +48,15 @@ const articleRoutes3 = {
   7: "/Bridging-The-Divide",
   8: "/Localizing-Climate-Action",
   9: "/Impact-Of-Trump-Era-US-Migration-Policy",
+  10:"/Advancing-Urban",
  
   // Add more articles here for Issue 3...
+};
+
+const articleRoutes4 = {
+  1: "/Relationship-Between-Identity",
+  2: "/From-Hegemony-to-Humanitarianism",
+  
 };
 
 const ResearchCard = ({ articles, onDelete }) => {
@@ -82,6 +89,7 @@ const ResearchCard = ({ articles, onDelete }) => {
     if (issue === 1) return articleRoutes1[id];
     if (issue === 2) return articleRoutes2[id];
     if (issue === 3) return articleRoutes3[id];
+    if (issue === 4) return articleRoutes4[id];
     return null;
   };
 

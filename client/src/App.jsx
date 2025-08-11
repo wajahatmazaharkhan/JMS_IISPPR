@@ -74,6 +74,11 @@ import BridgingTheDivide from "./pages/editions/BridgingTheDivide";
 import LocalizingClimateAction from "./pages/editions/LocalizingClimateAction";
 import ImpactOfTrump from "./pages/editions/ImpactOfTrump";
 import FromPaperToPractice from "./pages/editions/FromPaperToPractice";
+import AdvancingUrban from "./pages/editions/AdvancingUrban";
+import RelationshipBetweenIdentity from "./pages/editions/RelationshipBetweenIdentity";
+import FromHegemonytoHumanitarianism from "./pages/editions/FromHegemonytoHumanitarianism";
+
+
 
 
 function AppRoutes() {
@@ -292,6 +297,18 @@ function AppRoutes() {
           <Route
           path="/Localizing-Climate-Action"
           element={<LocalizingClimateAction/>}
+          />
+          <Route
+          path="/Advancing-Urban"
+          element={<AdvancingUrban/>}
+          />
+          <Route
+          path="/Relationship-Between-Identity"
+          element={<RelationshipBetweenIdentity/>}
+          />
+          <Route
+          path="/From-Hegemony-to-Humanitarianism"
+          element={<FromHegemonytoHumanitarianism/>}
           />
 
 
