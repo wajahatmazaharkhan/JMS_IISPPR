@@ -77,6 +77,7 @@ import FromPaperToPractice from "./pages/editions/FromPaperToPractice";
 import AdvancingUrban from "./pages/editions/AdvancingUrban";
 import RelationshipBetweenIdentity from "./pages/editions/RelationshipBetweenIdentity";
 import FromHegemonytoHumanitarianism from "./pages/editions/FromHegemonytoHumanitarianism";
+import FiscalRisk from "./pages/editions/FiscalRisk";
 
 
 
@@ -310,12 +311,10 @@ function AppRoutes() {
           path="/From-Hegemony-to-Humanitarianism"
           element={<FromHegemonytoHumanitarianism/>}
           />
-
-
-
-
-
-
+          <Route
+          path="/Fiscal-Risk"
+          element={<FiscalRisk/>}
+          />
           
         <Route path="*" element={<LandingPage />} />
       </Routes>

@@ -9635,6 +9635,305 @@ const articles = [
     ]
 },
 
+{
+  id: 3,
+  issue:4 ,
+  volume: 1,
+  title: "Fiscal Risk and Debt Stability in India",
+  author: " Dev Preeti Kaushik, Diya Kandhari, Sanskruthi B B",
+  authorAbbrev: "Kaushik, D.P.; Kandhari, D.; Sanskruthi, B.B.",
+  abstract: [
+    "This study looks at India's growing fiscal risks, especially those that its states must deal with. The study contrasts the more stable fiscal practices of Maharashtra with the financial vulnerabilities of states like Punjab, Rajasthan, and Kerala using trend analysis, VECM modeling, and case studies. The authors contend that pre-election welfare spending, off-budget expenses, and high debt levels are putting pressure on subnational finances. In order to maintain fiscal stability, the paper highlights flaws in existing frameworks, such as the FRBM Act, and promotes long-term, reform-based fixes. ",
+    "In order to address fiscal vulnerabilities across the states, the recommended policy implications center on the necessity of a sustainable revenue base, disciplined expenditure, and institutional accountability. The analysis of the VECM model supports long-term relationships between macro-fiscal variables and shows that the fiscal deficit itself is not significantly responsive. This implies that relying only on automatic adjustments is not as important as proactive, institutional reforms. The forecasting section projects that revenue expenditures, interest payments, and the fiscal deficit will all moderately stabilize over the next five years.",
+  ],
+
+  keyword: [
+    "Fiscal risk",
+    "Debt sustainability",
+    "FRBM Act",
+    "VECM",
+    "State finances",
+    "Off-budget borrowing",
+    "Fiscal deficit",
+    "Own tax revenue",
+    "Interest payments",
+    "India"
+  ],
+  status: "Published",
+  intro: [
+    "1.1	What is the significance of this topic?",
+    "In spite of efforts to exercise fiscal prudence, India's outstanding debt of around 80% of GDP remains the key constraint. Further stresses are induced by off-budget borrowing, rapidly increasing welfare costs, and policy shocks generated, most likely, by weather-related events as well as subsidy waivers that are disturbing the subnational economic landscape.",
+    "1.2	Brief Background",
+    "Since the 1991 liberalization reforms and the setting up of the FRBM Act in 2003, the successive governments have been required to meet deficit and debt targets. However, the framework has been put under considerable strain, such as from the cessation of GST reimbursements, the pandemic, and rising populist expenditure. State borrowing now accounts for nearly 40%, with contingent liabilities growing, frequently concealed through guarantees to power distribution companies, pension obligations, and welfare benefits. Punjab is structurally imbalanced, while Rajasthan's pension reform rollback and Kerala and West Bengal's off-budget spending are all indicators of increased fiscal strength in the states.",
+    "Analytical Approach",
+    "The paper involves trend analysis, VECM modeling, and case-based diagnostics to assess the dynamics of fiscal risks and to develop reforms for the establishment of a stable fiscal system."
+  ],
+  content: [
+    {
+      heading: "Literature Review",
+      paragraphs: [
+        "The fiscal deficit and debt sustainability in India have been pressing policy issues for several decades, with neoclassical literature providing empirical evidence and policy recommendations on how newly formed central and state governments have responded to the fiscal problems initiated in the late 1980s. This issue is relevant from the point of view of India's macroeconomic stability and subnational fiscal management.",
+        "Gupta, Singh, and Singh (2016) analyze India's central fiscal deficit from 1980-81 to 2015-16, revealing unsustainable fiscal deficits in the pre-reform years until the structural adjustments of 1991.",
+        "Panchanan Das (2016) ADBI Working Paper 557 explores the relationship between debt, fiscal deficit, and interest burden in Indian states, finding that fiscal deficit and debt accumulation are strongly interdependent.",
+        "The paper on SSRN by Balajee, Tomar, and Udupa (2020) can be taken to imply that India's optimal fiscal stimulus should be in a range of 2.2% to 4.8% of GDP, with larger amounts possibly being considered. It would lead the fiscal deficit of India to be above sustainability limits and, consequently, potentially decrease its sovereign ratings.",
+        "Chakraborty and Bhadra (2024) note that the COVID-19 pandemic has facilitated fiscal consolidation among Indian states, since contingent liabilities in the form of DISCOM bailouts and off-the-books borrowings pose long-run risks to their fiscal sustainability."
+      ]
+    },
+    
+    {
+      heading: "Research Questions",
+      paragraphs: [
+        "What are the evolving fiscal trends and risk patterns at the state level, and how do they affect the overall debt sustainability outlook for India?",
+        "What is India's short-term and long-term relationship of its macroeconomic-fiscal indicators such as tax revenues, interest expenditure, GDP growth, and fiscal deficit?",
+        "Does the fiscal deficit react to policy or economic shocks, and how does it influence growth and macro stability?"
+      ]
+    },
+    {
+      heading: "Policy Timeline & Contextual Events",
+      paragraphs: [
+        "India’s Fiscal Reform Journey: From the 1991 Crisis to the FRBM Act and Its 2018 ",
+        "With the economic crisis of 1991, India's journey towards structured fiscal discipline began in Bayana, as currency reserves fell to dangerous levels and inflation increased. In response, then Finance Minister Dr. Manmohan Singh presented a historical union budget where extensive reforms—trade, reduced grants, attracting foreign investments, and restructuring of industrial policy—were introduced.",
+        "The purpose of these reforms was to build a stable macroeconomic basis not just for improvement, which highlights the need for long-term tax judgment. This vision was legally expressed physically through the law on Fiscal Responsibility and Budget Management (FRBM), 2003. The purpose was to reduce the fiscal deficit by 3% of GDP and bring more openness and prognosis for public finance. However, FRBM lacked strict enforcement. Although the introduced multi-year plan and compulsory reporting, Escape Clause governments were allowed to distract from goals without meeting automatic punishment, especially during crises.",
+        "As a complement to key reforms, the twelfth Finance Commission (2005) encouraged the states to adopt their own fiscal responsibility (FRLS), which gave them debt relief. In the mid-2000s, most states had implemented FRLS and set deficit goals for their specific fiscal needs. However, through PSU and SPV, the emergence of lending and state guarantees began to destroy openness with a view to establishing these laws.",
+        "Recognizing these boundaries, led by the FRBM Review Committee 2018, N.K. Singh suggested significant updates—for example, a joint state loan of 60%, more practical deficit goals, and the construction of an independent fiscal council to monitor compliance. While some recommendations were taken, implementation remains."
+      ]
+    },
+    {
+      heading: "Recent Fiscal Developments and Emerging Risks (FY 2024–25)",
+      paragraphs: [
+        "In FY 2024-25, many Indian states rapidly increased sales expenses in the run-up to elections, especially through grants, pensions, and direct transfer of gain, aimed at short-term welfare benefits. The choice of fiscal expansion before the election, even though it is politically motivated, has emphasized the state's finances without this increase in tax revenues. For example, Punjab's subsidy alone took around 24% of total expenditure, limiting the fiscal site for capital investments and infrastructure.",
+        "Such unbalanced expenditure patterns have weakened the compliance with the FRBM structure and have created structural pressure on the state budget. To ignore the statutory loan boundaries, many states used victims through the public sector (PSU) and special objective vehicles (SPVs), with hidden random obligations of 3-4% of GSDP in states such as Andhra Pradesh, Telangana, and Punjab, with a lot of RBI. These obligations, although the state budget has not been completely revealed, are supported by governments and constitute systemic fiscal risks.",
+        "The Comptroller and Auditor General (CAG) also flagged these fiscal blind spots in their 2023 audit and warned that opaque practices have deleted the credibility and accountability of the budget. In addition, credit rating agencies, including Fitch, have thrown up red flags on India's growing connection of interest rates with revenues, particularly in the context of vertical fiscal imbalances between the center and states.",
+        "With their concern mounting, the bond markets are demanding higher yields on state development loans (SDL), especially for the weaker financially able states like Punjab and West Bengal. These issues have been adequately highlighted by international agencies like Reuters and Bloomberg, pointing at the need for keeping fiscal credibility intact."
+      ]
+    },
+    {
+      heading: "Trend Analysis",
+      paragraphs: [
+        "The period of the Indian debt-to-GDP ratio of 2010-2024 captures two distinct periods of fiscal policies. The first period is the high of what we should consider above 50% regarding the debt-to-GDP ratio of 2010-2013 because of the effects of the global financial crisis of 2008.",
+        "The second period started in 2014 with a dramatic fall to about 23% as a function of the new base year for the GDP calculation, that is, 2011-12, and accounting reforms instead of borrowing.",
+        "The debt-to-GDP ratio was around 23% from 2014 to 2019, so this indicates a period of fiscal consolidation with slow economic growth. And then in 2020, debt-to-GDP will increase past 27.34%, and whether this suggests the effect of COVID-19 on the economy is a question worth exploring."
+      ]
+    },
+    {
+      heading: "Cross-Sectional View of Fiscal Deficit: Punjab, Tamil Nadu, and Maharashtra (2013–2022)",
+      paragraphs: [
+        "Punjab is the most fiscally stressed. The state saw a significant fiscal deficit of 12.3% in 2016-17, due in large part to hidden liabilities and over-borrowing, e.g., incurring debt on the gross domestic product basis. Punjab has been unable to escape from fiscal shortfalls above the 3% threshold since this maximum in-fiscal stress point, mainly due to inextricable losses incurred during the COVID-19 pandemic, where the maximum recorded fiscal deficit was recorded at 5.4%.",
+        "Tamil Nadu experienced some turbulence to its fiscal health but, unlike Punjab, maintained its fiscal deficit as a percentage of state GDP in a band from 2.4% to 2.9% from the period of 2013-19. Compared to its performance during 2017-19, Tamil Nadu experienced a higher trend increase during the COVID-19 pandemic for a maximum fiscal deficit of 5.5%. By 2021-22, Tamil Nadu brought down its fiscal deficit to just 4.8%, in good part due to a diversified economy, class-leading policy relating to borrowing, and actual economic industrial growth activity.",
+        "Compared to both of these two index states, Maharashtra posted the greatest outcomes of sustainability, with a fiscal deficit at or below 2% for nearly the entire review period. Only during the COVID-19 pandemic did Maharashtra see a higher fiscal deficit at 3.3% and eventually back down to 2.2% by 2021-2022, with India broadly experiencing fiscal stress as a state economy. Maharashtra's semi-industrial-based state economy and robust expenditure management processes and frameworks also contribute to its overall fiscal health and the ability to manage overall risk."
+      ]
+    },
+    {
+      heading: "Econometric Section (VECM) - Overview",
+      paragraphs: [
+        "The VECM framework explains how the fiscal deficit and macro-fiscal variable time interact, which reflects both short-term changes and long-term adjustments of two cointegrating relationships.",
+        "Model Structure: In a VECM estimated through statistical software, each response variable (e.g., the first difference of fiscal deficit, denoted as Δ Fiscal.Deficit) has its own regression equation, specified with Error Correction Terms (ECT1, ECT2) indicating the speed and direction of adjustment toward long-run equilibrium after deviations, and Lagged First Differences capturing short-run influences of each variable’s recent changes."
+      ]
+    },
+    
+    {
+      heading: "Analytical Interpretation",
+      paragraphs: [
+        "Long-term adjustment: The strongest improvement is seen in the interest rate payment, which suggests that debt service is central to long-term fiscal rehabilitation.",
+        "Short-term effect: Changes in tax revenues and expenses significantly affect interest costs and GDP but have a minimal direct impact on tax deficits or state expenses.",
+        "Loss fluctuations: Newer macro trends and long-term improvements do not completely explain deficit movements, which indicates the role of external shock, political alternatives, or institutional intervals."
+      ]
+    },
+    {
+      heading: " Interpretation: What Drives Fiscal Deficit Fluctuations?",
+      paragraphs: [
+        "This segment uses the VECM framework to investigate fiscal deficit drivers, which distinguish long-term structural factors from short-term fluctuations. The model captures both economic basics and dynamic adjustments over time."
+      ]
+    },
+    {
+      heading: "Long Run (Cointegrating Equation)",
+      paragraphs: [
+        "The estimated long-run equation, normalized with respect to the fiscal deficit, is derived from the first normalized cointegrating vector.",
+        "Fiscal Deficit = –2.346 Interest Payments –0.451 Revenue Expenditure –2.504 Own Tax Revenue –1.179 GDP Growth + 47.43",
+        "Own Tax Revenue (–2.504): Higher tax collections help reduce the fiscal deficit.",
+        "GDP Growth (–1.179): Stronger growth supports long-term fiscal consolidation.",
+        "Interest & Expenditure (negative signs): May reflect model normalization or fiscal restraint during stress.",
+        "Large constant term (+47.430) reflects a regular structural deficit, inspired by tough expenses, institutional disabilities, or lack of ongoing income.",
+        "Policy Insight: The long-term equation emphasizes tax revenue and development as major drivers for fiscal consolidation. Regardless of the defender, signals, expenses, and interest payments are part of fiscal policy. A large continuous point for structural pressure emphasizes the need for deep reforms."
+      ]
+    },
+    {
+      heading: "Short Run (First Differences)",
+      paragraphs: [
+        "Estimated short-term equation (ΔFDt) for fiscal deficit, focusing on the immediate drivers and leaving long-term miscorrection conditions for this specific discussion, as follows:",
+        "ΔFiscal Deficitₜ = 0 + 0.009ECT1t−1 − 0.876ECT2t−1 − 0.539 ΔFiscal Deficitₜ₋₁ − 0.595 ΔInterest Paymentsₜ₋₁ + 1.613 ΔRevenue Expenditureₜ₋₁ + 1.199 ΔOwn Tax Revenueₜ₋₁ + 0.019 ΔGDP Growthₜ₋₁ + εₜ",
+        "None of the short-term coefficients are important; thus, changes in fiscal deficits from year to year are not systematically associated with recent macro-fiscal development.",
+        "Constant Term: The estimated intercept is effectively zero (approximately 2.610546e-14) and statistically insignificant. This suggests short-run deficit dynamics are likely dominated by discretionary policy shifts, external shocks, or factors outside the model’s variables.",
+        "Policy and Analytical Insight: These results, in the short term, indicate that fluctuations in fiscal deficits cannot be predicted statistically in a meaningful way by the most immediate prior changes in their key components within the sample and model structure."
+      ]
+    },
+     {
+      heading: "Conclusion ",
+      "paragraphs": [
+        "VECM confirms two coincidences in India's fiscal system, indicating long-lasting ratios between macro-fiscal variables. While interest payments show extended improvement, the fiscal deficit in itself is inactive and shows no meaningful card or long-term responsibility in the model.This reveals the importance of active, institutional fiscal reforms—especially in tax policy and the development of investment rates—rather than adjustment or dependence on automatic stabilizers. The management of the deficit appears to be more controlled by discretionary policy and structural pressure than stable macroeconomic feedback loops."
+      ]
+    },
+
+    
+    {
+      heading: "Methodology Walk-Through",
+      "paragraphs": [
+        "The ADF test evaluates the null hypothesis that the series is stationary over time or contains a unit root (non-stationary). All series in levels are non-stationary. Most time series regression models require stationary inputs; using non-stationary variables produces risky results."
+      ]
+    },
+    {
+      heading: "Stationarity tests (ADF)",
+      paragraphs: [
+        "ADF results suggest that the levels are non-stationary, which makes the next step—modeling common movement—suitable before estimation."
+      ]
+    },
+    {
+      heading: "Cointegration checks: Johansen Cointegration Test",
+      paragraphs: [
+        "The Johansen cointegration test was carried out to determine the existence of long-run relationships among fiscal deficit, interest payments, revenue expenditure, own tax revenue, and GDP growth rate.",
+        "Note: The null hypothesis is that there are r or fewer cointegration relationships. Rejection at 5% is based on Trace Statistic > 5% Critical Value.",
+        "Results and Interpretation: The presence of cointegration is estimated with cointegration rank r = 2, motivating a Vector Error Correction Model (VECM). VECM allows capturing both short-term dynamics and long-run equilibrium among the key fiscal and macroeconomic variables.",
+        "In summary, the test found two significant cointegrations at the 5% level."
+      ]
+    },
+    {
+      heading: "Lag selection",
+      paragraphs: [
+        "The lag length was selected based on AIC and BIC; both pointed to a lag of 2 in levels. This translates to a lag structure in VECM that reliably balances short-term dynamics with long-run conditions."
+      ]
+    },
+    {
+      heading: "Equation Focus",
+      paragraphs: [
+        "The fiscal deficit equation from the VECM takes the following form:",
+        "ΔFDt = α0 + α1⋅ECT1t−1 + α2⋅ECT2t−1 + ∑i βi ΔXi,t−1 + εt, where ΔXi,t−1 denotes lagged changes in independent variables.",
+        "ECT coefficients reveal long-run adjustment: a significant, negative ECT implies the fiscal deficit is drawn back to equilibrium after shocks.",
+        "Short-run coefficients (βi) capture the immediate influence of changes in fiscal determinants.",
+        "Policy Relevance: Important coefficients point to large drivers for fiscal deficits. The VECM framework helps to highlight both immediate effects and persistent policy implications."
+      ]
+    },
+    {
+      heading: "Diagnostic & robustness",
+      paragraphs: [
+        "Autocorrelation (Serial Correlation) Test: The Breusch-Godfrey test is used to check the first-order serial correlation in the residuals of each short-term equation. In all five cases, the p-value was above 0.1, so we could not reject the concept of no first-order serial correlation in the residuals of any equation in our VECM. This shows that the model effectively captures the time pattern in data, leaving residuals that behave like white noise.",
+        "Heteroscedasticity Test:",
+        "•	Test used: Multivariate ARCH-LM test on the residuals (with 5 lags).",
+        "•	Result: Chi-squared = 270, df = 1125, p-value = 1",
+        "Interpretation:",
+        " Financial deficits (p = 0.0033) and residues for their own tax revenue (p = 0.016) show obvious signs of non-realization, while GDP growth is limited (p = 0.056). However, interest payments and income expenses show no significant deviations.",
+        "Residual Normality Tests (Jarque–Bera): Univariate normality shows fiscal deficit (p = 0.0033) and own tax revenue residuals (p = 0.016) deviate from normality, while GDP growth is borderline (p = 0.056); interest payments and revenue expenditure show no significant deviations. System-wide, the overall model behaves well and standard estimates remain valid; bootstrapped or heteroskedasticity-robust errors can further strengthen inference.",
+        "Shapiro–Wilk Normality Test: ",
+        "The Shapiro–Wilk test was generally used on each series. For all variables, the disproportionate hypothesis of generality cannot be rejected (all P-humans > 0.1), indicating that residue/data is sufficiently estimated by general distribution. This model supports the purpose of standard estimation processes based on generality in this model.",
+        "Model Stability Test: The stability of the VAR/VECM model is confirmed by companion matrix roots, all within the unit circle (moduli < 1), indicating dynamic stability and reliability of impulse responses and forecasts.",
+        "Outlier Detection: Outlier analysis recognized 2016 as an important year across residuals, possibly due to a major policy shock and upcoming GST rollout—effects not easily captured by standard models. This underscores the value of accounting for structural breaks in future research."
+      ]
+    },
+    {
+      heading: "Forecasting and Policy Implications",
+      paragraphs: [
+        "The forecasting exercise uses a VECM structure, capturing both long-term equilibria and short-term dynamics across key macro-fiscal variables. After validating stationarity and cointegration, the model and its VAR representation were estimated to create a five-period-ahead forecast with confidence intervals, offering a structured approach to future uncertainty."
+      ]
+    },
+    {
+      heading: "The multi-panel forecast",
+      paragraphs: [
+        "Fiscal Deficit: Forecasts suggest moderate stabilization after recent instability. Confidence intervals are relatively tight, indicating a low risk of fiscal tremors, with the deficit hovering near its recent average.",
+        "Own Tax Revenue: Revenues are expected to recover gradually with a mild upward trend. Narrow confidence bands reflect higher predictability and stable prospects for domestic resource mobilization.",
+        "Interest Payments: Interest payments are projected to stabilize with minor fluctuations, remaining within historical ranges, implying a steady interest rate environment in the near term.",
+        "Revenue Expenditure: Projections indicate mild changes without large spikes or drops, suggesting a stable fiscal stance.",
+        "GDP Growth Rate: Growth is estimated to return to moderate, stable levels, with confidence intervals centered around historical averages."
+      ]
+    },
+    {
+      heading: "Dynamic Interactions: Impulse Response Perspective",
+      paragraphs: [
+        "Impulse responses highlight short-term disruptions and long-run stability. For example, a spike in the fiscal deficit can lift short-term GDP growth but the system tends to revert to equilibrium, indicating temporary effects and absorption capacity."
+      ]
+    },
+    {
+      heading: " Summary",
+      paragraphs: [
+        "Together, forecasts and impulse responses suggest that the system can absorb shocks while maintaining long-term balance. For decision-makers, this underscores the need for sound fiscal management to prevent short-term shocks from turning into persistent challenges."
+      ]
+    },
+    {
+      heading: "Appendix",
+      paragraphs: [
+        "Data Used for Econometric Modeling: [Details to be provided as per dataset specifications].",
+        "Data Source: See references list for institutional sources used for trend and econometric sections.",
+        "Data Used for Trend Analysis: [Details to be provided as per dataset specifications]."
+      ]
+    }
+  ],
+  conclusion: [
+    "India’s debt dynamics reveal persistent structural pressures at the subnational level, with off-budget borrowing and pre-election welfare expansions elevating fiscal risks.",
+    "Maharashtra’s disciplined expenditure and diversified economy contrast with stress in Punjab, Rajasthan, Kerala, and West Bengal, underscoring the role of institutional frameworks in resilience.",
+    "VECM results indicate two long-run relationships across macro-fiscal variables, with interest payments showing strong adjustment while the fiscal deficit is inert in the short run.",
+    "Short-run fiscal deficit movements are weakly explained by contemporaneous macro-fiscal changes, implying the dominance of discretionary policy, shocks, and institutional features.",
+    "Policy priority should be on broadening the sustainable revenue base, enforcing expenditure discipline, and enhancing transparency to curb off-budget liabilities.",
+    "Strengthening the FRBM framework with enforceable rules, an independent fiscal council, and better disclosure of guarantees and SPV borrowings can bolster debt sustainability and investor confidence."
+  ],
+  references: [
+    {
+      heading: "Ministry of Finance (1991). Budget Speech 1991–92.",
+      links: "https://www.indiabudget.gov.in/doc/bspeech/bs199192.pdf"
+    },
+    {
+      heading: "Reserve Bank of India (2023). State Finances: A Study of Budgets.",
+      links: "https://rbi.org.in"
+    },
+    {
+      heading: "N.K. Singh Committee (2017). FRBM Review Report.",
+      links: ""
+    },
+    {
+      heading: "Comptroller & Auditor General (CAG) (2018). FRBM Compliance Report No. 20.",
+      links: "https://cag.gov.in"
+    },
+    {
+      heading: "Finance Commission Reports. Government of India.",
+      links: "https://fincomindia.nic.in/"
+    },
+    {
+      heading: "PRS Legislative Research (2024). State Budget & Finance Analysis.",
+      links: "https://prsindia.org"
+    },
+    {
+      heading: "ResearchGate (2017, 2022). Studies on FRL and State Fiscal Risks.",
+      links: ""
+    },
+    {
+      heading: "Union Budget 2018–19. Medium-Term Fiscal Policy Statement.",
+      links: "https://www.indiabudget.gov.in"
+    },
+    {
+      heading: "NIPFP & World Bank (2023). State Finances Reform Report.",
+      links: ""
+    },
+    {
+      heading: "Reuters (2024). RBI Fiscal Glide Path Report.",
+      links: "https://www.reuters.com"
+    },
+    {
+      heading: "Bloomberg News (2024). Coverage on State Debt & SDLs.",
+      links: ""
+    },
+    {
+      heading: "RBI Report on State Finances 2024-25 (Drishti IAS summary).",
+      links: "https://www.drishtiias.com/daily-updates/daily-news-analysis/rbi-report-on-state-finances-2024-25"
+    },
+    {
+      heading: "RBI: State Finances – A Study of Budgets",
+      links: "https://rbi.org.in/Scripts/AnnualPublications.aspx?head=State+Finances+%3A+A+Study+of+Budgets"
+    },
+    {
+      heading: "PRS Legislative Research: State of State Finances 2024-25",
+      links: "https://prsindia.org/files/budget/State_of_State_Finances-2024-25.pdf"
+    }
+  ]
+}
+
+
 
 
 
