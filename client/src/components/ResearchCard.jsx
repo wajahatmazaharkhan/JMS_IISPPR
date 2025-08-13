@@ -57,6 +57,7 @@ const articleRoutes4 = {
   1: "/Relationship-Between-Identity",
   2: "/From-Hegemony-to-Humanitarianism",
   3: "/Fiscal-Risk",
+  4: "/From-Policy-To-Progress",
   
 };
 

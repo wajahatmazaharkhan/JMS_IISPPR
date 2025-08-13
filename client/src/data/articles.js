@@ -9931,8 +9931,318 @@ const articles = [
       links: "https://prsindia.org/files/budget/State_of_State_Finances-2024-25.pdf"
     }
   ]
+},
+{
+  id: 4,
+  issue: 4,
+  volume: 1,
+  title: "From Policy to Progress: An Analysis of Government Initiatives Addressing Educational Equity and the Digital Divide",
+  author: "Deeksha¹; Avradeep Saha²; Pavni Agrawal³; Nandan Dhar⁴; Ankit Vardani⁵",
+  authorAbbrev: "Deeksha; Saha, A.; Agrawal, P.; Dhar, N.; Vardani, A.",
+  abstract: [
+    "This study is to critically examine how targeted digital education policies and initiatives have contributed to reducing educational inequality in India.",
+    "By using key policies such as the BharatNet Project, PM e-vidya, DIKSHA platform as evaluative tools, this study aims to assess both their achievements in improving access, inclusion, and learning outcomes, and their limitations in addressing structural and digital disparities across socio-economic, rural-urban, and gender divides.",
+    "We used the descriptive method by reviewing policies, government reports, news articles, and educational data from official sources to understand how digital initiatives are addressing educational inequalities in India.",
+    "Digital policies like BharatNet and Digital India have improved internet access in rural areas, and have helped schools adopt online learning. However, gaps still remain due to lack of devices, electricity, and digital skills, and access to the internet in some regions.",
+    "Further, the study seeks to bridge the gap between policy intent and on-ground impact, enhanced understanding of how far these digital interventions have progressed in transforming educational equity, and what barriers persist in the path toward inclusive and equitable quality education.",
+    "The study relies on secondary data sources and does not include direct surveys or interviews, so some ground-level issues may not be fully recorded."
+  ],
+  keyword: [
+    "digital divide",
+    "educational inequality",
+    "BharatNet",
+    "SDG 10",
+    "Digital India",
+    "policy analysis"
+  ],
+  status: "",
+  "intro": [
+    "Educational inequality remains a persistent challenge in India, deeply rooted in historical, socio-economic, and geographic disparities. Despite significant progress in enrollment rates and infrastructure development over the past decades, access to quality education continues to be uneven, particularly across rural-urban divides, income groups, and gender. In response to these disparities, to address these gaps, digital technology is now being seen as an important way to make education more equal and accessible for everyone.",
+    "In alignment with the global commitment to Sustainable Development Goal 10 (SDG 10) which seeks to reduce inequality, India has taken several policy initiatives aimed at leveraging digital infrastructure to enhance educational access and equity. Key among these are the Digital India Campaign, PM e-Vidya, the National Education Policy (NEP) 2020, and the DIKSHA platform. These initiatives together show a change in policy, focusing on using technology-based solutions that can reach many people, with the goal of reducing gaps in access to and involvement in education.",
+    "However, the transformative potential of digital education remains contested, especially in the context of pre-existing structural inequalities. While digital platforms have expanded the reach of educational content, they have also exposed and, in some cases, deepened the digital divide, particularly among economically marginalized populations, rural communities, and gender-disadvantaged groups. The accessibility, usability, and effectiveness of these digital interventions vary widely across different socio-economic contexts, raising important questions about their actual impact on educational equity.",
+    "This study seeks to critically examine the extent to which these targeted digital education policies have contributed to reducing educational inequality in India. By evaluating the achievements and limitations of these initiatives, the research aims to bridge the gap between policy formulation and ground-level implementation. In doing so, it endeavors to offer a nuanced understanding of the role of digital interventions in advancing equitable and inclusive education, and to identify the systemic barriers that continue to impede progress."
+  ],
+  content: [
+    {
+      "heading": "Background and Literature Review",
+      "paragraphs": [
+        "Studies before the pandemic found that only about 4.4% of rural households had a computer, versus 23.4% in urban areas (NSSO, 75th Round, 2018). Internet access was 14.9% in rural homes compared to 42% in cities (NSSO, 75th Round, 2018). Operating skills were similarly uneven: just 9-13% of rural residents could use computers or the internet, compared to over 30% in urban settings (MoSPI, 2019).",
+        "A local survey in Chennai showed only 5.3% of rural government school kids could take live classes (Azim Premji Foundation, 2021). While 56.9% had smartphones, only about 21.1% of private school students could attend online lessons regularly (Oxfam India, Inequality Report, 2021).",
+        "In alignment with NEP 2020, platforms like DIKSHA and SWAYAM were positioned to promote access, equity, and quality, but uneven digital access and language barriers have constrained outcomes (Ministry of Education, 2020; Oxfam India, 2022; Azim Premji Foundation, 2022)."
+      ]
+    },
+    {
+      heading: "THEME 1: Project BharatNet : It’s impact on reducing Digital divide in educational sectors of rural India",
+      paragraphs: [
+        "The government is trying to reduce education inequality through many initiatives like online open learning, free e-library access, skill development platforms like NPTEL, SWAM etc. but it can’t be possible without proper internet connection. Reddy, Jose & Vaidehi (2021) argue that Massive online education without addressing the huge access gap and disparities in digital infrastructure would not only exclude a vast majority of students but also exacerbate the existing socio‑economic disparities in educational opportunities.",
+        "Basic Introduction of BharatNet",
+        "BharaNet is one of the impactful projects among all initiatives of the GOV, those are taken for reducing educational disparities among the different regions of the country. Actually, under this initiative the Govt is trying to give broadband connectivity to all Gram Panchayats (GPs) in the country as well as It is one of the biggest rural telecom projects in the world. [Press Information Bureau (2025)]",
+        "Brief about its implementation",
+        "The BharatNet project was initially approved in October 2011 as the National Optical Fibre Network (NOFN) to connect 2.5 lakh Gram Panchayats [USOF, DoT, Ministry of Communications, GOI (2025)] after in 2015 it was renamed as BharatNet [Business Standard (2015)]. However, significant delays led the Union Cabinet in July 2017 to approve a modified strategy for its implementation, rebranding the project as BharatNet and initiating Phase II with state and private partnerships [India Today (2017)].",
+        "It plays a major role particularly in some states of India to spread internet access in the Gram Panchayats though there are some controversies related to its achievement and proper impact. As per the report of the Press Information Bureau (2025) of 19 March 2025, 218,347 Gram Panchayats have been made service ready under the project which is not so far from its initial objective to connect approx 2.5 lakh Gram Panchyats with internet connection. [Press Information Bureau (2025)]",
+        "Analysing situation of Rural Online Education before Phase lll (August, 2023) of BharatNet Project",
+        "The need for online education in India was mainly found during the Covid-19 lockdown period but then millions of students were struggling for proper access to online learning for lack of connections and devices, majorly in rural areas. An article of India Today (2020) claims that while the benefits of online learning are manifold, there are still many roadblocks in the way ahead towards making education an entirely digital (online) phenomenon. After the lockdown period the trend of online education was starting rapidly but simultaneously it was creating some disparities between those who have proper internet connection and digital devices and those who do not . The Wave-1 of the ASER (2020) survey also reported that a mere 18.3 percent of children in rural areas enrolled in government schools have accessed video recordings, and 8.1 percent have attended live online classes.",
+        "Thus, we can feel that the main two problems are, one is the financial barrier for accessing digital devices and the other is poor internet connection or lack of internet accessibility in many rural regions. Let's see how the BharatNet Phase-lll is creating impact in the second issue for emitting the gap of Digital Divide in Indian Education Sector.",
+        "The Impact of BharatNet project in rural online education",
+        "The BharatNet project makes some very impactful milestones in the field of connecting villages in some regions of our country. According to the Economic Survey report 2024-25, as of December 2024, 6.92 lakh km of Optical Fiber Cable (OFC) has been laid, 2.14 lakh Gram Panchayats (GPs) are service-ready (including 5,032 via satellite, 12.04 lakh Fiber-To-The-Home (FTTH) connections have been installed. Telecom infrastructure is being strengthened through the Bharat Net Project, extending broadband connectivity to all Gram Panchayats and villages. [telecomtalk.info (2025) ]",
+        "There is some data which shows the progress of this project across the all state and union territories of India:",
+        "Figure 1 and Figure 2 as follows:",
+        "Source: bbnl.nic.in",
+        "Thus the rapid expansion of the broadband services through BharatNet somehow created a better situation for students to access digital services and online learning in those places where internet connection was not available before this project. According to smventure.com (2025), the BharaNet project’s linkage with schemes like PMGDISHA (which has trained over 6.39 crore individuals in digital literacy) and collaboration with NABARD further enhance its socio-economic value. Through BharatNet, healthcare centers are being digitally enabled, schools are accessing virtual learning content, and local governance is becoming more efficient. As an example we can see that in Gujarat’s Sakarda village (Tapi district), once broadband from BharatNet reached its local Gram Panchayat (in 2022), the primary school with 165 students and seven teachers began using smart boards and online content in classrooms. Students reportedly became much more engaged in watching educational videos, participating in online yoga, and observing cultural performances, reflecting a real shift toward digital learning enabled by internet access as per a report of India Today (2025) .",
+        "In spite of the implementation of the BharatNet Project, there are still some problems, mainly in some regions of India. All states are not getting the basic advantage by this internet. Puja Dash (2025) shows that even by the end of 2023, less than 60% of the gram panchayats in northeastern states were service-ready, while the national average is 79% . “Key challenges (for the BharatNet programme) have been the shifting goalposts, slackening deadlines and lack of coordination with other agencies and entities, especially those who can and should leverage broadband,” said Deepak Maheshwari, Senior Policy Advisor at the Centre for Social and Economic Progress (CSEP), a public policy think-tank based in New Delhi [indiaspend.com (2025)] . The study of Puja Dash also shows that despite widespread implementation efforts, only about 24% of government schools nationwide had internet access among them most located in urban areas. For instance, in Telangana, only 8.78% of government schools had internet connection as of 2021, severely limiting access to online education . The project has also faced significant delays in implementation, with the pace of progress being slower than anticipated. Despite the government's efforts to connect villages, only about 194,000 out of the targeted 640,000 villages have been connected so far. This slow progress has hindered the project's ability to bridge the Digital Divide in rural areas [Drishti IAS (2023)]",
+        "At the end we can say that obviously it is a very good initiative but it should be more effective which definitely goes one important step ahead to ensuring equal digital access in India ."
+      ]
+    },
+    {
+      heading: "THEME 2: Online Education Push During COVID-19 Lockdown",
+      paragraphs: [
+        "When the COVID-19 pandemic hit in early 2020, life changed overnight. Schools across India shut their gates with no idea when they would open again. One day, students were sitting in classrooms with blackboards and notebooks, the next, they were stuck at home, cut off from their teachers, friends, and any sense of routine. Homes with no internet, no smartphones, and sometimes no electricity became the new ‘classrooms’. Parents struggled to keep up and teachers scrambled to figure out Zoom or WhatsApp classes. The disruption was massive: nearly 320 million learners across India were affected, making it one of the largest educational crises the country had ever seen (NCERT, 2021; ResearchGate, 2020). In cities, some students switched to Google Meet and online assignments. But in villages and low-income households, the story was very different, one where the digital divide turned into a learning divide.",
+        "A Hard Gap: Connectivity and Devices",
+        "Studies before the pandemic found that only about 4.4% of rural households had a computer, versus 23.4% in urban areas (NSSO, 75th Round, 2018). Internet access was 14.9% in rural homes compared to 42% in cities (NSSO, 75th Round, 2018). Operating skills were similarly uneven: just 9-13% of rural residents could use computers or the internet, compared to over 30% in urban settings (MoSPI, 2019). A local survey in Chennai showed only 5.3% of rural government school kids could take live classes (Azim Premji Foundation, 2021). While 56.9% had smartphones, only about 21.1% of private school students could attend online lessons regularly (Oxfam India, Inequality Report, 2021).",
+        "Government Initiatives: SWAYAM Prabha and Manodarpan",
+        "To ensure continuity of education during the lockdown, the government expanded the SWAYAM Prabha network, 32 DTH TV channels that telecast curriculum-based lessons 24x7, allowing students in far-flung areas and those unable to afford smart phones and mobile data to follow through with lessons. In tandem, the government addressed mental health. Launched under the Atma Nirbhar Bharat scheme, Manodarpan allowed students, teachers, and parents to avail free tele-counselling to those feeling overwhelmed and isolated during a particularly gruelling period of stress and isolation. Early figures suggest that lakhs availed of the helpline, highlighting the deep-rooted impact of the pandemic on mental well-being and the need for the simultaneous facilitation of learning and mental wellness (Ministry of Education, 2020).",
+        "Impact on Educational Equity",
+        "What worked: One of the primary benefits during the lockdown was the ability of SWAYAM Prabha to reach students who did not have internet access. By conducting lessons on television, it allowed rural students, including those without smartphones and data, to continue their education. Through the Manodarpan initiative, the government also addressed mental health, providing students the emotional care they needed at a time when stress was heightened. Certain states also capitalized on this opportunity to improve long-term digital infrastructure. Kerala granted internet access to over 80% of gram panchayats, which enabled the establishment of smart classrooms and computer labs across rural government schools. (swayamprabha.gov.in, manodarpan.education.gov.in)",
+        "What didn’t:",
+        "Efforts to make digital education accessible did not yield the desired results. While 14.9% of rural households had access to the internet, only 4-5% of them had a computer. Millions of students in India did not have the means to attend live classes and use online educational portals. Many of the e-learning resources did not have multi-lingual or interactive options. Regional languages were a barrier to learning as most of the internet content was in English. The switch to e-learning was a big disadvantage to girls. Girls had more household chores to attend to, lesser access to smartphones and lesser freedom to use the internet for education. Many teachers could not conduct online classes as most of them had never used the internet before.",
+        "(swayamprabha.gov.in, manodarpan.education.gov.in).",
+        "Figure : 3",
+        "Data Snapshot: Rural vs Urban Access",
+        "Metric",
+        "Rural",
+        "(%)",
+        "Urban",
+        "(%)",
+        "Households with computer",
+        "4.4–4.8",
+        "23.4",
+        "Households with internet",
+        "14.9–16.5",
+        "42",
+        "People able to use internet",
+        "13",
+        "37",
+        "Sources: NSSO 75th Round, Ministry of Statistics & MOSPI (2017–18)",
+        "Case Example: Rajasthan’s DigiLEP Initiative",
+        "The state government of Rajasthan launched a Digital Learning Enhancement Programme (DigiLEP) to reach students in state schools. Teachers shared videos, worksheets and quizzes with students and their parents via WhatsApp, covering more than 68,000 schools across the state (UNICEF India, 2021). DigiLEP was able to leverage low-tech approaches to support continuity of learning in contexts with poor internet connectivity. In tribal areas such as Dungarpur and Baran, students accessed learning content using basic phones. However, challenges remained. In households with limited access to phones, boys were offered access more often than girls. There were limited opportunities for two-way communication and interaction between students and teachers, and girls in particular struggled to gain equal access to content. Nevertheless, DigiLEP was able to provide a workable solution. (World Bank/OEDC 2020 Case Study)",
+        "The shift to online learning happened quickly but unevenly. TV channels like SWAYAM Prabha and mental health support through Manodarpan aimed to fill gaps. However, many rural students, particularly girls, missed out. Limited access to the internet, electricity, or devices blocked participation (NSSO, 2018). Government programs like BharatNet and PMGDISHA strive to improve digital access, but coverage remains inconsistent (Oxfam India, 2021). Real progress requires proper infrastructure."
+      ]
+    },
+    {
+      heading: "THEME 3: PM e-Vidya under New Education Policy 2020 - A Visionary Shift or Digital Exclusion?",
+      paragraphs: [
+        "The National Education Policy (NEP) 2020 implemented ambitious reforms in the Indian education sector, much of which emphasized technology-driven learning. PM e-Vidya, one of the key reforms, aimed to streamline digital education engagement and content in creative ways under the initiative; “One Nation, One Digital Platform” (Ministry of Education, 2020) and to enroll individuals in a digital ecosystem, which included DIKSHA, digital teacher training, SWAYAM, and DTH TV channels. The NEP aspired to equitable and inclusive education, especially in light of the challenges to education posed by COVID-19. However, the reality provides a different view—individuals have been empowered, and disempowered or excluded through this digital push, notably in rural and excluded communities.",
+        "Digital Infrastructure versus Digital Reality",
+        "NEP 2020’s bold drive for EdTech integration is fraught with challenges. While technology promises to deliver flexibility, personalization and new-age pedagogy (UNESCO, 2021), it assumes some level of baseline provision for access to electricity, internet and portable digital devices, although millions of Indian students are still without the basic ability to access them. The NFHS-5 (2022) data shows us that only 15% of rural households in India have internet accessibility, compared to 42% of urban households. The reality of the inequity provides a clear picture of why this is a continuing challenge for achieving SDG 10 – Reduce Inequality (NFHS-5, 2022).",
+        "Graphical Snapshot: Internet Access in Gram Panchayats",
+        "State",
+        "Gram Panchayats with Internet Access",
+        "(2024)",
+        "Kerala",
+        "82 %",
+        "Tamil Nadu",
+        "65 %",
+        "Uttar Pradesh",
+        "35 %",
+        "Jharkhand",
+        "31 %",
+        "Bihar",
+        "28 %",
+        "Source: Times of India, May 22, 2024; BharatNet Progress Dashboard (TOI, 2024)",
+        "As part of my internship with the Rajasthan Legal Services Authority (RLSA), I helped organize awareness camps in schools in remote areas such as rural blocks of Jodhpur district during April 2024, where we focused on promoting legal literacy. Through this experience, I had firsthand contact with the students and teachers, and I observed how lack of access to smartphones, intermittent internet connectivity, and barriers such as language prevented our rural students and teachers from being digitally connected. For example, many of the students had only heard of the DIKSHA portal, and many of the teachers acknowledged that they felt very little confidence interacting with online content primarily due to lack of training.",
+        "This data points to extreme inequities in our education system. States like Kerala have been successful in advancing digital infrastructure for example, the KITE VICTERS TV initiative and smart classrooms in rural government schools—to enhance delivery of education (The Hindu, 2023), whereas states like Bihar and Jharkhand are considerably behind. Although PM e-Vidya is a great opportunity, in states like this the gap remains in infrastructure rather than policy (Economic and Political Weekly, 2022).",
+        "PM e-Vidya: Missed Opportunities",
+        "PM e-Vidya, launched as part of the NEP 2020 and COVID response, is a comprehensive multi-mode access platform that combines digital, TV, radio, and podcasts to reach diverse learners. It was especially vital for families without smartphones and internet (PRS India, 2022). However, the scheduling, language constraints, and no interactive component lessened their efficacy. According to a CBSE Training Report (2023), more than 40% of teachers in rural schools were unaware of anything from the digital platforms.",
+        "There are some regional level variations like Kerala, with its proactive education system, used KITE VICTERS to show daily lessons, each day on TV in Malayalam (The Hindu, 2023). In contrast, in many parts of Uttar Pradesh and Bihar, students were relegated to WhatsApp notes or had no connection at all. These examples show that central policies must allow for localized adaptation (EPW, 2022).",
+        "One of the more ambitious features of NEP 2020, PM e-Vidya, sought to virtualise education through a common platform that harnessed the powers of TV, radio and online portals. On paper, it was revolutionary. In reality, the experience has been mixed depending on where one lives and their socio-economic bracket.",
+        "In Kerala, the KITE VICTERS educational TV channel put under PM e-Vidya was a boon for lakhs of students during the COVID-19 lockdown. The state made sure that daily Malayalam language classes, aired at a prescribed time, were reachable even in regions without smartphones or internet. According to a report by KITE in 2021, more than 3.5 million students accessed television programmes in the peak month of lockdown (KITE Kerala, 2021). In comparison, states like Jharkhand or Bihar have had impacts from PM e-Vidya that are comparatively weaker and limited. According to a recent study (Oxfam India, 2022), more than 80% of children in low-income rural families in Bihar had no access to either smartphones or educational TV. Many of these families explained that they had to prioritise the phone for earning or telephone calls to relatives, and there simply no educational continuity for the child. Teachers reported confusion regarding the content release schedule and felt they didn't have a role in the platform's launch because they had not received any training.",
+        "Even urban slum populations have had limited learning outcomes from PM e-Vidya content. Azim Premji University (2022) reported that even when almost 50% of samples (students living in urban poverty) had access to some kind of digital content, comprehension was extremely low because of the use of language, a lack of engaging interactivity, and very few instances of feedback (Azim Premji Foundation, 2022). That being said, there are islands of success. Teachers in Nagaland began to curate localized content linked to PM e-Vidya TV broadcasts and then via WhatsApp. Volunteers from the community helped distribute worksheets, and students attended community TV viewing spaces that were set up in village halls, and the hybrid model fostered significant re-engagement in learning for tribal students. A UNESCO South Asia Briefing from 2023 documented this.",
+        "These examples illustrate that PM e-Vidya can be transformational, but only if integrated within localized delivery frameworks, inclusive of language, and with follow-up support on-the-ground. Without these features, the current top-down, one-size-fits-all structure only further embeds pre-existing digital and educational inequities."
+      ]
+    },
+    {
+      heading: "THEME 4: Assessing the Impact of DIKSHA and SWAYAM on Indian Educational Inequalities",
+      paragraphs: [
+        "Platforms like DIKSHA and SWAYAM have pushed through long-standing barriers to education in India's drive for inclusive education. (The Ministry of Education, 2020) states that DIKSHA (Digital Infrastructure for Knowledge Sharing) and SWAYAM (Study Webs of Active Learning for Young Aspiring Minds) are flagship platforms for providing high-quality educational resources at scale. The National Education Policy (NEP) 2020 clearly frames technology as central to promoting \"access, equity, and quality.\" Especially in the wake of pandemic-induced school closures and longstanding infrastructure gaps, these platforms are expected to ensure continuity and act as strategic reforms that narrow the deep urban-rural, gender, and income gaps, helping to redefine India’s educational landscape.",
+        "Launched in 2017, DIKSHA is a national platform for school education, by NCERT, under the aegis of the Ministry of Education (MoE), GoI (DIKSHA, 2024) was developed to advance inclusive and equitable education as envisioned in NEP. Based on the EkStep Foundation's open- source Sunbird platform, it facilitates inclusive teaching and foundational learning nationwide by offering multilingual, accessible content from NCERT, CBSE, and SCERTs to over 200 million students and seven million teachers (The Economic Times, 2023).",
+        "Fig 1- One diksha, multiple central and state solutions and programme",
+        "Source-India Report Digital Education, 2020",
+        "With the goal to promote inclusivity and reduce access gaps, the DIKSHA app integrates interactive content in a variety of formats and languages, particularly in remote and linguistically diverse areas. More than 72% students and 87% of teachers have signed up for classes on DIKSHA, indicating a strong inclination to use digital tools if given the right support, proving to be a crucial component of digital equity (Verma et al., 2024). However, only 66.38% of teachers agreed that content loads easily on mobile devices, and 59.66% noted sufficient media variety. Technological barriers persist in mobile compatibility and content diversity (Roul & Mohalik, 2025)",
+        "Likewise, SWAYAM, India’s MOOC platform, also launched in July 2017, aims to achieve the three cardinal principles of Education Policy: access, equity and quality (Swayam, 2025).It hosts courses from class 9 to post-graduation. It gives professors from centrally funded universities like IISERs, IITs, and IIMs the opportunity to teach students. 11,772 courses have been offered by SWAYAM as of July 2025. Over 910,000 students have signed up for proctored exams, and about 650,000 students have received certificates (Wikipedia, 2025).",
+        "With more than 10 million registered users using adaptable evaluation techniques, SWAYAM helps bridge the gap in digital and educational accessibility by providing customized and scalable learning pathways for a wide range of demographics (Jadhav & Rathod, 2024). However, 27.75% of students found the teaching difficult to follow, and roughly 31.28% of students left because the content was only in English. Additionally, about 24.58% of students said that boring video lectures encouraged them to drop out of the course, suggesting that interactive content design could improve engagement, especially for students from underprivileged backgrounds (Singh, 2022).",
+        "Table 1: SWAYAM Platform Key Metrics (As of February 2023)",
+        "Metric",
+        "Figure",
+        "Total Enrolment",
+        "31,000,000",
+        "Effective Enrolment",
+        "24,405,178",
+        "Exam Registration",
+        "2,629,526",
+        "Assignment Submissions",
+        "883,605",
+        "Courses Offered",
+        "3,000+",
+        "Universities Accepting",
+        "Credit",
+        "288",
+        "Source- Times of India,2023",
+        "SWAYAM's increasing influence as India's top MOOC platform is shown in Table 1. It demonstrates high user engagement with over 24.4 million active learners and 31 million total enrollments. Also, credible academic participation is shown by the 2.6 million exam registrations and the 880,000+ assignment submissions, and its integration into formal education is confirmed by the 288 universities that accept credits."
+      ]
+    }
+  ],
+  conclusion: [
+    "The study reveals a shift in India's educational scenario due to increase in digital infrastructure.",
+    "Programs like BharatNet have enabled connectivity even in the remote areas, supporting online education.",
+    "However, the benefits were not evenly distributed and were different, especially for the marginalized communities. They face difficulties in their access to digital opportunities.",
+    "To bridge this gap, policies must not only ensure infrastructural support but also is affordable, accessible, and is structured in a way comfortable to address this concern of digital divide.",
+    "In order to address India's historical educational inequalities, platforms such as DIKSHA and SWAYAM have become critical instruments. By providing scalable, multilingual, and accessible digital content, these platforms support the NEP 2020 vision of equitable and inclusive education. DIKSHA has made commendable progress, particularly in enhancing foundational learning and reaching linguistically and geographically diverse learners, as evidenced by high teacher and student interaction.",
+    "However, enduring problems like restricted media diversity and mobile compatibility underscore the necessity of additional infrastructure investment and adaptive content creation. On a similar note, SWAYAM's extensive course library, adaptable evaluation, and participation of prestigious universities have increased access across socioeconomic divides.",
+    "Improving vernacular content, increasing mobile access, and incorporating adaptive learning analytics for personalized learning are all crucial to filling in the gaps in platforms like SWAYAM and DIKSHA. Prioritizing teacher training in digital pedagogy is essential, particularly in rural areas. Delivery of education will be inclusive, interesting, and contextually relevant if community-based digital support systems, such as local learning hubs, are established and continuous monitoring and feedback systems are integrated.",
+    "DIKSHA and SWAYAM can more successfully close the digital divide and act as global models for inclusive digital education.",
+    "For NEP 2020 and PM e-Vidya to truly disrupt systematic inequality, the government must improve rural internet infrastructure, and provide content in regional languages. They must equip educators with EdTech training and enable parental and community involvement in digital learning. This is an excellent way to ensure better access to digital policies and help in reducing education inequality.",
+    "We can also introduce digital literacy programmes in rural areas and launch similar programmes in the school, in order to spread awareness and help them to gain a practical exposure so that they understand the importance as well as get comfortable accessing digital opportunities with the use of their digital skills.",
+    "In conclusion, digital transformation will boost tremendously if it stands still on its promise for reducing inequality, and ensure every learner has equal access and ability to benefit from the digital tools and opportunities."
+  ],
+  references: [
+    {
+      heading: "Angel One. (2025). How BharatNet is transforming rural connectivity in India.",
+      "links": "https://www.angelone.in/news/how-bharatnet-is-transforming-rural-connectivity-in-india"
+    },
+    {
+      heading: "ASER Centre. (2021). Annual Status of Education Report 2021.",
+      links: "http://img.asercentre.org/docs/ASER%202021/aser2021fullreport.pdf"
+    },
+    {
+      heading: "Azim Premji Foundation. (2021). Myths of online education.",
+      links: "https://azimpremjifoundation.org/sites/default/files/myths-of-online-education.pdf"
+    },
+    {
+      heading: "Central Board of Secondary Education Training Portal. (2023). Teacher capacity building data.",
+      links: "https://cbseit.in/cbse/training"
+    },
+    {
+      heading: "DIKSHA. (2024). About DIKSHA.",
+      links: "https://diksha.gov.in/about/"
+    },
+    {
+      heading: "DIKSHA. (2024). DIKSHA dashboard- Ministry of Education",
+      links: "https://diksha.gov.in/"
+    },
+    {
+      heading: "EPW. (2022). Localising EdTech implementation in India. Economic and Political Weekly, 57(48).",
+      links: "https://www.epw.in/journal/2022/48/commentary/localising-edtech.html"
+    },
+    {
+      heading: "Government of India. (2020). Manodarpan – Ministry of Education.",
+      links: "https://manodarpan.education.gov.in"
+    },
+    {
+      heading: "India Inequality Report 2021 – Oxfam India. (2021). India inequality report: Education 2021.",
+      links: "https://www.oxfamindia.org/knowledgehub/workingpaper/india-inequality-report-2021"
+    },
+    {
+      heading: "Jadhav, R., & Rathod, A. R. (2024). Overview and future scope of SWAYAM in the world of MOOCs: A comparative study with reference to major international MOOCs. International Research Journal on Advanced Engineering and Management, 2(9), 2804–2806.",
+      links: "https://goldncloudpublications.com/index.php/irjaem/article/view/478"
+    },
+    {
+      heading: "Ministry of Education. (2020). National Education Policy (NEP 2020).",
+      links: "https://www.education.gov.in/sites/upload_files/mhrd/files/NEP_Final_English_0.pdf"
+    },
+    {
+      heading: "Ministry of Education. (2020). National Education Policy 2020. Government of India.",
+      links: "https://www.education.gov.in/en/nep"
+    },
+    {
+      heading: "Ministry of Education. (2020). SWAYAM Prabha – Free DTH classes.",
+      links: "https://www.swayamprabha.gov.in"
+    },
+    {
+      heading: "MOSPI & NSSO. (2018). 75th Round of National Sample Survey: Education and digital access data.",
+      links: "http://mospi.nic.in"
+    },
+    {
+      heading: "NCERT. (2021). Students’ learning during the pandemic – A survey.",
+      links: "https://ncert.nic.in"
+    },
+    {
+      heading: "National Family Health Survey. (2022). NFHS-5 (Phase II) factsheets.",
+      links: "http://rchiips.org/nfhs/NFHS-5_FCTS/NFHS-5%20State%20Factsheet%20Compendium_Phase- II.pdf"
+    },
+    {
+      heading: "Oxfam India. (2021). India inequality report: Education 2021.",
+      links: "https://www.oxfamindia.org/knowledgehub/workingpaper/india-inequality-report-2021"
+    },
+    {
+      heading: "Oxfam India. (2022). India inequality report 2022: Digital divide.",
+      links: "https://www.oxfamindia.org/press-release/india-inequality-report-2022"
+    },
+    {
+      heading: "PRS Legislative Research. (2022). EdTech equity 2022 brief.",
+      links: "https://prsindia.org/policy/analytical-reports/edtech-equity-2022"
+    },
+    {
+      heading: "ResearchGate. (2020). Impact of COVID-19 on school education in India: A brief analysis.",
+      links: "https://www.researchgate.net/publication/341981898_Impact_of_COVID-19_on_School_Educat ion_in_India"
+    },
+    {
+      heading: "Roul, R., & Mohalik, R. (2025). Quality of e‑contents on DIKSHA platform: A study of secondary school teachers’ perceptions. International Education & Research Journal, 11(2), 32–37.",
+      links: "https://doi.org/10.5281/zenodo.15583394"
+    },
+    {
+      heading: "Sharma, R., & Kapoor, A. (2023). DIKSHA in Rajasthan: A field evaluation. NCERT Journal of Educational Studies, 19(1), 10–27.",
+      links: "https://journals.ncert.gov.in/"
+    },
+    {
+      heading: "Singh, G. (2022). Why do MOOCs fail on completion rate? An analysis of SWAYAM courses. Indian Journal of Educational Technology, 4(1), 111–123.",
+      links: "https://journals.ncert.gov.in/IJET/article/view/529"
+    },
+    {
+      heading: "Swayam. (2025). About SWAYAM.",
+      links: "https://swayam.gov.in/about"
+    },
+    {
+      heading: "Swayam. (2025). Swayam portal.",
+      links: "https://swayam.gov.in"
+    },
+    {
+      heading: "The Economic Times. (2023). Agritech investments and incubators nurturing the next generation of food innovators in Dubai. The Economic Times.",
+      links: "https://economictimes.indiatimes.com/news/international/uae/agritech-investments-and-incubato rs-nurturing-the-next-generation-of-food-innovators-in-dubai/articleshow/122569172.cms"
+    },
+    {
+      heading: "The Economic Times. (2023, August 2). Education Ministry selects Oracle Cloud Infrastructure to modernise edtech platform DIKSHA. The Economic Times.",
+      links: "https://economictimes.indiatimes.com/tech/technology/education-ministry-selects-oracle-cloud-i nfrastructure-to-modernise-edtech-platform-diksha/articleshow/102351763.cms?from=mdr"
+    },
+    {
+      heading: "The Hindu. (2023). Kerala’s KITE VICTERS and EdTech implementation. The Hindu.",
+      links: "https://www.thehindu.com/education/kerala-edtech-article/article66355394.ece"
+    },
+    {
+      heading: "The Times of India. (2024, February 14). Low completion rates plague SWAYAM courses. The Times of India.",
+      links: "https://timesofindia.indiatimes.com/home/education/news"
+    },
+    {
+      heading: "The Times of India. (2024, May 22). Internet access in Gram Panchayats. The Times of India.",
+      links: "https://timesofindia.indiatimes.com"
+    },
+    {
+      heading: "UNESCO. (2021). Education in a post-COVID world: Nine ideas for public action.",
+      links: "https://unesdoc.unesco.org/ark:/48223/pf0000374802"
+    },
+    {
+      heading: "UNICEF India. (2021). Education response to COVID-19 in India: DigiLEP case study.",
+      links: "https://www.unicef.org/india/reports/digital-learning-enhancement-programme-digilep"
+    },
+    {
+      heading: "Wikipedia contributors. (2025, July 20). SWAYAM (Study Webs of Active-Learning for Young Aspiring Minds). Wikipedia.",
+      links: "https://en.wikipedia.org/wiki/SWAYAM"
+    },
+    {
+      heading: "World Bank & OECD. (2020). India: Ab padhai nahi rukegi – Learning will not stop.",
+      links: "https://documents1.worldbank.org/curated/en/637101601970234785/pdf/India-Ab-Padhai-NahiRukegi-Learning-Will-Not-Stop.pdf"
+    }
+  ]
 }
-
 
 
 
