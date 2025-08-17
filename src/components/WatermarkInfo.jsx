@@ -33,7 +33,7 @@ const WatermarkInfo = ({ className = "" }) => {
             {/* Header */}
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-lg font-semibold text-gray-800 flex items-center gap-2">
-                🔖 PDF Watermarks
+                 PDF Watermarks
               </h3>
               <button
                 onClick={toggleInfo}
@@ -49,12 +49,12 @@ const WatermarkInfo = ({ className = "" }) => {
                 All downloaded PDFs now include <strong>dynamic watermarks</strong> for proper identification and authenticity:
               </p>
               
-              <div className="bg-gray-50 p-3 rounded">
+              <div className="bg-yellow-800 p-3 rounded">
                 <h4 className="font-medium text-gray-800 mb-2">Watermark Components:</h4>
                 <ul className="space-y-1">
-                  <li><strong>🔢 Serial Number</strong> - Top-left corner (e.g., "Serial 15")</li>
-                  <li><strong>📊 Issue/Volume</strong> - Top-right corner (e.g., "Issue 2: Volume 1")</li>
-                  <li><strong>📅 Publication Date</strong> - Below issue info (e.g., "Published: Apr 12, 2025")</li>
+                  <li><strong>Serial Number</strong> - Top-left corner </li>
+                  <li><strong>Issue/Volume</strong> - Top-right corner </li>
+                  <li><strong>Publication Date</strong> - Below issue info </li>
                 </ul>
               </div>
 

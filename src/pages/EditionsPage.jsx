@@ -6,7 +6,7 @@ import articleData from "../data/articles";
 import ResearchCard from "../components/ResearchCard";
 import articles from "../data/articles";
 import ResearchEnhancements from "../components/ResearchEnhancements";
-import WatermarkInfo from "../components/WatermarkInfo";
+// import WatermarkInfo from "../components/WatermarkInfo";
 import { motion } from "framer-motion";
 import FilterDropdown from "../components/FilterDropdown";
 import Issues from "./issues/Issues";
@@ -18,53 +18,7 @@ const EditionsPage = () => {
   const [selectedIssue, setSelectedIssue] = useState("All");
   const [selectedVolume, setSelectedVolume] = useState("All");
 
-  // ****************** Filter Dropdown ***************************
-  /*
-  // This block is commented out because we have moved FilterDropdown to its own file
-  const FilterDropdown = ({ onIssueSelect, onVolumeSelect }) => {
-    const [isOpen, setIsOpen] = useState(false);
-    const dropdownRef = useRef();
-    const [expandedIssue, setExpandedIssue] = useState(null);
-
-    const toggleDropdown = () => setIsOpen((prev) => !prev);
-
-    useEffect(() => {
-      const handleClickOutside = (event) => {
-        if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-          setIsOpen(false);
-        }
-      };
-      document.addEventListener("mousedown", handleClickOutside);
-      return () => document.removeEventListener("mousedown", handleClickOutside);
-    }, []);
-
-    const issues = Array.from(new Set(articleData.map((a) => a.issue)));
-    const volumesByIssue = {};
-    issues.forEach((issue) => {
-      volumesByIssue[issue] = Array.from(
-        new Set(articleData.filter((a) => a.issue === issue).map((a) => a.volume))
-      );
-    });
-
-    const handleIssueSelect = (issue) => {
-      onIssueSelect(issue);
-      onVolumeSelect("All");
-      setExpandedIssue(expandedIssue === issue ? null : issue);
-    };
-
-    const handleVolumeSelect = (issue, volume) => {
-      onIssueSelect(issue);
-      onVolumeSelect(volume);
-      setIsOpen(false);
-    };
-
-    return (
-      <div>Old FilterDropdown commented out.</div>
-    );
-  };
-  */
-  // ****************** End Filter Dropdown ***************************
-
+ 
   const handleDelete = (id) => {
     // Note: Delete functionality would be implemented here
     console.log('Delete article with id:', id);
@@ -74,10 +28,10 @@ const EditionsPage = () => {
     setDownloading({ all: true });
 
     try {
-      console.log('🔖 Starting batch PDF generation with watermarks for', articles.length, 'articles');
+      console.log('Starting batch PDF generation with watermarks for', articles.length, 'articles');
       
       for (const article of articles) {
-        console.log(`🔖 Generating PDF with watermarks for Serial ${article.serialNumber}...`);
+        console.log(`Generating PDF with watermarks for Serial ${article.serialNumber}...`);
         
         const pdf = await generateArticlePDF(article);
 
@@ -95,7 +49,7 @@ const EditionsPage = () => {
         await new Promise(resolve => setTimeout(resolve, 500));
       }
       
-      console.log('✅ All PDFs generated successfully with watermarks');
+      console.log('All PDFs generated successfully with watermarks');
     } catch (error) {
       console.error("Error downloading article PDFs:", error);
       alert("Error downloading PDFs. Please try again.");
@@ -138,7 +92,7 @@ const EditionsPage = () => {
           Explore our latest research publications and journal editions
         </p>
         <div className="flex justify-center">
-          <WatermarkInfo />
+          {/* <WatermarkInfo /> */}
         </div>
       </motion.div>
 
@@ -160,13 +114,18 @@ const EditionsPage = () => {
             </h2>
 
             <div className="flex flex-col sm:flex-row gap-4 items-center">
-              <FilterDropdown
+
+
+{/* use this in future if you want to add filter or download button. Juss change them according to your needs, redited from /src/components/FilterDropDown.jsx */}
+
+
+              {/* <FilterDropdown
                 articleData={articleData}
                 onIssueSelect={(issue) => setSelectedIssue(issue)}
                 onVolumeSelect={(volume) => setSelectedVolume(volume)}
-              />
+              /> */}
 
-              <motion.button
+              {/* <motion.button
                 onClick={handleDownloadAllIndividually}
                 disabled={downloading.all}
                 whileHover={{ scale: 1.05 }}
@@ -180,8 +139,13 @@ const EditionsPage = () => {
               >
                 <Download className="w-4 h-4 mr-2" />
                 {downloading.all ? "Generating..." : "Download All Issues"}
-                <span className="text-xs opacity-75 ml-1">🔖</span>
-              </motion.button>
+                <span className="text-xs opacity-75 ml-1"></span>
+              </motion.button> */}
+
+
+
+
+              
             </div>
           </div>
 
@@ -194,58 +158,6 @@ const EditionsPage = () => {
           }
         }}
       />
-          
-          
-          {/* <motion.div whileHover={{ scale: 1.005 }} className="grid gap-8">
-            <div className="grid gap-6">
-              {filteredArticles.map((article, idx) => (
-                <motion.div
-                  key={article.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.1 * idx }}
-                >
-                  <ResearchCard
-                    articles={article}
-                    onDelete={isAdmin ? handleDelete : null}
-                    style={{
-                      backgroundColor: "white",
-                      borderColor: "#d6a7c0",
-                      color: "#693155ff",
-                    }}
-                  />
-
-                    
-
-                </motion.div>
-              ))}
-            </div>
-          </motion.div> */}
-
-          {/* <motion.div whileHover={{ scale: 1.005 }} className="grid gap-8">
-            <div className="grid gap-6">
-              {filteredArticles.map((article, idx) => (
-                <motion.div
-                  key={article.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.1 * idx }}
-                >
-                  <ResearchCard
-                    articles={article}
-                    onDelete={isAdmin ? handleDelete : null}
-                    style={{
-                      backgroundColor: "white",
-                      borderColor: "#d6a7c0",
-                      color: "#693155ff",
-                    }}
-                  />
-
-                </motion.div>
-              ))}
-            </div>
-          </motion.div> */}
-
         </motion.div>
       </div>
     </div>

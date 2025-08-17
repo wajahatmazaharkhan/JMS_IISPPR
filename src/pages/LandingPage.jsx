@@ -286,7 +286,7 @@ const fadeInUp = {
         className="text-5xl sm:text-6xl xl:text-7xl font-extrabold text-white leading-tight tracking-tight"
         variants={container}
       >
-        {"Law, Diplomacy, Tech & Policy Review"
+        {"Law, Diplomacy, Tech and Policy Review"
           .split(" ")
           .map((word, index) => (
             <motion.span key={index} variants={wordFade} className="inline-block mr-2">
