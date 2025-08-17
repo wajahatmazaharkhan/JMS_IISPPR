@@ -1,5 +1,6 @@
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
+import { addDynamicWatermark, addWatermarkToAllPages } from './pdfWatermark.js';
 
 export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
   const pdf = new jsPDF('p', 'mm', 'a4');
@@ -230,6 +231,13 @@ export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
       pdf.text(line, margin, yPosition);
       yPosition += lineHeight - 1;
     });
+
+    // ✅ Add dynamic watermark to this article page
+    try {
+      addDynamicWatermark(pdf, article);
+    } catch (error) {
+      console.warn(`Failed to add watermark for article ${article.id}:`, error);
+    }
   });
 
   return pdf;
@@ -374,6 +382,13 @@ export const generateResearchPDF = async (articles) => {
         });
         yPosition += 2;
       });
+    }
+
+    // ✅ Add dynamic watermark to this article page
+    try {
+      addDynamicWatermark(pdf, article);
+    } catch (error) {
+      console.warn(`Failed to add watermark for article ${article.id}:`, error);
     }
   });
 
@@ -624,6 +639,13 @@ export const generateArticlePDF = async (articles) => {
       }
       yPosition.value += 8;
     }
+  }
+
+  // ✅ Add dynamic watermarks to all pages
+  try {
+    addWatermarkToAllPages(pdf, articles);
+  } catch (error) {
+    console.warn('Failed to add watermarks to PDF:', error);
   }
 
   return pdf;

@@ -69,6 +69,13 @@ const ResearchCard = ({ articles, onDelete }) => {
   const handleDownload = async () => {
     setDownloading(true);
     try {
+      console.log('🔖 Generating PDF with watermarks for:', {
+        serialNumber: articles.serialNumber,
+        issue: articles.issue,
+        volume: articles.volume,
+        title: articles.title.substring(0, 50) + '...'
+      });
+
       const pdf = await generateArticlePDF(articles);
 
       const sanitizedTitle = articles.title
@@ -76,8 +83,13 @@ const ResearchCard = ({ articles, onDelete }) => {
         .replace(/\s+/g, "_")
         .substring(0, 50);
 
-      const filename = `LDTPPR_Research_Articles_${sanitizedTitle}_${articles.id}.pdf`;
+      // Enhanced filename with watermark indicator and date
+      const dateStamp = new Date().toISOString().split('T')[0];
+      const filename = `LDTPPR_WM_Serial${articles.serialNumber}_${sanitizedTitle}_${dateStamp}.pdf`;
+      
       downloadPDF(pdf, filename);
+      
+      console.log('✅ PDF downloaded successfully with watermarks:', filename);
     } catch (error) {
       console.error("Error generating PDF:", error);
       alert("Error generating PDF. Please try again.");
@@ -153,9 +165,11 @@ const ResearchCard = ({ articles, onDelete }) => {
           onClick={handleDownload}
           disabled={downloading}
           className="inline-flex items-center gap-2 px-4 py-2 bg-new-primary-dark text-white font-medium rounded hover:bg-new-primary-sub transition disabled:opacity-50 hover:text-new-primary"
+          title="Download PDF with watermarks: Serial Number, Issue/Volume, and Publication Date"
         >
           <Download size={16} />
-          {downloading ? "Downloading..." : "Download"}
+          {downloading ? "Generating..." : "Download PDF"}
+          <span className="text-xs opacity-75">🔖</span>
         </button>
 
         {getRoute(articles.issue, articles.id) && (
