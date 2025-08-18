@@ -29,6 +29,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import WriteContent from "./pages/WriteContent";
 import EditionsPage from "./pages/EditionsPage";
+import WatermarkTest from "./pages/WatermarkTest";
 import AdminArticles from "./pages/admin/AdminArticles";
 import AdminEditions from "./pages/admin/AdminEditions";
 import AuthorArticles from "./pages/author/AuthorArticles";
@@ -136,6 +137,7 @@ function AppRoutes() {
         <Route path="/publisher" element={<PublisherPage />} />
         <Route path="/issn" element={<IssnPage />} />
         <Route path="/research" element={<ResearchPage />} />
+        <Route path="/watermark-test" element={<WatermarkTest />} />
         <Route path="/editions" element={<EditionsPage />} />
         <Route path="/editions/:issueId" element={<FilteredIssuePage />} />
         <Route path="/ethics" element={<Ethics />} />

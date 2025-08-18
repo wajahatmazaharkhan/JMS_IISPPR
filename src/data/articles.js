@@ -2,6 +2,7 @@
 const articles = [
   {
     id: 1,
+    serialNumber: 1,
     issue: 1,
     volume: 1,
     title:
@@ -298,6 +299,7 @@ const articles = [
   },
   {
     id: 2,
+    serialNumber: 2,
     issue: 1,
     volume: 1,
     title:
@@ -464,6 +466,7 @@ const articles = [
   },
   {
     id: 3,
+    serialNumber: 3,
     issue: 1,
     volume: 1,
     title:
@@ -701,6 +704,7 @@ const articles = [
   },
   {
     id: 4,
+    serialNumber: 4,
     issue: 1,
     volume: 1,
     title:
@@ -835,6 +839,7 @@ const articles = [
   },
   {
     id: 5,
+    serialNumber: 5,
     issue: 1,
     volume: 1,
     title: "Greenwashing in Corporate Branding",
@@ -1014,6 +1019,7 @@ const articles = [
   },
   {
     id: 6,
+    serialNumber: 6,
     issue: 1,
     volume: 1,
     title:
@@ -1159,6 +1165,7 @@ const articles = [
   },
   {
     id: 7,
+    serialNumber: 7,
     issue: 1,
     volume: 1,
     title:
@@ -1360,6 +1367,7 @@ const articles = [
   },
   {
     id: 8,
+    serialNumber: 8,
     issue: 1,
     volume: 1,
     title:
@@ -1570,6 +1578,7 @@ const articles = [
   },
   {
     id: 9,
+    serialNumber: 9,
     issue: 1,
     volume: 1,
     title:
@@ -1717,6 +1726,7 @@ const articles = [
   },
   {
     id: 10,
+    serialNumber: 10,
     issue: 1,
     volume: 1,
     title:
@@ -1874,6 +1884,7 @@ const articles = [
   },
   {
     id: 11,
+    serialNumber: 11,
     issue: 1,
     volume: 1,
     title:
@@ -2053,6 +2064,7 @@ const articles = [
   },
   {
     id: 12,
+    serialNumber: 12,
     issue: 1,
     volume: 1,
     title:
@@ -2550,6 +2562,7 @@ const articles = [
   },
   {
     id: 13,
+    serialNumber: 13,
     issue: 1,
     volume: 1,
     title:
@@ -2848,6 +2861,7 @@ const articles = [
   },
   {
     id: 14,
+    serialNumber: 14,
     issue: 1,
     volume: 1,
     title: "India-US Bilateral Relations under President Trump’s Second Tenure",
@@ -3137,6 +3151,7 @@ const articles = [
   },
   {
     id: 15,
+    serialNumber: 15,
     issue: 1,
     volume: 1,
     title:
@@ -3368,6 +3383,7 @@ const articles = [
   },
   {
     id: 16,
+    serialNumber: 16,
     issue: 1,
     volume: 1,
     title:
@@ -3858,6 +3874,7 @@ const articles = [
   },
   {
     id: 17,
+    serialNumber: 17,
     issue: 1,
     volume: 1,
     title:
@@ -4299,6 +4316,7 @@ const articles = [
   },
   {
     id: 1,
+    serialNumber: 18,
     issue: 2,
     volume: 1,
     title:
@@ -4986,6 +5004,7 @@ const articles = [
   },
   {
     id: 2,
+    serialNumber: 19,
     issue: 2,
     volume: 1,
     title:
@@ -5484,6 +5503,7 @@ const articles = [
   },
   {
     id: 3,
+    serialNumber: 20,
     issue: 2,
     volume: 1,
     title:
@@ -5776,6 +5796,7 @@ const articles = [
   },
   {
     id: 4,
+    serialNumber: 21,
     issue: 2,
     volume: 1,
     title: "RECONCILING DEVELOPMENT AND ECOLOGY: A REGIONAL ANALYSIS OF SDG 15 IMPLEMENTATION IN INDIA",
@@ -5969,6 +5990,7 @@ const articles = [
   },
   {
     id: 5,
+    serialNumber: 22,
     issue: 2,
     volume: 1,
     title: "GEOPOLITICAL STRESSIMPACTING FINANCIAL MARKETS IN INDIA: A Secondary Data-based research study",
@@ -6214,6 +6236,7 @@ const articles = [
   },
    {
     id: 6,
+    serialNumber: 23,
     issue: 2,
     volume: 1,
     title: " Beyond Firewalls: The Human Factor in Cybersecurity",
@@ -6372,6 +6395,7 @@ const articles = [
   },
     {
     id: 7,
+    serialNumber: 24,
     issue: 2,
     volume: 1,
     title: "The Mahatma Gandhi National Rural Employment Guarantee Act: It’s Impacts and Overall Analysis ",
@@ -6590,6 +6614,7 @@ const articles = [
 
   {
     id: 8,
+    serialNumber: 25,
     issue: 2,
     volume: 1,
     title: "From Passive Player to Global Shaper: India and the New Multilateralism",
@@ -6715,6 +6740,7 @@ const articles = [
   },
   {
     id: 9,
+    serialNumber: 26,
     issue: 2,
     volume: 1,
     title: "India's Approach to Crisis Diplomacy: Influential Mediator, Strategic Middle Power, or Global Impersonator?",
@@ -6868,6 +6894,7 @@ const articles = [
    
   {
     id: 10,
+    serialNumber: 27,
     issue: 2,
     volume: 1,
     title: "Economics: The New Weapon in Global Politics",
@@ -6975,6 +7002,7 @@ const articles = [
 
    {
     id: 1,
+    serialNumber: 28,
     issue: 3,
     volume: 1,
     title: "An Impact Analysis of Livelihood Programs on Reducing Socio-Economic Inequalities in Rural India",
@@ -7137,6 +7165,7 @@ const articles = [
   },
   {
     id: 2,
+    serialNumber: 29,
     issue: 3,
     volume: 1,
     title: " Does the Make in India Policy Promote Green Product Adoption in India?A Consumer Perspective ( with a case study on FabIndia ) ",
@@ -7290,6 +7319,7 @@ const articles = [
 
 {
     id: 3,
+    serialNumber: 30,
     issue: 3,
     volume: 1,
     title: " Smoke, Sludge, and Silicon: India's Environmental Battle ",
@@ -7517,6 +7547,7 @@ const articles = [
 
 {
     id: 4,
+    serialNumber: 31,
     issue: 3,
     volume: 1,
     title: "Who Deserves To Be Cared For?: A Critical Appraisal of Janani Suraksha Yojna Through The Lens Of Caste And Gender",
@@ -7740,6 +7771,7 @@ const articles = [
 
 {
     id: 5,
+    serialNumber: 32,
     issue: 3,
     volume: 1,
     title: "From Tradition to Transformation: A Critical Review of India’s National Education Policy 2020",
@@ -7906,6 +7938,7 @@ const articles = [
 
 {
   id: 6,
+  serialNumber: 33,
   issue: 3,
   volume: 1,
   title: "From Paper to Practice: A Study on Health-System Bias and Exclusions in Assessing SRHR in India",
@@ -8257,6 +8290,7 @@ const articles = [
 },
 {
     id: 7,
+    serialNumber: 34,
     issue: 3,
     volume: 1,
     title: "BRIDGING THE DIVIDE: DIGITAL PUBLIC INFRASTRUCTURE IN THE INFORMAL SECTOR",
@@ -8689,6 +8723,7 @@ const articles = [
 },
 {
   id: 9,
+  serialNumber: 35,
   issue: 3,
   volume: 1,
   title: "The Impact of Trump-Era U.S. Migration Policy on Humanitarian Protections, Global Inequalities, and International Legal Frameworks",
@@ -8879,6 +8914,7 @@ const articles = [
 },
 {
     id: 10,
+    serialNumber: 36,
     issue: 3,
     volume: 1,
     title: "Advancing Urban Institutional Transparency through Digital Governance: A Comparative Analysis of Anti-Corruption and Public Trust Mechanisms in India and Europe",
@@ -9214,6 +9250,7 @@ const articles = [
 },
 {
   id: 1,
+  serialNumber: 37,
   issue: 4,
   volume: 1,
   title: "The Relationship between Identity Formation and Age of Young Adults in India",
@@ -9387,6 +9424,7 @@ const articles = [
 },
 {
   id: 2,
+  serialNumber: 38,
   issue: 4,
   volume: 1,
   title: "From Hegemony to Humanitarianism? The Dual Role of the US in Middle East Peace and Conflict in International Relations Discourse",
@@ -9637,6 +9675,7 @@ const articles = [
 
 {
   id: 3,
+  serialNumber: 39,
   issue:4 ,
   volume: 1,
   title: "Fiscal Risk and Debt Stability in India",
@@ -9934,6 +9973,7 @@ const articles = [
 },
 {
   id: 4,
+  serialNumber: 39,
   issue: 4,
   volume: 1,
   title: "From Policy to Progress: An Analysis of Government Initiatives Addressing Educational Equity and the Digital Divide",

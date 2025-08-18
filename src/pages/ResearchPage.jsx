@@ -4,6 +4,7 @@
   import articleData from "../data/articles";
   import ResearchCard from "../components/ResearchCard";
   import ResearchEnhancements from "../components/ResearchEnhancements";
+  import WatermarkInfo from "../components/WatermarkInfo";
   import { generateResearchPDF, downloadPDF } from "../utils/pdfExport";
 
   const ResearchPage = () => {
@@ -35,6 +36,9 @@
             >
               Research Articles
             </h1>
+            
+            {/* Watermark Info Component */}
+            <WatermarkInfo />
           </div>
 
           {/* Article List */}
