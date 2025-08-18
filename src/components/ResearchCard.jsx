@@ -69,7 +69,7 @@ const ResearchCard = ({ articles, onDelete }) => {
   const handleDownload = async () => {
     setDownloading(true);
     try {
-      console.log('🔖 Generating PDF with watermarks for:', {
+      console.log('Generating PDF with watermarks for:', {
         serialNumber: articles.serialNumber,
         issue: articles.issue,
         volume: articles.volume,
@@ -89,7 +89,7 @@ const ResearchCard = ({ articles, onDelete }) => {
       
       downloadPDF(pdf, filename);
       
-      console.log('✅ PDF downloaded successfully with watermarks:', filename);
+      console.log('PDF downloaded successfully with watermarks:', filename);
     } catch (error) {
       console.error("Error generating PDF:", error);
       alert("Error generating PDF. Please try again.");
@@ -169,7 +169,7 @@ const ResearchCard = ({ articles, onDelete }) => {
         >
           <Download size={16} />
           {downloading ? "Generating..." : "Download PDF"}
-          <span className="text-xs opacity-75">🔖</span>
+          <span className="text-xs opacity-75"></span>
         </button>
 
         {getRoute(articles.issue, articles.id) && (

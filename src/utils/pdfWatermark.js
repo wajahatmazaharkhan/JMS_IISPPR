@@ -12,26 +12,27 @@ import { getArticleMetadata } from './dataMapping.js';
  */
 export const WATERMARK_CONFIG = {
   topLeft: {
-    x: 20,  // 20mm from left edge
-    y: 15,  // 15mm from top edge
-    fontSize: 10,
-    color: [100, 100, 100], // Gray color
-    fontWeight: 'bold'
-  },
-  topRight: {
-    x: null, // Will be calculated based on pageWidth
-    y: 15,   // 15mm from top edge
-    fontSize: 10,
-    color: [100, 100, 100], // Gray color
-    fontWeight: 'bold'
-  },
-  datePosition: {
-    x: null, // Will be calculated based on pageWidth (same as topRight)
-    y: 22,   // 7mm below issue/volume info
-    fontSize: 8,
-    color: [120, 120, 120], // Lighter gray for date
-    fontWeight: 'normal'
-  }
+  x: 20,   // keep near left margin
+  y: 80,  // moved down below author section (adjust as needed)
+  fontSize: 10,
+  color: [100, 100, 100], // Yellow
+  fontWeight: 'bold'
+},
+topRight: {
+  x: null, // align with right side
+  y: 80,  // same vertical position as topLeft
+  fontSize: 10,
+  color: [100, 100, 100], // Yellow
+  fontWeight: 'bold'
+},
+datePosition: {
+  x: null, // align with right side (below Issue/Volume)
+  y: 90,  // a bit below the issue/volume
+  fontSize: 10,
+  color: [100, 100, 100], // softer gray
+  fontWeight: 'normal'
+}
+
 };
 
 /**
