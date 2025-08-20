@@ -7112,6 +7112,7 @@ const articles = [
         paragraphs: [
       "According to Press Information Bureau (2025), there is decline in proportion of individuals living in multidimensional poverty from 24.85% to 14.96% between 2015-2016 and 2019-2021. 13.5 crore individual escaped multidimensional poverty during this period. Gini coefficient is a measure of inequality. In rural India, it has declined from 0.266 in FY 2022-2023 to 0.237 in FY 2023-2024. This improvement is very crucial for overall development of country. The rural base of economy is majorly dependent on agriculture and other informal sectors. The economic upliftment of marginalized communities is helping them to do better in education and health parameters also. The improvement is seen by many of the schemes that are implemented in rural area. But, there is still lack of efficiency in grassroot administration in providing effective and transparent services to rural mass. The lack of awareness in rural area is another challenge which is hindering the development in rural part of country. "
         ]
+        
       },
          
     ],
