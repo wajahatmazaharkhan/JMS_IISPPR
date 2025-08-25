@@ -40,16 +40,16 @@ const articleRoutes2 = {
 // NEW ROUTE MAP FOR ISSUE 3 ARTICLES
 const articleRoutes3 = {
   1: "/Impact-Analysis",
-  2 :"/India-Policy-Promote",
-  3:"/Smoke-Sludge",
-  4:"/Who-Deserve-To-Be",
-  5:"/From-Traditional",
+  2: "/India-Policy-Promote",
+  3: "/Smoke-Sludge",
+  4: "/Who-Deserve-To-Be",
+  5: "/From-Traditional",
   6: "/From-Paper-To-Practice",
   7: "/Bridging-The-Divide",
   8: "/Localizing-Climate-Action",
   9: "/Impact-Of-Trump-Era-US-Migration-Policy",
-  10:"/Advancing-Urban",
- 
+  10: "/Advancing-Urban",
+
   // Add more articles here for Issue 3...
 };
 
@@ -58,8 +58,28 @@ const articleRoutes4 = {
   2: "/From-Hegemony-to-Humanitarianism",
   3: "/Fiscal-Risk",
   4: "/From-Policy-To-Progress",
-  
+
 };
+const articleRoutes5 = {
+  1: "/Trapped-In-Silence",
+  2: "/Another-Article-Title",
+  3: "/Something-Else",
+  // Add more articles here for Issue 5...
+};
+const articleRoutes6 = {
+  1: "/SHOULD ECOCIDE BE RECOGNIZED",
+
+};
+const articleRoutes7 = {
+  1: "/Criminalizing-Ecocide-Impacts-on-Justice",
+  // Add more articles here for Issue 4...
+};
+const articleRoutes8 = {
+  1: "/Digital-Platform-Disconnected-Protections",
+  // Add more articles here for Issue 4...
+};
+
+
 
 const ResearchCard = ({ articles, onDelete }) => {
   const [downloading, setDownloading] = useState(false);
@@ -86,9 +106,9 @@ const ResearchCard = ({ articles, onDelete }) => {
       // Enhanced filename with watermark indicator and date
       const dateStamp = new Date().toISOString().split('T')[0];
       const filename = `LDTPPR_WM_Serial${articles.serialNumber}_${sanitizedTitle}_${dateStamp}.pdf`;
-      
+
       downloadPDF(pdf, filename);
-      
+
       console.log('PDF downloaded successfully with watermarks:', filename);
     } catch (error) {
       console.error("Error generating PDF:", error);
@@ -104,6 +124,10 @@ const ResearchCard = ({ articles, onDelete }) => {
     if (issue === 2) return articleRoutes2[id];
     if (issue === 3) return articleRoutes3[id];
     if (issue === 4) return articleRoutes4[id];
+    if (issue === 4) return articleRoutes5[id];
+    if (issue === 4) return articleRoutes6[id];
+    if (issue === 4) return articleRoutes7[id];
+    if (issue === 4) return articleRoutes8[id];
     return null;
   };
 
