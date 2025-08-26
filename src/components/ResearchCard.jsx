@@ -60,8 +60,8 @@ const articleRoutes4 = {
   4: "/From-Policy-To-Progress",
   13: "/Advancing-Urban-Institutional",
   14: "/Anlysing-The-Scope-Of-Feminist",
-  15:"/Bridging-The-Divide-Digital-Public",
-  16: "/Localizing-Climate-Action-The-National-Action"
+  15: "/Localizing-Climate-Action-The-National-Action",
+  16:"/Bridging-The-Divide-Digital-Public",
 
   
 };

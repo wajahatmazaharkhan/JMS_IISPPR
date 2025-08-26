@@ -2,7 +2,7 @@ import articles from "../../data/articles";
 import ArticlePage from "../../components/ArticlePage";
 
 const LocalizingClimateActionTheNationalAction = () => {
-  const article = articles.find((a) => a.id === 7 && a.issue===4);// ID
+  const article = articles.find((a) => a.id === 15 && a.issue===4);// ID
 
   return article ? (
     <ArticlePage

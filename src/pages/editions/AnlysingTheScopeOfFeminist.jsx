@@ -2,7 +2,7 @@ import articles from "../../data/articles";
 import ArticlePage from "../../components/ArticlePage";
 
 const AnlysingTheScopeOfFeminist = () => {
-  const article = articles.find((a) => a.id === 6 && a.issue===4);// ID
+  const article = articles.find((a) => a.id === 14 && a.issue===4);// ID
 
   return article ? (
     <ArticlePage

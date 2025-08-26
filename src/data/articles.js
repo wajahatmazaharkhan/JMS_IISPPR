@@ -10284,7 +10284,7 @@ const articles = [
   ]
 },
 {
-  id: 5,
+  id: 13,
   serialNumber: 41,
   issue: 4,
   volume: 1,
@@ -10301,22 +10301,7 @@ const articles = [
   "Thus, with expectations, functioning governing bodies should be able to sustain their societies, ensure transparent justice and safety, and curate mandates for the betterment of the civil.",
   " Thus, this paper concludes such findings of the specific method of integrating ICTs in attempts to bridge the existing disconnect experienced by multiple institutions."
 ],
-  // keyword: [
-  //   "digital divide",
-  //   "educational inequality",
-  //   "BharatNet",
-  //   "SDG 10",
-  //   "Digital India",
-  //   "policy analysis"
-  // ],
-  // status: "",
-  // "intro": [
-  //   "Educational inequality remains a persistent challenge in India, deeply rooted in historical, socio-economic, and geographic disparities. Despite significant progress in enrollment rates and infrastructure development over the past decades, access to quality education continues to be uneven, particularly across rural-urban divides, income groups, and gender. In response to these disparities, to address these gaps, digital technology is now being seen as an important way to make education more equal and accessible for everyone.",
-  //   "In alignment with the global commitment to Sustainable Development Goal 10 (SDG 10) which seeks to reduce inequality, India has taken several policy initiatives aimed at leveraging digital infrastructure to enhance educational access and equity. Key among these are the Digital India Campaign, PM e-Vidya, the National Education Policy (NEP) 2020, and the DIKSHA platform. These initiatives together show a change in policy, focusing on using technology-based solutions that can reach many people, with the goal of reducing gaps in access to and involvement in education.",
-  //   "However, the transformative potential of digital education remains contested, especially in the context of pre-existing structural inequalities. While digital platforms have expanded the reach of educational content, they have also exposed and, in some cases, deepened the digital divide, particularly among economically marginalized populations, rural communities, and gender-disadvantaged groups. The accessibility, usability, and effectiveness of these digital interventions vary widely across different socio-economic contexts, raising important questions about their actual impact on educational equity.",
-  //   "This study seeks to critically examine the extent to which these targeted digital education policies have contributed to reducing educational inequality in India. By evaluating the achievements and limitations of these initiatives, the research aims to bridge the gap between policy formulation and ground-level implementation. In doing so, it endeavors to offer a nuanced understanding of the role of digital interventions in advancing equitable and inclusive education, and to identify the systemic barriers that continue to impede progress."
-  // ],
-  content: [
+ content: [
     {
       "heading": "Introduction and Background",
       "paragraphs": [
@@ -10552,7 +10537,7 @@ const articles = [
   ]
   
 },{
-  id: 6,
+  id: 14,
   serialNumber: 42,
   issue: 4,
   volume: 1,
@@ -10720,7 +10705,7 @@ const articles = [
   ]
 },
 {
-  id: 7,
+  id: 15,
   serialNumber: 43,
   issue: 4,
   volume: 1,
@@ -10982,7 +10967,7 @@ const articles = [
   ]
 },
 {
-  id: 8,
+  id: 16,
   serialNumber: 44,
   issue: 4,
   volume: 1,
