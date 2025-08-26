@@ -11,7 +11,10 @@ const FilteredIssuePage = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-pink-300 to-purple-900 p-8">
+    <div className="min-h-screen p-8"
+    style={{
+    background: 'linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)',
+  }}>
       <h2 className="text-3xl text-white mb-6">
         Articles from Issue {issueId}
       </h2>

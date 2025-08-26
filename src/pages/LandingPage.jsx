@@ -152,9 +152,12 @@ const fadeInUp = {
 };
 
 
-
+ 
   return (
-    <div className="min-h-screen">
+     <div className="flex flex-col min-h-screen text-white"
+    style={{
+      background: "linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff"
+    }} >
 {/* --- Header Navigation --- */}
 <header className="bg-bg-light border-b border-accent-light shadow-sm sticky top-0 z-50 transition-shadow duration-300">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
@@ -237,7 +240,10 @@ const fadeInUp = {
 {/* --- Hero Section --- */}
 <section
   className="relative pt-32 pb-32 min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden border-y-8 border-white font-serif"
-  style={{ backgroundImage: "url('/assets/1.jpg')" }}
+  style={{ backgroundImage: "linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff"
+
+
+    }}
 >
   {/* Overlay */}
   <div className="absolute inset-0 bg-white/10 backdrop-blur-sm z-0" />
@@ -336,7 +342,10 @@ const fadeInUp = {
 {/* --- Journal Resources Section --- */}
 <section
   className="relative py-24 px-4 bg-cover bg-center bg-no-repeat border-y-8 border-white"
-  style={{ backgroundImage: "url('/assets/2.jpg')" }}
+  style={{ backgroundImage: "linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff"
+
+
+    }}
 >
   {/* Overlay */}
   <div className="absolute inset-0 bg-black/30 backdrop-blur-sm z-0" />
@@ -420,8 +429,8 @@ const fadeInUp = {
 <section
   className="py-20 px-4 text-white"
   style={{
-    background: 'linear-gradient(to bottom, #0e000aff, #8104a0ff, #1a011dea)',
-  }}
+    background: "linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff"
+    }}
 >
   <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center">
     {(() => {
@@ -456,7 +465,7 @@ const fadeInUp = {
 <div
   className="text-white"
   style={{
-    background: 'linear-gradient(to bottom, #1d0235ff, #490652ff, #750d6cea)',
+    background: 'linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)',
   }}
 >
 {/* --- Editorial Standards Section --- */}
