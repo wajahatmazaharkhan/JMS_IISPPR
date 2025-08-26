@@ -9973,7 +9973,7 @@ const articles = [
 },
 {
   id: 4,
-  serialNumber: 39,
+  serialNumber: 40,
   issue: 4,
   volume: 1,
   title: "From Policy to Progress: An Analysis of Government Initiatives Addressing Educational Equity and the Digital Divide",
@@ -10282,8 +10282,992 @@ const articles = [
       links: "https://documents1.worldbank.org/curated/en/637101601970234785/pdf/India-Ab-Padhai-NahiRukegi-Learning-Will-Not-Stop.pdf"
     }
   ]
-}
+},
+{
+  id: 5,
+  serialNumber: 41,
+  issue: 4,
+  volume: 1,
+  title: "Advancing Urban Institutional Transparency through Digital Governance: A Comparative Analysis of Anti-Corruption and Public Trust Mechanisms in India and Europe",
+  author: "Asanda Keitumetse Khwabe, Stellenbosch University,Maksym Loharzhevskyi, Charles University in Prague,Omundu Eddy Odhiambo, University of Nairobi,Onemena Odebala, Baze University Abuja",
+  authorAbbrev: "Khwabe, A.; Loharzhevskyi, M.; Odhiambo, O.; Odebala, O.",
+ abstract: [
+  "Accountability, rule of law, and trust remain in a turbulent state, serving as the foundation of peace, justice, and strong institutions categorized under SDG 16.",
+  "The inconsistency of such factors contributes to the global polycrisis of instability, birthing corruption and mismanagement.",
+  "Thus, with such an environment conjured, institutions cannot mandate sustainable cities and communities of SDG 11, which ultimately break down the vital state-citizen relationship.",
+  "Continuously, quantitative data research has revealed that the introduction of integrating information and communications technology (ICT) into the political realm will promote transparency, reinforce better trust mechanisms, and contribute to anti-corruption attempts.",
+  "This particular paper explored two different regions, India and European countries executing the transformation of e-governance while revealing the extent of successes of maintaining both SDG 16 and SDG 11 goals as well as the challenges faced by both regions.",
+  " It is imperative to understand that strong institutions and the performance style in which to manage their unique society have not been perfected, for there are always different multifaceted factors such as circumstances presented by histories of the regions as well as the dynamics instilled and practiced by the government and people based on preferences to use.",
+  "Thus, with expectations, functioning governing bodies should be able to sustain their societies, ensure transparent justice and safety, and curate mandates for the betterment of the civil.",
+  " Thus, this paper concludes such findings of the specific method of integrating ICTs in attempts to bridge the existing disconnect experienced by multiple institutions."
+],
+  // keyword: [
+  //   "digital divide",
+  //   "educational inequality",
+  //   "BharatNet",
+  //   "SDG 10",
+  //   "Digital India",
+  //   "policy analysis"
+  // ],
+  // status: "",
+  // "intro": [
+  //   "Educational inequality remains a persistent challenge in India, deeply rooted in historical, socio-economic, and geographic disparities. Despite significant progress in enrollment rates and infrastructure development over the past decades, access to quality education continues to be uneven, particularly across rural-urban divides, income groups, and gender. In response to these disparities, to address these gaps, digital technology is now being seen as an important way to make education more equal and accessible for everyone.",
+  //   "In alignment with the global commitment to Sustainable Development Goal 10 (SDG 10) which seeks to reduce inequality, India has taken several policy initiatives aimed at leveraging digital infrastructure to enhance educational access and equity. Key among these are the Digital India Campaign, PM e-Vidya, the National Education Policy (NEP) 2020, and the DIKSHA platform. These initiatives together show a change in policy, focusing on using technology-based solutions that can reach many people, with the goal of reducing gaps in access to and involvement in education.",
+  //   "However, the transformative potential of digital education remains contested, especially in the context of pre-existing structural inequalities. While digital platforms have expanded the reach of educational content, they have also exposed and, in some cases, deepened the digital divide, particularly among economically marginalized populations, rural communities, and gender-disadvantaged groups. The accessibility, usability, and effectiveness of these digital interventions vary widely across different socio-economic contexts, raising important questions about their actual impact on educational equity.",
+  //   "This study seeks to critically examine the extent to which these targeted digital education policies have contributed to reducing educational inequality in India. By evaluating the achievements and limitations of these initiatives, the research aims to bridge the gap between policy formulation and ground-level implementation. In doing so, it endeavors to offer a nuanced understanding of the role of digital interventions in advancing equitable and inclusive education, and to identify the systemic barriers that continue to impede progress."
+  // ],
+  content: [
+    {
+      "heading": "Introduction and Background",
+      "paragraphs": [
+        "It has become increasingly clear lately that in the context of rapid urbanization, accountability, openness, and trust from society are becoming critical for city authorities (Harkness & Katz, 2016; Pickup, 2024). Cities, as key centers of administrative and demographic life, often face such problems as, for example, corruption, lack of transparency, and alienation of citizens from decision-making. Undoubtedly, this not only weakens the democratic foundations of city governance but also reduces its effectiveness (Mupandanyama, 2023; Transparency International, n.d.).",
+         "It is our deep conviction that Goals 16 and 11 of the Sustainable Development Agenda, aimed at ensuring 'peace, justice, and strong institutions' and 'sustainable cities and communities,' respectively (United Nations, 2015; United Nations Department of Economic and Social Affairs, n.d.), are particularly relevant in this context. The main thing is that the first emphasizes the importance of combating corruption, increasing transparency, and engaging citizens at all levels of government, and the second one reinforces it in the more communal context. Namely, the aforementioned task of SDG 16 is especially important in cities, where the interaction between citizens and government is most direct and intense. Although this goal is global, we believe that achieving it requires local solutions, as each city has its own unique institutional, political, and cultural characteristics that influence the implementation and reception of transparency initiatives.",
+          "Another challenge in city governance is the bureaucratic procedures and often inconsistent accountability systems that city authorities are trying to combat. Of course, such institutional deficiencies only increase public mistrust, especially among vulnerable and marginalized groups who feel excluded from decision-making processes (Bertsou, 2019). In countries like India, institutional closures are often rooted in colonial administrative systems and are exacerbated by a lack of resources and uneven development of digital infrastructure (Panda & Kumar, 2025; Vision IAS, 2024). At the same time, in many European cities, the decline in trust is not so much due to corruption as to the gap between government actions and the daily needs of the population (Bertsou, 2019).", 
+          "As a response to these challenges, digital governance is gaining popularity. It is part of the world's transition to the sixth technological paradigm and, in the urban context, uses open databases, blockchain technologies, and platforms for citizen feedback. The long-term use of these tools in some cities and countries has already proven that they can improve governance by increasing transparency and inclusiveness, which, in turn, strengthens public trust in government, simplifies access to information, and optimizes service delivery (OECD, 2020; World Bank, 2021).",
+          "However, it is obvious that the effectiveness of such digital solutions strongly depends on the specific conditions in which they are implemented. For example, the cities of Tallinn and Helsinki have made impressive progress in the digitalization of governance thanks to significant investments in sustainable technologies and high digital literacy of the population (Estonian Ministry of Economic Affairs and Communications, 2022; Government of Finland, n.d.; UN-Habitat, 2020; UN-Habitat et al., 2022). On the other hand, cities in India, despite attempts to introduce anti-corruption platforms (Nandy and Kumar, 2025), face problems of digital inequality and bureaucratic resistance (Panda and Kumar, 2025). "  
+      
+        ]
+    },
+    {
+      heading: "Problem Statement and Research Objectives",
+      paragraphs: [
+        "Despite the significant potential of digital tools, a gap between the promise of technological solutions and the reality remains in urban governance around the world. This problem gives rise to a key issue known as the ‘transparency paradox.’ One leading view explains this paradox through the lens of instrumental incentives: corrupt or institutionally weak governments voluntarily join transparency initiatives not so much out of a genuine desire for reform but to gain reputational benefits such as access to international aid or increased political legitimacy (David-Barrett & Okamura, 2013). However, this reputational approach is not the only explanation. An alternative view shifts the focus from external incentives to internal dynamics, arguing that pressure from below is often the key driver of change. According to this approach, an active and organized civil society can force governments to increase transparency by using international initiatives as a tool for increasing domestic accountability (Isaksson, 2015). In this case, the main motivation is not the pursuit of international approval but the result of domestic political struggle.",
+        "This theoretical dilemma directly affects our comparative analysis. In Indian cities, the adoption of digital platforms can be both a façade for external benefits and a concession to internal pressures, while ill-considered technology adoption risks creating digital inequalities (Panda & Kumar, 2025; Bertot et al., 2010). In European cities, even bottom-up reforms face an “e-governance paradox,” where technological solutions do not automatically increase trust (Otieno & Omwenga, 2016).",
+        "A key research challenge, therefore, is the lack of understanding of which of these drivers—external reputational gain or internal civic pressure—and in what combination, determines the trajectory and success of digital governance in different institutional contexts.",
+        "To address this multifaceted challenge, this study sets out to undertake a number of interrelated objectives. First, the paper aims to analyze the theoretical foundations underlying digital governance as a tool for enhancing transparency and trust. Building on this foundation, the study will proceed to its main objective: conducting an in-depth comparative analysis of specific digital governance initiatives in selected cities in India and Europe.",
+        "The third objective is to assess the actual impact of these initiatives on the level of institutional transparency, accountability, and citizen trust. Finally, the findings of this study are concluded by pointing out the spheres of development of contextually informed recommendations for policymakers and practitioners on how to better use digital tools to strengthen urban governance."
+      ]
+    },
+    {
+      heading: "Thematic Literature Review",
+      paragraphs: [
+        "The transparency and accountability of urban institutions are essential to achieving Sustainable Development Goal 16, which focuses on reducing corruption and building effective, inclusive institutions. In response to persistent governance challenges, cities have increasingly turned to digital tools—such as open data platforms and participatory applications—to address institutional gaps and rebuild public trust. This literature review highlights key areas of focus, including anti-corruption mechanisms in urban India and Europe, the role of digital tools in promoting citizen trust, and comparative frameworks that support cross-regional policy learning."
+      ]
+      },
+    {
+      heading: "Digital Anti-Corruption Mechanisms",
+      paragraphs: [
+        "In Indian cities, there are digitized service delivery focused on reducing petty corruption. An example is Karnataka's e-Governance projects that demonstrated a reduction of bribery and increased efficiency, especially in licensing and municipal services (Chakraborty & Pandey, 2020). In Mumbai, transparency portals enabled real-time public access to civic contracts, increasing public audit interventions by almost 50% (Bose & Dey, 2022). Despite having an improvement, scholars still support that these tools only benefit urban elites and so hinder equitable access especially in peri-urban areas (Kumar, 2023).",
+        "European cities have leveraged more advanced technological environments to integrate anti-corruption tools. For example, Tallinn, the capital of Estonia, has a blockchain-based public contract system that offers unchangeable records, reducing procurement fraud risks (Tatar & Kalvet, 2021). Moreover, Helsinki, capital of Finland, has an open Ahjo platform that enhances transparency by providing real-time legislative data, strengthening public scrutiny (Lindgren et al., 2019). Critically, institutional readiness influences its success, not only technology indicating advanced digital systems fail where institutional accountability strategies are weak (Tummers et al., 2022). This highlights a research contrast between European and Indian urban governance outcomes."
+      ]
+    },
+    {
+      heading: "Public Trust and Participatory Technology",
+      paragraphs: [
+       "Digital participation has emerged as a tool for building trust. Public trust in Indian cities remains divided as the platform like MyGov struggles with inclusivity and at the same time encourages civic dialogue (Sharma & Bawa, 2021). The exclusion of marginalized groups that face digital literacy barriers and low-income groups risks deepening existing governance divides in urban areas.",
+       "On the other hand, European cities stress on participatory governance where everyone is required to take part in public decision making. For instance, Amsterdam’s Open Stad and Helsinki’s Decidim are proof that transparent and inclusive citizen and noncitizen engagement correlates with higher institutional trust (Linders et al., 2023). However, Bannister and Connolly (2021) argue that institutional action on citizen feedback is required for information access. Therefore, to build trust, transparency initiatives must be coupled with good governance. This study is significant in India, where rapid urbanization outgrows institutional response."
+      ]
+    },
+    {
+      heading: "Comparative Urban Governance and Gaps in the Literature",
+      paragraphs: [
+       "In India, the Smart Cities Mission has emphasized the modernization of infrastructure and the introduction of digital platforms like the India Urban Data Exchange and Mahiti Kanaja to promote transparency in public service delivery. However, many of these tools function in a top-down manner, often driven by state or national agencies rather than city-level democratic engagement (Kumar & Prakash, 2019). ",
+       "In contrast, European cities tend to frame digital governance as a citizen-centered process. For instance, Amsterdam’s City Data Lab and the “Right to Challenge” initiative empower citizens not only to access data but also to actively shape local policy outcomes (Linders et al., 2023). These initiatives reflect a governance culture grounded in subsidiarity, where municipal institutions are granted considerable autonomy in decision-making and innovation. Additionally, platforms like Helsinki’s open budgeting system and Tallinn’s blockchain-based registries are examples of how technological design is aligned with broader institutional trust mechanisms (European Commission, 2022).",
+       "From a theoretical lens, the principal-agent model helps frame how digital tools reduce information asymmetry between citizens (principals) and public officials (agents), thereby curbing opportunities for corruption (Janssen et al., 2012). Similarly, the trust-as-legitimacy theory posits that trust emerges not just from procedural openness but from the consistent responsiveness of institutions (Bannister & Connolly, 2021). Applying these frameworks comparatively, however, reveals that even technologically advanced platforms can fail when the institutional culture resists citizen empowerment—a challenge seen in both Indian and certain European cases.",
+       "Despite a growing body of work on digital governance and urban innovation, there is a clear gap in comparative, cross-regional analysis. Most studies focus either on single-city innovations or national-level digital programs, without adequately linking municipal strategies in the Global South and North. Few have investigated how cities operationalize SDG 16 targets, particularly in relation to transparency and trust, using real-world case studies. This paper contributes to closing that gap by providing a comparative review of selected Indian and European cities, examining not only the tools they deploy but also the institutional ecosystems that enable or constrain their effectiveness.",
+      ]
+    },{ 
+    "Methodological Overview": [
+      "Examining the fundamental relationships between governments and citizens in both India and Europe is crucial to comprehending the challenges of incorporating technology into digital governance. A qualitative comparative approach will be used to capture these subtleties, enabling a precise and contextualized examination of the major determinants of governance. By considering the institutional and sociopolitical factors that influence the use of digital tools, this method makes it possible to identify significant trends and distinctions between the two regions.",
+      "This study will examine the underlying reasons of corruption and assess the efficacy of countermeasures by utilizing a variety of qualitative data sources, such as published research findings and expert consensus. These revelations are essential to comprehending the formation of public trust in governance structures. According to this theory, political outcomes are the results of government initiatives to resolve conflicts between conflicting interests while guaranteeing the equitable and effective allocation of resources. Since economic inequality and inequities have a big impact on how the public views legitimacy and efficacy, special attention is paid to how these issues are handled. The study intends to demonstrate the connection between enhanced governance performance and anti-corruption initiatives by analyzing these dynamics.",
+      "The government will be better equipped to handle civil unrest, resource shortages, and environmental issues as well as make strategic investments in important institutions like education if it can remain consistent and deliver its services in an organized manner. The foundation for more extensive change, such as the transition to a digital state, is laid by effective governance in these domains. The government can improve accountability and openness by adopting new technologies. This advancement promotes long-term development objectives while also bolstering institutional trust. In the end, a responsive and well-coordinated government is better equipped to address the demands of the populace and promote sustainable progress in a world that is becoming more digitally connected.",
+      "Continuously, information obtained will explain challenges faced by integration, such as justice isolation, social engagement, and disintegration that reveal the people's trust and attitudes towards their governments. A historical overview will be particularly included to highlight unique challenges and conflicts that arose from the cultural and social status quo. Hence, findings will give insight into possible methods that India can adapt , such as strong institutional frameworks, according to their governing style, that ensure proper regulations. This includes the values of accountability and delivering operational continuity actions as well as the consequences of such changes.",
+      "Moreover, it is important to emphasize that this research does not romanticize the digitalization of cities and their institutions. While European cities have made significant strides in adopting digital technologies, they continue to confront complex and evolving challenges associated with these advancements. Recognizing both the opportunities and limitations of digital governance provides a balanced foundation for the analysis."
+    ]
+   },
+  {
+      heading: "Core Findings",
+      paragraphs: [
+       "In India, the Smart Cities Mission has emphasized the modernization of infrastructure and the introduction of digital platforms like the India Urban Data Exchange and Mahiti Kanaja to promote transparency in public service delivery. However, many of these tools function in a top-down manner, often driven by state or national agencies rather than city-level democratic engagement (Kumar & Prakash, 2019). ",
+       "In contrast, European cities tend to frame digital governance as a citizen-centered process. For instance, Amsterdam’s City Data Lab and the “Right to Challenge” initiative empower citizens not only to access data but also to actively shape local policy outcomes (Linders et al., 2023). These initiatives reflect a governance culture grounded in subsidiarity, where municipal institutions are granted considerable autonomy in decision-making and innovation. Additionally, platforms like Helsinki’s open budgeting system and Tallinn’s blockchain-based registries are examples of how technological design is aligned with broader institutional trust mechanisms (European Commission, 2022).",
+       "From a theoretical lens, the principal-agent model helps frame how digital tools reduce information asymmetry between citizens (principals) and public officials (agents), thereby curbing opportunities for corruption (Janssen et al., 2012). Similarly, the trust-as-legitimacy theory posits that trust emerges not just from procedural openness but from the consistent responsiveness of institutions (Bannister & Connolly, 2021). Applying these frameworks comparatively, however, reveals that even technologically advanced platforms can fail when the institutional culture resists citizen empowerment—a challenge seen in both Indian and certain European cases.",
+       "Despite a growing body of work on digital governance and urban innovation, there is a clear gap in comparative, cross-regional analysis. Most studies focus either on single-city innovations or national-level digital programs, without adequately linking municipal strategies in the Global South and North. Few have investigated how cities operationalize SDG 16 targets, particularly in relation to transparency and trust, using real-world case studies. This paper contributes to closing that gap by providing a comparative review of selected Indian and European cities, examining not only the tools they deploy but also the institutional ecosystems that enable or constrain their effectiveness.",
+      ]
+    },
+    {
+      heading: "Indian Cases",
+      paragraphs:[
+        "The Public Finance Management System was  launched in the late 2000s and has been of great use in tracking disbursements for social sector schemes all over India. It is connected to banks via a real‑time portal that enables monitoring of funds from the central government to beneficiaries at district and individual levels (PFMS, 2025). This system integrated pension and ration disbursements digitally as evident inAndhra Pradesh’s Krishna district hence a reduction in leakages(IMF, 2024).",
+        "India’s centralized Public Grievance Redress and Monitoring System (CPGRAMS) has captured eyes across the commonwealth for its impact(Business Standard, April 2024). The state‑level Integrated Grievance Redressal System resolved most of the complaints filed by care‑seekers with disabilities in Uttar Pradesh, demonstrating speed and transparency(Times of India, Jun 2025).",
+        "Integrated Command and Control Centres(ICCCs) run over 80 cities aggregating data from traffic, sanitation, CCTV, utilities, and public securities (Indian Express, 2022; Noida IAS Update, 2025). Pune and Bengaluru operate Smart City Command Centres with numerous sensors, emergency call boxes, dashboards, and real‑time analytics (LinkedIn/Pune; PC Mohan/Bengaluru). During the COVID‑19 pandemic, 45 such centres were rapidly repurposed into war‑rooms for tracking, helpline coordination, and logistics support (PMC NCBI, 2022; Economic Times, 2020). Several cities have integrated ICCCs into municipal budgets or adopted self‑sustaining models despite the end of central funding in March 2025(Hindustan Times, May 2025).",
+        "The Swachhata App, launched under the Swachh Bharat Mission by the Ministry of Housing and Urban Affairs (MoHUA), enables citizens to register sanitation-related grievances via a geo-tagged, time-stamped mobile interface. Citizens can track the status of their complaints, view before-and-after resolution images, and interact with municipal officials, ensuring accountability and responsiveness (Janaagraha, 2024). As of 2024, over 27 million complaints have been registered with a reported resolution rate of over 93% across 4,500+ cities (Janaagraha, 2024).",
+        "The e-Municipality Project, part of the National e-Governance Plan, focuses on digitising core urban local body services such as property tax, water billing, trade licences, and grievance redressal. By allowing online service delivery, status tracking, and structured workflows, it reduces physical interaction, minimizes corruption, and improves service transparency (BANotes, 2024).",
+        "The MyGov Portal, which was launched in July 2014 and is overseen by the National Informatics Centre, serves as a primary platform for citizen engagement and consultation. Research conducted by Banerjee (2021) characterizes MyGov as an example of open innovation—where ministries and citizens collaboratively develop policy inputs, thus enhancing the participatory and transparent nature of governance processes. Singh and Kaushik (2020) emphasize how MyGov has institutionalized direct contributions from citizens and centralized public discourse among governmental departments. Nevertheless, empirical evaluations (The Hindu Centre, 2021) reveal a limited engagement in essential policy drafts: only approximately 8% of the discussions hosted were related to pre-legislative drafts, and only 11 out of 60 ministries were involved, indicating a tendency towards selective transparency (The Hindu Centre, 2021)."
+      ]
+    }, {
+      heading: "European Cases",
+      paragraphs: [
+       "The City of Amsterdam is leading the digital initiatives in Europe by incorporating ICT into, not only the government, but also towards the civil sector (Digital Cities: Amsterdam’s Ecosystem of Cooperation, n.d.; Netherlands - Digital Economy, 2024). This reflects the continuous progress of successfully strengthening the State-Citizen relationship as it incorporates research institutions as well, and collectively addresses various issues. It has been stated that Amsterdam collaborated with multinational ICT companies resolving conflicts and secrecy to cooperation and transparency which too revealed accountability (Digital Cities: Amsterdam’s Ecosystem of Cooperation, n.d.). According to the city’s second Digital Agenda 2023/2026, the core principles of believing in “A Digital City that is human, reliable and future proof”. Furthermore, another ongoing initiative that is recognised as Amsterdam InChange, used to be known as Amsterdam Smart City that was birthed in 2017 (ITA, 2025), prioritises the residences' and users’ of these cities interests and engagement through the tools, data and technology (ASC, 2025). As indicated in the methodology, the government’s ability to sustain consistency with thorough organisation, will have a greater chance to transform into a digital state and secure transparency through technological advancements. Consequently, this initiative has created a trust mechanism resulting in a cohesive environment in which citizens’ participation is the foundation platform where exchanging valuable and knowledgeable information with one another, to improve the city, takes place.",
+       "Similarly in Finland’s Helsinki, reputable for the self-organised communities, integrates ICTs to generate quality rich “community activities and environment” (Horelli, Saad-Sulonen, Wallin and Botero, 2013) through various initiatives. Thus, Finland’s e-planning has intersected “urban planning and community development” (Horelli, Saad-Sulonen, Wallin and Botero, 2013) through the Learning-based framework, which enhance further the participation and flow of the state-citizen relationship regarding the daily life within the city. Continuously, Finland has invested the most in quantum computing research in comparison to other European countries to sustain the pace of technological developments around the world and within its country (ITA, 2025).",
+       "Estonia's capital city of Tallinn is regarded as one of the world's best examples of digital administration. Tallinn has improved accountability and openness by implementing digital technologies at every level of urban service delivery as part of the e-Estonia initiative. X-Road, a secure data exchange network that links more than 900 public and commercial bodies and allows for real-time information sharing while protecting data privacy, is an essential part of this infrastructure (e-Estonia Briefing Centre, 2023). This innovation lowers the possibility of corruption and minimizes bureaucracy. Furthermore, blockchain technology has been integrated into public procurement procedures, allowing contracts and financial records to be securely stored with time stamps. This improves auditability for oversight and civil society organizations (Tatar & Kalvet, 2021). Despite being a national program, e-Residency has a big urban influence on Tallinn since it makes it possible for non-residents to communicate with local authorities, create enterprises, and obtain legal services—all of which promote transnational transparency (Digital Nations Report, 2024). In keeping with EU digital goals, the city also runs a comprehensive Open Data Portal that provides access to municipal data on zoning, transportation, and budgets. This makes it possible for people, NGOs, and journalists to hold local government officials responsible (City of Tallinn, 2024). In accordance with EU anti-corruption and inclusion directives, Tallinn stresses digital inclusion by providing ICT training for elderly persons and rural immigrants, even in the face of widespread e-service penetration (Estonia Digital Strategy, 2023). These initiatives offer as an example of a governance approach in which technology enhances democratic engagement by enabling citizens to actively observe the government rather than being passively watched. Tallinn thus exemplifies how smart urban systems can foster both efficiency and civic empowerment."
+      ]
+    },
+    {
+      heading: "Interpretation and Analysis",
+      paragraphs: [
+        "The digital governance initiatives in India and Europe, while sharing a lexicon of transparency and participation, are fundamentally expressions of two different state-citizen relationships, shaped by divergent historical contexts and contemporary challenges. A comparative analysis reveals that these are not merely different tools for similar problems, but different solutions for entirely different problems altogether. Where Indian digital governance is a story of a post-colonial state using technology to establish order and transactional trust across a vast, developing nation, the European model is one of mature democracies leveraging technology to deepen an existing, though sometimes strained, social contract.",
+        "This core difference is most evident in the foundational purpose of their flagship initiatives. India’s Public Finance Management System was born of necessity—a direct, top-down assault on the systemic corruption and financial leakages that have plagued its welfare state. It is a tool of control, designed to impose accountability where it was historically absent. In stark contrast, Amsterdam’s 'Right to Challenge' initiative emerges not from a crisis of corruption, but from a crisis of alienation, addressing a perceived gap between a functioning state and the needs of its citizens. The Indian system thus uses technology to build trust from a low baseline by proving its ability to deliver services honestly, while the Dutch system uses technology to sustain trust by devolving power and agency to a citizenry that already expects to be heard. One is an instrument of administrative necessity; the other is an evolution of democratic principle.",
+        "This distinction permeates the nature of citizen participation. Where India’s Swachhata App provides a structured, top-down channel for citizens to report sanitation failures to a central authority, Helsinki's open budgeting platforms or Amsterdam's co-creation projects invite citizens to define the problem and allocate resources themselves. The Indian citizen is positioned as a monitor or a service recipient providing feedback to the state, a model evident even in the MyGov portal, where engagement often stops short of influencing core policy. Conversely, the European citizen is framed as a partner with the state. This reveals a different understanding of the citizen's role: in India, technology helps them hold a powerful state to account for its duties, whereas in Europe, it facilitates their active participation in the state’s decision-making processes, a reflection of a long-standing tradition of subsidiarity and local autonomy.",
+        "The very architecture of digital systems reflects this philosophical divide. India's Integrated Command and Control Centres are centralized hubs of data aggregation and surveillance, designed to give the state a comprehensive view for managing urban chaos and ensuring security. They are instruments of management and control. This differs fundamentally from the logic of Tallinn’s X-Road infrastructure. While also a central system, X-Road is designed as a secure, decentralized enabler of interaction, not just for the state to see, but for all actors—citizens, ministries, and businesses—to exchange data transparently and securely. The ICCC is an architecture for top-down oversight, born from the need to manage complexity, while X-Road is an architecture for ecosystem-wide trust, born from a societal consensus on digital rights and transparency.",
+        "Finally, this comparative lens reveals different approaches to the inherent risks of digitalization. In India, the 'transparency paradox' of providing information without ceding influence is a major challenge, and the deployment of advanced technology constantly battles the risk of deepening the digital divide. The solution to digital exclusion is often seen as a secondary challenge to the primary goal of technological implementation. This contrasts sharply with Tallinn’s proactive strategy of integrating ICT training for all demographic groups. For Estonia, digital inclusion is not an afterthought but a prerequisite for the legitimacy of its digital state. It represents a mature understanding that digital governance cannot succeed if it is not equitable, a principle that carries a far greater weight and complexity in India's vastly more diverse and unequal socio-economic landscape."
+      ]
+    },
+    {
+      heading: "Policy and Practice Recommendations",
+      paragraphs: [
+        "We think that the following suggestions, which are based on a comparison of digital governance in India and Europe, provide a way for both parties to learn from one another and create urban governance models that are more open, inclusive, and successful.",
+        "First and foremost, we believe that a more participatory model of digital governance should replace India's current top-down, control-oriented approach. Policymakers can create trust that goes beyond service delivery by adopting components of European frameworks, like Amsterdam's co-creation initiatives. As a result, the relationship between the state and its citizens shifts from one of administration to one of partnership, encouraging a greater feeling of citizen ownership and active participation in governance.",
+        "However, if a digital governance system engages in social exclusion, it will not be effective. Thus, secondly, in order to bridge the gap between digitally advanced metropolitan centers and other areas, India must promote digital literacy, particularly in rural and vulnerable groups, if it hopes to make this new collaboration inclusive. One important lesson from Estonia's proactive inclusion strategy is that accessible tactics and customized training programs are essential to any deployment of digital governance, guaranteeing that no person is left behind.",
+        "Thirdly, it is our deep conviction that India must abandon a paradigm in which power is still centralized and information is only accessible if it is to genuinely establish confidence through transparency. The creation of platforms that give people actual control over policy is the next stage. Passive information portals are unable to create the deep level of institutional confidence that may be fostered by allowing residents to directly engage in important procedures, such as municipal budgeting decisions, as demonstrated in Helsinki. Because of this, transparency is no longer a one-way message but rather an active, two-way roadway.",
+        "The risks of data misuse and spying inevitably rise with the depth and decentralization of digitalization. Fourth, in order to protect its population, India must establish strong institutional and legal protections. Taking inspiration from Europe's General Data Protection Regulation and the ethical design principles incorporated into Tallinn's digital infrastructure, this entails creating comprehensive legal frameworks that explicitly enshrine digital rights, data privacy, and algorithmic accountability.",
+        "Fifth, we insist that platforms like MyGov need to be updated. This will help make citizen feedback transparent and useful. People need to see that their opinions influence policy. Then trust in the system will grow. It is important that citizen participation is not limited to surveys. It is necessary to show how digital feedback is used in real decisions. This will help reduce the gap between consultation and action..",
+        "Ultimately, it is important to develop a culture of digital citizenship. This is the foundation for sustainable change that goes beyond technology and politics. To create literate and engaged citizens, India must invest in education. This should focus on digital rights, responsibilities, and participation. Other steps are needed to reach people of all income and educational levels. We think that these could include countrywide awareness campaigns, best done in local languages and with the participation of the communities themselves. Such programs should clearly explain rights, such as freedom of speech and data protection. But it is also important to talk about responsibilities, such as the need to participate in online discussions."
+      ]
+    },
+    
+  ],
+  Conclusion: [
+    "As a result, this comparison of digital governance in Europe and India shows two different trajectories influenced by different historical and sociopolitical settings. Although both areas use technology to increase openness and public confidence, their primary driving forces are very different. Specifically, the majority of India's digital initiatives are a top-down reaction to structural issues like inefficiency in service delivery and corruption. They serve as instruments of control to impose responsibility. European models, on the other hand, like those in Tallinn and Amsterdam, come from a history of democratic cooperation. The goal of these programs is to increase public participation in the actual decision-making process. This is a significant distinction. One system distributes power to maintain confidence, while the other aims to establish trust by showcasing skill.",
+    "We think that in order for India to advance, it needs to change its digital governance model from one that is control-oriented to one that is more participative. This calls for a multifaceted approach. In order to close the existing divide between urban elites and underprivileged communities, it is also imperative to invest in universal digital literacy. Furthermore, in order to safeguard data privacy and defend digital rights, strong legal frameworks that are modeled after laws like the GDPR must be developed.",
+    "Thus, by embracing a more inclusive and decentralized approach, India can foster a culture of digital citizenship, transforming its governance landscape into a truly collaborative and transparent ecosystem."
+  ],
+  references: [
+    {
+      heading: 'Banerjee, S. (2021). Open Innovation for Better Governance: A Case Study of MyGov Platform of Government of India. Academy of Marketing Studies Journal, 25(2).Bannister, F., & Connolly, R. (2021). Trust and digital government. Information Polity, 26(1), 51–64.BANotes. (n.d.). Urban development e‑Governance Mission Mode Projects. Retrieved from',
+      "links": "https://banotes.org/e-governance/urban-development-e-governance-mission-mode-projects"
+    },
+    {
+      heading: "Bertot, J. C., Jaeger, P. T., & Grimes, J. M. (2010). Using ICTs to create a culture of transparency: E-government and social media as openness and anti-corruption tools for societies. Government Information Quarterly, 27(3), 264-271. ",
+      links: "https://www.sciencedirect.com/science/article/pii/S0740624X10000201"
+    },
+    {
+      heading: "Azim Premji Foundation. (2021). Myths of online education.",
+      links: "https://azimpremjifoundation.org/sites/default/files/myths-of-online-education.pdf"
+    },
+    {
+      heading: "Bertsou, E. (2019). Rethinking political distrust. European Political Science Review, 11(2), 213–230.",
+      links: "https://doi.org/10.1017/S1755773919000080"
+    },
+    {
+      heading: "Bose, D., & Dey, T. (2022). Digital platforms and municipal transparency in India. Urban Governance Journal, 7(3), 144–159.Business Standard. (2024, April). India’s grievance redressal system ranked among top in Commonwealth.",
+      links: "https://www.business-standard.com"
+    },
+    {
+      heading: "Chakraborty, S., & Pandey, A. (2020). E-Governance and public service delivery in India. Public Administration Review, 80(4), 610–624.City, A. S. (n.d.). About us. Amsterdam Smart City",
+      links: " https://amsterdamsmartcity.com/about"
+    },
+    {
+      heading: "City of Tallinn. (2024). Tallinn Open Data Portal. https://opendata.tallinn.ee David-Barrett, L., & Okamura, K. (2013). The Transparency Paradox: Why do Corrupt Countries Join EITI? (Working Paper No. 38). European Research Centre for Anti-Corruption and State-Building.",
+      links: "https://eiti.org/sites/default/files/attachments/The-Transparency-Paradox.-Why-do-Corrupt-Countries-Join-EITI1.pdf"
+    },
+    {
+      heading: "Digital cities: Amsterdam’s ecosystem of cooperation. (2021). Urbact.eu.",
+      links: "https://urbact.eu/articles/digital-cities-amsterdams-ecosystem-cooperation"
+    },
+    {
+      heading: "Digital Nations Report. (2024). e-Residency and the Estonian Model. https://www.digitalnations.gov.ee Economic Times. (2020, March 28). 45 Smart City control rooms converted into COVID-19 war rooms: Ministry of Housing and Urban Affairs.",
+      links: "https://economictimes.indiatimes.com/news/india/45-smart-city-control-rooms-converted-into-covid-19-war-rooms-ministry-of-housing-and-urban-affairs/articleshow/74866020.cms"
+    },
+    {
+      heading: "e-Estonia Briefing Centre. (2023). How Estonia Became the Most Digitally Advanced Country. https://e-estonia.com Estonia Digital Strategy. (2023). Digital Skills for All. Ministry of Economic Affairs and Communications. https://mkm.ee/en/digital-strategy Harkness, A. J., & Katz, B. (2016). Why urban governance matters—now more than ever. Brookings Institution. ",
+      links: "https://www.brookings.edu/articles/why-urban-governance-matters-now-more-than-ever/"
+    },
+    {
+      heading: "Hindustan Times. (2025, May). After Smart City funding ends, cities look for ways to sustain ICCCs",
+      links: " https://www.hindustantimes.com"
+    },
+    {
+      heading: "Horelli, Saad-Sulonen, Wallin and Botero. (2013). When self-organization and urban governance intersect: Two cases from Helsinki. Indian Express. (2022, February 28). Explained: How Integrated Command and Control Centres work.",
+      links: "https://indianexpress.com/article/explained/iccc-smart-cities-mission-explained-7816433/"
+    },
+    {
+      heading: "International Monetary Fund. (2024). Digital Public Infrastructure in India: Lessons from the PFMS (IMF Working Paper No. 24/86). ",
+      links: "https://www.imf.org"
+    },
+    {
+      heading: "International Trade Administration. (2024, September 19). Finland - Digital Economy. International Trade Administration. Accessed from: Trade.gov. ",
+      links: "https://www.trade.gov/country-commercial-guides/finland-digital-economy"
+    },
+    {
+      heading: "Kumar, R. (2023). Digital divides and governance in urban India. Journal of Urban Affairs, 45(2), 213–230.Linders, D., van der Meer, T., & Rutgers, M. R. (2023). Civic tech and trust in European cities. Local Government Studies, 49(1), 1–23.Lindgren, I., Madsen, C. Ø., Hofmann, S., & Melin, U. (2019). Digital government transformation in the EU. Government Information Quarterly, 36(4), 101-410.Margetts, H., & Dorobantu, C. (2019). Rethink government with AI and digital technologies.Nature Human Behaviour, 3(5), 346–349.",
+      links: "https://doi.org/10.1038/s41562-019-0565-2 "
+    },
+    {
+      heading: "Meijer, A., & Grimmelikhuijsen, S. (2021). Transparency in digital urban governance. Government Information Quarterly, 38(3), 101-599.Ministry of Economic Affairs and Communications of Estonia. (2022, May 23). Estonia is leading the world in the use of data. e-Estonia. ",
+      links: "https://e-estonia.com/estonia-is-leading-the-world-in-the-use-of-data/"
+    },
+    {
+      heading: "Mupandanyama, T. (2023). Corruption in urban councils and its impact on service delivery. Journal of Ethics, Governance & Political Science. ",
+      links: "https://www.researchgate.net/publication/372680584_Corruption_in_Urban_Councils_and_its_Impact_on_Service_Delivery_Tapiwa_Mupandanyama"
+    },
+    {
+      heading: "Nandy, A., & Kumar, A. (2025). Engage citizens to smarten city governance. Smart Cities and Regional Development Journal, 9(2), 29-42.National Center for Biotechnology Information. (2022). Smart Cities and COVID-19: Repurposing India's urban infrastructure. ",
+      links: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9245932/"
+    },
+    {
+      heading: "OECD. (2020). The use of digital technologies for public engagement in policymaking. OECD Publishing.",
+      links: "https://www.oecd.org/gov/the-use-of-digital-technologies-for-public-engagement-in-policymaking-b8f32a7d-en.htm"
+    },
+    {
+      heading: "Panda, A. K., & Kumar, A. (2025). E-governance in India and Its Role in Modern Governance: A Conceptual Overview. International Journal for Research Trends and Innovation, 10(3), a708-a715.Panda, A. K., & Kumar, A. (2025). E-governance in India and Its Role in Modern Governance: A Conceptual Overview. International Journal for Research Trends and Innovation, 10(3), a708-a715. ",
+      links: "https://www.ijrti.org/papers/IJRTI2503087.pdf"
+    },
+    {
+      heading: "Pickup, F. (2024). Urban governance vital for cities to prosper. United Nations Development Programme. ",
+      links: " https://www.undp.org/blog/urban-governance-vital-cities-prosper "
+    },
+    {
+      heading: "Sharma, A., & Bawa, A. (2021). MyGov and urban civic engagement in India. Journal of Development Policy, 18(2), 89–104.Singh, A., & Kaushik, A. (2020). Platform for Citizen Engagement for Good Governance in India: A Case Study of MyGov.in. In Civic Engagement Frameworks and Strategic Leadership Practices for Organization Development. IGI Global.Tatar, M., & Kalvet, T. (2021). Blockchain for Public Services: The Case of Tallinn. Government Information Quarterly, 38(2). https://doi.org/10.1016/j.giq.2021.101566 Tatar, M., & Kalvet, T. (2021). Blockchain in Estonian public governance. Government Information Quarterly, 38(4), 101-607. The Hindu Centre. (2021). How Participatory is My Government? A Closer Look at MyGov.in. Retrieved from ",
+      links: " https://www.thehinducentre.com/article9411455.ece "
+    },
+    {
+      heading: "Times of India. (2025a, June). Most grievances of differently abled resolved. ",
+      links: "https://timesofindia.indiatimes.com/city/lucknow/most-grievances-of-differently-abled-resolved/articleshow/121541626.cms "
+    },
+    {
+      heading: "Transparency International. (n.d.). Transparency International joins global campaign for participatory urban governance. ",
+      links: "https://www.transparency.org/en/press/transparency-international-joins-global-campaign-for-participatory-urban-go "
+    },
+    {
+      heading: "Tummers, L., Bekkers, V., & Steijn, B. (2022). Institutional trust and digital reforms. Public Management Review, 24(6), 819–839. UN-Habitat, CAF, Edinburgh Napier University, & Tallinn University of Technology. (2022). Global review of smart city governance practices. UN-Habitat. UN-Habitat. (2020). World cities report 2020: The value of sustainable urbanization. United Nations Human Settlements Programme. ",
+      links: "https://unhabitat.org/sites/default/files/2020/10/wcr_2020_report.pdf"
+    },
+    {
+      heading: "United Nations. (2015). Transforming our world: The 2030 agenda for sustainable development.",
+      links: "https://sdgs.un.org/goals/goal16"
+    },
+    {
+      heading: "United Nations Department of Economic and Social Affairs. (n.d.). Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable. United Nations. Retrieved July 14, 2025, from",
+      links: " https://sdgs.un.org/goals/goal11 "
+    },
+    {
+      heading: "Valtioneuvoston kanslia. (n.d.). Finland, a pioneer in digitalisation and new technologies. Prime Minister's Office. Retrieved July 12, 2024, from",
+      links: "https://vnk.fi/en/finland-a-pioneer-in-digitalisation-and-new-technologies"
+    },
+    {
+      heading: "World Bank. (2021, April 28). Enhancing government effectiveness and transparency: The fight against corruption.",
+      links: "https://www.worldbank.org/en/news/feature/2021/04/28/enhancing-government-effectiveness-and-transparency-the-fight-against-corruption"
+    }
+    
+  ]
+  
+},{
+  id: 4,
+  serialNumber: 42,
+  issue: 4,
+  volume: 1,
+  title: "Analysing the Scope of Feminist Foreign Policy in India: Challenges and Prospects",
+  author: "Apratim Rashmi, Urukirti, Bhavyaa Sharma, Prarthana",
+  authorAbbrev: "Deeksha; Saha, A.; Agrawal, P.; Dhar, N.; Vardani, A.",
+  abstract: [
+    "This paper investigates the ideological foundations and real-world applications of Feminist Foreign Policy (FFP), which is increasingly embraced as a multidimensional tool for promoting gender justice in global relations. Emerging as both a theoretical and policy-oriented framework, FFP challenges traditional notions of diplomacy that often prioritize military alliances and economic interests over human rights and inclusion. Guided by the “3Rs” model – Rights, Representation, and Resources (Swedish Government, 2018; Oxford Research Encyclopedia, 2019), laying a blueprint for integrating gender into diplomacy, defense, trade and development (Aggestam & True, 2020). The model emphasizes equitable participation of women and marginalized communities in foreign policymaking, thereby attempting to shift the focus from state-centric to people-centric governance. The study interrogates the extent to which this policy paradigm addresses root causes of inequality and violence, while also criticising its susceptibility to instrumentalization by states with conflicting domestic or geopolitical agendas (Thompson & Clement, 2019; SWP Berlin, 2021). While some governments have made substantial investments in multilateralism and inclusive diplomacy, the gap between normative ambition and material policy outcomes remains evident. In many cases, feminist rhetoric coexists with militarized borders or regressive social policies at home, raising questions about coherence and accountability. Recognizing the gap between ambition and delivery, it proposes that the next generation of feminist policy must adopt feminist-informed foresight, integrating long-term, participatory, and decolonial approaches (Jöster-Morisse, 2025). This anticipatory method allows for imagining alternative futures shaped by care ethics, intersectionality, and sustained peacebuilding. By focusing on inclusivity, transparency, and structural transformation, FFP has the potential to not only redefine diplomatic priorities but also foster more equitable global systems rooted in justice rather than power."
+  ],
+  keyword: [
+    "Feminist Foreign Policy",
+    "Gender Justice",
+    "3Rs Framework",
+    "Feminist-Informed Foresight",
+    "Intersectionality",
+    
+  ],
+  status: "",
+  "intro": [
+    "Feminist foreign policy refers to a political structure that prefers gender equality and women's rights in the creation and execution of a country's foreign relationships, diplomacy, trade, defense and development policy.",
+    "This policy framework traces its origin way back in Sweden (2014) under Foreign Minister Margot Wallström (Margot Wallström, 2014) who pioneered the formal adoption of a policy based on Rights of women and girls, Representation in decision-making and Resources for gender equality.  It was inherent in liberal feminism, intersections and post -colonial feminist theory that criticizes male-oriented international relationships.",
+    "Many countries have groundbreaking feminist foreign policy (FFP), which integrates equity into international relationships.  After Sweden, Canada on LGBTQ+ rights and inclusive development in 2017 with Feminist International Assistance Policy (FIAP). France adopted FFP in 2019, and focused gender equality in diplomacy with a Francophone focus. Mexico Use of FFP in 2020, highlighting multilateralism and gender budget, became the first global South Nation. In 2023, Germany launched its policy, in which women's roles were combined with climate diplomacy in peace and security. Each country brings different preferences of regional and political reference size. (Toni Haastrup & Laura Shepherd, 2022).",
+    "However, India has not formally adopted a feminist foreign policy (FFP), but elements of gender inclusion exist within its international business. Gender is mainly evaluated in areas such as development aid, peace (Permanent Mission of India to the UN, 2007) and selective women's centric diplomacy. The initiative of India's soft diplomacy, such as International Solar Alliance and Yoga diplomacy, promotes inclusive leadership, but lacks a clear feminist structure."
 
+  ],
+  content: [
+    {
+      "heading": "Core Pillars",
+      "paragraphs": [
+      "The most important pillars of the feminist foreign policy (FFP) are usually about three main principles: rights, representation and resources. In 2014, introduced by Sweden, this '3R' structure emphasizes the protection of women's rights, ensures the allocation of resources to equal participation of women in decision -making processes and resources against equality. Many FFPs also include intersectionality, and admit how overlapping identity (e.g. race, class, sexuality) forms women's experiences. These columns are designed to address structural inequalities in the global rule, peace and development. (Toni Haastrup & Laura Shepherd, 2022).",
+
+      ]
+    },
+    {
+      heading: "Challenges In The Application Of The Policy ",
+      paragraphs: [
+       "The core for implementation of a feminist foreign policy in Indian requires structural and institutional changes. It entails analysing the current social and political milieu and providing recommendations for the Indian context. (Tapakshi Magan, 2022).",
+       '1.     Limited Representation In Diplomacy And Policy Making: The women MPs constitute only 14% in the 18th Lok Sabha currently. (PRS Legislative Research, 2024). While women in Indian Foreign Service (IFS) comprise only 37.8% as of 2022, with minimal to no representation in top posts. (Kaul, 2023). This restricts the representation of affected women being part of decision-making and negotiation processes.',
+       "2.     Patriarchal Institutional Cultures: The deep-rooted patriarchy hinders the inclusion of women in effective decision making. The success of FFP significantly depends upon the deconstruction of established dominant power structures, inclusion of marginalised communities and diversity of opinions. (Kiran, 2023).",
+        "3.  Focus On Traditional Form Of Security: The policies and promises at national and international levels towards gender sensitivity remain superficial without any actual implementation because of a focus on national sovereignty and conventional forms of security. The proponents of this argument believe it is done to prevent international interference in the internal affairs of a country in order to protect women’s rights, as happened in Afghanistan. (Irene M. Santiago, 2023). ",
+        "4.   Lack Of National Action Plan For India: India has not yet ratified UNSCR 1325 resolution, which is a significant step towards incorporating gender inclusivity concerns in peace and security governance. (Natasha, 2023). This resolution provides for mandatory implementation of National Action Plan. This plan shows a country's dedication to integrating gender into peace and security concerns. Likewise, despite having ratified the Convention on the Elimination of Discrimination Against Women (CEDAW) in 1993, India has yet to ratify the Optional Protocol, which permits individuals to directly contact the CEDAW committee in the event that the national systems do not adhere to the agreement's tenets. (Chopra, 2022). This means there is a lack of structured framework and clear strategy for implementation of Women, Peace, and Security (WPS) agenda in India.  ",      
+      ]
+    },
+    {
+      heading: "Approach to Conflict and Peace Building",
+      paragraphs: [
+      "Feminist foreign policy offers an innovative alternative to traditional ideas about conflict and peace. Rather than focusing solely on military power or state security, it emphasizes human security, aiming to ensure the safety of individuals—especially women—who are often most vulnerable due to systemic exposure to violence, poverty, and oppression. This approach defines peace not merely as the absence of war but as the presence of justice and equality in which human rights are fully upheld (Thompson, 2021).",
+      "Inclusivity in Peace Processes",
+      "Inclusivity is a key pillar of feminist foreign policy. According to this approach, sustainable peace cannot be achieved without the full and active participation of women at every stage of the peace process, including conflict resolution, negotiation, and post-war reconstruction. Research has shown that when women are involved in peacebuilding, the outcomes tend to be more stable and enduring (O'Reilly, O'Sullivan, & Puffenholz, 2015). Women often emphasise education, healthcare, and justice—critical components of long-term peace (Agstam & Tro, 2020). Their contributions help shape peace agreements that serve the broader needs of communities, rather than the interests of elite groups.",
+      "Rejecting Violence in Diplomacy",
+      "Another core element of feminist foreign policy is its rejection of violence as a tool of diplomacy. Instead of investing heavily in military defence, this policy promotes peaceful strategies such as dialogue, education, and international development. Sweden’s feminist foreign policy, for instance, focuses on reducing global inequality and advancing women’s rights through international cooperation and support (Swedish Government Offices, 2019). By addressing the structural roots of conflict, such as poverty and gender-based discrimination, this approach works to prevent violence before it erupts.",
+      "A Broader Vision of Peace",
+      "Ultimately, feminist foreign policy redefines peace not simply as the end of armed conflict, but as an active commitment to justice, equality, and the dignity of all people (Enloe, 2014). This reimagining of foreign policy reflects a more inclusive, equitable, and human-centred framework for achieving lasting peace."
+      ]
+    },
+    {
+      heading: "Case Study",
+      paragraphs: [
+        "Sweden",
+        "Sweden pioneered Feminist Foreign Policy (FFP) by being one of the first countries to take such initiative in 2014. The policy aims at systematic integration of gender perspective in their foreign policy agenda. (Nylund, Sandra & Elin, 2022). Further, the government also declared itself a feminist government in 2014. The Swedish foreign ministry embedded the FFP across all its departments, and established internal structures like gender focal points in each department to support the rollout of the FFP in a successful way. (Ekatherina, 2021). Sweden also propagated its feminist ideas through online platforms like Twitter and communications through its websites like #feminstforeignpolicy, which became a key hashtag. The strategic use of such digital diplomacy helped shape the domestic policy and create a global discourse on the underrepresentation of women’s biographies. (Annika Bergman & Elsa, 2022). This policy created an institutional shift in Sweden’s foreign policy. The increased participation in proliferation of peace and conflict prevention through the Security Council and promotion of gender equality across EU trade agreements were among the significant steps taken by the Swedish government in furtherance of this policy. (OECD, 2021). These steps resulted in an increase in the participation of women in dialogues and discourses on peace and security in the Security Council and European Council. (OECD, 2021). Swedish feminist policy is an important example of how government policy intervention can help in the promotion of feminist ideals in foreign policy and create a global impact. Although Sweden formally revoked its feminist foreign policy in 2022, it continues to uphold its commitments under the Women, Peace, and Security agenda. The adoption of the 2024–2028 National Action Plan reflects Sweden’s ongoing role as a signatory to UN Security Council Resolution 1325, signaling its sustained engagement in gender-responsive peacebuilding and diplomacy (PeaceWomen, 2025).",
+        "Limitations of the Policy",
+        "While the policy vision is to be transformative, the approach faces a range of practical, structural and conceptual limitations. It becomes difficult to define feminist foreign policy at a global level, which results in conceptual ambiguity and inconsistent application. Most countries widely adopt the '3 Rs' of the policy. ",
+        "The discrepancy between rhetoric and practice is a major critique. Countries may employ feminist branding in their foreign policy while still supporting authoritarian governments, exporting weapons, or enforcing restrictive immigration laws that run counter to the fundamental tenets of FFP. Gender commitments are frequently superseded by state interests, placing feminist agendas beneath strategic, financial, or security objectives. As a result, foreign policy becomes business as usual, with gender equality taking a backseat. (Salazar, 2022)",
+        "In an effort to address the underlying causes of violence and give priority to peacebuilding, feminist foreign policy frequently encourages demilitarisation and conflict prevention. They are constrained, nevertheless, in war scenarios where military action or strict security measures would be necessary. The realities of war, massacres, and hard power politics may be too much for the gender-sensitive viewpoint to handle, which begs the question of how well FFP holds up in practical situations and the necessity of crisis management. (Assad & Tausendfreund, 2022)",
+        "Feminist foreign policy offers a valuable framework for advancing gender equality and upending conventional wisdom in international relations. Still, it has significant drawbacks in terms of definition, application, intersectionality, and opposition from dominant state interests and global politics. More clarity, sincere dedication, strong accountability, and an inclusive, intersectional strategy that closes the gap between ambition and reality are all necessary to address these constraints. "
+      ]
+    }
+  ],
+  conclusion: [
+   "Feminist foreign policy has revolutionised state approaches to diplomacy, development, security, and humanitarian aid by integrating a gender perspective. France's strategy (2025-2030) exemplifies this shift with concrete initiatives: defending sexual and reproductive rights, supporting feminist organisations, addressing gender-based violence, promoting girls' education, enhancing women’s economic independence, and fostering their participation in public decision-making. These priorities now influence diplomatic missions, foreign aid distribution, and humanitarian efforts. (France's International Strategy for Feminist Diplomacy (...), 2025)",
+    "Future Feminist Foreign Policy Integration",
+    "As explored in Clara Jöster-Morisse's paper on feminist-informed foresight, thinking about the future of FFP requires policy tools and an imaginative, anticipatory lens that challenges current paradigms. Feminist foresight involves integrating long-range thinking with feminist ethics—such as care, cooperation, and justice—into statecraft. This opens up space for re-imagining diplomatic priorities beyond crisis response and national interest, centring instead on the lived realities of marginalised communities around the globe. Jöster-Morisse argues that future FFPs must not just aim to mainstream gender but reframe the intent and operation of foreign policy itself. (Jöster-Morisse, 2025)",
+    'At the same time, critiques of FFP, such as those presented in the International Studies Review article on governance feminism, urge a closer look at whether FFP risks becoming another form of soft power or symbolic governance. By embedding feminist language into state policy without challenging the inherent contradictions of military spending, border regimes, or selective humanitarianism, states may promote a superficial version of feminism. This perspective calls for a more radical and accountable version of FFP that champions rights abroad and interrogates colonial legacies and domestic inequalities within FFP-promoting states. (Bell & Wegner, 2025) Research from UN Women and the Heinrich Böll Foundation further adds a participatory and practitioner-oriented dimension. The importance of engaging feminist civil society actors, particularly from the Global South, is crucial to the legitimacy and sustainability of FFP. These organisations often bring grounded, context-specific knowledge that challenges top-down, donor-driven approaches to gender equality. Future policies must not only reflect feminist values in rhetoric but also allocate resources and institutional power toward grassroots leadership, inclusive policy design, and robust accountability mechanisms. (Janebová, 2025)',
+    "By incorporating participatory processes, FFP has also driven institutional change within ministries and agencies. Civil society, including feminist groups, the private sector, research organisations, and international bodies, actively contributes to policy development and implementation. This inclusive approach ensures that underrepresented voices, particularly from the Global South and marginalised communities, shape policy discussions, focusing on intersectionality, the care economy, and anti-racism efforts. "
+  ],
+  references: [
+    {
+      heading: "Aggestam, K., & True, J. (2020). Gendering foreign policy: A comparative framework for feminist international relations. International Studies Review, 27(1). ",
+      "links": "https://academic.oup.com/isr/article/27/1/viaf007/8109153"
+    },
+    {
+      heading: "Annika Bergman Rosamond, & Elsa Hedling (2022). Feminist foreign policy as a political idea: Towards a relational conceptualisation of agency in diplomacy. European Journal of Politics and Gender, 5(3), 303–321.",
+      links: "https://bristoluniversitypressdigital.com/view/journals/ejpg/5/3/article-p303.xml"
+    },
+    {
+      heading: "Assad, C., & Tausendfreund, R. H. (2022, March 18). A Feminist Foreign Policy for Germany Is Not Enough. Internationale Politik Quaterly.",
+      links: "https://ip-quarterly.com/en/feminist-foreign-policy-germany-not-enough"
+    },
+    {
+      heading: "Bell, C., & Wegner, N. (2025, March). Feminist Foreign Policy as a Case of Governance Feminism: Neoliberalism, Militarism, and Women as “Agents of Change”. International Studies Review, 27(1).",
+      links: "https://academic.oup.com/isr/article/27/1/viaf007/8109153?login=false"
+    },
+    {
+      heading: "Chopra, R. (2022, September 9). Work in progress: India’s march towards a feminist foreign policy. Observer Research Foundation",
+      links: " https://www.orfonline.org/expert-speak/a-closer-look-into-feminist-foreign-policy-in-india"
+    },
+    {
+      heading: "Ekatherina Zhukova, (2021). Postcolonial logic and silences in strategic narratives: Sweden’s feminist foreign policy in conflict-affected states. Review of International Studies.",
+      links: "https://doi.org/10.1017/S0260210521000518"
+    },
+    {
+      heading: "France's international strategy for feminist diplomacy (...). (2025, March 11). La France à Chypre. Retrieved July, 2025, from",
+      links: "https://cy.ambafrance.org/France-s-international-strategy-for-feminist-diplomacy-2025-2030"
+    },
+    {
+      heading: "Irene M. Santiago, IMPRI. (2023, March 4). Redefining sovereignty and building a just world: Lessons for feminist foreign policy in the Asia-Pacific region. ",
+      links: "https://www.impriindia.com/insights/feminist-foreign-policy-speech/"
+    },
+    {
+      heading: "Janebová, P. (2025, April 16). Can Feminism Shape Foreign Policy? Challenges and Insights from Central Europe. Heinrich Böll Stiftung. Retrieved July, 2025, from ",
+      links: "https://cz.boell.org/en/2025/04/15/konference-feministicke-pristupy-k-zahranicni-politice-ve-stredni-evrope-vyzvy-postrehy."
+    },
+    {
+      heading: "Jöster-Morisse, C. (2025). Applying feminist-informed foresight to feminist foreign policy: A reflection on potentials and challenges. Journal of Futures Studies. ",
+      links: "https://jfsdigital.org/2025-2/vol-29-no-3-march-2025/applying-feminist-informed-foresight-to-feminist-foreign-policy-a-reflection-on-potentials-and-challenges."
+    },
+    {
+      heading: "Kaul, A. (2023, November 17). Women IFS recruits up by 6.6% from 2014–2022, but top posts largely out of reach. The Indian Express. ",
+      links: "https://indianexpress.com/article/india/women-ifs-recruits-up-by-6-6-per-cent-from-2014-2022-but-top-posts-largely-out-of-reach-8563649/."
+    },
+    {
+      heading: "Kiran, India Way Magazine. (2023, August 10). Feminist Foreign Policy: Diplomacy through a gendered lens. Feminist Foreign Policy: Diplomacy through a gendered lens - The India Way Magazine",
+      links: "https://indiawaymagazine.in/feminist-foreign-policy-diplomacy-through-a-gendered-lens/"
+    },
+    {
+      heading: "Margot Wallström, Sweden's Feminist Foreign Policy, Swedish Ministry for Foreign Affairs (2014)",
+      links: "https://www.government.se/"
+    },
+    {
+      heading: "Mia-Lie Nylund, Sandra Håkansson, & Elin Bjarnegård (2022). The transformative potential of feminist foreign policy: The case of Sweden. Journal of Women, Politics & Policy.",
+      links: "https://doi.org/10.1080/1554477X.2022.2113662"
+    },
+    {
+      heading: "Natasha, Gender Security Project. (2023). What is feminist foreign policy in the Indian context? A closer look into Feminist Foreign Policy in India.",
+      links: "https://www.gendersecurityproject.com/wpsanalysis/what-can-unscr-1325-do-for-india"
+    },
+    {
+      heading: "Organisation for Economic Co-operation and Development (OECD). (2021). A feminist foreign policy to advance gender equality globally. OECD Development Co-operation Tips, Tools, Insights and Practices.",
+      links: "https://www.oecd.org/en/publications/2021/03/development-co-operation-tips-tools-insights-practices_d307b396/a-feminist-foreign-policy-to-advance-gender-equality-globally_21138678.html"
+    },
+    {
+      heading: "Oxford Research Encyclopedia of International Studies. (2019). Feminist Foreign Policy: Origins and Development",
+      links: "https://oxfordre.com/internationalstudies/view/10.1093/acrefore/9780190846626.001.0001/acrefore-9780190846626-e-179"
+    },
+    {
+      heading: "PRS Legislative Research. (2024). Profile of the 18th Lok Sabha.",
+      links: "https://prsindia.org/parliamenttrack/vital-stats/profile-of-the-18th-lok-sabha"
+    },
+    {
+      heading: "Stiftung Wissenschaft und Politik (SWP Berlin). (2021). Feminist foreign policy: Concepts, critiques, and applications.",
+      links: "https://www.swp-berlin.org/en/publication/feminist-foreign-policy"
+    },
+    {
+      heading: "Swedish Government Offices. (2018). Handbook: Sweden’s feminist foreign policy",
+      links: "https://www.government.se/reports/2018/08/handbook-swedens-feminist-foreign-policy/"
+    },
+    {
+      heading: "Tapakshi Magan, ( 2022) What is feminist foreign policy in the Indian context? A closer look into Feminist Foreign Policy in India. A closer look into Feminist Foreign Policy in India.",
+      links: "https://www.orfonline.org/expert-speak/a-closer-look-into-feminist-foreign-policy-in-india"
+    },
+    {
+      heading: "Thompson, L., & Clement, R. (2019). Bringing feminism to foreign policy: Limitations and contradictions.",
+      links: "https://doi.org/10.1017/S0260210518000461"
+    }
+  ]
+},
+{
+  id: 4,
+  serialNumber: 43,
+  issue: 4,
+  volume: 1,
+  title: "Localizing Climate Action: The National Action Plan on Climate Change (NAPCC) and Panchayats",
+  author: "Sayyed Zeenat, T. S. Bagheshri, and Bhavya Singh",
+  // authorAbbrev: "Deeksha; Saha, A.; Agrawal, P.; Dhar, N.; Vardani, A.",
+  abstract: [
+   "This article studies the localization of climate action through the lens of National Action Plan on Climate Change (NAPCC) and its implementation through the framework of Panchayat Raj Institutions aiming to understand how effectively climate change is being localized in In the context of SDGs 13(Climate Action), we focus on assessing the alignment between national climate goals and their reach into community-level initiatives. The idea behind this study is to uncover the potential of decentralized governance in building climate-resilient Panchayats. Using the qualitative research methods such as policy reviews, literature reviews and case studies from selected Panchayats, by analyzing the current state of NAPCC mission integration at the local level. ",
+  "It identifies three critical themes: (1) Climate Resilient Rural Development, (2) Policy and Institutional Synergies, and (3) Capacity Building and Finance. These themes guide the investigation into institutional, policy, and financial mechanisms that support or hinder effective climate action at the grassroots ",
+  "This study reveals that many communities find it difficult to make the climate action plans implemented in their local level effectively. However, there are some notable cases—like the integration of GPDP, Mission LiFE, and collaborations with initiatives such as MGNREGA—that demonstrate how teamwork can drive real progress. The paper concludes with some practical recommendations: enhancing training for local leaders, ensuring better coordination among departments, and involving everyone in the planning process to make climate action more impactful at the local level.",
+
+  ],
+  // keyword: [
+  //   "digital divide",
+  //   "educational inequality",
+  //   "BharatNet",
+  //   "SDG 10",
+  //   "Digital India",
+  //   "policy analysis"
+  // ],
+  status: "",
+  "intro": [
+    "The national framework on climate change in India is based on the National Action Plan on Climate Change (NAPCC) that outlines eight national missions aimed at promoting environmental sustainability and resilience to climate change. The NAPCC is strategic in its vision, but realizing that vision is contingent on its monocular application and incorporation into local actions. PRIs being the institutional levels responsible for rural development, are important agents of climate change governance. ",
+    "Nonetheless, there are issues related to poor access to resources, inadequate institutional capacity, and limited policy coherence that challenge this localization. The introduction has the aim of laying the framework for understanding how the climate change agenda, as outlined at the level of the national agenda, is then translated into actions by the Panchayats.",
+  ],
+  content: [
+    {
+      "heading": "Background and Literature Review",
+      "paragraphs": [
+        "Studies before the pandemic found that only about 4.4% of rural households had a computer, versus 23.4% in urban areas (NSSO, 75th Round, 2018). Internet access was 14.9% in rural homes compared to 42% in cities (NSSO, 75th Round, 2018). Operating skills were similarly uneven: just 9-13% of rural residents could use computers or the internet, compared to over 30% in urban settings (MoSPI, 2019).",
+        "A local survey in Chennai showed only 5.3% of rural government school kids could take live classes (Azim Premji Foundation, 2021). While 56.9% had smartphones, only about 21.1% of private school students could attend online lessons regularly (Oxfam India, Inequality Report, 2021).",
+        "In alignment with NEP 2020, platforms like DIKSHA and SWAYAM were positioned to promote access, equity, and quality, but uneven digital access and language barriers have constrained outcomes (Ministry of Education, 2020; Oxfam India, 2022; Azim Premji Foundation, 2022).",
+        "Problem Statement:",
+        "Although India has developed a goal-oriented national climate policy through the NAPCC, implementation of these policies and missions into action at the grassroots level remains a significant challenge and under-researched work.",
+      ]
+    },
+    {
+      heading: "Thematic Literature Review",
+      paragraphs: [
+       "Theme: – Climate Resilient Rural Development ",
+        "Rural India is on the frontline of climate change vulnerability. The majority of the rural population (more than 70%), for their livelihoods depend on agriculture and natural resources, are especially vulnerable with a degree of risk associated with more irregular weather events, insufficient water resources, land degradation and loss of biodiversity. Thus, climate resilient rural development represents more than a development challenge but also a question of climate justice, food security and sustainable national development over long timeframes.",
+        "The National Action Plan on Climate Change (NAPCC) provides a policy framework at the macro-level through 8 missions and their associated objectives, including the National Mission for Sustainable Agriculture (NMSA), the National Water Mission (NWM) and the Green India Mission. At present, they are often not visible at the grassroots level and aligned to local institutions, and thus rarely act as vehicle for transformative change in rural society.",
+        "Panchayati Raj Institutions (PRIs) provide a particular institutional opportunity for decentralized and participatory climate action. They derive their legitimacy from the 73rd Constitutional Amendment, and are legislated to create and execute development plans for socio-economic development and social justice. If we embedded those objectives as part of the NAPCC in the Gram Panchayat Development Plans (GPDPs) then community endorsed resilience strategies could facilitate local solutions to these vulnerabilities.",
+        "The 'Climate Resilient Livelihoods' project in Malkangiri district, Odisha involved a collaborative partnership between Grams Panchayats, UNDP and the Odisha State Climate Change Cell. For PRIs, participatory vulnerability assessments in their communities helped to identify issues of concern, including cyclical floods and crop failures, and adaptive solutions, including elevated grain banks, saline first paddy varieties and decentralized solar irrigation. All of this was supported by relevant components of National Mission for Sustainable Agriculture (NMSA) and National Water Mission (NWM) which was an effective example of vertical integration connecting the policy with planning at the local sub-district level.",
+        "Likewise, in Kolar, Karnataka, the Panchayat implemented water budgeting and demand-side groundwater management with guidance from the National Water Mission “Catch the Rain” campaign. This example shows how PRI-led microplanning can be cumulatively harnessed to meet mission targets on water efficiency.",
+        "Nonetheless, structural barriers remain:",
+        "Lack of climate literacy among Panchayat m",
+        "Lack of local climate data and early warnings",
+        "Rigid scheme-oriented funding that does not allow for integrated resilience planning",
+        "Weak convergence across sectors (agriculture, forestry, water, rural development).",
+        "The next pivotal step is to create 'Climate-Resilient Panchayat Frameworks' at the state level, with allocated budgets, capacity development modules, and data dashboards around district-specific vulnerabilities.  The Climate Resilient Rural Development will also enhance the climate action or SDG 13 relationship as there is greater recognition of the importance of local action within the global space. The continued commitment of India to support climate-resilient communities through Mission LiFE and the Localizing SDGs Campaign can further bolster the ability of Gram Panchayats (GPs) to scale adaptation responses."
+      ]
+    },
+    {
+      heading: "Theme:  Policy and Institutional Synergies",
+      paragraphs: [
+        "Successful climate governance in India relies on ongoing coordination between policy regimes and institutions. The National Action Plan on Climate Change (NAPCC), and their eight mission based approaches, creates strategic ideas on how to address climate challenges. The implementation part however, depends on how well it blends with State Action Plans on Climate Change (SAPCCs) and becomes part of the local governance frameworks, especially through Panchayati Raj Institutions (PRIs). This sensitive link, sometimes called policy and institutional synergy is essential to helping national goals falls into activities that have local relevance.",
+        "One of the major challenge is the gap between center policy making and local implementation. While Gram Panchayat Development Plans (GPDPs) give a mechanism for localizing climate priorities, poor coordination and inadequate technical assistance often limit their practical implementation. Many a times Panchayats are not fully utilized, despite the fact that Constitution have given role of panchayats separately for local development. Looking at the positive side, local developments have taken few steps, models such as watershed programs and behavior change initiatives merged with MGNREGA like programs exemplify the benefits of institutional synergy. These initiatives shows that if ministries, departments, and Panchayats work together closely, climate action can become more effective and inclusive.",
+        "In order to augment this synergy, there is a need to institute formal coordination mechanisms at different levels. This must involve central ministries (such as MoEFCC and DST), state climate cells, and local government institutions. Providing access to climate information and financial resources, in particular through connecting funds from schemes such as PMKSY and Jal Jeevan Mission, is also essential. India is an agrarian country we know this agriculture happens in village, agriculture is the most crucial and ignorant in terms of taking it as a career. This is also due to no prominent outcome which ultimately linked to climate actions. Our actions, how we take care of the climate is given back to us, so it is utmost important to make local community familiar with climate actions and policies made for it causes.",
+        "India has achieved its position in international climate discussions and debates, internal unity is important. Locals community should be aware of the policies made for them under climate action plans and implementation of those policies should be done effectively. Its of utmost importance to recognize panchayats, as actors and participants in the stakeholders participatory framework, rather than simply just implementers. At the end, the success of climate resilience at the grassroots level rests on enabling integrated policy interventions and institutional coordination to enable actor and beneficiary to enable to take ownership of their own adaptations initiatives. "
+      ]
+    },
+    {
+      heading: "Theme: Capacity Building and Finance",
+      paragraphs: [
+        "Building the capacity of Panchayati Raj Institutions (PRIs) and enabling access to climate finance is crucial for converting the frameworks outlined in the National Action Plan on Climate Change (NAPCC) into actions at the local level. PRIs manage over 250,000 Gram Panchayats that interact directly with almost 65% of the rural population in India (MoPR, 2020). Yet, with this powerful base, they are not able to achieve much with climate change, largely due to a shortage of technical knowledge and institutional assistance, as well as a lack of access to financial resources.",
+        "Recent analysis finds, only 12% of Gram Panchayat Development Plans (GPDPs), built climate resilience into their plans, and over 70% of Panchayats have never accessed climate specific funding (NIRDPR, 2021). Although GPDP or other funding mechanisms exist, such as the National Adaptation Fund on Climate Change (NAFCC), MGNREGA and PM-KUSUM, PRI participation is limited, due to their lack of understanding and skills to mobilize climate finance (MoEFCC, 2023).",
+        "Capacity building is a tremendous need. A survey done by NIRDPR (2019) reported that only 10% of Primary Revenue Institutions (PRI) facilitators had received any form of training on climate adaptation (NIRDPR, 2020). PRIs cannot access funds such as the ₹364.35 crore NAFCC (MoEFCC, 2023), or take advantage of schemes under the State Action Plans on Climate Change (SAPCCs) without training on proposal writing, budgeting, and co-ordination between departments. For example, in PM-KUSUM which aims for 30.8GW solar capacity for rural areas where the scheme is not fully exploited due to incomplete integration at sub-state levels (MNRE, 2022).",
+        "Working alongside NGOs, private Corporate Social Responsibility (CSR) actors and experts in the field can lead to lessons that improve climate adaptations at the grassroots. Two pilot programs in Odisha and Maharashtra demonstrated a 25–30% increase in the proportion of climate-related spending in the budgetary allocation and enabled a better relationship with communities (Vij et al., 2024).",
+        "Since India suffers $87 billion in economic losses due to climate disasters every year (World Bank, 2021), investing in the PRIs is a compelling strategy. As greater training, access to financial resources and inclusive planning is developed, PRIs can take the transformational lead in locally-driven sustainable climate action."
+      ]
+    },
+    {
+      heading: "Methodological Overview",
+      paragraphs: [
+       "The focus of this research is qualitative. We have  used secondary sources which were available like policy documents, earlier research, official reports, and expert commentary to collect data. To look at the  weaknesses and strengths in the local implementation of NAPCC policies and schemes, we drawn themes through research lens and comparative case studies from selected Panchayats."
+      ]
+    }
+    ,{
+      heading: "Core Findings: ",
+      paragraphs: [
+        "Subheading: Strengthening Local Climate Governance",
+        "PRIs generally have little to no access to climate finance, such as the NAPCC.",
+        "A majority of PRIs do not have the technical capability to support the writing of fundable project proposals.",
+        "Climate and ecology are not embedded into GPDPs – due to the low levels of awareness and capacity around climate and ecology.",
+        "Subheading: Inter-Institutional Coordination",
+        "The various departments, such as agriculture, energy, and rural development, are generally insulated from one another and as a result climate planning is often not integrated. ",
+        "Subheading: Bridging the Capacity-Finance Gap",
+        "More than 90% of PRI officials do not have a formal education and training for mobilizing climate finance, interlinking schemes and budgeting for resilience approaches (NIRDPR, 2020)",
+        "The existing climate-related schemes, like PM-KUSUM and SAPCCs aren't even localized with Panchayats not aware of scheme components like objectives, eligibility or modalities of implementation.",
+        "Even if CSR and NGO partnerships exist, it's obvious that most Panchayats do not have the institutional set-up to initiate or sustain these partnerships.",
+        "There is almost no incorporation of climate-related vulnerabilities (like drought/flood risks)  into the planning and fund allocation, which, as sad as it sounds, makes the proposal less investable or productive",
+        "There is no formal and standardized digital platforms or dashboards that capture climate-related pathways to finance, the fund status, and any anecdotes from successful examples (other models).",
+      ]
+    },
+    {
+      heading: "Interpretation and Analysis",
+      paragraphs: [
+        "If the national architecture (NAPCC) is a full-fledged document, there are gaps between aspirations and implementation because of lack of capacity, coordination and context. The successful pathways and models, like climate-sensitive GPDPs and interdisciplinary convergence (E.g watershed management through MGNREGA) proved that structured and quality capacity and participatory governance can work. The analysis suggests that Panchayats can be conveners of climate adaptation when provided relevant tools, training and funds."  
+      ]
+    },
+    {
+      heading: "Policy and Practice Recommendations",
+      paragraphs: [
+        "Recommendation Area: Technical Support and Finance Mobilization",
+        "Establish climate action technical cells within district planning offices.",
+        "Conduct training sessions on accessing climate finance and ensuring compliance.",
+        "Create a district-level climate fund pooling mechanism.",
+        "Introduce a mobile support system for PRIs to provide real-time help.",
+        "Recommendation Area: Community Participation and Innovation",
+        "Launch the “One Panchayat, One Climate Action” campaign to promote local solutions.  ",
+        "Incentivize and recognize climate-resilient initiatives with annual Panchayat-level climate awards.",
+        "Use social audits and Gram Sabhas to assess climate-related projects and promote accountability",
+        "Recommendation Area: PRI-Centric Climate Solutions:Identifying Risks, Raising Funds, and Tracking Progress",
+        "Create a team of ‘Trained Professionals – Climate Guides’ at the block/district level to assist PRIs in fund identification, proposal drafting, and monitoring",
+        "Incorporate localized climate risk mapping into Panchayat planning, like recurring floods or heatwaves, so their plans reflect what’s happening on the ground.",
+        "Design an open-access “Climate Finance Navigator” portal, offering real-time data on schemes, deadlines, fund status and successful use cases.",
+        "Facilitate PRI–CSR convergence platforms at the district level to unlock non-government funding through trust-building ",
+        "Mandate quarterly climate finance utilization reviews at the district planning committee level."
+      ]
+    },
+    
+
+  ],
+  conclusion: [
+   "Panchayati Raj Institutions (PRIs) act as the agents of local climate action. Localizing climate action through PRIs is not merely a governance issue, it is an evolution needed in India’s climate framework. This report shows that, in spite of the NAPCC laying out a well-planned national strategy, this does not translate into action at the local level, partly due to issues like fragmentation of institutions for climate action, capacity, disjointed pathways to funds, and limited community engagement.",
+   "The findings indicated a significant shift in the climate governance architecture of India away from a top-down policy delivery model towards building bottom-up resilience. The Panchayats must not only be perceived as implementers of climate action, but as recognized climate decision-makers. For this milestone to materialize, state and central governments have to work to catalyze knowledge transfer and to build technical capacity, with participatory governance models that are forged from the local experience.",
+   "To achieve the tipping point of SDG 13 (Climate Action) at scale is to ensure that the lowest tiers of governance are empowered. With climate considerations integrated into Local plans and PRIs as active actors in the climate response, India will be on a pathway to building resilient rural communities that are ready not only to survive the climate crisis, but to spearhead effective resistance against it."
+  ],
+  references: [
+    {
+      heading: "Department of Science & Technology, Government of India. (n.d.). Climate Change Programme. Ministry of Science & Technology",
+      "links": "https://dst.gov.in/climate-change-programme#:~:text=The%20Government%20of%20India%20launched,Strategic%20Knowledge%20for%20Climate%20Change"
+    },
+    {
+      heading: "Press Information Bureau. (2024, June 5). India ranks 7th in the Global Climate Risk Index 2024. Ministry of Environment, Forest and Climate Change.",
+      links: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2032857#:~:text=The%20composite%20score%20for%20India,improving%20the%20lives%20of%20citizens"
+    },
+    {
+      heading: "Drishti IAS. (2019, September 19). National Action Plan on Climate Change (NAPCC)",
+      links: "https://www.drishtiias.com/to-the-points/Paper2/national-action-plan-on-climate-change"
+    },
+    {
+      heading: "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ). (2019, March). National Adaptation Plan (NAP) India – Climate adaptation in action",
+      links: "https://www.adaptationcommunity.net/wp-content/uploads/2019/04/giz2019-en-factsheet-nap-india-low-res.pdf"
+    },
+    {
+      heading: "Press Information Bureau. (2025, June 5). India leads climate action through policy and local-level implementation: MoEFCC.",
+      links: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2101289"
+    },
+    {
+      heading: "Tarh, T. Ramya. (2014). Role of Panchayati Raj Institutions in Rural Development: The Study of a Tribal Village in Arunachal Pradesh. SSRN.",
+      links: "https://doi.org/10.2139/ssrn.2556301"
+    },
+    {
+      heading: "National Institute of Rural Development and Panchayati Raj (NIRDPR). (2020). Training Module on Climate Change Adaptation for PRIs.",
+      links: ""
+    },
+    {
+      heading: "Ministry of Environment, Forest and Climate Change (MoEFCC). (2023). Guidelines for Accessing Climate Finance under NAFCC and SAPCCs",
+      links: ""
+    },
+    {
+      heading: "T. Ramya (Tarh), “Role of Panchayati Raj Institutions in Rural Development: The Study of a Tribal Village in Arunachal Pradesh,” SSRN Electron. J., 2014, doi: 10.2139/ssrn.2556301.",
+      links:""
+    },
+    {
+      heading: "S. Vij, R. Stock, A. Ishtiaque, M. Gardezi, and A. Zia, “Power in climate change policy-making process in South Asia,” Clim. Policy, vol. 24, no. 1, pp. 104–116, Jan. 2024, doi: 10.1080/14693062.2023.2271440.",
+    },
+    {
+      heading: "Ministry of Education. (2020). National Education Policy (NEP 2020).",
+      links: "https://www.education.gov.in/sites/upload_files/mhrd/files/NEP_Final_English_0.pdf"
+    },
+    {
+      heading: "Ministry of Education. (2020). National Education Policy 2020. Government of India.",
+      links: "https://www.education.gov.in/en/nep"
+    },
+    {
+      heading: "Ministry of Education. (2020). SWAYAM Prabha – Free DTH classes.",
+      links: "https://www.swayamprabha.gov.in"
+    },
+    {
+      heading: "MOSPI & NSSO. (2018). 75th Round of National Sample Survey: Education and digital access data.",
+      links: "http://mospi.nic.in"
+    },
+    {
+      heading: "NCERT. (2021). Students’ learning during the pandemic – A survey.",
+      links: "https://ncert.nic.in"
+    },
+    {
+      heading: "National Family Health Survey. (2022). NFHS-5 (Phase II) factsheets.",
+      links: "http://rchiips.org/nfhs/NFHS-5_FCTS/NFHS-5%20State%20Factsheet%20Compendium_Phase- II.pdf"
+    },
+    {
+      heading: "Oxfam India. (2021). India inequality report: Education 2021.",
+      links: "https://www.oxfamindia.org/knowledgehub/workingpaper/india-inequality-report-2021"
+    },
+    {
+      heading: "Oxfam India. (2022). India inequality report 2022: Digital divide.",
+      links: "https://www.oxfamindia.org/press-release/india-inequality-report-2022"
+    },
+    {
+      heading: "PRS Legislative Research. (2022). EdTech equity 2022 brief.",
+      links: "https://prsindia.org/policy/analytical-reports/edtech-equity-2022"
+    },
+    {
+      heading: "ResearchGate. (2020). Impact of COVID-19 on school education in India: A brief analysis.",
+      links: "https://www.researchgate.net/publication/341981898_Impact_of_COVID-19_on_School_Educat ion_in_India"
+    },
+    {
+      heading: "Roul, R., & Mohalik, R. (2025). Quality of e‑contents on DIKSHA platform: A study of secondary school teachers’ perceptions. International Education & Research Journal, 11(2), 32–37.",
+      links: "https://doi.org/10.5281/zenodo.15583394"
+    },
+    {
+      heading: "Sharma, R., & Kapoor, A. (2023). DIKSHA in Rajasthan: A field evaluation. NCERT Journal of Educational Studies, 19(1), 10–27.",
+      links: "https://journals.ncert.gov.in/"
+    },
+    {
+      heading: "Singh, G. (2022). Why do MOOCs fail on completion rate? An analysis of SWAYAM courses. Indian Journal of Educational Technology, 4(1), 111–123.",
+      links: "https://journals.ncert.gov.in/IJET/article/view/529"
+    },
+    {
+      heading: "Swayam. (2025). About SWAYAM.",
+      links: "https://swayam.gov.in/about"
+    },
+    {
+      heading: "Swayam. (2025). Swayam portal.",
+      links: "https://swayam.gov.in"
+    },
+    {
+      heading: "The Economic Times. (2023). Agritech investments and incubators nurturing the next generation of food innovators in Dubai. The Economic Times.",
+      links: "https://economictimes.indiatimes.com/news/international/uae/agritech-investments-and-incubato rs-nurturing-the-next-generation-of-food-innovators-in-dubai/articleshow/122569172.cms"
+    },
+    {
+      heading: "The Economic Times. (2023, August 2). Education Ministry selects Oracle Cloud Infrastructure to modernise edtech platform DIKSHA. The Economic Times.",
+      links: "https://economictimes.indiatimes.com/tech/technology/education-ministry-selects-oracle-cloud-i nfrastructure-to-modernise-edtech-platform-diksha/articleshow/102351763.cms?from=mdr"
+    },
+    {
+      heading: "The Hindu. (2023). Kerala’s KITE VICTERS and EdTech implementation. The Hindu.",
+      links: "https://www.thehindu.com/education/kerala-edtech-article/article66355394.ece"
+    },
+    {
+      heading: "The Times of India. (2024, February 14). Low completion rates plague SWAYAM courses. The Times of India.",
+      links: "https://timesofindia.indiatimes.com/home/education/news"
+    },
+    {
+      heading: "GIZ. (2019). National Adaptation Plan (NAP) India – Climate adaptation in action.",
+      links: "https://www.adaptationcommunity.net/wp-content/uploads/2019/04/giz2019-en-factsheet-nap-india-low-res.pdf"
+    },
+    {
+      heading: "Ministry of Environment, Forest and Climate Change (MoEFCC). (2024). India leads climate action through policy and local-level implementation: MoEFCC (Press Release, June 5).",
+      links: "https://pib.gov.in/PressReleasePage.aspx?PRID=2101289"
+    },
+    {
+      heading: "National Institute of Rural Development and Panchayati Raj (NIRDPR). (n.d.). Capacity building for Panchayats.",
+      links: " https://nirdpr.org.in/"
+    },
+
+  ]
+},
+{
+  id: 4,
+  serialNumber: 44,
+  issue: 4,
+  volume: 1,
+  title: "BRIDGING THE DIVIDE:DIGITAL PUBLIC INFRASTRUCTURE IN THE INFORMAL SECTOR",
+  author: "Harmanpreet Singh – Panjab University ;Naukhaiz Aftab – Chaudhary Charan Singh University ;Gauri Sharma – Indira Gandhi National Open University; Ruchi Tiwari- University of Mumbai  ;Mahi Tyagi-  University of Delhi  ;Shivangi Varma-  Deen Dayal Upadhyay Gorakhpur University;authorAbbrev: 'Deeksha; Saha, A.; Agrawal, P.; Dhar, N.; Vardani, A.",
+  abstract: [
+    "The rapid digitalisation and expansion of Digital Public Infrastructure (DPI) in India have brought mixed outcomes, particularly for informal sector workers. The digital divide is a result of existing inequalities in socioeconomic status, geography, caste, and gender. While digitalisation has improved access in many areas, its benefits remain unevenly distributed. This paper investigates structural and systemic factors behind this gap and explores legal frameworks and the PPP model to promote financial inclusion.",
+      "Using qualitative analysis of secondary data, this study finds that access to digital services remains uneven, for informal workers with low digital skills and sporadic access to the internet. It underscores spatial divide, limitations of the “one-size-fits-all” approach and the lack of legal protection in labour codes. It also reveals disparities within the informal sector, where MSME owners benefit from DPI but many workers remain excluded.",
+      "Key recommendations include a universal legal definition for informal workers, rural digital awareness, government digital hubs under PPP model, and simplified user-centric e-portals designed with principle of privacy. Bridging the digital divide needs inclusive policy reforms to improve access to DPI across the Indian informal economy."
+  ],
+  keyword: [
+    "Digital Public Infrastructure (DPI)",
+    " Informal Sector", "Informal Economy",
+    "Micro, Small & Medium Enterprises (MSME)",
+    "Digital Divide",
+    "Public-Private Partnership (PPP) model",
+    "Jan Dhan, Aadhar","Mobile (JAM) Trinity","Unified Payments Interface (UPI)","Financial Inclusion, Digitalisation"
+  ],
+  status: "",
+  "intro": [
+    "“Digital public infrastructure is not just about technology—it is about enabling equal access, empowering every citizen, and laying the digital rails for inclusive growth.”",
+    "Nandan Nilekani, co-founder of Infosys and founding Chairperson of the Unique Identification Authority of India (UIDAI)",
+    "A world that becomes increasingly interconnected is finding a potent force in its ability to influence the way that governments, businesses, and individuals transact and interact through Digital Public Infrastructure (DPI). The most significant ones are the digital identity and payment system and the data exchange layers, which are creating preconditions of efficient and inclusive service provision at scale. They are materialised in India through Aadhaar, UPI, DigiLocker, e-SHRAM, and ONDC, which form the heart of digital governance and the economy of the country.",
+    "To appreciate the actual effects of DPI is to look at how it interacts with India’s informal economy, which itself constitutes more than 90% of the labour force and almost 50% of its GDP. The unorganised sector in India is the consequence of certain structural limitations like low capital formation, as well as regional disparities and a failure of formal infrastructure to absorb the increasing labour. These are the workers who work in this unorganised sector—daily wagers, domestic help, street vendors, artisans, and micro-entrepreneurs—and they may not have a formal contract/right, legal protection, access to credit, or social security. That’s why they’re not immune from abuse, economic shocks, and generation span poverty. The emergence of DPI represents a chance to close such a historic gap, although its achievement is not automatic and homogenous. The most frequent obstacle is a digital divide, particularly the rural-urban, gender, and income-related ones. Although the mobile connectivity and smartphone penetration have been enhanced, the problem is that digital access and digital literacy are still skewed, especially among women and elderly and marginalised groups. This digital divide affects financial inclusion directly. The Indian fintech revolution has resulted in women still having limited access to digital payment systems, access to formal credit, and ownership of assets, highlighting the importance of the design of DPI to be gender-sensitive.",
+"Another factor behind the DPI story in India is a well-functioning model of public-private partnerships (PPP), where the government makes core infrastructure (e.g., Aadhaar and UPI), and private actors develop applications and services on top. This model makes innovation possible at scale and checks its oversight by the public. But to have any lasting effect on livelihoods, DPI should do more than just enable transactions. It is supposed to allow the informal workforce to get access to new markets (such as ONDC for the local sellers), employment opportunities, generate credit histories, and access government schemes through websites such as e-SHRAM.",
+ "Meanwhile, a fast rate of digitisation of citizen information presents important legal and regulatory questions, especially in regard to data privacy and surveillance, informed consent, and risks of exclusion. Data localisation norms, grievance redressal systems, and the Personal Data Protection Act need to dynamically advance along with the implementation of DPI to safeguard the rights of the informal labour force. The following paper focuses on the multidimensionality of the interaction of DPI in reconstituting the informal economy of India. It examines the position of dominant industries in the informal space, e.g., retail, construction, domestic services, and gig work, and the impact that DPI has on their inclusion, productivity, and resilience. The study will examine the major policy interventions, usage patterns, and current obstacles in order to present practical solutions towards an inclusive digital future.", 
+]
+  ,
+  content: [
+    {
+      "heading": "PROBLEM STATEMENT AND RESEARCH QUESTION",
+      "paragraphs": [
+        "The aim of this research paper is to comprehensively examine the varying stages of digital transformation across the country, with an explicit concentration on the function and consequences of digital public infrastructure on various aspects of society, with special reference to the informal sector. Our questions seek to understand both the drivers and consequences of digital access and usage patterns, while also considering systemic elements within the DPI ecosystem. This report is guided by the following research questions.",
+        "How do socio-economic and contextual factors influence the patterns of access to and effective utilisation of digital public infrastructure by different informal sector subgroups, and what are the resulting effects on their outcomes in knowledge acquisition, well-being, financial inclusivity, and the livelihoods of workers under various informal sector arrangements?",
+        "To what extent do trends of privatisation, phantomization, and wealth accumulation within the Digital Public Infrastructure landscape, alongside the prevailing legal frameworks and Public-Private Partnership (PPP) models, influence digital access and the ability of informal sector actors to leverage these technologies for their benefit, and how can these challenges be addressed?",
+        "In line with the above-mentioned stratification hypothesis, we argue that variations in access to and use of technology are reproducing themselves, which in turn are exacerbating realworld disparities. This has restricted the ability of the digitally disadvantaged to access resources and fully reap the benefits of the virtual world."
+      ]
+    },
+    {
+      heading: "THEMATIC LITERATURE REVIEW",
+      paragraphs: [
+          "UNDERSTANDING THE DIGITAL DIVIDE",
+          "OECD defines the digital divide as a gap across various socioeconomic levels in the use of ICTs and internet usage. It results from several factors, such as gender, affordability, location, and digital literacy. Only 31% of the rural population uses the internet, compared to 67% in urban areas (Oxfam India, 2022). Laskar (2023) shows an existing divide between urbanrural and intra-urban, causing limited digital access and technology-based skills, while Vaidehi et al. (2020) found low internet access, usage, and digital literacy in marginalised communities.",
+          "Digitalisation has benefited some while excluding a large section of society (Dubey et al., 2024). These gaps persist despite government initiatives like the Digital India campaign, JAM, and UPI (ILO, 2024), particularly impacting the wages of informal workers (Sengupta et al., 2021).",
+          "FINANCIAL INCLUSION",
+          " Monetary policy becomes more effective through increased interest rate influence on economic transactions (Mehrotra & Yetman, 2015; Patra, 2021).",
+          "According to Gupta et al. (2017), digital transformation can improve GDP and fiscal policy. At the 2017 Global Entrepreneurship Summit in Hyderabad, PM Modi emphasised joint efforts by women and men for prosperity and development (Balasubramaniam et al. 2021).",
+          "Inclusive financial services, as recognised by the International Labour Organisation (ILO), are key to social security and poverty (Bhandari 2018).",
+          "According to Ghosh and Bhattacharya (2019), financial innovations have expanded services for women and underprivileged individuals.",
+          "REGULATORY AND LEGAL FRAMEWORKS",
+          "Maiti and Khari (2023) discovered that as a country uses more digital technologies, informal firms shrink and then grow again. The finest digital tools assist informal enterprises in becoming legitimate in countries with robust legislation. If laws are weak, digital tools may make it tougher for informal labourers to get work. If they feel observed, informal workers may avoid digital tools.",
+          "In Puttaswamy v. Union of India, the court upheld Aadhaar but ruled that everyone has the right to privacy. The judicial system must respect digital privacy and dignity for DPI to be trusted.",
+          "According to A. Panagariya (2022), existing social protection legislation ignores DPI and commends the India Stack, a combination of open APIs and digital public goods, for regulation. Current labour rules don't protect informal gig workers since they ignore DPI.",
+          "Data protection and privacy are first and foremost about ensuring personal data is used with consent and kept within India. The Digital Personal Data Protection Act, 2023 draft, based on the recommendations of the Justice B.N. Srikrishna Committee, sets these rules, with the Data Protection Board of India investigating data breaches and imposing fines up to 250 crore.",
+          "Electronic signatures and contracts are legally validated by the Information Technology Act, 2000, defined under section 2(1) (p), ensuring the authenticity of digital documents. The controller of certifying authorities licenses digital signature providers.",
+          "IMPACT ON LIVELIHOODS",
+          "With the growth of technology, Digital Public Infrastructure (DPI) has risen as one of the determiners in enhancing the livelihoods of the informal workers in India. It has simplified the process of delivery of welfare programs and wage payments and minimised leakages of the transfer of benefits (Kshirsagar & Cleary, 2024).",
+          "Indeed, ICRIER (2017) established that when Aadhaar is integrated with wage-paying systems, the underpayments and delays among workers have been materially reduced.",
+          "With Aadhaar integration, the services of the middlemen were also minimised, and workers received government assistance and other necessary services directly (Muralidharan et al., 2020).",
+          "DPI has also been beneficial to the stability of households, to better access the fundamental base of resources, including food and fuel (World Bank, 2018).",
+"Nevertheless, a part of the workforce still experiences an impediment caused by the ambiguity regarding the usage of the system or the cases of manipulation and misuse (Krishna, 2020).",
+"In general, DPI has made the outcomes of livelihood more robust.",
+        "STATUS OF INFORMAL WORKER",
+        "In their work Das, H., Gupta, A., & ILAVARASAN, V. (2025) found out that small business owners were highly benefited through the DPI model; UPI has helped them achieve stability and constant support in conducting their day-to-day activities.",
+        "In their report Vedavalli, P., Kwatra, N., Srinivasan, S., & Sinha, V. (2023) discuss the various difficulties the sector of the informal economy, i.e., the labour sector, especially the non-agricultural labour, has to face in their lives on a daily basis.",
+        "State-of-Indias-Informal-Sector_A-Deep-Dive-into-Enterprises-Statistics-and-Segments report talks about the status of MSME workers and, with the introduction of digital platforms, how much more convenient their work has become.",
+        "Imam, M., & Chinnadurai, A. S. Digital Inclusion for Rural Women puts emphasis on digital inclusivity for women workers in rural areas and raises the issue about how digital inclusivity helps in the promotion of women's empowerment.",
+        "Sindakis, S., & Showkat, G. (2024) discuss how in rural areas various sections of society have digital access, including workers and women in rural regions.",
+        "PUBLIC- PRIVATE PARTNERSHIP (PPP) MODEL",
+        "Bhatnagar (2004) points out that PPP enhances e-governance in resource-poor settings through digital literacy & CSCs. Few states land records were digitised, improving redressal mechanisms vis-à-vis the effective PPP model.",
+        "Varun Sharma (2020) highlights that PPPs enable specific services, i.e., geo-tagged digital platforms. He mentions safeguards & digital literacy to prevent encroachment & empower informal sector workers.",
+        "Rahul Mishra & Ritu Sharma (2022) explains the role of PPPs in providing welfare schemes like the e-Shram portal. He brings forth PPP in welfare like DBTs, better documentation, & transferring of benefits across states.",
+        "The World Bank defines PPPs as legally structured, performance-based deals. It highlights India’s adoption of hard infrastructure and soft infrastructure, stressing the need for clear rules & regulations, transparency, accountability, & outcomes in informal sectors.",
+        "Singh (2019) emphasises its role in bridging the gap through urban informal infrastructure delivery and the effectiveness that it brings to the ecosystem. Singh points out that while public funds are limited, private partners bring innovation & scale.",
+        "Above resources, it emphasises how significant the PPP model is in present times & can be in the future w.r.t. providing services and goods effectively & efficiently, ensuring safety nets to informal workers & securing them from exploitation via legal bindings and mechanisms in PPP."        
+
+      ]
+    },
+    {
+      heading: "METHODOLOGICAL OVERVIEW",
+      paragraphs: [
+        "The methodology used for conducting this analysis of this policy, “Bridging the Divide: DPI in the Informal Sector, is a hybrid and integrative approach that includes secondary, qualitative, and, to an extent, quantitative means to meet the ends to comprehensively analyse the intersection of Digital Public Infrastructure (DPI) and the informal sector in India. The foundations of the study actually rest on the secondary research, where a broader range of existing literature, policy documents, legal frameworks, academic articles, and government reports were taken deep into account and were consulted. These include key sources such as Oxfam, World Bank assessments, and the landmark legislations & acts like the Digital Personal Data Protection Act (2023), the Aadhar Act, and the IT Act (2000) that helped & allowed to map the evolution of the DPI and its practical implications on the informal workers. Complementary to this is the qualitative analysis that helped deep dive into the structural and contextual realities of these informal sectors. Rather than just relying on the data, the study explores issues like digital exclusion; systemic marginalisation, which is based on caste and gender; exploitation by private players; the phantomization of data, i.e., through databases like e-Shram; and gaps in digital literacy. Legal judgements like Puttaswamy v. Union of India are analysed qualitatively to interpret how privacy rights and data governance influence trust and participation in the digital ecosystems. Furthermore, the study to some extent integrates the basic quantitative insights to validate its claims, using the statistics to reflect the extent of digital access and the economic impact of DPI. Overall, this mixed methodology enriches the study by ensuring that secondary data provides a macro-policylevel perspective, in which the qualitative interpretation adds depth to socio-economic and political realities, and picked quantitative data underscores the scale of digital disparities and economic outcomes. This mixed approach is particularly well suited for policy analysis in the Indian informal sector, where diversity on the ground level and structural inequalities demand more than a single-method investigation. The methodology effectively captures the complexity of the DPI’s impact, showing how interventions of technology are backed by robust institutional support. Hence, the methodology reflects not only the researchers’ intent to examine existing knowledge critically but also through a holistic lens.",
+
+      ]
+    },
+    {
+      heading: "CORE FINDINGS AND ANALYSIS",
+      paragraphs: [
+        "UNDERSTANDING THE DIGITAL DIVIDE",
+        "The digital divide is a result of existing socioeconomic inequalities in society. Though more visible in rural areas, it is also prevalent in urban spaces, showcasing inequality between resource-rich and under-resourced communities. This reveals that infrastructure alone, without inclusive policies, cannot bridge this divide. ",
+        "Marginalised communities remain excluded due to ingrained systemic barriers like castebased issues and digital literacy, widening the divide.",
+        "Here the digital divide emerges as both a cause and a consequence of the societal divide. Its impact on the wages of the informal sector extends to family welfare, health, and education.", 
+        "The limited impact of initiatives like JAM and UPI shows disconnect in policy targets and implementation; without accountability and a holistic strategy involving the community, these initiatives risk deepening rather than bridging the divide.",
+        "FINANCIAL INCLUSION",
+        "The government and RBI have focused on financial inclusion by leveraging technology, improving infrastructure, and supporting financial literacy among informal sector workers and digitally excluded populations. Low-income populations hesitate to use DPI-enabled services due to tax concerns, which lower their financial activity in the formal economy, reducing their contribution to India’s GDP and economic development. For informal sector workers, financial inclusion must cover access to credit, insurance, and emergency funds. ",
+         "These steps ensure digital financial inclusion becomes a driver of equity, supporting sustainable livelihoods and enabling broader socio-economic development across underserved communities. Financial inclusion under DPI ensures that informal sector workers and low-income groups access essential financial services like savings, loans, and insurance efficiently and transparently. Digital ID systems simplify know your customer (KYC) procedure and reduce customer verification costs, allowing financial institutions to deliver affordable and efficient services to low-income and rural populations with minimal infrastructure. Senior citizens often lack digital knowledge, making it difficult for them to access DPI platforms like telemedicine or pension services, which increase their vulnerability to online fraud and misinformation during financial or insurance scheme linking. Women in rural areas face many barriers in digital finance, like limited skills, low device ownership, poor literacy, and lack of documentation.",
+         "REGULATORY AND LEGAL FRAMEWORKS",
+         "The legal and regulatory framework of digital public infrastructure can be defined as the infrastructure that helps to reduce the time, money, and efforts of citizens, businessmen, and institutions for transparency, accountability, and inclusive participation.",
+         "The Aadhar card allows individuals to prove their identity via biometrics such as fingerprints and eye retina and facilitates access to digital public services and government benefits. The Unique Identification Authority of India was established, and the Aadhaar Act was passed for governing, ensuring transparency, accountability, and issue resolution",
+         "The Payment and Settlement System Act was passed in 2007, and RBI regulations ensure operations, risk management, and licensing of payment providers. The RBI monitors transaction limits and business on boarding. Digital payment systems like UPI and Aadharlinked payment systems enable digital money transfers.",
+         "IMPACT ON LIVELIHOODS",
+         "Digital Public Infrastructure (DPI) is also changing the way informal workers are supported in terms of their lives becoming easier in having access to welfare programs and employment-related information as well as crucial services that are provided by the government. Government initiatives such as authentication of Aadhaar cards and direct benefit transfers have also helped the government in ensuring timely payment of aid, as fewer individuals are required to mediate the payments. The e-Shram database and other similar ones have made it easier to map informal workers, particularly during emergencies like the COVID-19 one.",
+         "Through its efficiency in delivery, DPI has enhanced transparency and accountability, which has facilitated the maintenance of basic income supplied to vulnerable groups. Nevertheless, even these advantages still have certain obstacles to implementing the developed system and accessing its services: augmented reality, limited digital skills, sporadic access to the internet, and hiccups that might lock numerous individuals out. DPI is most effective when combined with local recruitment, offline support, and support of institutions. Instead of being like a one-size-fits-all program, it is a platform that needs to be aligned to what workers are experiencing. How maximally DPI can reinforce livelihoods is eventually subject to the inclusiveness with which the program is fashioned and its efficiency anchored on the ground.",
+          "STATUS OF INFORMAL WORKERS",
+          "The informal sector in India is a very vast sector; it includes various forms of labour, workers, and small businesses that are not industrially formalised yet and operate in a very small area. There are various subgroups that have benefited from the DPI, but there are groups who are neglected or unable to utilise the service provided to them in the optimum manner. Small business owners benefited the most from the e-payment system; it gave them the sense of security to run their business from their home. But the informal sector does not only contain the small businesses; it also contains the vast labour sector, which includes all kinds of labourers (daily wage labourers, gig workers, street vendors, rickshaw pullers, glass industry workers, etc.) who are not literate or digitally illiterate. They are the people who face the difficulty of accessing digital forums the most. They are generally illiterate, come in under the poverty line, and have very minute access to various technological services. The digital inclusion of women, specifically for the women in rural areas, is significantly low and mostly linked to the socioeconomic barriers as well. While digital inclusion can prove to play an important role in women's social and economic upliftment, they face a significant amount of discrimination in access to technologies.",
+          "PUBLIC- PRIVATE PARTNERSHIP (PPP) MODEL",
+          "According to the Government of India, the PPP is collaboration between public authorities and private entities for delivering infrastructure or services, with shared investment, risk, & responsibility.”",
+          "The PPP model is evident due to the result of the scarce resources, as the government cannot fund and falls into deficit to meet the needs of India’s large population. PPP results in identifying the potential and performing effectively, giving back quality and quantity at the same time. What stands out is how the PPP model becomes human. It works at the best level where and when people know each other, where technology is elaborated in local languages, and where digital access is made less daunting. In a manner, it’s not just about raising infrastructure, but it’s about building comfort and confidence. The PPP model, if not regularised, can lead to exploitation, which mainly depends on who is providing it and where, which in turn can undervalue the significance of PPP in the informal sector. ",
+          "The PPP model supports the informal workers via hard and soft infrastructure, providing incentives but does not tend to take into consideration the marginalisation that led to illiteracy & backwardness. Also, where people often lack documents and stable addresses, the PPP model can feel patchy many a time.",
+        
+
+      ]
+    },
+    {
+      heading: "POLICY AND PRACTICE RECOMMENDATIONS",
+      paragraphs: [
+        "After intensively studying and analysing the concerns outlined above, we proposed the following recommendations:",
+          "• There should be a universal legal definition for the informal workers, for formal recognition, legal security and access to welfare schemes.",
+          "• Organise awareness drives at the rural-level through Panchayats, ASHA workers, and Anganwadi workers for both men and women about the digital schemes and also identify the challenges faced by them to cater them accordingly.",
+          "• Simplify e-portals and offer interface in various regional and local languages to cater to the mass public.",
+          "• Establish government digital hubs under PPP model, specifically designed to provide digital services to those without smartphones or internet access. These hubs to be staffed with local language speaking trained personnel.",
+          "• Emphasises the need for user-centric design and usability of digital services, involving user-friendly interfaces, clear instructions, and features that cater to the specific needs of rural populations.",
+          "• The government should adhere to the principle of privacy by design, which entails considering privacy from the outset when developing any digital platform, including applications, websites, or other digital public infrastructure.",
+          "A systematic approach is essential to bridge the digital divide in the country. The informal sector requires government attention from the initial stages of creating an online account to sustained access and inclusion."
+      ]
+    }
+  ],
+  conclusion: [
+    "This paper examines the persistent digital divide and the exclusion of informal sector workers from accessing Digital Public Infrastructure (DPI) in India. Despite initiatives like Jan Dhan, UPI, and E-Shram, many informal workers remain excluded due to deep-rooted socioeconomic and structural barriers. The paper highlights how digital access can serve as useful measure to formalise the informal sector, making it more visible and connected.",
+    "Using secondary data, this paper reveals how digital connectivity affects informal workers socioeconomically. While DPI has benefited MSME owners, large proportion of informal workers, particularly women in rural areas still face exclusion because of limited digital literacy, deep-rooted social norms, and infrastructural gaps.",
+    "This paper argues for an inclusive, systematic policy approach to address these challenges. Key recommendations include introducing a universal legal definition for informal workers, expanding digital awareness programs-especially for women in rural areas, setting up local digital hubs through Public-Private Partnership (PPP) model, simplification of e-portals and adherence to principle of privacy by design. Future research should explore the rural–urban digital divide within the informal sector more deeply and apply quantitative methods to measure DPI’s impact over time.",
+    "In conclusion, DPI must be viewed not only as technological advancement but as a driver of inclusive growth and social equity. If implemented equitably, it can help achieve Sustainable Development Goals such as SDG 1 (poverty eradication), SDG 5 (gender equality), SDG 8 (decent work and economic growth), SDG 9 (industry, innovation and infrastructure), SDG 10 (reduced inequalities), SDG 16 (peace, justice and strong institutions), and SDG 17 (partnerships for the goals). Its aim should be to build an inclusive society across the country—not just a digitalised economy.",
+    "AUTHORS’ CONTRIBUTIONS",
+    "1. Gauri Sharma",
+    "Contributions: Status of Informal Workers, Methodological Overview, Conclusion, policy recommendation",
+    "2. Harmanpreet Singh",
+    "Contributions: Understanding the Digital Divide, Abstract, policy recommendation",
+    "3. Naukhaiz Aftab",
+    "Contributions: Regulatory and Legal Frameworks, Problem Statement and Research Question, policy recommendation",
+    "4. Ruchi Tiwari",
+    "Contributions: PPP Model, Methodological Overview, policy recommendation",
+    "5. Shivangi Varma",
+    "Contributions: Financial Inclusivity, Introduction and Background, policy recommendation",
+    "6. Mahi Tyagi",
+    "Contributions: Impact on Livelihoods, Introduction and Background, policy recommendation",
+  ],
+  references: [
+    {
+      heading: "Alliance, G. Digital Public Infrastructure Ecosystem.",
+
+    },
+    {
+      heading: "Bandura, R., McLean, M., & Smutny, C. (2024). Approaches to digital public infrastructure in the Global South: An overview of India, Ukraine, Brazil, and Zambia. Centre for Strategic and International Studies (CSIS)",
+      links: "https://www.jstor.org/stable/resrep62744"
+    },
+    {
+      heading: "Bhatnagar, S. (2004). E-Government: From vision to implementation. The Sage Publications. Retrieved from ",
+      links: "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.scri bd.com/document/610714527/Subhash-Bhatnagar-E-Government-From-Vision-toImplementation-A-Practical-Guide-With-Case-Studies-SAGE-Publications-Pvt-Ltd-2004-1&ved=2ahUKEwiGzYveu9iOAxU07jgGHUSwCxwQFnoECCAQAQ&usg=AOvVaw2vQj5lPe3AUSAfFohttGAL"
+    },
+    {
+      heading: "Chakraborty, S., & Das, S. (2025). Financial Inclusion of the MSME Sector in India. In Contemporary Business Practices and Sustainable Strategic Growth (pp. 170-185). Bentham Science Publishers.",
+      
+    },
+    {
+      heading: "Committee of Experts on Data Protection Framework for India. (2018). A Free and Fair Digital Economy: Protecting Privacy, Empowering Indians",
+      links: "https://prsindia.org/policy/reportsummaries/free-and-fair-digital-economy"
+    },
+    {
+      heading: "Das, H., Gupta, A., & ILAVARASAN, V. (2025). Unlocking Growth: Drivers of Small Businesses to Embrace Digital Public Infrastructure.",
+    
+    },
+    {
+      heading: "Devi, S. (2025).Impact of digitization and UPI on small informal businesses in India. Journal of Advanced Management Studies, 2(1), 1–4.",
+      links: " https://doi.org/10.36676.jams.v2.i2.34"
+    },
+    {
+      heading: "Dubey, A., Sinha, A., & Raj, A. (2024). Navigating the digital divide in India: A comprehensive guide. Humanities & Social Sciences Reviews, 12(2).",
+      links: "https://doi.org/10.18510/hssr.2024.1223"
+    },
+    {
+      heading: "Economic Survey 2022-23, Arvind Panagariya, VC of NITI Aayog.",
+
+    },
+    {
+      heading: "Government of India. (2000). The Information Technology Act, 2000.",
+      links: "https://www.indiacode.nic.in/handle/123456789/13116"
+    },
+    {
+      heading: "Government of India. (2007). The Payment and Settlement Systems Act, 2007.",
+      links: "https://www.indiacode.nic.in/handle/123456789/2082"
+    },
+    {
+      heading: "Government of India. (2023). Digital Personal Data Protection Act, 2023",
+      links: "https://www.meity.gov.in/content/digital-personal-data-protection-act-2023"
+    },
+    {
+      heading: "Imam, M., & Chinnadurai, A. S. Digital Inclusion for Rural Women: The Role of Panchayati Raj Institutions in Bridging the Gender Gap.",
+
+    },
+    {
+      heading: "International Labour Organization. (2024). Scaling up digital wages: Lessons and challenges from India’s enabling environment. ILO Global Centre on Digital Wages for Decent Work.",
+      links: "https://www.ilo.org"
+    },
+    {
+      heading: "Kshirsagar, A., & Cleary, S. (2024). Achieving equitable growth: An assessment of the impact of digital public infrastructure on informal workers in India. Journal of Student Research, 13(4).",
+      links: "https://www.jsr.org/hs/index.php/path/article/view/8209"
+    },
+    {
+      heading: "Kumari, D., Giri, A. K., &Saruparia, C. (2025). Role of gender-based digital financial inclusion and women empowerment in poverty reduction: evidence from Asian countries. Discover Sustainability, 6(1), 283.",
+      
+    },
+    {
+      heading: "Laskar, M. (2023). Caste-based digital divide and the question of inclusivity. Economic and Political Weekly, 58(31)",
+      links: "https://www.epw.in"
+    },
+    {
+      heading: "Maiti, D., & Khari, B. (2023). Digitalisation, Governance and the Informal Sector.",
+     
+    },
+    {
+      heading: "Mishra, R., & Sharma, R. (2022). Public-private partnerships in digital welfare: Linking Aadhaar to informal sector policy. Indian Journal of Public Administration, 68(3), 278–292.",
+
+    },
+    {
+      heading: "Muralidharan, K., Niehaus, P., &Sukhtankar, S. (2016/2020). The impact of Aadhaar-linked biometric authentication on welfare delivery and leakage in India. In Integrating biometric authentication in India’s welfare programs. India Policy Forum Working Paper.",
+
+    },
+    {
+      heading: "Oxfam India. (2022). India inequality report 2022: Digital divide",
+      links: "https://www.oxfamindia.org"
+    },
+    {
+      heading: "Reserve Bank of India. (nd). Unified Payments Interface (UPI).",
+      links: "https://www.rbi.org.in/commonman/English/scripts/upi.aspx"
+    },
+    {
+      heading: "Sengupta, N., Gaurav, S., & Evans, J. (2021). The skills space in informal work: Insights from Bangalore slums. The Journal of Development Studies, 57(10).",
+      links: "https://doi.org/10.1080/00220388.2021.1898593"
+    },
+    {
+      heading: "Sharma, S., Bose, A., Shekhar, H., & Pathania, R. (2019). Strategy for financial inclusion of informal economy workers (No. 374). Working Paper.",
+   
+    },
+    {
+      heading: "SSharma, V. (2020). PPPs for urban slums: Innovations in digital service delivery. Centre for Policy Research. (CPR).",
+ 
+    },
+    {
+      heading: "Sindakis, S., &Showkat, G. (2024). The digital revolution in India: bridging the gap in rural technology adoption. Journal of Innovation and Entrepreneurship, 13(1), 29.",
+
+    },
+    {
+      heading: "Singh, C., & Sanyal, A. (2023). An Analysis of Financial Inclusion of India. Productivity, 64(3), 309-320.",
+
+    },
+    {
+      heading: "Singh, R. (2019). Role of PPPs in infrastructure development for informal sectors in Indian cities. Journal of Urban Affairs, 41(5), 715–731.",
+
+    },
+    {
+      heading: "State-of-Indias-Informal-Sector_A-Deep-Dive-into-Enterprises-Statistics-and-Segments",
+      links: "https://www.microsave.net/wp-content/uploads/2024/12/State-of-Indias-Informal-Sector_A-Deep-Dive-into-Enterprises-Statistics-and-Segments.pdf"
+    },
+    {
+      heading: "Unique Identification Authority of India (UIDAI)",
+      links: "https://uidai.gov.in"
+    },
+    {
+      heading: "Vaidehi, Y., Hiranandani, K., &Rajgopal, S. (2020). Bridging the digital divide through community networks: The case of Gram Marg. Proceedings of the 7th Annual Symposium on Computing for Development.",
+      links: "https://doi.org/10.1145/3446223.3446224"
+    },
+    {
+      heading: "Vedavalli, P., Kwatra, N., Srinivasan, S., & Sinha, V. (2023). Leveraging Digital Public Infrastructure for building inclusive social protection systems.",
+
+    },
+    {
+      heading: "World Bank. (2018). India development update: Digital infrastructure and household welfare. World Bank.",
+      links: "https://en.wikipedia.org/wiki/SWAYAM"
+    },
+    {
+      heading: "World Bank. (n.d.). PPP Knowledge Lab: Introduction to Public-Private Partnerships. Retrieved",
+      links: "https://ppp.worldbank.org/public-privatepartnership/PPP_Online_Reference_Guide/Introduction"
+    }
+  ]
+},
 
 
 
