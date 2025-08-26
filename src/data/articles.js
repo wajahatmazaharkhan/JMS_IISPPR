@@ -10552,7 +10552,7 @@ const articles = [
   ]
   
 },{
-  id: 4,
+  id: 6,
   serialNumber: 42,
   issue: 4,
   volume: 1,
@@ -10720,7 +10720,7 @@ const articles = [
   ]
 },
 {
-  id: 4,
+  id: 7,
   serialNumber: 43,
   issue: 4,
   volume: 1,
@@ -10982,7 +10982,7 @@ const articles = [
   ]
 },
 {
-  id: 4,
+  id: 8,
   serialNumber: 44,
   issue: 4,
   volume: 1,

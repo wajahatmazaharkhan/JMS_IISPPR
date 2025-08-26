@@ -80,7 +80,10 @@ import RelationshipBetweenIdentity from "./pages/editions/RelationshipBetweenIde
 import FromHegemonytoHumanitarianism from "./pages/editions/FromHegemonytoHumanitarianism";
 import FiscalRisk from "./pages/editions/FiscalRisk";
 import FromPolicyToProgress from "./pages/editions/FromPolicyToProgress";
-
+import AdvancingUrbanInstitutional from "./pages/editions/AdvancingUrbanInstitutional";
+import AnlysingTheScopeOfFeminist from "./pages/editions/AnlysingTheScopeOfFeminist";
+import BridgingTheDivide_DigitalPublic from "./pages/editions/BridgingTheDivide_DigitalPublic";
+import LocalizingClimateActionTheNationalAction from "./pages/editions/LocalizingClimateActionTheNationalAction";
 
 
 
@@ -321,6 +324,22 @@ function AppRoutes() {
           <Route
           path="/From-Policy-To-Progress"
           element={<FromPolicyToProgress/>}
+          />
+           <Route
+          path="Advancing-Urban-Institutional"
+          element={<AdvancingUrbanInstitutional/>}
+          />
+          <Route
+          path="Anlysing-The-Scope-Of-Feminist"
+          element={<AnlysingTheScopeOfFeminist/>}
+          />
+           <Route
+          path="Bridging-The-Divide-Digital-Public"
+          element={<BridgingTheDivide_DigitalPublic/>}
+          />
+          <Route
+          path="Localizing-Climate-Action-The-National-Action"
+          element={<LocalizingClimateActionTheNationalAction/>}
           />
 
           
