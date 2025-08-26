@@ -5,56 +5,56 @@ const EditorialBoard = () => {
     {
       name: 'Dr. Abuzar Nomani (Post Doc)',
       desc: 'Chief Editor, Assoc. Prof. at Vellore Institute of Technology',
-      email: 'abuzarnomani88@gmail.com',
+      email: 'Abuzar.nomani@vit.ac.in',
+      postaladdress:
+        'Dr. Abuzar Nomani, Associate Professor, Department of Commerce, SSL, Vellore Institute of Technology, Vellore-632014, Tamil Nadu, India',
     },
     {
       name: 'Dr. Rahila Rais',
-      desc: 'Literature, AMU',
-      email: 'rahilarais@gmail.com',
+      desc: 'Assistant professor ,Department of Hindi AMU Aligarh',
+      email: 'rrais@myamu.ac.in',
+      postaladdress: 'Rahila Rais , Department of Hindi,AMU,UP202002',
     },
     {
       name: 'Dr. Riaz Ahmad',
       desc: 'Assistant Professor, AMU',
-      email: 'riaz.ahmad.tech@gmail.com',
+      email: 'rahmad1@myamu.ac.in',
+      postaladdress:
+        'C-6 Warden House S.S Hall Aligarh Muslim University Aligarh-202002',
     },
     {
       name: 'Dr. Kashif Raees',
       desc: 'Science, Chandigarh University',
       email: 'Kashif.e11790@cumail.in',
-    },
-    {
-      name: 'Dr. Mayank Kumar',
-      desc: 'Computer Science',
-      email: 'singhal009123@gmail.com',
+      postaladdress:
+        'Department of Chemistry, Chandigarh university chandigarh-140413',
     },
     {
       name: 'Mohd Adnan',
       desc: 'Assistant Professor, Uttranchal University, Dehradun, India',
       email: 'mohdadnan@uumail.in',
+      postaladdress:
+        'Department of commerce, Uttranchal university, Dehradun-248007',
     },
     {
       name: 'Dr. Sunny Wadhwaniya',
       desc: 'Assistant Professor, School of Doctoral Research and Innovation, GLS University',
-      email: 'sunny.cug@gmail.com',
-    },
-    {
-      name: 'Dr. Varun Kumar',
-      desc: 'Commerce, Arunachal University of Studies',
+      email: 'sunny.wadhwania@glsuniversity.ac.in',
+      postaladdress: 'Shree Angan Society, Vastrapur, Ahmedabad, Gujarat-380015',
     },
     {
       name: 'Dr. Faizan Khan Sherwani',
       desc: 'Assistant Professor, Department of Management, Jamia Hamdard',
-      email: 'faizanagri2017@gmail.com',
-    },
-    {
-      name: 'Dr. Mohd Farooq Khan',
-      desc: 'Author and Critic, PhD',
-      email: 'mfkhan786@gmail.com',
+      email: 'drsherwani@jamiahamdard.ac.in',
+      postaladdress:
+        'Dr APJ Abdul Kalam Boys Hostel pulpehlad pur Jamia Hamdard-110044',
     },
     {
       name: 'Dr. Raj Kumar Singh',
-      desc: 'Indian Institute of Management SIRMAUR',
-      email: 'rajanthro91@gmail.com',
+      desc: 'Department of finance,IIM ',
+      email: 'research.associate@iimsirmaur.ac.in',
+      postaladdress:
+        'Department of finance,IIM SIRMAUR, DHAULA KUAN, SIRMAUR, PAONTA SAHIB, HIMACHAL PRADESH-173025',
     },
   ];
 
@@ -62,8 +62,9 @@ const EditorialBoard = () => {
     <div
       className="relative min-h-screen text-white"
       style={{
-        background: 'linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)',
-      }}  
+        background:
+          'linear-gradient(to right, #caa1b8ff, #3b0a29ff, #2b1426ff)',
+      }}
     >
       {/* Hero Banner */}
       <motion.div
@@ -72,12 +73,13 @@ const EditorialBoard = () => {
         transition={{ duration: 0.6 }}
         className="text-white py-12 text-center"
         style={{
-        background: 'linear-gradient(to right,  #482742ff)',
-       }}
+          background: 'linear-gradient(to right,  #482742ff)',
+        }}
       >
         <h1 className="text-4xl font-bold font-serif mb-2">Editorial Board</h1>
         <p className="text-accent-light max-w-2xl mx-auto px-4">
-          Meet our esteemed editorial board committed to academic excellence, peer-review integrity, and interdisciplinary leadership.
+          Meet our esteemed editorial board committed to academic excellence,
+          peer-review integrity, and interdisciplinary leadership.
         </p>
       </motion.div>
 
@@ -95,17 +97,31 @@ const EditorialBoard = () => {
               whileHover={{ scale: 1.03 }}
               className="bg-white border border-accent-light p-6 rounded-xl shadow-md hover:shadow-xl hover:border-rose-900 transition-all duration-300"
             >
-              <h2 className="text-lg font-bold font-serif mb-1" style={{ color: '#703b5dff' }}>{member.name}</h2>
+              <h2
+                className="text-lg font-bold font-serif mb-1"
+                style={{ color: '#703b5dff' }}
+              >
+                {member.name}
+              </h2>
               <p className="text-subtext text-sm mb-2 italic">{member.desc}</p>
+
               {member.email && (
                 <p className="text-sm text-gray-700 break-all">
                   <span className="font-medium">Email: </span>
                   <a
                     href={`mailto:${member.email}`}
-                    className="hover:underline"  style={{ color: '#703b5dff' }}
+                    className="hover:underline"
+                    style={{ color: '#703b5dff' }}
                   >
                     {member.email}
                   </a>
+                </p>
+              )}
+
+              {member.postaladdress && (
+                <p className="text-sm text-gray-700 mt-1 break-words">
+                  <span className="font-medium">Address: </span>
+                  {member.postaladdress}
                 </p>
               )}
             </motion.div>
@@ -119,10 +135,16 @@ const EditorialBoard = () => {
           transition={{ delay: 0.5, duration: 0.7 }}
           className="max-w-4xl mx-auto mt-20 p-6 text-center bg-white border border-accent-light shadow rounded-xl"
         >
-          <h2 className="text-2xl font-bold mb-2" style={{ color: '#703b5dff' }}>Student Editorial Panel</h2>
+          <h2
+            className="text-2xl font-bold mb-2"
+            style={{ color: '#703b5dff' }}
+          >
+            Student Editorial Panel
+          </h2>
           <p className="text-gray-700">
-            We are building a student-led editorial panel for UG/PG scholars to foster leadership and academic excellence.
-            Interested students will be added soon.
+            We are building a student-led editorial panel for UG/PG scholars to
+            foster leadership and academic excellence. Interested students will
+            be added soon.
           </p>
         </motion.div>
       </div>
