@@ -4,7 +4,7 @@ const EditorialBoard = () => {
   const boardMembers = [
     {
       name: 'Dr. Abuzar Nomani (Post Doc)',
-      desc: 'Chief Editor, Assoc. Prof. at Vellore Institute of Technology',
+      desc: 'Chief Editor, Assoc. Prof. ',
       email: 'Abuzar.nomani@vit.ac.in',
       postaladdress:
         'Dr. Abuzar Nomani, Associate Professor, Department of Commerce, SSL, Vellore Institute of Technology, Vellore-632014, Tamil Nadu, India',
@@ -13,7 +13,7 @@ const EditorialBoard = () => {
       name: 'Dr. Rahila Rais',
       desc: 'Assistant professor ,Department of Hindi AMU Aligarh',
       email: 'rrais@myamu.ac.in',
-      postaladdress: 'Rahila Rais , Department of Hindi,AMU,UP202002',
+      postaladdress: 'Rahila Rais , Department of Hindi,AMU,UP 202002',
     },
     {
       name: 'Dr. Riaz Ahmad',
@@ -24,7 +24,7 @@ const EditorialBoard = () => {
     },
     {
       name: 'Dr. Kashif Raees',
-      desc: 'Science, Chandigarh University',
+      desc: ' Assistant Professor ,Science, Chandigarh University',
       email: 'Kashif.e11790@cumail.in',
       postaladdress:
         'Department of Chemistry, Chandigarh university chandigarh-140413',
@@ -51,7 +51,7 @@ const EditorialBoard = () => {
     },
     {
       name: 'Dr. Raj Kumar Singh',
-      desc: 'Department of finance,IIM ',
+      desc: 'Department of finance,IIM  SIRMUR ',
       email: 'research.associate@iimsirmaur.ac.in',
       postaladdress:
         'Department of finance,IIM SIRMAUR, DHAULA KUAN, SIRMAUR, PAONTA SAHIB, HIMACHAL PRADESH-173025',
