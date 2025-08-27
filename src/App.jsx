@@ -84,6 +84,11 @@ import AdvancingUrbanInstitutional from "./pages/editions/AdvancingUrbanInstitut
 import AnlysingTheScopeOfFeminist from "./pages/editions/AnlysingTheScopeOfFeminist";
 import BridgingTheDivide_DigitalPublic from "./pages/editions/BridgingTheDivide_DigitalPublic";
 import LocalizingClimateActionTheNationalAction from "./pages/editions/LocalizingClimateActionTheNationalAction";
+import TrappedinSilence from "./pages/editions/TrappedinSilence";
+import WhatImpactWill from "./pages/editions/WhatImpactWill";
+import ShouldEcoideBeRecognized from "./pages/editions/ShouldEcoideBeRecognized";
+import DigitalPlatformDisconnectedProtections from "./pages/editions/DigitalPlatformDisconnectedProtections";
+
 
 
 
@@ -341,23 +346,25 @@ function AppRoutes() {
           path="Localizing-Climate-Action-The-National-Action"
           element={<LocalizingClimateActionTheNationalAction/>}
           />
-
           <Route
-          path="Advancing-Urban-Institutional"
-          element={<AdvancingUrbanInstitutional/>}
-          />
-          <Route
-          path="Anlysing-The-Scope-Of-Feminist"
-          element={<AnlysingTheScopeOfFeminist/>}
+          path="Trapped-in-silence"
+          element={<TrappedinSilence/>}
           />
            <Route
-          path="Bridging-The-Divide-Digital-Public"
-          element={<BridgingTheDivide_DigitalPublic/>}
+          path="digital-platform"
+          element={<DigitalPlatformDisconnectedProtections/>}
           />
           <Route
-          path="Localizing-Climate-Action-The-National-Action"
-          element={<LocalizingClimateActionTheNationalAction/>}
+          path="What-Impact"
+          element={<WhatImpactWill/>}
           />
+          <Route
+          path="Should-Eco"
+          element={<ShouldEcoideBeRecognized/>}
+          />
+
+
+
 
           
         <Route path="*" element={<LandingPage />} />

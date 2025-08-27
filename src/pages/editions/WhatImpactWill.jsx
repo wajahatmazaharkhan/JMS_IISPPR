@@ -1,8 +1,8 @@
 import articles from "../../data/articles";
 import ArticlePage from "../../components/ArticlePage";
 
-const ShouldEcoideBeRecognized = () => {
-    const article = articles.find((a) => a.id === 6 && a.issue === 4); // ID
+const WhatImpactWill = () => {
+    const article = articles.find((a) => a.id === 7 && a.issue === 4); // ID
 
     return article ? (
         <ArticlePage
@@ -22,4 +22,4 @@ const ShouldEcoideBeRecognized = () => {
     );
 };
 
-export default ShouldEcoideBeRecognized;
+export default WhatImpactWill;
