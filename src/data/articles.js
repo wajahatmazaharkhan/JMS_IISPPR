@@ -11256,14 +11256,14 @@ const articles = [
 
 
   {
-    "id": 5,
-    "serialNumber": 40,
-    "issue": 4,
-    "volume": 1,
-    "title": "Trapped in Silence: The Psychosocial Consequences of Masculine Norms and Emotional Suppression Among Young Men",
-    "author": "Research Team¹; Collaborators²; Affiliated Researchers³",
-    "authorAbbrev": "Research Team; Collaborators; Affiliated Researchers",
-    "abstract": [
+    id: 5,
+    serialNumber: 40,
+    issue: 4,
+    volume: 1,
+    title: "Trapped in Silence: The Psychosocial Consequences of Masculine Norms and Emotional Suppression Among Young Men",
+    author: "Research Team; Collaborators², Affiliated Researchers",
+    authorAbbrev: "Research Team; Collaborators; Affiliated Researchers",
+    abstract: [
       "This study explores the psychosocial consequences of emotional suppression and adherence to traditional masculine norms among young men in India.",
       "Using a sample of 79 Indian men aged 18–25, the study employed the Conformity to Masculine Norms Inventory-22 (CMNI-22) and the Emotion Regulation Questionnaire (ERQ) to assess internalized norms and emotional regulation strategies.",
       "Results indicated a high degree of conformity to norms such as risk-taking, emotional control, dominance, and self-reliance, alongside elevated scores for expressive suppression.",
@@ -11271,7 +11271,7 @@ const articles = [
       "These outcomes underscore the urgent need for culturally sensitive mental health interventions, emotional education, and a redefinition of masculinity that validates emotional expression.",
       "Such efforts are critical to improving mental health outcomes and interpersonal well-being among Indian men."
     ],
-    "keyword": [
+    keyword: [
       "Masculinity",
       "emotional suppression",
       "Indian men",
@@ -11282,8 +11282,8 @@ const articles = [
       "mental health stigma",
       "gender norms"
     ],
-    "status": "",
-    "intro": [
+    status: "",
+    intro: [
       "Over 70% of suicide deaths in India are men, not because they feel they are less but because they have been taught to show less. Behind these numbers there is this cultural script that rewards emotional control and punishes vulnerability.",
       "From a young age, Indian boys are taught that emotions like sadness, fear, and tenderness are signs of weakness and they can't be weak. These aren't just short-lived lessons, they become the foundation of how boys see themselves and the world around them.",
       "Masculinity, especially in South Asia, means strength, dominance and emotional control. These ideas are reinforced at home, in schools, through media and even with peer groups. A boy who cries might be bullied or scolded. Over time emotional suppression becomes second nature, since they have been conditioned to do it.",
@@ -11292,10 +11292,10 @@ const articles = [
       "This article explores psychosocial consequences of emotional suppression as learned behaviour particularly in young Indian men. Drawing from psychological frameworks like Social Learning Theory and Gender Schema Theory, it unpacks emotional restraint through generations."
     ]
     ,
-    "content": [
+    content: [
       {
-        "heading": "THEORETICAL FOUNDATIONS OF MASCULINITY",
-        "paragraphs": [
+        heading: "THEORETICAL FOUNDATIONS OF MASCULINITY",
+        paragraphs: [
           "In order to grasp the full scope of the changes that occurred within masculinity, one would need to look at the shifts both materially and ideologically. Dominance, physical strength, and the ability to provide protection were the defining traits of masculinity in early agrarian and warrior societies.",
           "The rise of capitalism and industrialization in the 18th and 19th century marked a defining change in this aspect and resulted in men being labeled as 'breadwinners.' The economic transformation brought about a change in societal structure.",
           "One foundational framework is the theory of Hegemonic Masculinity (Connell, 1987, 2005). This model posits that masculinity is not a singular, fixed identity but a hierarchical structure where certain forms are culturally privileged over others.",
@@ -11305,8 +11305,8 @@ const articles = [
         ]
       },
       {
-        "heading": "MASCULINITY SCRIPTS IN THE INDIAN CONTEXT",
-        "paragraphs": [
+        heading: "MASCULINITY SCRIPTS IN THE INDIAN CONTEXT",
+        paragraphs: [
           "Masculinity in India doesn't follow a single template, it shifts across regions, religions, castes, and generations. But there are some recurring patterns. At the core of many traditional ideals is the idea that a man should provide, protect, and above all, stay emotionally contained.",
           "In upper-caste Hindu settings, masculinity has often been shaped by Brahmanical patriarchy (Chakravarti, 1993). This model frames the ideal man as calm, controlled, sexually restrained, and emotionally distant.",
           "Dalit masculinity, for example, has developed very differently, often in active resistance to these dominant upper-caste norms. Sarkar (2017) highlights how, for many Dalit communities, masculinity is tied to assertiveness, defiance, and collective pride.",
@@ -11315,8 +11315,8 @@ const articles = [
         ]
       },
       {
-        "heading": "EMOTIONAL SUPPRESSION AS A LEARNED BEHAVIOUR",
-        "paragraphs": [
+        heading: "EMOTIONAL SUPPRESSION AS A LEARNED BEHAVIOUR",
+        paragraphs: [
           "From early childhood, boys are taught both directly and indirectly that emotions such as sadness and fear are signs of weakness. These teachings don't have a short-term impact. Over time, repeated reinforcement through observation and social feedback makes these actions emotionally ingrained habits.",
           "Albert Bandura's social learning theory explains that children learn behaviours by watching other people, especially the people they look up to (Bandura, 1977). When a boy gets scolded for 'crying', praised for being 'strong' and teased for being sensitive, he learns which emotions are acceptable and which are not.",
           "In the Indian context, social learning starts in early childhood. A report by Save the Children India states that 70% of boys between the ages of 6-12 have been told not to cry by their parents and teachers (Save the Children, 2022).",
@@ -11326,8 +11326,8 @@ const articles = [
         ]
       },
       {
-        "heading": "MENTAL HEALTH CONSEQUENCES",
-        "paragraphs": [
+        heading: "MENTAL HEALTH CONSEQUENCES",
+        paragraphs: [
           "The emotional silence many Indian boys are taught to maintain doesn't end in childhood—it follows them into adulthood, often in the form of quiet suffering.",
           "One of the most common outcomes of long-term emotional suppression is anxiety. A study by Singh (2023) found that college-going men who scored high on emotional suppression also showed significantly elevated signs of social anxiety and restlessness.",
           "Suppressed sadness often doesn't disappear—it just shows up in different ways. For many men, it appears as depression, though it may not look like the kind we often hear about.",
@@ -11339,8 +11339,8 @@ const articles = [
         ]
       },
       {
-        "heading": "MASCULINITY AND SOCIAL FUNCTIONING: EXTERNAL PSYCHO-SOCIAL CONSEQUENCES",
-        "paragraphs": [
+        heading: "MASCULINITY AND SOCIAL FUNCTIONING: EXTERNAL PSYCHO-SOCIAL CONSEQUENCES",
+        paragraphs: [
           "Rigid masculine norms shape how boys and young men understand themselves and their place in the world. These norms often push them to suppress emotions, avoid vulnerability, and follow narrow ideas of strength and control.",
           "Among adolescent and college-aged boys, friendships often center on shared activities like sports or games, rarely fostering true emotional openness. Vulnerabilities, such as sadness or fear, are usually discouraged, either subtly through teasing or simply via silence.",
           "In educational and professional settings, the performance of masculinity requires a display of confidence and composure, even when young men are experiencing significant distress. Emotional expression is often wrongly viewed as a sign of weakness.",
@@ -11350,8 +11350,8 @@ const articles = [
         ]
       },
       {
-        "heading": "COPING MECHANISMS AND BEHAVIOURAL MANIFESTATIONS",
-        "paragraphs": [
+        heading: "COPING MECHANISMS AND BEHAVIOURAL MANIFESTATIONS",
+        paragraphs: [
           "Rigid masculine norms significantly dictate not only which emotions young men are permitted to express but also how they manage emotional pain.",
           "Many young men often turn to alcohol, tobacco, or recreational drugs as a way to cope with their repressed emotions. These substances act as temporary escape routes, providing a brief sense of relief from emotional pain.",
           "It's pretty common for a lot of young men to think that sharing their feelings or reaching out for emotional support means they're weak. Because of this mindset, they often keep their distance from others, avoid deep conversations, and instead dive into solitary activities.",
@@ -11363,8 +11363,8 @@ const articles = [
         ]
       },
       {
-        "heading": "IMPLICATIONS FOR INTERVENTIONS",
-        "paragraphs": [
+        heading: "IMPLICATIONS FOR INTERVENTIONS",
+        paragraphs: [
           "The way masculine norms often push young men to suppress their emotions can have a significant effect on their mental and social health, especially in India, where these expectations are deeply ingrained and supported by various social structures.",
           "Targeted interventions can help: encourage emotional literacy as boys grow up; make vulnerability a normal part of interactions among male peers and within families; challenge harmful stereotypes about masculinity that are prevalent in homes, schools, and the media; tackle mental health issues like anxiety and relationship struggles that arise from emotional suppression.",
           "School and Community-Based Programs: Set up emotional education programs that guide boys in recognizing and expressing a full spectrum of emotions; host peer support workshops that foster safe environments for young men to open up about their feelings without the worry of being judged.",
@@ -11376,8 +11376,8 @@ const articles = [
         ]
       },
       {
-        "heading": "RESEARCH METHODOLOGY",
-        "paragraphs": [
+        heading: "RESEARCH METHODOLOGY",
+        paragraphs: [
           "Aim: To explore the psychosocial consequences of emotional suppression among young men in India using Conformity to Masculine Norms Inventory — 22 (CMNI-22) and Emotion Regulation Questionnaire (ERQ).",
           "Participants: The study included 79 male participants from the Indian population, aged 18 to 25 years. Inclusion criterion: Self-identified males within the age range of 18–25 residing in India. Exclusion criterion: Individuals identifying as female or outside the specified age range.",
           "Assessments and Measures: The CMNI-22 (Mahalik et al., 2003) is a validated short-form measure assessing adherence to traditional Western masculine norms across 11 dimensions. The ERQ (Gross and John, 2003) assesses two emotion regulation strategies: Cognitive Reappraisal and Expressive Suppression.",
@@ -11386,8 +11386,8 @@ const articles = [
         ]
       },
       {
-        "heading": "INTERPRETATION OF RESULTS & DISCUSSION",
-        "paragraphs": [
+        heading: "INTERPRETATION OF RESULTS & DISCUSSION",
+        paragraphs: [
           "The findings provide valuable insights into how societal expectations of masculinity influence emotional expression and coping mechanisms within this demographic.",
           "The high scores for 'Pursuit of status', 'Risk taking', and 'Winning' indicate a strong emphasis among the participants on achieving success, taking bold actions, and being victorious, aligning with the 'Big Wheel' and 'Give 'Em Hell' scripts.",
           "The moderately high scores for 'Emotional control' and 'Self-reliance' underscore the ingrained societal expectation for men to be stoic and handle challenges independently, reflecting the 'Sturdy Oak' norm.",
@@ -11399,7 +11399,7 @@ const articles = [
         ]
       }
     ],
-    "conclusion": [
+    conclusion: [
       "The study reveals that emotional suppression and adherence to traditional masculine norms have profound psychosocial consequences for young Indian men, including increased psychological distress, relational challenges, and reduced help-seeking behavior.",
       "High conformity to norms such as risk-taking, emotional control, and self-reliance, coupled with elevated expressive suppression, underscores the deeply ingrained cultural expectations that prioritize stoicism over emotional expression.",
       "These findings highlight the urgent need for targeted interventions that promote emotional literacy, challenge harmful stereotypes, and provide accessible mental health support tailored to the cultural context.",
@@ -11407,67 +11407,67 @@ const articles = [
       "Future research should employ larger, more diverse samples and longitudinal designs to better understand the causal relationships between masculine norms, emotional regulation, and mental health outcomes.",
       "Ultimately, fostering a more inclusive and flexible understanding of masculinity can help reduce the stigma around emotional expression and help-seeking, leading to healthier individuals and communities."
     ],
-    "references": [
+    references: [
       {
-        "heading": "Anderson, E. (2009). Inclusive masculinity: The changing nature of masculinities. Routledge."
+        heading: "Anderson, E. (2009). Inclusive masculinity: The changing nature of masculinities. Routledge."
       },
       {
-        "heading": "Bandura, A. (1977). Social Learning Theory. Prentice Hall."
+        heading: "Bandura, A. (1977). Social Learning Theory. Prentice Hall."
       },
       {
-        "heading": "Bem, S. L. (1981). Gender schema theory: A cognitive account of sex typing. Psychological Review, 88(4), 354–364."
+        heading: "Bem, S. L. (1981). Gender schema theory: A cognitive account of sex typing. Psychological Review, 88(4), 354–364."
       },
       {
-        "heading": "Brannon, R. (1976). The male sex role: Our culture's blueprint for manhood. In D. David & R. Brannon (Eds.), The forty-nine percent majority: The male sex role (pp. 1–48). Addison-Wesley."
+        heading: "Brannon, R. (1976). The male sex role: Our culture's blueprint for manhood. In D. David & R. Brannon (Eds.), The forty-nine percent majority: The male sex role (pp. 1–48). Addison-Wesley."
       },
       {
-        "heading": "Chakravarti, U. (1993). Conceptualising Brahmanical patriarchy in early India: Gender, caste, class, and state. Economic and Political Weekly, 28(14), 579–585."
+        heading: "Chakravarti, U. (1993). Conceptualising Brahmanical patriarchy in early India: Gender, caste, class, and state. Economic and Political Weekly, 28(14), 579–585."
       },
       {
-        "heading": "Connell, R. W. (1995). Masculinities. University of California Press."
+        heading: "Connell, R. W. (1995). Masculinities. University of California Press."
       },
       {
-        "heading": "Connell, R. W. (2005). Masculinities (2nd ed.). Polity Press."
+        heading: "Connell, R. W. (2005). Masculinities (2nd ed.). Polity Press."
       },
       {
-        "heading": "Gross, J. J., & John, O. P. (2003). Individual differences in two emotion regulation processes: Implications for affect, relationships, and well-being. Journal of Personality and Social Psychology, 85(2), 348–362."
+        heading: "Gross, J. J., & John, O. P. (2003). Individual differences in two emotion regulation processes: Implications for affect, relationships, and well-being. Journal of Personality and Social Psychology, 85(2), 348–362."
       },
       {
-        "heading": "Kimmel, M. S. (1996). Manhood in America: A Cultural History. Free Press."
+        heading: "Kimmel, M. S. (1996). Manhood in America: A Cultural History. Free Press."
       },
       {
-        "heading": "Mahalik, J. R., Locke, B. D., Ludlow, L. H., Diemer, M. A., Scott, R. P., Gottfried, M., & Freitas, G. (2003). Development of the Conformity to Masculine Norms Inventory. Psychology of Men & Masculinity, 4(1), 3–25."
+        heading: "Mahalik, J. R., Locke, B. D., Ludlow, L. H., Diemer, M. A., Scott, R. P., Gottfried, M., & Freitas, G. (2003). Development of the Conformity to Masculine Norms Inventory. Psychology of Men & Masculinity, 4(1), 3–25."
       },
       {
-        "heading": "National Crime Records Bureau (NCRB). (2021). Accidental Deaths and Suicides in India. Ministry of Home Affairs."
+        heading: "National Crime Records Bureau (NCRB). (2021). Accidental Deaths and Suicides in India. Ministry of Home Affairs."
       },
       {
-        "heading": "Pleck, J. H. (1981). The myth of masculinity. MIT Press."
+        heading: "Pleck, J. H. (1981). The myth of masculinity. MIT Press."
       },
       {
-        "heading": "Pleck, J. H. (1995). The gender role strain paradigm: An update. In R. F. Levant & W. S. Pollack (Eds.), A new psychology of men (pp. 11–32). Basic Books."
+        heading: "Pleck, J. H. (1995). The gender role strain paradigm: An update. In R. F. Levant & W. S. Pollack (Eds.), A new psychology of men (pp. 11–32). Basic Books."
       },
       {
-        "heading": "Sarkar, S. (2017). Dalit masculinities and cultural politics in India. SAGE Publications India."
+        heading: "Sarkar, S. (2017). Dalit masculinities and cultural politics in India. SAGE Publications India."
       },
       {
-        "heading": "Save the Children. (2022). Boys and Emotions in Indian Households. Save the Children India Report."
+        heading: "Save the Children. (2022). Boys and Emotions in Indian Households. Save the Children India Report."
       },
       {
-        "heading": "Verma, R. K., & Mahendra, V. S. (2004). Construction of masculinity in India: A study of adolescent boys in New Delhi, A gender and sexual health perspective. Population Council."
+        heading: "Verma, R. K., & Mahendra, V. S. (2004). Construction of masculinity in India: A study of adolescent boys in New Delhi, A gender and sexual health perspective. Population Council."
       }
     ]
   },
 
   {
-    "id": 6,
-    "serialNumber": 41,
-    "issue": 4,
-    "volume": 1,
-    "title": "SHOULD ECOCIDE BE RECOGNIZED AS THE FIFTH INTERNATIONAL CRIME UNDER THE ROME STATUTE? A LEGAL, ETHICAL, AND JURISDICTIONAL ANALYSIS.",
-    "author": "Ankitha Lahari M N¹; Aiswaryya Dhamodaran²; Ananya Aggarwal³; Vidhushi⁴; K K Sree Purna⁵",
-    "authorAbbrev": "Lahari M N, A.; Dhamodaran, A.; Aggarwal, A.; Vidhushi; Sree Purna, K. K.",
-    "abstract": [
+    id: 6,
+    serialNumber: 41,
+    issue: 4,
+    volume: 1,
+    title: "SHOULD ECOCIDE BE RECOGNIZED AS THE FIFTH INTERNATIONAL CRIME UNDER THE ROME STATUTE? A LEGAL, ETHICAL, AND JURISDICTIONAL ANALYSIS.",
+    author: "Ankitha Lahari M N¹; Aiswaryya Dhamodaran²; Ananya Aggarwal³; Vidhushi⁴; K K Sree Purna⁵",
+    authorAbbrev: "Lahari M N, A.; Dhamodaran, A.; Aggarwal, A.; Vidhushi; Sree Purna, K. K.",
+    abstract: [
       "This research critically examines the pressing need to recognize ecocide - defined as large-scale, long-term, and serious environmental destruction - as the fifth international crime in the Rome Statute of the International Criminal Court (ICC).",
       "Through a doctrinal and comparative legal approach, this paper assesses the historical development, moral underpinnings, and jurisdictional implications of articulating ecocide internationally.",
       "The paper seeks to demonstrate that ecocide endangers not only the environment, but human rights, world peace, and intergenerational justice, using case studies like the Bhopal gas leak and Deepwater Horizon oil spill to show insufficient legal responses.",
@@ -11475,7 +11475,7 @@ const articles = [
       "The research provides a policy platform including amending the Rome Statute, enacting domestic legislation, developing corporate accountability mechanisms, and integrating restorative justice.",
       "Recognizing ecocide as an international crime is legally possible and an ethical imperative for environmental sustainability, justice, and accountability for future generations."
     ],
-    "keyword": [
+    keyword: [
       "Ecocide",
       "Article 30 of Rome Statute",
       "International Criminal Court",
@@ -11483,29 +11483,27 @@ const articles = [
       "Environmental Crime",
       "International Law"
     ],
-    "status": "",
-    "intro": [
+    status: "",
+    intro: [
       "The term ecocide—literally meaning the killing of the environment—has evolved from a moral outrage to a legally contested concept in international criminal law. The term came into meaning during the Vietnam War with the U.S. military’s use of Agent Orange, resulting in environmental ecological devastation.",
       "Though there is not a legally sanctioned definition of ecocide, it has flared up intermittently in law and political expressions. In 1972, Swedish Prime Minister Olof Palme reduced environmental destruction as a possible international crime during the United Nations Conference on Human Environment.",
       "In the last decade, there has been a renewed interest in environmental destruction in the context of climate change, deforestation, and industrial pollution. The Stop Ecocide Foundation has launched a campaign for ecocide to be recognized as the fifth international crime within the Rome Statute.",
       "In 2021, an important milestone was reached when a panel of international legal experts defined ecocide as 'unlawful or wanton acts committed with knowledge that there is a substantial likelihood of severe and either widespread or long-term damage to the environment being caused by those acts.'",
       "The history of the ecocide concept reflects the increasing urgency to create mechanisms to face transboundary environmental damage through law, forming the intersection of environmental science, morality, and international law as a reaction to the ongoing ecological crisis worldwide."
     ],
-    "content": [
+    content: [
       {
-        "heading": "PROBLEM STATEMENT & RESEARCH OBJECTIVE",
-        "paragraphs": [
+        heading: "PROBLEM STATEMENT & RESEARCH OBJECTIVE",
+        paragraphs: [
           "Ecosystems, human health, and the boundaries of the planet are all under threat from the unprecedented scale of environmental destruction. The planet is irreparably damaged by everything from large oil spills and the destruction of forests to industrial pollution and climate-altering emissions, frequently with no more than a token of legal penalty.",
           "Ecocide is not a crime under international law, a core legal loophole despite global initiatives like the Sustainable Development Goals (SDGs). Genocide, crimes against humanity, war crimes, and the crime of aggression are within the purview of the Rome Statute but not serious environmental damage committed in peace times.",
           "The problem is compounded by the absence of a common definition of ecocide, enforcement procedure problems, and resistance from powerful political and economic actors. Environmental justice issues are severe at the international level due to the disproportionate effect on vulnerable groups, especially in the Global South and Indigenous communities.",
           "By examining the possibility of having ecocide as the fifth core crime under international law at the ICC, the study attempts to bridge the gap in law and norms on the topic. It examines the development of the concept, the philosophical and moral basis for criminalizing it, jurisdictional issues, and repercussions of other legal frameworks."
         ]
-      }
-    ],
-    "content": [
+      },
       {
-        "heading": "RESEARCH OBJECTIVES",
-        "paragraphs": [
+        heading: "RESEARCH OBJECTIVES",
+        paragraphs: [
           "1. To critically examine the legal, ethical, and philosophical foundations of ecocide as an international crime.",
           "2. To determine how effectively the current international criminal justice system addresses environmental harm.",
           "3. To investigate the procedural and jurisdictional barriers to prosecution of ecocide under the Rome Statute.",
@@ -11515,8 +11513,8 @@ const articles = [
         ]
       },
       {
-        "heading": "ETHICAL AND PHILOSOPHICAL JUSTIFICATION FOR CRIMINALISING ECOCIDE",
-        "paragraphs": [
+        heading: "ETHICAL AND PHILOSOPHICAL JUSTIFICATION FOR CRIMINALISING ECOCIDE",
+        paragraphs: [
           "The ethical and philosophical foundations of criminalising ecocide are rooted in a growing awareness of the intrinsic value of nature and the moral imperative to protect it. Legal scholars and ethicists challenge the anthropocentric bias of traditional legal systems and argue for an ecocentric approach.",
           "The philosophical basis lies in the duty to preserve the integrity of the Earth and its ecosystems, not only for human beings but for non-human life and future generations. This principle finds roots in the ethics of intergenerational justice, championed by Hans Jonas in 'The Imperative of Responsibility'.",
           "The concept of deep ecology, developed by Arne Naess, insists on the intrinsic value of all living beings, regardless of their utility to humans. This justifies criminalising ecocide as a recognition of the ecocentric worldview — that ecosystems possess inherent rights and moral consideration.",
@@ -11526,8 +11524,8 @@ const articles = [
         ]
       },
       {
-        "heading": "LEGAL DEFINITION AND GLOBAL JUSTICE",
-        "paragraphs": [
+        heading: "LEGAL DEFINITION AND GLOBAL JUSTICE",
+        paragraphs: [
           "In 2021, a panel of legal experts convened by the Stop Ecocide Foundation proposed an official definition: 'Unlawful or wanton acts committed with knowledge that there is a substantial likelihood of severe and either widespread or long-term damage to the environment being caused by those acts.'",
           "The inclusion of the term 'wanton' introduces a mens rea (mental element) that aligns with international criminal law, meaning acts done with reckless disregard for excessive environmental damage. This maintains philosophical coherence with concepts of moral culpability and gross negligence.",
           "Despite persuasive moral arguments, some scholars urge caution. Legal philosopher Jeremy Waldron warns of the danger in conflating morality and law, where overzealous criminalisation may turn political dissent into prosecutable conduct. Critics also question the practicality of enforcing ecocide and proving intent.",
@@ -11536,8 +11534,8 @@ const articles = [
         ]
       },
       {
-        "heading": "METHODOLOGICAL OVERVIEW",
-        "paragraphs": [
+        heading: "METHODOLOGICAL OVERVIEW",
+        paragraphs: [
           "This research adopts a doctrinal and comparative legal approach to examine the historical and legal foundations of ecocide, its jurisdictional challenges, and its implications in domestic and international jurisdictions.",
           "The doctrinal research methodology involves in-depth scrutiny of laws, case law, treaties, and legal documents concerning environmental law and international criminal law, with specific focus on the Rome Statute (Articles 5–8) to assess the feasibility of adding ecocide.",
           "The comparative legal method is employed to examine how jurisdictions like France, Belgium, the Philippines, Ecuador, and Bolivia have recognized or proposed legal frameworks for ecocide or similar environmental crimes, informing international standard-setting processes.",
@@ -11547,8 +11545,8 @@ const articles = [
         ]
       },
       {
-        "heading": "CORE FINDINGS: COMPARATIVE LEGAL APPROACHES",
-        "paragraphs": [
+        heading: "CORE FINDINGS: COMPARATIVE LEGAL APPROACHES",
+        paragraphs: [
           "There is an increasing global consensus to make ecocide a criminal offense, backed by a growing number of countries initiating legal innovations to prosecute severe environmental destruction.",
           "France (2021): Enacted a law inserting 'ecocide' into its criminal code, though its definition is confined to domestic pollution and is not as serious or global as proposed internationally.",
           "Belgium: The Federal Parliament passed a proposed constitutional amendment to establish ecocide, which could serve as a strong model for incorporating environmental protection into basic criminal law in Europe.",
@@ -11558,8 +11556,8 @@ const articles = [
         ]
       },
       {
-        "heading": "CORE FINDINGS: DEFINITIONAL TRENDS AND CASE STUDIES",
-        "paragraphs": [
+        heading: "CORE FINDINGS: DEFINITIONAL TRENDS AND CASE STUDIES",
+        paragraphs: [
           "The most commonly accepted definition comes from the Independent Expert Panel (2021): 'Unlawful or wanton acts committed with knowledge that there is a substantial likelihood of severe and either widespread or long-term damage to the environment being caused.'",
           "This definition aims to satisfy the gravity test for inclusion in the Rome Statute, capturing the extent of harm and the mental element of ill will or negligence. However, reconciling terms like 'wanton' or 'serious' with national legislation remains a challenge for enforceability.",
           "Case studies highlight the consequences of the legal vacuum: The 1984 Bhopal Gas Tragedy in India resulted in over 15,000 deaths and decades of contamination but was never tried under international criminal law.",
@@ -11569,8 +11567,8 @@ const articles = [
         ]
       },
       {
-        "heading": "CORE FINDINGS: INTERNATIONAL DISCOURSE AND ICC GAPS",
-        "paragraphs": [
+        heading: "CORE FINDINGS: INTERNATIONAL DISCOURSE AND ICC GAPS",
+        paragraphs: [
           "The ecocide crime is being contemplated by global legal and political leaders in an open and growing way. Nations like Vanuatu and the Maldives have officially expressed support for its addition to the ICC's jurisdiction.",
           "The Office of the Prosecutor has commented on the growing significance of environmental crime, and the UN Environment Programme (UNEP) has initiated debate on the environmental rule of law and the need for international accountability systems.",
           "Legal NGOs like ClientEarth, Greenpeace International, and Stop Ecocide International contribute to developing legal models, pushing for reform, and mobilizing public opinion, suggesting ecocide is transforming into a legitimate subject for international legal change.",
@@ -11580,8 +11578,8 @@ const articles = [
         ]
       },
       {
-        "heading": "INTERPRETATION AND ANALYSIS: STAKEHOLDERS AND FEASIBILITY",
-        "paragraphs": [
+        heading: "INTERPRETATION AND ANALYSIS: STAKEHOLDERS AND FEASIBILITY",
+        paragraphs: [
           "Making ecocide a world crime has received mixed feedback. NGOs like Stop Ecocide International and Greenpeace are pushing hard for its criminalization. Indigenous groups, especially in the Amazon, Arctic, and island areas, strongly agree, viewing it as a threat to their land, way of life, and survival.",
           "Countries like Vanuatu, the Maldives, and Belgium back the proposal, but major developed countries are unsure, fearing it might impact their economies and power. Corporations are split—some see it as over-regulation, while environmentally-focused ones see it as a leadership opportunity.",
           "From an ethical standpoint, the rationale is based on environmental stewardship, justice, and the intrinsic worth of nature. It emphasizes intergenerational fairness and our global responsibilities towards vulnerable communities most impacted by, but least responsible for, ecological destruction.",
@@ -11591,8 +11589,8 @@ const articles = [
         ]
       },
       {
-        "heading": "POLICY AND PRACTICE RECOMMENDATIONS",
-        "paragraphs": [
+        heading: "POLICY AND PRACTICE RECOMMENDATIONS",
+        paragraphs: [
           "Modify The Rome Statute: The primary recommendation is to officially recognize ecocide as the fifth international crime using the 2021 expert definition. The incorporation of 'wanton' introduces recklessness, extending beyond the current mens rea in Article 30. This can be accomplished by applying the 'unless otherwise provided' clause in Article 30. The definition must be clarified using scientific metrics (e.g., hectares deforested, tonnes of pollutants) to enhance legal certainty.",
           "Promote National Legislation: Due to the complexity of amending the Rome Statute, domestic legislation must be enacted concurrently. France's 2021 'Climate and Resilience' Law and the EU's Directive 2024/1203, which enhances environmental criminal law, serve as examples. National statutes provide prompt legal remedies, facilitate the evolution of customary international law, and act as laboratories for legal innovation.",
           "Enforce Corporate Criminal Liability: A significant accountability deficit exists as the Rome Statute permits prosecution of individuals only, not corporations. A global treaty, such as the UN Treaty on Business and Human Rights, is necessary to establish binding corporate criminal liability for environmental offences, particularly for firms in high-risk sectors (fossil fuels, mining, industrial agriculture). Individual executives should also bear personal liability under a modified principle of command responsibility.",
@@ -11600,101 +11598,101 @@ const articles = [
         ]
       }
     ],
-    "conclusion": [
+    conclusion: [
       "The acknowledgment of ecocide as an international crime signifies a vital and equitable advancement in international law. It would indicate that the international community no longer condones the wanton devastation of the Earth’s biosphere.",
       "The legal, ethical and jurisdictional obstacles to the adoption of ecocide under the Rome Statute are significant, however, not insurmountable. As scientific consensus increases, national legislation expands, and public acceptance grows, momentum is intensifying.",
       "The criminalisation of ecocide would safeguard both ecosystems and future generations. It would realign the international legal framework towards a more ecologically aware paradigm that appreciates nature not only for its service to humanity but for its intrinsic value.",
       "This would validate the notion that planetary justice is fundamental to peace, security and human existence. It is imperative for nations, courts, and communities to undertake this audacious yet essential action, recognizing environmental damage not merely as a policy failure, but as a grave criminal offence."
     ],
-    "references": [
+    references: [
       {
-        "heading": "Expert Panel on the Legal Definition of Ecocide. (2021). Independent Expert Panel for the Legal Definition of Ecocide: Commentary and Core Text. https://www.stopecocide.earth/legal-definition"
+        heading: "Expert Panel on the Legal Definition of Ecocide. (2021). Independent Expert Panel for the Legal Definition of Ecocide: Commentary and Core Text. https://www.stopecocide.earth/legal-definition"
       },
       {
-        "heading": "Falk, R. (1973). Environmental Warfare and Ecocide: Facts, Appraisal and Proposals. Bulletin of Peace Proposals, 4(1), 80–96."
+        heading: "Falk, R. (1973). Environmental Warfare and Ecocide: Facts, Appraisal and Proposals. Bulletin of Peace Proposals, 4(1), 80–96."
       },
       {
-        "heading": "Gray, M. A. (1996). The International Crime of Ecocide. California Western International Law Journal, 26(2), 215–252."
+        heading: "Gray, M. A. (1996). The International Crime of Ecocide. California Western International Law Journal, 26(2), 215–252."
       },
       {
-        "heading": "Higgins, P. (2010). Eradicating Ecocide: Laws and Governance to Prevent the Destruction of Our Planet. Shepheard-Walwyn."
+        heading: "Higgins, P. (2010). Eradicating Ecocide: Laws and Governance to Prevent the Destruction of Our Planet. Shepheard-Walwyn."
       },
       {
-        "heading": "Sands, P. (2021). The Law of Ecocide. In C. Redgwell & L. Rajamani (Eds.), International Environmental Law (pp. 45–67). Oxford University Press."
+        heading: "Sands, P. (2021). The Law of Ecocide. In C. Redgwell & L. Rajamani (Eds.), International Environmental Law (pp. 45–67). Oxford University Press."
       },
       {
-        "heading": "Schabas, W. A. (2010). The International Criminal Court: A Commentary on the Rome Statute. Oxford University Press."
+        heading: "Schabas, W. A. (2010). The International Criminal Court: A Commentary on the Rome Statute. Oxford University Press."
       },
       {
-        "heading": "Stop Ecocide Foundation. (2021). Ecocide Definition Drafted by International Legal Panel. https://www.stopecocide.earth/legal-definition."
+        heading: "Stop Ecocide Foundation. (2021). Ecocide Definition Drafted by International Legal Panel. https://www.stopecocide.earth/legal-definition."
       },
       {
-        "heading": "Rome Statute of the International Criminal Court (approved on 17 July 1998, entered into force on 1 July 2002) Article 30."
+        heading: "Rome Statute of the International Criminal Court (approved on 17 July 1998, entered into force on 1 July 2002) Article 30."
       },
       {
-        "heading": "Directive (EU) 2024/1203, dated 11 April 2024, concerning environmental protection via criminal law."
+        heading: "Directive (EU) 2024/1203, dated 11 April 2024, concerning environmental protection via criminal law."
       },
       {
-        "heading": "UN Human Rights Council, ‘Legally Binding Instrument on Business and Human Rights’ (Draft 2023)."
+        heading: "UN Human Rights Council, ‘Legally Binding Instrument on Business and Human Rights’ (Draft 2023)."
       },
       {
-        "heading": "Human Rights Watch. (1999). The price of oil: Corporate responsibility and human rights violations in Nigeria’s oil-producing communities. https://www.hrw.org"
+        heading: "Human Rights Watch. (1999). The price of oil: Corporate responsibility and human rights violations in Nigeria’s oil-producing communities. https://www.hrw.org"
       },
       {
-        "heading": "United Nations Environment Programme. (2019). Environmental rule of law: First global report. https://www.unep.org/resources/environmental-rule-law-first-global-report"
+        heading: "United Nations Environment Programme. (2019). Environmental rule of law: First global report. https://www.unep.org/resources/environmental-rule-law-first-global-report"
       },
       {
-        "heading": "Amnesty International. (2004). Clouds of injustice: Bhopal disaster 20 years on. https://www.amnesty.org/en/documents/asa20/015/2004/en/"
+        heading: "Amnesty International. (2004). Clouds of injustice: Bhopal disaster 20 years on. https://www.amnesty.org/en/documents/asa20/015/2004/en/"
       },
       {
-        "heading": "Amazon Watch. (2021). Complicity in destruction IV: How global corporations enable violence in the Amazon. https://amazonwatch.org"
+        heading: "Amazon Watch. (2021). Complicity in destruction IV: How global corporations enable violence in the Amazon. https://amazonwatch.org"
       },
       {
-        "heading": "National Commission on the BP Deepwater Horizon Oil Spill. (2011). Deep water: The Gulf oil disaster and the future of offshore drilling. https://www.oilspillcommission.gov/"
+        heading: "National Commission on the BP Deepwater Horizon Oil Spill. (2011). Deep water: The Gulf oil disaster and the future of offshore drilling. https://www.oilspillcommission.gov/"
       },
       {
-        "heading": "United Nations Human Rights Council. (2011). Report of the Special Rapporteur on the implications for human rights of the environmentally sound management and disposal of hazardous substances and wastes: Niger Delta. https://digitallibrary.un.org/record/710879"
+        heading: "United Nations Human Rights Council. (2011). Report of the Special Rapporteur on the implications for human rights of the environmentally sound management and disposal of hazardous substances and wastes: Niger Delta. https://digitallibrary.un.org/record/710879"
       },
       {
-        "heading": "Kotze, L. J., & French, D. (2018). The Anthropocene, ecocide and the criminal law of the environment. In L. J. Kotze (Ed.), Environmental Law and Governance for the Anthropocene (pp. 133–154). Hart Publishing."
+        heading: "Kotze, L. J., & French, D. (2018). The Anthropocene, ecocide and the criminal law of the environment. In L. J. Kotze (Ed.), Environmental Law and Governance for the Anthropocene (pp. 133–154). Hart Publishing."
       },
       {
-        "heading": "United Nations. (2015). Transforming our world: The 2030 Agenda for Sustainable Development. https://sdgs.un.org/2030agenda"
+        heading: "United Nations. (2015). Transforming our world: The 2030 Agenda for Sustainable Development. https://sdgs.un.org/2030agenda"
       }
     ]
   },
   {
-    "id": 7,
-    "serialNumber": 42,
-    "issue": 4,
-    "volume": 1,
-    "title": "Criminalizing Ecocide: Impacts on Justice",
-    "author": "Pratishtha Purohit¹; Ayushi Sharma²; Janvi Manojsinh Chauhan³; Saroar Mohammad⁴; Ayush Chaturvedi⁵; Tanisha Mitra⁶; Shanvi Thakre⁷",
-    "authorAbbrev": "Purohit, P.; Sharma, A.; Chauhan, J. M.; Mohammad, S.; Chaturvedi, A.; Mitra, T.; Thakre, S.",
-    "abstract": [
+    id: 7,
+    serialNumber: 42,
+    issue: 4,
+    volume: 1,
+    title: "Criminalizing Ecocide: Impacts on Justice",
+    author: "Pratishtha Purohit¹, Ayushi Sharma², Janvi Manojsinh Chauhan³, Saroar Mohammad⁴, Ayush Chaturvedi⁵,Tanisha Mitra⁶,Shanvi Thakre⁷",
+    authorAbbrev: "Purohit, P.; Sharma, A.; Chauhan, J. M.; Mohammad, S.; Chaturvedi, A.; Mitra, T.; Thakre, S.",
+    abstract: [
       "With the increasing environmental crisis across the globe, ecocide has achieved more widespread recognition and broader awareness. It is high time we recognised ecocide as 5th International Crime under the Rome Statute (International Criminal Court,1998) since the existing legal provisions lack regulations or frameworks.",
       "The focus is to solve the paradox of how destruction of the environment during a war is a crime, and the same destruction in peacetime is not considered a crime. The individuals or corporations must be held accountable for the collapse of biodiversity and the displacement of communities.",
       "This paper aims to examine the potential impact of criminalisation of ecocide and establish criminal liability for environmental harm by imposing sanctions and reinforcing justice. The cooperation between international organisations can help the authority to prosecute individuals, corporate leaders, and state actors responsible for large-scale environmental harm.",
       "We require political commitment and global cooperation for implementing ecocide laws and effective enforcement. Ecocide laws will drive corporations and individuals into adapting new and healthier ways that can hold polluters accountable and support in achieving the sustainable development goals 13, 14 and 15.",
       "Finally, the paper affirms a widespread support is needed to ensure that environmental havoc is no longer met with impunity but with justice."
     ],
-    "keyword": [
+    keyword: [
       "Ecocide",
       "Criminalisation",
       "Environment",
       "SDGs",
       "Liability"
     ],
-    "status": "",
-    "intro": [
+    status: "",
+    intro: [
       "From Agent Orange in Vietnam to oil-soaked rivers in the Niger Delta, from the choking gas of Bhopal to the melting corals of the Great Barrier Reef, severe environmental destruction occurs with impunity. While courts prosecute genocide, crimes against humanity, war crimes and the crime of aggression, there is no international mechanism to categorise ecocide as a criminal act deserving of serious legal scrutiny. This is the void that the concept of ecocide seeks to fill.",
       "Ecocide, derived from the Greek word 'oikos' (home) and the Latin 'caedere' (to kill) literally means 'killing our home.' In 2021, a legal definition was drafted by an independent panel of jurists, considering it as 'unlawful or wanton acts committed with knowledge that there is a substantial likelihood of severe and either widespread or long-term damage to the environment being caused by those acts.'",
       "Currently, the international legal system lacks sufficient tools to prosecute those responsible for ecological destruction, and corporations and state actors often avoid criminal liability, facing only regulatory fines or civil litigation. Classifying ecocide as an international crime would elevate environmental preservation to a top-tier legal priority, marking a significant shift in the normative understanding of international law and serving as a preventative measure."
     ],
-    "content": [
+    content: [
       {
-        "heading": "PROBLEM STATEMENT & RESEARCH OBJECTIVE",
-        "paragraphs": [
+        heading: "PROBLEM STATEMENT & RESEARCH OBJECTIVE",
+        paragraphs: [
           "Despite a growing climate emergency and recurring environmental disasters, environmental crimes are not treated with the utmost urgency and gravity they deserve. Various States and multinational corporations often act with impunity, prioritising economic growth and profit over environmental sustainability, due to which vulnerable populations and ecosystems suffer irreparable damage.",
           "The failure to include ecocide as an international crime within the Rome Statute leaves a glaring lacuna in international criminal law. It offers a basis to shift environmental regulation from reactive damage control to proactive ecological protection.",
           "This research aims to examine the potential impact of recognising ecocide as the fifth international crime in the Rome Statute. The study also aims to determine whether criminalising ecocide would lead to the development of new justice frameworks, such as environmental courts or tribunals, and contribute to the realisation of SDGs 13, 14, and 15.",
@@ -11702,8 +11700,8 @@ const articles = [
         ]
       },
       {
-        "heading": "THEMATIC LITERATURE REVIEW",
-        "paragraphs": [
+        heading: "THEMATIC LITERATURE REVIEW",
+        paragraphs: [
           "The discourse on corporate liability for ecocide is supported by case law, international frameworks, and jurists. Higgins (2013) emphasised the role of human agency in defining ecocide and identifying responsible entities. This aligns with Vanderhein's (2008) work on climate justice, stressing that principles like the polluter pays doctrine must be legally enforceable.",
           "The UK Supreme Court's ruling in Okpabi v. Royal Dutch Shell (2021) established that both parent companies and subsidiaries can be held accountable for not adhering to environmental standards. India's framework mandates companies to allocate 2% of profits to CSR activities, including environmental safety. The UK Manslaughter and Corporate Homicide Act, 2007, prosecutes gross negligence leading to death, showing growing recognition of corporate obligations.",
           "At the international level, the Rome Statute only penalises environmental destruction during conflict, not in peacetime, raising concerns about the need to criminalise ecocide. Schwegler argues that sanctions alone are insufficient; a normative shift is needed. Verzola (2004) notes that corporate profit motives often conflict with environmental safety, necessitating legal intervention.",
@@ -11713,8 +11711,8 @@ const articles = [
         ]
       },
       {
-        "heading": "METHODOLOGICAL OVERVIEW",
-        "paragraphs": [
+        heading: "METHODOLOGICAL OVERVIEW",
+        paragraphs: [
           "This research adopts a multi-method qualitative approach, integrating legal doctrinal analysis, comparative case study methodology, normative inquiry, and thematic evaluation on the criminalisation of ecocide.",
           "The doctrinal legal research methodology involves a systematic examination of legal sources: the Rome Statute, the Stop Ecocide Foundation's 2021 Draft Definition, and domestic statutes like India's Environment Protection Act, 1986. Precedents like MC Mehta v. Union of India and the Gabčíkovo-Nagymaros Project were analysed.",
           "A comparative case study approach was used, focusing on the Niger Delta oil spills (corporate impunity), the Vietnam War's use of Agent Orange (wartime ecocide), and the Deepwater Horizon oil spill (legal loopholes in corporate responsibility).",
@@ -11723,8 +11721,8 @@ const articles = [
         ]
       },
       {
-        "heading": "CORE FINDINGS",
-        "paragraphs": [
+        heading: "CORE FINDINGS",
+        paragraphs: [
           "The core findings suggest the criminalisation of ecocide would address systemic gaps in environmental justice.",
           "Legal and Normative Shifts: Criminalisation would impose penalties and reputational consequences, currently absent as the Rome Statute only deals with wartime environmental destruction. Case studies like Okpabi v. Royal Dutch Shell and the Niger Delta Spills show how corporations evade liability. Criminalisation would strengthen the 'polluter pays principle,' impose liabilities on executives and state actors, and lead to the adoption of eco-conscious activities. Critics argue challenges in proving mens rea may hamper enforcement, raising concerns about the need for strict liability.",
           "Judicial Enforcement and Institutional Mechanisms: While judicial activism is crucial, it is limited without codified legal mandates. Domestic institutions or specialised courts and tribunals are needed to safeguard the global ecosystem. Traditional courts often lack procedural clarity and judicial independence for these complex cases.",
@@ -11732,8 +11730,8 @@ const articles = [
         ]
       },
       {
-        "heading": "INTERPRETATION AND ANALYSIS",
-        "paragraphs": [
+        heading: "INTERPRETATION AND ANALYSIS",
+        paragraphs: [
           "Global Blind Spot and Legal Gaps: A global blind spot exists where entities causing significant environmental harm escape liability by citing job creation, lack of intent, or paid fines. The ICC currently addresses environmental harm only during wartime, leaving peacetime destruction by states or corporations unpunished. This gap leaves ecocide vulnerable to excuses and legal loopholes. Criminalisation prevents greenwashing and empowers judicial activism.",
           "Corporate Accountability: Criminalising ecocide would fundamentally shift the burden of proof onto corporations, compelling them to disprove negligence. It would impose liabilities on individual executives, moving beyond piercing the corporate veil. Frameworks like India's EPA (1986), the UK's Corporate Manslaughter Act (2007), and the EU's polluter pays principle show existing pathways, but an international ecocide crime would consolidate and strengthen them.",
           "Judicial Activism: Potential and Critique: While cases like MC Mehta v. Union of India demonstrate the power of judicial activism, courts alone are insufficient. Vague terms like 'with knowledge' create legal gaps. We need dedicated judicial mechanisms, specialised institutions, and precise laws. Criminalisation can be the link between activism and new institutions. Initiatives like the Council of Europe's Convention (2025) and the EU Environmental Crime Directive are laying the groundwork, showing countries are not waiting for the Rome Statute to act.",
@@ -11742,24 +11740,24 @@ const articles = [
         ]
       },
       {
-        "heading": "CASE STUDY: THE NIGER DELTA OIL SPILLS",
-        "paragraphs": [
+        heading: "CASE STUDY: THE NIGER DELTA OIL SPILLS",
+        paragraphs: [
           "The Niger Delta, rich in palm oil and natural gas, has suffered decades of environmental degradation from exploitative oil extraction. Mangroves and wetlands crucial for biodiversity have been devastated by repeated oil spills and negligent acts, exacerbated by poverty and corrupt governance.",
           "An estimated 13 million barrels of crude oil have been spilt since 1958 from over 7,000 incidents. Inconsistent data is due to inaccessible swampy sites, security concerns, remoteness, delayed detection, oil volatility, under-reporting by companies, and governmental oversight.",
           "The impact includes chronic health issues and ecological degradation. A stakeholder analysis promotes accountability: oil companies must provide transparency and prioritize safety; government agencies must enforce laws and prevent oversight; local communities must participate in early detection. Collaboration is key to minimizing conflict and miscommunication."
         ]
       },
       {
-        "heading": "CHALLENGES AND LIMITATIONS",
-        "paragraphs": [
+        heading: "CHALLENGES AND LIMITATIONS",
+        paragraphs: [
           "Limited Jurisdiction: Major polluter states may not ratify an ecocide amendment to the Rome Statute.",
           "Definition Clarity: Overly broad or narrow definitions may lead to political misuse or under-enforcement.",
           "Enforcement Capacity: Many states lack the judicial and investigative capacity to prosecute complex ecocide cases effectively."
         ]
       },
       {
-        "heading": "POLICY AND PRACTICE RECOMMENDATIONS",
-        "paragraphs": [
+        heading: "POLICY AND PRACTICE RECOMMENDATIONS",
+        paragraphs: [
           "Amend the Rome Statute: Recognize ecocide as the 5th international crime, requiring a two-thirds majority vote by state parties. The aim is to criminalise ecocide in times of war and peace, closing the current legal gap.",
           "Universal Jurisdiction: Support universal jurisdiction to hold perpetrators liable internationally, giving victims a chance to receive compensation for loss of natural resources and livelihood.",
           "National Legislation and Institutional Strengthening: Nations should enact domestic ecocide laws and strengthen judicial mechanisms. India, for example, could expand the mandate of its National Green Tribunal (NGT) to include criminal powers or establish specialised environmental courts to overcome its current limitations of backlog and weak implementation.",
@@ -11767,74 +11765,74 @@ const articles = [
         ]
       }
     ],
-    "conclusion": [
+    conclusion: [
       "The criminalisation of ecocide would bring about a significant global change in how the world addresses environmental damage, imposing real and legal consequences from which no one can escape.",
       "It is not solely about punishment; it is about justice for indigenous groups, fishing villages, and farming families who bear the brunt of environmental destruction. It is high time to recognise that preventing crimes against the environment is about protecting both the future and the present.",
       "Criminalising ecocide could play a vital role in protecting the environment, strengthening legal enforcement, and upholding sustainable development goals. The path forward will face resistance from vested interests, but as species vanish and wildfires intensify, it is not a radical step but a crucial one.",
       "As demonstrated, criminalisation can have a profound positive impact on environmental justice, holding states and corporations accountable, and enabling the judiciary to contribute effectively to ecological preservation."
     ],
-    "references": [
+    references: [
       {
-        "heading": "Bhopte, N., Bansod, P., & Institute of Law and Legal Studies, SAGE University, Indore. (2024). Corporate Liability for Environmental Damages: A Critical Review of Legal Principles. International Journal of Creative Research Thoughts (IJCRT), 12(12), d397–d399."
+        heading: "Bhopte, N., Bansod, P., & Institute of Law and Legal Studies, SAGE University, Indore. (2024). Corporate Liability for Environmental Damages: A Critical Review of Legal Principles. International Journal of Creative Research Thoughts (IJCRT), 12(12), d397–d399."
       },
       {
-        "heading": "European Commission. (2023). Directive on the protection of the environment through criminal law. Official Journal of the European Union."
+        heading: "European Commission. (2023). Directive on the protection of the environment through criminal law. Official Journal of the European Union."
       },
       {
-        "heading": "Higgins, P., Short, D., & South, N. (2013). Protecting the Planet: A Proposal for a Law of Ecocide. Crime, Law, and Social Change."
+        heading: "Higgins, P., Short, D., & South, N. (2013). Protecting the Planet: A Proposal for a Law of Ecocide. Crime, Law, and Social Change."
       },
       {
-        "heading": "Higgins, P., Short, D., & South, N. (2021). The ecocide draft definition. Stop Ecocide Foundation."
+        heading: "Higgins, P., Short, D., & South, N. (2021). The ecocide draft definition. Stop Ecocide Foundation."
       },
       {
-        "heading": "International Criminal Court. (1998). Rome Statute of the International Criminal Court."
+        heading: "International Criminal Court. (1998). Rome Statute of the International Criminal Court."
       },
       {
-        "heading": "McElwee, P. (2020). The Origins of Ecocide: Revisiting the Ho Chi Minh Trail in the Vietnam War. Environment & Society Portal, Arcadia. Rachel Carson Centre for Environment and Society."
+        heading: "McElwee, P. (2020). The Origins of Ecocide: Revisiting the Ho Chi Minh Trail in the Vietnam War. Environment & Society Portal, Arcadia. Rachel Carson Centre for Environment and Society."
       },
       {
-        "heading": "Minkova, L. G. (2024). Ecocide, sustainable development and critical environmental law insights. Journal of International Criminal Justice, 22(1), 81–97."
+        heading: "Minkova, L. G. (2024). Ecocide, sustainable development and critical environmental law insights. Journal of International Criminal Justice, 22(1), 81–97."
       },
       {
-        "heading": "Ordinioha, B., & Brisibe, S. (2013). The Human Health Implications of Crude Oil Spills in the Niger delta, Nigeria: an Interpretation of Published Studies. Nigerian Medical Journal, 54(1), 10."
+        heading: "Ordinioha, B., & Brisibe, S. (2013). The Human Health Implications of Crude Oil Spills in the Niger delta, Nigeria: an Interpretation of Published Studies. Nigerian Medical Journal, 54(1), 10."
       },
       {
-        "heading": "Sands, P. (2018). Principles of international environmental law (4th ed.). Cambridge University Press."
+        heading: "Sands, P. (2018). Principles of international environmental law (4th ed.). Cambridge University Press."
       },
       {
-        "heading": "Stop Ecocide International. (n.d.). Legal definition of ecocide drafted by an independent expert panel."
+        heading: "Stop Ecocide International. (n.d.). Legal definition of ecocide drafted by an independent expert panel."
       },
       {
-        "heading": "United Nations Environment Programme. (2019). Environmental crime and compliance: Emerging trends. UNEP."
+        heading: "United Nations Environment Programme. (2019). Environmental crime and compliance: Emerging trends. UNEP."
       },
       {
-        "heading": "Verzola, R. (2004). Industry, Efficiency and Corporations. Human Ecology Review."
+        heading: "Verzola, R. (2004). Industry, Efficiency and Corporations. Human Ecology Review."
       }
     ]
   },
   {
-    "id": 8,
-    "serialNumber": 43,
-    "issue": 4,
-    "volume": 1,
-    "title": "Digital Platform, Disconnected Protections: Gendered Vulnerabilities in India’s Emerging Gig Economy",
-    "author": "S Shyam¹; Vanshikha Bilaska²; Agrima Srivastav³; Jeshvanth Karthikeyan⁴; Nainsee Bansal⁵; La Grace Divine Igirubuntu⁶; Fairuj Fariha⁷",
-    "authorAbbrev": "Shyam, S.; Bilaska, V.; Srivastav, A.; Karthikeyan, J.; Bansal, N.; Igirubuntu, L. G. D.; Fariha, F.",
-    "abstract": [
+    id: 8,
+    serialNumber: 43,
+    issue: 4,
+    volume: 1,
+    title: "Digital Platform, Disconnected Protections: Gendered Vulnerabilities in India’s Emerging Gig Economy",
+    author: "S Shyam¹; Vanshikha Bilaska²; Agrima Srivastav³; Jeshvanth Karthikeyan⁴; Nainsee Bansal⁵; La Grace Divine Igirubuntu⁶; Fairuj Fariha⁷",
+    authorAbbrev: "Shyam, S.; Bilaska, V.; Srivastav, A.; Karthikeyan, J.; Bansal, N.; Igirubuntu, L. G. D.; Fariha, F.",
+    abstract: [
       "India's vibrant platform economy from ride-sharing and food delivery to online freelancing and local services, has provided jobs for more than 7.7 million workers (ILO, 2021). This paper in detail assesses the intersection of Gender and Gig economy focussing on the unique issues that women face in working in Gig economy.",
       "Women and transgender gig workers in India face systemic exclusion from essential labor protections, including access to health insurance, maternity benefits, minimum wage guarantees, and grievance redressal mechanisms. This marginalization is further intensified by Algorithmic biases and the precarious nature of gig work, leading to heightened job insecurity and exploitation (Fairwork India, 2023).",
       "India's recent labor law revamp brought in four combined labor codes aimed at simplifying protections and enhance compliance. However, their applicability and relevance to gig and platform workers are unclear. This paper also critically assesses the inadequacies of India's labour codes revamped including Code on Wages (2019), Industrial Relations Code (2020), Code on Social Security (2020) for women Gig workers.",
       "By analyzing existing policy gaps and exploring gender-sensitive approaches to social protection, the research aims to inform inclusive legal, economic and gender sensitive infrastructural strategies that safeguard women gig workers’ social security rights, enhance their economic agency, and ensure equitable participation in India’s evolving digital labor market."
     ],
-    "keyword": [
+    keyword: [
       "Gig economy",
       "gender inequality",
       "social protection",
       "algorithm bias",
       "gender-sensitive"
     ],
-    "status": "",
-    "intro": [
+    status: "",
+    intro: [
       "The gig economy in India is transforming how people work. An increasing number of Indians are now making money through short-term, task-based work organized through digital platforms rather than the conventional 9–5 job. In India's cities and towns, gig work has become a normal aspect of daily life, whether it be food delivery, ridesharing, appliance repair, freelance design, or online writing.",
       "There are currently about 12 million gig workers in India, according to recent data. According to NITI Aayog, that figure is anticipated to almost double to 23.5 million by 2030. Platforms like Swiggy, Zomato, Uber, Ola, and Urban Company have become household names. Meanwhile, freelance marketplaces like Upwork and Fiverr have given skilled Indian workers access to international markets.",
       "What is causing this expansion? There are several important causes. First, a large portion of India's youthful and urban population favors flexible work arrangements. Second, smartphones and mobile internet are now available to nearly everyone. Third, people can now get paid instantly more easily thanks to the growth of digital payment methods like UPI. Another major factor was the COVID-19 pandemic, which forced more people and services online and increased demand for remote gig work and delivery.",
@@ -11842,10 +11840,10 @@ const articles = [
       "Nevertheless, the gig economy is growing in importance within India's overall economy. According to a Boston Consulting Group report from 2021, this industry has the potential to generate tens of millions of jobs and up to 1.25 percent of India's GDP in the future — particularly for those who don't follow traditional career paths. Additionally, it facilitates people's entry into the digital economy by providing them with their first access to bank accounts, identification systems, and occasionally even credit.",
       "Briefly put, the gig economy in India is expanding quickly. It opens up new possibilities, particularly for those who are excluded from formal employment or desire flexibility. However, it also brings up important issues regarding equity, job security, and the nature of work in the future. This section provides an overview of the current situation and lays the groundwork for the subsequent chapters' in-depth examination of gender issues, protections, and policy challenges."
     ],
-    "content": [
+    content: [
       {
-        "heading": "Gender Participation in India’s Gig Economy",
-        "paragraphs": [
+        heading: "Gender Participation in India’s Gig Economy",
+        paragraphs: [
           "The digital gig economy in India, though promoted for ease of convenience and autonomy, still exhibits deep-seated gender inequalities. Women are still significantly underrepresented, research indicates a low 16–23 % contribution with a high concentration of females in beauty, care, and domestic work, while transport and delivery sectors are dominated by men (Panda, 2023; Nandkumar & Sharma et al., 2025). This occupational differentiation is a repeat of deep-rooted patriarchal values and low mobility for females (Ghosh, Zaidi, & Ramachandran, 2022).",
           "The empirical evidence indicates both opportunity as well as precariousness. IDinsight’s survey of drivers of platforms in India found that while women value gig work for its flexibility, they are exposed to high safety risks, digital exclusion, as well as discrimination (Panwar, Singh, & Chaudhary, 2024). In addition, Sharma (2023) indicates a deficiency of formal protection; women gig workers are denied benefits of paid leave, maternity cover, as well as judicial remedies, thus exposing them further to harassment as well as volatility of income.",
           "Algorithmic regulation of digital platforms generates a further element of inequality. Women have stricter performance demands with fewer hours worked, resulting in sanctions, account-blocking, and capped pay (Ghosh & Talukdar, 2025; Kasliwal, 2020). Ghosh et al. (2022) go on to illustrate that hybrid contractual arrangements of beauty compared to ride-hailing platforms generate outcomes in tension, while workers on beauty platforms have agency, they still have low pay with restricted mobility.",
@@ -11853,8 +11851,8 @@ const articles = [
         ]
       },
       {
-        "heading": "Social Protection Challenges Faced by Gig Workers",
-        "paragraphs": [
+        heading: "Social Protection Challenges Faced by Gig Workers",
+        paragraphs: [
           "India's platform economy is growing steadily, transforming access to and organization of work. From food delivery and ride sharing to freelancing and home services, over 7.7 million workers are currently employed through digital platforms (ILO, 2021). Although such employment is flexible, it is largely informal, insecure, and non-transparent. Gig workers are not entitled to essential benefits like health insurance, maternity leave, minimum wages, and formal grievance redressal.",
           "The recent labour law amendments in India have established four integrated codes: the Code on Wages, the Industrial Relations Code, the Code on Social Security, and the Occupational Safety and Working Conditions Code. These seek to streamline labour protection but their reach to gig workers is not yet certain. The Code on Wages establishes payment and wage standards but does not clarify how these are applicable to platform workers whose remuneration is determined by algorithms and customer scores (Rawal and Deshpande, 2022). The Industrial Relations Code facilitates collective bargaining but keeps gig workers outside the purview of formal recognition, excluding them from union rights (ILO, 2021).",
           "The Code on Social Security is the only legislation that defines gig workers and requires welfare schemes, but enforcement has been lacking. The Safety Code targets conventional workplaces and does not provide any protection to gig workers in unregulated settings.",
@@ -11865,8 +11863,8 @@ const articles = [
         ]
       },
       {
-        "heading": "Choice or Necessity? Understanding Motivation Behind Gig Work for Women in India",
-        "paragraphs": [
+        heading: "Choice or Necessity? Understanding Motivation Behind Gig Work for Women in India",
+        paragraphs: [
           "The narrative of the gig economy is flexible and empowering, but the women entering the field speak a different story. If a woman is single and business-minded, with adequate knowledge of digital platforms, then being a part of the gig economy is a blessing, as they actually get space to enhance their business. But married women often face societal norms, restricting them to work on these platforms, as they are either under the surveillance of their husband and in-laws, or they do not have adequate digital literacy. So, around the pandemic in 2020, when men lost their jobs and both the partners needed to work to get a minimum income, women’s participation was around 28%, but it dropped by 6.9% (ISB) in 2021.",
           "Most of the women enter this space not from freedom, but from constraint. The constraints are structural in nature, highlighting limited job availability, rigid working hours, and gendered care-giving responsibilities. All these factors push women to work in the informal gig economy, where they are often exploited. The reason why women prefer working in the informal sector is because the formal labour market continues to fail them: India’s female labour force participation rate (FLFPR) stood at just 25.4% in 2021–22 (Periodic Labour Force Survey), among the lowest globally.",
           "In the above case, the gig economy becomes the only viable option for them. The NITI Aayog report, published in 2022, estimates that women constitute around 20% of India’s gig workforce. There is a heavy reliance on beauty, domestic care, and digital micro-tasking industries. Many of these roles, especially on platforms like Urban Company or Amazon Mechanical Turk, are marketed as “flexible.” Flexibility was considered to be a blessing until it started masking a lack of labour protections, income instability, and algorithmic control that leaves women with little bargaining power.",
@@ -11876,8 +11874,8 @@ const articles = [
         ]
       },
       {
-        "heading": "Disconnection from Traditional Labor Protections",
-        "paragraphs": [
+        heading: "Disconnection from Traditional Labor Protections",
+        paragraphs: [
           "The gig economy in India, powered by the digital infrastructure of Swiggy, Zomato, Ola, and Urban Company, has redefined the dynamics of work in India by focusing on three factors: flexibility, autonomy, and convenience. Nonetheless, this quick development has also resulted in this major disengagement of classic labor protections. In comparison to traditional employment models that provide social security, stable wages, and regulation, gig work is poorly characterized by casual settings, lack of job security factors, and limited regulation.",
           "Platform-based workers are usually categorized as independent contractors as opposed to being treated as employees, thereby absolving the companies of the responsibility of covering provincial fund, health benefit, paid leaves, or any compensation in the case of injury in the working environment.",
           "Consequently, gigworkers cannot be covered by the Indian labor laws including the Industrial Disputes Actor the Employees State Insurance Act even though their work experiences significantly contribute to the digital economy. This factor increases the vulnerability of the workers particularly when a crisis hits. In addition, digital platforms promote both opaque employments and variable pay, as well as pressure to maintain high performances, all attributable to algorithmic management.",
@@ -11886,8 +11884,8 @@ const articles = [
         ]
       },
       {
-        "heading": "Gender-sensitive social protection for gig workers",
-        "paragraphs": [
+        heading: "Gender-sensitive social protection for gig workers",
+        paragraphs: [
           "When workers are hired on a short term basis with flexible hours to work, they are considered Gig workers. Due to digitalization and rapid economic growth, gig workers are increasingly hired, but often excluded from formal employee benefits. There is a short term contract between employer and employee, but they lack a formal structure of benefits for workers and assign with disparities for women employees.",
           "Around the world, women perform two-thirds of the work for 10 percent of the income and only 1 percent of the assets. This shows a wider gap in society where gender disparity is at its peak, women often found in household tasks and due to growing challenges of the economy the gender gap is increasing where social protection is highly accepted but less found. There is a high chance of increasing discrimination specially for gender specific traditional work due to lack of job security and uncertain employment status.",
           "Social protection is required for any worker who is contributing to the economy but in society there is a huge gender gap which eliminates women and LGBTQ+ out of work due to rising challenges. Workers hired to fulfill short term goals and lack in social benefits especially human rights and fundamental rights not followed in meeting short term goals.",
@@ -11899,8 +11897,8 @@ const articles = [
         ]
       },
       {
-        "heading": "Reimagining Social Protection: Key Policy Recommendations for Women in the Indian Gig Economy",
-        "paragraphs": [
+        heading: "Reimagining Social Protection: Key Policy Recommendations for Women in the Indian Gig Economy",
+        paragraphs: [
           "Policy legislation should establish a statutory definition of “living wage” as the minimum income needed to afford necessities, including digital access, in a worker’s municipality or Urban Local Body (ULB). For determining a real-time fair living wage system, an Al-driven Living Wage Tool (LWT) should be deployed to calculate area-specific, job-role-based living wages, updated periodically by integrating data from the Consumer Price Index (CPI), Periodic Labour Force Survey (PLFS), and National Family Health Survey (NFHS), and linked with gig platform APIs to auto-suggest standard fair per task payments.",
           "State-level Living Wage Commissions should be established with the respective Ministries of Labour and Employment to localize wage standards using predictive models integrating datasets from the National Sample Survey Office (NSSO), Employees' Provident Fund Organisation (EPFO), and urban bodies. Platforms must be mandated to disclose baseline pay benchmarks derived from the LWT. In the initial phase, a standard living wage should be enforced, ensuring no task is paid below the regionally indexed standard. Furthermore, algorithmic transparency should be guaranteed, including access to methodology and regular participatory revision with stakeholders.",
           "The Government of India should develop a centralized National Living Wage Data Stack (NLWDS) with Aadhaar-linked payment tracking and real-time benchmarks to ensure women gig workers receive legally mandated wages. Establishing a Social Security Data Trust (SSDT) can streamline data sharing across platforms and public systems, enabling targeted delivery of wages and benefits. This is inspired by the European Union Platform Work Directive (De Stefano, 2016). Additionally, a statute-backed Ombudsman Authority should be created through an amendment to the Code of Wages, 2019, to handle grievances and ensure compliance.",
@@ -11910,165 +11908,165 @@ const articles = [
         ]
       }
     ],
-    "conclusion":[
+    conclusion:[
       "India’s digital economy faces a crucial challenge with a growing workforce and unregulated digital platforms. Women and transgender individuals are especially vulnerable to digital and algorithmic bias, along with structural societal issues. This necessitates converging and gender-sensitive policy interventions for a more inclusive digital economy.",
       "Policy frameworks must be developed through multi-level and multi-stakeholder participation, with regular revisions and robust compliance mechanisms. In addition to government intervention, platforms must proactively ensure safe online spaces and prevent digital and physical abuse of women and transgender gig workers. Programs like *Mahila Samarthya Yojana* should be aligned with modern technological needs for long-term sustainability. In the short run, platforms may be incentivized for implementing work-friendly policies through tax rebates and exemptions.",
       "Ultimately, social protection is not an optional luxury—it is a constitutional right under Article 21. Legal reforms and structural changes must ensure a greater participation of women in the workforce, addressing core technological inequities. The gig economy holds significant potential for empowering women and ensuring equitable workforce participation in India's journey towards becoming a developed nation by 2047."
     ],
-    "references":[
+    references:[
       {
-        "heading": "Bansal, T., & De, S. (2024). Gender and the gig economy: An analysis of women workers across gig platforms. International Journal for Research in Applied Science & Engineering Technology, 12(9).",
+        heading: "Bansal, T., & De, S. (2024). Gender and the gig economy: An analysis of women workers across gig platforms. International Journal for Research in Applied Science & Engineering Technology, 12(9).",
         links: "https://doi.org/10.22214/ijraset.2024.64178"
       },
       {
-        "heading": "Beria, D., & Kabeer, N. (2020). Empowering women workers in the informal economy. Gender & Development, 21(2), 243-256.",
+        heading: "Beria, D., & Kabeer, N. (2020). Empowering women workers in the informal economy. Gender & Development, 21(2), 243-256.",
         link: " https://doi.org/10.1080/13552074.2013.802145",
       },
       {
-        "heading": "Boston Consulting Group. (2021). Unlocking the potential of the gig economy in India.",
+        heading: "Boston Consulting Group. (2021). Unlocking the potential of the gig economy in India.",
         link: " https://bcg.com",
       },
       {
-        "heading": "Braghavathi, J. S., & Kumar, J. S. (2025). Examining the gender dynamics in the gig economy: A systematic literature review. Colombo Business Journal, 16(1), 52-71.",
+        heading: "Braghavathi, J. S., & Kumar, J. S. (2025). Examining the gender dynamics in the gig economy: A systematic literature review. Colombo Business Journal, 16(1), 52-71.",
         link: " https://doi.org/10.4038/cbj.v16i1.204"
       },
       {
-        "heading": "Das, R., & Jain, M. (2023). Gendered gig work in India: Barriers and inequalities. Observer Research Foundation.",
+        heading: "Das, R., & Jain, M. (2023). Gendered gig work in India: Barriers and inequalities. Observer Research Foundation.",
         link: " https://www.orfonline.org/public/uploads/posts/pdf/20230524165631.pdf"
       },
       {
-        "heading": "De Stefano, V. (2016). The rise of the 'just-in-time' workforce: On-demand work, crowd work and labour protection in the gig economy. ILO Conditions of Work and Employment Series.",
+        heading: "De Stefano, V. (2016). The rise of the 'just-in-time' workforce: On-demand work, crowd work and labour protection in the gig economy. ILO Conditions of Work and Employment Series.",
         link: " https://doi.org/10.2139/ssrn.2682602"
       },
       {
-        "heading": "Fairwork India. (2023). Labour standards in the platform economy.",
+        heading: "Fairwork India. (2023). Labour standards in the platform economy.",
         link: " https://fair.work"
       },
       {
-        "heading": "Filipetto, S., Micha, A., Pereyra, F., Poggi, C., & Trombetta, M. (2023). Platform labour in contexts of high informality: Any improvement for workers? New Technology, Work and Employment.",
+        heading: "Filipetto, S., Micha, A., Pereyra, F., Poggi, C., & Trombetta, M. (2023). Platform labour in contexts of high informality: Any improvement for workers? New Technology, Work and Employment.",
         link: " https://doi.org/10.1111/ntwe.12283"
       },
       {
-        "heading": "Ghosh, A., & Talukdar, S. (2025). Navigating the gig economy in India: A socio-legal perspective on workers' rights and social inequality. Advances in Consumer Research, 2(3), 957-962.",
+        heading: "Ghosh, A., & Talukdar, S. (2025). Navigating the gig economy in India: A socio-legal perspective on workers' rights and social inequality. Advances in Consumer Research, 2(3), 957-962.",
         link: " https://acr-journal.com/article/navigating-the-gig-economy-in-india-a-socio-legal-perspective-on-workers-rights-and-social-inequality-1111/"
       },
       {
-        "heading": "Ghosh, A., Zaidi, M., & Ramachandran, R. (2022). Locating women workers in the platform economy in India – Old wine in a new bottle? Gender & Development, 30(3), 765–784. ",
+        heading: "Ghosh, A., Zaidi, M., & Ramachandran, R. (2022). Locating women workers in the platform economy in India – Old wine in a new bottle? Gender & Development, 30(3), 765–784. ",
         link: "https://doi.org/10.1080/13552074.2022.2131258"
       },
       {
-        "heading": "Hasin, R. (2024). Prosthetics of the Indian state: The e-Shram portal for unorganized workers in India. arXiv.",
+        heading: "Hasin, R. (2024). Prosthetics of the Indian state: The e-Shram portal for unorganized workers in India. arXiv.",
         link: " https://doi.org/10.48550/arXiv.2503.05714"
       },
       {
-        "heading": "Hunt, A., & Samman, E. (2019). Gender and the gig economy: Critical steps for evidence-based policy (Working Paper No. 546). Overseas Development Institute.",
+        heading: "Hunt, A., & Samman, E. (2019). Gender and the gig economy: Critical steps for evidence-based policy (Working Paper No. 546). Overseas Development Institute.",
         link: " https://www.socialprotection-humanrights.org/wp-content/uploads/2019/01/Gender-the-Gig-Economy.pdf"
       },
       {
-        "heading": "IDinsight. (2025). Insights into India's delivery platform gig workforce.",
+        heading: "IDinsight. (2025). Insights into India's delivery platform gig workforce.",
         link: " https://idinsight.org"
       },
       {
-        "heading": "India Development Review. (2023). India's gig workers: Short-term contracts, long-term questions.",
+        heading: "India Development Review. (2023). India's gig workers: Short-term contracts, long-term questions.",
         link: " https://idronline.org/article/livelihoods/indias-gig-workers-short-term-contracts-long-term-questions"
       },
       {
-        "heading": "International Labour Organization. (2018). Digital labour platforms and the future of work: Towards decent work in the online world.",
+        heading: "International Labour Organization. (2018). Digital labour platforms and the future of work: Towards decent work in the online world.",
         link: " https://www.ilo.org/publications/digital-labour-platforms-and-future-work-towards-decent-work-online-world"
       },
       {
-        "heading": "International Labour Organization. (2021a). World employment and social outlook: The role of digital labour platforms in transforming the world of work.",
+        heading: "International Labour Organization. (2021a). World employment and social outlook: The role of digital labour platforms in transforming the world of work.",
         link: " https://www.ilo.org/global/research/global-reports/weso/2021/WCMS_771749/lang--en/index.htm"
       },
       {
-        "heading": "International Labour Organization. (2021b). World employment and social outlook: The role of digital labour platforms.",
+        heading: "International Labour Organization. (2021b). World employment and social outlook: The role of digital labour platforms.",
         link: " https://ilo.org"
       },
       {
-        "heading": "International Labour Organization. (2023, February 23). Enhancing social protection and gender equality in the gig economy. Social Protection.",
+        heading: "International Labour Organization. (2023, February 23). Enhancing social protection and gender equality in the gig economy. Social Protection.",
         link: " https://socialprotection.org/learn/webinars/enhancing-social-protection-and-gender-equality-gig-economy"
       },
       {
-        "heading": "International Labour Organization. (2025). Annual report on building social protection floors for all.",
+        heading: "International Labour Organization. (2025). Annual report on building social protection floors for all.",
         link: " https://doi.org/10.54394/KJKB8455"
       },
       {
-        "heading": "Karumathil, A. (2025). The end of patchwork: A unified framework for India's gig economy. SSRN.",
+        heading: "Karumathil, A. (2025). The end of patchwork: A unified framework for India's gig economy. SSRN.",
         link: " https://doi.org/10.2139/ssrn.5221787"
       },
       {
-        "heading": "Kasliwal, R. (2020). Gender and the gig economy: A qualitative study of gig platforms for women workers (ORF Issue Brief No. 359). Observer Research Foundation.",
+        heading: "Kasliwal, R. (2020). Gender and the gig economy: A qualitative study of gig platforms for women workers (ORF Issue Brief No. 359). Observer Research Foundation.",
         link: " https://www.orfonline.org/research/gender-and-the-gig-economy-issue-brief-65981/"
       },
       {
-        "heading": "Kasliwal, R. (2023). Gender and the gig economy: A qualitative study of gig platforms for women workers. Observer Research Foundation.",
+        heading: "Kasliwal, R. (2023). Gender and the gig economy: A qualitative study of gig platforms for women workers. Observer Research Foundation.",
         link: " https://www.orfonline.org/research/gender-and-the-gig-economy-a-qualitative-study-of-gig-platforms-for-women-workers-65948"
       },
       {
-        "heading": "Karthikeyan, J. (2025). Grievance redressal and dispute mechanism for gig workers. Policy brief. Indian School of Public Policy."
+        heading: "Karthikeyan, J. (2025). Grievance redressal and dispute mechanism for gig workers. Policy brief. Indian School of Public Policy."
       },
       {
-        "heading": "Mehta, B. S. (2021). Gig economy and platform workers in India. Institute for Human Development.",
+        heading: "Mehta, B. S. (2021). Gig economy and platform workers in India. Institute for Human Development.",
         link: " https://hidindia.org"
       },
       {
-        "heading": "Ministry of Labour and Employment, Government of India. (2020). The Code on Social Security, 2020. ",
+        heading: "Ministry of Labour and Employment, Government of India. (2020). The Code on Social Security, 2020. ",
         link: "https://labour.gov.in/sites/default/files/SS_Code_Gazette.pdf"
       },
       {
-        "heading": "NITI Aayog. (2022). India's booming gig and platform economy: Perspectives and recommendations on the future of work.",
+        heading: "NITI Aayog. (2022). India's booming gig and platform economy: Perspectives and recommendations on the future of work.",
         link: " https://niti.gov.in"
       },
       {
-        "heading": "Pant, H., & Mishra, V. (Eds.). (2025). India Think Tank Forum 2025: Shaping a resilient global order. Observer Research Foundation.",
+        heading: "Pant, H., & Mishra, V. (Eds.). (2025). India Think Tank Forum 2025: Shaping a resilient global order. Observer Research Foundation.",
         link: " https://www.orfonline.org/public/uploads/posts/pdf/20230524165631.pdf"
       },
       {
-        "heading": "Panwar, S., Singh, D., & Chaduhary, T. (2024). An interdisciplinary analysis of Indian gig economy with a focus on women workers. Educational Administration: Theory and Practice, 30(4).",
+        heading: "Panwar, S., Singh, D., & Chaduhary, T. (2024). An interdisciplinary analysis of Indian gig economy with a focus on women workers. Educational Administration: Theory and Practice, 30(4).",
         link: " https://doi.org/10.53555/kuey.v30i4.6683"
       },
       {
-        "heading": "Parthasarathy, B., Srinivasan, J., Neerukonda, M., Bilahari, M., Singh, A., Kalita, R., ... & Graham, M. (2023). Fairwork India ratings 2023: Labour standards in the platform economy. Fairwork.",
+        heading: "Parthasarathy, B., Srinivasan, J., Neerukonda, M., Bilahari, M., Singh, A., Kalita, R., ... & Graham, M. (2023). Fairwork India ratings 2023: Labour standards in the platform economy. Fairwork.",
         link: " https://doi.org/10.1007/s11301-023-00345-5"
       },
       {
-        "heading": "Panda, S. (2024). Is gig economy changing the work for women? The International Journal of Indian Psychology, 11(4).",
+        heading: "Panda, S. (2024). Is gig economy changing the work for women? The International Journal of Indian Psychology, 11(4).",
         link: " https://doi.org/10.25215/1104.272"
       },
       {
-        "heading": "Press Information Bureau. (2024). Welfare boards and state models for gig workers.",
+        heading: "Press Information Bureau. (2024). Welfare boards and state models for gig workers.",
         link: " https://pib.gov.in/PressReleasePage.aspx?PRID=1952202"
       },
       {
-        "heading": "PRS Legislative Research. (2021). The Code on Social Security, 2020.",
+        heading: "PRS Legislative Research. (2021). The Code on Social Security, 2020.",
         link: " https://prsindia.org"
       },
       {
-        "heading": "Rani, U., Furrer, M., Harmon, E., Berg, J., & Silberman, M. S. (2018). Digital labour platforms and the future of work: Towards decent work in the online world. International Labour Organization.",
+        heading: "Rani, U., Furrer, M., Harmon, E., Berg, J., & Silberman, M. S. (2018). Digital labour platforms and the future of work: Towards decent work in the online world. International Labour Organization.",
         link: " https://www.ilo.org/publications/digital-labour-platforms-and-future-work-towards-decent-work-online-world"
       },
       {
-        "heading": "Rawal, V., & Deshpande, A. (2022). Labour reforms in India: A critical overview. Economic & Political Weekly, 57(21).",
+        heading: "Rawal, V., & Deshpande, A. (2022). Labour reforms in India: A critical overview. Economic & Political Weekly, 57(21).",
         link: " https://doi.org/10.1177/001946622211013237"
       },
       {
-        "heading": "Rosenblat, A. (2018). Uberland: How algorithms are rewriting the rules of work. University of California Press.",
+        heading: "Rosenblat, A. (2018). Uberland: How algorithms are rewriting the rules of work. University of California Press.",
         link: " https://doi.org/10.48558/DDZ0-P959"
       },
       {
-        "heading": "Sharma, A. (2023). Women resellers in India's gig economy: From access to confidence. In P. Arora, U. Raman, & R. Konig (Eds.), Feminist futures of work: Reimagining labour in the digital economy (pp. 77-86). Amsterdam University Press.",
+        heading: "Sharma, A. (2023). Women resellers in India's gig economy: From access to confidence. In P. Arora, U. Raman, & R. Konig (Eds.), Feminist futures of work: Reimagining labour in the digital economy (pp. 77-86). Amsterdam University Press.",
         link: " https://doi.org/10.2307/ij.2711713"
       },
       {
-        "heading": "Sharma, P. R. (2023). Women in the gig economy: Employment stability, gender income disparities, and workplace harassment in India. Indian Journal of Law and Legal Research, 7(2).",
+        heading: "Sharma, P. R. (2023). Women in the gig economy: Employment stability, gender income disparities, and workplace harassment in India. Indian Journal of Law and Legal Research, 7(2).",
         link: " https://www.ijllr.com/post/women-in-the-gig-economy-employment-stability-gender-income-disparities-and-workplace-harassment"
       },
       {
-        "heading": "Srini Raju Centre for IT and the Networked Economy. (2023). Women's inclusion in the gig economy: An unfulfilled promise. Indian School of Business.",
+        heading: "Srini Raju Centre for IT and the Networked Economy. (2023). Women's inclusion in the gig economy: An unfulfilled promise. Indian School of Business.",
         link: " https://www.isb.edu/faculty-and-research/srini-raju-centre-for-it-and-the-networked-economy/womens-inclusion-in-the-gig-economy-an-unfulfilled-promise"
       },
       {
-        "heading": "Standing Committee on Labour. (2021). Report on the implementation of labour codes. Lok Sabha Secretariat.",
+        heading: "Standing Committee on Labour. (2021). Report on the implementation of labour codes. Lok Sabha Secretariat.",
         link: " https://loksabhadocs.nic.in/isscommittee/Labout/17_Labout_27.pdf"
       }
     ]

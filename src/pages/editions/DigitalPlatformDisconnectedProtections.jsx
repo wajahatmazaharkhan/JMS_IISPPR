@@ -2,7 +2,7 @@ import articles from "../../data/articles";
 import ArticlePage from "../../components/ArticlePage";
 
 const DigitalPlatformDisconnectedProtections = () => {
-    const article = articles.find((a) => a.id === 3); // ID
+    const article = articles.find((a) => a.id === 8 && a.issue === 4); // ID
 
     return article ? (
         <ArticlePage

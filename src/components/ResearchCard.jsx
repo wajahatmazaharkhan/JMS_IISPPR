@@ -58,30 +58,16 @@ const articleRoutes4 = {
   2: "/From-Hegemony-to-Humanitarianism",
   3: "/Fiscal-Risk",
   4: "/From-Policy-To-Progress",
+  5: "/Trapped-in-silence",
+  6: "/Should-Eco",
+  7:"/What-Impact",
+  8: "/digital-platform",
   13: "/Advancing-Urban-Institutional",
   14: "/Anlysing-The-Scope-Of-Feminist",
   15: "/Localizing-Climate-Action-The-National-Action",
   16:"/Bridging-The-Divide-Digital-Public",
 
   
-};
-const articleRoutes5 = {
-  1: "/Trapped-In-Silence",
-  2: "/Another-Article-Title",
-  3: "/Something-Else",
-  // Add more articles here for Issue 5...
-};
-const articleRoutes6 = {
-  1: "/SHOULD ECOCIDE BE RECOGNIZED",
-
-};
-const articleRoutes7 = {
-  1: "/Criminalizing-Ecocide-Impacts-on-Justice",
-  // Add more articles here for Issue 4...
-};
-const articleRoutes8 = {
-  1: "/Digital-Platform-Disconnected-Protections",
-  // Add more articles here for Issue 4...
 };
 
 
@@ -129,10 +115,7 @@ const ResearchCard = ({ articles, onDelete }) => {
     if (issue === 2) return articleRoutes2[id];
     if (issue === 3) return articleRoutes3[id];
     if (issue === 4) return articleRoutes4[id];
-    if (issue === 4) return articleRoutes5[id];
-    if (issue === 4) return articleRoutes6[id];
-    if (issue === 4) return articleRoutes7[id];
-    if (issue === 4) return articleRoutes8[id];
+    
     return null;
   };
 
