@@ -87,7 +87,6 @@ import LocalizingClimateActionTheNationalAction from "./pages/editions/Localizin
 
 
 
-
 function AppRoutes() {
   const location = useLocation();
 
@@ -325,6 +324,22 @@ function AppRoutes() {
           <Route
           path="/From-Policy-To-Progress"
           element={<FromPolicyToProgress/>}
+          />
+           <Route
+          path="Advancing-Urban-Institutional"
+          element={<AdvancingUrbanInstitutional/>}
+          />
+          <Route
+          path="Anlysing-The-Scope-Of-Feminist"
+          element={<AnlysingTheScopeOfFeminist/>}
+          />
+           <Route
+          path="Bridging-The-Divide-Digital-Public"
+          element={<BridgingTheDivide_DigitalPublic/>}
+          />
+          <Route
+          path="Localizing-Climate-Action-The-National-Action"
+          element={<LocalizingClimateActionTheNationalAction/>}
           />
 
           <Route
