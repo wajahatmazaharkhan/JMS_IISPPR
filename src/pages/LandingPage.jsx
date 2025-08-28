@@ -178,6 +178,11 @@ const fadeInUp = {
         </div>
       </div>
 
+
+      <span className="text-xs sm:text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full shadow-sm">
+    Started in January 2025
+  </span>
+
       {/* Nav Buttons & Account Dropdown */}
       <div
         className="flex flex-col sm:flex-row gap-3 sm:items-center w-full sm:w-auto"
