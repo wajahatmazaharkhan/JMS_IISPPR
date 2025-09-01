@@ -128,13 +128,13 @@ const EditorialBoard = () => {
           ))}
         </motion.div>
 
-        {/* Student Panel */}
+        {/* Student Panel 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.7 }}
           className="max-w-4xl mx-auto mt-20 p-6 text-center bg-white border border-accent-light shadow rounded-xl"
-        >
+        > */}
          {/*  <h2 </motion.div>
             className="text-2xl font-bold mb-2"
             style={{ color: '#703b5dff' }}
@@ -145,8 +145,9 @@ const EditorialBoard = () => {
             We are building a student-led editorial panel for UG/PG scholars to
             foster leadership and academic excellence. Interested students will
             be added soon.
-          </p>  */}
+          </p>  
         </motion.div>
+        */}
       </div>
     </div>
   );
