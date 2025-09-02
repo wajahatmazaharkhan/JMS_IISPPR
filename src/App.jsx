@@ -88,7 +88,10 @@ import TrappedinSilence from "./pages/editions/TrappedinSilence";
 import WhatImpactWill from "./pages/editions/WhatImpactWill";
 import ShouldEcoideBeRecognized from "./pages/editions/ShouldEcoideBeRecognized";
 import DigitalPlatformDisconnectedProtections from "./pages/editions/DigitalPlatformDisconnectedProtections";
-
+import BlueDiplomacy from "./pages/editions/BlueDiplomacy";
+import PaperToPractice from "./pages/editions/PaperToPractice";
+import PolicyToProgress from "./pages/editions/PolicyToProgress";
+import ImpactOfTrumpEra from "./pages/editions/ImpactOfTrumpEra";
 
 
 
@@ -362,6 +365,23 @@ function AppRoutes() {
           path="Should-Eco"
           element={<ShouldEcoideBeRecognized/>}
           />
+          <Route
+          path="Blue-Diplomacy-in-Western-India"
+          element={<BlueDiplomacy/>}
+          />
+           <Route
+          path="Paper-To-Practice"
+          element={<PaperToPractice/>}
+          />
+           <Route
+          path="Policy-To-Progress"
+          element={<PolicyToProgress/>}
+          />
+           <Route
+          path="Impact-Of-Trump-Era"
+          element={<ImpactOfTrumpEra/>}
+          />
+           
 
 
 
