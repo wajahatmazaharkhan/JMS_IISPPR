@@ -483,7 +483,24 @@ export const generateArticlePDF = async (articles) => {
       pdf.text(line, margin, yPosition.value);
       yPosition.value += 8;
     });
-    yPosition.value += lineHeight + 15;
+
+    // Add Issue, Volume, and Date below author
+    pdf.setFontSize(12);
+    pdf.setFont('helvetica', 'normal');
+    pdf.setTextColor(80, 80, 80);
+    const issueInfo = `Issue: ${articles.issue || '-'}   Volume: ${articles.volume || '-'}`;
+    pdf.text(issueInfo, margin, yPosition.value);
+    yPosition.value += lineHeight;
+
+    if (articles.releaseDate) {
+      const date = new Date(articles.releaseDate);
+      const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+      pdf.text(`Date of Publication: ${formattedDate}`, margin, yPosition.value);
+      yPosition.value += lineHeight;
+      
+    }
+
+    yPosition.value += lineHeight + 10;
   }
 
   // Abstract

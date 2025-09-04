@@ -180,7 +180,7 @@ const LandingPage = () => {
 
 
       <span className="text-xs sm:text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full shadow-sm">
-    Started in January 2025
+   January 2025 - Multidisciplinary Subjects
   </span>
 
             {/* Nav Buttons & Account Dropdown */}
@@ -573,9 +573,9 @@ const LandingPage = () => {
         </div>
         <div>
           <h3 className="font-serif font-bold text-bg-light text-lg tracking-wide group-hover:text-accent transition-colors duration-300">
-            LDTPPR
+            Law, Diplomacy, Tech and  Public Policy Review
           </h3>
-          <p className="text-xs text-white opacity-80">Law, Diplomacy, Tech & Public Policy Review</p>
+         {/* <p className="text-xs text-white opacity-80"></p> */}
         </div>
       </div>
       <p className="text-sm leading-relaxed text-white/90 group-hover:opacity-100 transition-opacity duration-300">
