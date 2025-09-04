@@ -9287,7 +9287,7 @@ const articles = [
       {
         heading: "3.REVIEW OF LITERATURE",
         paragraphs: [
-          "3.1 Sánchez‑Queija, I., & Sánchez‑Queija, A. (2024). Identity development and adjustment during emerging adulthood from a gender perspective.",
+          "3.1 Sánchez-Queija, I., & Sánchez-Queija, A. (2024). Identity development and adjustment during emerging adulthood from a gender perspective.",
           "This study confirmed the Spanish version of the Dimensions of Identity Development Scale (DIDS) and looked at how identity processes connect to well-being in emerging adults, focusing on gender differences. The researchers guessed that identity dimensions would predict psychological adjustment and that these connections would differ by gender. The results showed that men had higher scores in commitment, while women scored higher in exploration and ruminative thinking. Identity commitment had a stronger positive effect on well-being for men than for women.",
           "3.2 Mungo, A., Delhaye, M., Blondiau, C., & Hein, M. (2024). Identity formation in individuals between 16 and 25 years old with borderline personality disorder.",
           "This clinical study looked at identity development in young adults with borderline personality disorder (BPD). Researchers expected to find problems with identity formation. The results showed that individuals with BPD had significantly lower identity synthesis and higher identity confusion compared to their peers. The study emphasizes how BPD interrupts important identity development during adolescence and young adulthood.",
@@ -9338,7 +9338,7 @@ const articles = [
       {
         heading: "6. Limitations and Future Directions",
         paragraphs: [
-          "●Limitations:",
+          "Limitations:",
           "1.Sampling Limitations",
           "The data that was collected included an uneven age distribution making it difficult to analyse and generalise the data. Hence the sampling could have been more varied and included an equal number of participants from all age groups. Also because the sampling method was random some of the participants did not fill out the questionnaire truthfully and tried to fill the form without interest leading to redundant answers or same choices for all questions which later had to be removed from the data analysis. A regulated and non biased sample should have been selected but the lack of time and the willingness of individuals influenced the sample. Finally, working with a larger sample size would have given us more accurate results which was one of our biggest limitations.",
           "2.Socio-Cultural Constraints on Identity Exploration  questionnaire",

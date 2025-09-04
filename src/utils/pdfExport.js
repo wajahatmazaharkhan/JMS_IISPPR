@@ -1,6 +1,6 @@
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
-import { addDynamicWatermark, addWatermarkToAllPages } from './pdfWatermark.js';
+// import { addDynamicWatermark, addWatermarkToAllPages } from './pdfWatermark.js';
 
 export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
   const pdf = new jsPDF('p', 'mm', 'a4');
@@ -8,7 +8,7 @@ export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
   const pageHeight = pdf.internal.pageSize.getHeight();
   const margin = 20;
   const contentWidth = pageWidth - (2 * margin);
-  
+
   let yPosition = margin;
   const lineHeight = 7;
   const titleHeight = 12;
@@ -65,6 +65,8 @@ export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
   yPosition += lineHeight;
   pdf.text(`Website: ${publisher.contact.website}`, margin, yPosition);
   yPosition += lineHeight + 10;
+  
+
 
   // Table of Contents
   pdf.setFontSize(14);
@@ -96,7 +98,7 @@ export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
       pdf.addPage();
       yPosition = margin;
     }
-    
+
     pdf.setFont('helvetica', 'bold');
     pdf.text(member.name, margin, yPosition);
     yPosition += lineHeight - 2;
@@ -206,7 +208,7 @@ export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
     yPosition += lineHeight;
     pdf.setFont('helvetica', 'normal');
     pdf.setTextColor(60, 60, 60);
-    
+
     const declarations = [
       { name: 'Ethics Declaration', value: article.ethicsDeclaration },
       { name: 'Plagiarism Declaration', value: article.plagiarismDeclaration },
@@ -233,11 +235,11 @@ export const generateIssuePDF = async (issue, publisher, editorialBoard) => {
     });
 
     // ✅ Add dynamic watermark to this article page
-    try {
-      addDynamicWatermark(pdf, article);
-    } catch (error) {
-      console.warn(`Failed to add watermark for article ${article.id}:`, error);
-    }
+    // try {
+    //   addDynamicWatermark(pdf, article);
+    // } catch (error) {
+    //   console.warn(`Failed to add watermark for article ${article.id}:`, error);
+    // }
   });
 
   return pdf;
@@ -253,7 +255,7 @@ export const generateResearchPDF = async (articles) => {
   const pageHeight = pdf.internal.pageSize.getHeight();
   const margin = 20;
   const contentWidth = pageWidth - (2 * margin);
-  
+
   let yPosition = margin;
   const lineHeight = 7;
   const titleHeight = 12;
@@ -385,15 +387,15 @@ export const generateResearchPDF = async (articles) => {
     }
 
     // ✅ Add dynamic watermark to this article page
-    try {
-      addDynamicWatermark(pdf, article);
-    } catch (error) {
-      console.warn(`Failed to add watermark for article ${article.id}:`, error);
-    }
+    // try {
+    //   addDynamicWatermark(pdf, article);
+    // } catch (error) {
+    //   console.warn(`Failed to add watermark for article ${article.id}:`, error);
+    // }
   });
 
   return pdf;
-}; 
+};
 
 
 
@@ -481,7 +483,24 @@ export const generateArticlePDF = async (articles) => {
       pdf.text(line, margin, yPosition.value);
       yPosition.value += 8;
     });
-    yPosition.value += lineHeight + 15;
+
+    // Add Issue, Volume, and Date below author
+    pdf.setFontSize(12);
+    pdf.setFont('helvetica', 'normal');
+    pdf.setTextColor(80, 80, 80);
+    const issueInfo = `Issue: ${articles.issue || '-'}   Volume: ${articles.volume || '-'}`;
+    pdf.text(issueInfo, margin, yPosition.value);
+    yPosition.value += lineHeight;
+
+    if (articles.releaseDate) {
+      const date = new Date(articles.releaseDate);
+      const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+      pdf.text(`Date of Publication: ${formattedDate}`, margin, yPosition.value);
+      yPosition.value += lineHeight;
+      
+    }
+
+    yPosition.value += lineHeight + 10;
   }
 
   // Abstract
@@ -642,11 +661,12 @@ export const generateArticlePDF = async (articles) => {
   }
 
   // ✅ Add dynamic watermarks to all pages
-  try {
-    addWatermarkToAllPages(pdf, articles);
-  } catch (error) {
-    console.warn('Failed to add watermarks to PDF:', error);
-  }
+  // try {
+  //   addWatermarkToAllPages(pdf, articles);
+  // } catch (error) {
+  //   console.warn('Failed to add watermarks to PDF:', error);
+  // }
 
   return pdf;
 };
+
