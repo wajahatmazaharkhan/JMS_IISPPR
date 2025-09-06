@@ -11260,8 +11260,8 @@ const articles = [
     issue: 4,
     volume: 1,
     title: "Trapped in Silence: The Psychosocial Consequences of Masculine Norms and Emotional Suppression Among Young Men",
-    author: "Research Team; Collaborators², Affiliated Researchers",
-    authorAbbrev: "Research Team; Collaborators; Affiliated Researchers",
+    author: "Meher Kaur Bindra ,RadhikaGupta, Surbhi Prajapati, Sajan Jaiswal, Deepshika",
+    authorAbbrev: "M.Bindra , R.Gupta, S.Prajapati, S.Jaiswal, D.",
     abstract: [
       "This study explores the psychosocial consequences of emotional suppression and adherence to traditional masculine norms among young men in India.",
       "Using a sample of 79 Indian men aged 18–25, the study employed the Conformity to Masculine Norms Inventory-22 (CMNI-22) and the Emotion Regulation Questionnaire (ERQ) to assess internalized norms and emotional regulation strategies.",
@@ -12074,11 +12074,11 @@ const articles = [
 
   //mera
   {
-  "id": 9,
-  "serialNumber": 45,
-  "issue": 4,
-  "volume": 1,
-  "title": "INDIA’S BLUE DIPLOMACY IN THE WESTERN INDIAN OCEAN: SECURING MARITIME COMMONS BEYOND THE INDO-PACIFIC (2008–2024)",
+  id: 9,
+  serialNumber: 45,
+  issue: 4,
+  volume: 1,
+  title: "INDIA’S BLUE DIPLOMACY IN THE WESTERN INDIAN OCEAN: SECURING MARITIME COMMONS BEYOND THE INDO-PACIFIC (2008–2024)",
   "author": [
     "SumitGusain",
     "SaanviBudhiraja",
@@ -12086,31 +12086,32 @@ const articles = [
     "Anisha Tiwari",
     "AishiMitra"
   ],
-  "authorAbbrev": [
+  authorAbbrev: [
     "S. Gusain",
     "S. Budhiraja",
     "R. Gurung",
     "A. Tiwari",
     "A. Mitra"
   ],
-  "status": "Submitted",
-  "abstract": [
+  status: "Submitted",
+  abstract: [
     "This paper is a critical analysis of India’s evolving maritime strategy in the Western Indian Ocean (WIO) from 2008 to 2024, putting forth the argument of India’s ‘blue diplomacy’ witnessing a strategic paradigm shift that now transcends the confines of the Indo-Pacific narrative to adopt a much more feasible approach. Laid down in the SAGAR (Security and Growth for All in the Region) vision and refined under the recent MAHASAGAR framework, India’s policies in the WIO interpret maritime security, regional connectivity, ecological supervision, and sustainable development as interlinked pillars of foreign policy. The study explores how the pressing necessity of safeguarding vital sea lanes that handle over 80% of India’s crude oil imports and a significant share of national trade, drives forward India’s westward focus of deep engagement with the geopolitically sensitive WIO region.",
     "Key aspects of this ‘blue diplomacy’ include strong maritime security collaboration against common threats like piracy, arms proliferation, and illicit trafficking, enabled by operations such as Operation Sankalp and through initiatives like the Information Fusion Centre–Indian Ocean Region (IFC-IOR). The paper investigates the strategic use of port development by India and highlights projects like Chabahar in Iran and Sittwe in Myanmar, serving both as hubs for logistics as well as tools for encouraging inclusive regional development, improving access particularly for landlocked economies and strengthening India’s “Act East” and “Neighbourhood First” policies.",
     "The research also digs around India’s active involvement with international platforms such as the Indian Ocean Rim Association (IORA) and Indian Ocean Commission (IOC) to support the growth of the sustainable ocean-based economy and improve cooperation. Additionally, the study makes a point of aligning the Sustainable Development Goals (particularly SDGs 13, 14, 16, and 17) into India’s maritime plan."
   ],
-  "keywords": [
+  keywords: [
     "Blue Diplomacy",
     "Western Indian Ocean (WIO)",
     "Maritime Security",
     "Port Development",
     "Sustainable Development Goals (SDGs)"
   ],
-  "intro": [
+  intro: [
     "The Western Indian Ocean (WIO) has become an important strategic marine arena in the 21st century. The area is very important for the safety, economy, and environment of the larger Indo-Pacific because it is close to important sea lanes of communication (SLOCs) that help transfer a lot of the world’s products and energy. India needs to protect its national interests not just at the WIO, which is a marine border. It’s also a way to show strength through strategic partnerships, port diplomacy and efforts to promote long-term growth.",
     "India’s part in the WIO has changed in the last few years. It used to be largely about safety, but today it works together in many ways. There are also investments in ports like Chabahar and Sittwe, as well as contributions to entities like the Indian Ocean Rim Association (IORA) and the Indian Ocean Commission (IOC). In addition to this, there are also anti-piracy operations, humanitarian aid and disaster relief (HADR) missions, and efforts to make the navy stronger. India’s focus on protecting marine biodiversity, making the climate more resilient, and blue economy projects is another indicator that it is in line with the UN Sustainable Development Goals (SDGs).",
     "A number of scholars are still interested in India’s involvement in the WIO, but most of their work has focused on what it does in the Eastern Indo-Pacific. This article tries to fill in the gaps by looking at how India’s strategic shift towards the WIO affects long-term maritime governance and regional security, as well as the geopolitical effects of its port diplomacy. The study’s goal is to employ theme analysis to show how India’s changing maritime position could affect the future of the Western Indian Ocean system in its entirety."
   ],
+  
   "problemStatement": [
     "Despite India’s continued involvement in the Indo-Pacific, the Western Indian Ocean (WIO) has not gotten much attention in talks of strategic maritime research and policy. Given the rise of maritime issues like illicit fishing, environmental impact, piracy, and geopolitical competition, particularly with China, India’s admission to the WIO under the SAGAR and later MAHASAGAR doctrines marks a significant change. There is a significant research gap in evaluating how India integrates sustainability, security, and diplomacy to become a net security provider in this vital region."
   ],
