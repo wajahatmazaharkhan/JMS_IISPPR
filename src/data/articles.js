@@ -6738,7 +6738,7 @@ const articles = [
 
     ]
   },
-  {
+   {
     id: 9,
     serialNumber: 26,
     issue: 2,
@@ -6749,7 +6749,6 @@ const articles = [
     abstract: [
       "At the turn of the 21st century, the post-Cold War unipolar period, dominated by the United States, has steadily given way to a multipolar international order, where emerging powers are increasingly influencing global governance. According to a 2024 report, over 61% of countries now perceive the world to be multipolar rather than just U.S.-led, a significant increase from 47% in 2018 (Leonard & Shapiro, 2024), signaling a growing dispersion of power. In this evolving geopolitical landscape, India has positioned itself as a rising global actor backed by its status as the largest democracy, the fifth largest economy, and the country with the largest population in the world. This paper examines India’s approach to crisis diplomacy through three major international conflicts discussed in the form of case studies, namely, the Taliban’s takeover of Afghanistan, the Russia-Ukraine war, and the Israel-Palestine conflict, to critically assess the nature of India’s influence in global affairs. Drawing from the conceptual debates surrounding middle powers and emerging powers, the paper interrogates whether India acts as an influential mediator, a power of strategic balance, or a mere global impersonator. The case studies reveal a pattern of strategic ambivalence guided more by the need to minimise the negative impacts of a crisis on it than normative consistency. While India aspires to shape global outcomes, its diplomatic style frequently reflects an indecisive behavior and skittish positioning, rather than true leadership. The paper concludes by asserting that unless India bridges the credibility gap existing between its domestic self-perception and its actual diplomatic behavior, its aspirations to lead in a multipolar world may remain just a dream rather than become a reality.",
     ],
-
     keyword: [
       "multipolar international order",
       "global governance, ",
@@ -9971,572 +9970,9 @@ const articles = [
       }
     ]
   },
-  {
-    id: 4,
-    serialNumber: 40,
-    issue: 4,
-    volume: 1,
-    title: "From Policy to Progress: An Analysis of Government Initiatives Addressing Educational Equity and the Digital Divide",
-    author: "Deeksha¹; Avradeep Saha²; Pavni Agrawal³; Nandan Dhar⁴; Ankit Vardani⁵",
-    authorAbbrev: "Deeksha; Saha, A.; Agrawal, P.; Dhar, N.; Vardani, A.",
-    abstract: [
-      "This study is to critically examine how targeted digital education policies and initiatives have contributed to reducing educational inequality in India.",
-      "By using key policies such as the BharatNet Project, PM e-vidya, DIKSHA platform as evaluative tools, this study aims to assess both their achievements in improving access, inclusion, and learning outcomes, and their limitations in addressing structural and digital disparities across socio-economic, rural-urban, and gender divides.",
-      "We used the descriptive method by reviewing policies, government reports, news articles, and educational data from official sources to understand how digital initiatives are addressing educational inequalities in India.",
-      "Digital policies like BharatNet and Digital India have improved internet access in rural areas, and have helped schools adopt online learning. However, gaps still remain due to lack of devices, electricity, and digital skills, and access to the internet in some regions.",
-      "Further, the study seeks to bridge the gap between policy intent and on-ground impact, enhanced understanding of how far these digital interventions have progressed in transforming educational equity, and what barriers persist in the path toward inclusive and equitable quality education.",
-      "The study relies on secondary data sources and does not include direct surveys or interviews, so some ground-level issues may not be fully recorded."
-    ],
-    keyword: [
-      "digital divide",
-      "educational inequality",
-      "BharatNet",
-      "SDG 10",
-      "Digital India",
-      "policy analysis"
-    ],
-    status: "",
-    "intro": [
-      "Educational inequality remains a persistent challenge in India, deeply rooted in historical, socio-economic, and geographic disparities. Despite significant progress in enrollment rates and infrastructure development over the past decades, access to quality education continues to be uneven, particularly across rural-urban divides, income groups, and gender. In response to these disparities, to address these gaps, digital technology is now being seen as an important way to make education more equal and accessible for everyone.",
-      "In alignment with the global commitment to Sustainable Development Goal 10 (SDG 10) which seeks to reduce inequality, India has taken several policy initiatives aimed at leveraging digital infrastructure to enhance educational access and equity. Key among these are the Digital India Campaign, PM e-Vidya, the National Education Policy (NEP) 2020, and the DIKSHA platform. These initiatives together show a change in policy, focusing on using technology-based solutions that can reach many people, with the goal of reducing gaps in access to and involvement in education.",
-      "However, the transformative potential of digital education remains contested, especially in the context of pre-existing structural inequalities. While digital platforms have expanded the reach of educational content, they have also exposed and, in some cases, deepened the digital divide, particularly among economically marginalized populations, rural communities, and gender-disadvantaged groups. The accessibility, usability, and effectiveness of these digital interventions vary widely across different socio-economic contexts, raising important questions about their actual impact on educational equity.",
-      "This study seeks to critically examine the extent to which these targeted digital education policies have contributed to reducing educational inequality in India. By evaluating the achievements and limitations of these initiatives, the research aims to bridge the gap between policy formulation and ground-level implementation. In doing so, it endeavors to offer a nuanced understanding of the role of digital interventions in advancing equitable and inclusive education, and to identify the systemic barriers that continue to impede progress."
-    ],
-    content: [
-      {
-        "heading": "Background and Literature Review",
-        "paragraphs": [
-          "Studies before the pandemic found that only about 4.4% of rural households had a computer, versus 23.4% in urban areas (NSSO, 75th Round, 2018). Internet access was 14.9% in rural homes compared to 42% in cities (NSSO, 75th Round, 2018). Operating skills were similarly uneven: just 9-13% of rural residents could use computers or the internet, compared to over 30% in urban settings (MoSPI, 2019).",
-          "A local survey in Chennai showed only 5.3% of rural government school kids could take live classes (Azim Premji Foundation, 2021). While 56.9% had smartphones, only about 21.1% of private school students could attend online lessons regularly (Oxfam India, Inequality Report, 2021).",
-          "In alignment with NEP 2020, platforms like DIKSHA and SWAYAM were positioned to promote access, equity, and quality, but uneven digital access and language barriers have constrained outcomes (Ministry of Education, 2020; Oxfam India, 2022; Azim Premji Foundation, 2022)."
-        ]
-      },
-      {
-        heading: "THEME 1: Project BharatNet : It’s impact on reducing Digital divide in educational sectors of rural India",
-        paragraphs: [
-          "The government is trying to reduce education inequality through many initiatives like online open learning, free e-library access, skill development platforms like NPTEL, SWAM etc. but it can’t be possible without proper internet connection. Reddy, Jose & Vaidehi (2021) argue that Massive online education without addressing the huge access gap and disparities in digital infrastructure would not only exclude a vast majority of students but also exacerbate the existing socio‑economic disparities in educational opportunities.",
-          "Basic Introduction of BharatNet",
-          "BharaNet is one of the impactful projects among all initiatives of the GOV, those are taken for reducing educational disparities among the different regions of the country. Actually, under this initiative the Govt is trying to give broadband connectivity to all Gram Panchayats (GPs) in the country as well as It is one of the biggest rural telecom projects in the world. [Press Information Bureau (2025)]",
-          "Brief about its implementation",
-          "The BharatNet project was initially approved in October 2011 as the National Optical Fibre Network (NOFN) to connect 2.5 lakh Gram Panchayats [USOF, DoT, Ministry of Communications, GOI (2025)] after in 2015 it was renamed as BharatNet [Business Standard (2015)]. However, significant delays led the Union Cabinet in July 2017 to approve a modified strategy for its implementation, rebranding the project as BharatNet and initiating Phase II with state and private partnerships [India Today (2017)].",
-          "It plays a major role particularly in some states of India to spread internet access in the Gram Panchayats though there are some controversies related to its achievement and proper impact. As per the report of the Press Information Bureau (2025) of 19 March 2025, 218,347 Gram Panchayats have been made service ready under the project which is not so far from its initial objective to connect approx 2.5 lakh Gram Panchyats with internet connection. [Press Information Bureau (2025)]",
-          "Analysing situation of Rural Online Education before Phase lll (August, 2023) of BharatNet Project",
-          "The need for online education in India was mainly found during the Covid-19 lockdown period but then millions of students were struggling for proper access to online learning for lack of connections and devices, majorly in rural areas. An article of India Today (2020) claims that while the benefits of online learning are manifold, there are still many roadblocks in the way ahead towards making education an entirely digital (online) phenomenon. After the lockdown period the trend of online education was starting rapidly but simultaneously it was creating some disparities between those who have proper internet connection and digital devices and those who do not . The Wave-1 of the ASER (2020) survey also reported that a mere 18.3 percent of children in rural areas enrolled in government schools have accessed video recordings, and 8.1 percent have attended live online classes.",
-          "Thus, we can feel that the main two problems are, one is the financial barrier for accessing digital devices and the other is poor internet connection or lack of internet accessibility in many rural regions. Let's see how the BharatNet Phase-lll is creating impact in the second issue for emitting the gap of Digital Divide in Indian Education Sector.",
-          "The Impact of BharatNet project in rural online education",
-          "The BharatNet project makes some very impactful milestones in the field of connecting villages in some regions of our country. According to the Economic Survey report 2024-25, as of December 2024, 6.92 lakh km of Optical Fiber Cable (OFC) has been laid, 2.14 lakh Gram Panchayats (GPs) are service-ready (including 5,032 via satellite, 12.04 lakh Fiber-To-The-Home (FTTH) connections have been installed. Telecom infrastructure is being strengthened through the Bharat Net Project, extending broadband connectivity to all Gram Panchayats and villages. [telecomtalk.info (2025) ]",
-          "There is some data which shows the progress of this project across the all state and union territories of India:",
-          "Figure 1 and Figure 2 as follows:",
-          "Source: bbnl.nic.in",
-          "Thus the rapid expansion of the broadband services through BharatNet somehow created a better situation for students to access digital services and online learning in those places where internet connection was not available before this project. According to smventure.com (2025), the BharaNet project’s linkage with schemes like PMGDISHA (which has trained over 6.39 crore individuals in digital literacy) and collaboration with NABARD further enhance its socio-economic value. Through BharatNet, healthcare centers are being digitally enabled, schools are accessing virtual learning content, and local governance is becoming more efficient. As an example we can see that in Gujarat’s Sakarda village (Tapi district), once broadband from BharatNet reached its local Gram Panchayat (in 2022), the primary school with 165 students and seven teachers began using smart boards and online content in classrooms. Students reportedly became much more engaged in watching educational videos, participating in online yoga, and observing cultural performances, reflecting a real shift toward digital learning enabled by internet access as per a report of India Today (2025) .",
-          "In spite of the implementation of the BharatNet Project, there are still some problems, mainly in some regions of India. All states are not getting the basic advantage by this internet. Puja Dash (2025) shows that even by the end of 2023, less than 60% of the gram panchayats in northeastern states were service-ready, while the national average is 79% . “Key challenges (for the BharatNet programme) have been the shifting goalposts, slackening deadlines and lack of coordination with other agencies and entities, especially those who can and should leverage broadband,” said Deepak Maheshwari, Senior Policy Advisor at the Centre for Social and Economic Progress (CSEP), a public policy think-tank based in New Delhi [indiaspend.com (2025)] . The study of Puja Dash also shows that despite widespread implementation efforts, only about 24% of government schools nationwide had internet access among them most located in urban areas. For instance, in Telangana, only 8.78% of government schools had internet connection as of 2021, severely limiting access to online education . The project has also faced significant delays in implementation, with the pace of progress being slower than anticipated. Despite the government's efforts to connect villages, only about 194,000 out of the targeted 640,000 villages have been connected so far. This slow progress has hindered the project's ability to bridge the Digital Divide in rural areas [Drishti IAS (2023)]",
-          "At the end we can say that obviously it is a very good initiative but it should be more effective which definitely goes one important step ahead to ensuring equal digital access in India ."
-        ]
-      },
-      {
-        heading: "THEME 2: Online Education Push During COVID-19 Lockdown",
-        paragraphs: [
-          "When the COVID-19 pandemic hit in early 2020, life changed overnight. Schools across India shut their gates with no idea when they would open again. One day, students were sitting in classrooms with blackboards and notebooks, the next, they were stuck at home, cut off from their teachers, friends, and any sense of routine. Homes with no internet, no smartphones, and sometimes no electricity became the new ‘classrooms’. Parents struggled to keep up and teachers scrambled to figure out Zoom or WhatsApp classes. The disruption was massive: nearly 320 million learners across India were affected, making it one of the largest educational crises the country had ever seen (NCERT, 2021; ResearchGate, 2020). In cities, some students switched to Google Meet and online assignments. But in villages and low-income households, the story was very different, one where the digital divide turned into a learning divide.",
-          "A Hard Gap: Connectivity and Devices",
-          "Studies before the pandemic found that only about 4.4% of rural households had a computer, versus 23.4% in urban areas (NSSO, 75th Round, 2018). Internet access was 14.9% in rural homes compared to 42% in cities (NSSO, 75th Round, 2018). Operating skills were similarly uneven: just 9-13% of rural residents could use computers or the internet, compared to over 30% in urban settings (MoSPI, 2019). A local survey in Chennai showed only 5.3% of rural government school kids could take live classes (Azim Premji Foundation, 2021). While 56.9% had smartphones, only about 21.1% of private school students could attend online lessons regularly (Oxfam India, Inequality Report, 2021).",
-          "Government Initiatives: SWAYAM Prabha and Manodarpan",
-          "To ensure continuity of education during the lockdown, the government expanded the SWAYAM Prabha network, 32 DTH TV channels that telecast curriculum-based lessons 24x7, allowing students in far-flung areas and those unable to afford smart phones and mobile data to follow through with lessons. In tandem, the government addressed mental health. Launched under the Atma Nirbhar Bharat scheme, Manodarpan allowed students, teachers, and parents to avail free tele-counselling to those feeling overwhelmed and isolated during a particularly gruelling period of stress and isolation. Early figures suggest that lakhs availed of the helpline, highlighting the deep-rooted impact of the pandemic on mental well-being and the need for the simultaneous facilitation of learning and mental wellness (Ministry of Education, 2020).",
-          "Impact on Educational Equity",
-          "What worked: One of the primary benefits during the lockdown was the ability of SWAYAM Prabha to reach students who did not have internet access. By conducting lessons on television, it allowed rural students, including those without smartphones and data, to continue their education. Through the Manodarpan initiative, the government also addressed mental health, providing students the emotional care they needed at a time when stress was heightened. Certain states also capitalized on this opportunity to improve long-term digital infrastructure. Kerala granted internet access to over 80% of gram panchayats, which enabled the establishment of smart classrooms and computer labs across rural government schools. (swayamprabha.gov.in, manodarpan.education.gov.in)",
-          "What didn’t:",
-          "Efforts to make digital education accessible did not yield the desired results. While 14.9% of rural households had access to the internet, only 4-5% of them had a computer. Millions of students in India did not have the means to attend live classes and use online educational portals. Many of the e-learning resources did not have multi-lingual or interactive options. Regional languages were a barrier to learning as most of the internet content was in English. The switch to e-learning was a big disadvantage to girls. Girls had more household chores to attend to, lesser access to smartphones and lesser freedom to use the internet for education. Many teachers could not conduct online classes as most of them had never used the internet before.",
-          "(swayamprabha.gov.in, manodarpan.education.gov.in).",
-          "Figure : 3",
-          "Data Snapshot: Rural vs Urban Access",
-          "Metric",
-          "Rural",
-          "(%)",
-          "Urban",
-          "(%)",
-          "Households with computer",
-          "4.4–4.8",
-          "23.4",
-          "Households with internet",
-          "14.9–16.5",
-          "42",
-          "People able to use internet",
-          "13",
-          "37",
-          "Sources: NSSO 75th Round, Ministry of Statistics & MOSPI (2017–18)",
-          "Case Example: Rajasthan’s DigiLEP Initiative",
-          "The state government of Rajasthan launched a Digital Learning Enhancement Programme (DigiLEP) to reach students in state schools. Teachers shared videos, worksheets and quizzes with students and their parents via WhatsApp, covering more than 68,000 schools across the state (UNICEF India, 2021). DigiLEP was able to leverage low-tech approaches to support continuity of learning in contexts with poor internet connectivity. In tribal areas such as Dungarpur and Baran, students accessed learning content using basic phones. However, challenges remained. In households with limited access to phones, boys were offered access more often than girls. There were limited opportunities for two-way communication and interaction between students and teachers, and girls in particular struggled to gain equal access to content. Nevertheless, DigiLEP was able to provide a workable solution. (World Bank/OEDC 2020 Case Study)",
-          "The shift to online learning happened quickly but unevenly. TV channels like SWAYAM Prabha and mental health support through Manodarpan aimed to fill gaps. However, many rural students, particularly girls, missed out. Limited access to the internet, electricity, or devices blocked participation (NSSO, 2018). Government programs like BharatNet and PMGDISHA strive to improve digital access, but coverage remains inconsistent (Oxfam India, 2021). Real progress requires proper infrastructure."
-        ]
-      },
-      {
-        heading: "THEME 3: PM e-Vidya under New Education Policy 2020 - A Visionary Shift or Digital Exclusion?",
-        paragraphs: [
-          "The National Education Policy (NEP) 2020 implemented ambitious reforms in the Indian education sector, much of which emphasized technology-driven learning. PM e-Vidya, one of the key reforms, aimed to streamline digital education engagement and content in creative ways under the initiative; “One Nation, One Digital Platform” (Ministry of Education, 2020) and to enroll individuals in a digital ecosystem, which included DIKSHA, digital teacher training, SWAYAM, and DTH TV channels. The NEP aspired to equitable and inclusive education, especially in light of the challenges to education posed by COVID-19. However, the reality provides a different view—individuals have been empowered, and disempowered or excluded through this digital push, notably in rural and excluded communities.",
-          "Digital Infrastructure versus Digital Reality",
-          "NEP 2020’s bold drive for EdTech integration is fraught with challenges. While technology promises to deliver flexibility, personalization and new-age pedagogy (UNESCO, 2021), it assumes some level of baseline provision for access to electricity, internet and portable digital devices, although millions of Indian students are still without the basic ability to access them. The NFHS-5 (2022) data shows us that only 15% of rural households in India have internet accessibility, compared to 42% of urban households. The reality of the inequity provides a clear picture of why this is a continuing challenge for achieving SDG 10 – Reduce Inequality (NFHS-5, 2022).",
-          "Graphical Snapshot: Internet Access in Gram Panchayats",
-          "State",
-          "Gram Panchayats with Internet Access",
-          "(2024)",
-          "Kerala",
-          "82 %",
-          "Tamil Nadu",
-          "65 %",
-          "Uttar Pradesh",
-          "35 %",
-          "Jharkhand",
-          "31 %",
-          "Bihar",
-          "28 %",
-          "Source: Times of India, May 22, 2024; BharatNet Progress Dashboard (TOI, 2024)",
-          "As part of my internship with the Rajasthan Legal Services Authority (RLSA), I helped organize awareness camps in schools in remote areas such as rural blocks of Jodhpur district during April 2024, where we focused on promoting legal literacy. Through this experience, I had firsthand contact with the students and teachers, and I observed how lack of access to smartphones, intermittent internet connectivity, and barriers such as language prevented our rural students and teachers from being digitally connected. For example, many of the students had only heard of the DIKSHA portal, and many of the teachers acknowledged that they felt very little confidence interacting with online content primarily due to lack of training.",
-          "This data points to extreme inequities in our education system. States like Kerala have been successful in advancing digital infrastructure for example, the KITE VICTERS TV initiative and smart classrooms in rural government schools—to enhance delivery of education (The Hindu, 2023), whereas states like Bihar and Jharkhand are considerably behind. Although PM e-Vidya is a great opportunity, in states like this the gap remains in infrastructure rather than policy (Economic and Political Weekly, 2022).",
-          "PM e-Vidya: Missed Opportunities",
-          "PM e-Vidya, launched as part of the NEP 2020 and COVID response, is a comprehensive multi-mode access platform that combines digital, TV, radio, and podcasts to reach diverse learners. It was especially vital for families without smartphones and internet (PRS India, 2022). However, the scheduling, language constraints, and no interactive component lessened their efficacy. According to a CBSE Training Report (2023), more than 40% of teachers in rural schools were unaware of anything from the digital platforms.",
-          "There are some regional level variations like Kerala, with its proactive education system, used KITE VICTERS to show daily lessons, each day on TV in Malayalam (The Hindu, 2023). In contrast, in many parts of Uttar Pradesh and Bihar, students were relegated to WhatsApp notes or had no connection at all. These examples show that central policies must allow for localized adaptation (EPW, 2022).",
-          "One of the more ambitious features of NEP 2020, PM e-Vidya, sought to virtualise education through a common platform that harnessed the powers of TV, radio and online portals. On paper, it was revolutionary. In reality, the experience has been mixed depending on where one lives and their socio-economic bracket.",
-          "In Kerala, the KITE VICTERS educational TV channel put under PM e-Vidya was a boon for lakhs of students during the COVID-19 lockdown. The state made sure that daily Malayalam language classes, aired at a prescribed time, were reachable even in regions without smartphones or internet. According to a report by KITE in 2021, more than 3.5 million students accessed television programmes in the peak month of lockdown (KITE Kerala, 2021). In comparison, states like Jharkhand or Bihar have had impacts from PM e-Vidya that are comparatively weaker and limited. According to a recent study (Oxfam India, 2022), more than 80% of children in low-income rural families in Bihar had no access to either smartphones or educational TV. Many of these families explained that they had to prioritise the phone for earning or telephone calls to relatives, and there simply no educational continuity for the child. Teachers reported confusion regarding the content release schedule and felt they didn't have a role in the platform's launch because they had not received any training.",
-          "Even urban slum populations have had limited learning outcomes from PM e-Vidya content. Azim Premji University (2022) reported that even when almost 50% of samples (students living in urban poverty) had access to some kind of digital content, comprehension was extremely low because of the use of language, a lack of engaging interactivity, and very few instances of feedback (Azim Premji Foundation, 2022). That being said, there are islands of success. Teachers in Nagaland began to curate localized content linked to PM e-Vidya TV broadcasts and then via WhatsApp. Volunteers from the community helped distribute worksheets, and students attended community TV viewing spaces that were set up in village halls, and the hybrid model fostered significant re-engagement in learning for tribal students. A UNESCO South Asia Briefing from 2023 documented this.",
-          "These examples illustrate that PM e-Vidya can be transformational, but only if integrated within localized delivery frameworks, inclusive of language, and with follow-up support on-the-ground. Without these features, the current top-down, one-size-fits-all structure only further embeds pre-existing digital and educational inequities."
-        ]
-      },
-      {
-        heading: "THEME 4: Assessing the Impact of DIKSHA and SWAYAM on Indian Educational Inequalities",
-        paragraphs: [
-          "Platforms like DIKSHA and SWAYAM have pushed through long-standing barriers to education in India's drive for inclusive education. (The Ministry of Education, 2020) states that DIKSHA (Digital Infrastructure for Knowledge Sharing) and SWAYAM (Study Webs of Active Learning for Young Aspiring Minds) are flagship platforms for providing high-quality educational resources at scale. The National Education Policy (NEP) 2020 clearly frames technology as central to promoting \"access, equity, and quality.\" Especially in the wake of pandemic-induced school closures and longstanding infrastructure gaps, these platforms are expected to ensure continuity and act as strategic reforms that narrow the deep urban-rural, gender, and income gaps, helping to redefine India’s educational landscape.",
-          "Launched in 2017, DIKSHA is a national platform for school education, by NCERT, under the aegis of the Ministry of Education (MoE), GoI (DIKSHA, 2024) was developed to advance inclusive and equitable education as envisioned in NEP. Based on the EkStep Foundation's open- source Sunbird platform, it facilitates inclusive teaching and foundational learning nationwide by offering multilingual, accessible content from NCERT, CBSE, and SCERTs to over 200 million students and seven million teachers (The Economic Times, 2023).",
-          "Fig 1- One diksha, multiple central and state solutions and programme",
-          "Source-India Report Digital Education, 2020",
-          "With the goal to promote inclusivity and reduce access gaps, the DIKSHA app integrates interactive content in a variety of formats and languages, particularly in remote and linguistically diverse areas. More than 72% students and 87% of teachers have signed up for classes on DIKSHA, indicating a strong inclination to use digital tools if given the right support, proving to be a crucial component of digital equity (Verma et al., 2024). However, only 66.38% of teachers agreed that content loads easily on mobile devices, and 59.66% noted sufficient media variety. Technological barriers persist in mobile compatibility and content diversity (Roul & Mohalik, 2025)",
-          "Likewise, SWAYAM, India’s MOOC platform, also launched in July 2017, aims to achieve the three cardinal principles of Education Policy: access, equity and quality (Swayam, 2025).It hosts courses from class 9 to post-graduation. It gives professors from centrally funded universities like IISERs, IITs, and IIMs the opportunity to teach students. 11,772 courses have been offered by SWAYAM as of July 2025. Over 910,000 students have signed up for proctored exams, and about 650,000 students have received certificates (Wikipedia, 2025).",
-          "With more than 10 million registered users using adaptable evaluation techniques, SWAYAM helps bridge the gap in digital and educational accessibility by providing customized and scalable learning pathways for a wide range of demographics (Jadhav & Rathod, 2024). However, 27.75% of students found the teaching difficult to follow, and roughly 31.28% of students left because the content was only in English. Additionally, about 24.58% of students said that boring video lectures encouraged them to drop out of the course, suggesting that interactive content design could improve engagement, especially for students from underprivileged backgrounds (Singh, 2022).",
-          "Table 1: SWAYAM Platform Key Metrics (As of February 2023)",
-          "Metric",
-          "Figure",
-          "Total Enrolment",
-          "31,000,000",
-          "Effective Enrolment",
-          "24,405,178",
-          "Exam Registration",
-          "2,629,526",
-          "Assignment Submissions",
-          "883,605",
-          "Courses Offered",
-          "3,000+",
-          "Universities Accepting",
-          "Credit",
-          "288",
-          "Source- Times of India,2023",
-          "SWAYAM's increasing influence as India's top MOOC platform is shown in Table 1. It demonstrates high user engagement with over 24.4 million active learners and 31 million total enrollments. Also, credible academic participation is shown by the 2.6 million exam registrations and the 880,000+ assignment submissions, and its integration into formal education is confirmed by the 288 universities that accept credits."
-        ]
-      }
-    ],
-    conclusion: [
-      "The study reveals a shift in India's educational scenario due to increase in digital infrastructure.",
-      "Programs like BharatNet have enabled connectivity even in the remote areas, supporting online education.",
-      "However, the benefits were not evenly distributed and were different, especially for the marginalized communities. They face difficulties in their access to digital opportunities.",
-      "To bridge this gap, policies must not only ensure infrastructural support but also is affordable, accessible, and is structured in a way comfortable to address this concern of digital divide.",
-      "In order to address India's historical educational inequalities, platforms such as DIKSHA and SWAYAM have become critical instruments. By providing scalable, multilingual, and accessible digital content, these platforms support the NEP 2020 vision of equitable and inclusive education. DIKSHA has made commendable progress, particularly in enhancing foundational learning and reaching linguistically and geographically diverse learners, as evidenced by high teacher and student interaction.",
-      "However, enduring problems like restricted media diversity and mobile compatibility underscore the necessity of additional infrastructure investment and adaptive content creation. On a similar note, SWAYAM's extensive course library, adaptable evaluation, and participation of prestigious universities have increased access across socioeconomic divides.",
-      "Improving vernacular content, increasing mobile access, and incorporating adaptive learning analytics for personalized learning are all crucial to filling in the gaps in platforms like SWAYAM and DIKSHA. Prioritizing teacher training in digital pedagogy is essential, particularly in rural areas. Delivery of education will be inclusive, interesting, and contextually relevant if community-based digital support systems, such as local learning hubs, are established and continuous monitoring and feedback systems are integrated.",
-      "DIKSHA and SWAYAM can more successfully close the digital divide and act as global models for inclusive digital education.",
-      "For NEP 2020 and PM e-Vidya to truly disrupt systematic inequality, the government must improve rural internet infrastructure, and provide content in regional languages. They must equip educators with EdTech training and enable parental and community involvement in digital learning. This is an excellent way to ensure better access to digital policies and help in reducing education inequality.",
-      "We can also introduce digital literacy programmes in rural areas and launch similar programmes in the school, in order to spread awareness and help them to gain a practical exposure so that they understand the importance as well as get comfortable accessing digital opportunities with the use of their digital skills.",
-      "In conclusion, digital transformation will boost tremendously if it stands still on its promise for reducing inequality, and ensure every learner has equal access and ability to benefit from the digital tools and opportunities."
-    ],
-    references: [
-      {
-        heading: "Angel One. (2025). How BharatNet is transforming rural connectivity in India.",
-        "links": "https://www.angelone.in/news/how-bharatnet-is-transforming-rural-connectivity-in-india"
-      },
-      {
-        heading: "ASER Centre. (2021). Annual Status of Education Report 2021.",
-        links: "http://img.asercentre.org/docs/ASER%202021/aser2021fullreport.pdf"
-      },
-      {
-        heading: "Azim Premji Foundation. (2021). Myths of online education.",
-        links: "https://azimpremjifoundation.org/sites/default/files/myths-of-online-education.pdf"
-      },
-      {
-        heading: "Central Board of Secondary Education Training Portal. (2023). Teacher capacity building data.",
-        links: "https://cbseit.in/cbse/training"
-      },
-      {
-        heading: "DIKSHA. (2024). About DIKSHA.",
-        links: "https://diksha.gov.in/about/"
-      },
-      {
-        heading: "DIKSHA. (2024). DIKSHA dashboard- Ministry of Education",
-        links: "https://diksha.gov.in/"
-      },
-      {
-        heading: "EPW. (2022). Localising EdTech implementation in India. Economic and Political Weekly, 57(48).",
-        links: "https://www.epw.in/journal/2022/48/commentary/localising-edtech.html"
-      },
-      {
-        heading: "Government of India. (2020). Manodarpan – Ministry of Education.",
-        links: "https://manodarpan.education.gov.in"
-      },
-      {
-        heading: "India Inequality Report 2021 – Oxfam India. (2021). India inequality report: Education 2021.",
-        links: "https://www.oxfamindia.org/knowledgehub/workingpaper/india-inequality-report-2021"
-      },
-      {
-        heading: "Jadhav, R., & Rathod, A. R. (2024). Overview and future scope of SWAYAM in the world of MOOCs: A comparative study with reference to major international MOOCs. International Research Journal on Advanced Engineering and Management, 2(9), 2804–2806.",
-        links: "https://goldncloudpublications.com/index.php/irjaem/article/view/478"
-      },
-      {
-        heading: "Ministry of Education. (2020). National Education Policy (NEP 2020).",
-        links: "https://www.education.gov.in/sites/upload_files/mhrd/files/NEP_Final_English_0.pdf"
-      },
-      {
-        heading: "Ministry of Education. (2020). National Education Policy 2020. Government of India.",
-        links: "https://www.education.gov.in/en/nep"
-      },
-      {
-        heading: "Ministry of Education. (2020). SWAYAM Prabha – Free DTH classes.",
-        links: "https://www.swayamprabha.gov.in"
-      },
-      {
-        heading: "MOSPI & NSSO. (2018). 75th Round of National Sample Survey: Education and digital access data.",
-        links: "http://mospi.nic.in"
-      },
-      {
-        heading: "NCERT. (2021). Students’ learning during the pandemic – A survey.",
-        links: "https://ncert.nic.in"
-      },
-      {
-        heading: "National Family Health Survey. (2022). NFHS-5 (Phase II) factsheets.",
-        links: "http://rchiips.org/nfhs/NFHS-5_FCTS/NFHS-5%20State%20Factsheet%20Compendium_Phase- II.pdf"
-      },
-      {
-        heading: "Oxfam India. (2021). India inequality report: Education 2021.",
-        links: "https://www.oxfamindia.org/knowledgehub/workingpaper/india-inequality-report-2021"
-      },
-      {
-        heading: "Oxfam India. (2022). India inequality report 2022: Digital divide.",
-        links: "https://www.oxfamindia.org/press-release/india-inequality-report-2022"
-      },
-      {
-        heading: "PRS Legislative Research. (2022). EdTech equity 2022 brief.",
-        links: "https://prsindia.org/policy/analytical-reports/edtech-equity-2022"
-      },
-      {
-        heading: "ResearchGate. (2020). Impact of COVID-19 on school education in India: A brief analysis.",
-        links: "https://www.researchgate.net/publication/341981898_Impact_of_COVID-19_on_School_Educat ion_in_India"
-      },
-      {
-        heading: "Roul, R., & Mohalik, R. (2025). Quality of e‑contents on DIKSHA platform: A study of secondary school teachers’ perceptions. International Education & Research Journal, 11(2), 32–37.",
-        links: "https://doi.org/10.5281/zenodo.15583394"
-      },
-      {
-        heading: "Sharma, R., & Kapoor, A. (2023). DIKSHA in Rajasthan: A field evaluation. NCERT Journal of Educational Studies, 19(1), 10–27.",
-        links: "https://journals.ncert.gov.in/"
-      },
-      {
-        heading: "Singh, G. (2022). Why do MOOCs fail on completion rate? An analysis of SWAYAM courses. Indian Journal of Educational Technology, 4(1), 111–123.",
-        links: "https://journals.ncert.gov.in/IJET/article/view/529"
-      },
-      {
-        heading: "Swayam. (2025). About SWAYAM.",
-        links: "https://swayam.gov.in/about"
-      },
-      {
-        heading: "Swayam. (2025). Swayam portal.",
-        links: "https://swayam.gov.in"
-      },
-      {
-        heading: "The Economic Times. (2023). Agritech investments and incubators nurturing the next generation of food innovators in Dubai. The Economic Times.",
-        links: "https://economictimes.indiatimes.com/news/international/uae/agritech-investments-and-incubato rs-nurturing-the-next-generation-of-food-innovators-in-dubai/articleshow/122569172.cms"
-      },
-      {
-        heading: "The Economic Times. (2023, August 2). Education Ministry selects Oracle Cloud Infrastructure to modernise edtech platform DIKSHA. The Economic Times.",
-        links: "https://economictimes.indiatimes.com/tech/technology/education-ministry-selects-oracle-cloud-i nfrastructure-to-modernise-edtech-platform-diksha/articleshow/102351763.cms?from=mdr"
-      },
-      {
-        heading: "The Hindu. (2023). Kerala’s KITE VICTERS and EdTech implementation. The Hindu.",
-        links: "https://www.thehindu.com/education/kerala-edtech-article/article66355394.ece"
-      },
-      {
-        heading: "The Times of India. (2024, February 14). Low completion rates plague SWAYAM courses. The Times of India.",
-        links: "https://timesofindia.indiatimes.com/home/education/news"
-      },
-      {
-        heading: "The Times of India. (2024, May 22). Internet access in Gram Panchayats. The Times of India.",
-        links: "https://timesofindia.indiatimes.com"
-      },
-      {
-        heading: "UNESCO. (2021). Education in a post-COVID world: Nine ideas for public action.",
-        links: "https://unesdoc.unesco.org/ark:/48223/pf0000374802"
-      },
-      {
-        heading: "UNICEF India. (2021). Education response to COVID-19 in India: DigiLEP case study.",
-        links: "https://www.unicef.org/india/reports/digital-learning-enhancement-programme-digilep"
-      },
-      {
-        heading: "Wikipedia contributors. (2025, July 20). SWAYAM (Study Webs of Active-Learning for Young Aspiring Minds). Wikipedia.",
-        links: "https://en.wikipedia.org/wiki/SWAYAM"
-      },
-      {
-        heading: "World Bank & OECD. (2020). India: Ab padhai nahi rukegi – Learning will not stop.",
-        links: "https://documents1.worldbank.org/curated/en/637101601970234785/pdf/India-Ab-Padhai-NahiRukegi-Learning-Will-Not-Stop.pdf"
-      }
-    ]
-  },
-  {
-    id: 13,
-    serialNumber: 41,
-    issue: 4,
-    volume: 1,
-    title: "Advancing Urban Institutional Transparency through Digital Governance: A Comparative Analysis of Anti-Corruption and Public Trust Mechanisms in India and Europe",
-    author: "Asanda Keitumetse Khwabe, Stellenbosch University,Maksym Loharzhevskyi, Charles University in Prague,Omundu Eddy Odhiambo, University of Nairobi,Onemena Odebala, Baze University Abuja",
-    authorAbbrev: "Khwabe, A.; Loharzhevskyi, M.; Odhiambo, O.; Odebala, O.",
-    abstract: [
-      "Accountability, rule of law, and trust remain in a turbulent state, serving as the foundation of peace, justice, and strong institutions categorized under SDG 16.",
-      "The inconsistency of such factors contributes to the global polycrisis of instability, birthing corruption and mismanagement.",
-      "Thus, with such an environment conjured, institutions cannot mandate sustainable cities and communities of SDG 11, which ultimately break down the vital state-citizen relationship.",
-      "Continuously, quantitative data research has revealed that the introduction of integrating information and communications technology (ICT) into the political realm will promote transparency, reinforce better trust mechanisms, and contribute to anti-corruption attempts.",
-      "This particular paper explored two different regions, India and European countries executing the transformation of e-governance while revealing the extent of successes of maintaining both SDG 16 and SDG 11 goals as well as the challenges faced by both regions.",
-      " It is imperative to understand that strong institutions and the performance style in which to manage their unique society have not been perfected, for there are always different multifaceted factors such as circumstances presented by histories of the regions as well as the dynamics instilled and practiced by the government and people based on preferences to use.",
-      "Thus, with expectations, functioning governing bodies should be able to sustain their societies, ensure transparent justice and safety, and curate mandates for the betterment of the civil.",
-      " Thus, this paper concludes such findings of the specific method of integrating ICTs in attempts to bridge the existing disconnect experienced by multiple institutions."
-    ],
-    content: [
-      {
-        "heading": "Introduction and Background",
-        "paragraphs": [
-          "It has become increasingly clear lately that in the context of rapid urbanization, accountability, openness, and trust from society are becoming critical for city authorities (Harkness & Katz, 2016; Pickup, 2024). Cities, as key centers of administrative and demographic life, often face such problems as, for example, corruption, lack of transparency, and alienation of citizens from decision-making. Undoubtedly, this not only weakens the democratic foundations of city governance but also reduces its effectiveness (Mupandanyama, 2023; Transparency International, n.d.).",
-          "It is our deep conviction that Goals 16 and 11 of the Sustainable Development Agenda, aimed at ensuring 'peace, justice, and strong institutions' and 'sustainable cities and communities,' respectively (United Nations, 2015; United Nations Department of Economic and Social Affairs, n.d.), are particularly relevant in this context. The main thing is that the first emphasizes the importance of combating corruption, increasing transparency, and engaging citizens at all levels of government, and the second one reinforces it in the more communal context. Namely, the aforementioned task of SDG 16 is especially important in cities, where the interaction between citizens and government is most direct and intense. Although this goal is global, we believe that achieving it requires local solutions, as each city has its own unique institutional, political, and cultural characteristics that influence the implementation and reception of transparency initiatives.",
-          "Another challenge in city governance is the bureaucratic procedures and often inconsistent accountability systems that city authorities are trying to combat. Of course, such institutional deficiencies only increase public mistrust, especially among vulnerable and marginalized groups who feel excluded from decision-making processes (Bertsou, 2019). In countries like India, institutional closures are often rooted in colonial administrative systems and are exacerbated by a lack of resources and uneven development of digital infrastructure (Panda & Kumar, 2025; Vision IAS, 2024). At the same time, in many European cities, the decline in trust is not so much due to corruption as to the gap between government actions and the daily needs of the population (Bertsou, 2019).",
-          "As a response to these challenges, digital governance is gaining popularity. It is part of the world's transition to the sixth technological paradigm and, in the urban context, uses open databases, blockchain technologies, and platforms for citizen feedback. The long-term use of these tools in some cities and countries has already proven that they can improve governance by increasing transparency and inclusiveness, which, in turn, strengthens public trust in government, simplifies access to information, and optimizes service delivery (OECD, 2020; World Bank, 2021).",
-          "However, it is obvious that the effectiveness of such digital solutions strongly depends on the specific conditions in which they are implemented. For example, the cities of Tallinn and Helsinki have made impressive progress in the digitalization of governance thanks to significant investments in sustainable technologies and high digital literacy of the population (Estonian Ministry of Economic Affairs and Communications, 2022; Government of Finland, n.d.; UN-Habitat, 2020; UN-Habitat et al., 2022). On the other hand, cities in India, despite attempts to introduce anti-corruption platforms (Nandy and Kumar, 2025), face problems of digital inequality and bureaucratic resistance (Panda and Kumar, 2025). "
+  
 
-        ]
-      },
-      {
-        heading: "Problem Statement and Research Objectives",
-        paragraphs: [
-          "Despite the significant potential of digital tools, a gap between the promise of technological solutions and the reality remains in urban governance around the world. This problem gives rise to a key issue known as the ‘transparency paradox.’ One leading view explains this paradox through the lens of instrumental incentives: corrupt or institutionally weak governments voluntarily join transparency initiatives not so much out of a genuine desire for reform but to gain reputational benefits such as access to international aid or increased political legitimacy (David-Barrett & Okamura, 2013). However, this reputational approach is not the only explanation. An alternative view shifts the focus from external incentives to internal dynamics, arguing that pressure from below is often the key driver of change. According to this approach, an active and organized civil society can force governments to increase transparency by using international initiatives as a tool for increasing domestic accountability (Isaksson, 2015). In this case, the main motivation is not the pursuit of international approval but the result of domestic political struggle.",
-          "This theoretical dilemma directly affects our comparative analysis. In Indian cities, the adoption of digital platforms can be both a façade for external benefits and a concession to internal pressures, while ill-considered technology adoption risks creating digital inequalities (Panda & Kumar, 2025; Bertot et al., 2010). In European cities, even bottom-up reforms face an “e-governance paradox,” where technological solutions do not automatically increase trust (Otieno & Omwenga, 2016).",
-          "A key research challenge, therefore, is the lack of understanding of which of these drivers—external reputational gain or internal civic pressure—and in what combination, determines the trajectory and success of digital governance in different institutional contexts.",
-          "To address this multifaceted challenge, this study sets out to undertake a number of interrelated objectives. First, the paper aims to analyze the theoretical foundations underlying digital governance as a tool for enhancing transparency and trust. Building on this foundation, the study will proceed to its main objective: conducting an in-depth comparative analysis of specific digital governance initiatives in selected cities in India and Europe.",
-          "The third objective is to assess the actual impact of these initiatives on the level of institutional transparency, accountability, and citizen trust. Finally, the findings of this study are concluded by pointing out the spheres of development of contextually informed recommendations for policymakers and practitioners on how to better use digital tools to strengthen urban governance."
-        ]
-      },
-      {
-        heading: "Thematic Literature Review",
-        paragraphs: [
-          "The transparency and accountability of urban institutions are essential to achieving Sustainable Development Goal 16, which focuses on reducing corruption and building effective, inclusive institutions. In response to persistent governance challenges, cities have increasingly turned to digital tools—such as open data platforms and participatory applications—to address institutional gaps and rebuild public trust. This literature review highlights key areas of focus, including anti-corruption mechanisms in urban India and Europe, the role of digital tools in promoting citizen trust, and comparative frameworks that support cross-regional policy learning."
-        ]
-      },
-      {
-        heading: "Digital Anti-Corruption Mechanisms",
-        paragraphs: [
-          "In Indian cities, there are digitized service delivery focused on reducing petty corruption. An example is Karnataka's e-Governance projects that demonstrated a reduction of bribery and increased efficiency, especially in licensing and municipal services (Chakraborty & Pandey, 2020). In Mumbai, transparency portals enabled real-time public access to civic contracts, increasing public audit interventions by almost 50% (Bose & Dey, 2022). Despite having an improvement, scholars still support that these tools only benefit urban elites and so hinder equitable access especially in peri-urban areas (Kumar, 2023).",
-          "European cities have leveraged more advanced technological environments to integrate anti-corruption tools. For example, Tallinn, the capital of Estonia, has a blockchain-based public contract system that offers unchangeable records, reducing procurement fraud risks (Tatar & Kalvet, 2021). Moreover, Helsinki, capital of Finland, has an open Ahjo platform that enhances transparency by providing real-time legislative data, strengthening public scrutiny (Lindgren et al., 2019). Critically, institutional readiness influences its success, not only technology indicating advanced digital systems fail where institutional accountability strategies are weak (Tummers et al., 2022). This highlights a research contrast between European and Indian urban governance outcomes."
-        ]
-      },
-      {
-        heading: "Public Trust and Participatory Technology",
-        paragraphs: [
-          "Digital participation has emerged as a tool for building trust. Public trust in Indian cities remains divided as the platform like MyGov struggles with inclusivity and at the same time encourages civic dialogue (Sharma & Bawa, 2021). The exclusion of marginalized groups that face digital literacy barriers and low-income groups risks deepening existing governance divides in urban areas.",
-          "On the other hand, European cities stress on participatory governance where everyone is required to take part in public decision making. For instance, Amsterdam’s Open Stad and Helsinki’s Decidim are proof that transparent and inclusive citizen and noncitizen engagement correlates with higher institutional trust (Linders et al., 2023). However, Bannister and Connolly (2021) argue that institutional action on citizen feedback is required for information access. Therefore, to build trust, transparency initiatives must be coupled with good governance. This study is significant in India, where rapid urbanization outgrows institutional response."
-        ]
-      },
-      {
-        heading: "Comparative Urban Governance and Gaps in the Literature",
-        paragraphs: [
-          "In India, the Smart Cities Mission has emphasized the modernization of infrastructure and the introduction of digital platforms like the India Urban Data Exchange and Mahiti Kanaja to promote transparency in public service delivery. However, many of these tools function in a top-down manner, often driven by state or national agencies rather than city-level democratic engagement (Kumar & Prakash, 2019). ",
-          "In contrast, European cities tend to frame digital governance as a citizen-centered process. For instance, Amsterdam’s City Data Lab and the “Right to Challenge” initiative empower citizens not only to access data but also to actively shape local policy outcomes (Linders et al., 2023). These initiatives reflect a governance culture grounded in subsidiarity, where municipal institutions are granted considerable autonomy in decision-making and innovation. Additionally, platforms like Helsinki’s open budgeting system and Tallinn’s blockchain-based registries are examples of how technological design is aligned with broader institutional trust mechanisms (European Commission, 2022).",
-          "From a theoretical lens, the principal-agent model helps frame how digital tools reduce information asymmetry between citizens (principals) and public officials (agents), thereby curbing opportunities for corruption (Janssen et al., 2012). Similarly, the trust-as-legitimacy theory posits that trust emerges not just from procedural openness but from the consistent responsiveness of institutions (Bannister & Connolly, 2021). Applying these frameworks comparatively, however, reveals that even technologically advanced platforms can fail when the institutional culture resists citizen empowerment—a challenge seen in both Indian and certain European cases.",
-          "Despite a growing body of work on digital governance and urban innovation, there is a clear gap in comparative, cross-regional analysis. Most studies focus either on single-city innovations or national-level digital programs, without adequately linking municipal strategies in the Global South and North. Few have investigated how cities operationalize SDG 16 targets, particularly in relation to transparency and trust, using real-world case studies. This paper contributes to closing that gap by providing a comparative review of selected Indian and European cities, examining not only the tools they deploy but also the institutional ecosystems that enable or constrain their effectiveness.",
-        ]
-      }, {
-        "Methodological Overview": [
-          "Examining the fundamental relationships between governments and citizens in both India and Europe is crucial to comprehending the challenges of incorporating technology into digital governance. A qualitative comparative approach will be used to capture these subtleties, enabling a precise and contextualized examination of the major determinants of governance. By considering the institutional and sociopolitical factors that influence the use of digital tools, this method makes it possible to identify significant trends and distinctions between the two regions.",
-          "This study will examine the underlying reasons of corruption and assess the efficacy of countermeasures by utilizing a variety of qualitative data sources, such as published research findings and expert consensus. These revelations are essential to comprehending the formation of public trust in governance structures. According to this theory, political outcomes are the results of government initiatives to resolve conflicts between conflicting interests while guaranteeing the equitable and effective allocation of resources. Since economic inequality and inequities have a big impact on how the public views legitimacy and efficacy, special attention is paid to how these issues are handled. The study intends to demonstrate the connection between enhanced governance performance and anti-corruption initiatives by analyzing these dynamics.",
-          "The government will be better equipped to handle civil unrest, resource shortages, and environmental issues as well as make strategic investments in important institutions like education if it can remain consistent and deliver its services in an organized manner. The foundation for more extensive change, such as the transition to a digital state, is laid by effective governance in these domains. The government can improve accountability and openness by adopting new technologies. This advancement promotes long-term development objectives while also bolstering institutional trust. In the end, a responsive and well-coordinated government is better equipped to address the demands of the populace and promote sustainable progress in a world that is becoming more digitally connected.",
-          "Continuously, information obtained will explain challenges faced by integration, such as justice isolation, social engagement, and disintegration that reveal the people's trust and attitudes towards their governments. A historical overview will be particularly included to highlight unique challenges and conflicts that arose from the cultural and social status quo. Hence, findings will give insight into possible methods that India can adapt , such as strong institutional frameworks, according to their governing style, that ensure proper regulations. This includes the values of accountability and delivering operational continuity actions as well as the consequences of such changes.",
-          "Moreover, it is important to emphasize that this research does not romanticize the digitalization of cities and their institutions. While European cities have made significant strides in adopting digital technologies, they continue to confront complex and evolving challenges associated with these advancements. Recognizing both the opportunities and limitations of digital governance provides a balanced foundation for the analysis."
-        ]
-      },
-      {
-        heading: "Core Findings",
-        paragraphs: [
-          "In India, the Smart Cities Mission has emphasized the modernization of infrastructure and the introduction of digital platforms like the India Urban Data Exchange and Mahiti Kanaja to promote transparency in public service delivery. However, many of these tools function in a top-down manner, often driven by state or national agencies rather than city-level democratic engagement (Kumar & Prakash, 2019). ",
-          "In contrast, European cities tend to frame digital governance as a citizen-centered process. For instance, Amsterdam’s City Data Lab and the “Right to Challenge” initiative empower citizens not only to access data but also to actively shape local policy outcomes (Linders et al., 2023). These initiatives reflect a governance culture grounded in subsidiarity, where municipal institutions are granted considerable autonomy in decision-making and innovation. Additionally, platforms like Helsinki’s open budgeting system and Tallinn’s blockchain-based registries are examples of how technological design is aligned with broader institutional trust mechanisms (European Commission, 2022).",
-          "From a theoretical lens, the principal-agent model helps frame how digital tools reduce information asymmetry between citizens (principals) and public officials (agents), thereby curbing opportunities for corruption (Janssen et al., 2012). Similarly, the trust-as-legitimacy theory posits that trust emerges not just from procedural openness but from the consistent responsiveness of institutions (Bannister & Connolly, 2021). Applying these frameworks comparatively, however, reveals that even technologically advanced platforms can fail when the institutional culture resists citizen empowerment—a challenge seen in both Indian and certain European cases.",
-          "Despite a growing body of work on digital governance and urban innovation, there is a clear gap in comparative, cross-regional analysis. Most studies focus either on single-city innovations or national-level digital programs, without adequately linking municipal strategies in the Global South and North. Few have investigated how cities operationalize SDG 16 targets, particularly in relation to transparency and trust, using real-world case studies. This paper contributes to closing that gap by providing a comparative review of selected Indian and European cities, examining not only the tools they deploy but also the institutional ecosystems that enable or constrain their effectiveness.",
-        ]
-      },
-      {
-        heading: "Indian Cases",
-        paragraphs: [
-          "The Public Finance Management System was  launched in the late 2000s and has been of great use in tracking disbursements for social sector schemes all over India. It is connected to banks via a real‑time portal that enables monitoring of funds from the central government to beneficiaries at district and individual levels (PFMS, 2025). This system integrated pension and ration disbursements digitally as evident inAndhra Pradesh’s Krishna district hence a reduction in leakages(IMF, 2024).",
-          "India’s centralized Public Grievance Redress and Monitoring System (CPGRAMS) has captured eyes across the commonwealth for its impact(Business Standard, April 2024). The state‑level Integrated Grievance Redressal System resolved most of the complaints filed by care‑seekers with disabilities in Uttar Pradesh, demonstrating speed and transparency(Times of India, Jun 2025).",
-          "Integrated Command and Control Centres(ICCCs) run over 80 cities aggregating data from traffic, sanitation, CCTV, utilities, and public securities (Indian Express, 2022; Noida IAS Update, 2025). Pune and Bengaluru operate Smart City Command Centres with numerous sensors, emergency call boxes, dashboards, and real‑time analytics (LinkedIn/Pune; PC Mohan/Bengaluru). During the COVID‑19 pandemic, 45 such centres were rapidly repurposed into war‑rooms for tracking, helpline coordination, and logistics support (PMC NCBI, 2022; Economic Times, 2020). Several cities have integrated ICCCs into municipal budgets or adopted self‑sustaining models despite the end of central funding in March 2025(Hindustan Times, May 2025).",
-          "The Swachhata App, launched under the Swachh Bharat Mission by the Ministry of Housing and Urban Affairs (MoHUA), enables citizens to register sanitation-related grievances via a geo-tagged, time-stamped mobile interface. Citizens can track the status of their complaints, view before-and-after resolution images, and interact with municipal officials, ensuring accountability and responsiveness (Janaagraha, 2024). As of 2024, over 27 million complaints have been registered with a reported resolution rate of over 93% across 4,500+ cities (Janaagraha, 2024).",
-          "The e-Municipality Project, part of the National e-Governance Plan, focuses on digitising core urban local body services such as property tax, water billing, trade licences, and grievance redressal. By allowing online service delivery, status tracking, and structured workflows, it reduces physical interaction, minimizes corruption, and improves service transparency (BANotes, 2024).",
-          "The MyGov Portal, which was launched in July 2014 and is overseen by the National Informatics Centre, serves as a primary platform for citizen engagement and consultation. Research conducted by Banerjee (2021) characterizes MyGov as an example of open innovation—where ministries and citizens collaboratively develop policy inputs, thus enhancing the participatory and transparent nature of governance processes. Singh and Kaushik (2020) emphasize how MyGov has institutionalized direct contributions from citizens and centralized public discourse among governmental departments. Nevertheless, empirical evaluations (The Hindu Centre, 2021) reveal a limited engagement in essential policy drafts: only approximately 8% of the discussions hosted were related to pre-legislative drafts, and only 11 out of 60 ministries were involved, indicating a tendency towards selective transparency (The Hindu Centre, 2021)."
-        ]
-      }, {
-        heading: "European Cases",
-        paragraphs: [
-          "The City of Amsterdam is leading the digital initiatives in Europe by incorporating ICT into, not only the government, but also towards the civil sector (Digital Cities: Amsterdam’s Ecosystem of Cooperation, n.d.; Netherlands - Digital Economy, 2024). This reflects the continuous progress of successfully strengthening the State-Citizen relationship as it incorporates research institutions as well, and collectively addresses various issues. It has been stated that Amsterdam collaborated with multinational ICT companies resolving conflicts and secrecy to cooperation and transparency which too revealed accountability (Digital Cities: Amsterdam’s Ecosystem of Cooperation, n.d.). According to the city’s second Digital Agenda 2023/2026, the core principles of believing in “A Digital City that is human, reliable and future proof”. Furthermore, another ongoing initiative that is recognised as Amsterdam InChange, used to be known as Amsterdam Smart City that was birthed in 2017 (ITA, 2025), prioritises the residences' and users’ of these cities interests and engagement through the tools, data and technology (ASC, 2025). As indicated in the methodology, the government’s ability to sustain consistency with thorough organisation, will have a greater chance to transform into a digital state and secure transparency through technological advancements. Consequently, this initiative has created a trust mechanism resulting in a cohesive environment in which citizens’ participation is the foundation platform where exchanging valuable and knowledgeable information with one another, to improve the city, takes place.",
-          "Similarly in Finland’s Helsinki, reputable for the self-organised communities, integrates ICTs to generate quality rich “community activities and environment” (Horelli, Saad-Sulonen, Wallin and Botero, 2013) through various initiatives. Thus, Finland’s e-planning has intersected “urban planning and community development” (Horelli, Saad-Sulonen, Wallin and Botero, 2013) through the Learning-based framework, which enhance further the participation and flow of the state-citizen relationship regarding the daily life within the city. Continuously, Finland has invested the most in quantum computing research in comparison to other European countries to sustain the pace of technological developments around the world and within its country (ITA, 2025).",
-          "Estonia's capital city of Tallinn is regarded as one of the world's best examples of digital administration. Tallinn has improved accountability and openness by implementing digital technologies at every level of urban service delivery as part of the e-Estonia initiative. X-Road, a secure data exchange network that links more than 900 public and commercial bodies and allows for real-time information sharing while protecting data privacy, is an essential part of this infrastructure (e-Estonia Briefing Centre, 2023). This innovation lowers the possibility of corruption and minimizes bureaucracy. Furthermore, blockchain technology has been integrated into public procurement procedures, allowing contracts and financial records to be securely stored with time stamps. This improves auditability for oversight and civil society organizations (Tatar & Kalvet, 2021). Despite being a national program, e-Residency has a big urban influence on Tallinn since it makes it possible for non-residents to communicate with local authorities, create enterprises, and obtain legal services—all of which promote transnational transparency (Digital Nations Report, 2024). In keeping with EU digital goals, the city also runs a comprehensive Open Data Portal that provides access to municipal data on zoning, transportation, and budgets. This makes it possible for people, NGOs, and journalists to hold local government officials responsible (City of Tallinn, 2024). In accordance with EU anti-corruption and inclusion directives, Tallinn stresses digital inclusion by providing ICT training for elderly persons and rural immigrants, even in the face of widespread e-service penetration (Estonia Digital Strategy, 2023). These initiatives offer as an example of a governance approach in which technology enhances democratic engagement by enabling citizens to actively observe the government rather than being passively watched. Tallinn thus exemplifies how smart urban systems can foster both efficiency and civic empowerment."
-        ]
-      },
-      {
-        heading: "Interpretation and Analysis",
-        paragraphs: [
-          "The digital governance initiatives in India and Europe, while sharing a lexicon of transparency and participation, are fundamentally expressions of two different state-citizen relationships, shaped by divergent historical contexts and contemporary challenges. A comparative analysis reveals that these are not merely different tools for similar problems, but different solutions for entirely different problems altogether. Where Indian digital governance is a story of a post-colonial state using technology to establish order and transactional trust across a vast, developing nation, the European model is one of mature democracies leveraging technology to deepen an existing, though sometimes strained, social contract.",
-          "This core difference is most evident in the foundational purpose of their flagship initiatives. India’s Public Finance Management System was born of necessity—a direct, top-down assault on the systemic corruption and financial leakages that have plagued its welfare state. It is a tool of control, designed to impose accountability where it was historically absent. In stark contrast, Amsterdam’s 'Right to Challenge' initiative emerges not from a crisis of corruption, but from a crisis of alienation, addressing a perceived gap between a functioning state and the needs of its citizens. The Indian system thus uses technology to build trust from a low baseline by proving its ability to deliver services honestly, while the Dutch system uses technology to sustain trust by devolving power and agency to a citizenry that already expects to be heard. One is an instrument of administrative necessity; the other is an evolution of democratic principle.",
-          "This distinction permeates the nature of citizen participation. Where India’s Swachhata App provides a structured, top-down channel for citizens to report sanitation failures to a central authority, Helsinki's open budgeting platforms or Amsterdam's co-creation projects invite citizens to define the problem and allocate resources themselves. The Indian citizen is positioned as a monitor or a service recipient providing feedback to the state, a model evident even in the MyGov portal, where engagement often stops short of influencing core policy. Conversely, the European citizen is framed as a partner with the state. This reveals a different understanding of the citizen's role: in India, technology helps them hold a powerful state to account for its duties, whereas in Europe, it facilitates their active participation in the state’s decision-making processes, a reflection of a long-standing tradition of subsidiarity and local autonomy.",
-          "The very architecture of digital systems reflects this philosophical divide. India's Integrated Command and Control Centres are centralized hubs of data aggregation and surveillance, designed to give the state a comprehensive view for managing urban chaos and ensuring security. They are instruments of management and control. This differs fundamentally from the logic of Tallinn’s X-Road infrastructure. While also a central system, X-Road is designed as a secure, decentralized enabler of interaction, not just for the state to see, but for all actors—citizens, ministries, and businesses—to exchange data transparently and securely. The ICCC is an architecture for top-down oversight, born from the need to manage complexity, while X-Road is an architecture for ecosystem-wide trust, born from a societal consensus on digital rights and transparency.",
-          "Finally, this comparative lens reveals different approaches to the inherent risks of digitalization. In India, the 'transparency paradox' of providing information without ceding influence is a major challenge, and the deployment of advanced technology constantly battles the risk of deepening the digital divide. The solution to digital exclusion is often seen as a secondary challenge to the primary goal of technological implementation. This contrasts sharply with Tallinn’s proactive strategy of integrating ICT training for all demographic groups. For Estonia, digital inclusion is not an afterthought but a prerequisite for the legitimacy of its digital state. It represents a mature understanding that digital governance cannot succeed if it is not equitable, a principle that carries a far greater weight and complexity in India's vastly more diverse and unequal socio-economic landscape."
-        ]
-      },
-      {
-        heading: "Policy and Practice Recommendations",
-        paragraphs: [
-          "We think that the following suggestions, which are based on a comparison of digital governance in India and Europe, provide a way for both parties to learn from one another and create urban governance models that are more open, inclusive, and successful.",
-          "First and foremost, we believe that a more participatory model of digital governance should replace India's current top-down, control-oriented approach. Policymakers can create trust that goes beyond service delivery by adopting components of European frameworks, like Amsterdam's co-creation initiatives. As a result, the relationship between the state and its citizens shifts from one of administration to one of partnership, encouraging a greater feeling of citizen ownership and active participation in governance.",
-          "However, if a digital governance system engages in social exclusion, it will not be effective. Thus, secondly, in order to bridge the gap between digitally advanced metropolitan centers and other areas, India must promote digital literacy, particularly in rural and vulnerable groups, if it hopes to make this new collaboration inclusive. One important lesson from Estonia's proactive inclusion strategy is that accessible tactics and customized training programs are essential to any deployment of digital governance, guaranteeing that no person is left behind.",
-          "Thirdly, it is our deep conviction that India must abandon a paradigm in which power is still centralized and information is only accessible if it is to genuinely establish confidence through transparency. The creation of platforms that give people actual control over policy is the next stage. Passive information portals are unable to create the deep level of institutional confidence that may be fostered by allowing residents to directly engage in important procedures, such as municipal budgeting decisions, as demonstrated in Helsinki. Because of this, transparency is no longer a one-way message but rather an active, two-way roadway.",
-          "The risks of data misuse and spying inevitably rise with the depth and decentralization of digitalization. Fourth, in order to protect its population, India must establish strong institutional and legal protections. Taking inspiration from Europe's General Data Protection Regulation and the ethical design principles incorporated into Tallinn's digital infrastructure, this entails creating comprehensive legal frameworks that explicitly enshrine digital rights, data privacy, and algorithmic accountability.",
-          "Fifth, we insist that platforms like MyGov need to be updated. This will help make citizen feedback transparent and useful. People need to see that their opinions influence policy. Then trust in the system will grow. It is important that citizen participation is not limited to surveys. It is necessary to show how digital feedback is used in real decisions. This will help reduce the gap between consultation and action..",
-          "Ultimately, it is important to develop a culture of digital citizenship. This is the foundation for sustainable change that goes beyond technology and politics. To create literate and engaged citizens, India must invest in education. This should focus on digital rights, responsibilities, and participation. Other steps are needed to reach people of all income and educational levels. We think that these could include countrywide awareness campaigns, best done in local languages and with the participation of the communities themselves. Such programs should clearly explain rights, such as freedom of speech and data protection. But it is also important to talk about responsibilities, such as the need to participate in online discussions."
-        ]
-      },
-
-    ],
-    Conclusion: [
-      "As a result, this comparison of digital governance in Europe and India shows two different trajectories influenced by different historical and sociopolitical settings. Although both areas use technology to increase openness and public confidence, their primary driving forces are very different. Specifically, the majority of India's digital initiatives are a top-down reaction to structural issues like inefficiency in service delivery and corruption. They serve as instruments of control to impose responsibility. European models, on the other hand, like those in Tallinn and Amsterdam, come from a history of democratic cooperation. The goal of these programs is to increase public participation in the actual decision-making process. This is a significant distinction. One system distributes power to maintain confidence, while the other aims to establish trust by showcasing skill.",
-      "We think that in order for India to advance, it needs to change its digital governance model from one that is control-oriented to one that is more participative. This calls for a multifaceted approach. In order to close the existing divide between urban elites and underprivileged communities, it is also imperative to invest in universal digital literacy. Furthermore, in order to safeguard data privacy and defend digital rights, strong legal frameworks that are modeled after laws like the GDPR must be developed.",
-      "Thus, by embracing a more inclusive and decentralized approach, India can foster a culture of digital citizenship, transforming its governance landscape into a truly collaborative and transparent ecosystem."
-    ],
-    references: [
-      {
-        heading: 'Banerjee, S. (2021). Open Innovation for Better Governance: A Case Study of MyGov Platform of Government of India. Academy of Marketing Studies Journal, 25(2).Bannister, F., & Connolly, R. (2021). Trust and digital government. Information Polity, 26(1), 51–64.BANotes. (n.d.). Urban development e‑Governance Mission Mode Projects. Retrieved from',
-        "links": "https://banotes.org/e-governance/urban-development-e-governance-mission-mode-projects"
-      },
-      {
-        heading: "Bertot, J. C., Jaeger, P. T., & Grimes, J. M. (2010). Using ICTs to create a culture of transparency: E-government and social media as openness and anti-corruption tools for societies. Government Information Quarterly, 27(3), 264-271. ",
-        links: "https://www.sciencedirect.com/science/article/pii/S0740624X10000201"
-      },
-      {
-        heading: "Azim Premji Foundation. (2021). Myths of online education.",
-        links: "https://azimpremjifoundation.org/sites/default/files/myths-of-online-education.pdf"
-      },
-      {
-        heading: "Bertsou, E. (2019). Rethinking political distrust. European Political Science Review, 11(2), 213–230.",
-        links: "https://doi.org/10.1017/S1755773919000080"
-      },
-      {
-        heading: "Bose, D., & Dey, T. (2022). Digital platforms and municipal transparency in India. Urban Governance Journal, 7(3), 144–159.Business Standard. (2024, April). India’s grievance redressal system ranked among top in Commonwealth.",
-        links: "https://www.business-standard.com"
-      },
-      {
-        heading: "Chakraborty, S., & Pandey, A. (2020). E-Governance and public service delivery in India. Public Administration Review, 80(4), 610–624.City, A. S. (n.d.). About us. Amsterdam Smart City",
-        links: " https://amsterdamsmartcity.com/about"
-      },
-      {
-        heading: "City of Tallinn. (2024). Tallinn Open Data Portal. https://opendata.tallinn.ee David-Barrett, L., & Okamura, K. (2013). The Transparency Paradox: Why do Corrupt Countries Join EITI? (Working Paper No. 38). European Research Centre for Anti-Corruption and State-Building.",
-        links: "https://eiti.org/sites/default/files/attachments/The-Transparency-Paradox.-Why-do-Corrupt-Countries-Join-EITI1.pdf"
-      },
-      {
-        heading: "Digital cities: Amsterdam’s ecosystem of cooperation. (2021). Urbact.eu.",
-        links: "https://urbact.eu/articles/digital-cities-amsterdams-ecosystem-cooperation"
-      },
-      {
-        heading: "Digital Nations Report. (2024). e-Residency and the Estonian Model. https://www.digitalnations.gov.ee Economic Times. (2020, March 28). 45 Smart City control rooms converted into COVID-19 war rooms: Ministry of Housing and Urban Affairs.",
-        links: "https://economictimes.indiatimes.com/news/india/45-smart-city-control-rooms-converted-into-covid-19-war-rooms-ministry-of-housing-and-urban-affairs/articleshow/74866020.cms"
-      },
-      {
-        heading: "e-Estonia Briefing Centre. (2023). How Estonia Became the Most Digitally Advanced Country. https://e-estonia.com Estonia Digital Strategy. (2023). Digital Skills for All. Ministry of Economic Affairs and Communications. https://mkm.ee/en/digital-strategy Harkness, A. J., & Katz, B. (2016). Why urban governance matters—now more than ever. Brookings Institution. ",
-        links: "https://www.brookings.edu/articles/why-urban-governance-matters-now-more-than-ever/"
-      },
-      {
-        heading: "Hindustan Times. (2025, May). After Smart City funding ends, cities look for ways to sustain ICCCs",
-        links: " https://www.hindustantimes.com"
-      },
-      {
-        heading: "Horelli, Saad-Sulonen, Wallin and Botero. (2013). When self-organization and urban governance intersect: Two cases from Helsinki. Indian Express. (2022, February 28). Explained: How Integrated Command and Control Centres work.",
-        links: "https://indianexpress.com/article/explained/iccc-smart-cities-mission-explained-7816433/"
-      },
-      {
-        heading: "International Monetary Fund. (2024). Digital Public Infrastructure in India: Lessons from the PFMS (IMF Working Paper No. 24/86). ",
-        links: "https://www.imf.org"
-      },
-      {
-        heading: "International Trade Administration. (2024, September 19). Finland - Digital Economy. International Trade Administration. Accessed from: Trade.gov. ",
-        links: "https://www.trade.gov/country-commercial-guides/finland-digital-economy"
-      },
-      {
-        heading: "Kumar, R. (2023). Digital divides and governance in urban India. Journal of Urban Affairs, 45(2), 213–230.Linders, D., van der Meer, T., & Rutgers, M. R. (2023). Civic tech and trust in European cities. Local Government Studies, 49(1), 1–23.Lindgren, I., Madsen, C. Ø., Hofmann, S., & Melin, U. (2019). Digital government transformation in the EU. Government Information Quarterly, 36(4), 101-410.Margetts, H., & Dorobantu, C. (2019). Rethink government with AI and digital technologies.Nature Human Behaviour, 3(5), 346–349.",
-        links: "https://doi.org/10.1038/s41562-019-0565-2 "
-      },
-      {
-        heading: "Meijer, A., & Grimmelikhuijsen, S. (2021). Transparency in digital urban governance. Government Information Quarterly, 38(3), 101-599.Ministry of Economic Affairs and Communications of Estonia. (2022, May 23). Estonia is leading the world in the use of data. e-Estonia. ",
-        links: "https://e-estonia.com/estonia-is-leading-the-world-in-the-use-of-data/"
-      },
-      {
-        heading: "Mupandanyama, T. (2023). Corruption in urban councils and its impact on service delivery. Journal of Ethics, Governance & Political Science. ",
-        links: "https://www.researchgate.net/publication/372680584_Corruption_in_Urban_Councils_and_its_Impact_on_Service_Delivery_Tapiwa_Mupandanyama"
-      },
-      {
-        heading: "Nandy, A., & Kumar, A. (2025). Engage citizens to smarten city governance. Smart Cities and Regional Development Journal, 9(2), 29-42.National Center for Biotechnology Information. (2022). Smart Cities and COVID-19: Repurposing India's urban infrastructure. ",
-        links: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9245932/"
-      },
-      {
-        heading: "OECD. (2020). The use of digital technologies for public engagement in policymaking. OECD Publishing.",
-        links: "https://www.oecd.org/gov/the-use-of-digital-technologies-for-public-engagement-in-policymaking-b8f32a7d-en.htm"
-      },
-      {
-        heading: "Panda, A. K., & Kumar, A. (2025). E-governance in India and Its Role in Modern Governance: A Conceptual Overview. International Journal for Research Trends and Innovation, 10(3), a708-a715.Panda, A. K., & Kumar, A. (2025). E-governance in India and Its Role in Modern Governance: A Conceptual Overview. International Journal for Research Trends and Innovation, 10(3), a708-a715. ",
-        links: "https://www.ijrti.org/papers/IJRTI2503087.pdf"
-      },
-      {
-        heading: "Pickup, F. (2024). Urban governance vital for cities to prosper. United Nations Development Programme. ",
-        links: " https://www.undp.org/blog/urban-governance-vital-cities-prosper "
-      },
-      {
-        heading: "Sharma, A., & Bawa, A. (2021). MyGov and urban civic engagement in India. Journal of Development Policy, 18(2), 89–104.Singh, A., & Kaushik, A. (2020). Platform for Citizen Engagement for Good Governance in India: A Case Study of MyGov.in. In Civic Engagement Frameworks and Strategic Leadership Practices for Organization Development. IGI Global.Tatar, M., & Kalvet, T. (2021). Blockchain for Public Services: The Case of Tallinn. Government Information Quarterly, 38(2). https://doi.org/10.1016/j.giq.2021.101566 Tatar, M., & Kalvet, T. (2021). Blockchain in Estonian public governance. Government Information Quarterly, 38(4), 101-607. The Hindu Centre. (2021). How Participatory is My Government? A Closer Look at MyGov.in. Retrieved from ",
-        links: " https://www.thehinducentre.com/article9411455.ece "
-      },
-      {
-        heading: "Times of India. (2025a, June). Most grievances of differently abled resolved. ",
-        links: "https://timesofindia.indiatimes.com/city/lucknow/most-grievances-of-differently-abled-resolved/articleshow/121541626.cms "
-      },
-      {
-        heading: "Transparency International. (n.d.). Transparency International joins global campaign for participatory urban governance. ",
-        links: "https://www.transparency.org/en/press/transparency-international-joins-global-campaign-for-participatory-urban-go "
-      },
-      {
-        heading: "Tummers, L., Bekkers, V., & Steijn, B. (2022). Institutional trust and digital reforms. Public Management Review, 24(6), 819–839. UN-Habitat, CAF, Edinburgh Napier University, & Tallinn University of Technology. (2022). Global review of smart city governance practices. UN-Habitat. UN-Habitat. (2020). World cities report 2020: The value of sustainable urbanization. United Nations Human Settlements Programme. ",
-        links: "https://unhabitat.org/sites/default/files/2020/10/wcr_2020_report.pdf"
-      },
-      {
-        heading: "United Nations. (2015). Transforming our world: The 2030 agenda for sustainable development.",
-        links: "https://sdgs.un.org/goals/goal16"
-      },
-      {
-        heading: "United Nations Department of Economic and Social Affairs. (n.d.). Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable. United Nations. Retrieved July 14, 2025, from",
-        links: " https://sdgs.un.org/goals/goal11 "
-      },
-      {
-        heading: "Valtioneuvoston kanslia. (n.d.). Finland, a pioneer in digitalisation and new technologies. Prime Minister's Office. Retrieved July 12, 2024, from",
-        links: "https://vnk.fi/en/finland-a-pioneer-in-digitalisation-and-new-technologies"
-      },
-      {
-        heading: "World Bank. (2021, April 28). Enhancing government effectiveness and transparency: The fight against corruption.",
-        links: "https://www.worldbank.org/en/news/feature/2021/04/28/enhancing-government-effectiveness-and-transparency-the-fight-against-corruption"
-      }
-
-    ]
-
-  }, {
+   {
     id: 14,
     serialNumber: 42,
     issue: 4,
@@ -10971,7 +10407,8 @@ const articles = [
     issue: 4,
     volume: 1,
     title: "BRIDGING THE DIVIDE:DIGITAL PUBLIC INFRASTRUCTURE IN THE INFORMAL SECTOR",
-    author: "Harmanpreet Singh – Panjab University ;Naukhaiz Aftab – Chaudhary Charan Singh University ;Gauri Sharma – Indira Gandhi National Open University; Ruchi Tiwari- University of Mumbai  ;Mahi Tyagi-  University of Delhi  ;Shivangi Varma-  Deen Dayal Upadhyay Gorakhpur University;authorAbbrev: 'Deeksha; Saha, A.; Agrawal, P.; Dhar, N.; Vardani, A.",
+    author: "Harmanpreet Singh ,Naukhaiz Aftab,Gauri Sharma , Ruchi Tiwari,Mahi Tyagi,Shivangi Varma",
+    authorAbbrev: "h.Singh, N.Aftab, G.Sharma, R.Tiwari, M.Tyagi, S.Varma",
     abstract: [
       "The rapid digitalisation and expansion of Digital Public Infrastructure (DPI) in India have brought mixed outcomes, particularly for informal sector workers. The digital divide is a result of existing inequalities in socioeconomic status, geography, caste, and gender. While digitalisation has improved access in many areas, its benefits remain unevenly distributed. This paper investigates structural and systemic factors behind this gap and explores legal frameworks and the PPP model to promote financial inclusion.",
       "Using qualitative analysis of secondary data, this study finds that access to digital services remains uneven, for informal workers with low digital skills and sporadic access to the internet. It underscores spatial divide, limitations of the “one-size-fits-all” approach and the lack of legal protection in labour codes. It also reveals disparities within the informal sector, where MSME owners benefit from DPI but many workers remain excluded.",
@@ -10997,8 +10434,8 @@ const articles = [
     ,
     content: [
       {
-        "heading": "PROBLEM STATEMENT AND RESEARCH QUESTION",
-        "paragraphs": [
+        heading: "PROBLEM STATEMENT AND RESEARCH QUESTION",
+        paragraphs: [
           "The aim of this research paper is to comprehensively examine the varying stages of digital transformation across the country, with an explicit concentration on the function and consequences of digital public infrastructure on various aspects of society, with special reference to the informal sector. Our questions seek to understand both the drivers and consequences of digital access and usage patterns, while also considering systemic elements within the DPI ecosystem. This report is guided by the following research questions.",
           "How do socio-economic and contextual factors influence the patterns of access to and effective utilisation of digital public infrastructure by different informal sector subgroups, and what are the resulting effects on their outcomes in knowledge acquisition, well-being, financial inclusivity, and the livelihoods of workers under various informal sector arrangements?",
           "To what extent do trends of privatisation, phantomization, and wealth accumulation within the Digital Public Infrastructure landscape, alongside the prevailing legal frameworks and Public-Private Partnership (PPP) models, influence digital access and the ability of informal sector actors to leverage these technologies for their benefit, and how can these challenges be addressed?",
@@ -11048,7 +10485,7 @@ const articles = [
       {
         heading: "METHODOLOGICAL OVERVIEW",
         paragraphs: [
-          "The methodology used for conducting this analysis of this policy, “Bridging the Divide: DPI in the Informal Sector, is a hybrid and integrative approach that includes secondary, qualitative, and, to an extent, quantitative means to meet the ends to comprehensively analyse the intersection of Digital Public Infrastructure (DPI) and the informal sector in India. The foundations of the study actually rest on the secondary research, where a broader range of existing literature, policy documents, legal frameworks, academic articles, and government reports were taken deep into account and were consulted. These include key sources such as Oxfam, World Bank assessments, and the landmark legislations & acts like the Digital Personal Data Protection Act (2023), the Aadhar Act, and the IT Act (2000) that helped & allowed to map the evolution of the DPI and its practical implications on the informal workers. Complementary to this is the qualitative analysis that helped deep dive into the structural and contextual realities of these informal sectors. Rather than just relying on the data, the study explores issues like digital exclusion; systemic marginalisation, which is based on caste and gender; exploitation by private players; the phantomization of data, i.e., through databases like e-Shram; and gaps in digital literacy. Legal judgements like Puttaswamy v. Union of India are analysed qualitatively to interpret how privacy rights and data governance influence trust and participation in the digital ecosystems. Furthermore, the study to some extent integrates the basic quantitative insights to validate its claims, using the statistics to reflect the extent of digital access and the economic impact of DPI. Overall, this mixed methodology enriches the study by ensuring that secondary data provides a macro-policylevel perspective, in which the qualitative interpretation adds depth to socio-economic and political realities, and picked quantitative data underscores the scale of digital disparities and economic outcomes. This mixed approach is particularly well suited for policy analysis in the Indian informal sector, where diversity on the ground level and structural inequalities demand more than a single-method investigation. The methodology effectively captures the complexity of the DPI’s impact, showing how interventions of technology are backed by robust institutional support. Hence, the methodology reflects not only the researchers’ intent to examine existing knowledge critically but also through a holistic lens.",
+          "The methodology used for conducting this analysis of this policy, Bridging the Divide: DPI in the Informal Sector, is a hybrid and integrative approach that includes secondary, qualitative, and, to an extent, quantitative means to meet the ends to comprehensively analyse the intersection of Digital Public Infrastructure (DPI) and the informal sector in India. The foundations of the study actually rest on the secondary research, where a broader range of existing literature, policy documents, legal frameworks, academic articles, and government reports were taken deep into account and were consulted. These include key sources such as Oxfam, World Bank assessments, and the landmark legislations & acts like the Digital Personal Data Protection Act (2023), the Aadhar Act, and the IT Act (2000) that helped & allowed to map the evolution of the DPI and its practical implications on the informal workers. Complementary to this is the qualitative analysis that helped deep dive into the structural and contextual realities of these informal sectors. Rather than just relying on the data, the study explores issues like digital exclusion; systemic marginalisation, which is based on caste and gender; exploitation by private players; the phantomization of data, i.e., through databases like e-Shram; and gaps in digital literacy. Legal judgements like Puttaswamy v. Union of India are analysed qualitatively to interpret how privacy rights and data governance influence trust and participation in the digital ecosystems. Furthermore, the study to some extent integrates the basic quantitative insights to validate its claims, using the statistics to reflect the extent of digital access and the economic impact of DPI. Overall, this mixed methodology enriches the study by ensuring that secondary data provides a macro-policylevel perspective, in which the qualitative interpretation adds depth to socio-economic and political realities, and picked quantitative data underscores the scale of digital disparities and economic outcomes. This mixed approach is particularly well suited for policy analysis in the Indian informal sector, where diversity on the ground level and structural inequalities demand more than a single-method investigation. The methodology effectively captures the complexity of the DPI’s impact, showing how interventions of technology are backed by robust institutional support. Hence, the methodology reflects not only the researchers  intent to examine existing knowledge critically but also through a holistic lens.",
 
         ]
       },
@@ -11464,8 +10901,8 @@ const articles = [
     issue: 4,
     volume: 1,
     title: "SHOULD ECOCIDE BE RECOGNIZED AS THE FIFTH INTERNATIONAL CRIME UNDER THE ROME STATUTE? A LEGAL, ETHICAL, AND JURISDICTIONAL ANALYSIS.",
-    author: "Ankitha Lahari M N¹; Aiswaryya Dhamodaran²; Ananya Aggarwal³; Vidhushi⁴; K K Sree Purna⁵",
-    authorAbbrev: "Lahari M N, A.; Dhamodaran, A.; Aggarwal, A.; Vidhushi; Sree Purna, K. K.",
+    author: "Ankitha Lahari M N, Aiswaryya Dhamodaran, Ananya Aggarwal, Vidhushi, K K Sree Purna",
+    authorAbbrev: "A.Lahari , A. Dhamodaran , A. Aggarwal , Vidushi, K.k Sree Purna",
     abstract: [
       "This research critically examines the pressing need to recognize ecocide - defined as large-scale, long-term, and serious environmental destruction - as the fifth international crime in the Rome Statute of the International Criminal Court (ICC).",
       "Through a doctrinal and comparative legal approach, this paper assesses the historical development, moral underpinnings, and jurisdictional implications of articulating ecocide internationally.",
@@ -11666,8 +11103,8 @@ const articles = [
     issue: 4,
     volume: 1,
     title: "Criminalizing Ecocide: Impacts on Justice",
-    author: "Pratishtha Purohit¹, Ayushi Sharma², Janvi Manojsinh Chauhan³, Saroar Mohammad⁴, Ayush Chaturvedi⁵,Tanisha Mitra⁶,Shanvi Thakre⁷",
-    authorAbbrev: "Purohit, P.; Sharma, A.; Chauhan, J. M.; Mohammad, S.; Chaturvedi, A.; Mitra, T.; Thakre, S.",
+    author: "Pratishtha Purohit, Ayushi Sharma, Janvi Manojsinh Chauhan, Saroar Mohammad, Ayush Chaturvedi,Tanisha Mitra,Shanvi Thakre",
+    authorAbbrev: "P. Purohit, A. Sharma, J. M. Chauhan, S. Mohammad, A. Chaturvedi, T.Mitra , S. Thakre",
     abstract: [
       "With the increasing environmental crisis across the globe, ecocide has achieved more widespread recognition and broader awareness. It is high time we recognised ecocide as 5th International Crime under the Rome Statute (International Criminal Court,1998) since the existing legal provisions lack regulations or frameworks.",
       "The focus is to solve the paradox of how destruction of the environment during a war is a crime, and the same destruction in peacetime is not considered a crime. The individuals or corporations must be held accountable for the collapse of biodiversity and the displacement of communities.",
@@ -11815,8 +11252,8 @@ const articles = [
     issue: 4,
     volume: 1,
     title: "Digital Platform, Disconnected Protections: Gendered Vulnerabilities in India’s Emerging Gig Economy",
-    author: "S Shyam¹; Vanshikha Bilaska²; Agrima Srivastav³; Jeshvanth Karthikeyan⁴; Nainsee Bansal⁵; La Grace Divine Igirubuntu⁶; Fairuj Fariha⁷",
-    authorAbbrev: "Shyam, S.; Bilaska, V.; Srivastav, A.; Karthikeyan, J.; Bansal, N.; Igirubuntu, L. G. D.; Fariha, F.",
+    author: "S Shyam, Vanshikha Bilaska, Agrima Srivastav, Jeshvanth Karthikeyan, Nainsee Bansal, La Grace Divine Igirubuntu, Fairuj Fariha",
+    authorAbbrev: "S, Shyam , V.Bilaska, A. Srivastav, J. Karthikeyan, N. Bansal, L. Grace , f.fariha",
     abstract: [
       "India's vibrant platform economy from ride-sharing and food delivery to online freelancing and local services, has provided jobs for more than 7.7 million workers (ILO, 2021). This paper in detail assesses the intersection of Gender and Gig economy focussing on the unique issues that women face in working in Gig economy.",
       "Women and transgender gig workers in India face systemic exclusion from essential labor protections, including access to health insurance, maternity benefits, minimum wage guarantees, and grievance redressal mechanisms. This marginalization is further intensified by Algorithmic biases and the precarious nature of gig work, leading to heightened job insecurity and exploitation (Fairwork India, 2023).",
@@ -12072,33 +11509,20 @@ const articles = [
   },
 
 
-  //mera
+  
   {
-  id: 9,
+ id: 9,
   serialNumber: 45,
   issue: 4,
   volume: 1,
-  title: "INDIA’S BLUE DIPLOMACY IN THE WESTERN INDIAN OCEAN: SECURING MARITIME COMMONS BEYOND THE INDO-PACIFIC (2008–2024)",
-  "author": [
-    "SumitGusain",
-    "SaanviBudhiraja",
-    "Rishi Gurung",
-    "Anisha Tiwari",
-    "AishiMitra"
-  ],
-  authorAbbrev: [
-    "S. Gusain",
-    "S. Budhiraja",
-    "R. Gurung",
-    "A. Tiwari",
-    "A. Mitra"
-  ],
-  status: "Submitted",
+  title: "BLUE DIPLOMACY IN THE WESTERN INDIAN OCEAN: SECURING MARITIME COMMONS BEYOND THE INDO-PACIFIC (2008–2024)",
+  author: "SumitGusain,Saanvi Budhiraja, Rishi Gurung, Anisha Tiwari, Aishi Mitra",
+  authorAbbrev:"S. Gusain, S. Budhiraja, R. Gurung, A. Tiwari, A. Mitra",
   abstract: [
-    "This paper is a critical analysis of India’s evolving maritime strategy in the Western Indian Ocean (WIO) from 2008 to 2024, putting forth the argument of India’s ‘blue diplomacy’ witnessing a strategic paradigm shift that now transcends the confines of the Indo-Pacific narrative to adopt a much more feasible approach. Laid down in the SAGAR (Security and Growth for All in the Region) vision and refined under the recent MAHASAGAR framework, India’s policies in the WIO interpret maritime security, regional connectivity, ecological supervision, and sustainable development as interlinked pillars of foreign policy. The study explores how the pressing necessity of safeguarding vital sea lanes that handle over 80% of India’s crude oil imports and a significant share of national trade, drives forward India’s westward focus of deep engagement with the geopolitically sensitive WIO region.",
-    "Key aspects of this ‘blue diplomacy’ include strong maritime security collaboration against common threats like piracy, arms proliferation, and illicit trafficking, enabled by operations such as Operation Sankalp and through initiatives like the Information Fusion Centre–Indian Ocean Region (IFC-IOR). The paper investigates the strategic use of port development by India and highlights projects like Chabahar in Iran and Sittwe in Myanmar, serving both as hubs for logistics as well as tools for encouraging inclusive regional development, improving access particularly for landlocked economies and strengthening India’s “Act East” and “Neighbourhood First” policies.",
-    "The research also digs around India’s active involvement with international platforms such as the Indian Ocean Rim Association (IORA) and Indian Ocean Commission (IOC) to support the growth of the sustainable ocean-based economy and improve cooperation. Additionally, the study makes a point of aligning the Sustainable Development Goals (particularly SDGs 13, 14, 16, and 17) into India’s maritime plan."
-  ],
+    "This paper is a critical analysis of India’s evolving maritime strategy in the Western Indian Ocean (WIO) from 2008 to 2024, putting forth the argument of India’s‘blue diplomacy’witnessing a strategic paradigm shift that now transcends the confines of the Indo-Pacific narrative to adopt a much more feasible approach. Laid down in the SAGAR (Security and Growth for All in the Region) vision and refined under the recent MAHASAGAR framework, India’s policies in the WIO interpret maritime security, regional connectivity, ecological supervision, and sustainable development as interlinked pillars of foreign policy. The study explores how the pressing necessity of safeguarding vital sea lanes that handle over 80% of India’s crude oil imports and a significant share of national trade, drives forward India’s westward focus of deep engagement with the geopolitically sensitive WIO region.",
+    "Key aspects of this‘blue diplomacy’include strong maritime security collaboration against common threats like piracy, arms proliferation, and illicit trafficking, enabled by operations such as Operation Sankalp and through initiatives like the Information Fusion Centre–Indian Ocean Region (IFC-IOR). The paper investigates the strategic use of port development by India and highlights projects like Chabahar in Iran and Sittwe in Myanmar, serving both as hubs for logistics as well as tools for encouraging inclusive regional development, improving access particularly for landlocked economies and strengthening India’s“Act East” and “Neighbourhood First” policies.",
+    "The research also digs around India’s active involvement with international platforms such as the Indian Ocean Rim Association (IORA) and Indian Ocean Commission (IOC) to support the growth of the sustainable ocean-based economy and improve cooperation. Additionally, the study makes a point of aligning the Sustainable Development Goals (particularly SDGs 13, 14, 16, and 17) into India’s maritime plan.",
+   ],
   keywords: [
     "Blue Diplomacy",
     "Western Indian Ocean (WIO)",
@@ -12106,566 +11530,644 @@ const articles = [
     "Port Development",
     "Sustainable Development Goals (SDGs)"
   ],
+  status: "Submitted",
   intro: [
-    "The Western Indian Ocean (WIO) has become an important strategic marine arena in the 21st century. The area is very important for the safety, economy, and environment of the larger Indo-Pacific because it is close to important sea lanes of communication (SLOCs) that help transfer a lot of the world’s products and energy. India needs to protect its national interests not just at the WIO, which is a marine border. It’s also a way to show strength through strategic partnerships, port diplomacy and efforts to promote long-term growth.",
-    "India’s part in the WIO has changed in the last few years. It used to be largely about safety, but today it works together in many ways. There are also investments in ports like Chabahar and Sittwe, as well as contributions to entities like the Indian Ocean Rim Association (IORA) and the Indian Ocean Commission (IOC). In addition to this, there are also anti-piracy operations, humanitarian aid and disaster relief (HADR) missions, and efforts to make the navy stronger. India’s focus on protecting marine biodiversity, making the climate more resilient, and blue economy projects is another indicator that it is in line with the UN Sustainable Development Goals (SDGs).",
-    "A number of scholars are still interested in India’s involvement in the WIO, but most of their work has focused on what it does in the Eastern Indo-Pacific. This article tries to fill in the gaps by looking at how India’s strategic shift towards the WIO affects long-term maritime governance and regional security, as well as the geopolitical effects of its port diplomacy. The study’s goal is to employ theme analysis to show how India’s changing maritime position could affect the future of the Western Indian Ocean system in its entirety."
-  ],
-  
-  "problemStatement": [
-    "Despite India’s continued involvement in the Indo-Pacific, the Western Indian Ocean (WIO) has not gotten much attention in talks of strategic maritime research and policy. Given the rise of maritime issues like illicit fishing, environmental impact, piracy, and geopolitical competition, particularly with China, India’s admission to the WIO under the SAGAR and later MAHASAGAR doctrines marks a significant change. There is a significant research gap in evaluating how India integrates sustainability, security, and diplomacy to become a net security provider in this vital region."
-  ],
-  "researchObjectives": [
-    "To explore India’s maritime policy in the Western Indian Ocean, moving away from the Indo-Pacific and how it helps maintain the area safe through anti-piracy operations, naval stations, and humanitarian aid.",
-    "To examine how India’s port diplomacy and huge infrastructure projects like Chabahar and Sittwe can change the way the world operates, link diverse locations and help blue economy projects that are in line with the Sustainable Development Goals.",
-    "To assess how India collaborates with organisations like the IORA and IOC to improve the climate in the Western Indian Ocean region, make the environment safer, and make the regulations that govern the sea fairer."
-  ],
-  "researchQuestions": [
-    "How has India’s maritime strategy evolved in the Western Indian Ocean, and what impact has it had on regional security and stability?",
-    "In what ways does India employ port diplomacy and strategic infrastructure projects to advance geopolitical influence, regional integration, and sustainable economic growth?",
-    "How effective is India’s collaboration with regional and multilateral organizations in addressing environmental challenges, marine biodiversity conservation, and inclusive maritime governance?"
-  ],
-  "thematicLiteratureReview": [
+    "The Western Indian Ocean (WIO) has become an important strategic marine arena in the 21st century. The area is very important for the safety, economy, and environment of the larger Indo-Pacific because it is close to important sea lanes of communication (SLOCs) that help transfer a lot of the world’s products and energy. India needs to protect its national interests not just at the WIO, which is a marine border. It’s also a way to show strength through strategic partnerships, port diplomacyand efforts to promote long-term growth. ",
+    "India’s part in the WIO has changed in the last few years. It used to be largely about safety, but today it works together in many ways. There are also investments in ports like Chabahar and Sittwe, as well as donations to entities like the Indian Ocean Rim Association (IORA) and the Indian Ocean Commission (IOC). In addition to this, there are also anti-piracy operations, humanitarian aid and disaster relief (HADR) missions, and efforts to make the navy stronger. India’s focus on protecting marine biodiversity, making the climate more resilient, and blue economy projects is another indicator that it is in line with the UN Sustainable Development Goals (SDGs).",
+    "A number of scholars are still interested in India’s involvement in the WIO, but most of their work has focused on what it does in the Eastern Indo-Pacific. This article tries to fill in the gaps by looking at how India’s strategic shift towards the WIO affects long-term maritime governance and regional security, as well as the geopolitical effects of its port diplomacy.The study’s goal is to employ theme analysis to show how India’s changing maritime position could affect the future of the Western Indian Ocean system in its entirety.",
+   ],
+  content: [
+
     {
-      "heading": "Strategic Vision and Blue Economy in the WIO",
-      "paragraphs": [
-        "Strategic Vision and Blue Economy in the WIO – India’s shift from the Indo-Pacific to the WIO reflects an evolution in strategic thinking. Scholars such as Gurjar & Dutta (2021) and Kesnur & Mishra (2022) have underscored India’s adoption of the SAGAR doctrine as a new regional identity marker rooted in sovereign maritime governance and SDG alignment. The Blue Economy Vision 2030 and the Viksit Bharat 2047 roadmap further emphasize economic-ecological synergy."
-      ],
-      "gap": "Limited evaluation exists on the realignment from SAGAR to MAHASAGAR in 2025 and how it differentiates India’s long-term geopolitical intent."
+     heading: "PROBLEM STATEMENT",
+      paragraphs: ["Despite India’s continued involvement in the Indo-Pacific, the Western Indian Ocean (WIO) has not gotten much attention in talks of strategic maritime research and policy. Given the rise of maritime issues like illicit fishing, environmental effect, piracy, and geopolitical competition, particularly with China, India’s admission to the WIO under the SAGAR and later MAHASAGAR doctrines marks a significant change. There is a significant research gap in evaluating how India integrates sustainability, security, and diplomacy to become a net security provider in this vital region."
+        ]
+      },
+      {
+     heading: "RESEARCH OBJECTIVES",
+      paragraphs: ["1.	To explore India’s maritime policy in the Western Indian Ocean, moving away from the Indo-Pacific and how it helps maintain the area safe through anti-piracy operations, naval stations, and humanitarian aid.",
+                  "2.	To examine how India’s port diplomacy and huge infrastructure projects like Chabahar and Sittwe can change the way the world operates, link diverse locations and help blue economy projects that are in line with the Sustainable Development Goals.",
+                  "3.	How effective is India’s collaboration with regional and multilateral organizations in addressing environmental challenges, marine biodiversity conservation, and inclusive maritime governance?",
+        ]
+      },
+    {
+       heading: "RESEARCH QUESTIONS",
+      paragraphs: ["1.	How has India’s maritime strategy evolved in the Western Indian Ocean, and what impact has it had on regional security and stability?",
+                  "2.	In what ways does India employ port diplomacy and strategic infrastructure projects to advance geopolitical influence, regional integration, and sustainable economic growth?",
+                  "3.	How effective is India’s collaboration with regional and multilateral organizations in addressing environmental challenges, marine biodiversity conservation, and inclusive maritime governance?",
+        ]
     },
     {
-      "heading": "Maritime Security and Naval Architecture",
-      "paragraphs": [
-        "Maritime Security and Naval Architecture – Anti-piracy operations, HADR missions, and the IFC-IOR are well documented in think tank analyses (Brewster, 2024; Express, 2025). However, most works focus on the Indo-Pacific and underappreciate India’s evolving doctrine of net security provider in the WIO."
-      ],
-      "gap": "Insufficient cross-national comparative studies of Indian naval deployments with those of other regional powers (e.g., France, China) in the WIO."
+       heading: "THEMATIC LITERATURE REVIEW",
+      paragraphs: ["1.	Strategic Vision and Blue Economy in the WIO – India’s shift from the Indo-Pacific to the WIO reflects an evolution in strategic thinking. Scholars such as Gurjar & Dutta (2021) and Kesnur & Mishra (2022) have underscored India’s adoption of the SAGAR doctrine as a new regional identity marker rooted in sovereign maritime governance and SDG alignment. The Blue Economy Vision 2030 and the Viksit Bharat 2047 roadmap further emphasize economic-ecological synergy. ",
+        "Gap – ",
+        "Limited evaluation exists on the realignment from SAGAR to MAHASAGAR in 2025 and how it differentiates India’s long-term geopolitical intent.",
+        "2.	Maritime Security and Naval Architecture –Anti-piracy operations, HADR missions, and the IFC-IOR are well documented in think tank analyses (Brewster, 2024; Express, 2025). However, most works focus on the Indo-Pacific and underappreciate India’s evolving doctrine of net security provider in the WIO.",
+        "Gap– ",
+        "Insufficient cross-national comparative studies of Indian naval deployments with those of other regional powers (e.g., France, China) in the WIO.",
+        "3.	Multilateral Governance:IORA, IOC and Blue Growth– India’s IORA and IOC leadership has been viewed as the connecting bridge between security and developmental objectives (e.g., Mohan, 2017; Bhattacharya, 2024). IORA’s focus on SDG 14 and 17 and IOC’s fisheries, biodiversity activities are significant pillars of regional cooperation.",
+        "Gap – ",
+        "A critical institutional analysis comparing India’s engagement with IORA vs. IOC is still absent.",
+        "4.	Infrastructure Diplomacy: Ports and Trade Corridors – India’s port diplomacy, including Chabahar, Sittwe, and Ehoala, is documented by ORF (2024–2025) and the Ministry of Ports. Yet academic analyses often treat these as isolated foreign policy tools rather than part of a long-term ocean governance vision.",
+        "Gap– ",
+        "Lack of integrated studies linking port-building to India’s strategic blue economy agenda and regional trust-building.",
+        "5.	Environmental Sustainability and Blue Resilience– Literature such as WWF Report (2017), Jayaram et al. (2025), and Roy (2019) foreground ecological stress in the WIO. India’s Deep Ocean Mission, MISHTI, and marine spatial planning efforts are emerging topics. Tools like PFZAS and ABIS also represent technological leadership in marine conservation.",
+        "Gap– ",
+        "Few studies assess the impact effectiveness of India’s environmental contributions in WIO nations, or whether they result in measurable resilience and local capacity-building.",
+
+        ]
     },
     {
-      "heading": "Multilateral Governance: IORA, IOC and Blue Growth",
-      "paragraphs": [
-        "India’s IORA and IOC leadership has been viewed as the connecting bridge between security and developmental objectives (e.g., Mohan, 2017; Bhattacharya, 2024). IORA’s focus on SDG 14 and 17 and IOC’s fisheries, biodiversity activities are significant pillars of regional cooperation."
-      ],
-      "gap": "A critical institutional analysis comparing India’s engagement with IORA vs. IOC is still absent."
+       heading: "RESEARCH METHODOLOGY ",
+      paragraphs: ["This study uses a qualitative, thematic case study approach to examine India’s blue diplomacy in the Western Indian Ocean (2008–2024). The research focuses on three key dimensions: strategic infrastructure, maritime security, and ecological sustainability – each aligned with relevant Sustainable Development Goals (SDGs), particularly SDGs 13, 14, and 17. ",
+        "The methodology combines content analysis of policy documents, government reports, and multilateral declarations (e.g., SAGAR, IORA, MAHASAGAR); and comparative case studies of India-led initiatives including – ",
+        "1.	Strategic Infrastructure: Chabahar and Sittwe Ports",
+        "2.	Security Architecture: IFC-IOR, anti-piracy patrols",
+        "3.	Environmental Engagements: Agalega Island, Deep Ocean Mission, MISHTI",
+        "The Data for the study were further sourced from –  ",
+        "1.	Indian government publications (PIB, MoES, MEA)",
+        "2.	Reports from ORF, ICWA, TERI, and UNEP",
+        "3.	Academic and policy literature",
+        "4. News coverage and official press releases (2008–2024)",
+        "However, it is to be noted, that the study is based on secondary data and may not fully capture classified strategic assessments or on-ground environmental impact. Future studies may benefit from regional fieldwork and primary stakeholder interviews.",
+        ]
+      
     },
+
+ 
     {
-      "heading": "Infrastructure Diplomacy: Ports and Trade Corridors",
-      "paragraphs": [
-        "India’s port diplomacy, including Chabahar, Sittwe, and Ehoala, is documented by ORF (2024–2025) and the Ministry of Ports. Yet academic analyses often treat these as isolated foreign policy tools rather than part of a long-term ocean governance vision."
-      ],
-      "gap": "Lack of integrated studies linking port-building to India’s strategic blue economy agenda and regional trust-building."
-    },
-    {
-      "heading": "Environmental Sustainability and Blue Resilience",
-      "paragraphs": [
-        "Literature such as WWF Report (2017), Jayaram et al. (2025), and Roy (2019) foreground ecological stress in the WIO. India’s Deep Ocean Mission, MISHTI, and marine spatial planning efforts are emerging topics. Tools like PFZAS and ABIS also represent technological leadership in marine conservation."
-      ],
-      "gap": "Few studies assess the impact effectiveness of India’s environmental contributions in WIO nations, or whether they result in measurable resilience and local capacity-building."
-    }
-  ],
-  "methodology": [
-    "This study uses a qualitative, thematic case study approach to examine India’s blue diplomacy in the Western Indian Ocean (2008–2024). The research focuses on three key dimensions: strategic infrastructure, maritime security, and ecological sustainability – each aligned with relevant Sustainable Development Goals (SDGs), particularly SDGs 13, 14, and 17.",
-    "The methodology combines content analysis of policy documents, government reports, and multilateral declarations (e.g., SAGAR, IORA, MAHASAGAR); and comparative case studies of India-led initiatives including – Strategic Infrastructure: Chabahar and Sittwe Ports; Security Architecture: IFC-IOR, anti-piracy patrols; Environmental Engagements: Agalega Island, Deep Ocean Mission, MISHTI.",
-    "The Data for the study were further sourced from Indian government publications (PIB, MoES, MEA), reports from ORF, ICWA, TERI, and UNEP, academic and policy literature, news coverage and official press releases (2008–2024). However, it is to be noted, that the study is based on secondary data and may not fully capture classified strategic assessments or on-ground environmental impact. Future studies may benefit from regional fieldwork and primary stakeholder interviews."
-  ],
-  "content": [
-    {
-      "heading": "Framing the Vision: India’s Blue Economy and Maritime Strategy in the WIO",
-      "paragraphs": [
+      
+      heading: "Framing the Vision: India’s Blue Economy and Maritime Strategy in the WIO",
+      paragraphs: [
         "India’s strategic approach to the Western Indian Ocean since 2008 put forward a calibrated modification of the sovereign state’s maritime vision that moved away from the entire Indo-Pacific framework to a specific and much more feasible narrative of fusing its economic ambitions, security needs and sustainability in accordance with international law. This thematic section delves into the critical aspects of India’s ever-evolving maritime approach in the WIO and its strategic adaptation beyond the Indo-Pacific corridors ever since the inception of the SAGAR (Security and Growth for All in the Region) doctrine, its special focus on sovereignty under the United Nations Convention on the Law of the Sea (UNCLOS), and its systematic alignment with the UN-laid Sustainable Development Goals (SDGs), specifically SDGs 14, 8, and 16. These focus points allow the strengthening of India’s leadership in the region, intersecting broader concepts such as security cooperation, infrastructural support, global partnerships, and ecological responsibility. Through this unified, interlinked and interdependent structure, India continues to push for its claim as the regional advocate for legitimacy, partnership and responsible guardianship across the WIO."
       ]
     },
     {
-      "heading": "Strategic shift beyond the Indo-Pacific",
-      "paragraphs": [
+       heading: "Strategic shift beyond the Indo-Pacific",
+      paragraphs: [
         "India’s paradigm shift from a historical focus on the Indo-Pacific corridors towards the Western Indian Ocean is driven by the ever-growing dependence on sea lanes that make up for over 80% of the overall crude oil imports and large volumes of trade (Haldar & Gupta, 2025). The rise of maritime threats including piracy, trafficking, and strategic rivalry compelled India to turn its focus westward. This strategic shift is further reinforced by the WIO’s proximity to the Middle Eastern countries like Iraq, Saudi Arabia, and the United Arab Emirates, which collectively make up 40% to over 50% of India’s total crude oil imports (Haldar & Gupta, 2025).",
         "This strategy was consolidated by the SAGAR (Security and Growth for All in the Region) doctrine which was announced in 2015 and prioritized: Oceans’ security through the enhancement of cooperation and naval monitoring. Secondly, inclusive regional growth fostering economic partnerships with coastal and island states in the WIO. Thirdly, nurturing regional stability through diplomatic coalitions (Kesnur and Mishra, 2022; Naha, 2021).",
         "The SAGAR doctrine has undergone significant evolution and was rearticulated in March 2025 as, Mutual and Holistic Advancement for Security and Growth Across Regions (MAHASAGAR). This strategic shift solidifies India’s role as a regional balance maker and net security provider capable of capacity building, military diplomacy, military assistance and direct deployment of its own military forces, thus contributing to regional resilience and sustainability while also safeguarding shared maritime commons (Haldar & Gupta, 2025; E-IR, 2025)."
       ]
     },
+    
     {
-      "heading": "Blue Economy, Legal Frameworks, and Sustainable Development",
-      "paragraphs": [
+        heading: "Blue Economy, Legal Frameworks, and Sustainable Development",
+      paragraphs: [
         "India’s blue economy framework is a detailed and all-encompassing plan which integrates economic growth and ecosystem conservation (TERI, 2022). This strategy is defined through a holistic understanding of the Blue Economy Vision, a vital component of the much bigger Vision of New India by 2030 (Press Information Bureau [PIB], 2022). The vision aims for national development by making effective and responsible use of the ocean resources, while the strategy focuses on sustainable use of resources in sectors such as fisheries, tourism, maritime transport, renewable energy, aquaculture, seabed mining, and marine biotechnology, across offshore and coastal lines (Ministry of Earth Sciences, 2025; TERI, 2022; KPMG, 2024). The Blue Economy is in the centre of India’s Viksit Bharat 2047 vision and targets a US$100 billion contribution (Ministry of Earth Sciences, 2025; PIB, 2022; KPMG, 2024).",
         "The international law under UNCLOS forms the strong ground on which India exercises its maritime leadership. The Indian State defends its sovereign rights over its Exclusive Economic Zone (EEZ) and continental shelf according to the provisions by UNCLOS. India also supports free navigation at sea and the peaceful settlement of maritime disputes through legal frameworks, while opposing any one-sided action that may disturb the peace & order at sea (Gurjar & Dutta, 2021). India is also an active part of multiple regional forums such as the Indian Ocean Rim Association (IORA) and Indian Ocean Commission (IOC) cooperating together in maritime security, fisheries management and ocean governance, aligning with SDG 16 (Peace, Justice and Strong Institutions) (Gurjar & Dutta, 2021)."
       ]
     },
-    {
-      "heading": "Security Through Collaboration: India’s Maritime Safety Architecture in the Western Indian Ocean (2008–2024)",
-      "paragraphs": [
+    {  
+      heading: "Security Through Collaboration: India’s Maritime Safety Architecture in the Western Indian Ocean (2008–2024)",
+      paragraphs: [
         "The Western Indian Ocean (WIO) which stretches from the eastern seaboard of Africa to island nations such as Seychelles, Madagascar, Mauritius, Maldives, and Comoros, has emerged as a pivotal region in India’s maritime strategy and blue diplomacy. A Maritime Strategy can be defined as the principle that governs a war at sea. It has become one of the topmost priorities of India’s foreign policies since the Mumbai attacks in 2008 which arose from the maritime border. 2008 stands as a year that marks a strategic shift of maritime strategies that addresses security challenges from diverse sources like antagonistic neighbours to non-state actors like pirates, maritime terrorists and armed robbers.",
         "Since 2008, the Indian navy has deployed units in the Gulf of Aden and in the east coast of Africa towards anti-piracy patrols. (Express 2025) Following anti-piracy events along with interests in energy security, economic growth and protecting sea lanes, the WIO has become a major priority for India’s economic, ecological and maritime interests."
       ]
     },
-    {
-      "heading": "Anti-Piracy Operations: The Pillar of Security Collaboration",
-      "paragraphs": [
+    { 
+       heading: "Anti-Piracy Operations: The Pillar of Security Collaboration",
+      paragraphs: [
         "The WIO has become a vital arena in India’s Maritime Security, particularly with the rise of non-traditional threats. The re-emergence of piracy invasions along the coast of Somalia between 2007-2012 became a major factor in continuous deployment of the Indian Navy to escort vulnerable commercial vessels to safety. This scenario is what prompted the launching of Operation Sankalp in 2019, thus India’s response to the growing tension in the Gulf. It provided protection for Indian-flagged merchant ships overflying maritime zones in the Persian Gulf, Gulf of Oman and the Middle East. Another component of India’s approach involves starting construction of an airstrip and jetty on Agalega Island in Mauritius in 2024. With regional partnerships being of utmost importance in times of invasions, there have been several examples where coordinated multilateral responses have resulted in timely rescue. Indian Navy navy together with Seychelles Defence Forces and Sri Lanka Navy intercepted and rescued hijacked vessel on 27 January 2024. India and Madagascar have expanded their naval and defence relations through arrangements that help each other to fight piracy, illegal fishing, and other such crimes targeted against maritime security. The navies and coast guards can now conduct bilateral exercises and operationalise some cooperation arrangements for approach, while also exchanging best practices for securing regional maritime lanes."
       ]
     },
     {
-      "heading": "Information Fusion Centre – Indian Ocean Region (IFC-IOR): Real-Time Regional Coordination",
-      "paragraphs": [
+      heading: "Information Fusion Centre – Indian Ocean Region (IFC-IOR): Real-Time Regional Coordination",
+      paragraphs: [
         "Incidents of large-scale piracy has reduced since 2012 with the growing militarisation in the area and with the emergence of regional Information Fusion Centres (IFCs). In the Western Indian Ocean, a regional information sharing arrangement was established in Madagascar in 2016 and India opened the Information Fusion Centre – Indian Ocean Region (IFC-IOR) in 2017. (Brewster 2024) The IFC routinely gathers and updates information on illegal fishing, unwanted people and environmental incidents in the WIO, and provides almost real-time alerts and summaries of piracy incidents. IFC-IOR also conducts annual workshops in which members from more than 25 countries, including Indian Ocean Island nations and African coastal nations, share best practices, coordinate simulated incident response exercises, and create a consensus framework to respond to challenges in the maritime domain. During large cyclones or oil spillages, the IFC-IOR provides critical incident information to navies and coast guards of affected countries for coordinated search and rescue and pollution control operations."
       ]
     },
     {
-      "heading": "Humanitarian Assistance and Disaster Relief (HADR): Soft Power Dimension",
-      "paragraphs": [
+      heading: "Humanitarian Assistance and Disaster Relief (HADR): Soft Power Dimension",
+      paragraphs: [
         "Humanitarian Assistance and Disaster Relief (HADR) has emerged as an important pillar of Indian maritime diplomacy and projection of Indian soft-powers in the Western Indian Ocean (WIO) region. This promotes cordial ties with foreign countries. Over the past decade, numerous humanitarian crises have taken place - from the direct impacts of armed conflict, the COVID-19 pandemic, natural disasters, and extreme natural weather events, as a result of climate change. Following the 2004 tsunami, the tempo of the Indian Navy’s HADR operations increased. Within these operations, elements of what is today the Indian vision of Security and Growth for All in the Region (SAGAR) began to surface. (The Indian Navy’s Humanitarian Role: Strategic Soft Power in Action 2024) Under this, India responded to Cyclone Idai in Mozambique in 2019 by deploying three ships carrying relief material. During the Mauritius oil spill disaster in 2020, India provided specialised equipment and a technical team. India also led naval missions where INS Airavat delivered medical aid to several countries like Sudan, South Sudan, Djibouti and Eritrea during the Covid-19 pandemic. These missions highlighted India’s preparedness as a first responder, but also strengthened the health security in the WIO."
       ]
     },
-    {
-      "heading": "Alignment with the Sustainable Development Goals (SDGs)",
-      "paragraphs": [
+    {      
+       heading: "Alignment with the Sustainable Development Goals (SDGs)",
+      paragraphs: [
         "India’s maritime security efforts in the Western Indian Ocean (WIO) between 2008–2024 advance global initiatives. For instance, India’s anti-piracy patrols, disaster response efforts, and establishing the Information Fusion Centre for the Indian Ocean Region (IFC-IOR) promote sustainable development goals (SDGs) such as SDG 14 (conservation and sustainable use of oceans, seas and marine resources), SDG 16 (promoting peaceful societies and just institutions) and SDG 17 (strengthening partnerships to achieve the SDGs). Such activities, along with joint naval actions exercising interoperability, the sharing of pertinent regional information and contributing to capacity-building for island states cumulatively build trust, develop an inclusive maritime security model, and re-enforces India as a reliable “net security provider”, which enhances regional security and advances the common vision of sustainable and rules-based maritime order."
       ]
     },
     {
-      "heading": "IORA and IOC: Multilateral Platforms for Inclusive Blue Growth",
-      "paragraphs": [
+     heading: "IORA and IOC: Multilateral Platforms for Inclusive Blue Growth",
+      paragraphs: [
         "In the geopolitical framework of Western Indian Ocean, India conducts its diplomatic position in the context of the two, interconnected institutional arrangements, i.e. Indian Ocean Rim Association (IORA) and Indian Ocean Commission (IOC). The former, IORA, provides state officials with a well-organized platform where they could cooperate in the field of marine resources management, sustainable development, and maritime security. The latter is the IOC, which focuses on the coordination of the Anglophone littoral states. In conjunction, they provide additional collaborative opportunities in areas of high maritime priorities, which strengthen strategic interests of India (Mohan, 2017). Their ability to build partnerships between sovereigns like countries promotes the development of cohesion in policy-making and strategies that appeal to the interest of member-states, through regional organizations like IORA and IOC (Du Plessis, 2024).",
-        "India has taken on a much more eminent role in a wider picture of maritime security structures than before over the past decades such as the Indian associations with the organizations, like the Intergovernmental Standing Committee on Ship (AU-ISSA) and Djibouti Code of Conduct of the African Union. Collectively these bodies provide a formal multilateral platform against which the modern-day challenges such as piracy and various transnational crimes are struggled. Admittedly, strategic projects that are promoted by these two regional institutions can be appealing to the main Indian goals enhancing the more active cross-border collaboration and strengthening the role of India in the broader community of ocean governance (Bhattacharya, 2024). A combination of calibrated fisheries policies, prudence in exploring the resources, and inflexible blue trade quality have enabled the Indian Coast Guard and other authorities to build-in a growth-ecological balance conscious system which in turn has provided an avenue that leads to a healthier marine order."
+        "India has taken on a much more eminent role in a wider picture of maritime security structures than before over the past decades such as the Indian associations with the organizations, like the Intergovernmental Standing Committee on Ship (AU-ISSA) and Djibouti Code of Conduct of the African Union. Collectively these bodies provide a formal multilateral platform against which the modern-day challenges such as piracy and various transnational crimes are struggled. Admittedly, strategic projects that are promoted by these two regional institutions can be appealing to the main Indian goals enhancing the more active cross-border collaboration and strengthening the role of India in the broader community of ocean governance (Bhattacharya, 2024). A combination of calibrated fisheries policies, prudence in exploring the resources, and inflexible blue trade quality have enabled the Indian Coast Guard and other authorities to build-in a growth-ecological balance conscious system which in turn has provided an avenue that leads to a healthier marine order.",
       ]
-    },
-    {
-      "heading": "IORA’s Impact on Blue Growth",
-      "paragraphs": [
+      },
+    {  
+       heading: "IORA’s Impact on Blue Growth",
+      paragraphs: [
         "Indian Ocean Rim Association (IORA) is a regional platform that focuses on the process of developing the blue economy, or rather generating economic growth, livelihood and employment based on sustainable management of marine resources. In his analysis of 2018, Khurana follows the development of the institution through diplomatic interaction to a system of an institutional architecture supporting maritime governance, aiming at restraining illegal fishing, lessening marine pollution and introducing a comprehensive maritime order. The association aims to enhance cooperation among the states of the Indian Ocean Rim region within the mandate of its activities in the regions and also focuses on not only economic growth but also sustainable growth. The organization also encourages intra-regional and local projects like Sagarmala that will boost the maritime connectivity of trade. The most iconic one is the Blue Economy Dialogue, an organized platform twinning member states to share approaches, best practices, and strategies to sustainably manage the ocean (Mohan, 2017). This process has played a critical role to define blue growth agenda of IORA where it has paid focus on fisheries management, marine tourism, and ocean renewable energy. Based on the IORA Action Plan on the Blue Economy that outlines the importance of integrating ocean governance policies and economic paths towards obtaining an environmentally sustainable blue growth (Upadhyay & Mishra, 2020)."
       ]
     },
     {
-      "heading": "IOC’s Contributions to Regional Development",
-      "paragraphs": [
+       heading: "IOC’s Contributions to Regional Development",
+      paragraphs: [
         "I would make your attention to the works of the Indian Ocean Commission (IOC) an intergovernmental organization who devotes itself to regional economic development, social cohesion and cultural development. By directing emphasis on sustainable exploitation of the marine resources, the IOC enables integrated exploitation of the oceanic resources. In this direction, the Commission has taken a complex approach that includes the issue of having sustainable fisheries, marine biodiversity as well as having renewable energy.",
         "S Bhattacharya highlights, in the context of the mandate to promote scientific research, and sustainable development, the IOC has contributed towards blue growth and ocean governance. Some of the modalities encompass the systematic study of the coastal and open-ocean ecosystems as well as the identification of good practices in sustainable management, capacity-building activities targeted at member countries. These activities are put together in the aim to facilitate more informed, and eventually more successful management of marine resources. G. Mohan assumes that the keystone of regional stability is in competent design of the policy. As a practical proposal, he proposes an iterative, dialogue-driven process, through which participating states may tune a common institutional architecture, that reflects the broadly defined collective interests of the region."
       ]
     },
     {
-      "heading": "Infrastructure as Influence: Port Diplomacy and Marine Sustainability",
-      "paragraphs": [
+       heading: "Infrastructure as Influence: Port Diplomacy and Marine Sustainability",
+      paragraphs: [
         "The Western Indian Ocean connects Africa, the Middle East, and South Asia making it a critical hub in India’s maritime strategy. Control and access here give India’s navy more power in locations other than the Indo-Pacific. India uses port development as a tool of influence in the region offering aid, capacity-building, and investments to build trust without coercion following a sustainable design. More than 90% of India’s trade is conducted via the country’s maritime channel, India’s ports and trade related infrastructure needs constant improvement to speed up expansion in the manufacturing sector and support the “Make in India” strategy (Ministry of Ports, Shipping and Waterways, n.d.).",
         "The region hosts some of the world’s most important naval corridors and strategically sensitive passages through which one-third of the world’s container traffic and two-thirds of global oil shipments pass (Observer Research Foundation, 2024). India’s port diplomacy encompassing initiatives like Chabahar in Iran, Sittwe in Myanmar, and Ehoala in Madagascar, shows its seriousness about making safe and long-lasting maritime commons."
       ]
     },
     {
-      "heading": "Chabahar Port: Strategic Leverage in Iran’s Maritime Gateway",
-      "paragraphs": [
+      heading: "Chabahar Port: Strategic Leverage in Iran’s Maritime Gateway",
+      paragraphs: [
         "Chabahar port also known as the Golden Gate owing to its strategic location that allows landlocked Afghanistan and other Central Asian countries to access the sea. India, Afghanistan and Iran have a special interest to develop the port with the aim to neutralize the strategic imbalance caused by Gwadar port and reduce Afghanistan’s dependency on Pakistan for trade and transit.",
         "On 13 May 2024, India and Iran signed a 10-year long-term agreement for operation of Shahid Behesti terminal at the Chabahar port. This deal lets India run a foreign port by itself for the first time. (ICPS, 2024). Chabahar is an important commerce route between India and Eurasia because it is at the centre of the International North–South Transport Corridor (INSTC).",
         "The U.S. sanctions against Iran have made it impossible for the two countries to get along. India has always tried to get geopolitical exemptions and kept diplomatic balance even with these constraints. This illustrates that Chabahar is a very important exception since it connects the region and is not a matter of bilateral interest."
       ]
     },
     {
-      "heading": "Sittwe Port: Enhancing India’s Act East Connectivity",
-      "paragraphs": [
+      heading: "Sittwe Port: Enhancing India’s Act East Connectivity",
+      paragraphs: [
         "The Kaladan Multimodal Transit Transport project in India includes the Sittwe Port which is situated in Myanmar, in the state of Rakhine. The goal of the KMMTTP project is to connect the northeastern states of India, which are landlocked to the Bay of Bengal by sea, river, and road, pushing the country’s Act East agenda forward. Harnessing the Sittwe–Chittagong–Sabroom–Agartala route via water and land will reduce the transit time from four to two days, saving money, time and reducing carbon emissions.",
         "In April 2024, the Indian government took complete control of Sittwe Port through India Ports Global Ltd. (IPGL) showcasing its strategic interests (ORF, 2025). The project enhances India’s logistical capabilities and strengthens its position as a key regional player in organizations such as the South Asian Free Trade Area (SAFTA) and the Association of Southeast Asian Nations-India Free Trade Area (AIFTA), as well as the Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC) promoting regional integration and cooperation (ORF, 2025).",
         "This shows India’s ability to implement infrastructure initiatives which can benefit Myanmar’s trade and development as well as bolster its connectivity linkages. The port’s completion allows India to offer Myanmar an alternative to China’s dominant presence."
       ]
     },
     {
-      "heading": "Ecological Imperatives: Climate Action and Blue Sustainability in the Western Indian Ocean",
-      "paragraphs": [
+      heading: "Ecological Imperatives: Climate Action and Blue Sustainability in the Western Indian Ocean",
+      paragraphs: [
         "Climate change has emerged as one of the most defining issues of the 21st century, with implications that are far too deep to be dismissed. No longer is it a national border- and political ideology-bound crisis, but a global phenomenon whose impacts spill across continents, affecting and disrupting societies, economies and ecosystems worldwide. And among the worst hit, are the oceans of the world.",
         "The ocean covers nearly three-quarters of our planet, produces more than half of the oxygen that we breathe, and absorbs about a quarter of the Carbon Dioxide we produce. However, this comes at a devastating cost. The dissolved CO2 reacts with the seawater to form carbonic acid and lowers the ocean’s pH in the process also known as ocean acidification, which further results in the weakening of coral skeletons and dissolving of the shells of molluscs and planktons, but also disrupting the lives of billions of people who ultimately depend upon the oceans for their nutrition and livelihoods. In fact, it is projected to decrease the ocean’s pH levels from approximately 8.1 to 7.7 by the end of the century, the consequences to which would be nothing short of detrimental. [Obura et al., WWF Report, 2017]",
         "This crisis is particularly alarming in the Western Indian Ocean (WIO), a region of exceptional biodiversity and immense economic importance. From Seychelles’ coral reefs to Madagascar’s dense mangrove forests and seagrass meadows that line the coasts of Kenya, Tanzania and Mozambique, the WIO is home to over 11,000 documented species. Yet, decades of overexploitation and habitat loss have placed these ecosystems under tremendous pressure. Mangrove cover is shrinking, Kenya and Tanzania have lost about 18% in the past 25 years, while Mozambique has lost 27% in an even shorter period. Coral reefs have declined by 15% following major bleaching events such as the 1997-98 El Niño. The region’s busy shipping lanes, which carry a third of global oil tanker traffic, further expose it to the risk of oil spills and invasive species. The collapse of these habitats may have catastrophic effects as fewer nursery grounds for fish would mean dwindling fish stocks and reduced food security for millions. [Obura et al., WWF Report, 2017] In this context, the idea of a Blue Economy, rather, more importantly, Blue Sustainability, is no longer a lofty ideal but an ecological and economic necessity."
       ]
     },
     {
-      "heading": "International and Regional Initiatives for Climate Action and Sustainability",
-      "paragraphs": [
+      heading: "International and Regional Initiatives for Climate Action and Sustainability",
+      paragraphs: [
         "The concept of Blue Economy first gained global prominence during the Rio+20 Conference in 2012, which was built upon the idea of decoupling socio-economic development from environmental degradation. Since then, several regional initiatives in the WIO have been put into practise, that align the interests of their countries with the Sustainable Development Goals (SDGs), particularly SDG 14, which calls for the conservation and sustainable use of oceans and marine resources. [Mohanty et al., RIS Report, 2015]",
         "The IORA, which is often considered to be leading the other regional efforts, has been a central platform for the same. Similarly, the Mauritius Declaration (2015) had stressed the need for better ocean governance, while the Jakarta Declaration (2017) had outlined the commitments for sustainable fishing and stronger legal frameworks. Further, the Nairobi Convention had led to the establishment of the Out Blue Future (OBF) initiative which focuses on inclusive and sustainable ocean governance in the WIO, aiming to empower the local communities and attract environmentally responsible investments. [ORF Occasional Paper: 181, A. Roy, 2019]",
         "As for the Small Island Developing States (SIDS), especially Seychelles and Mauritius, several innovative approaches have been adapted. For instance, Seychelles’ “debt-for adaptation” dedicates 30% of its Exclusive Economic Zone (EEZ) for marine conservation, while Mauritius launched an ambitious Ocean Economy Strategy (2013) to drive sustainable maritime growth. But these high-profile initiatives also raise certain concerns regarding their successful implementation, particularly in the less wealthy WIO nations, or whether these initiatives remain limited only to the better-resourced states. [ORF Occasional Paper: 181, A. Roy, 2019], [Obura et al., WWF Report, 2017]"
       ]
     },
     {
-      "heading": "Climate Action and Resilience (SDG 13)",
-      "paragraphs": [
+      heading: "Climate Action and Resilience (SDG 13)",
+      paragraphs: [
         "In the humanitarian arena, the Indian Navy has time and again served as the first respondent to natural disasters in the WIO, playing a crucial role during Cyclone Idai in Mozambique (2019), Cyclone Diane in Madagascar (2020) and the MV Wakashio oil spill in Mauritius (2020). Even during the Covid-19 pandemic, India had, under Mission Sagar, supplied food, medical aid, to Mauritius, Seychelles, Comoros, and Madagascar, which further established India as a trusted regional partner. [ORF Issue Brief: 576, S. Kesnur, A. Mishra, 2022]",
         "Yet, India’s contributions don’t stop at emergency responses. Through its clean energy partnerships with Mauritius and Sri Lanka, and through several multilateral platforms like International Solar Alliance (ISA) and the Coalition for Disaster Resilient Infrastructure (CDRI), India is promoting long-term resilience by sharing technology and building climate-resilient infrastructure. [Current Conservation, D. Jayaram, H. Narayanan, I. Jain, June 30, 2025]"
       ]
     },
     {
-      "heading": "Marine Biodiversity and Ecosystem Conservation (SDG 14 & 15)",
-      "paragraphs": [
+      heading: "Marine Biodiversity and Ecosystem Conservation (SDG 14 & 15)",
+      paragraphs: [
         "India had also made significant efforts towards marine biodiversity and ecosystem conservation, which can’t simply be neglected. In 2021, it had launched the Deep Ocean Mission (DOM) under the Ministry of Earth Sciences, which aimed to map the deep-sea resources and genetic biodiversity while also expanding marine conservation areas. Alongside, India is also developing a Maine Spatial Plan (MSP) which seeks to reduce conflicts between human activities and what is needed for further ecosystem resilience. Costal restoration is also gaining momentum through the National Coastal Mission, which is committing to restore mangroves and coral, with notable achievements in coral transplantation and seagrass restoration in Tamil Nadu’s Gulf of Mannar Biosphere Reserve. Further, emerging research also shows that coral-mangrove hybrid conservation models might serve as climate sanctuaries for corals, potentially reducing the heat-induced bleaching; while coral aquaculture, growing corals in controlled environments for transplantation, could offer both ecological benefits and new livelihood opportunities. [Dr. Raman Murthy; UN Oceans Conference, 2022]",
         "The Mangrove Initiative for Shoreline Habitats and Tangible Incomes (MISHTI) scheme clearly demonstrated how livelihoods can be directly improved through conservation, where Gujrat, notably, revived nearly 19,000 hectares of mangroves, while also improving fish stocks and fishermen incomes. Given their efficiency as carbon sinks, India is now exploring blue carbon credit mechanisms, aligning them with global REDD+ initiatives. [Policy Circle, S. Jain, S. Gull, May 25, 2025]"
       ]
     },
     {
-      "heading": "Science, Monitoring and Capacity Building",
-      "paragraphs": [
+      heading: "Science, Monitoring and Capacity Building",
+      paragraphs: [
         "To further strengthen these efforts, scientific research and monitoring also plays an important role. The Marine Biodiversity and Environment Management Division (MBEMD) at CMFRI is dedicate to understand marine habitats and assess the impacts of pollution and fishing, and also develop protocols for the restoration of coral reefs, seagrass beds and mangrove stands. [CMFRI official, accessed last in July 26, 2025]",
         "At the same time, India also offers its expertise in tools like Potential Fishing Zone Advisory Services (PFZAS), which helps fishermen locate fish aggregation zones efficiently and reduce carbon emissions, while the Coral Bleaching and Algal Bloom Information Service (ABIS) provides real-time ecosystem monitoring. The International Training Centre for Operational Oceanography (ITCO-Ocean) supports capacity building across the region. On fisheries governance, the PM Matsya Sampada Yojana (PMMSY) further promotes sustainable aquaculture, and ISRO’s oceanographic satellites, along with the Information Fusion Centre– Indian Ocean Region (IFC-IOR), are improving surveillance against Illegal, Unreported, and Unregulated (IUU) fishing as well. [ORF Issue Brief: 576, S. Kesnur, A. Mishra, 2022]"
       ]
     },
+    // yaha se
     {
-      "heading": "Maritime Domain Awareness (MDA) and Regional Exercises",
-      "paragraphs": [
-        "Maritime Domain Awareness (MDA), aided by the White Shipping Information agreements India had signed with the WIO countries like Mauritius, Seychelles, Kenya and Mozambique. Moreover, the Lucknow Declaration (2020), and the participation in multilateral maritime exercises like Cutlass Express (2017, 2020), have further strengthened India’s efforts against Illegal, Unreported, and Unregulated (IUU) fishing. [ORF Issue Brief: 576, S. Kesnur, A. Mishra, 2022]",
-        "Yet, despite these strong initiatives, there is very little evaluation of how these initiatives impact the ecological health and socio-economic resilience of WIO partner nations. For instance, while India may share its technology and knowledge to these countries, there is very little evidence on how effectively the recipient nations would utilize these tools, or whether they’re being translated into tangible conservation outcomes. Therefore, to understand whether India’s interventions strengthen regional conservation capacities or they remain largely symbolic is a very crucial need for assessing their real contributions to SDG 14 and 15."
+     heading: "Marine Biodiversity and Ecosystem Conservation (SDG 14 & 15)",
+      paragraphs: [
+        "India had also made significant efforts towards marine biodiversity and ecosystem conservation, which can’t simply be neglected. In 2021, it had launched the Deep Ocean Mission (DOM) under the Ministry of Earth Sciences, which aimed to map the deep-sea resources and genetic biodiversity while also expanding marine conservation areas. Alongside, India is also developing a Maine Spatial Plan (MSP) which seeks to reduce conflicts between human activities and what is needed for further ecosystem resilience. Costal restoration is also gaining momentum through the National Coastal Mission, which is committing to restore mangroves and coral, with notable achievements in coral transplantation and seagrass restoration in Tamil Nadu’s Gulf of Mannar Biosphere Reserve. Further, emerging research also shows that coral-mangrove hybrid conservation models might serve as climate sanctuaries for corals, potentially reducing the heat-induced bleaching; while coral aquaculture, growing corals in controlled environments for transplantation, could offer both ecological benefits and new livelihood opportunities. [Dr. Raman Murthy; UN Oceans Conference, 2022]",
+        "The Mangrove Initiative for Shoreline Habitats and Tangible Incomes (MISHTI) scheme clearly demonstrated how livelihoods can be directly improved through conservation, where Gujrat, notably, revived nearly 19,000 hectares of mangroves, while also improving fish stocks and fishermen incomes. Given their efficiency as carbon sinks, India is now exploring blue carbon credit mechanisms, aligning them with global REDD+ initiatives. [Policy Circle, S. Jain, S. Gull, May 25, 2025]"
       ]
     }
   ],
-  "conclusion": [
+  conclusion: [
     "India’s Blue Diplomacy in the Western Indian Ocean is a brilliant initiative that goes beyond only ports. It gives a big picture of the sea that encompasses safety, connections, growth, and working together in the area. India’s SAGAR strategy asks for a long-term and broad commitment in the area, which includes enhanced military presence and marine domain awareness, humanitarian help, and building capacity. India backs a rules-based and international system through entities like IORA, BIMSTEC, and regional free trade agreements.",
     "India’s strategic investments in regions like Chabahar and Sittwe only make it simpler to trade and get about, but they also show that India is a good partner for security and progress. India does this to stop relying too much on important trade routes like Malacca and to stop China from being stronger. Building infrastructure that can handle climate change, doing health diplomacy, and teaching people in Africa are all ways that India is helping South–South solidarity.",
     "India visualizes itself as a bridge between the Indo-Pacific and the Western Indian Ocean. India’s concept of the maritime commons isn’t military but it’s broad and includes a realistic view of geopolitics and a dedication to development. It wants to create a safe, open marine system that protects the common good for everyone while also keeping its own strategic independence."
   ],
-  "acknowledgements": [],
-  "references": [
+ 
+  references: [
     {
-      "heading": "Baalnoi Academy. (n.d.). India’s ‘Necklace of Diamonds’ strategy.",
-      "links": "https://baalnoiacademy.com/indias-necklace-of-diamonds-strategy/"
+      heading: "Baalnoi Academy. (n.d.). India’s ‘Necklace of Diamonds’ strategy.",
+      link: "https://baalnoiacademy.com/indias-necklace-of-diamonds-strategy/"
     },
     {
-      "heading": "Bhattacharya, S. (2024). Middle power and regionalism: Implications of India joining the Indian Ocean Commission (pp. 71–89). Routledge.",
-      "links": ""
+      heading: "Bhattacharya, S. (2024). Middle power and regionalism: Implications of India joining the Indian Ocean Commission (pp. 71–89). Routledge.",
+      link: ""
     },
     {
-      "heading": "Bhattacharya, S. B. (n.d.). The strategic significance of the Indian Ocean for India’s security in the 21st century: An overview.",
-      "links": ""
+      heading: "Bhattacharya, S. B. (n.d.). The strategic significance of the Indian Ocean for India’s security in the 21st century: An overview.",
+      link: ""
     },
     {
-      "heading": "Chevallier, R. (2017, May). Integrated marine and coastal management in the Western Indian Ocean: Towards a sustainable oceans’ economy (Occasional Paper No. 258). South African Institute of International Affairs.",
-      "links": "https://www.jstor.org/stable/resrep28393"
+      heading: "Chevallier, R. (2017, May). Integrated marine and coastal management in the Western Indian Ocean: Towards a sustainable oceans’ economy (Occasional Paper No. 258). South African Institute of International Affairs.",
+      link: "https://www.jstor.org/stable/resrep28393"
     },
     {
-      "heading": "Climate Connection. (2025, December 3). The Murky Waters of the Blue Economy: A Cautious Look at India’s Coastal Development.",
-      "links": "https://climateconnection.in/blog/murkywaters-blue-economy-cautious-look-indias-coastal-development"
+      heading: "Climate Connection. (2025, December 3). The Murky Waters of the Blue Economy: A Cautious Look at India’s Coastal Development.",
+      link: "https://climateconnection.in/blog/murkywaters-blue-economy-cautious-look-indias-coastal-development"
     },
     {
-      "heading": "Du Plessis, N. (2024). Exploring the ‘ocean economies’ of Western Indian Ocean coastal states (Doctoral dissertation, Cape Peninsula University of Technology).",
-      "links": ""
+      heading: "Du Plessis, N. (2024). Exploring the ‘ocean economies’ of Western Indian Ocean coastal states (Doctoral dissertation, Cape Peninsula University of Technology).",
+      link: ""
     },
     {
-      "heading": "Gupta, A. (2023, September 6). Role of defence diplomacy in shaping favourable strategic neighbourhood. Vivekananda International Foundation.",
-      "links": "https://www.vifindia.org/article/2023/september/06/Role-of-Defence-Diplomacy-in-Shaping-Favourable-Strategic-Neighbourhood"
+      heading: "Gupta, A. (2023, September 6). Role of defence diplomacy in shaping favourable strategic neighbourhood. Vivekananda International Foundation.",
+      link: "https://www.vifindia.org/article/2023/september/06/Role-of-Defence-Diplomacy-in-Shaping-Favourable-Strategic-Neighbourhood"
     },
     {
-      "heading": "Gurjar, S., & Dutta, A. (2021, March). Evolving geopolitics of the Western Indian Ocean: A primer from India. Indian Council of World Affairs.",
-      "links": "https://www.icwa.in/WriteReadData/RTF1984/5898247569.pdf"
+      heading: "Gurjar, S., & Dutta, A. (2021, March). Evolving geopolitics of the Western Indian Ocean: A primer from India. Indian Council of World Affairs.",
+      link: "https://www.icwa.in/WriteReadData/RTF1984/5898247569.pdf"
     },
     {
-      "heading": "Haldar, S., & Gupta, S. (2025, June 9). Prioritising the Western Indian Ocean in India’s maritime security calculus. Observer Research Foundation.",
-      "links": "https://www.orfonline.org/expertspeak/prioritising-the-western-indian-ocean-in-india-s-maritime-security-calculus"
+      heading: "Haldar, S., & Gupta, S. (2025, June 9). Prioritising the Western Indian Ocean in India’s maritime security calculus. Observer Research Foundation.",
+      link: "https://www.orfonline.org/expertspeak/prioritising-the-western-indian-ocean-in-india-s-maritime-security-calculus"
     },
     {
-      "heading": "Indian Council for Professional Studies (ICPS). (n.d.). The Chabahar Port and India–Iran Agreement.",
-      "links": "https://www.icpsnet.org/issuebrief/The-Chabahar-Port-and-India-Iran-Agreement"
+      heading: "Indian Council for Professional Studies (ICPS). (n.d.). The Chabahar Port and India–Iran Agreement.",
+      link: "https://www.icpsnet.org/issuebrief/The-Chabahar-Port-and-India-Iran-Agreement"
     },
     {
-      "heading": "Indian Navy collaborates with Sri Lanka and Seychelles to rescue hijacked Sri Lankan fishing vessel. (n.d.). The Economic Times.",
-      "links": "https://economictimes.indiatimes.com/news/defence/indian-navy-collaborates-with-sri-lanka-and-seychelles-to-rescue-hijacked-sri-lankan-fishing-vessel/articleshow"
+      heading: "Indian Navy collaborates with Sri Lanka and Seychelles to rescue hijacked Sri Lankan fishing vessel. (n.d.). The Economic Times.",
+      link: "https://economictimes.indiatimes.com/news/defence/indian-navy-collaborates-with-sri-lanka-and-seychelles-to-rescue-hijacked-sri-lankan-fishing-vessel/articleshow"
     },
     {
-      "heading": "Indian Navy safely escorted 3,440 ships and 25,000 crew in anti-piracy patrols since 2008: Centre. (2024, February 2). The New Indian Express.",
-      "links": "https://www.newindianexpress.com/nation/2024/Feb/02/indian-navy-safely-escorted-3440-ships-and-25000-crew-in-anti-piracy-patrols-since-2008-centre"
+      heading: "Indian Navy safely escorted 3,440 ships and 25,000 crew in anti-piracy patrols since 2008: Centre. (2024, February 2). The New Indian Express.",
+      link: "https://www.newindianexpress.com/nation/2024/Feb/02/indian-navy-safely-escorted-3440-ships-and-25000-crew-in-anti-piracy-patrols-since-2008-centre"
     },
     {
-      "heading": "Jan, S., & Gull, S. H. (2025, May 25). Blue economy: Mangroves, coral reefs key to India’s economic ambitions. Policy Circle.",
-      "links": "https://www.policycircle.org/blue-economy-mangroves-coral-reefs-key-to-indias-economic-ambitions/"
+      heading: "Jan, S., & Gull, S. H. (2025, May 25). Blue economy: Mangroves, coral reefs key to India’s economic ambitions. Policy Circle.",
+      link: "https://www.policycircle.org/blue-economy-mangroves-coral-reefs-key-to-indias-economic-ambitions/"
     },
     {
-      "heading": "Jayaram, D., Narayanan, H., & Jain, I. (2025, July 3). The geopolitics of climate change in the Indian Ocean Region. Current Conservation.",
-      "links": "https://www.currentconservation.org/the-geopolitics-of-climate-change-in-the-indian-ocean-region"
+      heading: "Jayaram, D., Narayanan, H., & Jain, I. (2025, July 3). The geopolitics of climate change in the Indian Ocean Region. Current Conservation.",
+      link: "https://www.currentconservation.org/the-geopolitics-of-climate-change-in-the-indian-ocean-region"
     },
     {
-      "heading": "Kesnur, S. B., & Mishra, A. (2022). India’s maritime agenda pivots to Western Indian Ocean (ORF Issue Brief No. 576). Observer Research Foundation.",
-      "links": "https://www.orfonline.org/research/india-s-maritime-agenda-pivots-to-western-indian-ocean"
+      heading: "Kesnur, S. B., & Mishra, A. (2022). India’s maritime agenda pivots to Western Indian Ocean (ORF Issue Brief No. 576). Observer Research Foundation.",
+      link: "https://www.orfonline.org/research/india-s-maritime-agenda-pivots-to-western-indian-ocean"
     },
     {
-      "heading": "Khurana, G. S. (2018). Multilateral structures in the Indian Ocean: Review and way ahead. Maritime Affairs: Journal of the National Maritime Foundation of India, 14(1), 11–23.",
-      "links": ""
+      heading: "Khurana, G. S. (2018). Multilateral structures in the Indian Ocean: Review and way ahead. Maritime Affairs: Journal of the National Maritime Foundation of India, 14(1), 11–23.",
+      link: ""
     },
     {
-      "heading": "Lakshmi, N. (2024). India’s maritime agenda pivots to Western Indian Ocean. Observer Research Foundation.",
-      "links": "https://www.orfonline.org/research/india-s-maritime-agenda-pivots-to-western-indian-ocean"
+      heading: "Lakshmi, N. (2024). India’s maritime agenda pivots to Western Indian Ocean. Observer Research Foundation.",
+      link: "https://www.orfonline.org/research/india-s-maritime-agenda-pivots-to-western-indian-ocean"
     },
     {
-      "heading": "Lidarev, I., & Pant, H. V. (2022). India and maritime governance in the Indian Ocean: The impact of geopolitics on India’s involvement in maritime governance.",
-      "links": ""
+      heading: "Lidarev, I., & Pant, H. V. (2022). India and maritime governance in the Indian Ocean: The impact of geopolitics on India’s involvement in maritime governance.",
+      links: ""
     },
     {
-      "heading": "Łukaszuk, T. (2025). India’s role in the Indian Ocean Region in the 21st century: Maritime governance perspective. In H. Pant & K. Baruah (Eds.), The Routledge Handbook of Maritime India (pp. 210–225). Routledge India.",
-      "links": ""
+      heading: "Łukaszuk, T. (2025). India’s role in the Indian Ocean Region in the 21st century: Maritime governance perspective. In H. Pant & K. Baruah (Eds.), The Routledge Handbook of Maritime India (pp. 210–225). Routledge India.",
+      links: ""
     },
     {
-      "heading": "Ministry of Earth Sciences, Government of India. (2025, May). Transforming India’s blue economy: Investment, innovation and sustainable growth.",
-      "links": "https://www.moes.gov.in/sites/default/files/2025-05/White-Paper_Blue_Economy.pdf"
+      heading: "Ministry of Earth Sciences, Government of India. (2025, May). Transforming India’s blue economy: Investment, innovation and sustainable growth.",
+      links: "https://www.moes.gov.in/sites/default/files/2025-05/White-Paper_Blue_Economy.pdf"
     },
     {
-      "heading": "Mishra, A., & Sen, S. (2022). Maritime security and development in the South-West Indian Ocean region: Harnessing India’s engagement with Small Island Developing States. In S. Singh (Ed.), India’s Maritime Diplomacy in the Indian Ocean Region (pp. 98–113). Pentagon Press.",
-      "links": ""
+      heading: "Mishra, A., & Sen, S. (2022). Maritime security and development in the South-West Indian Ocean region: Harnessing India’s engagement with Small Island Developing States. In S. Singh (Ed.), India’s Maritime Diplomacy in the Indian Ocean Region (pp. 98–113). Pentagon Press.",
+      links: ""
     },
     {
-      "heading": "Mohan, G. (2017). Engaging with the Indian Ocean. Global Public Policy Institute.",
-      "links": "https://www.gppi.net/2017/08/22/engaging-with-the-indian-ocean"
+      heading: "Mohan, G. (2017). Engaging with the Indian Ocean. Global Public Policy Institute.",
+      link: "https://www.gppi.net/2017/08/22/engaging-with-the-indian-ocean"
     },
     {
-      "heading": "Mohanty, S. K., Dash, P., Gupta, A., & Gaur, P. (2015). Prospects of Blue Economy in the Indian Ocean. Research and Information System for Developing Countries (RIS).",
-      "links": "https://www.ris.org.in/sites/default/files/Final_Blue_Economy_Report_2015-Website.pdf"
+      heading: "Mohanty, S. K., Dash, P., Gupta, A., & Gaur, P. (2015). Prospects of Blue Economy in the Indian Ocean. Research and Information System for Developing Countries (RIS).",
+      link: "https://www.ris.org.in/sites/default/files/Final_Blue_Economy_Report_2015-Website.pdf"
     },
     {
-      "heading": "Murthy, R. (2022). Interactive Dialogue 2: Managing, Protecting, Conserving and Restoring Marine and Coastal Ecosystems. UN Ocean Conference (2022).",
-      "links": ""
+      heading: "Murthy, R. (2022). Interactive Dialogue 2: Managing, Protecting, Conserving and Restoring Marine and Coastal Ecosystems. UN Ocean Conference (2022).",
+      link: ""
     },
     {
-      "heading": "Naha, N. (2021, January 5). Reshaping India’s foreign policy for 2021. The Kootneeti.",
-      "links": "https://thekootneeti.in/2021/01/05/reshaping-indias-foreign-policy-for-2021/"
+      heading: "Naha, N. (2021, January 5). Reshaping India’s foreign policy for 2021. The Kootneeti.",
+      link: "https://thekootneeti.in/2021/01/05/reshaping-indias-foreign-policy-for-2021/"
     },
     {
-      "heading": "Obura, D., Smits, M., Chaudhry, T., McPhillips, J., Beal, D., Astier, C., Tanzer, J., & Gamblin, P. (2017, January). Reviving the Western Indian Ocean Economy: Actions for a Sustainable Future. WWF International.",
-      "links": "https://sustainabledevelopment.un.org/content/documents/13692WWF2.pdf"
+      heading: "Obura, D., Smits, M., Chaudhry, T., McPhillips, J., Beal, D., Astier, C., Tanzer, J., & Gamblin, P. (2017, January). Reviving the Western Indian Ocean Economy: Actions for a Sustainable Future. WWF International.",
+      link: "https://sustainabledevelopment.un.org/content/documents/13692WWF2.pdf"
     },
     {
-      "heading": "Observer Research Foundation. (n.d.). Chabahar’s opportunities and challenges.",
-      "links": "https://www.orfonline.org/research/chabahar-s-opportunities-and-challenges"
+      heading: "Observer Research Foundation. (n.d.). Chabahar’s opportunities and challenges.",
+      link: "https://www.orfonline.org/research/chabahar-s-opportunities-and-challenges"
     },
     {
-      "heading": "Observer Research Foundation. (n.d.). Facilitating India–Myanmar trade through Sittwe port: Opportunities and challenges.",
-      "links": "https://www.orfonline.org/research/facilitating-india-myanmar-trade-through-sittwe-port-opportunities-and-challenges"
+      heading: "Observer Research Foundation. (n.d.). Facilitating India–Myanmar trade through Sittwe port: Opportunities and challenges.",
+      link: "https://www.orfonline.org/research/facilitating-india-myanmar-trade-through-sittwe-port-opportunities-and-challenges"
     },
     {
-      "heading": "Observer Research Foundation. (n.d.). Prioritising the Western Indian Ocean in India’s maritime security calculus.",
-      "links": "https://www.orfonline.org/expert-speak/prioritising-the-western-indian-ocean-in-india-s-maritime-security-calculus"
+      heading: "Observer Research Foundation. (n.d.). Prioritising the Western Indian Ocean in India’s maritime security calculus.",
+      link: "https://www.orfonline.org/expert-speak/prioritising-the-western-indian-ocean-in-india-s-maritime-security-calculus"
     },
     {
-      "heading": "Observer Research Foundation. (n.d.). Strategic competition in the Indian Ocean: Why island states matter.",
-      "links": "https://www.orfonline.org/expert-speak/strategic-competition-in-the-indian-ocean-why-island-states-matter"
+      heading: "Observer Research Foundation. (n.d.). Strategic competition in the Indian Ocean: Why island states matter.",
+      link: "https://www.orfonline.org/expert-speak/strategic-competition-in-the-indian-ocean-why-island-states-matter"
     },
     {
-      "heading": "Peron-Doise, M. (2025). Indo-Pacific’s vision of France and India: Enhancing maritime multilateralism. In A. Mukherjee & C. Rajagopalan (Eds.), The Routledge Handbook of Maritime India (pp. 122–135). Routledge India.",
-      "links": ""
+      heading: "Peron-Doise, M. (2025). Indo-Pacific’s vision of France and India: Enhancing maritime multilateralism. In A. Mukherjee & C. Rajagopalan (Eds.), The Routledge Handbook of Maritime India (pp. 122–135). Routledge India.",
+      link: ""
     },
     {
-      "heading": "Press Information Bureau (PIB). (2024, February 22). Text of the Vice-President’s speech – Inauguration of International Maritime Seminar - MILAN 2024.",
-      "links": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2007989"
+      heading: "Press Information Bureau (PIB). (2024, February 22). Text of the Vice-President’s speech – Inauguration of International Maritime Seminar - MILAN 2024.",
+      link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2007989"
     },
     {
-      "heading": "Press Information Bureau. (2022, February 3). Union Minister Dr Jitendra Singh says, Blue Economy is the sixth dimension of Government of India’s Vision of New India by 2030.",
-      "links": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1795031"
+      heading: "Press Information Bureau. (2022, February 3). Union Minister Dr Jitendra Singh says, Blue Economy is the sixth dimension of Government of India’s Vision of New India by 2030.",
+      link: "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1795031"
     },
     {
-      "heading": "RACE IAS. (n.d.). 9th National Level Pollution Response Exercise (NATPOLREX-IX).",
-      "links": "https://raceias.com/current-affairs/9th-national-level-pollution-response-exercise-natpolrex-ix"
+      heading: "RACE IAS. (n.d.). 9th National Level Pollution Response Exercise (NATPOLREX-IX).",
+      link: "https://raceias.com/current-affairs/9th-national-level-pollution-response-exercise-natpolrex-ix"
     },
     {
       "heading": "Roy, A. (2019, January). Blue Economy in the Indian Ocean: Governance Perspectives for Sustainable Development in the Region (ORF Occasional Paper No. 181). Observer Research Foundation.",
-      "links": "https://www.orfonline.org/wp-content/uploads/2019/02/Blue-Economy-in-the-Indian-Ocean.pdf"
+      link: "https://www.orfonline.org/wp-content/uploads/2019/02/Blue-Economy-in-the-Indian-Ocean.pdf"
     },
     {
       "heading": "Sagarmala. (n.d.). Port modernization.",
-      "links": "https://sagarmala.gov.in/project/port-modernization"
+      link: "https://sagarmala.gov.in/project/port-modernization"
     },
     {
-      "heading": "Sangomla, A. (2024, April 29). Indian Ocean is heating up much faster than we think, at a rate of 1.7–3.8°C per century. Down To Earth.",
-      "links": "https://www.downtoearth.org.in/news/climate/change/indian-ocean-is-heating-up-much-faster-than-we-think-at-a-rate-of-1-7-3-8-c-per/century-95805"
+      heading: "Sangomla, A. (2024, April 29). Indian Ocean is heating up much faster than we think, at a rate of 1.7–3.8°C per century. Down To Earth.",
+      link: "https://www.downtoearth.org.in/news/climate/change/indian-ocean-is-heating-up-much-faster-than-we-think-at-a-rate-of-1-7-3-8-c-per/century-95805"
     },
     {
-      "heading": "Sharma, R. (2024). India’s maritime security and multilateralism in the Western Indian Ocean. International Journal of Social Science and Economic Research, 9(2), 267–280.",
-      "links": "https://ijsser.org/2024files/ijsser_09__267.pdf"
+      heading: "Sharma, R. (2024). India’s maritime security and multilateralism in the Western Indian Ocean. International Journal of Social Science and Economic Research, 9(2), 267–280.",
+      link: "https://ijsser.org/2024files/ijsser_09__267.pdf"
     },
     {
-      "heading": "Sodha, M. (2025, May 8). Our Blue Future – A Multi-stakeholder Initiative for Inclusive Sustainable Blue Economy (ISBE) in the Western Indian Ocean. PANORAMA.",
-      "links": "https://panorama.solutions/en/solution/our-blue-future-multi-stakeholder-initiative-inclusive-sustainable-blue-economy-isbe-western-indian-ocean"
+      heading: "Sodha, M. (2025, May 8). Our Blue Future – A Multi-stakeholder Initiative for Inclusive Sustainable Blue Economy (ISBE) in the Western Indian Ocean. PANORAMA.",
+      link: "https://panorama.solutions/en/solution/our-blue-future-multi-stakeholder-initiative-inclusive-sustainable-blue-economy-isbe-western-indian-ocean"
     },
     {
-      "heading": "Swarajya. Base in Oman: India granted access to strategically located Duqm port for military use.",
-      "links": "https://swarajyamag.com/insta/base-in-oman-india-granted-access-to-strategically-located-duqm-port-for-military-use"
+      heading: "Swarajya. Base in Oman: India granted access to strategically located Duqm port for military use.",
+      link: "https://swarajyamag.com/insta/base-in-oman-india-granted-access-to-strategically-located-duqm-port-for-military-use"
     },
     {
-      "heading": "The Energy and Resources Institute. (2022, July). Blue economy: A roadmap for sustainable development.",
-      "links": "https://www.teriin.org/sites/default/files/2022/07/Blue_Economy_Publication.pdf"
+      heading: "The Energy and Resources Institute. (2022, July). Blue economy: A roadmap for sustainable development.",
+      link: "https://www.teriin.org/sites/default/files/2022/07/Blue_Economy_Publication.pdf"
     },
     {
-      "heading": "UNEP. (2023). India - ID2 - Marine and Coastal Ecosystems.",
-      "links": "https://www.unep.org/system/files/2023-09/INDIA-%20ID2%20marine%20and%20coastal%20ecosystems%20.pdf"
+      heading: "UNEP. (2023). India - ID2 - Marine and Coastal Ecosystems.",
+      link: "https://www.unep.org/system/files/2023-09/INDIA-%20ID2%20marine%20and%20coastal%20ecosystems%20.pdf"
     }
   ]
 },
 
 {
-  "id":10,
-  "serialNumber": 46,
-  "issueNo": 4,
-  "volume": 1,
-  "title": "From Policy to Progress: An Analysis of Government Initiatives Addressing Educational Equity and the Digital Divide",
-  "author": [
-    "Deeksha",
-    "Avradeep Saha",
-    "Pavni Agrawal",
-    "Nandan Dhar",
-    "Ankit Vardani"
+   id: 10,
+  serialNumber: 46,
+  issue: 4,
+  volume: 1,
+  title: "From Policy to Progress: An Analysis of Government Initiatives Addressing Educational Equity and the Digital Divide",
+  author: "Deeksha, Avradeep Saha, Pavni Agrawal, Nandan Dhar, Ankit Vardani",
+  authorAbbrev: "Deeksha, A. Saha, P. Agrawal, N. Dhar, A. Vardani",
+  abstract: [
+   "This study is to critically examine how targeted digital education policies and initiatives have contributed to reducing educational inequality in India. By using key policies such as the BharatNet Project, PM e-vidya, DIKSHA platform as evaluative tools, this study aims to assess both their achievements in improving access, inclusion, and learning outcomes, and their limitations in addressing structural and digital disparities across socio-economic, rural-urban, and gender divides.",
+   "We used the descriptive method by reviewing policies, government reports, news articles, and educational data from official sources to understand how digital initiatives are addressing educational inequalities in India.",
+   "Digital policies like BharatNet and Digital India have improved internet access in rural areas, and have helped schools adopt online learning. However, gaps still remain due to lack of devices, electricity, and digital skills, and access to the internet in some regions.",
+   "Further, the study seeks to bridge the gap between policy intent and on-ground impact, enhanced understanding of how far these digital interventions have progressed in transforming educational equity, and what barriers persist in the path toward inclusive and equitable quality education. The study relies on secondary data sources and does not include direct surveys or interviews, so some ground-level issues may not be fully recorded."
   ],
-  "authorAbbrev": [
-    "Deeksha¹",
-    "Avradeep Saha²",
-    "Pavni Agrawal³",
-    "Nandan Dhar⁴",
-    "Ankit Vardani⁵"
+  keyword: [
+   "digital divide",
+   "educational inequality",
+   "BharatNet",
+   "SDG 10",
+   "Digital India",
+   "policy analysis"
   ],
-  "status": "Submitted",
-  "abstract": [
-    "This study is to critically examine how targeted digital education policies and initiatives have contributed to reducing educational inequality in India.",
-    "By using key policies such as the BharatNet Project, PM e-vidya, DIKSHA platform as evaluative tools, this study aims to assess both their achievements in improving access, inclusion, and learning outcomes, and their limitations in addressing structural and digital disparities across socio-economic, rural-urban, and gender divides.",
-    "We used the descriptive method by reviewing policies, government reports, news articles, and educational data from official sources to understand how digital initiatives are addressing educational inequalities in India.",
-    "Digital policies like BharatNet and Digital India have improved internet access in rural areas, and have helped schools adopt online learning.",
-    "However, gaps still remain due to lack of devices, electricity, and digital skills, and access to the internet in some regions.",
-    "Further, the study seeks to bridge the gap between policy intent and on-ground impact, enhanced understanding of how far these digital interventions have progressed in transforming educational equity, and what barriers persist in the path toward inclusive and equitable quality education.",
-    "The study relies on secondary data sources and does not include direct surveys or interviews, so some ground-level issues may not be fully recorded."
+  status: "Submitted",
+  intro: [
+   "Educational inequality remains a persistent challenge in India, deeply rooted in historical, socioeconomic, and geographic disparities. Despite significant progress in enrollment rates and infrastructure development over the past decades, access to quality education continues to be uneven, particularly across rural-urban divides, income groups, and gender. In response to these disparities, to address these gaps, digital technology is now being seen as an important way to make education more equal and accessible for everyone.",
+   "In alignment with the global commitment to Sustainable Development Goal 10 (SDG 10) which seeks to reduce inequality, India has taken several policy initiatives aimed at leveraging digital infrastructure to enhance educational access and equity. Key among these are the Digital India Campaign, PM e-Vidya, the National Education Policy (NEP) 2020, and the DIKSHA platform. These initiatives together show a change in policy, focusing on using technology-based solutions that can reach many people, with the goal of reducing gaps in access to and involvement in education.",
+   "However, the transformative potential of digital education remains contested, especially in the context of pre-existing structural inequalities. While digital platforms have expanded the reach of educational content, they have also exposed and, in some cases, deepened the digital divide, particularly among economically marginalized populations, rural communities, and genderdisadvantaged groups. The accessibility, usability, and effectiveness of these digital interventions vary widely across different socio-economic contexts, raising important questions about their actual impact on educational equity.",
+   "This study seeks to critically examine the extent to which these targeted digital education policies have contributed to reducing educational inequality in India. By evaluating the achievements and limitations of these initiatives, the research aims to bridge the gap between policy formulation and ground-level implementation. In doing so, it endeavors to offer a nuanced understanding of the role of digital interventions in advancing equitable and inclusive education, and to identify the systemic barriers that continue to impede progress."
   ],
-  "keywords": [
-    "digital divide",
-    "educational inequality",
-    "BharatNet",
-    "SDG 10",
-    "Digital India",
-    "policy analysis"
+    content: [
+   {
+    heading: "THEME 1: Project BharatNet : It’s impact on reducing Digital divide in educational sectors of rural India",
+    paragraphs: [
+     "The government is trying to reduce education inequality through many initiatives like online open learning, free e-library access, skill development platforms like NPTEL, SWAM etc. but it can’t be possible without proper internet connection. Reddy,Jose&Vaidehi (2021)argue that Massive online education without addressing the huge access gap and disparities in digital infrastructure would not only exclude a vast majority of students but also exacerbate the existing socio‑economic disparities in educational opportunities.",
+     "Basic Introduction of BharatNet;-",
+     "BharaNet is one of the impactful projects among all initiatives of the GOV, those are taken for reducing educational disparities among the different regions of the country. Actually, under this initiative the Govt is trying to give broadband connectivity to all Gram Panchayats (GPs) in the country as well as It is one of the biggest rural telecom projects in the world. [PressInformation Bureau (2025)]",
+     "Brief about its implementation:-",
+     "The BharatNet project was initially approved in October 2011 as the National Optical Fibre Network (NOFN) to connect 2.5 lakh Gram Panchayats [USOF,DoT,MinistryofCommunications,GOI (2025)] after in 2015 it was renamed as BharatNet [BusinessStandard(2015)]. However, significant delays led the Union Cabinet in July 2017 to approve a modified strategy for its implementation, rebranding the project as BharatNet and initiating Phase II with state and private partnerships [IndiaToday (2017)].",
+     "It plays a major role particularly in some states of India to spread internet access in the Gram Panchayats though there are some controversies related to its achievement and proper impact. As per the report of the Press Information Bureau (2025) of 19 March 2025, 218,347 Gram Panchayats have been made service ready under the project which is not so far from its initial objective to connect approx 2.5 lakh Gram Panchyats with internet connection. [PressInformationBureau(2025)]",
+     "Analysing situation of Rural Online Education before Phase lll (August, 2023) of BharatNet Project",
+     "The need for online education in India was mainly found during the Covid-19 lockdown period but then millions of students were struggling for proper access to online learning for lack of connections and devices, majorly in rural areas. An article of IndiaToday (2020) claims that while the benefits of online learning are manifold, there are still many roadblocks in the way ahead towards making education an entirely digital (online) phenomenon. After the lockdown period the trend of online education was starting rapidly but simultaneously it was creating some disparities between those who have proper internet connection and digital devices and those who do not . TheWave-1oftheASER (2020)survey also reported that a mere 18.3 percent of children in rural areas enrolled in government schools have accessed video recordings, and 8.1 percent have attended live online classes.",
+     "Thus, we can feel that the main two problems are, one is the financial barrier for accessing digital devices and the other is poor internet connection or lack of internet accessibility in many rural regions. Let's see how the BharatNet Phase-lll is creating impact in the second issue for emitting the gap of Digital Divide in Indian Education Sector.",
+     "The Impact of BharatNet project in rural online education:-",
+     "The BharatNet project makes some very impactful milestones in the field of connecting villages in some regions of our country. According to the EconomicSurveyreport2024-25, as of December 2024, 6.92 lakh km of Optical Fiber Cable (OFC) has been laid, 2.14 lakh Gram Panchayats (GPs) are service-ready (including 5,032 via satellite, 12.04 lakh Fiber-To-The-Home (FTTH) connections have been installed. Telecom infrastructure is being strengthened through the Bharat Net Project, extending broadband connectivity to all Gram Panchayats and villages. [telecomtalk.info (2025)]",
+     "There is some data which shows the progress of this project across the all state and union territories of India: Figure 1 and Figure 2 as follows: Source: bbnl.nic.in",
+     "Thus the rapid expansion of the broadband services through BharatNet somehow created a better situation for students to access digital services and online learning in those places where internet connection was not available before this project. According to smventure.com (2025), the BharaNet project’s linkage with schemes like PMGDISHA (which has trained over 6.39 crore individuals in digital literacy) and collaboration with NABARD further enhance its socioeconomic value. Through BharatNet, healthcare centers are being digitally enabled, schools are accessing virtual learning content, and local governance is becoming more efficient. As an example we can see that in Gujarat’s Sakarda village (Tapi district), once broadband from BharatNet reached its local Gram Panchayat (in 2022), the primary school with 165 students and seven teachers began using smart boards and online content in classrooms. Students reportedly became much more engaged in watching educational videos, participating in online yoga, and observing cultural performances, reflecting a real shift toward digital learning enabled by internet access as per a report of IndiaToday (2025).",
+     "In spite of the implementation of the BharatNet Project, there are still some problems, mainly in some regions of India. All states are not getting the basic advantage by this internet. PujaDash(2025)shows that even by the end of 2023, less than 60% of the gram panchayats in northeastern states were service-ready, while the national average is 79% . “Key challenges (for the BharatNet programme) have been the shifting goalposts, slackening deadlines and lack of coordination with other agencies and entities, especially those who can and should leverage broadband,” said Deepak Maheshwari, Senior Policy Advisor at the Centre for Social and Economic Progress (CSEP), a public policy think-tank based in New Delhi [indiaspend.com (2025)] . The study of Puja Dash also shows that despite widespread implementation efforts, only about 24% of government schools nationwide had internet access among them most located in urban areas. For instance, in Telangana, only 8.78% of government schools had internet connection as of 2021, severely limiting access to online education . The project has also faced significant delays in implementation, with the pace of progress being slower than anticipated. Despite the government's efforts to connect villages, only about 194,000 out of the targeted 640,000 villages have been connected so far. This slow progress has hindered the project's ability to bridge the Digital Divide in rural areas [DrishtiIAS (2023)]",
+     "At the end we can say that obviously it is a very good initiative but it should be more effective which definitely goes one important step ahead to ensuring equal digital access in India ."
+    ]
+   },
+   {
+    heading: "THEME 2:Online Education Push During COVID-19 Lockdown",
+    paragraphs: [
+     "When the COVID-19 pandemic hit in early 2020, life changed overnight. Schools across India shut their gates with no idea when they would open again. One day, students were sitting in classrooms with blackboards and notebooks, the next, they were stuck at home, cut off from their teachers, friends, and any sense of routine. Homes with no internet, no smartphones, and sometimes no electricity became the new ‘classrooms’. Parents struggled to keep up and teachers scrambled to figure out Zoom or WhatsApp classes. The disruption was massive: nearly 320 million learners across India were affected, making it one of the largest educational crises the country had ever seen (NCERT,2021;ResearchGate,2020). In cities, some students switched to Google Meet and online assignments. But in villages and low-income households, the story was very different, one where the digital divide turned into a learning divide.",
+     "A Hard Gap: Connectivity and Devices:-",
+     "Studies before the pandemic found that only about 4.4% of rural households had a computer, versus 23.4% in urban areas (NSSO,75thRound,2018). Internet access was 14.9% in rural homes compared to 42% in cities (NSSO,75thRound,2018). Operating skills were similarly uneven: just 9-13% of rural residents could use computers or the internet, compared to over 30% in urban settings (MoSPI, 2019). A local survey in Chennai showed only 5.3% of rural government school kids could take live classes(AzimPremjiFoundation,2021).While 56.9% had smartphones, only about 21.1% of private school students could attend online lessons regularly(OxfamIndia,InequalityReport,2021).",
+     "Government Initiatives: SWAYAM Prabha and Manodarpan:-",
+     "To ensure continuity of education during the lockdown, the government expanded the SWAYAM Prabha network, 32 DTH TV channels that telecast curriculum-based lessons 24x7, allowing students in far-flung areas and those unable to afford smart phones and mobile data to follow through with lessons. In tandem, the government addressed mental health. Launched under the Atma Nirbhar Bharat scheme, Manodarpan allowed students, teachers, and parents to avail free tele-counselling to those feeling overwhelmed and isolated during a particularly gruelling period of stress and isolation. Early figures suggest that lakhs availed of the helpline, highlighting the deep-rooted impact of the pandemic on mental well-being and the need for the simultaneous facilitation of learning and mental wellness(MinistryofEducation,2020).",
+     "Impact on Educational Equity:-",
+     "What worked:One of the primary benefits during the lockdown was the ability of SWAYAM Prabha to reach students who did not have internet access. By conducting lessons on television, it allowed rural students, including those without smartphones and data, to continue their education. Through the Manodarpan initiative, the government also addressed mental health, providing students the emotional care they needed at a time when stress was heightened. Certain states also capitalized on this opportunity to improve long-term digital infrastructure. Kerala granted internet access to over 80% of gram panchayats, which enabled the establishment of smart classrooms and computer labs across rural government schools. (swayamprabha.gov.in,manodarpan.education.gov.in)",
+     "What didn’t: Efforts to make digital education accessible did not yield the desired results. While 14.9% of rural households had access to the internet, only 4-5% of them had a computer. Millions of students in India did not have the means to attend live classes and use online educational portals. Many of the e-learning resources did not have multi-lingual or interactive options. Regional languages were a barrier to learning as most of the internet content was in English. The switch to e-learning was a big disadvantage to girls. Girls had more household chores to attend to, lesser access to smartphones and lesser freedom to use the internet for education. Many teachers could not conduct online classes as most of them had never used the internet before. (swayamprabha.gov.in,manodarpan.education.gov.in).",
+     "Data Snapshot: Rural vs Urban Access - Households with computer: Rural 4.4–4.8%, Urban 23.4%. Households with internet: Rural 14.9–16.5%, Urban 42%. People able to use internet: Rural 13%, Urban 37%. (Sources: NSSO75thRound,MinistryofStatistics&MOSPI (2017–18))",
+     "Case Example: Rajasthan’s DigiLEP Initiative:-",
+     "The state government of Rajasthan launched a Digital Learning Enhancement Programme (DigiLEP) to reach students in state schools. Teachers shared videos, worksheets and quizzes with students and their parents via WhatsApp, covering more than 68,000 schools across the state (UNICEF India, 2021). DigiLEP was able to leverage low-tech approaches to support continuity of learning in contexts with poor internet connectivity. In tribal areas such as Dungarpur and Baran, students accessed learning content using basic phones. However, challenges remained. In households with limited access to phones, boys were offered access more often than girls. There were limited opportunities for two-way communication and interaction between students and teachers, and girls in particular struggled to gain equal access to content. Nevertheless, DigiLEP was able to provide a workable solution. (WorldBank/OEDC2020CaseStudy)",
+     "The shift to online learning happened quickly but unevenly. TV channels like SWAYAM Prabha and mental health support through Manodarpan aimed to fill gaps. However, many rural students, particularly girls, missed out. Limited access to the internet, electricity, or devices blocked participation(NSSO,2018).Government programs like BharatNet and PMGDISHA strive to improve digital access, but coverage remains inconsistent(OxfamIndia,2021).Real progress requires proper infrastructure."
+    ]
+   },
+   {
+    heading: "THEME 3:  PM e-Vidya under New Education Policy 2020 - A Visionary Shift or Digital Exclusion?",
+    paragraphs: [
+     "The National Education Policy (NEP) 2020 implemented ambitious reforms in the Indian education sector, much of which emphasized technology-driven learning. PM e-Vidya, one of the key reforms, aimed to streamline digital education engagement and content in creative ways under the initiative; “One Nation, One Digital Platform” (Ministry of Education, 2020) and to enroll individuals in a digital ecosystem, which included DIKSHA, digital teacher training, SWAYAM, and DTH TV channels. The NEP aspired to equitable and inclusive education, especially in light of the challenges to education posed by COVID-19. However, the reality provides a different view—individuals have been empowered, and disempowered or excluded through this digital push, notably in rural and excluded communities.",
+     "Digital Infrastructure versus Digital Reality:-",
+     "NEP 2020’s bold drive for EdTech integration is fraught with challenges. While technology promises to deliver flexibility, personalization and new-age pedagogy (UNESCO, 2021), it assumes some level of baseline provision for access to electricity, internet and portable digital devices, although millions of Indian students are still without the basic ability to access them. The NFHS-5 (2022) data shows us that only 15% of rural households in India have internet accessibility, compared to 42% of urban households. The reality of the inequity provides a clear picture of why this is a continuing challenge for achieving SDG 10 – Reduce Inequality (NFHS5,2022).",
+     "Graphical Snapshot: Internet Access in Gram Panchayats (2024) - Kerala: 82%, Tamil Nadu: 65%, Uttar Pradesh: 35%, Jharkhand: 31%, Bihar: 28%. (Source: TimesofIndia,May22,2024;BharatNetProgressDashboard(TOI,2024))",
+     "As part of my internship with the Rajasthan Legal Services Authority (RLSA), I helped organize awareness camps in schools in remote areas such as rural blocks of Jodhpur district during April 2024, where we focused on promoting legal literacy. Through this experience, I had firsthand contact with the students and teachers, and I observed how lack of access to smartphones, intermittent internet connectivity, and barriers such as language prevented our rural students and teachers from being digitally connected. For example, many of the students had only heard of the DIKSHA portal, and many of the teachers acknowledged that they felt very little confidence interacting with online content primarily due to lack of training.",
+     "This data points to extreme inequities in our education system. States like Kerala have been successful in advancing digital infrastructure for example, the KITE VICTERS TV initiative and smart classrooms in rural government schools—to enhance delivery of education (The Hindu, 2023), whereas states like Bihar and Jharkhand are considerably behind. Although PM e-Vidya is a great opportunity, in states like this the gap remains in infrastructure rather than policy (EconomicandPoliticalWeekly,2022).",
+     "PM e-Vidya: Missed Opportunities:-",
+     "PM e-Vidya, launched as part of the NEP 2020 and COVID response, is a comprehensive multimode access platform that combines digital, TV, radio, and podcasts to reach diverse learners. It was especially vital for families without smartphones and internet (PRSIndia,2022). However, the scheduling, language constraints, and no interactive component lessened their efficacy. According to a CBSETrainingReport (2023), more than 40% of teachers in rural schools were unaware of anything from the digital platforms.",
+     "There are some regionallevel variationslikeKerala, with its proactive education system, used KITE VICTERS to show daily lessons, each day on TV in Malayalam (TheHindu,2023). In contrast, in many parts of Uttar Pradesh and Bihar, students were relegated to WhatsApp notes or had no connection at all. These examples show that central policies must allow for localized adaptation (EPW,2022).",
+     "One of the more ambitious features of NEP 2020, PM e-Vidya, sought to virtualise education through a common platform that harnessed the powers of TV, radio and online portals. On paper, it was revolutionary. In reality, the experience has been mixed depending on where one lives and their socio-economic bracket.",
+     "In Kerala, the KITE VICTERS educational TV channel put under PM e-Vidya was a boon for lakhs of students during the COVID-19 lockdown. The state made sure that daily Malayalam language classes, aired at a prescribed time, were reachable even in regions without smartphones or internet. According to a report by KITE in 2021, more than 3.5 million students accessed television programmes in the peak month of lockdown (KITEKerala,2021).In comparison, states like Jharkhand or Bihar have had impacts from PM e-Vidya that are comparatively weaker and limited. According to a recent study (OxfamIndia,2022), more than 80% of children in low-income rural families in Bihar had no access to either smartphones or educational TV. Many of these families explained that they had to prioritise the phone for earning or telephone calls to relatives, and there simply no educational continuity for the child. Teachers reported confusion regarding the content release schedule and felt they didn't have a role in the platform's launch because they had not received any training.",
+     "Even urban slum populations have had limited learning outcomes from PM e-Vidya content. Azim Premji University (2022) reported that even when almost 50% of samples (students living in urban poverty) had access to some kind of digital content, comprehension was extremely low because of the use of language, a lack of engaging interactivity, and very few instances of feedback (AzimPremjiFoundation,2022). That being said, there are islands of success. Teachers in Nagaland began to curate localized content linked to PM e-Vidya TV broadcasts and then via WhatsApp. Volunteers from the community helped distribute worksheets, and students attended community TV viewing spaces that were set up in village halls, and the hybrid model fostered significant reengagement in learning for tribal students. A UNESCOSouthAsiaBriefingfrom2023documented this.",
+     "These examples illustrate that PM e-Vidya can be transformational, but only if integrated within localized delivery frameworks, inclusive of language, and with follow-up support on-the-ground. Without these features, the current top-down, one-size-fits-all structure only further embeds preexisting digital and educational inequities."
+    ]
+   },
+   {
+    heading: "THEME 4: Assessing the Impact of DIKSHA and SWAYAM on Indian Educational Inequalities",
+    paragraphs: [
+     "Platforms like DIKSHA and SWAYAM have pushed through long-standing barriers to education in India's drive for inclusive education. (TheMinistryofEducation,2020) states that DIKSHA (Digital Infrastructure for Knowledge Sharing) and SWAYAM (Study Webs of Active Learning for Young Aspiring Minds) are flagship platforms for providing high-quality educational resources at scale. The National Education Policy (NEP) 2020 clearly frames technology as central to promoting \"access, equity, and quality.\" Especially in the wake of pandemic-induced school closures and longstanding infrastructure gaps, these platforms are expected to ensure continuity and act as strategic reforms that narrow the deep urban-rural, gender, and income gaps, helping to redefine India’s educational landscape.",
+     "Launched in 2017, DIKSHA is a national platform for school education, by NCERT, under the aegis of the Ministry of Education (MoE), GoI (DIKSHA,2024) was developed to advance inclusive and equitable education as envisioned in NEP. Based on the EkStep Foundation's opensource Sunbird platform, it facilitates inclusive teaching and foundational learning nationwide by offering multilingual, accessible content from NCERT, CBSE, and SCERTs to over 200 million students and seven million teachers (TheEconomicTimes,2023).",
+     "Fig 1- One diksha, multiple central and state solutions and programme Source-IndiaReportDigitalEducation,2020",
+     "With the goal to promote inclusivity and reduce access gaps, the DIKSHA app integrates interactive content in a variety of formats and languages, particularly in remote and linguistically diverse areas. More than 72% students and 87% of teachers have signed up for classes on DIKSHA, indicating a strong inclination to use digital tools if given the right support, proving to be a crucial component of digital equity (Vermaetal.,2024). However, only 66.38% of teachers agreed that content loads easily on mobile devices, and 59.66% noted sufficient media variety.",
+     "Technological barriers persist in mobile compatibility and content diversity (Roul&Mohalik,2025) Likewise, SWAYAM, India’s MOOC platform, also launched in July 2017, aims to achieve the three cardinal principles of Education Policy: access, equity and quality (Swayam,2025).It hosts courses from class 9 to post-graduation. It gives professors from centrally funded universities like IISERs, IITs, and IIMs the opportunity to teach students. 11,772 courses have been offered by SWAYAM as of July 2025. Over 910,000 students have signed up for proctored exams, and about 650,000 students have received certificates (Wikipedia,2025).",
+     "With more than 10 million registered users using adaptable evaluation techniques, SWAYAM helps bridge the gap in digital and educational accessibility by providing customized and scalable learning pathways for a wide range of demographics (Jadhav&Rathod,2024). However, 27.75% of students found the teaching difficult to follow, and roughly 31.28% of students left because the content was only in English. Additionally, about 24.58% of students said that boring video lectures encouraged them to drop out of the course, suggesting that interactive content design could improve engagement, especially for students from underprivileged backgrounds (Singh,2022).",
+     "SWAYAM Platform Key Metrics (As of February 2023) - Total Enrolment: 31,000,000; Effective Enrolment: 24,405,178; Exam Registration: 2,629,526; Assignment Submissions: 883,605; Courses Offered: 3,000+; Universities Accepting Credit: 288. (Source-TimesofIndia,2023)",
+     "SWAYAM's increasing influence as India's top MOOC platform is shown in the data. It demonstrates high user engagement with over 24.4 million active learners and 31 million total enrollments. Also, credible academic participation is shown by the 2.6 million exam registrations and the 880,000+ assignment submissions, and its integration into formal education is confirmed by the 288 universities that accept credits."
+    ]
+   }
   ],
-  "intro": [
-    "Educational inequality remains a persistent challenge in India, deeply rooted in historical, socioeconomic, and geographic disparities.",
-    "Despite significant progress in enrollment rates and infrastructure development over the past decades, access to quality education continues to be uneven, particularly across rural-urban divides, income groups, and gender.",
-    "In response to these disparities, to address these gaps, digital technology is now being seen as an important way to make education more equal and accessible for everyone.",
-    "In alignment with the global commitment to Sustainable Development Goal 10 (SDG 10) which seeks to reduce inequality, India has taken several policy initiatives aimed at leveraging digital infrastructure to enhance educational access and equity.",
-    "Key among these are the Digital India Campaign, PM e-Vidya, the National Education Policy (NEP) 2020, and the DIKSHA platform.",
-    "These initiatives together show a change in policy, focusing on using technology-based solutions that can reach many people, with the goal of reducing gaps in access to and involvement in education.",
-    "However, the transformative potential of digital education remains contested, especially in the context of pre-existing structural inequalities.",
-    "While digital platforms have expanded the reach of educational content, they have also exposed and, in some cases, deepened the digital divide, particularly among economically marginalized populations, rural communities, and gender-disadvantaged groups."
+  
+
+  
+  conclusion: [
+   "The study reveals a shift in India's educational scenario due to increase in digital infrastructure. Programs like BharatNet have enabled connectivity even in the remote areas, supporting online education. However, the benefits were not evenly distributed and were different, especially for the marginalized communities. They face difficulties in their access to digital opportunities.",
+   "To bridge this gap, policies must not only ensure infrastructural support but also is affordable, accessible, and is structured in a way comfortable to address this concern of digital divide.",
+   "In order to address India's historical educational inequalities, platforms such as DIKSHA and SWAYAM have become critical instruments. By providing scalable, multilingual, and accessible digital content, these platforms support the NEP 2020 vision of equitable and inclusive education. DIKSHA has made commendable progress, particularly in enhancing foundational learning and reaching linguistically and geographically diverse learners, as evidenced by high teacher and student interaction.",
+   "However, enduring problems like restricted media diversity and mobile compatibility underscore the necessity of additional infrastructure investment and adaptive content creation. On a similar note, SWAYAM's extensive course library, adaptable evaluation, and participation of prestigious universities have increased access across socioeconomic divides.",
+   "Improving vernacular content, increasing mobile access, and incorporating adaptive learning analytics for personalized learning are all crucial to filling in the gaps in platforms like SWAYAM and DIKSHA. Prioritizing teacher training in digital pedagogy is essential, particularly in rural areas. Delivery of education will be inclusive, interesting, and contextually relevant if communitybased digital support systems, such as local learning hubs, are established and continuous monitoring and feedback systems are integrated.",
+   "DIKSHA and SWAYAM can more successfully close the digital divide and act as global models for inclusive digital education.",
+   "For NEP 2020 and PM e-Vidya to truly disrupt systematic inequality, the government must improve rural internet infrastructure, and provide content in regional languages. They must equip educators with EdTech training and enable parental and community involvement in digital learning. This is an excellent way to ensure better access to digital policies and help in reducing education inequality.",
+   "We can also introduce digital literacy programmes in rural areas and launch similar programmes in the school, in order to spread awareness and help them to gain a practical exposure so that they understand the importance as well as get comfortable accessing digital opportunities with the use of their digital skills.",
+   "In conclusion, digital transformation will boost tremendously if it stands still on its promise for reducing inequality, and ensure every learner has equal access and ability to benefit from the digital tools and opportunities."
   ],
-  "problemStatement": [
-    "Despite India’s major push toward digital education, gaps remain in equitable access and inclusivity.",
-    "Projects like BharatNet and PM e-Vidya have improved infrastructure, but rural areas, low-income households, and marginalized groups face barriers like poor connectivity, lack of devices, and limited digital skills.",
-    "The digital divide continues to widen educational inequality, especially post-COVID-19, raising questions about how effective these initiatives really are in reducing disparities."
-  ],
-  "researchObjectives": [
-    "To critically evaluate government-led digital initiatives like BharatNet, PM e-Vidya, and DIKSHA in reducing educational inequality.",
-    "To analyze the limitations of these programs in addressing structural, regional, and socio-economic barriers.",
-    "To identify areas where digital policies have succeeded and where they have fallen short in achieving inclusive education."
-  ],
-  "researchQuestions": [
-    "How effective are initiatives like BharatNet and PM e-Vidya in bridging the educational digital divide in India?",
-    "What are the main barriers preventing equitable outcomes in digital education?",
-    "To what extent do these initiatives align with the objectives of SDG 10 in reducing inequalities?"
-  ],
-  "thematicLiteratureReview": [
-    "The digital divide has emerged as a central concern in policy and academic debates on education. Scholars argue that while digital platforms create new opportunities for access, they simultaneously deepen inequalities when infrastructure and affordability gaps are not addressed (Oxfam India, 2021).",
-    "Global studies, including UNESCO (2021), highlight how the pandemic magnified existing disparities, with rural, poor, and female students disproportionately excluded from digital learning.",
-    "In India, policies like Digital India and BharatNet are designed to address these divides, but ground-level studies suggest uneven impact. For example, NCERT (2021) found that a large proportion of students lacked access to devices during the pandemic.",
-    "Research also emphasizes that while platforms such as DIKSHA and SWAYAM increase reach, high dropout rates and language barriers reduce their effectiveness (Singh, 2022).",
-    "This literature underscores the need to evaluate not just access but also inclusivity, cultural relevance, and sustainability of digital education initiatives."
-  ],
-  "methodology": [
-    "This research uses a descriptive method, relying primarily on secondary data sources such as government reports, survey data, academic papers, and news articles.",
-    "By systematically reviewing these sources, the study evaluates the effectiveness of digital initiatives like BharatNet, PM e-Vidya, DIKSHA, and SWAYAM in reducing educational inequalities.",
-    "The methodology is qualitative in nature, focusing on critical policy analysis and impact assessment rather than empirical fieldwork.",
-    "Limitations include lack of primary data collection, meaning the findings depend on existing literature and reported outcomes."
-  ],
-  "content": [
-    {
-      "theme": "Project BharatNet: Its Impact on Reducing Digital Divide in Educational Sectors of Rural India",
-      "paragraphs": [
-        "BharatNet aims to provide broadband to all Gram Panchayats, being one of the largest rural telecom projects globally.",
-        "Initially approved in 2011 as the National Optical Fibre Network (NOFN), and later renamed in 2015, the project faced delays but entered Phase II in 2017.",
-        "By March 2025, over 218,000 Gram Panchayats were service ready, with more than 6.92 lakh km of optical fiber laid.",
-        "BharatNet expanded access during COVID-19, enabling online education through smart boards and digital classrooms in rural areas such as Sakarda village, Gujarat.",
-        "However, disparities remain: in northeastern states, less than 60% of Gram Panchayats were connected by 2023, and in Telangana, only 8.78% of schools reported internet access.",
-        "Implementation delays, coordination issues, and regional disparities hinder BharatNet’s potential as a fully equitable education enabler."
-      ]
-    },
-    {
-      "theme": "Online Education Push During COVID-19 Lockdown",
-      "paragraphs": [
-        "The COVID-19 pandemic disrupted education for over 320 million learners in India.",
-        "According to the NSSO (2018), only 4.4% of rural households owned computers, compared to 23.4% in urban areas, and only 14.9% of rural households had internet access compared to 42% urban.",
-        "Government initiatives included SWAYAM Prabha, a set of 32 DTH TV channels broadcasting lessons, and Manodarpan, a free tele-counselling service for mental health support.",
-        "While television-based lessons reached students without internet, limited interactivity and language issues reduced effectiveness.",
-        "Rural and female students were disproportionately excluded due to lack of access to devices.",
-        "State-level innovations such as Rajasthan’s DigiLEP program leveraged WhatsApp-based learning for 68,000 schools, showing promise but still limited by gender bias and unequal phone access.",
-        "COVID-19 highlighted the deep impact of digital inequality on educational equity in India."
-      ]
-    },
-    {
-      "theme": "PM e-Vidya under New Education Policy 2020 – A Visionary Shift or Digital Exclusion?",
-      "paragraphs": [
-        "NEP 2020 introduced PM e-Vidya under the 'One Nation, One Digital Platform' framework to unify digital education resources through DIKSHA, SWAYAM, and TV channels.",
-        "While visionary, its implementation has been inequitable: NFHS-5 (2022) data shows only 15% of rural households had internet access compared to 42% in urban households.",
-        "Some states like Kerala successfully implemented EdTech via initiatives like KITE VICTERS, while Bihar and Jharkhand lagged behind.",
-        "PM e-Vidya’s non-interactive format, lack of vernacular content, and poor teacher awareness (40% in rural schools) limited its reach.",
-        "Success stories like localized adaptations in Nagaland show potential, but overall, PM e-Vidya risks reinforcing existing inequalities unless inclusivity is prioritized."
-      ]
-    },
-    {
-      "theme": "Assessing the Impact of DIKSHA and SWAYAM on Indian Educational Inequalities",
-      "paragraphs": [
-        "DIKSHA, launched in 2017, provides multilingual, inclusive educational resources through NCERT, CBSE, and SCERTs.",
-        "Over 200 million students and 7 million teachers have engaged with DIKSHA, with more than 72% of enrolled students accessing materials.",
-        "However, limitations include poor mobile compatibility, uneven regional adoption, and content diversity issues.",
-        "SWAYAM, also launched in 2017, provides MOOCs from Class 9 to postgraduate level, with over 31 million enrolments and 288 universities accepting course credits.",
-        "Despite its wide reach, dropout rates remain high (27–31%), largely due to English-only content, lack of interactivity, and difficult course design.",
-        "Both DIKSHA and SWAYAM represent crucial steps toward digital inclusion, but greater efforts are needed to make them adaptive, engaging, and linguistically accessible."
-      ]
-    }
-  ],
-  "conclusion": [
-    "Government initiatives such as BharatNet, PM e-Vidya, DIKSHA, and SWAYAM have made significant contributions to expanding the reach of digital education in India.",
-    "These programs have improved internet access, provided digital content, and created alternative platforms like TV and radio for students without internet access.",
-    "However, deep-rooted inequalities remain, particularly in rural areas, among low-income households, and for girls and marginalized groups.",
-    "The pandemic further magnified these disparities, demonstrating that infrastructure alone cannot ensure equity.",
-    "Digital education policies must now move beyond access to focus on inclusivity, vernacular content, device affordability, teacher training, and gender-sensitive approaches.",
-    "India’s path to equitable digital education requires not just technological expansion but also structural reforms that directly address social and economic barriers."
-  ],
-  "acknowledgements": [
-    "The authors wish to acknowledge the guidance and support received from faculty mentors during the preparation of this paper.",
-    "We are also grateful to the organizations and institutions whose reports and publications formed the backbone of our secondary research.",
-    "Special thanks are due to peer reviewers for their constructive feedback."
-  ],
-  "references": [
-    {
-      "heading": "Angel One. (2025). How BharatNet is transforming rural connectivity in India.",
-      "links": "https://www.angelone.in/news/how-bharatnet-is-transforming-rural-connectivity-in-india"
-    },
-    {
-      "heading": "Government of India. (2023). BharatNet Project Status Report.",
-      "links": "https://www.bbnl.nic.in/Pages/home.aspx"
-    },
-    {
-      "heading": "Ministry of Education. (2020). National Education Policy 2020.",
-      "links": "https://www.education.gov.in/sites/upload_files/mhrd/files/NEP_Final_English_0.pdf"
-    },
-    {
-      "heading": "National Council of Educational Research and Training (NCERT). (2021). Students’ access to digital learning during COVID-19.",
-      "links": "https://ncert.nic.in/pdf/publication/reports/covid19/learningduringCOVID.pdf"
-    },
-    {
-      "heading": "NITI Aayog. (2021). Connected Learning: How digital platforms can bridge the education divide.",
-      "links": "https://www.niti.gov.in/sites/default/files/2021-08/connected-learning.pdf"
-    },
-    {
-      "heading": "Press Information Bureau. (2021). PM e-Vidya programme launched under Atma Nirbhar Bharat Abhiyaan.",
-      "links": "https://pib.gov.in/PressReleseDetailm.aspx?PRID=1629875"
-    },
-    {
-      "heading": "Singh, A. (2022). Digital learning in India: Opportunities and challenges. Economic and Political Weekly, 57(4).",
-      "links": "https://www.epw.in/journal/2022/4/digital-learning-india.html"
-    },
-    {
-      "heading": "UNESCO. (2021). When schools shut: Gendered impacts of COVID-19 school closures.",
-      "links": "https://unesdoc.unesco.org/ark:/48223/pf0000379270"
-    },
-    {
-      "heading": "Oxfam India. (2021). The digital divide in education in India.",
-      "links": "https://www.oxfamindia.org/press-release/oxfam-india-study-digital-divide-education"
-    },
-    {
-      "heading": "World Bank. (2022). Remote learning during the global school closures: Lessons from developing countries.",
-      "links": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/355141624508196987/remote-learning"
-    }
+  references: [
+   {
+    heading: "Angel One. (2025). How BharatNet is transforming rural connectivity in India.",
+    link: "https://www.angelone.in/news/how-bharatnet-is-transforming-rural-connectivity-in-india"
+   },
+   {
+    heading: "ASER Centre. (2021). Annual Status of Education Report 2021.",
+    link: "http://img.asercentre.org/docs/ASER%202021/aser2021fullreport.pdf"
+   },
+   {
+    heading: "Azim Premji Foundation. (2021). Myths of online education.",
+    link: "https://azimpremjifoundation.org/sites/default/files/myths-of-online-education.pdf"
+   },
+   {
+    heading: "Central Board of Secondary Education Training Portal. (2023). Teacher capacity building data.",
+    link: "https://cbseit.in/cbse/training"
+   },
+   {
+    heading: "DIKSHA. (2024). About DIKSHA.",
+    link: "https://diksha.gov.in/about/"
+   },
+   {
+    heading: "DIKSHA. (2024). DIKSHA dashboard- Ministry of Education",
+    link: "https://diksha.gov.in/"
+   },
+   {
+    heading: "EPW. (2022). Localising EdTech implementation in India. Economic and Political Weekly, 57(48).",
+    link: "https://www.epw.in/journal/2022/48/commentary/localising-edtech.html"
+   },
+   {
+    heading: "Government of India. (2020). Manodarpan – Ministry of Education.",
+    link: "https://manodarpan.education.gov.in"
+   },
+   {
+    heading: "India Inequality Report 2021 – Oxfam India. (2021). India inequality report: Education 2021.",
+    link: "https://www.oxfamindia.org/knowledgehub/workingpaper/india-inequality-report-2021"
+   },
+   {
+    heading: "Jadhav, R., & Rathod, A. R. (2024). Overview and future scope of SWAYAM in the world ofMOOCs: A comparative study with reference to major international MOOCs. InternationalResearch Journal on Advanced Engineering and Management, 2(9), 2804–2806.",
+    link: "https://goldncloudpublications.com/index.php/irjaem/article/view/478"
+   },
+   {
+    heading: "Ministry of Education. (2020). National Education Policy (NEP 2020).",
+    link: "https://www.education.gov.in/sites/upload_files/mhrd/files/NEP_Final_English_0.pdf"
+   },
+   {
+    heading: "Ministry of Education. (2020). National Education Policy 2020. Government of India.",
+    link: "https://www.education.gov.in/en/nep"
+   },
+   {
+    heading: "Ministry of Education. (2020). SWAYAM Prabha – Free DTH classes.",
+    link: "https://www.swayamprabha.gov.in"
+   },
+   {
+    heading: "MOSPI & NSSO. (2018). 75th Round of National Sample Survey: Education and digital accessdata.",
+    link: "http://mospi.nic.in"
+   },
+   {
+    heading: "NCERT. (2021). Students’ learning during the pandemic – A survey.",
+    link: "https://ncert.nic.in"
+   },
+   {
+    heading: "National Family Health Survey. (2022). NFHS-5 (Phase II) factsheets.",
+    link: "http://rchiips.org/nfhs/NFHS-5_FCTS/NFHS-5%20State%20Factsheet%20Compendium_Phase-II.pdf"
+   },
+   {
+    heading: "Oxfam India. (2021). India inequality report: Education 2021.",
+    link: "https://www.oxfamindia.org/knowledgehub/workingpaper/india-inequality-report-2021"
+   },
+   {
+    heading: "Oxfam India. (2022). India inequality report 2022: Digital divide.",
+    link: "https://www.oxfamindia.org/press-release/india-inequality-report-2022"
+   },
+   {
+    heading: "PRS Legislative Research. (2022). EdTech equity 2022 brief.",
+    link: "https://prsindia.org/policy/analytical-reports/edtech-equity-2022"
+   },
+   {
+    heading: "ResearchGate. (2020). Impact of COVID-19 on school education in India: A brief analysis.",
+    link: "https://www.researchgate.net/publication/341981898_Impact_of_COVID-19_on_School_Education_in_India"
+   },
+   {
+    heading: "Roul, R., & Mohalik, R. (2025). Quality of e‑contents on DIKSHA platform: A study ofsecondaryschool teachers’ perceptions. International Education & Research Journal, 11(2),32–37.",
+    link: "https://doi.org/10.5281/zenodo.15583394"
+   },
+   {
+    heading: "Sharma, R., & Kapoor, A. (2023). DIKSHA in Rajasthan: A field evaluation. NCERT Journal of Educational Studies, 19(1), 10–27.",
+    link: "https://journals.ncert.gov.in/"
+   },
+   {
+    heading: "Singh, G. (2022). Why do MOOCs fail on completion rate? An analysis of SWAYAM courses. Indian Journal of Educational Technology, 4(1), 111–123.",
+    link: "https://journals.ncert.gov.in/IJET/article/view/529"
+   },
+   {
+    heading: "Swayam. (2025). About SWAYAM.",
+    link: "https://swayam.gov.in/about"
+   },
+   {
+    heading: "Swayam. (2025). Swayam portal.",
+    link: "https://swayam.gov.in"
+   },
+   {
+    heading: "The Economic Times. (2023). Agritech investments and incubators nurturing the next generationof food innovators in Dubai. The Economic Times.",
+    link: "https://economictimes.indiatimes.com/news/international/uae/agritech-investments-and-incubators-nurturing-the-next-generation-of-food-innovators-in-dubai/articleshow/122569172.cms"
+   },
+   {
+    heading: "The Economic Times. (2023, August 2). Education Ministry selects Oracle Cloud Infrastructuretomodernise edtech platform DIKSHA. The Economic Times.",
+    link: "https://economictimes.indiatimes.com/tech/technology/education-ministry-selects-oracle-cloud-infrastructure-to-modernise-edtech-platform-diksha/articleshow/102351763.cms?from=mdr"
+   },
+   {
+    heading: "The Hindu. (2023). Kerala’s KITE VICTERS and EdTech implementation. The Hindu.",
+    link: "https://www.thehindu.com/education/kerala-edtech-article/article66355394.ece"
+   },
+   {
+    heading: "The Times of India. (2024, February 14). Low completion rates plague SWAYAM courses. TheTimes of India.",
+    link: "https://timesofindia.indiatimes.com/home/education/news"
+   },
+   {
+    heading: "The Times of India. (2024, May 22). Internet access in Gram Panchayats. The Times of India.",
+    link: "https://timesofindia.indiatimes.com"
+   },
+   {
+    heading: "UNESCO. (2021). Education in a post-COVID world: Nine ideas for public action.",
+    link: "https://unesdoc.unesco.org/ark:/48223/pf0000374802"
+   },
+   {
+    heading: "UNICEF India. (2021). Education response to COVID-19 in India: DigiLEP case study.",
+    link: "https://www.unicef.org/india/reports/digital-learning-enhancement-programme-digilep"
+   },
+   {
+    heading: "Wikipedia contributors. (2025, July 20). SWAYAM (Study Webs of Active-Learning for Young Aspiring Minds). Wikipedia.",
+    link: "https://en.wikipedia.org/wiki/SWAYAM"
+   },
+   {
+    heading: "World Bank & OECD. (2020). India: Ab padhai nahi rukegi – Learning will not stop.",
+    link: "https://documents1.worldbank.org/curated/en/637101601970234785/pdf/India-Ab-PadhaiNahiRukegi-Learning-Will-Not-Stop.pdf"
+   }
   ]
 },
-
-
 
 
 ];
