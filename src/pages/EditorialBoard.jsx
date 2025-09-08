@@ -1,3 +1,4 @@
+//editorial board
 import { motion } from 'framer-motion';
 
 const EditorialBoard = () => {
@@ -56,7 +57,7 @@ const EditorialBoard = () => {
       postaladdress:
         'Department of finance,IIM SIRMAUR, DHAULA KUAN, SIRMAUR, PAONTA SAHIB, HIMACHAL PRADESH-173025',
     },
-     {
+    {
       name: 'Dr. Waris Ali Khan',
       desc: 'Universiti Malaysia Sabah',
       email: 'Warisalikhan@ums.edu.my',
@@ -68,9 +69,8 @@ const EditorialBoard = () => {
       desc: 'Ibn Tofaïl University, Morocco ',
       email: 'benbrahim.fatimazahra@uit.ac.ma',
       postaladdress:
-      'BP 11223 AGDAL FES MOROCCO'
-    }
-  
+      'BP 11223 AGDAL FES MOROCCO',
+    },
   ];
 
   return (

@@ -1,3 +1,4 @@
+//publisherpage
 import { motion } from 'framer-motion';
 
 const PublisherPage = () => {
@@ -48,7 +49,7 @@ const PublisherPage = () => {
               <strong>Name:</strong> Centre for Interdisciplinary Policy Dialogue, India
             </p>
             <p style={{ color: '#703b5dff' }}>
-              <strong>Official Journal:</strong> Law, Diplomacy, & Tech Policy Review
+              <strong>Official Journal:</strong> Law, Diplomacy and Tech Policy Review
             </p>
             <p style={{ color: '#703b5dff' }}>
               <strong>Publisher (Legal Entity):</strong> IISPPR Publication
