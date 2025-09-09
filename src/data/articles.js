@@ -10697,7 +10697,7 @@ const articles = [
     issue: 4,
     volume: 1,
     title: "Trapped in Silence: The Psychosocial Consequences of Masculine Norms and Emotional Suppression Among Young Men",
-    author: "Meher Kaur Bindra ,RadhikaGupta, Surbhi Prajapati, Sajan Jaiswal, Deepshika",
+    author: "Mehar Kaur Bindra ,RadhikaGupta, Surbhi Prajapati, Sajan Jaiswal, Deepshika",
     authorAbbrev: "M.Bindra , R.Gupta, S.Prajapati, S.Jaiswal, D.",
     abstract: [
       "This study explores the psychosocial consequences of emotional suppression and adherence to traditional masculine norms among young men in India.",
