@@ -9295,13 +9295,13 @@ const articles = [
           "3.4 Jeon, H., et al. (2025). Letters from Future Self: Augmenting the letter-exchange exercise with LLM-based agents to enhance young adults",
           "This study tested whether AI-generated “future-self” letters could improve career identity in young adults. The researchers believed that AI-based exercises would improve engagement and career clarity. While AI tools did increase participant engagement, they did not significantly perform better than traditional self-writing in improving future orientation or career self-concept.",
           "3.5 The Role of Identity Exploration and Commitment in Predicting Well-being in Emerging Adults by Luyckx, K., Goossens, L., & Soenens, B. (2006)",
-          "This research examines the processes of identity development, exploration, and commitment, and their connection to psychological well-being in young adults. The authors assumed that a higher level of identity commitment together with active exploration would predict more life satisfaction and reduced depressive symptoms. They surveyed 425 college students from 18 to 25 years old, who filled out assessments of identity styles, commitment, exploration, and psychological adjustment. Regression analyses indicated that identity commitment was a robust predictor of well-being. In contrast, ruminative exploration was associated with greater anxiety and depressive symptoms. The study emphasizes the double-edged nature of exploration, which is healthy when future-oriented but pathological when excessive. This study is central to the study of identity formation since it illustrates how equilibrating commitment with cautious exploration enhances psychological health among young adults.",
+          "This study examines how identity development processes-specifically exploration and commitment-are associated with psychological well-being in young adults. The researchers hypothesized that higher levels of identity commitment, combined with active exploration, would predict greater life satisfaction and lower depressive symptoms. Conducted on 425 university students aged 18-25, participants completed measures of identity styles, commitment, exploration, and psychological adjustment. Regression analyses revealed that identity commitment was a significant predictor of well-being, while ruminative exploration correlated with increased anxiety and depressive symptoms. The study emphasizes the dual role of exploration-adaptive when future-oriented but maladaptive when excessive or obsessive. This research is crucial to understanding identity formation, as it highlights how balancing commitment with thoughtful exploration enhances psychological well-being in young adults.",
           "3.6 Emerging Adulthood: A Theory of Development from the Late Teens through the Twenties by Jeffrey Jensen Arnett (2000)",
-          "This article comes up with 'emerging adulthood' as a distinct period of development characterized by identity experimentation, instability, self-centeredness, and a sense of in-betweenness between adolescence and adult age. From interviews and questionnaires with people in the 18-25 age group from various socioeconomic classes, the research posits this stage to be a time of experimenting with different life choices, such as jobs, love, and religion. Arnett contends that identity development through this stage takes longer because society has changed, with people delaying marriage and their years at school. This theory is significant to research regarding young adult identity development since it structures the intricate dynamics of identity exploration in current society and accounts for variation in identity trajectories.",
+          "This paper introduces the concept of 'emerging adulthood' as a distinct developmental period characterized by identity exploration, instability, self-focus, and a feeling of being in-between adolescence and adulthood. Based on qualitative interviews and surveys with individuals aged 18-25 across diverse socioeconomic backgrounds, the study proposes that emerging adulthood is a time for experimenting with various life possibilities, including work, love, and worldviews. Arnett argues that identity formation in this period is prolonged due to societal changes like delayed marriage and extended education. This theoretical framework is foundational for research on young adults' identity development, as it contextualizes the psychosocial dynamics of identity exploration in modern societies, providing a comprehensive lens through which the variability in identity trajectories can be understood.",
           "3.7 The Influence of Social Media on Identity Development in Adolescents and Young Adults by Michikyan, M., Subrahmanyam, K., & Dennis, J. (2014)",
-          "This article explores how online self-presentation affects identity processes among adolescents and emerging adults. The authors thought that increased authenticity in Internet profiles would be associated with better identity and greater self-esteem. Surveys were completed by a sample of 216 college undergraduates, aged 18-22, concerning their use of social media, clarity of identity, and conceptions of self. The findings indicated that individuals who presented authentic self-presentations on the Internet endorsed higher identity clarity and less self-concept confusion. Conversely, people who posed exaggerated or idealized descriptions of themselves encountered greater distress related to identity. This study is significant in the era of the digital world, showing how online communities function as arenas for identity experimentation and exploration and play a large role in the construction of stable and coherent identities among young adults. ",
+          "This study investigates how online self-presentation affects identity processes among adolescents and emerging adults. The study hypothesized that greater authenticity in online profiles would correlate with stronger identity clarity and self-esteem. A sample of 216 college students (ages 18-22) completed surveys on their social media use, identity clarity, and self-perception. Results indicated that individuals who curated authentic self-presentations online reported higher identity clarity and lower levels of self-concept confusion. Conversely, those who engaged in exaggerated or idealized portrayals exhibited more identity-related distress. This research is particularly relevant in the digital age, illustrating how virtual platforms serve as spaces for identity exploration and experimentation, significantly impacting the development of coherent and stable identities among young adults. ",
           "3.8 Parental and Peer Influences on Identity Formation in Emerging Adulthood by Crocetti, E., Rubini, M., & Meeus, W. (2008)",
-          "This article investigates the role of parents and peers in shaping the process of identity formation. The researchers hypothesized that supportive parenting and positive peer relationships would result in identity commitment and reduce identity confusion. The investigators tracked a sample of 357 youths entering emerging adulthood, aged 17-21, with identity status interviews and measures of relationship quality. The results indicated that parent support resulted in increased identity commitment over time and that peer relationship quality was related to continued identity exploration and reconsideration. The research brings out the crucial place of relationships in determining identity trajectories and demonstrates that identity development is far from a lone endeavor but deeply embedded in social relations. These discoveries can serve to better explain how peer and family contributions make for a cohesive identity in young adults."
+          "This study explores the impact of parental and peer relationships on the identity formation process. The study hypothesized that supportive parenting and quality peer relationships would facilitate identity commitment and reduce identity confusion. A longitudinal sample of 357 adolescents transitioning into emerging adulthood (ages 17-21) was assessed using identity status interviews and relationship quality scales. Findings revealed that parental support predicted greater identity commitment over time, while peer relationship quality was linked to ongoing identity exploration and reconsideration. The study underscores the critical role of relational contexts in shaping identity trajectories, emphasizing that identity formation is not an isolated process but deeply embedded in social interactions. These findings are essential to understanding how familial and peer influences contribute to identity coherence in young adults."
         ]
       },
       {
@@ -9326,15 +9326,72 @@ const articles = [
       {
         heading: "5.FINDINGS AND DISCUSSION",
         paragraphs: [
-          "The Politics of Migration: ",
-          "Migration is as old as humanity itself, but it has always been rooted in survival, whether it is for food, security, or opportunity. From early human movement out of East Africa to the transatlantic slave trade, migration has long been shaped by political, economic, and environmental factors. ",
-          "Today, migration refers to the movement of people within and across borders, driven by “push” factors (conflict, poverty, climate change) or “pull” factors (economic opportunity, safety). But migration is not merely individual, but it reflects deep structural inequalities between the Global South and Global North. World-systems theory explains how core countries prosper at the expense of peripheral ones, fueling South-North migration and inequalities. It is important that we have a clear understanding of global migration as not just the movement or mobility from Global South to the Global North but a more complex system shaped by history, geopolitics and economic disparities. ",
-          "The Migration Policy Institute states that South-South migration accounts for 37% of global migration, followed by South-North (35%), North-North (19–23%), and North-South (6%). Migration corridors like Mexico to the U.S. or Africa to Europe, which has continuously highlighted the geopolitical alliances preferences and the various inequalities. The Henley Passport Index shows vast disparities in travel freedom across countries, detailing how one's predetermined origin determines their travel liberty, with many countries in the Global South remaining restricted from going to all destinations. Visas favour the wealthy and educated while criminalizing other migrants. ",
-          "Migration policies also reveal a moral complexity in global immigration. Under the Trump administration, U.S. policies, for instance, have welcomed white immigrants (i.e. 59 white South Africans accepted in 2025) while criminalizing migrants from Latin America and Africa (PBS News, 2025; Al Jazeera, 2025; DW, 2025). Family reunification processes were disrupted, and travel bans were implemented for citizens of several Muslim-majority and African countries. These policies were subject to legal challenges and were briefly reversed and reinstated across the Trump and Biden administrations. The use of tactics by U.S. Immigration and Customs Enforcement (ICE), such as mass raids and detention without legal counsel, has been criticized by organizations like Human Rights Watch. Their findings suggest that enforcement has disproportionately targeted Black, Asian, and Hispanic individuals, raising questions about compliance with SDG 10, Target 10.7, which aims to facilitate safe and responsible migration. This raises a crucial question: where is the line between national security and the principles of justice and human rights? ",
-          "Ultimately, migration is a geopolitical issue, where countries use immigration policies to shape alliances, economic strategies, and foreign policy. Borders and immigration policies are not neutral; they reflect a nation's stance on refugee acceptance, visa approval, and the travel freedom of migrants from the Global South. These borders are often racialized and militarized, reflecting deep-seated biases based on a migrant's wealth and country of origin. While SDG 10 seeks to reduce these gaps, current migration frameworks often reinforce them, leaving the American Dream more of a myth than a reality for many. "
+          "This report analyses the distribution of identity status across young adults based on James Marcia's Identity Status Theory. According to the theory, everyone goes through stages of crisis and commitment in their life that define their identity over time. To Indianize the same, we took data from 57 young adults between the age of 18-25 in order to know how the identity development progresses for the same theory in an India context. The five identity statuses considered are: ",
+          "1.  Achievement: Commitment following exploration ",
+          "2.  Moratorium: Ongoing exploration without commitment ",
+          "3.  Foreclosure: Commitment without exploration ",
+          "4.  Diffusion: Neither exploration nor commitment ",
+          "5.  MAMA: Moratorium-Achievement cycle",
+          "Basically we found that even in an Indian context Identity is not very significantly formed by age or factors that come with age or time. Although the data shows there is a positive relationship between age and identity status and clarity being high by a low significance, it is true that age does affect identity formation alongside one’s experiences and commitment. The pie chart below shows how 78.3% of the young adults have achieved the last stage of identity formation while, 8.7% are in a stage of Identity Moratorium, 2.2% are in Identity Foreclosure and 6.5% are still in identity diffusion stage. The remaining 4.3% are still undergoing changes with their identity and going through the cycle of Moratorium and Achievement in varying contexts over time.",
+          "5.1 Data Collected ",
+          "5.2 Data Summary",
+          "5.3 Statistical Analysis",
+          "1.  My parents decided a long time ago what I should go into for employment and I'm following through on their plans  - 165",
+          "2.  I don't have any close friends. I just like to hang around with the crowd – 176",
+          "3.  I'm really not interested in finding the right job; any job will do. I just seem to flow with what is available-178",
+          "4.  I might have thought about a lot of different jobs, but there's never really any question since my parents said what they wanted  -182",
+          "5.  I'm trying out different types of dating relationships, I just haven't decided what is best for me-183",
+          "6.  I don't have any real close friends, and I don't think I'm looking for one right now – 186",
+          "7.  I only go out with the type of people my parents expect me to date – 195",
+          "8.  I haven't chosen the occupation I really want to get into, and I'm just working at whatever is available until something better comes along  -197",
+
         ]
       },
       {
+        heading: "5.4 Interpretation",
+        paragraphs: [
+          "The correlation  test result was not statistically significant (p = 0.992), indicating that there is minorly strong evidence to suggest a relationship between age and identity status in this dataset. But that is because the data collected was in a limited sample with outliers that weren’t accounted for.",
+          "The p value is greater than 0 showing a positive relationship between age and identity, even though it's less than 1 or minorly significant, with profound research it might prove to be right for a major population too.",
+          "1. “My parents decided a long time ago what I should go into for employment and I'm following through on their plans.” – This indicates Identity Foreclosure: commitment without exploration. Individuals accept others' values and expectations without questioning them.",
+          "●	Why it's scored low: While Indian families traditionally influence career decisions heavily, this response scoring lowest may reflect a generational shift. Many young adults are becoming aware that parentally imposed decisions often create dissatisfaction, and they are trying to resist blindly following them. This low score likely reflects growing conflict between traditional family expectations and modern individual aspirations, leaving individuals caught in identity confusion or moratorium.",
+          "2. “I don’t have any close friends. I just like to hang around with the crowd.” – Reflects Identity Diffusion :lack of commitment and exploration in social relationships.",
+          "●	Why it's scored low: Low scores on this suggest that Indian youth, even when feeling socially uncertain, do desire authentic, intimate friendships. Culturally, friendships are valued and collectivist society places a premium on meaningful group belonging. The low score reflects a discomfort with superficial social bonds and a preference for deeper relational identity development, even if those are lacking.",
+          "3. “I’m really not interested in finding the right job; any job will do. I just seem to flow with what is available.” – Identity Diffusion",
+          "●	Why it’s scored low: In a competitive and education-focused Indian society, employment is closely tied to identity and family honor. Even if individuals are unsure, apathy toward career choices is socially frowned upon. The low score indicates that most respondents feel pressure to be career-focused, even if unsure of what they want. This shows external pressure may force individuals into a pseudo-identity, suppressing diffusion.",
+          "4. “I might have thought about a lot of different jobs, but there's never really any question since my parents said what they wanted.” –Identity Foreclosure",
+          "●	Why it's scored low: Similar to Question 1, the low score reflects growing dissatisfaction with pre-decided career paths. Many Indian youth explore different career options (moratorium) but feel they lack agency to choose due to parental influence. The internal dissonance reflects a crisis stage in identity development.",
+          "5. “I’m trying out different types of dating relationships, I just haven’t decided what is best for me.” – Identity Moratorium.",
+          "●	Why it’s scored low: Indian society remains conservative about dating, especially outside urban or liberal circles. The low score may reflect limited opportunity or societal judgment in exploring romantic relationships freely. Youth may feel guilt, secrecy, or repression while navigating romantic identity, indicating a suppression of moratorium or exploration in the intimacy domain.",
+          "6. “I don’t have any real close friends, and I don’t think I’m looking for one right now.” –Identity Diffusion",
+          "●	Why it's scored low: Indian collectivist values emphasize community, family, and long-term friendships. Even when friendships are weak, the ideal is to form them. This low score may suggest a discomfort with isolation and that emotional closeness is still deeply desired. People may feel disconnected, but they don’t see it as acceptable or fulfilling, reflecting a struggle rather than acceptance of diffusion.",
+          "7. “I only go out with the type of people my parents expect me to date.” –Identity Foreclosure",
+          "●	Why it's scored low: In Indian culture, romantic and marital relationships are highly family-controlled, especially regarding caste, religion, or social background. A low score may indicate inner resistance to these norms. While youth often comply externally, internally they may not identify with those choices. The low score reflects increasing personal agency and desire for romantic autonomy.",
+          " 8.  I haven’t chosen the occupation I really want to get into, and I’m just working at whatever is available until something better comes along.” –Identity Diffusion ",
+          "●	Why it's scored low: Similar to Question 3, individuals feel pressured to choose a stable or high-status job, and “drifting” is seen as failure in Indian society. Even if someone is unsure, they are likely to present a front of career intentionality. This low score suggests that respondents are uncomfortable with uncertainty and may avoid acknowledging diffusion due to societal expectations.",
+
+        ]
+      },
+      {
+        heading: "5.5  Observed Trends",
+        paragraphs: [
+        " Despite the lack of statistical significance, several practical patterns are evident:",
+        "● Achievement status is most prevalent between the ages of 18 and 20",
+        "● Moratorium and Diffusion statuses appear more frequently after the age of 20.",
+        "● The MAMA pattern is observed at ages 19 and 20, suggesting a phase of identity re-evaluation. ",
+        "These trends align with established psychological theories, which propose that early identity commitments may be subject to further exploration and refinement as individuals progress through young adulthood.", 
+        "Although the statistical test did not indicate a significant association between age and identity status, the observable trends are consistent with developmental theory. With a larger sample size, these trends may achieve statistical significance. The data supports the view that identity formation is a dynamic process influenced by age-related factors and experiences."
+      ]
+      },
+      {
+        heading: "5.5 Age‑Related Trends in Identity Diffusion",
+        paragraphs: [
+          "●	Identity Diffusion is regarded as the initial and most underdeveloped phase in Marcia’s framework. At this point, people exhibit minimal amounts of both exploration (experimenting with various ideas or roles) and commitment (deciding on values, goals, or identity). They often float through life without a clear aim or defined purpose, frequently feeling detached from others and unsure of their true identity.",
+          "●	In contrast to those who engage in exploration or commitment, individuals in diffusion might steer clear of contemplating their future; this absence of an identity framework may result in sensations of aimlessness, disconnection, or emotional dullness.",
+          "●	Among Indian youth between 18 and 24 years old, identity diffusion can manifest as confusion regarding career choices, personal convictions, or values, particularly when young individuals have limited opportunities or support to explore their inclinations. As diffusion typically emerges in early adolescence and diminishes with age, it is less prevalent by early adulthood; however, if it continues, it could indicate that the individual has not yet undertaken meaningful self-exploration or established any significant commitments. Individuals trapped in diffusion frequently express feelings of low self-worth, diminished motivation, and limited involvement in personal or social objectives. ",
+
+        ]
+      },
+    {
         heading: "6. Limitations and Future Directions",
         paragraphs: [
           "Limitations:",
@@ -9360,63 +9417,63 @@ const articles = [
     references: [
       {
         heading: "1)Arnett, J. J. (2000). Emerging adulthood: A theory of development from the late teens through the twenties. American Psychologist, 55(5), 469–480. ",
-        links: "https://doi.org/10.1037/0003-066X.55.5.469 "
+        link: "https://doi.org/10.1037/0003-066X.55.5.469 "
       },
       {
         heading: "2)Erikson, E. H. (1968). Identity: Youth and crisis. W. W. Norton. ",
-        links: ""
+        link: ""
       },
       {
         heading: "3)Jeon, H., Kim, S., Park, J., & Lee, H. (2025). Letters from future self: Augmenting the letter-exchange exercise with LLM-based agents to enhance young adults’ identity development. Computers in Human Behavior, 146, 107896. ",
-        links: ""
+        link: ""
       },
       {
         heading: "4)Kroger, J., & Marcia, J. E. (2011). The identity statuses: Origins, meanings, and interpretations.",
-        links: ""
+        link: ""
       },
       {
         heading: "5)Klimstra, T. A., Luyckx, K., Meeus, W., & Beyers, W. (2024). Longitudinal associations among identity processes and mental health in young adulthood. Developmental Psychology, 60(1), 22–35.",
-        links: ""
+        link: ""
       },
       {
         heading: "6)In S. J. Schwartz, K. Luyckx, & V. L. Vignoles (Eds.), Handbook of identity theory and research (pp. 31–53). Springer.",
-        links: "https://doi.org/10.1007/978-1-4419-7988-9_2 "
+        link: "https://doi.org/10.1007/978-1-4419-7988-9_2 "
       },
       {
         heading: "7)Marcia, J. E. (1966). Development and validation of ego identity status. Journal of Personality and Social Psychology, 3(5), 551–558. ",
-        links: "https://doi.org/10.1037/h0023281 "
+        link: "https://doi.org/10.1037/h0023281 "
       },
       {
         heading: "8)Marcia, J. E. (1980). Identity in adolescence. In J. Adelson (Ed.), Handbook of adolescent psychology (pp. 159–187). Wiley. ",
-        links: ""
+        link: ""
       },
       {
         heading: "9)Mungo, A., Delhaye, M., Blondiau, C., & Hein, M. (2024). Identity formation in individuals between 16 and 25 years old with borderline personality disorder. Journal of Personality Disorders, 38(2), 123–139.",
-        links: ""
+        link: ""
       },
       {
         heading: "10)Sánchez‑Queija, I., & Sánchez‑Queija, A. (2024). Identity development and adjustment during emerging adulthood from a gender perspective. Journal of Adolescence, 100, 45–56. ",
-        links: ""
+        link: ""
       },
       {
         heading: "11)Schwartz, S. J. (2001). The evolution of Eriksonian and Neo-Eriksonian identity theory and research: A review and integration. Identity, 1(1), 7–58.",
-        links: ""
+        link: ""
       },
       {
         heading: "12)Lukács, B., Babarović, T., Burić, I., & Kovačević, J. (2024). Recent stressful life events and identity development in emerging adulthood: A cross-lagged panel study. Journal of Adolescence, 104, 101-112.",
-        links: "https://doi.org/10.1016/j.adolescence.2024.04.002"
+        link: "https://doi.org/10.1016/j.adolescence.2024.04.002"
       },
       {
         heading: "13)Berman, A. M., Laflamme, M., & Ratelle, C. F. (2023). Longitudinal associations among identity processes, mental health symptoms, and perceived social support in emerging adulthood. Journal of Adolescence, 101, 15-25. ",
-        links: "https://doi.org/10.1016/j.adolescence.2023.02.008"
+        link: "https://doi.org/10.1016/j.adolescence.2023.02.008"
       },
       {
         heading: "14)Yerofeyeva, I., Galyautdinova, M., Gavrilova, T., Wang, C., & Zhou, Y. (2024). Shimmering emerging adulthood: In search of the invariant IDEA model for collectivistic countries. Frontiers in Psychology, 15, 1349375. ",
-        links: "https://doi.org/10.3389/fpsyg.2024.1349375"
+        link: "https://doi.org/10.3389/fpsyg.2024.1349375"
       },
       {
         heading: "15)Steenbakkers, A., van der Steen, S., & van der Zanden, R. (2024). Exploring narrative identities in emerging adults who have been in foster care. Children and Youth Services Review, 160, 107501.",
-        links: "https://doi.org/10.1016/j.childyouth.2024.107501"
+        link: "https://doi.org/10.1016/j.childyouth.2024.107501"
       }
 
     ]
@@ -10689,6 +10746,291 @@ const articles = [
       }
     ]
   },
+  {
+  id:17,
+  serialNumber: 47,
+  issue: 4,
+  volume: 1,
+  title: "MODELING URBAN ECONOMIC PERFORMANCE UNDER DEMOGRAPHIC,LABOUR, AND ENVIRONMENTAL CONSTRAINTS: A COMPARATIVE ANALYSIS OF DELHI AND MUMBAI",
+  author: [
+    "Edward Nicholas",
+    "Rida Siddiqui",
+    "Chia Jindal",
+    "Syed Suheb S",
+    "Barron Madison Lau Jia Jie"
+  ],
+    status: "",
+    "abstract": [
+    "India’s urban centers are experiencing rapid economic growth alongside persistent inequality,infrastructural deficits, and environmental stress. Despite extensive literature on urban economic growth in India, few studies have empirically examined how structural challenges such as demographic pressures, labor market inefficiencies, and environmental degradation simultaneously affect urban productivity across major cities. This study addresses this critical gap by employing a descriptive quantitative approach and a robust panel econometric framework to analyze how population growth, unemployment, and air quality influence GDP per capita in New Delhi and Mumbai from 2017 to 2023. Unlike prior research that treats urban centers as homogeneous, this paper captures the contrasting urban trajectories of India’s political and financial capitals using FMOLS, GLS, and Robust Least Squares to model both long-run equilibrium and short-run dynamics, while correcting for endogeneity, heteroskedasticity, and cross-sectional dependence. The findings reveal a novel insight: while Mumbai gains from population-driven economic agglomeration, New Delhi suffers from growth-induced infrastructural strain. Unemployment remains a consistent drag on urban GDP in both cities, and, counterintuitively, higher pollution levels are linked with GDP growth highlighting India’s continued reliance on emission-intensive industries. These differentiated outcomes expose the limits of one-sizefits-all urban policy models. The study contributes new evidence to urban sustainability literature and proposes a multidimensional SDG 11-aligned policy roadmap that integrates job creation, environmental resilience, and inclusive infrastructure planning to reshape India’s urban future."
+  ],
+  "keywords": [
+    "GDP per Capita", "Urban Sustainability", "Informal Employment", "Environmental Stress"
+  ],
+  "intro": [
+    "India’s rapid urbanization has resulted in a complicated combination of mixed severe inequalities and economic opportunities (1) (World Bank, 2024; UN-Habitat, 2020). As cities continue to grow in both size and influence, questions about their long-term sustainability, economic stability, and inclusivity have become more important than ever (Time, 2024). Among India’s urban centres, Delhi and Mumbai stand out as two of the most notable cities; both are not only megacities but also contrasting as development case studies. In India, Delhi is a political and administrative centre, whereas Mumbai serves as a financial capital and a major contributor to the GDP (MoHUA, 2021) of the country. Despite their strength, both cities struggle with severe economic, social, and infrastructure inequalities (TISS, 2022)."  
+    ,"This research paper conducts the quantitative analysis using secondary data that looks at how the inequalities, infrastructure gaps, and economic difficulties interact in Delhi and Mumbai. This study intends to explore how these cities might move towards more sustainable urban futures (World Bank, 2024) by concentrating on measures like GDP contribution, transportation networks, and per capita income. The findings aim to offer evidence-based insights into the urban paradox—where inequality and economic growth coexist—and how specific approaches can help close the gap. Through this lens, the study adds to the larger conversation about creating more fair and better cities in India (UNHabitat, 2020) "
+    ,"1.1 BACKGROUND OF THE STUDY",
+    "Cities in India are growing rapidly in both size and impact. Urban areas are becoming hubs of innovation and economic activities (World Bank, 2024; UN-Habitat, 2020). However, a number of significant difficulties accompany this rapid progress. Many cities are struggling to keep up with the needs of their increasing population, leading to problems like traffic, housing shortages, poor infrastructure, and growing socioeconomic inequality (Time Magazine, 2024; MoHUA, 2021) "
+    ,"Two of the most well-known cities in the nation—Delhi and Mumbai—reflect this disparity (Satterthwaite & Mitlin, 2020). On the other hand, they stand for strength, development, and wealth. However, they also reveal a deep gap of how resources and opportunities are distributed. In these cities, luxurious skyscrapers often stand next to overcrowded slums. While some people enjoy modern amenities, many still do not have access to secure transportation, good-quality schools, or clean water (Bhan, 2019; TISS Urban Studies, 2022)."
+    ,"As India moves towards building “smart” and “sustainable” cities, it becomes important to pause and ask: Who are we really building for? Can a city be considered as sustainable if its growth leaves many people behind (UN-Habitat, 2020; World Bank, 2024)? "
+    ,"In order to investigate these issues, this study thoroughly examines Delhi and Mumbai. It aims to understand how economic challenges, inequalities, and urban planning affect the future of these cities. By using real data and targeted analysis, the research hopes to offer insights that can help create more balanced, inclusive, and livable cities for everyone."
+
+  ],
+    content: [
+      {
+        "heading": "PROBLEM STATEMENT",
+        "paragraphs": [
+                "The problem to be addressed through this study is that, despite India’s urbanization accelerating at a striking rate, cities like Delhi and Mumbai, which are critical junctions for national economic growth, still suffer from structural inequalities and imbalances, and there is a stark contrast between the life experienced by the rich and the poor population groups. Recent evidence has shown unequal access to decent housing and basic services like water facilities, public transportation and sanitation for the population living in slums because the city’s shelters are not adequate (ORF 2016). The wider this gap grows, the more it puts at risk what makes these cities feel alive and important. These ongoing gaps for basic services and affordability highlight a longterm problem in how these cities should be built and managed rather than a short-term goal of having enough to meet the demand. "  
+      ,"If continue down this path of unequal and unsustainable ways of urban development, the impact will be serious and lasting. When poverty and lack of opportunity are present in certain parts of the city, they drag down the entire economy, and workers cannot reach their full potential, and the economic growth of the whole city is reduced by 1.5% (World Bank 2023). When basic services are not available, cities have to spend more on quick fixes and emergency care, which further drains money that could have helped in building sustainable roads and housing (ADB Urban Development). Although plenty of data exists, they are collected on incompatible spatial and temporal scales, and that is why they lack three key questions: Which missing services, like water lines, sewers, safe housing, etc., drive today’s inequalities (UN-Habitat 2022)? Where can each  4 rupee be spent to close the gap the fastest (World Bank 2023)? How will rising sea level and heat threats, along with future migration and financial constraints, help the cities still be on track for SDG 11 targets (IPCC)? Closing this gap needs on-the-ground surveys and municipalfinance, and further analysing the neighbourhood is the first step towards fair and cost-smart solutions (UNHabitat 2022; ADB 2019). "
+        , "RESEARCH OBJECTIVES", 
+        "To empirically analyze the long-run and short-run effects of population growth, unemployment, and air quality on urban economic performance (GDP per capita) in New Delhi and Mumbai between 2017 and 2023, using advanced panel econometric techniques. The study aims to generate evidencebased insights to support inclusive, employment-oriented, and environmentally sustainable urban development policies aligned with SDG 11."
+    ]
+      },
+      {
+        heading: "LITERATURE REVIEW",
+        paragraphs: [
+          "I. Theoretical Foundations of Urban Economic Growth",
+            "Urban economic growth, especially in rapidly expanding economies like India, is increasingly shaped by the interplay between demographic pressure, labor market performance, and environmental quality. At the heart of this dynamic lies GDP per capita, a key indicator of urban productivity and living standards. Classical urban economic theory, notably Solow’s neoclassical growth model (Solow, 1956), suggests that capital accumulation and labor inputs are primary drivers of output, but under urban constraints, this relationship is increasingly moderated by environmental and social stressors. Similarly, endogenous growth theory (Romer, 1994) posits that human capital, innovation, and demographic composition play critical roles in sustaining long-term economic development, underscoring the significance of population growth and employment quality in shaping city-level prosperity."
+          ,"II. Demographic Pressure and Population Growth",
+          "Population growth, particularly in megacities like New Delhi and Mumbai, has been traditionally linked to economic agglomeration benefits such as scale economies, labor pooling, and innovation spillovers (Glaeser et al., 2008). However, empirical findings are mixed. While some studies argue that urban expansion stimulates economic output by expanding markets and labor force participation (UN-Habitat, 2020; World Bank, 2023), others highlight the diseconomies of scale overcrowding, infrastructure strain, and service shortfalls that suppress productivity and worsen inequality (Turok & McGranahan, 2013; MoHUA, 2023). In India, this duality is stark: population growth has fueled both informal employment and slum proliferation, raising concerns over inclusive and sustainable development."
+         ,"III. Urban Labor Market and Unemployment Dynamics",
+          "Unemployment, especially within urban informal economies, is another crucial determinant of urban GDP. Labor market disruptions, skill mismatches, and underemployment particularly among youth reduce productivity, consumer demand, and economic resilience (ILO, 2023). Prior studies (e.g., Singh & Sharma, 2022; Anbumozhi et al., 2023) affirm the adverse effects of joblessness on urban  5 welfare, yet few disaggregate these effects across cities or examine how these dynamics evolve over time within metropolitan contexts. Moreover, the informal sector employing over 75% of India’s urban workforce remains underexplored in its relationship with GDP fluctuations, making urban unemployment a critical yet under-analyzed node in sustainable development discourse. "
+        ,"IV. Environmental Degradation and Air Quality",
+        "Air quality, proxied by the Air Quality Index (AQI), is increasingly recognized as both a consequence and a constraint of urban economic growth. According to ecological urbanism (Mostafavi & Doherty, 2010), unchecked urban expansion often results in ecological degradation, which in turn diminishes human productivity, increases health expenditures, and widens spatial inequality. Empirical studies (WHO, 2023; CPCB, 2024) confirm strong links between high AQI levels and decreased labor output, cognitive impairments, and increased mortality in urban India. However, recent paradoxes have emerged pollution-intensive sectors like construction and logistics often correlate positively with GDP growth in the short run (World Bank, 2023), revealing the trade-offs between industrial growth and ecological well-being. This contradiction remains inadequately explored in city-level studies, where the spatial-economic consequences of pollution are often generalized or overlooked. "
+        ,"V. Empirical and Methodological Gaps",
+          "Despite the growing body of urban development literature, several research gaps persist. First, few studies provide a comparative city-level assessment of how population growth, unemployment, and air quality jointly impact GDP per capita over time. Most analyses rely on national or state-level data, masking intra-urban disparities. Second, there is a lack of integrated frameworks that link these structural variables within a sustainability and inequality lens, particularly in India’s most dynamic metropolitan regions. Third, many empirical studies rely on either static or outdated datasets, often pre-dating critical disruptions such as the COVID-19 pandemic, thereby missing recent structural shifts in labor markets and environmental health (NITI Aayog, 2023; IQAir, 2024)."
+      ,"VI. Contribution of the Present Study",
+          "This study addresses these gaps by providing a city-specific, multidimensional investigation of the economic, demographic, and environmental determinants of urban GDP in New Delhi and Mumbai two cities emblematic of India’s urban contradictions. Unlike prior studies that isolate individual factors, this research reveals how population growth, unemployment, and AQI interactively shape urban economic performance, offering a richer, data-driven narrative of metropolitan development. The focus on post-2017 trends add contemporary relevance, while the emphasis on spatial differentiation highlights the asymmetrical impacts of urban stressors. In doing so, the study contributes novel insights into how structural variables often treated separately collectively influence sustainable urban futures, with direct relevance to SDG 11 on inclusive, resilient, and sustainable cities. By moving beyond generalized national narratives and providing granular empirical evidence for India’s two leading urban economies, this research deepens scholarly and policy understanding of the urban development paradox: that economic growth, when unaccompanied by environmental and labor reforms, can reinforce rather than resolve urban inequality"
+
+        ]
+      },
+      {
+        heading: "RESEARCH METHODOLOGY",
+        paragraphs: [
+          "This study employs a descriptive quantitative approach to analyse how economic challenges such ascinfrastructure deficits, environmental stress, and informal employment affect urban livelihoods andcproductivity in India. Using secondary balanced panel data from 2017 to 2023, it examines GDP perccapita in relation to population growth, unemployment, and air quality. New Delhi and Mumbai werecchosen not merely for data availability, but because they embody India’s urban contradictions. Whilecserving as the political and financial capitals, they face acute economic instability, inequality,cpollution, and service gaps. Their contrasting yet influential urban trajectories offer critical insightscinto building a more inclusive and sustainable urban future in India."
+          ,"1. Data and Variables",
+          "Description, Units and Data Sources of Variables",
+          "2. Analytical Framework",
+          "This study adopts a robust panel econometric approach to examine how economic, demographic, and environmental variables shape urban sustainability in New Delhi and Mumbai. Guided by urban economic theory (Solow, 1956; Glaeser et al., 2008), endogenous growth theory (Romer, 1994), and ecological urbanism (Mostafavi & Doherty, 2010), the core variables GDP per capita, population growth rate, unemployment rate, and air quality index (AQI) were selected for their critical roles in  7 reflecting productivity, demographic pressure, labour market conditions, and environmental health. Descriptive statistics and Pearson correlation established data patterns and inter-variable associations. Panel unit root tests (PP, LLC) and cointegration tests (Pedroni, Kao, Johansen) confirmed data stationarity and long-run relationships. FMOLS was used for estimating long-term effects, addressing endogeneity and serial correlation. GLS and robust least squares captured short-run dynamics and corrected for heteroskedasticity and cross-sectional dependence. VIF ensured multicollinearity was not present, and the Wald test confirmed model stability and overall significance. This integrated framework ensures empirical rigor and theoretical alignment with Sustainable Development Goal 11, offering a multidimensional view of the drivers of inequality and sustainable urban futures in India’s leading metropolitan cities. The equation for the estimated models is formulated below: "
+          ,"GDP PER CAPITAit = α0 + β1POP_RATEi𝑡 + β2 UNEMPi𝑡 + β3 AQIi𝑡 + 𝑢it",
+          "In the specified panel data framework, t represents the time dimension, and i denotes the crosssectional units (New Delhi and Mumbai). The constant term α0 captures the intercept, while β1 to β3 represent the coefficients for the explanatory variables: population growth rate (POP_RATE), unemployment rate (UNEMP), and air quality index (AQI). GDP per capita (GDPPC) functions as the dependent variable, capturing the economic trajectory of urban centres and 𝑢it represent infinte residuals. The Fully Modified Ordinary Least Squares (FMOLS) estimator is adopted for modelling long-run relationships under cointegration, effectively correcting for serial correlation and endogeneity, thereby ensuring consistent and efficient parameter estimates (Phillips & Hansen, 1990; Stock & Watson, 1993)."
+          ,"To account for heteroskedasticity and potential cross-sectional dependence, the Generalized Least Squares (GLS) method is employed, offering improved efficiency over Ordinary Least Squares when error variances are non-constant (White, 1980). Additionally, the Robust Least Squares (RLS) estimator is utilized to mitigate the influence of outliers and leverage points, providing resistant and reliable parameter estimates, especially under data irregularities common in urban economic datasets (Rousseeuw & Leroy, 1987). The integration of these estimators creates a comprehensive and resilient econometric strategy to examine the complex interplay of economic, demographic, and environmental factors driving sustainable urban development in India’s leading metropolitan centers "
+          ,"The cointegration test is based on the following hypothesis ",
+
+        ]
+      },
+      {
+        heading: "RESULTS ",
+        paragraphs: [
+          "The results analysis and discussions are as follows:",
+          "Table 2 descriptive statistics for New Delhi and Mumbai from 2017 to 2023 exhibited significant variation in socio-economic and environmental indicators. The average GDP per capita growth rate was 14.29%, with a high standard deviation and negative skewness indicating uneven economic performance, likely shaped by pandemic shocks and sectoral imbalances (World Bank, 2023; Sachs et al., 2023). Population growth, averaging 2.14%, reflects sustained urban in-migration and density challenges (MoHUA, 2023). The unemployment rate ranged widely, with a mean of 5.29%, revealing structural labour market weaknesses, especially in the informal sector (ILO, 2023). Critically, the Air Quality Index (AQI) averaged 4722, signalling persistent environmental distress despite national interventions like the NCAP (CPCB, 2024). These trends highlight the need for balanced urban strategies that integrate inclusive growth, employment stability, and environmental sustainability ",
+          "Table 3 Stationarity Test",
+          "The table 3 panel unit root tests using both Phillips-Perron (PP) and Levin, Lin & Chu (LLC) methodsCconfirm that GDP per capita, population growth, unemployment, and Air quality index are non-C9Cstationary at level I(0) but become stationary after first differencing I(1), as all variables showCsignificant p-values at both 5% and 1% levels at first difference. This indicates the presence of unitCroots and suggests that shocks to these variables have lasting effects over time. Accordingly, furtherCeconometric modelling should adopt first differenced or co-integration techniques such as panel fullyCmodified ordinary least square, panel generalize least and panel robust least square to ensure robustCand reliable estimation (Baltagi, 2021; Gujarati & Porter, 2020)."
+          ,"Table 4 Correlation Matrix",
+          "Table 4 correlation analysis for New Delhi and Mumbai (2017–2023) highlights key urban development linkages. GDP per capita has a weak negative correlation with unemployment (-0.20) and population growth (-0.01), suggesting that economic gains have not translated into inclusive job creation. In contrast, population growth is strongly correlated with Air quality index (0.98) and unemployment (0.68), indicating that rapid urbanization is driving both environmental stress and labor market pressure (MoHUA, 2023; CPCB, 2024). The positive link between unemployment and AQI (0.60) further reflects how poor environmental conditions may worsen urban livelihood challenges. These patterns call for integrated urban strategies that link economic growth with environmental sustainability and employment equity (World Bank, 2023; NITI Aayog, 2024) "
+          ,"Table 5 Panel Cointegration Test",
+          "Note: ***,**,* denote 1%, 5% and 10% level of significance",
+          "Table 5 panel cointegration test results Pedroni p = 0.00, Kao p = 0.02, and Johansen p = 0.00 indicate a statistically significant long-run relationship among GDP per capita, population growth, unemployment, and AQI in New Delhi and Mumbai from 2017 to 2023 at 1% and 5% levels. These  10 findings reject the null of no cointegration, confirming that the variables move together over time despite short-term fluctuations. This justifies the use of long-run estimation techniques such as FMOLS for robust policy analysis (Baltagi, 2021; Pedroni, 1999; Kao, 1999) "
+          ,"Note: ***,**,* denote 1%, 5% and 10% level of significance",
+          ,"Table 6 Panel Fully Modified Ordinary Least Square Estimation",
+          "Note: ***,**,* denote 1%, 5% and 10% level of significance",
+          "The panel FMOLS analysis (2017–2023) for New Delhi and Mumbai shows that a 1% rise in population growth boosts GDP per capita by 4.21%, reflecting gains from urban expansion (MoHUA, 2023). A 1% increase in unemployment causes a 17.97% drop in GDP, highlighting the drag of labor market inefficiencies (ILO, 2023). A 1-unit rise in AQI is linked to a 16.54% increase in GDP, indicating growth driven by pollution-heavy sectors like construction and industry (CPCB, 2024; World Bank, 2023). All variables are statistically significant at 1% level, and the long-run variance (10.63) signals persistent structural effects. The results emphasize the need for job-rich and environmentally balanced urban development."
+          ,"Table 7 Panel Generalize Least Square Estimation",
+          "Note: ***,**,* denote 1%, 5% and 10% level of significance",
+          "Table 7 panel Generalized Least Squares (GLS) estimation for New Delhi and Mumbai 2017–2023 indicates that unemployment has a significant negative effect on GDP per capita, with a 1% increase reducing GDP by 0.49% at 5% significance level, reflecting persistent labor underutilization and weak job absorption in urban sectors (ILO, 2023) in the short-run. Although population growth shows a negative coefficient –3.95, it is statistically insignificant p = 0.11 suggesting variability in demographic-economic dynamics. Air quality (AQI) has a small but significant positive effect at 1% significant level, possibly reflecting short-term growth driven by high-polluting industries (CPCB, 2024). The model explains 55% of the variation in GDP per capita R² = 0.55, with no autocorrelation issues as Durbin-Watson = 2.51. These results point to the urgency of labor market reform and green urban growth strategies."
+          ,"Table 8 Panel Robust Least Square Estimation",
+          "Note: ***,**,* denote 1%, 5% and 10% level of significance",
+          "Table 8 panel Robust Least Squares estimation for New Delhi and Mumbai (2017–2023) reveals clear magnitude effects of each independent variable on GDP per capita in the short-run. A 1% increase in population growth rate reduces GDP per capita by approximately 3.95%, though this effect is statistically insignificant (p > 0.05), indicating that population expansion alone may not drive economic growth without adequate infrastructure and urban service provision (MoHUA, 2023). In contrast, a 1% increase in unemployment rate leads to a 0.49% decrease in GDP per capita at 5% significant level , highlighting the critical role of job creation in sustaining urban economic performance and poverty reduction (ILO, 2023). Additionally, although the coefficient of AQI is close to zero, it is statistically significant at 1% level, suggesting that even marginal increases in pollution correlate with GDP growth likely reflecting economic activities concentrated in high-emission sectors such as transport and construction (CPCB, 2024; World Bank, 2023). These results affirm that employment and environmental sustainability are key levers for balanced urban development.",
+          "Table 9 Comparative Estimations for both New Delhi and Mumbai Cities",
+          "Note: ***,**,* denote 1%, 5% and 10% level of significance The Table 9 panel robust least squares magnitude effect analysis from 2017 to 2023 reveals contrasting dynamics in how key urban variables influence GDP per capita in New Delhi and Mumbai. In New Delhi, a 1% increase in population growth rate significantly reduces GDP per capita by 7.49% at 5% significant level, underscoring urban strain from rapid population expansion without commensurate infrastructure and service capacity (MoHUA, 2023). Similarly, a 1% rise in unemployment lowers GDP by 0.33% at 5% significant level, reflecting vulnerability in the city’s informal job market (ILO, 2023). Notably, air pollution (AQI) shows a statistically significant yet numerically negligible positive association with GDP, indicating continued reliance on pollutionintensive growth sectors (CPCB, 2024). In contrast, Mumbai shows a positive effect of population growth on GDP per capita 7.27% at 5% significant level, suggesting effective urban agglomeration  13 benefits and economic absorption capacity. However, unemployment and AQI are not statistically significant, implying other structural factors may drive Mumbai’s GDP growth, such as financial services and logistics. These divergent outcomes reflect each city's unique urban trajectory and policy priorities in balancing growth, employment, and sustainability."
+          ,"Table 10 Wald Test for Stability Check",
+          "Note: ***,**,* denote 1%, 5% and 10% level of significance",
+          "The Wald test confirms the stability of the Panel FMOLS, GLS, and Robust Least Squares models. The F-statistic and Chi-square value both statistically significant at the 1% level (p < 0.01), reject the null hypothesis of joint coefficient insignificance. This indicates that the estimated coefficients are stable and the models are statistically valid for inference."
+          ,"Table 11 Variance Factor Inflation for Stability Check",
+          "The Variance Inflation Factor (VIF) results confirm the absence of multicollinearity among the explanatory variables. All VIF values are below the commonly accepted threshold of 10, with POP_RATE at 2.15, UNEMP at 2.97, and AQI at 2.73. This indicates that the independent variables are sufficiently independent of one another, ensuring the reliability and robustness of the model estimates.",
+        ]
+
+      },
+      {
+        heading: "DISCUSSION",
+        paragraphs: [
+          "The present study, rooted in the broader discourse on sustainable urbanization and spatial inequality in India, sought to examine how key structural variables population growth, unemployment, and air quality impact GDP per capita in two of India’s most economically and demographically significant cities: New Delhi and Mumbai. Framed within the context of India’s accelerating urbanization and the uneven distribution of urban opportunities (UN-Habitat, 2020; World Bank, 2024), this research responds to a critical gap in the literature by quantifying how these factors interact to shape urban economic outcomes over time. The empirical analysis, based on panel FMOLS, GLS, and robust least squares estimations from 2017 to 2023, uncovers important patterns that advance understanding of the urban development paradox where economic growth often coexists with deep-seated inequality and infrastructural stress.",  
+          "One of the central findings from the estimation models is the divergent influence of population growth on GDP between New Delhi and Mumbai. While the background of the study emphasized concerns over urban congestion, housing shortages, and service deficits (MoHUA, 2021; TISS, 2022), the empirical evidence affirms that these demographic pressures are not uniform in effect. In New Delhi, population expansion aligns with structural strain, suggesting insufficient urban planning and poor integration of new residents into formal economic systems. In contrast, Mumbai appears to channel population growth more effectively into economic productivity, likely due to its historical development as a dense financial and commercial hub with relatively stronger infrastructure and agglomeration economies (World Bank, 2024). This reinforces the research objective of identifying city-specific structural capacities and limitations influencing urban economic performance." 
+          ,"The analysis further reveals that unemployment exerts a consistently negative effect on GDP in both cities across models. This supports the study’s assertion that labor market inefficiencies remain a major drag on urban economic resilience and inclusiveness. Previous studies and reports from the International Labour Organization (ILO, 2023) and NITI Aayog have highlighted persistent underemployment, skill mismatches, and informality in urban labor markets especially in Delhi, where rapid population inflows outpace job creation. The findings align with real-world developments in India’s post-pandemic urban economy, where jobless growth and widening income gaps have intensified urban vulnerability (NITI Aayog, 2023). These outcomes validate the study’s hypothesis that employment remains a critical determinant of sustainable urban development and reinforce calls for labour-intensive and inclusive policy reforms.", 
+          "A notable new insight emerging from the empirical results is the complex relationship between environmental degradation measured through AQI and GDP. Although the literature often emphasizes the adverse health and productivity costs of pollution (CPCB, 2024; WHO, 2023), the positive correlation observed in some models reflects an unsettling real-world pattern: that urban economic growth in Indian megacities continues to be propelled by pollution-intensive industries such as construction, transport, and low-regulation manufacturing. This suggests that economic expansion remains environmentally unsustainable, particularly in New Delhi, where the air quality crisis is among the world’s worst (IQAir, 2024). The findings challenge conventional growth paradigms and align with recent policy critiques emphasizing the urgency of green transitions and climate-resilient infrastructure investments in urban India (World Bank, 2023; IPCC, 2023).", "Overall, the results of this study make a substantial contribution by empirically validating the complex and differentiated roles of population dynamics, employment, and environmental conditions in shaping urban economic outcomes. The findings not only confirm long-standing policy concerns but also provide updated, data-driven evidence that can inform targeted urban planning, labor market interventions, and environmental governance. As India positions itself toward achieving SDG 11 Sustainable Cities and Communities the contrasting experiences of New Delhi and Mumbai offer valuable lessons. These cities must go beyond GDP-focused metrics and integrate equity, resilience, and sustainability into their urban development models. Future policy frameworks must prioritize inclusive employment generation, strategic infrastructure expansion, and environmentally responsible growth pathways to ensure that economic transformation does not come at the cost of urban well-being or ecological degradation. For a visualize understanding see figures 1to 4 below.",
+          "Transitional Paragraph:",
+          "The empirical results highlight the pressing need for focused interventions to address Delhi and Mu mbai's interconnected problems of service deficiencies, environmental degradation, and economic i nequality.", "Although the statistical models demonstrate the magnitude and intricacy of these urban pressures, it takes calculated, fact-based policy measures to close the gap between data insights and realworld change. ", "The recommendations that follow convert these analytical findings into practical tactics meant to pr omote inclusive, resilient, and equitable urban development."
+        ]
+      }
+    ],
+    conclusion: [
+      "This study offers a timely and nuanced understanding of how population growth, unemployment, and air quality interact to influence urban economic performance in New Delhi and Mumbai two of India’s most vital yet structurally divergent megacities. By integrating demographic, labor market, and environmental variables over the 2017–2023 period, this research fills critical empirical gaps left by previous studies, which often treated these variables in isolation or failed to disaggregate urban dynamics at the city level. The findings not only confirm long-standing policy concerns such as the economic drag of rising unemployment and unsustainable pollution-led growth but also uncover city-specific responses to demographic pressures, showing that the same variable can have opposite effects depending on urban governance capacity and economic structure.", "The novelty of this study lies in reframing urban growth not just as a macroeconomic challenge, but as a systems-level issue where labor absorption, environmental limits, and demographic integration must be simultaneously addressed. Unlike conventional analyses, this research demonstrates that economic growth in urban India is increasingly contingent on its ability to decouple productivity from pollution and to absorb growing populations into sustainable, formal employment channels."
+      ,"POLICY IMPLICATION:",
+"To ensure urban resilience, India must urgently transition toward 'Triple-Bottom-Line Urbanism' a new policy paradigm that balances economic performance, environmental health, and equitable labor market integration. This includes: Establishing Urban Employment Compacts (UECs) city-specific programs that provide targeted job guarantees and upskilling tailored to local industries.", "Creating Urban Clean Transition Zones (UCTZs) designated areas that incentivize pollution-intensive firms to adopt green technologies, backed by fiscal and regulatory support. Launching Demographic-Responsive Infrastructure Planning (DRIP) models that use real-time population data to trigger automated infrastructure investments in fast-growing wards. Institutionalizing City-Level GDP-Environment Audits, making GDP growth conditional on improvements in air quality, employment, and service access metrics not just aggregate economic output. These bold yet practical measures will help break the cycle of jobless, pollution-intensive growth and transform India’s megacities into inclusive, productive, and sustainable urban systems aligned with SDG 11. By capturing the divergent realities of New Delhi and Mumbai, this study offers a blueprint for differentiated, evidence-based urban policymaking that centers both people and planet at the heart of economic transformation."
+    ],
+    references: [
+      {
+        heading: "World Bank. (2024). Gearing up for India’s rapid urban transformation. Retrieved from"
+        ,links:"https://www.worldbank.org"
+
+      },
+      {
+        heading: "UN-Habitat. (2020). World Cities Report 2020: The Value of Sustainable Urbanization. Retrieved from", 
+        links:"https://unhabitat.org/wcr"
+      },
+      {
+        heading: "Time Magazine. (2024). India’s cities are growing too fast to handle extreme heat and flooding.Retrieved from",
+        links: "https://time.com/7300435"
+      },
+      {
+        heading: "Ministry of Housing and Urban Affairs (MoHUA). (2021). Urban India: Trends and Prospects. Government of India.", 
+        links:"https://smartcities.gov.in"
+      },
+      {
+        heading: "Bhan, G. (2019). Notes on a Southern urban practice. Environment and Urbanization, 31(2), 309–324",
+        links: "https://journals.sagepub.com/doi/10.1177/0956247818815792"
+      },
+      {
+        heading: "Satterthwaite, D., & Mitlin, D. (2020). Urban inequality and the Global South. IIED Working Paper.London: International Institute for Environment and Development.",links:"https://www.researchgate.net/publication/255981402_Reducing_Urban_Poverty_in_the_Global_South"
+
+      },
+      {
+        heading: "Tata Institute of Social Sciences (TISS), Mumbai. (2022). Urban Studies Research Publications.School of Habitat Studies.",
+        links: " https://tiss.ac.in/view/6/mumbai-campus/school-of-habitat-studies-2/centre-for-urban-policy-and-governance/about-6/#:~:text=It%20aims%20to%20build%20a,sound%2C%20policy%20processes%20and%20outcomes."
+      },
+      {
+        heading: "Asian Development Bank. (2019). Creating livable cities: Regional perspectives.",
+        links:"https://www.adb.org/publications/creating-livable-cities"
+      },
+      {
+        heading: "Government of Delhi. (2024). Delhi Economic Survey 2023–24. Planning Department,Government of National Capital Territory of Delhi."
+        ,links: "http://delhiplanning.nic.in/"
+      },
+      {
+        heading: "Government of Maharashtra. (2024). Maharashtra Economic Survey 2024–25. Directorate ofEconomics and Statistics. "
+,links:"https://mahades.maharashtra.gov.in/"
+      },
+      {
+      heading: "NITI Aayog. (2025). State Fiscal Health Index Report. "
+        ,links:"https://www.niti.gov.in/"
+      },
+      {
+        heading: "ORF. (2016). Slums and shelter deprivation in India: Policy implications. Observer ResearchFoundation. "
+,links:"https://www.orfonline.org/"
+      },
+      {
+        heading: "Roy, A. (2011). Slumdog cities: Rethinking subaltern urbanism. International Journal of Urban andRegional Research, 35(2), 223–238. "
+,links:"https://doi.org/10.1111/j.1468-2427.2011.01051.x"
+      },
+      {
+        heading: "World Bank. (2023). Financing India’s infrastructure needs:Constraints to commercial financing andprospects for policy action. "
+,links:"https://www.worldbank.org/"
+      },
+      {
+        heading: "Glaeser, E. L., Kolko, J., & Saiz, A. (2008). Consumer city. Journal of Economic Geography, 1(1),27–50. "
+,links:"https://doi.org/10.1093/jeg/1.1.27"
+      },
+      {
+        heading: "Johansen, S. (1991). Estimation and hypothesis testing of cointegration vectors inGaussianvector autoregressive models. Econometrical, 59(6), 1551–1580."
+,links:"https://doi.org/10.2307/2938278"
+      },
+      {
+        heading: "Kao, C. (1999). Spurious regression and residual-based tests for cointegration in panel data. Journalof Econometrics, 90(1), 1–44. ",
+        links:"https://doi.org/10.1016/S0304-4076(98)00023-2"
+      },{
+      heading:"Levin, A., Lin, C.-F., & Chu, C.-S. J. (2002). Unit root tests in panel data: Asymptotic and finitesample properties. Journal of Econometrics, 108(1), 1–24. "
+       ,links:"https://doi.org/10.1016/S0304-4076(01)00098-7"
+      },
+      {
+        heading: "Mostafavi, M., & Doherty, G. (Eds.). (2010). Ecological urbanism. Harvard University Graduate School of Design."
+      },
+      {
+        heading: "Pedroni, P. (1999). Critical values for cointegration tests in heterogeneous panels with multiple regressors. Oxford Bulletin of Economics and Statistics, 61(S1), 653–670.",
+links:"https://doi.org/10.1111/1468-0084.0610s1653"
+      },
+      {
+        heading: "Phillips, P. C. B., & Hansen, B. E. (1990). Statistical inference in instrumental variables regression with I(1) processes. Review of Economic Studies, 57(1), 99–125.",
+links:"https://doi.org/10.2307/2297545"
+      },
+      {
+        heading: "Phillips, P. C. B., & Perron, P. (1988). Testing for a unit root in time series regression. Biometrika,75(2), 335–346. ",
+links:"https://doi.org/10.1093/biomet/75.2.335"
+      },
+      {
+        heading: "SRomer, P. M. (1994). The origins of endogenous growth. Journal of Economic Perspectives, 8(1), 3–22. ",
+links:"https://doi.org/10.1257/jep.8.1.3"
+      },
+      {
+        heading: "Rousseeuw, P. J., & Leroy, A. M. (1987). Robust regression and outlier detection. Wiley. Solow, R. M. (1956). A contribution to the theory of economic growth. The Quarterly Journal ofEconomics, 70(1), 65–94. ",
+links:"https://doi.org/10.2307/1884513"
+      },
+      {
+        heading: "Stock, J. H., & Watson, M. W. (1993). A simple estimator of cointegrating vectors in higher orderintegrated systems. Econometrical, 61(4), 783–820. ",
+links:"https://doi.org/10.2307/2951763"
+      },
+      {
+        heading: "White, H. (1980). A heteroskedasticity-consistent covariance matrix estimator and a direct test forheteroskedasticity. Econometrical, 48(4), 817–838. ",
+links:"https://doi.org/10.2307/1912934"
+      },
+      {
+        heading: "SBaltagi, B. H. (2021). Econometric analysis of panel data (6th ed.). Springer.",
+
+      },
+      {
+        heading: "Central Pollution Control Board (CPCB). (2024). National air quality status report 2023–24.Ministry of Environment, Forest and Climate Change, Government of India. ",
+links:"https://cpcb.nic.in",
+
+      },
+      {
+        heading: "Gujarati, D. N., & Porter, D. C. (2020). Basic econometrics (5th ed.). McGraw-Hill Education."   
+        },
+      {
+        heading: "Intergovernmental Panel on Climate Change (IPCC). (2023). Climate change 2023: Synthesis report. Contribution of Working Groups I, II and III to the Sixth Assessment Report. Geneva: IPCC.",
+links:"https://www.ipcc.ch/report/ar6/syr/"
+      },
+      {
+        heading: "International Labour Organization (ILO). (2023). World employment and social outlook: Trends2023. Geneva: ILO. ",
+links:"https://www.ilo.org/global/research/global-reports/weso"
+      },
+      {
+        heading: "Ministry of Housing and Urban Affairs (MoHUA). (2021). India Habitat III national report.Government of India. ",
+links:"https://mohua.gov.in",
+
+      },
+      {
+        heading: "Ministry of Housing and Urban Affairs (MoHUA). (2023). Smart Cities Mission progress report 2023. Government of India."
+      },
+      {
+        heading: "NITI Aayog. (2023). India’s urban employment scenario: Trends and policy imperatives.Government of India. ",
+links:"https://niti.gov.in"
+      },
+       {
+        heading: "Sachs, J., Lafortune, G., Kroll, C., Fuller, G., & Woelm, F. (2023). Sustainable development report 2023. Cambridge University Press."
+      },
+       {
+        heading: "Tata Institute of Social Sciences (TISS). (2022). Urbanization and spatial inequality in India: A case for inclusive planning. Mumbai: TISS."
+      },
+       {
+        heading: "UN-Habitat. (2020). World cities report 2020: The value of sustainable urbanization. Nairobi: United Nations Human Settlements Programme."
+ ,links:"https://unhabitat.org/world-cities-report-2020"
+      },
+       {
+        heading: "World Bank. (2023). India development update: Balancing growth and stability. Washington, DC: The World Bank."
+      },
+       {
+        heading: "World Bank. (2023). India’s transition toward green growth: Urban perspectives. Washington, DC: The World Bank."
+ ,links:"https://www.worldbank.org/en/country/india/publication"
+      },
+       {
+        heading: "World Bank. (2024). Unlocking the potential of Indian cities: Pathways to inclusive growth. Washington, DC: The World Bank."
+ ,links:"https://www.worldbank.org/en/news/feature/2024"
+      },
+       {
+        heading: "World Health Organization (WHO). (2023). Health and air pollution: Key facts and statistics 2023. Geneva: WHO."
+ ,links:"https://www.who.int"
+      }
+    ]
+  },
 
 
   {
@@ -10896,21 +11238,21 @@ const articles = [
   },
 
   {
-    id: 6,
-    serialNumber: 41,
-    issue: 4,
-    volume: 1,
-    title: "SHOULD ECOCIDE BE RECOGNIZED AS THE FIFTH INTERNATIONAL CRIME UNDER THE ROME STATUTE? A LEGAL, ETHICAL, AND JURISDICTIONAL ANALYSIS.",
-    author: "Ankitha Lahari M N, Aiswaryya Dhamodaran, Ananya Aggarwal, Vidhushi, K K Sree Purna",
-    authorAbbrev: "A.Lahari , A. Dhamodaran , A. Aggarwal , Vidushi, K.k Sree Purna",
-    abstract: [
-      "This research critically examines the pressing need to recognize ecocide - defined as large-scale, long-term, and serious environmental destruction - as the fifth international crime in the Rome Statute of the International Criminal Court (ICC).",
-      "Through a doctrinal and comparative legal approach, this paper assesses the historical development, moral underpinnings, and jurisdictional implications of articulating ecocide internationally.",
-      "The paper seeks to demonstrate that ecocide endangers not only the environment, but human rights, world peace, and intergenerational justice, using case studies like the Bhopal gas leak and Deepwater Horizon oil spill to show insufficient legal responses.",
-      "Ethically, criminalization is warranted by principles of ecocentrism and intergenerational justice. Legally, while challenges exist, the paper argues for amending the Rome Statute to include ecocide by utilizing Article 30's clause and amending mens rea to include recklessness.",
-      "The research provides a policy platform including amending the Rome Statute, enacting domestic legislation, developing corporate accountability mechanisms, and integrating restorative justice.",
-      "Recognizing ecocide as an international crime is legally possible and an ethical imperative for environmental sustainability, justice, and accountability for future generations."
-    ],
+  id: 6,
+  serialNumber: 41,
+  issue: 4,
+  volume: 1,
+  title: "SHOULD ECOCIDE BE RECOGNIZED AS THE FIFTH INTERNATIONAL CRIME UNDER THE ROME STATUTE? A LEGAL, ETHICAL, AND JURISDICTIONAL ANALYSIS.",
+  author: "Ankitha Lahari M N, Aiswaryya Dhamodaran, Vidushi, K. K. Sreepurna",
+  authorAbbrev: "A. Lahari, A. Dhamodaran, Vidushi, K.K. Sreepurna",
+  abstract: [
+    "This research critically examines the pressing need to recognize ecocide - defined as large-scale, long-term, and serious environmental destruction - as the fifth international crime in the Rome Statute of the International Criminal Court (ICC).",
+    "Through a doctrinal and comparative legal approach, this paper assesses the historical development, moral underpinnings, and jurisdictional implications of articulating ecocide internationally.",
+    "The paper seeks to demonstrate that ecocide endangers not only the environment, but human rights, world peace, and intergenerational justice, using case studies like the Bhopal gas leak and Deepwater Horizon oil spill to show insufficient legal responses.",
+    "Ethically, criminalization is warranted by principles of ecocentrism and intergenerational justice. Legally, while challenges exist, the paper argues for amending the Rome Statute to include ecocide by utilizing Article 30's clause and amending mens rea to include recklessness.",
+    "The research provides a policy platform including amending the Rome Statute, enacting domestic legislation, developing corporate accountability mechanisms, and integrating restorative justice.",
+    "Recognizing ecocide as an international crime is legally possible and an ethical imperative for environmental sustainability, justice, and accountability for future generations."
+  ],
     keyword: [
       "Ecocide",
       "Article 30 of Rome Statute",
@@ -11102,8 +11444,8 @@ const articles = [
     serialNumber: 42,
     issue: 4,
     volume: 1,
-    title: "Criminalizing Ecocide: Impacts on Justice",
-    author: "Pratishtha Purohit, Ayushi Sharma, Janvi Manojsinh Chauhan, Saroar Mohammad, Ayush Chaturvedi,Tanisha Mitra,Shanvi Thakre",
+    title: "What impact will it make on justice and environmental accountability if ecocide is criminalized?",
+    author: "Pratishtha Purohit, Ayushi Sharma, Janvi Manojsinh Chauhan, Saroar Mohammad, Ayush Chaturvedi, Tanisha Mitra, Shanvi Thakre",
     authorAbbrev: "P. Purohit, A. Sharma, J. M. Chauhan, S. Mohammad, A. Chaturvedi, T.Mitra , S. Thakre",
     abstract: [
       "With the increasing environmental crisis across the globe, ecocide has achieved more widespread recognition and broader awareness. It is high time we recognised ecocide as 5th International Crime under the Rome Statute (International Criminal Court,1998) since the existing legal provisions lack regulations or frameworks.",
@@ -11208,43 +11550,143 @@ const articles = [
       "As demonstrated, criminalisation can have a profound positive impact on environmental justice, holding states and corporations accountable, and enabling the judiciary to contribute effectively to ecological preservation."
     ],
     references: [
-      {
-        heading: "Bhopte, N., Bansod, P., & Institute of Law and Legal Studies, SAGE University, Indore. (2024). Corporate Liability for Environmental Damages: A Critical Review of Legal Principles. International Journal of Creative Research Thoughts (IJCRT), 12(12), d397–d399."
-      },
-      {
-        heading: "European Commission. (2023). Directive on the protection of the environment through criminal law. Official Journal of the European Union."
-      },
-      {
-        heading: "Higgins, P., Short, D., & South, N. (2013). Protecting the Planet: A Proposal for a Law of Ecocide. Crime, Law, and Social Change."
-      },
-      {
-        heading: "Higgins, P., Short, D., & South, N. (2021). The ecocide draft definition. Stop Ecocide Foundation."
-      },
-      {
-        heading: "International Criminal Court. (1998). Rome Statute of the International Criminal Court."
-      },
-      {
-        heading: "McElwee, P. (2020). The Origins of Ecocide: Revisiting the Ho Chi Minh Trail in the Vietnam War. Environment & Society Portal, Arcadia. Rachel Carson Centre for Environment and Society."
-      },
-      {
-        heading: "Minkova, L. G. (2024). Ecocide, sustainable development and critical environmental law insights. Journal of International Criminal Justice, 22(1), 81–97."
-      },
-      {
-        heading: "Ordinioha, B., & Brisibe, S. (2013). The Human Health Implications of Crude Oil Spills in the Niger delta, Nigeria: an Interpretation of Published Studies. Nigerian Medical Journal, 54(1), 10."
-      },
-      {
-        heading: "Sands, P. (2018). Principles of international environmental law (4th ed.). Cambridge University Press."
-      },
-      {
-        heading: "Stop Ecocide International. (n.d.). Legal definition of ecocide drafted by an independent expert panel."
-      },
-      {
-        heading: "United Nations Environment Programme. (2019). Environmental crime and compliance: Emerging trends. UNEP."
-      },
-      {
-        heading: "Verzola, R. (2004). Industry, Efficiency and Corporations. Human Ecology Review."
-      }
-    ]
+    {
+      heading: "Bhopte, N., Bansod, P., & Institute of Law and Legal Studies, SAGE University, Indore. (2024). Corporate Liability for Environmental Damages: A Critical Review of Legal Principles. International Journal of Creative Research Thoughts (IJCRT), 12(12), d397–d399.",
+    link: "https://www.ijcrt.org/papers/IJCRT2304126.pdf"
+  },
+  {
+    heading: "Carrington, D. (2025, May 29). Company directors who cause nature damage in Scotland could face jail. The Guardian.",
+    link: "https://www.theguardian.com/environment/2025/may/29/company-directors-nature-damage-scotland"
+  },
+  {
+    heading: "Ecocide and Corporate Accountability. (n.d.). NUI Galway Law Review.",
+    link: "https://www.nuigalway.ie/lawreview/ecocide-and-corporate-accountability.html"
+  },
+  {
+    heading: "European Commission.",
+    link: "https://ec.europa.eu/info/index_en"
+  },
+  {
+    heading: "European Commission. (2023). Directive on the protection of the environment through criminal law. Official Journal of the European Union.",
+    link: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2023:123:TOC"
+  },
+  {
+    heading: "Gairdner, R. (2025, May 28). ‘Tantamount to EcoCide’: Council of Europe criminalises severe environmental harm — Stop Ecocide International.",
+    link: "https://www.stopecocide.earth/news/council-of-europe-ecocide"
+  },
+  {
+    heading: "GS Bajpai, & Shrawani Shagun. (2025, July 8). When nature dies, so do humans: Why India must criminalise ecocide. Bar And Bench - Indian Legal News.",
+    link: "https://www.barandbench.com/news/litigation/why-india-must-criminalise-ecocide"
+  },
+  {
+    heading: "Hamilton, H. (2025). Ecocide and the expressive power of international criminal law. Harvard Human Rights Journal, 38(1), 69–112.",
+    link: "https://harvardhrj.com/2025/05/ecocide-and-expressive-power-of-international-criminal-law"
+  },
+  {
+    heading: "Higgins, P., Short, D., & South, N. (2013). Protecting the Planet: A Proposal for a Law of Ecocide. Crime, Law, and Social Change.",
+    link: "https://link.springer.com/article/10.1007/s10611-013-9415-6"
+  },
+  {
+    heading: "Higgins, P., Short, D., & South, N. (2021). The ecocide draft definition. Stop Ecocide Foundation.",
+    link: "https://www.stopecocide.earth/stop-ecocide-draft-definition"
+  },
+  {
+    heading: "International Criminal Court. (1998). Rome Statute of the International Criminal Court.",
+    link: "https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf"
+  },
+  {
+    heading: "Ipe, M. (2005). Bhopal Gas Tragedy: Lessons for Corporate Social Responsibility. Social Responsibility Journal, 1(3/4), 122–141.",
+    link: "https://www.emerald.com/insight/content/doi/10.1108/17471110510624600"
+  },
+  {
+    heading: "Kysar, D. A. (2020). Regulating From Nowhere: Environmental Law and the Search for Objectivity. Yale University Press.",
+    link: "https://yalebooks.yale.edu/book/9780300250867/regulating-nowhere"
+  },
+  {
+    heading: "Liao, C., & Pranav, A. (2024). Ecocide and Accountability: Legal Innovation or Moral Necessity? Global Environmental Politics.",
+    link: "https://www.mitpressjournals.org/doi/10.1162/glep_a_01379"
+  },
+  {
+    heading: "McElwee, P. (2020). The Origins of Ecocide: Revisiting the Ho Chi Minh Trail in the Vietnam War. Environment & Society Portal, Arcadia. Rachel Carson Centre for Environment and Society.",
+    link: "https://www.environmentandsociety.org/exhibitions/ho-chi-minh-trail-ecocide"
+  },
+  {
+    heading: "Michael Edwards. (2024, October 19). Corporate liability for environmental damage: legal perspectives and preventive strategies.",
+    link: "https://www.researchgate.net/publication/369857450_Corporate_Liability_for_Environmental_Damage"
+  },
+  {
+    heading: "Minkova, L. G. (2021). The Fifth International Crime: Reflections on the Definition of 'Ecocide.' Journal of Genocide Research, 25(1), 62–83.",
+    link: "https://www.tandfonline.com/doi/full/10.1080/14623528.2021.1879100"
+  },
+  {
+    heading: "Minkova, L. G. (2024). Ecocide, sustainable development and critical environmental law insights. Journal of International Criminal Justice, 22(1), 81–97.",
+    link: "https://academic.oup.com/jicj/article/22/1/81/6978890"
+  },
+  {
+    heading: "Nollkaemper, A. (2011). International environmental agreements and the rule of law. Netherlands Yearbook of International Law, 42(1), 139–164.",
+    link: "https://brill.com/view/journals/nyil/42/1/article-p139_6.xml"
+  },
+  {
+    heading: "Ordinioha, B., & Brisibe, S. (2013). The Human Health Implications of Crude Oil Spills in the Niger delta, Nigeria: an Interpretation of Published Studies. Nigerian Medical Journal, 54(1), 10.",
+    link: "https://www.nmjol.info/index.php/nmj/article/view/11072"
+  },
+  {
+    heading: "Palarczyk, D. (2023). Ecocide Before the International Criminal Court: Simplicity is Better Than an Elaborate Embellishment. Criminal Law Forum, 34(2), 147–207.",
+    link: "https://link.springer.com/article/10.1007/s10609-023-09445-3"
+  },
+  {
+    heading: "Polly Higgins. (2013). Damien Short Nigel South Crime, Law and Social Change.",
+    link: "https://link.springer.com/book/10.1007/978-94-007-4574-0"
+  },
+  {
+    heading: "Rahimli, N. M. a. J. (2024, December 2). The inclusion of Ecocide: Legal challenges and prospects for the Rome Statute. Cambridge International Law Journal.",
+    link: "https://www.cambridge.org/core/journals/cambridge-international-law-journal/article/inclusion-of-ecocide"
+  },
+  {
+    heading: "Sands, P. (2018). Principles of international environmental law (4th ed.). Cambridge University Press.",
+    link: "https://www.cambridge.org/core/books/principles-of-international-environmental-law/3A07E2C1CE7E39BAF1849D38BDE03B0C"
+  },
+  {
+    heading: "Schwegler, V. (2017). The Disposable Nature: The Case of Ecocide and Corporate Accountability. Amsterdam Law Forum, 9(3), 71.",
+    link: "https://www.alf.nl/artikelen/2017/3/71"
+  },
+  {
+    heading: "Singh, U. (2024). Judicial Activism and Sustainable Development: The path to environmental justice. JETIR, 11, 9.",
+    link: "https://www.jetir.org/papers/JETIR240123.pdf"
+  },
+  {
+    heading: "Steiner, R. (2010). Double Standard Shell Practices in Nigeria Compared with International Standards to Prevent and Control Pipeline Oil Spills and the Deepwater Horizon Oil Spill. Milieudefensie, Amsterdam, 11–15.",
+    link: "https://milieudefensie.nl/publicaties/double-standard-shell-practices"
+  },
+  {
+    heading: "Stop Ecocide International. (n.d.). Legal definition of ecocide drafted by an independent expert panel.",
+    link: "https://www.stopecocide.earth/definition"
+  },
+  {
+    heading: "Tridha Gosain, & Tridha Gosain. (2025, May 19). Re-Evaluating the Corporate Veil in Environmental Catastrophes - LHSS Collective. LHSS Collective.",
+    link: "https://lhsscollective.org/2025/05/19/re-evaluating-corporate-veil-environmental-catastrophes"
+  },
+  {
+    heading: "Tsilonis, V. (2024). Ecocide: The Emergence of a New Crime Within the Jurisdiction of the International Criminal Court? In Springer eBooks (pp. 265–297).",
+    link: "https://link.springer.com/chapter/10.1007/978-3-031-34567-8_13"
+  },
+  {
+    heading: "UNEP & Principles for Responsible Investment. (2022). ESG, Due Diligence, and Environmental Harm.",
+    link: "https://www.unepfi.org/publications/esg-due-diligence-and-environmental-harm/"
+  },
+  {
+    heading: "United Nations Environment Programme. (2019). Environmental crime and compliance: Emerging trends. UNEP.",
+    link: "https://www.unep.org/resources/report/environmental-crime-and-compliance-emerging-trends"
+  },
+  {
+    heading: "Verzola, R. (2004). Industry, Efficiency and Corporations. Human Ecology Review.",
+    link: "https://hdl.handle.net/11299/201895"
+  },
+  { 
+    heading: "Voigt, C. (2022). The difficult path to ecocide as an international crime. Journal of International Criminal Justice, 20(3), 557–579.",
+    link: "https://academic.oup.com/jicj/article/20/3/557/6608770"
+  },
+  ]
   },
   {
     id: 8,
