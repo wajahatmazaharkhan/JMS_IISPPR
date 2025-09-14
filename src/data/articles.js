@@ -8293,7 +8293,7 @@ const articles = [
     issue: 3,
     volume: 1,
     title: "BRIDGING THE DIVIDE: DIGITAL PUBLIC INFRASTRUCTURE IN THE INFORMAL SECTOR",
-    author: "Harmanpreet Singh – Panjab University, Naukhaiz Aftab – Chaudhary Charan Singh University, Gauri Sharma – Indira Gandhi National Open University, Ruchi Tiwari- University of Mumbai, Mahi Tyagi- University of Delhi, Shivangi Varma- Deen Dayal Upadhyay Gorakhpur University",
+    author: "Harmanpreet Singh , Naukhaiz Aftab , Gauri Sharma ,Ruchi Tiwari, Mahi Tyagi,Deen Dayal Upadhyay ",
     authorAbbrev: "H. Singh, N. Aftab, G. Sharma, R. Tiwari, M. Tyagi, S. Varma",
     abstract: [
       "The rapid digitalisation and expansion of Digital Public Infrastructure (DPI) in India have brought mixed outcomes, particularly for informal sector workers. The digital divide is a result of existing inequalities in socioeconomic status, geography, caste, and gender. While digitalisation has improved access in many areas, its benefits remain unevenly distributed. This paper investigates structural and systemic factors behind this gap and explores legal frameworks and the PPP model to promote financial inclusion.",
@@ -8442,7 +8442,7 @@ const articles = [
         "links": ""
       },
       {
-        "heading": "2. Bandura, R., McLean, M., & Smutny, C. (2024). Approaches to digital public infrastructure in the Global South: An overview of India, Ukraine, Brazil, and Zambia. Centre for Strategic and International Studies (CSIS)",
+        heading: "2. Bandura, R., McLean, M., & Smutny, C. (2024). Approaches to digital public infrastructure in the Global South: An overview of India, Ukraine, Brazil, and Zambia. Centre for Strategic and International Studies (CSIS)",
         "links": "https://www.jstor.org/stable/resrep62744"
       },
       {
@@ -8593,7 +8593,7 @@ const articles = [
       "This study reveals that many communities find it difficult to make the climate action plans implemented in their local level effectively. However, there are some notable cases—like the integration of GPDP, Mission LiFE, and collaborations with initiatives such as MGNREGA—that demonstrate how teamwork can drive real progress. The paper concludes with some practical recommendations: enhancing training for local leaders, ensuring better coordination among departments, and involving everyone in the planning process to make climate action more impactful at the local level."
     ],
     keyword: [],
-    status: "Submitted",
+    status: "Published",
     intro: [
       "The national framework on climate change in India is based on the National Action Plan on Climate Change (NAPCC) that outlines eight national missions aimed at promoting environmental sustainability and resilience to climate change. The NAPCC is strategic in its vision, but realizing that vision is contingent on its monocular application and incorporation into local actions. PRIs being the institutional levels responsible for rural development, are important agents of climate change governance.",
       "Nonetheless, there are issues related to poor access to resources, inadequate institutional capacity, and limited policy coherence that challenge this localization. The introduction has the aim of laying the framework for understanding how the climate change agenda, as outlined at the level of the national agenda, is then translated into actions by the Panchayats."
@@ -8734,7 +8734,7 @@ const articles = [
       "Moreover, the Trump administration’s approach has had long-term reverberations—weakening institutional capacity, fueling backlogs, and politicizing immigration agencies. Even as the Biden administration has attempted to reverse some of these policies, structural barriers and the legacy of enforcement-first strategies persist, complicating efforts toward humane migration justice and reform. The implications extend beyond the U.S., altering global attitudes and contributing to a backlash against multilateral cooperation on migration issues. As migration remains a key site of contestation and negotiation, achieving genuine change will require not just policy reversal but structural transformation to address the deep-rooted inequalities, uphold human rights, and rebuild trust in migration governance."
     ],
     keyword: [],
-    status: "",
+    status: "Published",
     intro: [
       "Migration is as old as humanity itself, rooted in survival, security, and opportunity. The introduction and core findings establish a theoretical foundation for understanding migration, highlighting it as a historical constant shaped by 'push' and 'pull' factors, and as a reflection of global inequalities. The contemporary period is highlighted by intense South-North corridors, policy disparities, and global inequality."
     ],
@@ -8933,7 +8933,7 @@ const articles = [
       "SDG 16",
       "SDG 11"
     ],
-    status: "",
+    status: "Published",
     intro: [
       "It has become increasingly clear lately that in the context of rapid urbanization, accountability, openness, and trust from society are becoming critical for city authorities (Harkness & Katz, 2016; Pickup, 2024). Cities, as key centers of administrative and demographic life, often face such problems as, for example, corruption, lack of transparency, and alienation of citizens from decision-making. Undoubtedly, this not only weakens the democratic foundations of city governance but also reduces its effectiveness (Mupandanyama, 2023; Transparency International, n.d.).",
       "It is our deep conviction that Goals 16 and 11 of the Sustainable Development Agenda, aimed at ensuring \"peace, justice, and strong institutions\" and “sustainable cities and communities,” respectively (United Nations, 2015; United Nations Department of Economic and Social Affairs, n.d.), are particularly relevant in this context. The main thing is that the first emphasizes the importance of combating corruption, increasing transparency, and engaging citizens at all levels of government, and the second one reinforces it in the more communal context. Namely, the aforementioned task of SDG 16 is especially important in cities, where the interaction between citizens and government is most direct and intense. Although this goal is global, we believe that achieving it requires local solutions, as each city has its own unique institutional, political, and cultural characteristics that influence the implementation and reception of transparency initiatives.",
@@ -9264,7 +9264,7 @@ const articles = [
       "Achievement",
       "moratorium"
     ],
-    status: "",
+    status: "Published",
     intro: [
       "In today’s changing world, identity formation remains an important task for young adults as they gain more independence and face social pressures. They often start questioning their values, beliefs, goals, and the roles they play in different parts of life such as school, family, or work. Identity refers to an individual’s understanding of who they are, encompassing values, beliefs, goals, and roles in various domains of life. According to Erikson (1968), establishing a coherent identity is an important part of adolescence and young adulthood, where individuals resolve the tension between identity and role confusion to achieve psychological well being. He emphasised that this period is a period of confusion and experiments regarding identity and one’s life path. He talks of a psychological moratorium where teens put on hold to committing to an identity while they explore other options. ",
       "A more detailed framework for understanding identity development was offered by James Marcia (1966), who expanded on Erikson’s theory by introducing four identity statuses. Identity achievement describes individuals who have explored a range of options and made firm commitments to personal values, career paths, and beliefs, and is linked with higher self-esteem and clarity. Moratorium refers to those actively exploring identity alternatives without yet committing; this phase is often filled with uncertainty and psychological tension but is a critical stage in eventual identity resolution. In contrast, foreclosure involves strong commitments made without adequate exploration, often reflecting values inherited from authority figures or tradition, which may hinder future adaptability. Lastly, identity diffusion characterizes individuals who neither explore nor commit meaningfully, often resulting in fragmented or unstable self-concepts and increased emotional distress (Schwartz, 2001). These statuses illustrate that identity development is a dynamic and individual process, shaped by both internal drives and contextual influences. ",
@@ -9496,7 +9496,7 @@ const articles = [
       "Moral Rhetoric",
       "corruption trail "
     ],
-    status: "",
+    status: "Published",
     intro: [
       "Introduction and Background",
       "Power no longer shows up in tanks. Power shows up in language, in leverage, in legal cover. It offers peace, but leaves ash. A  Diplomacy in which the language of liberation is often just a mask for imperial ambition. This research proceeds from that tension the paradox of American presence in the Middle East. The United States’ involvement in the Middle East is often explored through its most overt violence invasions of Iraq, Afghanistan, and Syria. But the true shift in power occurs in other areas in places where the U.S. employs not invasion, but invisibility. These are quiet laboratories in which the differences between humanitarianism and hegemony have become indistinguishable. In places like Yemen, Lebanon, and Oman, the American presence is being discussed more often than the U.S. military presence, but the implications are even more pronounced. These are not traditional or classic battlegrounds but They are silent laboratories, where the line between aid and influence, protection and regulations, has eroded beyond recognition.",
@@ -10048,8 +10048,8 @@ const articles = [
       "Intersectionality",
 
     ],
-    status: "",
-    "intro": [
+    status: "Published",
+    intro: [
       "Feminist foreign policy refers to a political structure that prefers gender equality and women's rights in the creation and execution of a country's foreign relationships, diplomacy, trade, defense and development policy.",
       "This policy framework traces its origin way back in Sweden (2014) under Foreign Minister Margot Wallström (Margot Wallström, 2014) who pioneered the formal adoption of a policy based on Rights of women and girls, Representation in decision-making and Resources for gender equality.  It was inherent in liberal feminism, intersections and post -colonial feminist theory that criticizes male-oriented international relationships.",
       "Many countries have groundbreaking feminist foreign policy (FFP), which integrates equity into international relationships.  After Sweden, Canada on LGBTQ+ rights and inclusive development in 2017 with Feminist International Assistance Policy (FIAP). France adopted FFP in 2019, and focused gender equality in diplomacy with a Francophone focus. Mexico Use of FFP in 2020, highlighting multilateralism and gender budget, became the first global South Nation. In 2023, Germany launched its policy, in which women's roles were combined with climate diplomacy in peace and security. Each country brings different preferences of regional and political reference size. (Toni Haastrup & Laura Shepherd, 2022).",
@@ -10219,8 +10219,8 @@ const articles = [
     //   "Digital India",
     //   "policy analysis"
     // ],
-    status: "",
-    "intro": [
+    status: "Published",
+    intro: [
       "The national framework on climate change in India is based on the National Action Plan on Climate Change (NAPCC) that outlines eight national missions aimed at promoting environmental sustainability and resilience to climate change. The NAPCC is strategic in its vision, but realizing that vision is contingent on its monocular application and incorporation into local actions. PRIs being the institutional levels responsible for rural development, are important agents of climate change governance. ",
       "Nonetheless, there are issues related to poor access to resources, inadequate institutional capacity, and limited policy coherence that challenge this localization. The introduction has the aim of laying the framework for understanding how the climate change agenda, as outlined at the level of the national agenda, is then translated into actions by the Panchayats.",
     ],
@@ -10479,7 +10479,7 @@ const articles = [
       "Public-Private Partnership (PPP) model",
       "Jan Dhan, Aadhar", "Mobile (JAM) Trinity", "Unified Payments Interface (UPI)", "Financial Inclusion, Digitalisation"
     ],
-    status: "",
+    status: "Published",
     "intro": [
       "“Digital public infrastructure is not just about technology—it is about enabling equal access, empowering every citizen, and laying the digital rails for inclusive growth.”",
       "Nandan Nilekani, co-founder of Infosys and founding Chairperson of the Unique Identification Authority of India (UIDAI)",
@@ -10759,33 +10759,46 @@ const articles = [
     "Syed Suheb S",
     "Barron Madison Lau Jia Jie"
   ],
-    status: "",
-    "abstract": [
+    status: "Published",
+    abstract: [
     "India’s urban centers are experiencing rapid economic growth alongside persistent inequality,infrastructural deficits, and environmental stress. Despite extensive literature on urban economic growth in India, few studies have empirically examined how structural challenges such as demographic pressures, labor market inefficiencies, and environmental degradation simultaneously affect urban productivity across major cities. This study addresses this critical gap by employing a descriptive quantitative approach and a robust panel econometric framework to analyze how population growth, unemployment, and air quality influence GDP per capita in New Delhi and Mumbai from 2017 to 2023. Unlike prior research that treats urban centers as homogeneous, this paper captures the contrasting urban trajectories of India’s political and financial capitals using FMOLS, GLS, and Robust Least Squares to model both long-run equilibrium and short-run dynamics, while correcting for endogeneity, heteroskedasticity, and cross-sectional dependence. The findings reveal a novel insight: while Mumbai gains from population-driven economic agglomeration, New Delhi suffers from growth-induced infrastructural strain. Unemployment remains a consistent drag on urban GDP in both cities, and, counterintuitively, higher pollution levels are linked with GDP growth highlighting India’s continued reliance on emission-intensive industries. These differentiated outcomes expose the limits of one-sizefits-all urban policy models. The study contributes new evidence to urban sustainability literature and proposes a multidimensional SDG 11-aligned policy roadmap that integrates job creation, environmental resilience, and inclusive infrastructure planning to reshape India’s urban future."
   ],
-  "keywords": [
+  keywords: [
     "GDP per Capita", "Urban Sustainability", "Informal Employment", "Environmental Stress"
   ],
-  "intro": [
+  intro: [
     "India’s rapid urbanization has resulted in a complicated combination of mixed severe inequalities and economic opportunities (1) (World Bank, 2024; UN-Habitat, 2020). As cities continue to grow in both size and influence, questions about their long-term sustainability, economic stability, and inclusivity have become more important than ever (Time, 2024). Among India’s urban centres, Delhi and Mumbai stand out as two of the most notable cities; both are not only megacities but also contrasting as development case studies. In India, Delhi is a political and administrative centre, whereas Mumbai serves as a financial capital and a major contributor to the GDP (MoHUA, 2021) of the country. Despite their strength, both cities struggle with severe economic, social, and infrastructure inequalities (TISS, 2022)."  
     ,"This research paper conducts the quantitative analysis using secondary data that looks at how the inequalities, infrastructure gaps, and economic difficulties interact in Delhi and Mumbai. This study intends to explore how these cities might move towards more sustainable urban futures (World Bank, 2024) by concentrating on measures like GDP contribution, transportation networks, and per capita income. The findings aim to offer evidence-based insights into the urban paradox—where inequality and economic growth coexist—and how specific approaches can help close the gap. Through this lens, the study adds to the larger conversation about creating more fair and better cities in India (UNHabitat, 2020) "
-    ,"1.1 BACKGROUND OF THE STUDY",
-    "Cities in India are growing rapidly in both size and impact. Urban areas are becoming hubs of innovation and economic activities (World Bank, 2024; UN-Habitat, 2020). However, a number of significant difficulties accompany this rapid progress. Many cities are struggling to keep up with the needs of their increasing population, leading to problems like traffic, housing shortages, poor infrastructure, and growing socioeconomic inequality (Time Magazine, 2024; MoHUA, 2021) "
-    ,"Two of the most well-known cities in the nation—Delhi and Mumbai—reflect this disparity (Satterthwaite & Mitlin, 2020). On the other hand, they stand for strength, development, and wealth. However, they also reveal a deep gap of how resources and opportunities are distributed. In these cities, luxurious skyscrapers often stand next to overcrowded slums. While some people enjoy modern amenities, many still do not have access to secure transportation, good-quality schools, or clean water (Bhan, 2019; TISS Urban Studies, 2022)."
-    ,"As India moves towards building “smart” and “sustainable” cities, it becomes important to pause and ask: Who are we really building for? Can a city be considered as sustainable if its growth leaves many people behind (UN-Habitat, 2020; World Bank, 2024)? "
-    ,"In order to investigate these issues, this study thoroughly examines Delhi and Mumbai. It aims to understand how economic challenges, inequalities, and urban planning affect the future of these cities. By using real data and targeted analysis, the research hopes to offer insights that can help create more balanced, inclusive, and livable cities for everyone."
-
+    ,
   ],
     content: [
       {
-        "heading": "PROBLEM STATEMENT",
-        "paragraphs": [
+        heading:"1.1 BACKGROUND OF THE STUDY",
+        paragraphs:[ 
+         "Cities in India are growing rapidly in both size and impact. Urban areas are becoming hubs of innovation and economic activities (World Bank, 2024; UN-Habitat, 2020). However, a number of significant difficulties accompany this rapid progress. Many cities are struggling to keep up with the needs of their increasing population, leading to problems like traffic, housing shortages, poor infrastructure, and growing socioeconomic inequality (Time Magazine, 2024; MoHUA, 2021) ",
+         "Two of the most well-known cities in the nation—Delhi and Mumbai—reflect this disparity (Satterthwaite & Mitlin, 2020). On the other hand, they stand for strength, development, and wealth. However, they also reveal a deep gap of how resources and opportunities are distributed. In these cities, luxurious skyscrapers often stand next to overcrowded slums. While some people enjoy modern amenities, many still do not have access to secure transportation, good-quality schools, or clean water (Bhan, 2019; TISS Urban Studies, 2022).",
+         "As India moves towards building “smart” and “sustainable” cities, it becomes important to pause and ask: Who are we really building for? Can a city be considered as sustainable if its growth leaves many people behind (UN-Habitat, 2020; World Bank, 2024)? ",
+         "In order to investigate these issues, this study thoroughly examines Delhi and Mumbai. It aims to understand how economic challenges, inequalities, and urban planning affect the future of these cities. By using real data and targeted analysis, the research hopes to offer insights that can help create more balanced, inclusive, and livable cities for everyone.",
+
+        ]
+      },
+      
+      {
+        heading: "PROBLEM STATEMENT",
+        paragraphs: [
                 "The problem to be addressed through this study is that, despite India’s urbanization accelerating at a striking rate, cities like Delhi and Mumbai, which are critical junctions for national economic growth, still suffer from structural inequalities and imbalances, and there is a stark contrast between the life experienced by the rich and the poor population groups. Recent evidence has shown unequal access to decent housing and basic services like water facilities, public transportation and sanitation for the population living in slums because the city’s shelters are not adequate (ORF 2016). The wider this gap grows, the more it puts at risk what makes these cities feel alive and important. These ongoing gaps for basic services and affordability highlight a longterm problem in how these cities should be built and managed rather than a short-term goal of having enough to meet the demand. "  
       ,"If continue down this path of unequal and unsustainable ways of urban development, the impact will be serious and lasting. When poverty and lack of opportunity are present in certain parts of the city, they drag down the entire economy, and workers cannot reach their full potential, and the economic growth of the whole city is reduced by 1.5% (World Bank 2023). When basic services are not available, cities have to spend more on quick fixes and emergency care, which further drains money that could have helped in building sustainable roads and housing (ADB Urban Development). Although plenty of data exists, they are collected on incompatible spatial and temporal scales, and that is why they lack three key questions: Which missing services, like water lines, sewers, safe housing, etc., drive today’s inequalities (UN-Habitat 2022)? Where can each  4 rupee be spent to close the gap the fastest (World Bank 2023)? How will rising sea level and heat threats, along with future migration and financial constraints, help the cities still be on track for SDG 11 targets (IPCC)? Closing this gap needs on-the-ground surveys and municipalfinance, and further analysing the neighbourhood is the first step towards fair and cost-smart solutions (UNHabitat 2022; ADB 2019). "
         , "RESEARCH OBJECTIVES", 
         "To empirically analyze the long-run and short-run effects of population growth, unemployment, and air quality on urban economic performance (GDP per capita) in New Delhi and Mumbai between 2017 and 2023, using advanced panel econometric techniques. The study aims to generate evidencebased insights to support inclusive, employment-oriented, and environmentally sustainable urban development policies aligned with SDG 11."
     ]
       },
+      {
+        heading:"2.1 RESEARCH OBJECTIVES",
+        paragraphs:[
+          "To empirically analyze the long-run and short-run effects of population growth, unemployment, andair quality on urban economic performance (GDP per capita) in New Delhi and Mumbai between2017 and 2023, using advanced panel econometric techniques. The study aims to generate evidencebased insights to support inclusive, employment-oriented, and environmentally sustainable urbandevelopment policies aligned with SDG 11"
+        ]
+      },
+
       {
         heading: "LITERATURE REVIEW",
         paragraphs: [
@@ -10816,6 +10829,7 @@ const articles = [
           "In the specified panel data framework, t represents the time dimension, and i denotes the crosssectional units (New Delhi and Mumbai). The constant term α0 captures the intercept, while β1 to β3 represent the coefficients for the explanatory variables: population growth rate (POP_RATE), unemployment rate (UNEMP), and air quality index (AQI). GDP per capita (GDPPC) functions as the dependent variable, capturing the economic trajectory of urban centres and 𝑢it represent infinte residuals. The Fully Modified Ordinary Least Squares (FMOLS) estimator is adopted for modelling long-run relationships under cointegration, effectively correcting for serial correlation and endogeneity, thereby ensuring consistent and efficient parameter estimates (Phillips & Hansen, 1990; Stock & Watson, 1993)."
           ,"To account for heteroskedasticity and potential cross-sectional dependence, the Generalized Least Squares (GLS) method is employed, offering improved efficiency over Ordinary Least Squares when error variances are non-constant (White, 1980). Additionally, the Robust Least Squares (RLS) estimator is utilized to mitigate the influence of outliers and leverage points, providing resistant and reliable parameter estimates, especially under data irregularities common in urban economic datasets (Rousseeuw & Leroy, 1987). The integration of these estimators creates a comprehensive and resilient econometric strategy to examine the complex interplay of economic, demographic, and environmental factors driving sustainable urban development in India’s leading metropolitan centers "
           ,"The cointegration test is based on the following hypothesis ",
+          ""
 
         ]
       },
@@ -10858,10 +10872,21 @@ const articles = [
           "One of the central findings from the estimation models is the divergent influence of population growth on GDP between New Delhi and Mumbai. While the background of the study emphasized concerns over urban congestion, housing shortages, and service deficits (MoHUA, 2021; TISS, 2022), the empirical evidence affirms that these demographic pressures are not uniform in effect. In New Delhi, population expansion aligns with structural strain, suggesting insufficient urban planning and poor integration of new residents into formal economic systems. In contrast, Mumbai appears to channel population growth more effectively into economic productivity, likely due to its historical development as a dense financial and commercial hub with relatively stronger infrastructure and agglomeration economies (World Bank, 2024). This reinforces the research objective of identifying city-specific structural capacities and limitations influencing urban economic performance." 
           ,"The analysis further reveals that unemployment exerts a consistently negative effect on GDP in both cities across models. This supports the study’s assertion that labor market inefficiencies remain a major drag on urban economic resilience and inclusiveness. Previous studies and reports from the International Labour Organization (ILO, 2023) and NITI Aayog have highlighted persistent underemployment, skill mismatches, and informality in urban labor markets especially in Delhi, where rapid population inflows outpace job creation. The findings align with real-world developments in India’s post-pandemic urban economy, where jobless growth and widening income gaps have intensified urban vulnerability (NITI Aayog, 2023). These outcomes validate the study’s hypothesis that employment remains a critical determinant of sustainable urban development and reinforce calls for labour-intensive and inclusive policy reforms.", 
           "A notable new insight emerging from the empirical results is the complex relationship between environmental degradation measured through AQI and GDP. Although the literature often emphasizes the adverse health and productivity costs of pollution (CPCB, 2024; WHO, 2023), the positive correlation observed in some models reflects an unsettling real-world pattern: that urban economic growth in Indian megacities continues to be propelled by pollution-intensive industries such as construction, transport, and low-regulation manufacturing. This suggests that economic expansion remains environmentally unsustainable, particularly in New Delhi, where the air quality crisis is among the world’s worst (IQAir, 2024). The findings challenge conventional growth paradigms and align with recent policy critiques emphasizing the urgency of green transitions and climate-resilient infrastructure investments in urban India (World Bank, 2023; IPCC, 2023).", "Overall, the results of this study make a substantial contribution by empirically validating the complex and differentiated roles of population dynamics, employment, and environmental conditions in shaping urban economic outcomes. The findings not only confirm long-standing policy concerns but also provide updated, data-driven evidence that can inform targeted urban planning, labor market interventions, and environmental governance. As India positions itself toward achieving SDG 11 Sustainable Cities and Communities the contrasting experiences of New Delhi and Mumbai offer valuable lessons. These cities must go beyond GDP-focused metrics and integrate equity, resilience, and sustainability into their urban development models. Future policy frameworks must prioritize inclusive employment generation, strategic infrastructure expansion, and environmentally responsible growth pathways to ensure that economic transformation does not come at the cost of urban well-being or ecological degradation. For a visualize understanding see figures 1to 4 below.",
-          "Transitional Paragraph:",
-          "The empirical results highlight the pressing need for focused interventions to address Delhi and Mu mbai's interconnected problems of service deficiencies, environmental degradation, and economic i nequality.", "Although the statistical models demonstrate the magnitude and intricacy of these urban pressures, it takes calculated, fact-based policy measures to close the gap between data insights and realworld change. ", "The recommendations that follow convert these analytical findings into practical tactics meant to pr omote inclusive, resilient, and equitable urban development."
+          
         ]
-      }
+      },
+      {
+        heading:"Transitional Paragraph:",
+        paragraphs :[
+          "The empirical results highlight the pressing need for focused interventions to address Delhi and Mumbai's interconnected problems of service deficiencies, environmental degradation, and economic inequality.Although the statistical models demonstrate the magnitude and intricacy of these urban pressures, ittakes calculated, fact-based policy measures to close the gap between data insights and realworld change.The recommendations that follow convert these analytical findings into practical tactics meant to promote inclusive, resilient, and equitable urban development."
+        ]
+      },
+      {
+        heading:"7.2 POLICY IMPLICATION:",
+        paragraphs :[ 
+          "To ensure urban resilience, India must urgently transition toward Triple-Bottom-Line Urbanism a new policyparadigm that balances economic performance, environmental health, and equitable labor market integration.This includes: Establishing Urban Employment Compacts (UECs) city-specific programs that provide targetedjob guarantees and upskilling tailored to local industries.Creating Urban Clean Transition Zones (UCTZs) designated areas that incentivize pollution-intensive firms toadopt green technologies, backed by fiscal and regulatory support. Launching Demographic-Responsive Infrastructure Planning (DRIP) models that use real-time population data to trigger automated infrastructure investments in fast-growing wards. Institutionalizing City-Level GDP-Environment Audits, making GDPgrowth conditional on improvements in air quality, employment, and service access metrics not just aggregate economic output. These bold yet practical measures will help break the cycle of jobless, pollution-intensive growth and transform India’s megacities into inclusive, productive, and sustainable urban systems aligned withSDG 11. By capturing the divergent realities of New Delhi and Mumbai, this study offers a blueprint for differentiated, evidence-based urban policymaking that centers both people and planet at the heart of economic transformation"
+        ]
+      },
     ],
     conclusion: [
       "This study offers a timely and nuanced understanding of how population growth, unemployment, and air quality interact to influence urban economic performance in New Delhi and Mumbai two of India’s most vital yet structurally divergent megacities. By integrating demographic, labor market, and environmental variables over the 2017–2023 period, this research fills critical empirical gaps left by previous studies, which often treated these variables in isolation or failed to disaggregate urban dynamics at the city level. The findings not only confirm long-standing policy concerns such as the economic drag of rising unemployment and unsustainable pollution-led growth but also uncover city-specific responses to demographic pressures, showing that the same variable can have opposite effects depending on urban governance capacity and economic structure.", "The novelty of this study lies in reframing urban growth not just as a macroeconomic challenge, but as a systems-level issue where labor absorption, environmental limits, and demographic integration must be simultaneously addressed. Unlike conventional analyses, this research demonstrates that economic growth in urban India is increasingly contingent on its ability to decouple productivity from pollution and to absorb growing populations into sustainable, formal employment channels."
@@ -11039,8 +11064,9 @@ links:"https://niti.gov.in"
     issue: 4,
     volume: 1,
     title: "Trapped in Silence: The Psychosocial Consequences of Masculine Norms and Emotional Suppression Among Young Men",
-    author: "Mehar Kaur Bindra ,RadhikaGupta, Surbhi Prajapati, Sajan Jaiswal, Deepshika",
+    author: "Mehar Kaur Bindra ,Radhika Gupta, Surbhi Prajapati, Sajan Jaiswal, Deepshika",
     authorAbbrev: "M.Bindra , R.Gupta, S.Prajapati, S.Jaiswal, D.",
+
     abstract: [
       "This study explores the psychosocial consequences of emotional suppression and adherence to traditional masculine norms among young men in India.",
       "Using a sample of 79 Indian men aged 18–25, the study employed the Conformity to Masculine Norms Inventory-22 (CMNI-22) and the Emotion Regulation Questionnaire (ERQ) to assess internalized norms and emotional regulation strategies.",
@@ -11060,7 +11086,7 @@ links:"https://niti.gov.in"
       "mental health stigma",
       "gender norms"
     ],
-    status: "",
+    status: "Published",
     intro: [
       "Over 70% of suicide deaths in India are men, not because they feel they are less but because they have been taught to show less. Behind these numbers there is this cultural script that rewards emotional control and punishes vulnerability.",
       "From a young age, Indian boys are taught that emotions like sadness, fear, and tenderness are signs of weakness and they can't be weak. These aren't just short-lived lessons, they become the foundation of how boys see themselves and the world around them.",
@@ -11261,7 +11287,7 @@ links:"https://niti.gov.in"
       "Environmental Crime",
       "International Law"
     ],
-    status: "",
+    status: "Published",
     intro: [
       "The term ecocide—literally meaning the killing of the environment—has evolved from a moral outrage to a legally contested concept in international criminal law. The term came into meaning during the Vietnam War with the U.S. military’s use of Agent Orange, resulting in environmental ecological devastation.",
       "Though there is not a legally sanctioned definition of ecocide, it has flared up intermittently in law and political expressions. In 1972, Swedish Prime Minister Olof Palme reduced environmental destruction as a possible international crime during the United Nations Conference on Human Environment.",
@@ -11448,11 +11474,7 @@ links:"https://niti.gov.in"
     author: "Pratishtha Purohit, Ayushi Sharma, Janvi Manojsinh Chauhan, Saroar Mohammad, Ayush Chaturvedi, Tanisha Mitra, Shanvi Thakre",
     authorAbbrev: "P. Purohit, A. Sharma, J. M. Chauhan, S. Mohammad, A. Chaturvedi, T.Mitra , S. Thakre",
     abstract: [
-      "With the increasing environmental crisis across the globe, ecocide has achieved more widespread recognition and broader awareness. It is high time we recognised ecocide as 5th International Crime under the Rome Statute (International Criminal Court,1998) since the existing legal provisions lack regulations or frameworks.",
-      "The focus is to solve the paradox of how destruction of the environment during a war is a crime, and the same destruction in peacetime is not considered a crime. The individuals or corporations must be held accountable for the collapse of biodiversity and the displacement of communities.",
-      "This paper aims to examine the potential impact of criminalisation of ecocide and establish criminal liability for environmental harm by imposing sanctions and reinforcing justice. The cooperation between international organisations can help the authority to prosecute individuals, corporate leaders, and state actors responsible for large-scale environmental harm.",
-      "We require political commitment and global cooperation for implementing ecocide laws and effective enforcement. Ecocide laws will drive corporations and individuals into adapting new and healthier ways that can hold polluters accountable and support in achieving the sustainable development goals 13, 14 and 15.",
-      "Finally, the paper affirms a widespread support is needed to ensure that environmental havoc is no longer met with impunity but with justice."
+      "With the increasing environmental crisis across the globe, ecocide has achieved more widespread recognition and broader awareness. It is high time we recognised ecocide as 5th International Crime under the Rome Statute (International Criminal Court,1998) since the existing legal provisions lack regulations or frameworks.The focus is to solve the paradox of how destruction of the environment during a war is a crime, and the same destruction in peacetime is not considered a crime. The individuals or corporations must be held accountable for the collapse of biodiversity and the displacement of communities. This paper aims to examine the potential impact of criminalisation of ecocide and establish criminal liability for environmental harm by imposing sanctions and reinforcing justice. The cooperation between international organisations can help the authority to prosecute individuals, corporate leaders, and state actors responsible for large-scale environmental harm. We require political commitment and global cooperation for implementing ecocide laws and effective enforcement. Ecocide laws will drive corporations and individuals into adapting new and healthier ways that can hold polluters accountable and support in achieving the sustainable development goals 13, 14 and 15. Finally, the paper affirms a widespread support is needed to ensure that environmental havoc is no longer met with impunity but with justice."
     ],
     keyword: [
       "Ecocide",
@@ -11461,8 +11483,9 @@ links:"https://niti.gov.in"
       "SDGs",
       "Liability"
     ],
-    status: "",
+    status: "Published",
     intro: [
+      "3.1 Historical Background",
       "From Agent Orange in Vietnam to oil-soaked rivers in the Niger Delta, from the choking gas of Bhopal to the melting corals of the Great Barrier Reef, severe environmental destruction occurs with impunity. While courts prosecute genocide, crimes against humanity, war crimes and the crime of aggression, there is no international mechanism to categorise ecocide as a criminal act deserving of serious legal scrutiny. This is the void that the concept of ecocide seeks to fill.",
       "Ecocide, derived from the Greek word 'oikos' (home) and the Latin 'caedere' (to kill) literally means 'killing our home.' In 2021, a legal definition was drafted by an independent panel of jurists, considering it as 'unlawful or wanton acts committed with knowledge that there is a substantial likelihood of severe and either widespread or long-term damage to the environment being caused by those acts.'",
       "Currently, the international legal system lacks sufficient tools to prosecute those responsible for ecological destruction, and corporations and state actors often avoid criminal liability, facing only regulatory fines or civil litigation. Classifying ecocide as an international crime would elevate environmental preservation to a top-tier legal priority, marking a significant shift in the normative understanding of international law and serving as a preventative measure."
@@ -11471,220 +11494,331 @@ links:"https://niti.gov.in"
       {
         heading: "PROBLEM STATEMENT & RESEARCH OBJECTIVE",
         paragraphs: [
-          "Despite a growing climate emergency and recurring environmental disasters, environmental crimes are not treated with the utmost urgency and gravity they deserve. Various States and multinational corporations often act with impunity, prioritising economic growth and profit over environmental sustainability, due to which vulnerable populations and ecosystems suffer irreparable damage.",
-          "The failure to include ecocide as an international crime within the Rome Statute leaves a glaring lacuna in international criminal law. It offers a basis to shift environmental regulation from reactive damage control to proactive ecological protection.",
-          "This research aims to examine the potential impact of recognising ecocide as the fifth international crime in the Rome Statute. The study also aims to determine whether criminalising ecocide would lead to the development of new justice frameworks, such as environmental courts or tribunals, and contribute to the realisation of SDGs 13, 14, and 15.",
-          "Through case studies like the Niger Delta oil spills and Amazon deforestation, the research will demonstrate how ecocide law can close accountability gaps, safeguard ecosystems, and promote intergenerational and environmental justice."
-        ]
+        "Despite a growing climate emergency and recurring environmental disasters happening like climate crises, mass deforestation, biodiversity collapse, and pollution-induced disasters, environmental crimes are not treated with theutmost urgency and gravity they deserve. Various States and multinational corporations often act with impunity,prioritising economic growth and profit over environmental sustainability, due to which vulnerable populations andecosystems suffer irreparable damage. The failure to include ecocide as an international crime within the RomeStatute leaves a glaring lacuna in international criminal law",
+        "It offers a basis to shift environmental regulation from reactive damage control to proactive ecological protection. Though it has the potential to transform, ecocide is a legally unreconstructed and politically charged term. This research attempts to bridge the gap currently missing by examining the deterrent value, judicial potential,and institutional implications of criminalising ecocide",
+        "This research aims to examine the potential impact of recognising ecocide as the fifth international crime in the Rome Statute. The study also aims to determine whether criminalising ecocide would lead to the development ofnew justice frameworks, such as environmental courts or tribunals, and contribute to the realisation of SDGs 13, 14,and 15. Through case studies like the Niger Delta oil spills and Amazon deforestation, the research will demonstratehow ecocide law can close accountability gaps, safeguard ecosystems, and promote intergenerational and environmental justice. "
+      ]
       },
       {
         heading: "THEMATIC LITERATURE REVIEW",
         paragraphs: [
-          "The discourse on corporate liability for ecocide is supported by case law, international frameworks, and jurists. Higgins (2013) emphasised the role of human agency in defining ecocide and identifying responsible entities. This aligns with Vanderhein's (2008) work on climate justice, stressing that principles like the polluter pays doctrine must be legally enforceable.",
-          "The UK Supreme Court's ruling in Okpabi v. Royal Dutch Shell (2021) established that both parent companies and subsidiaries can be held accountable for not adhering to environmental standards. India's framework mandates companies to allocate 2% of profits to CSR activities, including environmental safety. The UK Manslaughter and Corporate Homicide Act, 2007, prosecutes gross negligence leading to death, showing growing recognition of corporate obligations.",
-          "At the international level, the Rome Statute only penalises environmental destruction during conflict, not in peacetime, raising concerns about the need to criminalise ecocide. Schwegler argues that sanctions alone are insufficient; a normative shift is needed. Verzola (2004) notes that corporate profit motives often conflict with environmental safety, necessitating legal intervention.",
-          "In conclusion, the literature reveals a consensus that criminalising ecocide is crucial for dismantling corporate impunity, leading to executive accountability and legal systems that bridge theory and practice. It will minimise large-scale environmental damage globally.",
-          "Cases like MC Mehta v. Union of India show the role of activism, but it is not sufficient alone. Legal scholars like Tsilonis call for judicial bodies specifically addressing ecocide. Actual implementation of laws is crucial.",
-          "Higgins, Short, and South (2013) opine that international law should give legal recognition to ecocide to address the responsibility gap. Liao and Pranav (2024) expound on how ecocide law can move from retributive to restorative and preventive justice. Criminal culpability needs to be complemented by wider ESG frameworks, which UNEP and PRI (2022) condemn as unable to stop irreversible damage without economic or criminal sanctions. Kysar (2020) maintains that legal regimes must acknowledge obligations to future generations and nonhuman persons, viewing ecocide as a crucial link between legal enforceability and environmental ethics."
+          "The discourse in making the corporation liable for ecocide as a crime is supported by case law, international frameworks, and works by jurists in supporting the notion. The study by Polly Higgins (2013) mainly emphasisedthe role of human agency in defining ecocide, with the identification of the entities that can be responsible forecocide. This also goes simultaneously with the theory and study by Vanderhein (2008) on climate justice, whileemphasising that principles such as the polluter pays doctrine must not be in theory, but should be legallyenforceable for better implementation",
+          "2.The UK Supreme Court’s ruling in the case of Okpabi v. Royal Dutch Shell (2021) further established that not only the parent company but also its subsidiaries can be held accountable for not adhering to the environmentalstandards. Furthermore, India’s framework for environmental protection also mandates companies to allocate theportion of 2% of their profits to CSR activities, which include environmental safety. (Bhopte, 2024) Theimposition of directorial liability can also be seen in the UK Manslaughter and Corporate Homicide Act, 2007,which even prosecutes the gross negligence which leads to death. The frameworks and the decision also show that there is a growing recognition of corporate obligations; however, there are lacunae are still there inrecognising it as an offence",
+           "Additionally, at the international level, the Rome Statute only penalises environmental destruction during the situation of conflict but does not hold any corporation liable on a general basis. This again raises concern aboutcriminalising ecocide (European Commission n.d.). From the view of Schwegler, we can understand that sanctions alone are not sufficient; a normative shift must be taken.It is aptly said by Verzola (2004) that corporations are driven by the motives of profit, which often leads to thconflict of environmental safety. Hence, it necessitates legal intervention. It was also argued that the concept of strict liability in this context will stifle economic expansion (Jackson)",
+           ".In conclusion, this literature reveals a consensus that criminalising ecocide is crucial for dismantling corporate impunity, and the impact will lead to regulations like executive accountability, formulation of legal systems tobridge the gaps between theory and practicality. This research also shows that criminalising ecocide will lead to minimising environmental damage on a large scale at the global level. ",
+          "Defined by the International Expert Panel, ecocide is only punished during wartime. Vague legal language like with knowledge allows those who harm the environment to evade their liabilities. Cases like MC Mehta v. Union of India show the important role of activism, but it alone is not sufficient. Legal scholars like Tsilonis call for judicial bodies that specifically address ecocide. Emotional reaction and speeches will not work; actual implementation of laws that punish ecocide is crucial. ",
+          "Literature exists among authors and within the law illustrating overwhelming endorsement of the criminalisation of ecocide to provide global justice. Higgins, Short, and South (2013) in their book Protecting the Planet opine that international law should give legal recognition to ecocide to address the responsibility gap left by environmental law. They again state that legal recognition would be symbolic as well as functional in changing cultural patterns with the creation of tools of enforcement. Liao and Pranav (2024) in their paper Ecocide and Accountability: Legal Innovation or Moral Necessity? They further expound on how the law of ecocide can move forward from retributive justice. They contend that the laws should include restoration and prevention as inherent, shifting the way industries approach environmental risk assessment.",
+          "Their authors cite that criminal culpability needs to be complemented by wider ESG and sustainability frameworks. The UNEP and PRI (2022) report, ESG, Due Diligence, and Environmental Harm, has condemned the ESG models as unable to stop irreversible damage unless such a risk will have to be attributed to economic or criminal sanctions. The authors' view is that criminalising ecocide will increase the stakes, something that will force companies to have better environmental protection and due diligence. Kysar (2020), Regulating from Nowhere, is a normative thesis and maintains that contemporary legal regimes have to acknowledge obligations to future generations and nonhuman persons. He views ecocide as a crucial middleman between legal rules of legal enforceability and environmental ethics. Ultimately, the Stop Ecocide International Expert Panel Report (2021) demonstrates it is feasible to produce a legally binding definition of ecocide."
         ]
       },
       {
         heading: "METHODOLOGICAL OVERVIEW",
         paragraphs: [
-          "This research adopts a multi-method qualitative approach, integrating legal doctrinal analysis, comparative case study methodology, normative inquiry, and thematic evaluation on the criminalisation of ecocide.",
-          "The doctrinal legal research methodology involves a systematic examination of legal sources: the Rome Statute, the Stop Ecocide Foundation's 2021 Draft Definition, and domestic statutes like India's Environment Protection Act, 1986. Precedents like MC Mehta v. Union of India and the Gabčíkovo-Nagymaros Project were analysed.",
-          "A comparative case study approach was used, focusing on the Niger Delta oil spills (corporate impunity), the Vietnam War's use of Agent Orange (wartime ecocide), and the Deepwater Horizon oil spill (legal loopholes in corporate responsibility).",
-          "Normative analysis delved into jurisprudential rationales, examining theories like the 'polluter pays principle' and strict liability, alongside deterrence and compliance theories. This was supported by evidence of shifting international norms, such as the EU Environmental Crime Directive (2023) and laws in France, Belgium, and Scotland.",
-          "The methodology also incorporated thematic integration and policy evaluation by comparing international development targets, specifically UN Sustainable Development Goals 13, 14, and 15, analysing the potential of ecocide criminalisation to achieve these goals."
+          "This research employs a multi-method qualitative approach, combining legal doctrinal analysis, comparative case study methodology, normative inquiry, and thematic evaluation to examine ecocide’s criminalisation and its implications for justice and environmental accountability.",
+
         ]
       },
       {
+        heading :"6.1. Doctrinal Legal Research Methodology",
+        paragraphs: [
+         "The essence of the study revolves around doctrinal research methodology, which helped in critically examining the existing legal frameworks and interpretations of the various statutes principally concerned with the concept of ecocide. The doctrinal legal research methodology is included with a systematic examination of legal sources, which are the Rome Statute, the Stop Ecocide Foundation’s 2021 Draft Definition, and domestic constitutional andenvironmental statutes, notably those of India, the Environment Protection Act, 1986.",
+           "Additionally, precedents by the honourable judiciary, which include MC Mehta v. Union of India, and a landmark international case, which is Gabčíkovo–Nagymaros Project (1997), were also analysed to examine the shifting paradigms of interpretation and enforceability of ecological rights. The paper critically evaluated how the inclusion of ecocide has ramifications on the Rome Statute with the international legal norms in favour of environmentalprotection. "
+        ]
+
+      },
+      {
+        heading:"6.2. Comparative Case Study Analysis",
+        paragraphs: [
+          "To study the practicality of the repercussions of ecocide’s criminalisation, the study in the paper focused on the comparative case study approach. These included:",
+           "The Niger Delta oil spills, to evaluate the corporate impunity and the executive’s accountability;",
+           "• The Vietnam War's use of Agent Orange, for its legacy of ecocide, wartime conduct;",
+           "• The Deepwater Horizon oil spill, focusing on the legal loopholes in corporate responsibility",
+        ]
+      },
+      {
+        heading:"6.3. Normative and Theoretical Analysis",
+        paragraphs:[
+          "The study also incorporated normative analysis to delve into the jurisprudential rationales for criminalising ecocide.It has examined theories such as the “polluter pays principle,” strict and absolute liability, to understand the theoretical aspect with the involvement of deterrence also utilised how criminalising ecocide could Influential  theories of deterrence and compliance were also utilised to argue how criminalising ecocide could reform the global environmental governance, mainly among state actors and corporations",
+          "The normative analysis is supported by the evidence of shifting international norms; it has also examined the policy frameworks, such as the EU Environmental Crime Directive (2023) and the demonstrable progressive laws in countries like France, Belgium, and Scotland, highlighting the evidence towards criminalising ecocide. ",
+        ]
+      },
+      {
+        heading:"6.6.Thematic Integration and Policy-Centric Evaluation",
+        paragraphs:[
+           "The research methodology also incorporated the thematic integration and policy evaluation by comparing the international development targets, comprising of UN Sustainable Development Goals 13,14 and 15. This module analysed the potential capability of criminalisation of ecocide in achieving climate mitigation, protection of marine life, and land ecosystems protection with the interplay between legislative advancements andenvironmental resilience. "
+        ]
+      },
+
+      {
         heading: "CORE FINDINGS",
         paragraphs: [
-          "The core findings suggest the criminalisation of ecocide would address systemic gaps in environmental justice.",
-          "Legal and Normative Shifts: Criminalisation would impose penalties and reputational consequences, currently absent as the Rome Statute only deals with wartime environmental destruction. Case studies like Okpabi v. Royal Dutch Shell and the Niger Delta Spills show how corporations evade liability. Criminalisation would strengthen the 'polluter pays principle,' impose liabilities on executives and state actors, and lead to the adoption of eco-conscious activities. Critics argue challenges in proving mens rea may hamper enforcement, raising concerns about the need for strict liability.",
-          "Judicial Enforcement and Institutional Mechanisms: While judicial activism is crucial, it is limited without codified legal mandates. Domestic institutions or specialised courts and tribunals are needed to safeguard the global ecosystem. Traditional courts often lack procedural clarity and judicial independence for these complex cases.",
-          "Aligning with SDGs and International Agreements: Criminalising ecocide directly supports SDGs 13 (Climate Action), 14 (Life Below Water), and 15 (Life on Land) by compelling environmental stewardship across all sectors. It would deepen compliance with international agreements like the Paris Agreement through stringent legal obligations. Countries like France and Belgium incorporating ecocide into their frameworks show the viability of this approach."
+         "The core findings suggested the after-effect of criminalisation of ecocide to address systemic gaps facing under environmental justice. The analysis reveals" 
+        ]
+      },
+      {
+        heading:"7.1. The Legal and Normative Shifts",
+        paragraphs:[
+          "The notion of accountability, imposing penalties and other reputational consequences, can only be done when ecocide is criminalised. As of now, the Rome Statute only deals with environmental destruction in wartime and leaves peacetime ecocide unpunished. Furthermore, case studies such as Okpabi v. Royal Dutch Shell (2021), the Niger Delta Spills examined how the corporations protect themselves from liability. The after-effect of criminalising ecocide will lead to the imposition of civil settlements, liabilities on the executives of the corporations, state actors, and will eventually strengthen the “polluter pays principle.” Holding corporations accountable would lead to the adoption of eco-conscious activities, and additionally, it will also shift the  responsibility to executives, as they are the decision-makers. However, critics argue that challenges in including mens rea (intent) may hamper the enforcement, which is now raising concerns about the need for strict liability"
+
+        ]
+      },
+      {
+        heading:"7.4. Judicial Enforcement and Implementing Institutional Mechanisms",
+        paragraphs:[
+            "On one side, judicial activism plays a crucial role in the advancement of environmental justice and on the other side, the domestic institutions or specialised courts, tribunals will help in safeguarding the global ecosystem. It is powerful but limited without any codified legal mandates. The finding also argued that the inclusion of procedural clarity, judicial independence is missing in the traditional courts. "
+        ]
+      },
+      {
+        heading:"7.5. Aligning the goals of SDGs with the compliance of International Agreements",
+        paragraphs:[
+          "The findings affirm that criminalising ecocide directly supports SDGs 13,14, and 15 by compelling environmental stewardship across all sectors. The findings in the paper critically observed that establishing ecocide laws will deepen compliance with international agreements like the Paris Agreement through stringentlaw obligations. Countries such as France, Belgium have already incorporated ecocide within their regional frameworks, which again shows the viability. "
         ]
       },
       {
         heading: "INTERPRETATION AND ANALYSIS",
         paragraphs: [
-          "Global Blind Spot and Legal Gaps: A global blind spot exists where entities causing significant environmental harm escape liability by citing job creation, lack of intent, or paid fines. The ICC currently addresses environmental harm only during wartime, leaving peacetime destruction by states or corporations unpunished. This gap leaves ecocide vulnerable to excuses and legal loopholes. Criminalisation prevents greenwashing and empowers judicial activism.",
-          "Corporate Accountability: Criminalising ecocide would fundamentally shift the burden of proof onto corporations, compelling them to disprove negligence. It would impose liabilities on individual executives, moving beyond piercing the corporate veil. Frameworks like India's EPA (1986), the UK's Corporate Manslaughter Act (2007), and the EU's polluter pays principle show existing pathways, but an international ecocide crime would consolidate and strengthen them.",
-          "Judicial Activism: Potential and Critique: While cases like MC Mehta v. Union of India demonstrate the power of judicial activism, courts alone are insufficient. Vague terms like 'with knowledge' create legal gaps. We need dedicated judicial mechanisms, specialised institutions, and precise laws. Criminalisation can be the link between activism and new institutions. Initiatives like the Council of Europe's Convention (2025) and the EU Environmental Crime Directive are laying the groundwork, showing countries are not waiting for the Rome Statute to act.",
-          "Support for SDGs: Ecocide laws incentivise a global response to climate change and biodiversity loss. By holding polluters accountable, they drive corporations and individuals towards sustainable practices, directly supporting SDGs 13, 14, and 15. Penalising destructive activities gives an incentive to invest in sustainable practices, protecting marine and terrestrial ecosystems for future generations.",
-          "Compliance with International Agreements: Criminalising ecocide can improve compliance with International Environmental Agreements (IEAs) like the Paris Agreement and the Convention on Biological Diversity by making state officials personally liable, influencing norms, and strengthening domestic legal systems. Deterrence theory and compliance theory support this, as criminal liability changes the cost-benefit analysis for states and corporations. The expressive function of international criminal law would establish a global environmental standard, creating peer pressure for compliance."
+          "8.1.Global Blind Spot and Legal Gaps ",
+          "Defined by the International Expert Panel (2021) (Legal Definition of Ecocide Drafted by Independent Expert Panel — Stop Ecocide International, n.d.), “Ecocide means unlawful or wanton acts committed with knowledge that there is a substantial likelihood of severe and either widespread or long-term damage to the environment.” This section explores how criminalising ecocide can empower judicial activism and trigger NEW judicial mechanisms for environmental justice. Criminalisation prevents greenwashing practices, where companies may appear eco-friendly on the surface while continuing to harm the planet (Minkova,2024). ",
+        "Many escape liability for severe environmental harm by citing excuses like We create jobs,It wasn’t intentional,” or We paid fines,” shielding themselves from real consequences—no jail, no fines, no accountability—while the urgent delay in criminalising ecocide threatens both the environment and human life, exposing a global blind spot in ecocide law.",
+        "At the international level, the International Criminal Court (ICC) addresses environmental harm only during wartime, but lawyers are advocating to extend jurisdiction to peacetime harm so that destruction by states or corporations no longer goes unpunished, and unlike the other four core international crimes, ecocide still lacks criminal penalties at the ICC (Minkova, 2021), leaving it vulnerable to excuses and legal loopholes.",
+        "8.2. When Nature Suffers in Silence, Because It Has No Defender!",
+        "Consider the Vietnam War (McElwee, 2020), where Agent Orange and Napalm were used recklessly, leaving Vietnam’s soil, rivers, and forests scarred while nature, though blameless, suffered endlessly, resulting not in victory but in devastation; similarly, in **MC Mehta v. Union of India**, involving a gas leak in Delhi, the company cited economic harm, but the Hon’ble Supreme Court of India established the principle of **absolute liability**—if you run a dangerous industry, you are responsible with no excuses and no exceptions—reflecting a human-centric approach that now must evolve.",
+        "This shows that judicial activism alone cannot prevent future harm, as seen in the **Gabčíkovo–Nagymaros case (1997)** where Hungary justified breaking a treaty on environmental grounds—the first time a state used environmental protection as a legal justification—but when the case reached the International Court of Justice (ICJ), the judgment focused on compensation and harm rather than strict accountability, exposing a dangerous silence where ecosystems continue to suffer without legal defence.",
+        "As the global environmental crisis deepens, with nature being destroyed on scales beyond the reach of current governance and judicial systems, attorneys and human rights activists are calling for **ecocide—the intentional destruction of nature—to be recognised as an international crime.**",
+        "8.3 Will criminalising ecocide improve compliance with international environmental agreements?",
+        "This chapter examines whether criminalising ecocide can increase adherence to **International Environmental Accords (IEAs)**, arguing that it could enhance compliance with agreements like the **Basel Convention, Paris Agreement, and Convention on Biological Diversity (CBD)** by making state officials personally liable, shaping global norms, and strengthening domestic legal systems; and while challenges remain in jurisdiction, definition clarity, and enforcement, empirical evidence from domestic and regional experiences, along with deterrence and compliance theories, suggests that recognising ecocide as a crime is likely to promote treaty compliance.",
+        "Despite the importance of **International Environmental Accords (IEAs)** in addressing global issues, state-centric duties, weak enforcement, and soft law mechanisms have led to low compliance (Sands, 2018); the proposal to criminalise \*\*ecocide—defined as severe and protracted environmental destruction—\*\*seeks to close this enforcement gap by introducing hard law procedures like those for genocide or war crimes (Higgins et al., 2021), and this chapter explores whether such criminalisation, through its moral implications, domestic implementation, and deterrent effects, can strengthen adherence to IEAs.",
+        "8.4. Theoretical Framework: Deterrence and Compliance Theories",
+        "According to **deterrence theory** (Nollkaemper, 2011), actors are less likely to engage in harmful behaviour if the legal or reputational costs outweigh the benefits, and **compliance theory** (Voigt, 2022) suggests that when domestic institutions are compelled to align with international standards, governments are more likely to honour their commitments; thus, criminalising ecocide alters the cost-benefit analysis for governments by imposing both criminal liability on state actors and reputational shame.",
+        "8.6.1. Criminal Liability for State Actors",
+        "Criminalising ecocide directly targets state authorities and politicians who approve or tolerate large-scale environmental harm, unlike IEAs that impose obligations on governments without individual repercussions, thereby raising the cost of violating environmental commitments through the risk of prosecution in national or international courts (Higgins et al., 2021).",
+        "8.6.2. Expressive Function of International Criminal Law",
+        "Beyond prosecutions, the expressive power of international criminal law shapes behaviour by signalling that **ecocide, like genocide, is immoral**, and that noncompliance damages reputation (Hamilton, 2025), thereby exerting normative pressure on governments to comply with IEAs even when prosecutions are rare.",
+        "8.7. Hard Law Complementing Soft Law",
+       " Since most IEAs are voluntary agreements without binding legal force, making **ecocide a crime** would compel states to adopt stronger environmental standards in domestic law to avoid liability under international criminal law (Sands, 2018); for example, countries that ratified the **Paris Agreement** could be legally required to enhance their emission reduction strategies, and in terms of political accountability, state leaders and officials who approve ecologically harmful measures in violation of international agreements would risk prosecution (Voigt, 2022).",
+        "8.8. European Union (France, Belgium, and Scotland)",
+        "The **EU Environmental Crime Directive (2023)** makes serious environmental harm a crime to ensure member states comply with international biodiversity and climate obligations (European Commission, 2023), while **France and Belgium** have already criminalised ecocide under domestic law; similarly, **Scotland’s planned ecocide law** would hold public servants and decision-makers accountable for major environmental damage, demonstrating how criminalisation can strengthen adherence to international conservation accords (Carrington, 2025).",
+      "8.6.1. “A Case Study of The Niger Delta Oil Spills”",
+      "8.6.2. Background of The Case:",
+      "The **Oil River** region in Nigeria’s Niger Delta, renowned for palm oil and natural gas production, has suffered severe environmental degradation from decades of exploitative oil exploration and extraction, with its vital ecosystems—mangroves and wetlands, essential for terrestrial and marine biodiversity—devastated by repeated oil spills and negligent practices.",
+      "To add insult to injury, the socio-economic conditions of the region, like poverty and corrupt government systems,only hinder the efforts made to address these issues.",
+      "8.6.3. Analysis Of Its Impact",
+      "The figures (quantity) of the crude oil spilt in the region are inconsistent, but the pervasive belief is that an estimated 13 million barrels (1.5 million tons) of crude oil have been spilt since 1958 from over 7,000 oil spill incidents, resulting in a yearly average of about 240,000 barrels (Brisibe, 2013).",
+      "The inconsistency in acquiring the exact quantifiable data of the crude oil spilled is attributed to several factors, like certain spill sites being inaccessible due to swampy conditions, and/or security concerns; remoteness, with spills occurring away from community locations; delayed detection of the incident; the high volatility of the Nigerian crude oil, causing an estimated 50% to evaporate within 24 to 48 hours; under-reporting by the culpable company; and governmental oversight (Steiner, 2010). The impact of such unchecked oil spills spanning decades results in long-term effects, such as chronic health issues and degradation of ecological systems. By quantifying the effect, researchers can better assess the severity of the issue and identify areas for inspection and intervention.",
+      "8.6.4. Stakeholder Analysis:",
+      "The analysis would primarily encourage stakeholders to maintain a collaborative and communicative relationship—for example, while an oil company implements a rapid response to spills, government agencies can manage regulatory oversight and law enforcement, reducing conflict and miscommunication. This approach promotes accountability among oil companies, while also motivating government agencies and local communities to participate in early detection and investigation of spills. Additionally, government systems must address emerging climate concerns by fulfilling their duties and ensuring strict enforcement of laws. It is imperative that oil companies maintain transparency, uphold accountability, and prioritise safety whether or not these laws are actively enforced.",
+      "8.9. Challenges and Limitations",
+      "Despite its potential, several obstacles could limit the effectiveness of ecocide prosecution:",
+      "1. Limited Jurisdiction – Major polluters may choose not to ratify ecocide under the Rome Statute (Voigt, 2022).",
+       "2. Definition Clarity – Overly broad or narrow definitions could result in political misuse or under-enforcement (Higgins et al., 2021).",
+      "3. Enforcement Capacity – Many states lack the judicial and investigative resources needed to prosecute ecocide (UNEP, 2019).",
+       "8.7.1. Norm Creation and Peer Pressure",
+       "Just as genocide laws strengthened standards against mass crimes, criminalising ecocide establishes a worldwide environmental standard. States that pass ecocide laws might face diplomatic and reputational pressure to demonstrate that they are upholding their international environmental obligations (Hamilton, 2025).",
+       "8.8.1 From Profit to Prosecution: Defining Corporate Responsibility",
+       "Examining the implications of criminalising ecocide within the scope of corporate accountability involves human agency, an aspect that Higgins incorporates into the definition. The inclusion of the term 'human agency' signifies the identification of individuals or entities that may be held responsible or accountable for committing ecocide (Polly Higgins, 2013). Jurisprudence emphasises that corporate liability frequently depends on demonstrable knowledge of risks and a failure to act prudently. Even though there are several cases which support corporate liability for environmental damages on a mass scale, such as **Okpabi v. Royal Dutch Shell (2021)**. In this case, the UK Supreme Court resolved an important complication of holding legal responsibility of the parent company in cases of environmental destruction caused by the affiliates. The above issue was regarding the alleged oil spills, and according to the company’s policy, RDS was responsible for several activities, such as health, environmental standards. The court held that the company had the responsibility to take care based on its management of activities (Gosain, 2025). Criminalising ecocide would fundamentally shift the burden of proof onto corporations, compelling them to disprove negligence or to justify their actions under principles such as the “polluter pays” doctrine. Therefore, while strict liability may streamline prosecution efforts, existing legal frameworks already encompass corporate accountability through systems that focus on prosecution. For example, on the national level, India has made a framework, which is the **Environment Protection Act, 1986**, which imposes corporate liability to prevent environmental pollution. Moreover, the **Companies Act, 2013**, has also included the importance of responsibility towards environmental safety through CSR activities. It requires every company to spend 2% of its net profit on CSR activities (Nitesh Bhopte, 2024). In the UK, the **Corporate Manslaughter and Corporate Homicide Act 2007** holds companies liable for wilful neglect that amounts to death (Edwards). It is worth noting that on the international level, for instance, the European Union made corporations liable for any environmental damage through the polluter pays principle and intergenerational equity (Commission, n.d.). Similarly, on the international level, **Article 8(2)(b)(iv) of the Rome Statute** deals with the penalising of intentionally launching an attack which is already in the knowledge that that attack will cause incidental loss of life, civilians, and the environment. If ecocide is criminalised, then the Provisions related to corporate liability in terms of ecocide can be incorporated. Without a shadow of a doubt, corporations face complications in defining parameters because they capitalise on commodity production: the more they produce, the higher their profits (Verzola, 2004-6-2). Significant progress has been made in developing tools for assigning responsibility and reparation in environmental crime cases. As Vanderheiden aptly notes, an effective and efficient international climate change regime must be based on **responsibility and compensation** (Polly Higgins, 2013). However, this principle remains hollow unless corporations are made legally accountable for ecological destruction. Implementation would automatically impose responsibilities on corporations, preventing them from escaping liability by pleading ignorance in court. Criminalising ecocide would also enable the prosecution of individual executives directly, rather than merely piercing the corporate veil, as illustrated by the **Bhopal Gas Tragedy** (Ipe, 2005). Furthermore, it would foster the establishment of normative standards alongside sanctions, since the effectiveness of sanctions alone is not sufficient (Schwegler, 2017). ",
+     "8.8.2. Individual Accountability",
+     "When considering corporate accountability and framing ecocide as a corporate crime, it should be treated as a **collective offence**, since company decisions are directed by CEOs and involve shareholders, board members, directors, and other executives. A major problem is that companies often evade liability by claiming ignorance, leaving the individuals who direct company actions unaccountable, partly to avoid negative publicity that could erode trust among citizens and investors (Jackson; Jackson). Criminalising ecocide would create a pathway for both corporate and individual accountability, navigating challenges such as establishing **mens rea** or, where absent, demonstrating **actus reus** in the harm caused by the company. It is time to translate theoretical frameworks into practice, moving from traditional interpretations to advanced applications. International criminalisation of ecocide could serve as an effective tool, potentially dismantling corporate impunity and negligence.",
+     "8.9. Judicial Activism: Potential and Critique",
+     "Legal recognition of ecocide could empower courts where traditional law remains silent; however, judicial activism faces critiques—overreach, confusion, and threats to democratic balance—and differing judicial views often result in inconsistent regulation and unclear policy outcomes (Singh, 2024). Clarity is therefore essential, especially in defining ecocide, as vague terms like “with knowledge” create legal gaps allowing entities to cause long-term harm while claiming ignorance (Palarczyk, 2023). The **MC Mehta v. Union of India** case shows that activism can play a crucial role when companies use excuses like job creation or lack of intent to evade responsibility. Yet courts alone cannot address all issues; dedicated judicial mechanisms, specialised institutions, and precise laws are needed. Criminalisation could serve as the crucial link between activism and the establishment of these new institutions—**YES!**",
+     "8.9.1. From Activism to Institutional Mechanisms",
+     "Tsilonis argues that the ICC’s limited jurisdiction cannot fully protect nature, suggesting that a separate international judicial body with autonomy and ecological expertise may be necessary (Tsilonis, 2024). The groundwork is already in place (Gairdner, 2025):",
+"Council of Europe’s Convention** – Signed by 46 countries, it urges governments to criminalise serious environmental harm and develop national laws accordingly.",
+"EU Environmental Crime Directive** – A binding law across EU states imposing penalties like up to 10 years’ imprisonment and multi-million-euro fines for ecocide-type harm; these countries did not wait for ecocide to be added as the fifth international crime under the Rome Statute.India’s ",
+"National Green Tribunal (NGT)** represents a step toward environmental accountability but suffers from limited jurisdiction, backlog delays, and weak implementation (Bajpai & Shagun, 2025). If ecocide is criminalised, India must either expand the NGT’s mandate to include criminal powers or establish specialised environmental courts within the criminal justice system. Without structural reform, judicial power remains symbolic, and without precise laws, even new judicial bodies will lack enforcement strength. As stated in the report *“Be Reflective, Be Normative”* (Minkova, 2024), legal rules should not be followed blindly—what was valid yesterday may not be valid today.",
+     
+      ]
+      },
+      
+      {
+        heading:"8.10.1. The Criminalisation of Ecocide Supports the Achievement of SDGs Goals 13, 14, and 15",
+        paragraphs:["The frequent large-scale destruction of the environment has raised numerous ecological and socio-economic concerns, bringing the term **ecocide** into focus to describe deliberate environmental damage by organisations and individuals, highlighting the severity and long-term impacts on ecosystems. Ecocide laws aim to incentivise a global response to address climate change, biodiversity loss—both terrestrial and marine—and ensure the proper functioning of ecosystem mechanisms, thereby contributing to the achievement of the **United Nations’ Global Goals**.",
+
+
+
         ]
       },
       {
-        heading: "CASE STUDY: THE NIGER DELTA OIL SPILLS",
-        paragraphs: [
-          "The Niger Delta, rich in palm oil and natural gas, has suffered decades of environmental degradation from exploitative oil extraction. Mangroves and wetlands crucial for biodiversity have been devastated by repeated oil spills and negligent acts, exacerbated by poverty and corrupt governance.",
-          "An estimated 13 million barrels of crude oil have been spilt since 1958 from over 7,000 incidents. Inconsistent data is due to inaccessible swampy sites, security concerns, remoteness, delayed detection, oil volatility, under-reporting by companies, and governmental oversight.",
-          "The impact includes chronic health issues and ecological degradation. A stakeholder analysis promotes accountability: oil companies must provide transparency and prioritize safety; government agencies must enforce laws and prevent oversight; local communities must participate in early detection. Collaboration is key to minimizing conflict and miscommunication."
+        heading:"8.10.3. Ecocide: The 5th International Crime",
+        paragraphs:[
+          "The need to recognise ecocide as an international crime under the **Rome Statute** (International Criminal Court, 1998) arises from the escalating severity of environmental destruction and its serious implications for global peace, security, and human rights.",
+          "Criminalising ecocide would bridge gaps in international law and reduce the gulf between **commitment and accountability**. Through this enforceable substantive approach, the international community’s dedication to environmental protection would become more tangible, moving beyond surface-level procedures like reporting and transparency. It would also strengthen enforcement mechanisms, surpassing the limits of voluntary compliance, and act as a deterrent to prevent environmental destruction rather than expending time, money, and energy on post-damage reparations (M., December 2, 2024)."
         ]
       },
       {
-        heading: "CHALLENGES AND LIMITATIONS",
-        paragraphs: [
-          "Limited Jurisdiction: Major polluter states may not ratify an ecocide amendment to the Rome Statute.",
-          "Definition Clarity: Overly broad or narrow definitions may lead to political misuse or under-enforcement.",
-          "Enforcement Capacity: Many states lack the judicial and investigative capacity to prosecute complex ecocide cases effectively."
+        heading:"8.10.4. Strengthening Sustainable Development Goals",
+        paragraphs:[
+         "8.10.5. “Climate Action” Sustainable Development Goal – SDG 13:",
+         "Ecocide laws will compel corporations and individuals to adopt new and healthier practices in their operations by holding polluters accountable, reducing their harmful impact on climate change, and encouraging cleaner methods. Recognising ecocide as a crime enables governments to take meaningful steps toward environmental protection and sustainability. Penalising environmentally destructive activities provides incentives for both developed and developing nations, as well as their corporations and citizens, to invest greater resources and ethical commitment in sustainable practices.",
+
         ]
       },
       {
-        heading: "POLICY AND PRACTICE RECOMMENDATIONS",
-        paragraphs: [
-          "Amend the Rome Statute: Recognize ecocide as the 5th international crime, requiring a two-thirds majority vote by state parties. The aim is to criminalise ecocide in times of war and peace, closing the current legal gap.",
-          "Universal Jurisdiction: Support universal jurisdiction to hold perpetrators liable internationally, giving victims a chance to receive compensation for loss of natural resources and livelihood.",
-          "National Legislation and Institutional Strengthening: Nations should enact domestic ecocide laws and strengthen judicial mechanisms. India, for example, could expand the mandate of its National Green Tribunal (NGT) to include criminal powers or establish specialised environmental courts to overcome its current limitations of backlog and weak implementation.",
-          "Global Cooperation: Secure political commitment from all heads of state and government to support integrating ecocide into international criminal law. Call on civil society, youth, and individuals to advocate for its criminalisation."
+        heading:" 8.10.6. “Life Below Water” - SDG 14: A Look into Marine Ecosystems ",
+        paragraphs:[
+          "As one of the main Sustainable Development Goals, **Life Below Water** requires stringent laws for protection and conservation in response to increasing human actions that harm marine life. The United Nations has prioritised water bodies as a Global Goal because overfishing, oil spills, ocean acidification, and plastic pollution have surged alongside technological advancement. Water covers 70% of the Earth, making terrestrial habitats dependent on it and the food it provides for survival. Penalising these harmful activities is essential, ensuring that individuals and companies are held accountable for long-term ecosystem damage and promoting laws that support sustainability and eco-friendly aquaculture.",
+
         ]
-      }
+      },
+      {
+        heading:"8.10.7. “Life on Land” - SDG 15: Terrestrial Exploration",
+        paragraphs:[
+          "This Global Goal focuses on terrestrial ecosystems, where harmful acts such as land degradation, invasion by alien species, and habitat destruction have long-lasting consequences. Rapid climate change and land desertification are among the irreversible impacts affecting both humanity and the environment. Recognising ecocide as an international crime would serve as a beacon for protecting the planet’s ecosystems, preserving their integrity, and advancing the **Sustainable Development Goals**."
+
+        ]
+      },
+
+
+      {
+        heading: "9. POLICY AND PRACTICE RECOMMENDATIONS",
+        paragraphs: [
+          "This paper focuses on the impact of the criminalisation of ecocide as the 5th International Crime on environmental justice and accountability in several aspects. ",
+          "• Referring to the Neubauer, et al. v. Germany case (CASE CONCERNING THE GABCÍKOVONAGYMAROS PROJECT, 1997), where the Court held that Article 20a of the Basic Law of the Federal Republic of Germany concerns protecting the climate through legislative measures. We have observed that in recent years, the campaign to criminalise ecocide has gained momentum worldwide. Additionally, India receives particular focus on examining how ecocide could bolster environmental rights under Articles 21, 48A, and 51A(g) of the Constitution of India and judicial enforcement.",
+           "The main purpose of the criminalisation of Ecocide is to prosecute entities for harm such as Ocean damage, Land and Oil contamination and Air pollution. Prosecutions at the international level will give a chance for victims of Ecocide to get compensation for the loss of natural resources and their livelihood. We need to focus on Universal Jurisdiction to hold perpetrators liable.",
+           "It is high time we needed an amendment to the Rome Statute of the ICC, for which a two-thirds majority vote is required by state parties to pass a legislative law. The aim is to recognise Ecocide as a crime in times of war as well as peace.",
+           "All heads of state and government need to support the integration of ecocide into international criminal law. Moreover, we need to call on civil society, youth, and individuals to join in advocating for the criminalisation of ecocide.",
+        ]
+      },
+      
     ],
     conclusion: [
-      "The criminalisation of ecocide would bring about a significant global change in how the world addresses environmental damage, imposing real and legal consequences from which no one can escape.",
-      "It is not solely about punishment; it is about justice for indigenous groups, fishing villages, and farming families who bear the brunt of environmental destruction. It is high time to recognise that preventing crimes against the environment is about protecting both the future and the present.",
-      "Criminalising ecocide could play a vital role in protecting the environment, strengthening legal enforcement, and upholding sustainable development goals. The path forward will face resistance from vested interests, but as species vanish and wildfires intensify, it is not a radical step but a crucial one.",
-      "As demonstrated, criminalisation can have a profound positive impact on environmental justice, holding states and corporations accountable, and enabling the judiciary to contribute effectively to ecological preservation."
+     "The criminalisation of ecocide would bring about a significant global change in how the world addresses environmental damage. Criminalisation involves the imposition of real and legal consequences, from which no one can escape. Ecocide has the potential to reverse this trend. It is not solely about punishment; it also concerns justice for indigenous groups, fishing villages, and farming families. It is high time to recognise that Earth is not about conducting bad business; it is about preventing crimes against both the future and the present. Criminalising ecocide could play a vital role in protecting the environment, strengthening legal enforcement, and upholding sustainable development goals. The path forward will not be easy; resistance from vested interests is inevitable. However, as species vanish and wildfires intensify, criminalising ecocide is not radical but a crucial step. As the paper demonstrated, criminalisation can have a positive impact on several aspects, including environmental justice, holding states accountable, regulating corporations, and enabling the judiciary to contribute effectivel"
     ],
     references: [
     {
       heading: "Bhopte, N., Bansod, P., & Institute of Law and Legal Studies, SAGE University, Indore. (2024). Corporate Liability for Environmental Damages: A Critical Review of Legal Principles. International Journal of Creative Research Thoughts (IJCRT), 12(12), d397–d399.",
-    link: "https://www.ijcrt.org/papers/IJCRT2304126.pdf"
+    links: "https://www.ijcrt.org/papers/IJCRT2304126.pdf"
   },
   {
     heading: "Carrington, D. (2025, May 29). Company directors who cause nature damage in Scotland could face jail. The Guardian.",
-    link: "https://www.theguardian.com/environment/2025/may/29/company-directors-nature-damage-scotland"
+    links: "https://www.theguardian.com/environment/2025/may/29/company-directors-nature-damage-scotland"
   },
   {
     heading: "Ecocide and Corporate Accountability. (n.d.). NUI Galway Law Review.",
-    link: "https://www.nuigalway.ie/lawreview/ecocide-and-corporate-accountability.html"
+    links: "https://www.nuigalway.ie/lawreview/ecocide-and-corporate-accountability.html"
   },
   {
     heading: "European Commission.",
-    link: "https://ec.europa.eu/info/index_en"
+    links: "https://ec.europa.eu/info/index_en"
   },
   {
     heading: "European Commission. (2023). Directive on the protection of the environment through criminal law. Official Journal of the European Union.",
-    link: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2023:123:TOC"
+    links: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2023:123:TOC"
   },
   {
     heading: "Gairdner, R. (2025, May 28). ‘Tantamount to EcoCide’: Council of Europe criminalises severe environmental harm — Stop Ecocide International.",
-    link: "https://www.stopecocide.earth/news/council-of-europe-ecocide"
+    links: "https://www.stopecocide.earth/news/council-of-europe-ecocide"
   },
   {
     heading: "GS Bajpai, & Shrawani Shagun. (2025, July 8). When nature dies, so do humans: Why India must criminalise ecocide. Bar And Bench - Indian Legal News.",
-    link: "https://www.barandbench.com/news/litigation/why-india-must-criminalise-ecocide"
+    links: "https://www.barandbench.com/news/litigation/why-india-must-criminalise-ecocide"
   },
   {
     heading: "Hamilton, H. (2025). Ecocide and the expressive power of international criminal law. Harvard Human Rights Journal, 38(1), 69–112.",
-    link: "https://harvardhrj.com/2025/05/ecocide-and-expressive-power-of-international-criminal-law"
+    links: "https://harvardhrj.com/2025/05/ecocide-and-expressive-power-of-international-criminal-law"
   },
   {
     heading: "Higgins, P., Short, D., & South, N. (2013). Protecting the Planet: A Proposal for a Law of Ecocide. Crime, Law, and Social Change.",
-    link: "https://link.springer.com/article/10.1007/s10611-013-9415-6"
+    links: "https://link.springer.com/article/10.1007/s10611-013-9415-6"
   },
   {
     heading: "Higgins, P., Short, D., & South, N. (2021). The ecocide draft definition. Stop Ecocide Foundation.",
-    link: "https://www.stopecocide.earth/stop-ecocide-draft-definition"
+    links: "https://www.stopecocide.earth/stop-ecocide-draft-definition"
   },
   {
     heading: "International Criminal Court. (1998). Rome Statute of the International Criminal Court.",
-    link: "https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf"
+    links: "https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf"
   },
   {
     heading: "Ipe, M. (2005). Bhopal Gas Tragedy: Lessons for Corporate Social Responsibility. Social Responsibility Journal, 1(3/4), 122–141.",
-    link: "https://www.emerald.com/insight/content/doi/10.1108/17471110510624600"
+    links: "https://www.emerald.com/insight/content/doi/10.1108/17471110510624600"
   },
   {
     heading: "Kysar, D. A. (2020). Regulating From Nowhere: Environmental Law and the Search for Objectivity. Yale University Press.",
-    link: "https://yalebooks.yale.edu/book/9780300250867/regulating-nowhere"
+    links: "https://yalebooks.yale.edu/book/9780300250867/regulating-nowhere"
   },
   {
     heading: "Liao, C., & Pranav, A. (2024). Ecocide and Accountability: Legal Innovation or Moral Necessity? Global Environmental Politics.",
-    link: "https://www.mitpressjournals.org/doi/10.1162/glep_a_01379"
+    links: "https://www.mitpressjournals.org/doi/10.1162/glep_a_01379"
   },
   {
     heading: "McElwee, P. (2020). The Origins of Ecocide: Revisiting the Ho Chi Minh Trail in the Vietnam War. Environment & Society Portal, Arcadia. Rachel Carson Centre for Environment and Society.",
-    link: "https://www.environmentandsociety.org/exhibitions/ho-chi-minh-trail-ecocide"
+    links: "https://www.environmentandsociety.org/exhibitions/ho-chi-minh-trail-ecocide"
   },
   {
     heading: "Michael Edwards. (2024, October 19). Corporate liability for environmental damage: legal perspectives and preventive strategies.",
-    link: "https://www.researchgate.net/publication/369857450_Corporate_Liability_for_Environmental_Damage"
+    links: "https://www.researchgate.net/publication/369857450_Corporate_Liability_for_Environmental_Damage"
   },
   {
     heading: "Minkova, L. G. (2021). The Fifth International Crime: Reflections on the Definition of 'Ecocide.' Journal of Genocide Research, 25(1), 62–83.",
-    link: "https://www.tandfonline.com/doi/full/10.1080/14623528.2021.1879100"
+    links: "https://www.tandfonline.com/doi/full/10.1080/14623528.2021.1879100"
   },
   {
     heading: "Minkova, L. G. (2024). Ecocide, sustainable development and critical environmental law insights. Journal of International Criminal Justice, 22(1), 81–97.",
-    link: "https://academic.oup.com/jicj/article/22/1/81/6978890"
+    links: "https://academic.oup.com/jicj/article/22/1/81/6978890"
   },
   {
     heading: "Nollkaemper, A. (2011). International environmental agreements and the rule of law. Netherlands Yearbook of International Law, 42(1), 139–164.",
-    link: "https://brill.com/view/journals/nyil/42/1/article-p139_6.xml"
+    links: "https://brill.com/view/journals/nyil/42/1/article-p139_6.xml"
   },
   {
     heading: "Ordinioha, B., & Brisibe, S. (2013). The Human Health Implications of Crude Oil Spills in the Niger delta, Nigeria: an Interpretation of Published Studies. Nigerian Medical Journal, 54(1), 10.",
-    link: "https://www.nmjol.info/index.php/nmj/article/view/11072"
+    links: "https://www.nmjol.info/index.php/nmj/article/view/11072"
   },
   {
     heading: "Palarczyk, D. (2023). Ecocide Before the International Criminal Court: Simplicity is Better Than an Elaborate Embellishment. Criminal Law Forum, 34(2), 147–207.",
-    link: "https://link.springer.com/article/10.1007/s10609-023-09445-3"
+    links: "https://link.springer.com/article/10.1007/s10609-023-09445-3"
   },
   {
     heading: "Polly Higgins. (2013). Damien Short Nigel South Crime, Law and Social Change.",
-    link: "https://link.springer.com/book/10.1007/978-94-007-4574-0"
+    links: "https://link.springer.com/book/10.1007/978-94-007-4574-0"
   },
   {
     heading: "Rahimli, N. M. a. J. (2024, December 2). The inclusion of Ecocide: Legal challenges and prospects for the Rome Statute. Cambridge International Law Journal.",
-    link: "https://www.cambridge.org/core/journals/cambridge-international-law-journal/article/inclusion-of-ecocide"
+    links: "https://www.cambridge.org/core/journals/cambridge-international-law-journal/article/inclusion-of-ecocide"
   },
   {
     heading: "Sands, P. (2018). Principles of international environmental law (4th ed.). Cambridge University Press.",
-    link: "https://www.cambridge.org/core/books/principles-of-international-environmental-law/3A07E2C1CE7E39BAF1849D38BDE03B0C"
+    links: "https://www.cambridge.org/core/books/principles-of-international-environmental-law/3A07E2C1CE7E39BAF1849D38BDE03B0C"
   },
   {
     heading: "Schwegler, V. (2017). The Disposable Nature: The Case of Ecocide and Corporate Accountability. Amsterdam Law Forum, 9(3), 71.",
-    link: "https://www.alf.nl/artikelen/2017/3/71"
+    links: "https://www.alf.nl/artikelen/2017/3/71"
   },
   {
     heading: "Singh, U. (2024). Judicial Activism and Sustainable Development: The path to environmental justice. JETIR, 11, 9.",
-    link: "https://www.jetir.org/papers/JETIR240123.pdf"
+    links: "https://www.jetir.org/papers/JETIR240123.pdf"
   },
   {
     heading: "Steiner, R. (2010). Double Standard Shell Practices in Nigeria Compared with International Standards to Prevent and Control Pipeline Oil Spills and the Deepwater Horizon Oil Spill. Milieudefensie, Amsterdam, 11–15.",
-    link: "https://milieudefensie.nl/publicaties/double-standard-shell-practices"
+    links: "https://milieudefensie.nl/publicaties/double-standard-shell-practices"
   },
   {
     heading: "Stop Ecocide International. (n.d.). Legal definition of ecocide drafted by an independent expert panel.",
-    link: "https://www.stopecocide.earth/definition"
+    links: "https://www.stopecocide.earth/definition"
   },
   {
     heading: "Tridha Gosain, & Tridha Gosain. (2025, May 19). Re-Evaluating the Corporate Veil in Environmental Catastrophes - LHSS Collective. LHSS Collective.",
-    link: "https://lhsscollective.org/2025/05/19/re-evaluating-corporate-veil-environmental-catastrophes"
+    links: "https://lhsscollective.org/2025/05/19/re-evaluating-corporate-veil-environmental-catastrophes"
   },
   {
     heading: "Tsilonis, V. (2024). Ecocide: The Emergence of a New Crime Within the Jurisdiction of the International Criminal Court? In Springer eBooks (pp. 265–297).",
-    link: "https://link.springer.com/chapter/10.1007/978-3-031-34567-8_13"
+    links: "https://link.springer.com/chapter/10.1007/978-3-031-34567-8_13"
   },
   {
     heading: "UNEP & Principles for Responsible Investment. (2022). ESG, Due Diligence, and Environmental Harm.",
-    link: "https://www.unepfi.org/publications/esg-due-diligence-and-environmental-harm/"
+    links: "https://www.unepfi.org/publications/esg-due-diligence-and-environmental-harm/"
   },
   {
     heading: "United Nations Environment Programme. (2019). Environmental crime and compliance: Emerging trends. UNEP.",
-    link: "https://www.unep.org/resources/report/environmental-crime-and-compliance-emerging-trends"
+    links: "https://www.unep.org/resources/report/environmental-crime-and-compliance-emerging-trends"
   },
   {
     heading: "Verzola, R. (2004). Industry, Efficiency and Corporations. Human Ecology Review.",
-    link: "https://hdl.handle.net/11299/201895"
+    links: "https://hdl.handle.net/11299/201895"
   },
   { 
     heading: "Voigt, C. (2022). The difficult path to ecocide as an international crime. Journal of International Criminal Justice, 20(3), 557–579.",
-    link: "https://academic.oup.com/jicj/article/20/3/557/6608770"
+    links: "https://academic.oup.com/jicj/article/20/3/557/6608770"
   },
   ]
   },
@@ -11709,7 +11843,7 @@ links:"https://niti.gov.in"
       "algorithm bias",
       "gender-sensitive"
     ],
-    status: "",
+    status: "Published",
     intro: [
       "The gig economy in India is transforming how people work. An increasing number of Indians are now making money through short-term, task-based work organized through digital platforms rather than the conventional 9–5 job. In India's cities and towns, gig work has become a normal aspect of daily life, whether it be food delivery, ridesharing, appliance repair, freelance design, or online writing.",
       "There are currently about 12 million gig workers in India, according to recent data. According to NITI Aayog, that figure is anticipated to almost double to 23.5 million by 2030. Platforms like Swiggy, Zomato, Uber, Ola, and Urban Company have become household names. Meanwhile, freelance marketplaces like Upwork and Fiverr have given skilled Indian workers access to international markets.",
@@ -11972,7 +12106,7 @@ links:"https://niti.gov.in"
     "Port Development",
     "Sustainable Development Goals (SDGs)"
   ],
-  status: "Submitted",
+  status: "Published",
   intro: [
     "The Western Indian Ocean (WIO) has become an important strategic marine arena in the 21st century. The area is very important for the safety, economy, and environment of the larger Indo-Pacific because it is close to important sea lanes of communication (SLOCs) that help transfer a lot of the world’s products and energy. India needs to protect its national interests not just at the WIO, which is a marine border. It’s also a way to show strength through strategic partnerships, port diplomacyand efforts to promote long-term growth. ",
     "India’s part in the WIO has changed in the last few years. It used to be largely about safety, but today it works together in many ways. There are also investments in ports like Chabahar and Sittwe, as well as donations to entities like the Indian Ocean Rim Association (IORA) and the Indian Ocean Commission (IOC). In addition to this, there are also anti-piracy operations, humanitarian aid and disaster relief (HADR) missions, and efforts to make the navy stronger. India’s focus on protecting marine biodiversity, making the climate more resilient, and blue economy projects is another indicator that it is in line with the UN Sustainable Development Goals (SDGs).",
@@ -12380,7 +12514,7 @@ links:"https://niti.gov.in"
    "Digital India",
    "policy analysis"
   ],
-  status: "Submitted",
+  status: "Published",
   intro: [
    "Educational inequality remains a persistent challenge in India, deeply rooted in historical, socioeconomic, and geographic disparities. Despite significant progress in enrollment rates and infrastructure development over the past decades, access to quality education continues to be uneven, particularly across rural-urban divides, income groups, and gender. In response to these disparities, to address these gaps, digital technology is now being seen as an important way to make education more equal and accessible for everyone.",
    "In alignment with the global commitment to Sustainable Development Goal 10 (SDG 10) which seeks to reduce inequality, India has taken several policy initiatives aimed at leveraging digital infrastructure to enhance educational access and equity. Key among these are the Digital India Campaign, PM e-Vidya, the National Education Policy (NEP) 2020, and the DIKSHA platform. These initiatives together show a change in policy, focusing on using technology-based solutions that can reach many people, with the goal of reducing gaps in access to and involvement in education.",
