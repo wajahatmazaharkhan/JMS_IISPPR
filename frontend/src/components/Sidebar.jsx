@@ -53,7 +53,7 @@ const Sidebar = ({ role }) => {
 
       {/* Sidebar */}
       <aside
-        className={`bg-white shadow h-full flex flex-col md:static absolute top-0 left-0 z-50 w-64 transform ${
+        className={`bg-white shadow h-full flex flex-col md:static fixed top-0 left-0 z-50 w-64 transform ${
           isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
         } md:translate-x-0 transition-transform duration-300 ease-in-out`}
       >

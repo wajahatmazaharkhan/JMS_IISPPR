@@ -42,10 +42,10 @@ const AdminDashboard = () => (
           <tbody>
             {articles.map((a) => (
               <tr key={a.id} className="border-t">
-                <td className="px-4 py-2">{a.id}</td>
-                <td className="px-4 py-2">{a.title}</td>
-                <td className="px-4 py-2">{a.author}</td>
-                <td className="px-4 py-2">{a.status}</td>
+                <td className="px-4 py-2 text-center">{a.id}</td>
+                <td className="px-4 py-2 text-center">{a.title}</td>
+                <td className="px-4 py-2 text-center">{a.author}</td>
+                <td className="px-4 py-2 text-center">{a.status}</td>
               </tr>
             ))}
           </tbody>
@@ -60,19 +60,19 @@ const AdminDashboard = () => (
         <table className="min-w-full bg-white border rounded shadow text-sm">
           <thead className="bg-gray-100">
             <tr>
-              <th className="px-4 py-2">ID</th>
-              <th className="px-4 py-2">Volume</th>
-              <th className="px-4 py-2">Date</th>
-              <th className="px-4 py-2"># Articles</th>
+              <th className="px-4 py-2 text-center">ID</th>
+              <th className="px-4 py-2 text-center">Volume</th>
+              <th className="px-4 py-2 text-center">Date</th>
+              <th className="px-4 py-2 text-center"># Articles</th>
             </tr>
           </thead>
           <tbody>
             {editions.map((e) => (
               <tr key={e.id} className="border-t">
-                <td className="px-4 py-2">{e.id}</td>
-                <td className="px-4 py-2">{e.volume}</td>
-                <td className="px-4 py-2">{e.date}</td>
-                <td className="px-4 py-2">{e.articles}</td>
+                <td className="px-4 py-2 text-center">{e.id}</td>
+                <td className="px-4 py-2 text-center">{e.volume}</td>
+                <td className="px-4 py-2 text-center">{e.date}</td>
+                <td className="px-4 py-2 text-center">{e.articles}</td>
               </tr>
             ))}
           </tbody>
@@ -103,19 +103,19 @@ const AdminDashboard = () => (
         <table className="min-w-full bg-white border rounded shadow text-sm">
           <thead className="bg-gray-100">
             <tr>
-              <th className="px-4 py-2">ID</th>
-              <th className="px-4 py-2">Name</th>
-              <th className="px-4 py-2">Email</th>
-              <th className="px-4 py-2">Role</th>
+              <th className="px-4 py-2 text-center">ID</th>
+              <th className="px-4 py-2 text-center">Name</th>
+              <th className="px-4 py-2 text-center">Email</th>
+              <th className="px-4 py-2 text-center">Role</th>
             </tr>
           </thead>
           <tbody>
             {users.map((u) => (
               <tr key={u.id} className="border-t">
-                <td className="px-4 py-2">{u.id}</td>
-                <td className="px-4 py-2">{u.name}</td>
-                <td className="px-4 py-2">{u.email}</td>
-                <td className="px-4 py-2">{u.role}</td>
+                <td className="px-4 py-2 text-center">{u.id}</td>
+                <td className="px-4 py-2 text-center">{u.name}</td>
+                <td className="px-4 py-2 text-center">{u.email}</td>
+                <td className="px-4 py-2 text-center">{u.role}</td>
               </tr>
             ))}
           </tbody>
