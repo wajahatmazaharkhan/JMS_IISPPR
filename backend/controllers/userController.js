@@ -1,6 +1,8 @@
 import User from '../models/User.js';
 import bcrypt from 'bcrypt';
 import crypto from 'crypto';
+import asyncHandler from '../exceptions/asyncHandler.js';
+import { BadRequestError } from '../exceptions/apiError.js'
 
 export const createUserByAdmin = async (req, res) => {
   try {
@@ -63,3 +65,22 @@ export const createUserByAdmin = async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 };
+
+
+
+export const updateUserRole = asyncHandler(async (req, res) => {
+  // 🔐 Only admin allowed
+  if (req.user.role !== "admin") {
+    throw new BadRequestError("Only admin can change roles");
+  }
+
+  const { role } = req.body;
+
+  const user = await User.findByIdAndUpdate(
+    req.params.id,
+    { role },
+    { new: true }
+  );
+
+  return res.json({ success: true, user });
+});
