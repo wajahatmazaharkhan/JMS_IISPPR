@@ -7,6 +7,9 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
 
   preview: {
-    allowedHosts: ["jmsiisppr-production.up.railway.app"]
-  }
+  allowedHosts: [
+    "jmsiisppr-production.up.railway.app",
+    "www.lawdiplomacyreview.com"
+  ]
+}
 })
