@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
 
   preview: {
-    allowedHosts: ["jmsiispr-production.up.railway.app"]
+    allowedHosts: ["jmsiisppr-production.up.railway.app"]
   }
 })
