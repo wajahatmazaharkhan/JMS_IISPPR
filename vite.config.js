@@ -9,7 +9,8 @@ export default defineConfig({
   preview: {
   allowedHosts: [
     "jmsiisppr-production.up.railway.app",
-    "www.lawdiplomacyreview.com"
+    "www.lawdiplomacyreview.com",
+     "lawdiplomacyreview.com"
   ]
 }
 })
